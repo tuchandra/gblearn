@@ -4,15 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "bunx --bun astro dev",
+    "start": "astro start",
+    "build": "tsc && astro build",
+    "preview": "astro preview"
   },
   "devDependencies": {
+    "@astrojs/tailwind": "^5.1.0",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "astro": "^4.1.2"
   }
 }
