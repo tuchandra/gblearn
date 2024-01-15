@@ -1,7 +1,7 @@
 {
   "name": "pvp-helper",
-  "private": true,
-  "version": "0.0.0",
+  "author": "tushar chandra",
+  "version": "v0.0.1",
   "type": "module",
   "scripts": {
     "dev": "bunx --bun astro dev",
