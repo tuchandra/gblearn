@@ -3,25 +3,55 @@ console.log("This runs in your terminal, not the browser!");
 import Pokemon from "../components/pokemon.astro";
 ---
 
-<html>
+<html data-theme="sunset">
   <body class="flex flex-col items-center">
     <!-- Navbar -->
     <div class="w-full flex-grow">
-      <div class="navbar bg-green-400">
+      <div class="navbar">
         <a
           href="/"
-          class="px-2 text-xl text-gray-800 font-bold flex gap-4 items-center"
+          class="px-2 text-xl text-neutral-content italic flex gap-4 items-center"
         >
           <img
             src="pokeicons/1011.png"
             alt="Dipplin"
-            class="rounded-full bg-base-200 w-12 h-12"
+            class="rounded-full bg-primary w-12 h-12"
           />
           <span>GO Battle Learn</span>
         </a>
       </div>
     </div>
+    <!-- My team -->
+    <div class="divider divider-primary italic mt-0">My team</div>
+    <div class="container">
+      <div class="flex flex-col px-1">
+        <Pokemon
+          name="Venusaur"
+          dexnum="3"
+          fastMove="Vine Whip"
+          fastMoveType="grass"
+          fastMoveEnergy={8}
+          fastMoveTurns={2}
+        /><Pokemon
+          name="Abomasnow"
+          dexnum="460"
+          fastMove="Powder Snow"
+          fastMoveType="ice"
+          fastMoveEnergy={8}
+          fastMoveTurns={2}
+        /><Pokemon
+          name="Lanturn"
+          dexnum="171"
+          fastMove="Spark"
+          fastMoveType="electric"
+          fastMoveEnergy={7}
+          fastMoveTurns={2}
+        />
+      </div>
+    </div>
+
     <!-- Content -->
+    <div class="divider divider-primary italic">Matchups</div>
     <Pokemon
       name="Abomasnow"
       dexnum="460"

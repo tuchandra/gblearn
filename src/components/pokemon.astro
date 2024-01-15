@@ -16,17 +16,18 @@ const pokemonIcon = `pokeicons/${dexnum}.png`;
 const typeIcon = `types/${fastMoveType}.png`;
 ---
 
-<div class="container flex flex-row items-center my-2 gap-x-2 bg-slate-700">
+<div
+  class="container flex flex-row items-center mb-1 gap-x-2 bg-neutral rounded-md"
+>
   <img src={pokemonIcon} alt={name} class="rounded-full w-12 h-12" />
   <!-- One block of text; first line = move name, second line = X energy / Y turns -->
   <div class="">
     <p class="flex flex-row items-center">
       <img src={typeIcon} class="rounded-full w-4 h-4" />
-      <span class="ml-2">{fastMove}</span>
+      <span class="ml-2 text-sm">{fastMove}</span>
     </p>
-    <p class="text-sm">({fastMoveEnergy} energy / {fastMoveTurns} turn)</p>
+    <p class="text-xs">(+{fastMoveEnergy} energy / {fastMoveTurns} turn)</p>
   </div>
 
-  <p>{name} is a Pokemon</p>
   <p>5 5 4 4</p>
 </div>
