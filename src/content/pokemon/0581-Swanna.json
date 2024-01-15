@@ -1,0 +1,24 @@
+{
+  "dex": 581,
+  "speciesName": "Swanna",
+  "speciesId": "swanna",
+  "baseStats": {
+    "atk": 182,
+    "def": 132,
+    "hp": 181
+  },
+  "types": [
+    "water",
+    "flying"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "ICE_BEAM",
+    "BUBBLE_BEAM",
+    "HURRICANE"
+  ],
+  "released": true
+}

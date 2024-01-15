@@ -1,0 +1,26 @@
+{
+  "dex": 157,
+  "speciesName": "Typhlosion",
+  "speciesId": "typhlosion",
+  "baseStats": {
+    "atk": 223,
+    "def": 173,
+    "hp": 186
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "SHADOW_CLAW",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "BLAST_BURN",
+    "FIRE_BLAST",
+    "OVERHEAT",
+    "SOLAR_BEAM"
+  ],
+  "released": true
+}

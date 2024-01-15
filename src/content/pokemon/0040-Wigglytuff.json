@@ -1,0 +1,28 @@
+{
+  "dex": 40,
+  "speciesName": "Wigglytuff",
+  "speciesId": "wigglytuff",
+  "baseStats": {
+    "atk": 156,
+    "def": 90,
+    "hp": 295
+  },
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "POUND",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM",
+    "ICE_BEAM",
+    "PLAY_ROUGH",
+    "DISARMING_VOICE",
+    "ICY_WIND"
+  ],
+  "released": true
+}

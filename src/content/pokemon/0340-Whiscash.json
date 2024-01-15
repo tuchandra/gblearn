@@ -1,0 +1,25 @@
+{
+  "dex": 340,
+  "speciesName": "Whiscash",
+  "speciesId": "whiscash",
+  "baseStats": {
+    "atk": 151,
+    "def": 141,
+    "hp": 242
+  },
+  "types": [
+    "water",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "MUD_BOMB",
+    "WATER_PULSE",
+    "SCALD"
+  ],
+  "released": true
+}

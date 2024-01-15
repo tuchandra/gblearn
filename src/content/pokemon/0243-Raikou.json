@@ -1,0 +1,25 @@
+{
+  "dex": 243,
+  "speciesName": "Raikou",
+  "speciesId": "raikou",
+  "baseStats": {
+    "atk": 241,
+    "def": 195,
+    "hp": 207
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "THUNDER",
+    "THUNDERBOLT",
+    "WILD_CHARGE"
+  ],
+  "released": true
+}

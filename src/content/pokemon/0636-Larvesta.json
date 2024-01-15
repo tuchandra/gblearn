@@ -1,0 +1,24 @@
+{
+  "dex": 636,
+  "speciesName": "Larvesta",
+  "speciesId": "larvesta",
+  "baseStats": {
+    "atk": 156,
+    "def": 107,
+    "hp": 146
+  },
+  "types": [
+    "bug",
+    "fire"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "BUG_BITE"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "BUG_BUZZ",
+    "FLAME_WHEEL"
+  ],
+  "released": true
+}

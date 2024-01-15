@@ -1,0 +1,8 @@
+{
+  "moveId": "SPACIAL_REND",
+  "name": "Spacial Rend",
+  "type": "dragon",
+  "power": 95,
+  "energyGain": 0,
+  "cooldown": 500
+}

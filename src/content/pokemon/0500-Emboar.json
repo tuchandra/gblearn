@@ -1,0 +1,26 @@
+{
+  "dex": 500,
+  "speciesName": "Emboar",
+  "speciesId": "emboar",
+  "baseStats": {
+    "atk": 235,
+    "def": 127,
+    "hp": 242
+  },
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "HEAT_WAVE",
+    "ROCK_SLIDE",
+    "FOCUS_BLAST",
+    "FLAME_CHARGE",
+    "BLAST_BURN"
+  ],
+  "released": true
+}

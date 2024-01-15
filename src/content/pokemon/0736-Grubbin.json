@@ -1,0 +1,24 @@
+{
+  "dex": 736,
+  "speciesName": "Grubbin",
+  "speciesId": "grubbin",
+  "baseStats": {
+    "atk": 115,
+    "def": 85,
+    "hp": 132
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "X_SCISSOR",
+    "VICE_GRIP",
+    "CRUNCH"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 165,
+  "speciesName": "Ledyba",
+  "speciesId": "ledyba",
+  "baseStats": {
+    "atk": 72,
+    "def": 118,
+    "hp": 120
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "SILVER_WIND",
+    "SWIFT"
+  ],
+  "released": true
+}

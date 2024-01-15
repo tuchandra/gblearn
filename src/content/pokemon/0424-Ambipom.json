@@ -1,0 +1,24 @@
+{
+  "dex": 424,
+  "speciesName": "Ambipom",
+  "speciesId": "ambipom",
+  "baseStats": {
+    "atk": 205,
+    "def": 143,
+    "hp": 181
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "HYPER_BEAM",
+    "LOW_SWEEP"
+  ],
+  "released": true
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "SPLASH",
+  "name": "Splash",
+  "type": "water",
+  "power": 0,
+  "energyGain": 12,
+  "cooldown": 2000
+}

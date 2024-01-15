@@ -1,0 +1,24 @@
+{
+  "dex": 20,
+  "speciesName": "Raticate (Alolan)",
+  "speciesId": "raticate_alolan",
+  "baseStats": {
+    "atk": 135,
+    "def": 154,
+    "hp": 181
+  },
+  "types": [
+    "dark",
+    "normal"
+  ],
+  "fastMoves": [
+    "BITE",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "HYPER_BEAM",
+    "HYPER_FANG"
+  ],
+  "released": true
+}

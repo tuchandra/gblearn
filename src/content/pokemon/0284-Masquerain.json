@@ -1,0 +1,26 @@
+{
+  "dex": 284,
+  "speciesName": "Masquerain",
+  "speciesId": "masquerain",
+  "baseStats": {
+    "atk": 192,
+    "def": 150,
+    "hp": 172
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "INFESTATION"
+  ],
+  "chargedMoves": [
+    "AIR_CUTTER",
+    "OMINOUS_WIND",
+    "SILVER_WIND",
+    "BUBBLE_BEAM",
+    "LUNGE"
+  ],
+  "released": true
+}

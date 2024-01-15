@@ -1,0 +1,28 @@
+{
+  "dex": 232,
+  "speciesName": "Donphan",
+  "speciesId": "donphan",
+  "baseStats": {
+    "atk": 214,
+    "def": 185,
+    "hp": 207
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "MUD_SLAP",
+    "TACKLE",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "HEAVY_SLAM",
+    "PLAY_ROUGH",
+    "BODY_SLAM",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

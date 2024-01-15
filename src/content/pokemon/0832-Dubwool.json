@@ -1,0 +1,25 @@
+{
+  "dex": 832,
+  "speciesName": "Dubwool",
+  "speciesId": "dubwool",
+  "baseStats": {
+    "atk": 159,
+    "def": 198,
+    "hp": 176
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN",
+    "DOUBLE_KICK"
+  ],
+  "chargedMoves": [
+    "WILD_CHARGE",
+    "PAYBACK",
+    "BODY_SLAM"
+  ],
+  "released": true
+}

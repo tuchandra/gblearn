@@ -1,0 +1,24 @@
+{
+  "dex": 591,
+  "speciesName": "Amoonguss",
+  "speciesId": "amoonguss",
+  "baseStats": {
+    "atk": 155,
+    "def": 139,
+    "hp": 249
+  },
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "FEINT_ATTACK"
+  ],
+  "chargedMoves": [
+    "FOUL_PLAY",
+    "SLUDGE_BOMB",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

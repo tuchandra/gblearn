@@ -1,0 +1,24 @@
+{
+  "dex": 564,
+  "speciesName": "Tirtouga",
+  "speciesId": "tirtouga",
+  "baseStats": {
+    "atk": 134,
+    "def": 146,
+    "hp": 144
+  },
+  "types": [
+    "water",
+    "rock"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "SURF",
+    "ANCIENT_POWER",
+    "BODY_SLAM"
+  ],
+  "released": true
+}

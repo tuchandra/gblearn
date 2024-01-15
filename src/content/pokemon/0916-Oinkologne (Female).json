@@ -1,0 +1,24 @@
+{
+  "dex": 916,
+  "speciesName": "Oinkologne (Female)",
+  "speciesId": "oinkologne_female",
+  "baseStats": {
+    "atk": 169,
+    "def": 162,
+    "hp": 251
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "BODY_SLAM",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

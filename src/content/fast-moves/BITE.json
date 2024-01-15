@@ -1,0 +1,8 @@
+{
+  "moveId": "BITE",
+  "name": "Bite",
+  "type": "dark",
+  "power": 4,
+  "energyGain": 2,
+  "cooldown": 500
+}

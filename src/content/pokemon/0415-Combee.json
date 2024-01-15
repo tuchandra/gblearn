@@ -1,0 +1,21 @@
+{
+  "dex": 415,
+  "speciesName": "Combee",
+  "speciesId": "combee",
+  "baseStats": {
+    "atk": 59,
+    "def": 83,
+    "hp": 102
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "BUG_BITE"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ"
+  ],
+  "released": true
+}

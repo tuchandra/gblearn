@@ -1,0 +1,24 @@
+{
+  "dex": 17,
+  "speciesName": "Pidgeotto",
+  "speciesId": "pidgeotto",
+  "baseStats": {
+    "atk": 117,
+    "def": 105,
+    "hp": 160
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "STEEL_WING",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "AIR_CUTTER",
+    "TWISTER"
+  ],
+  "released": true
+}

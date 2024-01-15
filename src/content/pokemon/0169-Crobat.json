@@ -1,0 +1,26 @@
+{
+  "dex": 169,
+  "speciesName": "Crobat",
+  "speciesId": "crobat",
+  "baseStats": {
+    "atk": 194,
+    "def": 178,
+    "hp": 198
+  },
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "AIR_CUTTER",
+    "SHADOW_BALL",
+    "SLUDGE_BOMB",
+    "CROSS_POISON",
+    "POISON_FANG"
+  ],
+  "released": true
+}

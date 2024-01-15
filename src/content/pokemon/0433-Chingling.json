@@ -1,0 +1,24 @@
+{
+  "dex": 433,
+  "speciesName": "Chingling",
+  "speciesId": "chingling",
+  "baseStats": {
+    "atk": 114,
+    "def": 94,
+    "hp": 128
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "PSYSHOCK",
+    "SHADOW_BALL",
+    "WRAP"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 484,
+  "speciesName": "Palkia",
+  "speciesId": "palkia",
+  "baseStats": {
+    "atk": 280,
+    "def": 215,
+    "hp": 189
+  },
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "DRAGON_TAIL"
+  ],
+  "chargedMoves": [
+    "DRACO_METEOR",
+    "FIRE_BLAST",
+    "HYDRO_PUMP",
+    "AQUA_TAIL"
+  ],
+  "released": true
+}

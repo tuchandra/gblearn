@@ -1,0 +1,24 @@
+{
+  "dex": 267,
+  "speciesName": "Beautifly",
+  "speciesId": "beautifly",
+  "baseStats": {
+    "atk": 189,
+    "def": 98,
+    "hp": 155
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "INFESTATION",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "AIR_CUTTER",
+    "BUG_BUZZ",
+    "SILVER_WIND"
+  ],
+  "released": true
+}

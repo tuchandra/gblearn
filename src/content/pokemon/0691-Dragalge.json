@@ -1,0 +1,26 @@
+{
+  "dex": 691,
+  "speciesName": "Dragalge",
+  "speciesId": "dragalge",
+  "baseStats": {
+    "atk": 177,
+    "def": 207,
+    "hp": 163
+  },
+  "types": [
+    "poison",
+    "dragon"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "ACID",
+    "DRAGON_TAIL"
+  ],
+  "chargedMoves": [
+    "HYDRO_PUMP",
+    "AQUA_TAIL",
+    "OUTRAGE",
+    "GUNK_SHOT"
+  ],
+  "released": true
+}

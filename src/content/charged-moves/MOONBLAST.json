@@ -1,0 +1,13 @@
+{
+  "moveId": "MOONBLAST",
+  "name": "Moonblast",
+  "type": "fairy",
+  "power": 110,
+  "energy": 60,
+  "buffs": [
+    -1,
+    0
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".1"
+}

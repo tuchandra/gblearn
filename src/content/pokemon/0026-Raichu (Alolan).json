@@ -1,0 +1,27 @@
+{
+  "dex": 26,
+  "speciesName": "Raichu (Alolan)",
+  "speciesId": "raichu_alolan",
+  "baseStats": {
+    "atk": 201,
+    "def": 154,
+    "hp": 155
+  },
+  "types": [
+    "electric",
+    "psychic"
+  ],
+  "fastMoves": [
+    "SPARK",
+    "VOLT_SWITCH",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "PSYCHIC",
+    "THUNDER_PUNCH",
+    "WILD_CHARGE",
+    "GRASS_KNOT",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

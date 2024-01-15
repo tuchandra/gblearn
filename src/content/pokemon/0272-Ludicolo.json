@@ -1,0 +1,28 @@
+{
+  "dex": 272,
+  "speciesName": "Ludicolo",
+  "speciesId": "ludicolo",
+  "baseStats": {
+    "atk": 173,
+    "def": 176,
+    "hp": 190
+  },
+  "types": [
+    "water",
+    "grass"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "HYDRO_PUMP",
+    "ENERGY_BALL",
+    "ICE_BEAM",
+    "SOLAR_BEAM",
+    "LEAF_STORM",
+    "SCALD"
+  ],
+  "released": true
+}

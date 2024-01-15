@@ -1,0 +1,8 @@
+{
+  "moveId": "ACID",
+  "name": "Acid",
+  "type": "poison",
+  "power": 6,
+  "energyGain": 5,
+  "cooldown": 1000
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 538,
+  "speciesName": "Throh",
+  "speciesId": "throh",
+  "baseStats": {
+    "atk": 172,
+    "def": 160,
+    "hp": 260
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "FOCUS_BLAST",
+    "LOW_SWEEP",
+    "BODY_SLAM"
+  ],
+  "released": true
+}

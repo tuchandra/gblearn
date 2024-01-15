@@ -1,0 +1,25 @@
+{
+  "dex": 215,
+  "speciesName": "Sneasel",
+  "speciesId": "sneasel",
+  "baseStats": {
+    "atk": 189,
+    "def": 146,
+    "hp": 146
+  },
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "ICE_SHARD"
+  ],
+  "chargedMoves": [
+    "AVALANCHE",
+    "FOUL_PLAY",
+    "ICE_PUNCH",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

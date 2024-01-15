@@ -1,0 +1,24 @@
+{
+  "dex": 413,
+  "speciesName": "Wormadam (Trash)",
+  "speciesId": "wormadam_trash",
+  "baseStats": {
+    "atk": 127,
+    "def": 175,
+    "hp": 155
+  },
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "IRON_HEAD",
+    "PSYBEAM"
+  ],
+  "released": true
+}

@@ -1,0 +1,13 @@
+{
+  "moveId": "LEAF_STORM",
+  "name": "Leaf Storm",
+  "type": "grass",
+  "power": 130,
+  "energy": 55,
+  "buffs": [
+    -2,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

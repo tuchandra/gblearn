@@ -1,0 +1,24 @@
+{
+  "dex": 357,
+  "speciesName": "Tropius",
+  "speciesId": "tropius",
+  "baseStats": {
+    "atk": 136,
+    "def": 163,
+    "hp": 223
+  },
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "LEAF_BLADE",
+    "STOMP"
+  ],
+  "released": true
+}

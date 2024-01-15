@@ -1,0 +1,24 @@
+{
+  "dex": 228,
+  "speciesName": "Houndour",
+  "speciesId": "houndour",
+  "baseStats": {
+    "atk": 152,
+    "def": 83,
+    "hp": 128
+  },
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "FEINT_ATTACK"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "DARK_PULSE",
+    "FLAMETHROWER"
+  ],
+  "released": true
+}

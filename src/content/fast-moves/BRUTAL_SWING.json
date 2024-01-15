@@ -1,0 +1,8 @@
+{
+  "moveId": "BRUTAL_SWING",
+  "name": "Brutal Swing",
+  "type": "dark",
+  "power": 65,
+  "energyGain": 0,
+  "cooldown": 500
+}

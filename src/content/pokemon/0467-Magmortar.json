@@ -1,0 +1,27 @@
+{
+  "dex": 467,
+  "speciesName": "Magmortar",
+  "speciesId": "magmortar",
+  "baseStats": {
+    "atk": 247,
+    "def": 172,
+    "hp": 181
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "FIRE_SPIN",
+    "KARATE_CHOP"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "FIRE_BLAST",
+    "FIRE_PUNCH",
+    "PSYCHIC",
+    "THUNDERBOLT",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

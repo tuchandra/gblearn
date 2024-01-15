@@ -1,0 +1,26 @@
+{
+  "dex": 930,
+  "speciesName": "Arboliva",
+  "speciesId": "arboliva",
+  "baseStats": {
+    "atk": 219,
+    "def": 189,
+    "hp": 186
+  },
+  "types": [
+    "grass",
+    "normal"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "TACKLE",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "SEED_BOMB",
+    "ENERGY_BALL",
+    "EARTH_POWER",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

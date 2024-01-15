@@ -1,0 +1,24 @@
+{
+  "dex": 369,
+  "speciesName": "Relicanth",
+  "speciesId": "relicanth",
+  "baseStats": {
+    "atk": 162,
+    "def": 203,
+    "hp": 225
+  },
+  "types": [
+    "water",
+    "rock"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "AQUA_TAIL",
+    "HYDRO_PUMP"
+  ],
+  "released": true
+}

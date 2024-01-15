@@ -1,0 +1,13 @@
+{
+  "moveId": "DRACO_METEOR",
+  "name": "Draco Meteor",
+  "type": "dragon",
+  "power": 150,
+  "energy": 65,
+  "buffs": [
+    -2,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

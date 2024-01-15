@@ -1,0 +1,25 @@
+{
+  "dex": 351,
+  "speciesName": "Castform",
+  "speciesId": "castform",
+  "baseStats": {
+    "atk": 139,
+    "def": 139,
+    "hp": 172
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "HEX",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "HURRICANE",
+    "WEATHER_BALL_ROCK",
+    "WEATHER_BALL_NORMAL"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 409,
+  "speciesName": "Rampardos",
+  "speciesId": "rampardos",
+  "baseStats": {
+    "atk": 295,
+    "def": 109,
+    "hp": 219
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "SMACK_DOWN",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "FLAMETHROWER",
+    "OUTRAGE",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

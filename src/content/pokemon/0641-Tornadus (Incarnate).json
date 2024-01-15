@@ -1,0 +1,25 @@
+{
+  "dex": 641,
+  "speciesName": "Tornadus (Incarnate)",
+  "speciesId": "tornadus_incarnate",
+  "baseStats": {
+    "atk": 266,
+    "def": 164,
+    "hp": 188
+  },
+  "types": [
+    "flying",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "GRASS_KNOT",
+    "DARK_PULSE",
+    "HYPER_BEAM",
+    "HURRICANE"
+  ],
+  "released": true
+}

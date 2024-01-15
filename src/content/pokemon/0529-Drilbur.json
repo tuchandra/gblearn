@@ -1,0 +1,24 @@
+{
+  "dex": 529,
+  "speciesName": "Drilbur",
+  "speciesId": "drilbur",
+  "baseStats": {
+    "atk": 154,
+    "def": 85,
+    "hp": 155
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "MUD_SLAP"
+  ],
+  "chargedMoves": [
+    "ROCK_TOMB",
+    "DIG",
+    "DRILL_RUN"
+  ],
+  "released": true
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "THUNDER_PUNCH",
+  "name": "Thunder Punch",
+  "type": "electric",
+  "power": 55,
+  "energyGain": 0,
+  "cooldown": 500
+}

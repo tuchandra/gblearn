@@ -1,0 +1,24 @@
+{
+  "dex": 971,
+  "speciesName": "Greavard",
+  "speciesId": "greavard",
+  "baseStats": {
+    "atk": 105,
+    "def": 106,
+    "hp": 137
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "LICK",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "DIG",
+    "PSYCHIC_FANGS"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 745,
+  "speciesName": "Lycanroc (Dusk)",
+  "speciesId": "lycanroc_dusk",
+  "baseStats": {
+    "atk": 234,
+    "def": 139,
+    "hp": 181
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "SUCKER_PUNCH",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "STONE_EDGE",
+    "IRON_HEAD",
+    "CRUNCH",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

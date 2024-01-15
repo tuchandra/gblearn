@@ -1,0 +1,8 @@
+{
+  "moveId": "FUSION_FLARE",
+  "name": "Fusion Flare",
+  "type": "fire",
+  "power": 90,
+  "energyGain": 0,
+  "cooldown": 500
+}

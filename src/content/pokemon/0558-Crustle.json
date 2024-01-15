@@ -1,0 +1,24 @@
+{
+  "dex": 558,
+  "speciesName": "Crustle",
+  "speciesId": "crustle",
+  "baseStats": {
+    "atk": 188,
+    "def": 200,
+    "hp": 172
+  },
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "fastMoves": [
+    "FURY_CUTTER",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "ROCK_BLAST",
+    "X_SCISSOR",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

@@ -1,0 +1,13 @@
+{
+  "moveId": "BRAVE_BIRD",
+  "name": "Brave Bird",
+  "type": "flying",
+  "power": 130,
+  "energy": 55,
+  "buffs": [
+    0,
+    -3
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

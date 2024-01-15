@@ -1,0 +1,13 @@
+{
+  "moveId": "TRIPLE_AXEL",
+  "name": "Triple Axel",
+  "type": "ice",
+  "power": 60,
+  "energy": 45,
+  "buffs": [
+    1,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "TECHNO_BLAST_NORMAL",
+  "name": "Techno Blast (Normal)",
+  "type": "normal",
+  "power": 120,
+  "energyGain": 0,
+  "cooldown": 500
+}

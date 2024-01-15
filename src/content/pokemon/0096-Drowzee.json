@@ -1,0 +1,24 @@
+{
+  "dex": 96,
+  "speciesName": "Drowzee",
+  "speciesId": "drowzee",
+  "baseStats": {
+    "atk": 89,
+    "def": 136,
+    "hp": 155
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "POUND"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "PSYSHOCK"
+  ],
+  "released": true
+}

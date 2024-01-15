@@ -1,0 +1,8 @@
+{
+  "moveId": "NIGHT_SLASH",
+  "name": "Night Slash",
+  "type": "dark",
+  "power": 50,
+  "energyGain": 0,
+  "cooldown": 500
+}

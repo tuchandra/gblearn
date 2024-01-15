@@ -1,0 +1,27 @@
+{
+  "dex": 671,
+  "speciesName": "Florges",
+  "speciesId": "florges",
+  "baseStats": {
+    "atk": 212,
+    "def": 244,
+    "hp": 186
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "VINE_WHIP",
+    "TACKLE",
+    "RAZOR_LEAF",
+    "FAIRY_WIND"
+  ],
+  "chargedMoves": [
+    "MOONBLAST",
+    "PETAL_BLIZZARD",
+    "PSYCHIC",
+    "DISARMING_VOICE"
+  ],
+  "released": true
+}

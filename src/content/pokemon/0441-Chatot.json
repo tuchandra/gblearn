@@ -1,0 +1,24 @@
+{
+  "dex": 441,
+  "speciesName": "Chatot",
+  "speciesId": "chatot",
+  "baseStats": {
+    "atk": 183,
+    "def": 91,
+    "hp": 183
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "STEEL_WING"
+  ],
+  "chargedMoves": [
+    "HEAT_WAVE",
+    "NIGHT_SHADE",
+    "SKY_ATTACK"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 559,
+  "speciesName": "Scraggy",
+  "speciesId": "scraggy",
+  "baseStats": {
+    "atk": 132,
+    "def": 132,
+    "hp": 137
+  },
+  "types": [
+    "dark",
+    "fighting"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "FEINT_ATTACK"
+  ],
+  "chargedMoves": [
+    "ACID_SPRAY",
+    "BRICK_BREAK",
+    "FOUL_PLAY"
+  ],
+  "released": true
+}

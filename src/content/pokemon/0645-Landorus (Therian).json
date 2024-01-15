@@ -1,0 +1,25 @@
+{
+  "dex": 645,
+  "speciesName": "Landorus (Therian)",
+  "speciesId": "landorus_therian",
+  "baseStats": {
+    "atk": 289,
+    "def": 179,
+    "hp": 205
+  },
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "EXTRASENSORY"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "STONE_EDGE",
+    "SUPER_POWER",
+    "BULLDOZE"
+  ],
+  "released": true
+}

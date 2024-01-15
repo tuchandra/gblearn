@@ -1,0 +1,8 @@
+{
+  "moveId": "QUICK_ATTACK",
+  "name": "Quick Attack",
+  "type": "normal",
+  "power": 5,
+  "energyGain": 8,
+  "cooldown": 1000
+}

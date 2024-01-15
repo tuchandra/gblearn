@@ -1,0 +1,24 @@
+{
+  "dex": 215,
+  "speciesName": "Sneasel (Hisuian)",
+  "speciesId": "sneasel_hisuian",
+  "baseStats": {
+    "atk": 189,
+    "def": 146,
+    "hp": 146
+  },
+  "types": [
+    "fighting",
+    "poison"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "CLOSE_COMBAT",
+    "X_SCISSOR"
+  ],
+  "released": true
+}

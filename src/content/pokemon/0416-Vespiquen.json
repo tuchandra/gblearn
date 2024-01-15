@@ -1,0 +1,28 @@
+{
+  "dex": 416,
+  "speciesName": "Vespiquen",
+  "speciesId": "vespiquen",
+  "baseStats": {
+    "atk": 149,
+    "def": 190,
+    "hp": 172
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "POISON_STING",
+    "FURY_CUTTER",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "POWER_GEM",
+    "X_SCISSOR",
+    "FELL_STINGER",
+    "SIGNAL_BEAM"
+  ],
+  "released": true
+}

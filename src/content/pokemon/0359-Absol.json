@@ -1,0 +1,25 @@
+{
+  "dex": 359,
+  "speciesName": "Absol",
+  "speciesId": "absol",
+  "baseStats": {
+    "atk": 246,
+    "def": 120,
+    "hp": 163
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "PSYCHO_CUT",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "MEGAHORN",
+    "THUNDER",
+    "PAYBACK"
+  ],
+  "released": true
+}

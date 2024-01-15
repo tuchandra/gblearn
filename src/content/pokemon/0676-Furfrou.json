@@ -1,0 +1,25 @@
+{
+  "dex": 676,
+  "speciesName": "Furfrou",
+  "speciesId": "furfrou",
+  "baseStats": {
+    "atk": 164,
+    "def": 167,
+    "hp": 181
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TAKE_DOWN",
+    "BITE",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "SURF",
+    "DARK_PULSE",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

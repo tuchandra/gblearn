@@ -1,0 +1,8 @@
+{
+  "moveId": "REST",
+  "name": "Rest",
+  "type": "normal",
+  "power": 50,
+  "energyGain": 0,
+  "cooldown": 500
+}

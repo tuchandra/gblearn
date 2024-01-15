@@ -1,0 +1,24 @@
+{
+  "dex": 567,
+  "speciesName": "Archeops",
+  "speciesId": "archeops",
+  "baseStats": {
+    "atk": 292,
+    "def": 139,
+    "hp": 181
+  },
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "fastMoves": [
+    "STEEL_WING",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "ANCIENT_POWER",
+    "CRUNCH"
+  ],
+  "released": true
+}

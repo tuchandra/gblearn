@@ -1,0 +1,8 @@
+{
+  "moveId": "POISON_JAB",
+  "name": "Poison Jab",
+  "type": "poison",
+  "power": 7,
+  "energyGain": 7,
+  "cooldown": 1000
+}

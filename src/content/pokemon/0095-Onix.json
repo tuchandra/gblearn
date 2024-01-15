@@ -1,0 +1,27 @@
+{
+  "dex": 95,
+  "speciesName": "Onix",
+  "speciesId": "onix",
+  "baseStats": {
+    "atk": 85,
+    "def": 232,
+    "hp": 111
+  },
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "fastMoves": [
+    "ROCK_THROW",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "HEAVY_SLAM",
+    "IRON_HEAD",
+    "ROCK_SLIDE",
+    "SAND_TOMB",
+    "STONE_EDGE",
+    "BREAKING_SWIPE"
+  ],
+  "released": true
+}

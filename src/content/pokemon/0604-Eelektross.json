@@ -1,0 +1,26 @@
+{
+  "dex": 604,
+  "speciesName": "Eelektross",
+  "speciesId": "eelektross",
+  "baseStats": {
+    "atk": 217,
+    "def": 152,
+    "hp": 198
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "ACID",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "THUNDERBOLT",
+    "ACID_SPRAY",
+    "DRAGON_CLAW",
+    "LIQUIDATION"
+  ],
+  "released": true
+}

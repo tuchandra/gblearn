@@ -1,0 +1,13 @@
+{
+  "moveId": "SUPER_POWER",
+  "name": "Superpower",
+  "type": "fighting",
+  "power": 85,
+  "energy": 40,
+  "buffs": [
+    -1,
+    -1
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

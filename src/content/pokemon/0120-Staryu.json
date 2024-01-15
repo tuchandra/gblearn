@@ -1,0 +1,25 @@
+{
+  "dex": 120,
+  "speciesName": "Staryu",
+  "speciesId": "staryu",
+  "baseStats": {
+    "atk": 137,
+    "def": 112,
+    "hp": 102
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "TACKLE",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "BUBBLE_BEAM",
+    "POWER_GEM",
+    "SWIFT"
+  ],
+  "released": true
+}

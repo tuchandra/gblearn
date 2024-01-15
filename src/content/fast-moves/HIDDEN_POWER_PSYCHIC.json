@@ -1,0 +1,8 @@
+{
+  "moveId": "HIDDEN_POWER_PSYCHIC",
+  "name": "Hidden Power (Psychic)",
+  "type": "psychic",
+  "power": 9,
+  "energyGain": 8,
+  "cooldown": 1500
+}

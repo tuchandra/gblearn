@@ -1,0 +1,8 @@
+{
+  "moveId": "BUBBLE",
+  "name": "Bubble",
+  "type": "water",
+  "power": 8,
+  "energyGain": 11,
+  "cooldown": 1500
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 348,
+  "speciesName": "Armaldo",
+  "speciesId": "armaldo",
+  "baseStats": {
+    "atk": 222,
+    "def": 174,
+    "hp": 181
+  },
+  "types": [
+    "rock",
+    "bug"
+  ],
+  "fastMoves": [
+    "FURY_CUTTER",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "CROSS_POISON",
+    "ROCK_BLAST",
+    "WATER_PULSE",
+    "LIQUIDATION"
+  ],
+  "released": true
+}

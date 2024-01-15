@@ -1,0 +1,8 @@
+{
+  "moveId": "VOLT_SWITCH",
+  "name": "Volt Switch",
+  "type": "electric",
+  "power": 12,
+  "energyGain": 16,
+  "cooldown": 2000
+}

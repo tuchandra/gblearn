@@ -1,0 +1,25 @@
+{
+  "dex": 212,
+  "speciesName": "Scizor",
+  "speciesId": "scizor",
+  "baseStats": {
+    "atk": 236,
+    "def": 181,
+    "hp": 172
+  },
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "fastMoves": [
+    "BULLET_PUNCH",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "IRON_HEAD",
+    "NIGHT_SLASH",
+    "X_SCISSOR",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

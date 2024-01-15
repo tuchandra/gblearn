@@ -1,0 +1,27 @@
+{
+  "dex": 251,
+  "speciesName": "Celebi",
+  "speciesId": "celebi",
+  "baseStats": {
+    "atk": 210,
+    "def": 210,
+    "hp": 225
+  },
+  "types": [
+    "psychic",
+    "grass"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "CONFUSION",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM",
+    "PSYCHIC",
+    "SEED_BOMB",
+    "LEAF_STORM"
+  ],
+  "released": true
+}

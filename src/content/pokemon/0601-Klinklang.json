@@ -1,0 +1,25 @@
+{
+  "dex": 601,
+  "speciesName": "Klinklang",
+  "speciesId": "klinklang",
+  "baseStats": {
+    "atk": 199,
+    "def": 214,
+    "hp": 155
+  },
+  "types": [
+    "steel",
+    "none"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "CHARGE_BEAM"
+  ],
+  "chargedMoves": [
+    "HYPER_BEAM",
+    "FLASH_CANNON",
+    "ZAP_CANNON",
+    "MIRROR_SHOT"
+  ],
+  "released": true
+}

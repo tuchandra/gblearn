@@ -1,0 +1,25 @@
+{
+  "dex": 98,
+  "speciesName": "Krabby",
+  "speciesId": "krabby",
+  "baseStats": {
+    "atk": 181,
+    "def": 124,
+    "hp": 102
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "BUBBLE_BEAM",
+    "VICE_GRIP",
+    "WATER_PULSE",
+    "RAZOR_SHELL"
+  ],
+  "released": true
+}

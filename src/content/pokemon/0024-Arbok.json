@@ -1,0 +1,26 @@
+{
+  "dex": 24,
+  "speciesName": "Arbok",
+  "speciesId": "arbok",
+  "baseStats": {
+    "atk": 167,
+    "def": 153,
+    "hp": 155
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "ACID",
+    "BITE",
+    "DRAGON_TAIL"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "GUNK_SHOT",
+    "SLUDGE_WAVE",
+    "ACID_SPRAY"
+  ],
+  "released": true
+}

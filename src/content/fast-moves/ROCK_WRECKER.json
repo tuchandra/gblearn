@@ -1,0 +1,8 @@
+{
+  "moveId": "ROCK_WRECKER",
+  "name": "Rock Wrecker",
+  "type": "rock",
+  "power": 110,
+  "energyGain": 0,
+  "cooldown": 500
+}

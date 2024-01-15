@@ -1,0 +1,26 @@
+{
+  "dex": 675,
+  "speciesName": "Pangoro",
+  "speciesId": "pangoro",
+  "baseStats": {
+    "atk": 226,
+    "def": 146,
+    "hp": 216
+  },
+  "types": [
+    "fighting",
+    "dark"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "SNARL",
+    "BULLET_PUNCH"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "NIGHT_SLASH",
+    "IRON_HEAD",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

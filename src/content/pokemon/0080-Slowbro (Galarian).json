@@ -1,0 +1,26 @@
+{
+  "dex": 80,
+  "speciesName": "Slowbro (Galarian)",
+  "speciesId": "slowbro_galarian",
+  "baseStats": {
+    "atk": 182,
+    "def": 156,
+    "hp": 216
+  },
+  "types": [
+    "poison",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "FOCUS_BLAST",
+    "PSYCHIC",
+    "SLUDGE_BOMB",
+    "SURF",
+    "SCALD"
+  ],
+  "released": true
+}

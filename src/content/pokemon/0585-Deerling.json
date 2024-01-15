@@ -1,0 +1,25 @@
+{
+  "dex": 585,
+  "speciesName": "Deerling",
+  "speciesId": "deerling",
+  "baseStats": {
+    "atk": 115,
+    "def": 100,
+    "hp": 155
+  },
+  "types": [
+    "normal",
+    "grass"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "SEED_BOMB",
+    "WILD_CHARGE",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

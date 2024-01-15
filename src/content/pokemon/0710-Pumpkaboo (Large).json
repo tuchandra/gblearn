@@ -1,0 +1,24 @@
+{
+  "dex": 710,
+  "speciesName": "Pumpkaboo (Large)",
+  "speciesId": "pumpkaboo_large",
+  "baseStats": {
+    "atk": 120,
+    "def": 122,
+    "hp": 144
+  },
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "GRASS_KNOT",
+    "SHADOW_SNEAK",
+    "FOUL_PLAY"
+  ],
+  "released": true
+}

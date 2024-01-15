@@ -1,0 +1,13 @@
+{
+  "moveId": "LUSTER_PURGE",
+  "name": "Luster Purge",
+  "type": "psychic",
+  "power": 120,
+  "energy": 60,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": "0.5"
+}

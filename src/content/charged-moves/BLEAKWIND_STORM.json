@@ -1,0 +1,13 @@
+{
+  "moveId": "BLEAKWIND_STORM",
+  "name": "Bleakwind Storm",
+  "type": "flying",
+  "power": 60,
+  "energy": 45,
+  "buffs": [
+    -1,
+    0
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": "1"
+}

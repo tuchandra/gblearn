@@ -1,0 +1,24 @@
+{
+  "dex": 576,
+  "speciesName": "Gothitelle",
+  "speciesId": "gothitelle",
+  "baseStats": {
+    "atk": 176,
+    "def": 205,
+    "hp": 172
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARM",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "ROCK_SLIDE",
+    "FUTURE_SIGHT",
+    "PSYCHIC"
+  ],
+  "released": true
+}

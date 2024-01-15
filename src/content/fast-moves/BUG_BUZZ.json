@@ -1,0 +1,8 @@
+{
+  "moveId": "BUG_BUZZ",
+  "name": "Bug Buzz",
+  "type": "bug",
+  "power": 100,
+  "energyGain": 0,
+  "cooldown": 500
+}

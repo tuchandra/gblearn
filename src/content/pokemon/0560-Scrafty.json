@@ -1,0 +1,24 @@
+{
+  "dex": 560,
+  "speciesName": "Scrafty",
+  "speciesId": "scrafty",
+  "baseStats": {
+    "atk": 163,
+    "def": 222,
+    "hp": 163
+  },
+  "types": [
+    "dark",
+    "fighting"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "ACID_SPRAY",
+    "POWER_UP_PUNCH",
+    "FOUL_PLAY"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 893,
+  "speciesName": "Zarude",
+  "speciesId": "zarude",
+  "baseStats": {
+    "atk": 242,
+    "def": 215,
+    "hp": 233
+  },
+  "types": [
+    "dark",
+    "grass"
+  ],
+  "fastMoves": [
+    "VINE_WHIP",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "POWER_WHIP",
+    "ENERGY_BALL",
+    "DARK_PULSE"
+  ],
+  "released": true
+}

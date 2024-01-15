@@ -1,0 +1,25 @@
+{
+  "dex": 52,
+  "speciesName": "Meowth (Alolan)",
+  "speciesId": "meowth_alolan",
+  "baseStats": {
+    "atk": 99,
+    "def": 78,
+    "hp": 120
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "FOUL_PLAY",
+    "NIGHT_SLASH",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

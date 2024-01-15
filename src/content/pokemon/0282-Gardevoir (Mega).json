@@ -1,0 +1,28 @@
+{
+  "dex": 282,
+  "speciesName": "Gardevoir (Mega)",
+  "speciesId": "gardevoir_mega",
+  "baseStats": {
+    "atk": 326,
+    "def": 229,
+    "hp": 169
+  },
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "CONFUSION",
+    "CHARM",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "PSYCHIC",
+    "SHADOW_BALL",
+    "SYNCHRONOISE",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

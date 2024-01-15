@@ -1,0 +1,28 @@
+{
+  "dex": 464,
+  "speciesName": "Rhyperior",
+  "speciesId": "rhyperior",
+  "baseStats": {
+    "atk": 241,
+    "def": 190,
+    "hp": 251
+  },
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "STONE_EDGE",
+    "SURF",
+    "SKULL_BASH",
+    "SUPER_POWER",
+    "ROCK_WRECKER",
+    "BREAKING_SWIPE"
+  ],
+  "released": true
+}

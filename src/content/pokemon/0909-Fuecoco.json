@@ -1,0 +1,24 @@
+{
+  "dex": 909,
+  "speciesName": "Fuecoco",
+  "speciesId": "fuecoco",
+  "baseStats": {
+    "atk": 112,
+    "def": 96,
+    "hp": 167
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "INCINERATE",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "FLAMETHROWER",
+    "DISARMING_VOICE",
+    "CRUNCH"
+  ],
+  "released": true
+}

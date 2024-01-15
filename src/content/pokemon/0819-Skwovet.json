@@ -1,0 +1,25 @@
+{
+  "dex": 819,
+  "speciesName": "Skwovet",
+  "speciesId": "skwovet",
+  "baseStats": {
+    "atk": 95,
+    "def": 86,
+    "hp": 172
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "BITE",
+    "BULLET_SEED"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "CRUNCH",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

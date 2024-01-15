@@ -1,0 +1,24 @@
+{
+  "dex": 499,
+  "speciesName": "Pignite",
+  "speciesId": "pignite",
+  "baseStats": {
+    "atk": 173,
+    "def": 106,
+    "hp": 207
+  },
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "FLAMETHROWER",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

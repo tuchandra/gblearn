@@ -1,0 +1,26 @@
+{
+  "dex": 711,
+  "speciesName": "Gourgeist (Average)",
+  "speciesId": "gourgeist_average",
+  "baseStats": {
+    "atk": 175,
+    "def": 213,
+    "hp": 163
+  },
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "fastMoves": [
+    "HEX",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "SEED_BOMB",
+    "SHADOW_BALL",
+    "FOUL_PLAY",
+    "FIRE_BLAST",
+    "POLTERGEIST"
+  ],
+  "released": true
+}

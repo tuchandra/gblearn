@@ -1,0 +1,22 @@
+{
+  "dex": 401,
+  "speciesName": "Kricketot",
+  "speciesId": "kricketot",
+  "baseStats": {
+    "atk": 45,
+    "def": 74,
+    "hp": 114
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": true
+}

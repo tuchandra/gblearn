@@ -1,0 +1,8 @@
+{
+  "moveId": "HEAVY_SLAM",
+  "name": "Heavy Slam",
+  "type": "steel",
+  "power": 70,
+  "energyGain": 0,
+  "cooldown": 500
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "ACROBATICS",
+  "name": "Acrobatics",
+  "type": "flying",
+  "power": 110,
+  "energyGain": 0,
+  "cooldown": 500
+}

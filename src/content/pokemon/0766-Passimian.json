@@ -1,0 +1,25 @@
+{
+  "dex": 766,
+  "speciesName": "Passimian",
+  "speciesId": "passimian",
+  "baseStats": {
+    "atk": 222,
+    "def": 160,
+    "hp": 225
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "ROCK_SMASH",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "CLOSE_COMBAT",
+    "SUPER_POWER"
+  ],
+  "released": true
+}

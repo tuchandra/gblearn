@@ -1,0 +1,30 @@
+{
+  "dex": 68,
+  "speciesName": "Machamp",
+  "speciesId": "machamp",
+  "baseStats": {
+    "atk": 234,
+    "def": 159,
+    "hp": 207
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "BULLET_PUNCH",
+    "COUNTER",
+    "KARATE_CHOP"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "CROSS_CHOP",
+    "DYNAMIC_PUNCH",
+    "HEAVY_SLAM",
+    "ROCK_SLIDE",
+    "STONE_EDGE",
+    "SUBMISSION",
+    "PAYBACK"
+  ],
+  "released": true
+}

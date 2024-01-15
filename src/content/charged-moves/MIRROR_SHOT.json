@@ -1,0 +1,13 @@
+{
+  "moveId": "MIRROR_SHOT",
+  "name": "Mirror Shot",
+  "type": "steel",
+  "power": 35,
+  "energy": 35,
+  "buffs": [
+    -1,
+    0
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".3"
+}

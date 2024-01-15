@@ -1,0 +1,25 @@
+{
+  "dex": 447,
+  "speciesName": "Riolu",
+  "speciesId": "riolu",
+  "baseStats": {
+    "atk": 127,
+    "def": 78,
+    "hp": 120
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "CROSS_CHOP",
+    "LOW_SWEEP",
+    "BLAZE_KICK"
+  ],
+  "released": true
+}

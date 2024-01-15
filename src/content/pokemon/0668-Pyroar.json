@@ -1,0 +1,27 @@
+{
+  "dex": 668,
+  "speciesName": "Pyroar",
+  "speciesId": "pyroar",
+  "baseStats": {
+    "atk": 221,
+    "def": 149,
+    "hp": 200
+  },
+  "types": [
+    "fire",
+    "normal"
+  ],
+  "fastMoves": [
+    "FIRE_FANG",
+    "TAKE_DOWN",
+    "INCINERATE",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "SOLAR_BEAM",
+    "DARK_PULSE",
+    "OVERHEAT"
+  ],
+  "released": true
+}

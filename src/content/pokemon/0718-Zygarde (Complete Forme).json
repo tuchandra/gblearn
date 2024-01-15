@@ -1,0 +1,27 @@
+{
+  "dex": 718,
+  "speciesName": "Zygarde (Complete Forme)",
+  "speciesId": "zygarde_complete",
+  "baseStats": {
+    "atk": 184,
+    "def": 207,
+    "hp": 389
+  },
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "BITE",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "OUTRAGE",
+    "EARTHQUAKE",
+    "CRUNCH",
+    "HYPER_BEAM",
+    "BULLDOZE"
+  ],
+  "released": true
+}

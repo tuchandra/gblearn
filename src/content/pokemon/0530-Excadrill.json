@@ -1,0 +1,27 @@
+{
+  "dex": 530,
+  "speciesName": "Excadrill",
+  "speciesId": "excadrill",
+  "baseStats": {
+    "atk": 255,
+    "def": 129,
+    "hp": 242
+  },
+  "types": [
+    "ground",
+    "steel"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "MUD_SLAP",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "ROCK_SLIDE",
+    "EARTHQUAKE",
+    "DRILL_RUN",
+    "IRON_HEAD",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

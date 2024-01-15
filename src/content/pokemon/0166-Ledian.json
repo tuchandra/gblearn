@@ -1,0 +1,25 @@
+{
+  "dex": 166,
+  "speciesName": "Ledian",
+  "speciesId": "ledian",
+  "baseStats": {
+    "atk": 107,
+    "def": 179,
+    "hp": 146
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BUG_BUZZ",
+    "SILVER_WIND",
+    "DYNAMIC_PUNCH"
+  ],
+  "released": true
+}

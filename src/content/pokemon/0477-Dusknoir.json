@@ -1,0 +1,26 @@
+{
+  "dex": 477,
+  "speciesName": "Dusknoir",
+  "speciesId": "dusknoir",
+  "baseStats": {
+    "atk": 180,
+    "def": 254,
+    "hp": 128
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "HEX"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "OMINOUS_WIND",
+    "PSYCHIC",
+    "SHADOW_BALL",
+    "POLTERGEIST"
+  ],
+  "released": true
+}

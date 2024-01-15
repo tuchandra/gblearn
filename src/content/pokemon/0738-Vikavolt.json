@@ -1,0 +1,27 @@
+{
+  "dex": 738,
+  "speciesName": "Vikavolt",
+  "speciesId": "vikavolt",
+  "baseStats": {
+    "atk": 254,
+    "def": 158,
+    "hp": 184
+  },
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "SPARK",
+    "MUD_SLAP",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "X_SCISSOR",
+    "DISCHARGE",
+    "CRUNCH",
+    "FLY"
+  ],
+  "released": true
+}

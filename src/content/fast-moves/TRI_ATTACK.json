@@ -1,0 +1,8 @@
+{
+  "moveId": "TRI_ATTACK",
+  "name": "Tri Attack",
+  "type": "normal",
+  "power": 65,
+  "energyGain": 0,
+  "cooldown": 500
+}

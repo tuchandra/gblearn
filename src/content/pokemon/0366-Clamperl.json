@@ -1,0 +1,23 @@
+{
+  "dex": 366,
+  "speciesName": "Clamperl",
+  "speciesId": "clamperl",
+  "baseStats": {
+    "atk": 133,
+    "def": 135,
+    "hp": 111
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "ICE_BEAM",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

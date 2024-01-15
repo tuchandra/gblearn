@@ -1,0 +1,26 @@
+{
+  "dex": 700,
+  "speciesName": "Sylveon",
+  "speciesId": "sylveon",
+  "baseStats": {
+    "atk": 203,
+    "def": 205,
+    "hp": 216
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARM",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "MOONBLAST",
+    "DAZZLING_GLEAM",
+    "DRAINING_KISS",
+    "LAST_RESORT",
+    "PSYSHOCK"
+  ],
+  "released": true
+}

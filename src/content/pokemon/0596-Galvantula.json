@@ -1,0 +1,26 @@
+{
+  "dex": 596,
+  "speciesName": "Galvantula",
+  "speciesId": "galvantula",
+  "baseStats": {
+    "atk": 201,
+    "def": 128,
+    "hp": 172
+  },
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "fastMoves": [
+    "VOLT_SWITCH",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "CROSS_POISON",
+    "BUG_BUZZ",
+    "DISCHARGE",
+    "ENERGY_BALL",
+    "LUNGE"
+  ],
+  "released": true
+}

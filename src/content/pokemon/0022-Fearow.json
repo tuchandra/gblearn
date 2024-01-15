@@ -1,0 +1,25 @@
+{
+  "dex": 22,
+  "speciesName": "Fearow",
+  "speciesId": "fearow",
+  "baseStats": {
+    "atk": 182,
+    "def": 133,
+    "hp": 163
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "STEEL_WING"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "DRILL_RUN",
+    "SKY_ATTACK",
+    "TWISTER"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 469,
+  "speciesName": "Yanmega",
+  "speciesId": "yanmega",
+  "baseStats": {
+    "atk": 231,
+    "def": 156,
+    "hp": 200
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "ANCIENT_POWER",
+    "BUG_BUZZ"
+  ],
+  "released": true
+}

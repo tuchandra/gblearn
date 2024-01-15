@@ -1,0 +1,25 @@
+{
+  "dex": 745,
+  "speciesName": "Lycanroc (Midnight)",
+  "speciesId": "lycanroc_midnight",
+  "baseStats": {
+    "atk": 218,
+    "def": 152,
+    "hp": 198
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "STONE_EDGE",
+    "PSYCHIC_FANGS",
+    "CRUNCH",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

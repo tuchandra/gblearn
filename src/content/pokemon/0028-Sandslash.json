@@ -1,0 +1,26 @@
+{
+  "dex": 28,
+  "speciesName": "Sandslash",
+  "speciesId": "sandslash",
+  "baseStats": {
+    "atk": 182,
+    "def": 175,
+    "hp": 181
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "BULLDOZE",
+    "EARTHQUAKE",
+    "ROCK_TOMB",
+    "NIGHT_SLASH",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

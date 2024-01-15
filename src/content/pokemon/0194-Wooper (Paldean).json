@@ -1,0 +1,24 @@
+{
+  "dex": 194,
+  "speciesName": "Wooper (Paldean)",
+  "speciesId": "wooper_paldean",
+  "baseStats": {
+    "atk": 75,
+    "def": 66,
+    "hp": 146
+  },
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "DIG",
+    "SLUDGE_WAVE"
+  ],
+  "released": true
+}

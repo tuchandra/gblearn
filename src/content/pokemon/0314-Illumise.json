@@ -1,0 +1,24 @@
+{
+  "dex": 314,
+  "speciesName": "Illumise",
+  "speciesId": "illumise",
+  "baseStats": {
+    "atk": 143,
+    "def": 166,
+    "hp": 163
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "STRUGGLE_BUG",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "DAZZLING_GLEAM",
+    "SILVER_WIND"
+  ],
+  "released": true
+}

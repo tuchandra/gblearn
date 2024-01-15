@@ -1,0 +1,28 @@
+{
+  "dex": 89,
+  "speciesName": "Muk",
+  "speciesId": "muk",
+  "baseStats": {
+    "atk": 190,
+    "def": 172,
+    "hp": 233
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "ACID",
+    "INFESTATION",
+    "LICK",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "GUNK_SHOT",
+    "SLUDGE_WAVE",
+    "THUNDER_PUNCH",
+    "ACID_SPRAY"
+  ],
+  "released": true
+}

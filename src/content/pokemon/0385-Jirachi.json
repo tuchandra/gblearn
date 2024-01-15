@@ -1,0 +1,24 @@
+{
+  "dex": 385,
+  "speciesName": "Jirachi",
+  "speciesId": "jirachi",
+  "baseStats": {
+    "atk": 210,
+    "def": 210,
+    "hp": 225
+  },
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "DOOM_DESIRE",
+    "PSYCHIC"
+  ],
+  "released": true
+}

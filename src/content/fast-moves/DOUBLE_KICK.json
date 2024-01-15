@@ -1,0 +1,8 @@
+{
+  "moveId": "DOUBLE_KICK",
+  "name": "Double Kick",
+  "type": "fighting",
+  "power": 8,
+  "energyGain": 12,
+  "cooldown": 1500
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 720,
+  "speciesName": "Hoopa",
+  "speciesId": "hoopa",
+  "baseStats": {
+    "atk": 261,
+    "def": 187,
+    "hp": 173
+  },
+  "types": [
+    "psychic",
+    "ghost"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "PSYBEAM",
+    "PSYCHIC"
+  ],
+  "released": true
+}

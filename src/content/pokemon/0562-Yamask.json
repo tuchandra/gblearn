@@ -1,0 +1,24 @@
+{
+  "dex": 562,
+  "speciesName": "Yamask",
+  "speciesId": "yamask",
+  "baseStats": {
+    "atk": 95,
+    "def": 141,
+    "hp": 116
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "DARK_PULSE",
+    "OMINOUS_WIND"
+  ],
+  "released": true
+}

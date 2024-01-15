@@ -1,0 +1,25 @@
+{
+  "dex": 315,
+  "speciesName": "Roselia",
+  "speciesId": "roselia",
+  "baseStats": {
+    "atk": 186,
+    "def": 131,
+    "hp": 137
+  },
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "fastMoves": [
+    "POISON_JAB",
+    "RAZOR_LEAF",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "PETAL_BLIZZARD",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

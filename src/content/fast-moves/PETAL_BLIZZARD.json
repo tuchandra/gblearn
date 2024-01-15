@@ -1,0 +1,8 @@
+{
+  "moveId": "PETAL_BLIZZARD",
+  "name": "Petal Blizzard",
+  "type": "grass",
+  "power": 110,
+  "energyGain": 0,
+  "cooldown": 500
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 278,
+  "speciesName": "Wingull",
+  "speciesId": "wingull",
+  "baseStats": {
+    "atk": 106,
+    "def": 61,
+    "hp": 120
+  },
+  "types": [
+    "water",
+    "flying"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "AIR_CUTTER",
+    "ICE_BEAM",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "INCINERATE",
+  "name": "Incinerate",
+  "type": "fire",
+  "power": 20,
+  "energyGain": 20,
+  "cooldown": 2500
+}

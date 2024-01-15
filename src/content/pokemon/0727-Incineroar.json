@@ -1,0 +1,26 @@
+{
+  "dex": 727,
+  "speciesName": "Incineroar",
+  "speciesId": "incineroar",
+  "baseStats": {
+    "atk": 214,
+    "def": 175,
+    "hp": 216
+  },
+  "types": [
+    "fire",
+    "dark"
+  ],
+  "fastMoves": [
+    "SNARL",
+    "FIRE_FANG",
+    "DOUBLE_KICK"
+  ],
+  "chargedMoves": [
+    "FIRE_BLAST",
+    "FLAME_CHARGE",
+    "DARK_PULSE",
+    "BLAZE_KICK"
+  ],
+  "released": true
+}

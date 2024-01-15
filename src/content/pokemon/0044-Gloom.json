@@ -1,0 +1,24 @@
+{
+  "dex": 44,
+  "speciesName": "Gloom",
+  "speciesId": "gloom",
+  "baseStats": {
+    "atk": 153,
+    "def": 136,
+    "hp": 155
+  },
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "fastMoves": [
+    "ACID",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "MOONBLAST",
+    "PETAL_BLIZZARD",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

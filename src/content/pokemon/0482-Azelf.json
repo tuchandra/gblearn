@@ -1,0 +1,24 @@
+{
+  "dex": 482,
+  "speciesName": "Azelf",
+  "speciesId": "azelf",
+  "baseStats": {
+    "atk": 270,
+    "def": 151,
+    "hp": 181
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "EXTRASENSORY"
+  ],
+  "chargedMoves": [
+    "FIRE_BLAST",
+    "FUTURE_SIGHT",
+    "SWIFT"
+  ],
+  "released": true
+}

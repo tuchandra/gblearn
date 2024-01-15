@@ -1,0 +1,24 @@
+{
+  "dex": 343,
+  "speciesName": "Baltoy",
+  "speciesId": "baltoy",
+  "baseStats": {
+    "atk": 77,
+    "def": 124,
+    "hp": 120
+  },
+  "types": [
+    "ground",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "EXTRASENSORY"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "GYRO_BALL",
+    "PSYBEAM"
+  ],
+  "released": true
+}

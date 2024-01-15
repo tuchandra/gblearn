@@ -1,0 +1,25 @@
+{
+  "dex": 41,
+  "speciesName": "Zubat",
+  "speciesId": "zubat",
+  "baseStats": {
+    "atk": 83,
+    "def": 73,
+    "hp": 120
+  },
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "fastMoves": [
+    "BITE",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "AIR_CUTTER",
+    "POISON_FANG",
+    "SLUDGE_BOMB",
+    "SWIFT"
+  ],
+  "released": true
+}

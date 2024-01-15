@@ -1,0 +1,23 @@
+{
+  "dex": 145,
+  "speciesName": "Zapdos (Galarian)",
+  "speciesId": "zapdos_galarian",
+  "baseStats": {
+    "atk": 252,
+    "def": 189,
+    "hp": 207
+  },
+  "types": [
+    "fighting",
+    "flying"
+  ],
+  "fastMoves": [
+    "COUNTER"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "ANCIENT_POWER",
+    "BRAVE_BIRD"
+  ],
+  "released": true
+}

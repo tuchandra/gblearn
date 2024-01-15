@@ -1,0 +1,24 @@
+{
+  "dex": 678,
+  "speciesName": "Meowstic (Male)",
+  "speciesId": "meowstic",
+  "baseStats": {
+    "atk": 166,
+    "def": 167,
+    "hp": 179
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "PSYCHIC",
+    "ENERGY_BALL",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

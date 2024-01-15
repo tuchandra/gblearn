@@ -1,0 +1,24 @@
+{
+  "dex": 200,
+  "speciesName": "Misdreavus",
+  "speciesId": "misdreavus",
+  "baseStats": {
+    "atk": 167,
+    "def": 154,
+    "hp": 155
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "HEX"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "OMINOUS_WIND",
+    "SHADOW_SNEAK"
+  ],
+  "released": true
+}

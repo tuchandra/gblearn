@@ -1,0 +1,24 @@
+{
+  "dex": 610,
+  "speciesName": "Axew",
+  "speciesId": "axew",
+  "baseStats": {
+    "atk": 154,
+    "def": 101,
+    "hp": 130
+  },
+  "types": [
+    "dragon",
+    "none"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "IRON_TAIL"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "AQUA_TAIL",
+    "DRAGON_PULSE"
+  ],
+  "released": true
+}

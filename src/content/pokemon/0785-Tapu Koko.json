@@ -1,0 +1,25 @@
+{
+  "dex": 785,
+  "speciesName": "Tapu Koko",
+  "speciesId": "tapu_koko",
+  "baseStats": {
+    "atk": 250,
+    "def": 181,
+    "hp": 172
+  },
+  "types": [
+    "electric",
+    "fairy"
+  ],
+  "fastMoves": [
+    "VOLT_SWITCH",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "THUNDERBOLT",
+    "DAZZLING_GLEAM",
+    "BRAVE_BIRD",
+    "THUNDER"
+  ],
+  "released": true
+}

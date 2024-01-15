@@ -1,0 +1,24 @@
+{
+  "dex": 446,
+  "speciesName": "Munchlax",
+  "speciesId": "munchlax",
+  "baseStats": {
+    "atk": 137,
+    "def": 117,
+    "hp": 286
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "LICK",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "BULLDOZE",
+    "GUNK_SHOT"
+  ],
+  "released": true
+}

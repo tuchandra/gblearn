@@ -1,0 +1,24 @@
+{
+  "dex": 35,
+  "speciesName": "Clefairy",
+  "speciesId": "clefairy",
+  "baseStats": {
+    "atk": 107,
+    "def": 108,
+    "hp": 172
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "DISARMING_VOICE",
+    "MOONBLAST"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 1000,
+  "speciesName": "Gholdengo",
+  "speciesId": "gholdengo",
+  "baseStats": {
+    "atk": 252,
+    "def": 190,
+    "hp": 202
+  },
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "HEX"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "DAZZLING_GLEAM",
+    "FOCUS_BLAST"
+  ],
+  "released": true
+}

@@ -1,0 +1,27 @@
+{
+  "dex": 82,
+  "speciesName": "Magneton",
+  "speciesId": "magneton",
+  "baseStats": {
+    "atk": 223,
+    "def": 169,
+    "hp": 137
+  },
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "SPARK",
+    "THUNDER_SHOCK",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "FLASH_CANNON",
+    "MAGNET_BOMB",
+    "ZAP_CANNON"
+  ],
+  "released": true
+}

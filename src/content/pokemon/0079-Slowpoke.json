@@ -1,0 +1,24 @@
+{
+  "dex": 79,
+  "speciesName": "Slowpoke",
+  "speciesId": "slowpoke",
+  "baseStats": {
+    "atk": 109,
+    "def": 98,
+    "hp": 207
+  },
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "PSYCHIC",
+    "PSYSHOCK",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

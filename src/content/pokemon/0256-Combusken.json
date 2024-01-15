@@ -1,0 +1,24 @@
+{
+  "dex": 256,
+  "speciesName": "Combusken",
+  "speciesId": "combusken",
+  "baseStats": {
+    "atk": 163,
+    "def": 115,
+    "hp": 155
+  },
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "PECK"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "FLAMETHROWER",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

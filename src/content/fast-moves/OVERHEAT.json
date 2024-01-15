@@ -1,0 +1,8 @@
+{
+  "moveId": "OVERHEAT",
+  "name": "Overheat",
+  "type": "fire",
+  "power": 130,
+  "energyGain": 0,
+  "cooldown": 500
+}

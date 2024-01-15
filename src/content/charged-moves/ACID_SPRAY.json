@@ -1,0 +1,13 @@
+{
+  "moveId": "ACID_SPRAY",
+  "name": "Acid Spray",
+  "type": "poison",
+  "power": 20,
+  "energy": 45,
+  "buffs": [
+    0,
+    -2
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": "1"
+}

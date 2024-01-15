@@ -1,0 +1,7 @@
+{
+  "moveId": "HYDRO_PUMP",
+  "name": "Hydro Pump",
+  "type": "water",
+  "power": 130,
+  "energy": 75
+}

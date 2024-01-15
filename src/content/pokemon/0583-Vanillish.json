@@ -1,0 +1,24 @@
+{
+  "dex": 583,
+  "speciesName": "Vanillish",
+  "speciesId": "vanillish",
+  "baseStats": {
+    "atk": 151,
+    "def": 138,
+    "hp": 139
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "FROST_BREATH",
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "ICY_WIND",
+    "ICE_BEAM",
+    "SIGNAL_BEAM"
+  ],
+  "released": true
+}

@@ -1,0 +1,27 @@
+{
+  "dex": 196,
+  "speciesName": "Espeon",
+  "speciesId": "espeon",
+  "baseStats": {
+    "atk": 261,
+    "def": 175,
+    "hp": 163
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "FUTURE_SIGHT",
+    "LAST_RESORT",
+    "PSYBEAM",
+    "PSYCHIC",
+    "SHADOW_BALL",
+    "PSYCHIC_FANGS"
+  ],
+  "released": true
+}

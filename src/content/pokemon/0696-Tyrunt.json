@@ -1,0 +1,24 @@
+{
+  "dex": 696,
+  "speciesName": "Tyrunt",
+  "speciesId": "tyrunt",
+  "baseStats": {
+    "atk": 158,
+    "def": 123,
+    "hp": 151
+  },
+  "types": [
+    "rock",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "STOMP",
+    "ANCIENT_POWER",
+    "DRAGON_CLAW"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 605,
+  "speciesName": "Elgyem",
+  "speciesId": "elgyem",
+  "baseStats": {
+    "atk": 148,
+    "def": 100,
+    "hp": 146
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "DARK_PULSE",
+    "PSYCHIC"
+  ],
+  "released": true
+}

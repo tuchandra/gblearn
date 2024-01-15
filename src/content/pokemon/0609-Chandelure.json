@@ -1,0 +1,27 @@
+{
+  "dex": 609,
+  "speciesName": "Chandelure",
+  "speciesId": "chandelure",
+  "baseStats": {
+    "atk": 271,
+    "def": 182,
+    "hp": 155
+  },
+  "types": [
+    "ghost",
+    "fire"
+  ],
+  "fastMoves": [
+    "HEX",
+    "FIRE_SPIN",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "SHADOW_BALL",
+    "OVERHEAT",
+    "FLAME_CHARGE",
+    "POLTERGEIST"
+  ],
+  "released": true
+}

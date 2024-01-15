@@ -1,0 +1,24 @@
+{
+  "dex": 159,
+  "speciesName": "Croconaw",
+  "speciesId": "croconaw",
+  "baseStats": {
+    "atk": 150,
+    "def": 142,
+    "hp": 163
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "ICE_PUNCH",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

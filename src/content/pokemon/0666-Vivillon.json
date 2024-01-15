@@ -1,0 +1,25 @@
+{
+  "dex": 666,
+  "speciesName": "Vivillon",
+  "speciesId": "vivillon",
+  "baseStats": {
+    "atk": 176,
+    "def": 103,
+    "hp": 190
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "GUST",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "AERIAL_ACE",
+    "ENERGY_BALL",
+    "HURRICANE"
+  ],
+  "released": true
+}

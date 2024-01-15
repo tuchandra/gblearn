@@ -1,0 +1,30 @@
+{
+  "dex": 94,
+  "speciesName": "Gengar (Mega)",
+  "speciesId": "gengar_mega",
+  "baseStats": {
+    "atk": 349,
+    "def": 199,
+    "hp": 155
+  },
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "fastMoves": [
+    "HEX",
+    "LICK",
+    "SHADOW_CLAW",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "FOCUS_BLAST",
+    "PSYCHIC",
+    "SHADOW_BALL",
+    "SLUDGE_BOMB",
+    "SLUDGE_WAVE",
+    "SHADOW_PUNCH"
+  ],
+  "released": true
+}

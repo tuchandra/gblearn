@@ -1,0 +1,25 @@
+{
+  "dex": 508,
+  "speciesName": "Stoutland",
+  "speciesId": "stoutland",
+  "baseStats": {
+    "atk": 206,
+    "def": 182,
+    "hp": 198
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "LICK",
+    "TAKE_DOWN",
+    "ICE_FANG"
+  ],
+  "chargedMoves": [
+    "WILD_CHARGE",
+    "PLAY_ROUGH",
+    "CRUNCH"
+  ],
+  "released": true
+}

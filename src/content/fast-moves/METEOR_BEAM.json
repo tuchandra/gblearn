@@ -1,0 +1,8 @@
+{
+  "moveId": "METEOR_BEAM",
+  "name": "Meteor Beam",
+  "type": "rock",
+  "power": 120,
+  "energyGain": 0,
+  "cooldown": 500
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 911,
+  "speciesName": "Skeledirge",
+  "speciesId": "skeledirge",
+  "baseStats": {
+    "atk": 207,
+    "def": 178,
+    "hp": 232
+  },
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "fastMoves": [
+    "INCINERATE",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "FLAMETHROWER",
+    "DISARMING_VOICE",
+    "CRUNCH",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 791,
+  "speciesName": "Solgaleo",
+  "speciesId": "solgaleo",
+  "baseStats": {
+    "atk": 255,
+    "def": 191,
+    "hp": 264
+  },
+  "types": [
+    "psychic",
+    "steel"
+  ],
+  "fastMoves": [
+    "ZEN_HEADBUTT",
+    "FIRE_SPIN"
+  ],
+  "chargedMoves": [
+    "IRON_HEAD",
+    "PSYCHIC_FANGS",
+    "SOLAR_BEAM",
+    "FLAMETHROWER"
+  ],
+  "released": true
+}

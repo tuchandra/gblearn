@@ -1,0 +1,25 @@
+{
+  "dex": 487,
+  "speciesName": "Giratina (Altered)",
+  "speciesId": "giratina_altered",
+  "baseStats": {
+    "atk": 187,
+    "def": 225,
+    "hp": 284
+  },
+  "types": [
+    "ghost",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "DRAGON_CLAW",
+    "SHADOW_SNEAK",
+    "SHADOW_FORCE"
+  ],
+  "released": true
+}

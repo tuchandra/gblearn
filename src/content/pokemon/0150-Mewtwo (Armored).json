@@ -1,0 +1,26 @@
+{
+  "dex": 150,
+  "speciesName": "Mewtwo (Armored)",
+  "speciesId": "mewtwo_armored",
+  "baseStats": {
+    "atk": 182,
+    "def": 278,
+    "hp": 214
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "IRON_TAIL"
+  ],
+  "chargedMoves": [
+    "DYNAMIC_PUNCH",
+    "ROCK_SLIDE",
+    "EARTHQUAKE",
+    "FUTURE_SIGHT",
+    "PSYSTRIKE"
+  ],
+  "released": true
+}

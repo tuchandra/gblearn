@@ -1,0 +1,25 @@
+{
+  "dex": 50,
+  "speciesName": "Diglett",
+  "speciesId": "diglett",
+  "baseStats": {
+    "atk": 109,
+    "def": 78,
+    "hp": 67
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "MUD_SLAP",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "MUD_BOMB",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

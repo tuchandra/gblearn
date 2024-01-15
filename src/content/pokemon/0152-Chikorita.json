@@ -1,0 +1,25 @@
+{
+  "dex": 152,
+  "speciesName": "Chikorita",
+  "speciesId": "chikorita",
+  "baseStats": {
+    "atk": 92,
+    "def": 122,
+    "hp": 128
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "VINE_WHIP",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "ENERGY_BALL",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

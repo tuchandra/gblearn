@@ -1,0 +1,13 @@
+{
+  "moveId": "PSYCHIC",
+  "name": "Psychic",
+  "type": "psychic",
+  "power": 75,
+  "energy": 55,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".1"
+}

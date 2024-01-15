@@ -1,0 +1,26 @@
+{
+  "dex": 59,
+  "speciesName": "Arcanine (Hisuian)",
+  "speciesId": "arcanine_hisuian",
+  "baseStats": {
+    "atk": 232,
+    "def": 165,
+    "hp": 216
+  },
+  "types": [
+    "fire",
+    "rock"
+  ],
+  "fastMoves": [
+    "FIRE_FANG",
+    "SNARL",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "ROCK_SLIDE",
+    "WILD_CHARGE",
+    "CRUNCH",
+    "FLAMETHROWER"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 234,
+  "speciesName": "Stantler",
+  "speciesId": "stantler",
+  "baseStats": {
+    "atk": 192,
+    "def": 131,
+    "hp": 177
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "MEGAHORN",
+    "STOMP",
+    "WILD_CHARGE"
+  ],
+  "released": true
+}

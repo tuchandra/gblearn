@@ -1,0 +1,25 @@
+{
+  "dex": 88,
+  "speciesName": "Grimer",
+  "speciesId": "grimer",
+  "baseStats": {
+    "atk": 135,
+    "def": 90,
+    "hp": 190
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "ACID",
+    "MUD_SLAP",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "MUD_BOMB",
+    "SLUDGE",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

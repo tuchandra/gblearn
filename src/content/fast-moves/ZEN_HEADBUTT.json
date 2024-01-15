@@ -1,0 +1,8 @@
+{
+  "moveId": "ZEN_HEADBUTT",
+  "name": "Zen Headbutt",
+  "type": "psychic",
+  "power": 8,
+  "energyGain": 6,
+  "cooldown": 1500
+}

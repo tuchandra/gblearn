@@ -1,0 +1,26 @@
+{
+  "dex": 226,
+  "speciesName": "Mantine",
+  "speciesId": "mantine",
+  "baseStats": {
+    "atk": 148,
+    "def": 226,
+    "hp": 163
+  },
+  "types": [
+    "water",
+    "flying"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "BULLET_SEED",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "ICE_BEAM",
+    "WATER_PULSE",
+    "BUBBLE_BEAM"
+  ],
+  "released": true
+}

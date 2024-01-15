@@ -1,0 +1,24 @@
+{
+  "dex": 394,
+  "speciesName": "Prinplup",
+  "speciesId": "prinplup",
+  "baseStats": {
+    "atk": 150,
+    "def": 139,
+    "hp": 162
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "METAL_CLAW"
+  ],
+  "chargedMoves": [
+    "BUBBLE_BEAM",
+    "HYDRO_PUMP",
+    "ICY_WIND"
+  ],
+  "released": true
+}

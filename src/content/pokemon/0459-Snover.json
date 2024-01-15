@@ -1,0 +1,25 @@
+{
+  "dex": 459,
+  "speciesName": "Snover",
+  "speciesId": "snover",
+  "baseStats": {
+    "atk": 115,
+    "def": 105,
+    "hp": 155
+  },
+  "types": [
+    "grass",
+    "ice"
+  ],
+  "fastMoves": [
+    "ICE_SHARD",
+    "POWDER_SNOW",
+    "LEAFAGE"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "ICE_BEAM",
+    "STOMP"
+  ],
+  "released": true
+}

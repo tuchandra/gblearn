@@ -1,0 +1,26 @@
+{
+  "dex": 809,
+  "speciesName": "Melmetal",
+  "speciesId": "melmetal",
+  "baseStats": {
+    "atk": 226,
+    "def": 190,
+    "hp": 264
+  },
+  "types": [
+    "steel",
+    "none"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "FLASH_CANNON",
+    "HYPER_BEAM",
+    "ROCK_SLIDE",
+    "THUNDERBOLT",
+    "SUPER_POWER",
+    "DOUBLE_IRON_BASH"
+  ],
+  "released": true
+}

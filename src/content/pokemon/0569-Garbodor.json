@@ -1,0 +1,25 @@
+{
+  "dex": 569,
+  "speciesName": "Garbodor",
+  "speciesId": "garbodor",
+  "baseStats": {
+    "atk": 181,
+    "def": 164,
+    "hp": 190
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "INFESTATION",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "ACID_SPRAY",
+    "SEED_BOMB",
+    "GUNK_SHOT",
+    "BODY_SLAM"
+  ],
+  "released": true
+}

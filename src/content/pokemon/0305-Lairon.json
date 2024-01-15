@@ -1,0 +1,25 @@
+{
+  "dex": 305,
+  "speciesName": "Lairon",
+  "speciesId": "lairon",
+  "baseStats": {
+    "atk": 158,
+    "def": 198,
+    "hp": 155
+  },
+  "types": [
+    "steel",
+    "rock"
+  ],
+  "fastMoves": [
+    "IRON_TAIL",
+    "METAL_CLAW"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "HEAVY_SLAM",
+    "ROCK_SLIDE",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

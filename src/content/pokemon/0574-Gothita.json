@@ -1,0 +1,24 @@
+{
+  "dex": 574,
+  "speciesName": "Gothita",
+  "speciesId": "gothita",
+  "baseStats": {
+    "atk": 98,
+    "def": 112,
+    "hp": 128
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "PSYSHOCK",
+    "PSYCHIC"
+  ],
+  "released": true
+}

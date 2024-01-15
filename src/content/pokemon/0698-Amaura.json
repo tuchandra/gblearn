@@ -1,0 +1,25 @@
+{
+  "dex": 698,
+  "speciesName": "Amaura",
+  "speciesId": "amaura",
+  "baseStats": {
+    "atk": 124,
+    "def": 109,
+    "hp": 184
+  },
+  "types": [
+    "rock",
+    "ice"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW",
+    "FROST_BREATH"
+  ],
+  "chargedMoves": [
+    "WEATHER_BALL_ICE",
+    "ANCIENT_POWER",
+    "AURORA_BEAM",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

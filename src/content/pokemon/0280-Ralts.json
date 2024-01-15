@@ -1,0 +1,24 @@
+{
+  "dex": 280,
+  "speciesName": "Ralts",
+  "speciesId": "ralts",
+  "baseStats": {
+    "atk": 79,
+    "def": 59,
+    "hp": 99
+  },
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "DISARMING_VOICE",
+    "PSYSHOCK",
+    "SHADOW_SNEAK"
+  ],
+  "released": true
+}

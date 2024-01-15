@@ -1,0 +1,28 @@
+{
+  "dex": 131,
+  "speciesName": "Lapras",
+  "speciesId": "lapras",
+  "baseStats": {
+    "atk": 165,
+    "def": 174,
+    "hp": 277
+  },
+  "types": [
+    "water",
+    "ice"
+  ],
+  "fastMoves": [
+    "FROST_BREATH",
+    "ICE_SHARD",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "DRAGON_PULSE",
+    "HYDRO_PUMP",
+    "ICE_BEAM",
+    "SURF",
+    "SKULL_BASH"
+  ],
+  "released": true
+}

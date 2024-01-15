@@ -1,0 +1,8 @@
+{
+  "moveId": "AEROBLAST",
+  "name": "Aeroblast",
+  "type": "flying",
+  "power": 170,
+  "energyGain": 0,
+  "cooldown": 500
+}

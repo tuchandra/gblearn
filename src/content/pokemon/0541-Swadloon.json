@@ -1,0 +1,24 @@
+{
+  "dex": 541,
+  "speciesName": "Swadloon",
+  "speciesId": "swadloon",
+  "baseStats": {
+    "atk": 115,
+    "def": 162,
+    "hp": 146
+  },
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "fastMoves": [
+    "STRUGGLE_BUG",
+    "BUG_BITE"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "BUG_BUZZ",
+    "SILVER_WIND"
+  ],
+  "released": true
+}

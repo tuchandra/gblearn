@@ -1,0 +1,24 @@
+{
+  "dex": 708,
+  "speciesName": "Phantump",
+  "speciesId": "phantump",
+  "baseStats": {
+    "atk": 125,
+    "def": 103,
+    "hp": 125
+  },
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "SEED_BOMB",
+    "SHADOW_BALL",
+    "FOUL_PLAY"
+  ],
+  "released": true
+}

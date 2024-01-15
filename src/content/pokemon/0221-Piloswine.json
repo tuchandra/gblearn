@@ -1,0 +1,25 @@
+{
+  "dex": 221,
+  "speciesName": "Piloswine",
+  "speciesId": "piloswine",
+  "baseStats": {
+    "atk": 181,
+    "def": 138,
+    "hp": 225
+  },
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "fastMoves": [
+    "ICE_SHARD",
+    "POWDER_SNOW"
+  ],
+  "chargedMoves": [
+    "AVALANCHE",
+    "BULLDOZE",
+    "STONE_EDGE",
+    "HIGH_HORSEPOWER"
+  ],
+  "released": true
+}

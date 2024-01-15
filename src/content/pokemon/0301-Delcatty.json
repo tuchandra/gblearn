@@ -1,0 +1,25 @@
+{
+  "dex": 301,
+  "speciesName": "Delcatty",
+  "speciesId": "delcatty",
+  "baseStats": {
+    "atk": 132,
+    "def": 127,
+    "hp": 172
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARM",
+    "FEINT_ATTACK",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "DISARMING_VOICE",
+    "PLAY_ROUGH",
+    "WILD_CHARGE"
+  ],
+  "released": true
+}

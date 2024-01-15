@@ -1,0 +1,26 @@
+{
+  "dex": 383,
+  "speciesName": "Groudon",
+  "speciesId": "groudon",
+  "baseStats": {
+    "atk": 270,
+    "def": 228,
+    "hp": 205
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "FIRE_BLAST",
+    "SOLAR_BEAM",
+    "FIRE_PUNCH",
+    "PRECIPICE_BLADES"
+  ],
+  "released": true
+}

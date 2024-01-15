@@ -1,0 +1,26 @@
+{
+  "dex": 667,
+  "speciesName": "Litleo",
+  "speciesId": "litleo",
+  "baseStats": {
+    "atk": 139,
+    "def": 112,
+    "hp": 158
+  },
+  "types": [
+    "fire",
+    "normal"
+  ],
+  "fastMoves": [
+    "FIRE_FANG",
+    "TACKLE",
+    "EMBER",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "FLAMETHROWER",
+    "CRUNCH"
+  ],
+  "released": true
+}

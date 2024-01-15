@@ -1,0 +1,8 @@
+{
+  "moveId": "MEGA_DRAIN",
+  "name": "Mega Drain",
+  "type": "grass",
+  "power": 25,
+  "energyGain": 0,
+  "cooldown": 500
+}

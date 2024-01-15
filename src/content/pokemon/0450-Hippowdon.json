@@ -1,0 +1,29 @@
+{
+  "dex": 450,
+  "speciesName": "Hippowdon",
+  "speciesId": "hippowdon",
+  "baseStats": {
+    "atk": 201,
+    "def": 191,
+    "hp": 239
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "FIRE_FANG",
+    "THUNDER_FANG",
+    "ICE_FANG"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "EARTHQUAKE",
+    "STONE_EDGE",
+    "EARTH_POWER",
+    "WEATHER_BALL_ROCK",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 456,
+  "speciesName": "Finneon",
+  "speciesId": "finneon",
+  "baseStats": {
+    "atk": 96,
+    "def": 116,
+    "hp": 135
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "ICE_BEAM",
+    "SILVER_WIND",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

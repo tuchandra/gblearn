@@ -1,0 +1,24 @@
+{
+  "dex": 616,
+  "speciesName": "Shelmet",
+  "speciesId": "shelmet",
+  "baseStats": {
+    "atk": 72,
+    "def": 140,
+    "hp": 137
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "ACID",
+    "INFESTATION"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "BODY_SLAM",
+    "SIGNAL_BEAM"
+  ],
+  "released": true
+}

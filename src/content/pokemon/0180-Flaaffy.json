@@ -1,0 +1,25 @@
+{
+  "dex": 180,
+  "speciesName": "Flaaffy",
+  "speciesId": "flaaffy",
+  "baseStats": {
+    "atk": 145,
+    "def": 109,
+    "hp": 172
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "POWER_GEM",
+    "THUNDERBOLT",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

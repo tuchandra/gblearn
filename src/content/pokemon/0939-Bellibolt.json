@@ -1,0 +1,24 @@
+{
+  "dex": 939,
+  "speciesName": "Bellibolt",
+  "speciesId": "bellibolt",
+  "baseStats": {
+    "atk": 184,
+    "def": 165,
+    "hp": 240
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "PARABOLIC_CHARGE",
+    "DISCHARGE",
+    "ZAP_CANNON"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 383,
+  "speciesName": "Groudon (Primal)",
+  "speciesId": "groudon_primal",
+  "baseStats": {
+    "atk": 353,
+    "def": 268,
+    "hp": 218
+  },
+  "types": [
+    "fire",
+    "ground"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "FIRE_BLAST",
+    "SOLAR_BEAM",
+    "FIRE_PUNCH",
+    "PRECIPICE_BLADES"
+  ],
+  "released": true
+}

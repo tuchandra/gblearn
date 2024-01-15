@@ -1,0 +1,24 @@
+{
+  "dex": 975,
+  "speciesName": "Cetitan",
+  "speciesId": "cetitan",
+  "baseStats": {
+    "atk": 208,
+    "def": 123,
+    "hp": 347
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "ICE_SHARD",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "AVALANCHE",
+    "HEAVY_SLAM"
+  ],
+  "released": true
+}

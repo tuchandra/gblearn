@@ -1,0 +1,26 @@
+{
+  "dex": 379,
+  "speciesName": "Registeel",
+  "speciesId": "registeel",
+  "baseStats": {
+    "atk": 143,
+    "def": 285,
+    "hp": 190
+  },
+  "types": [
+    "steel",
+    "none"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "ROCK_SMASH",
+    "LOCK_ON"
+  ],
+  "chargedMoves": [
+    "FLASH_CANNON",
+    "FOCUS_BLAST",
+    "HYPER_BEAM",
+    "ZAP_CANNON"
+  ],
+  "released": true
+}

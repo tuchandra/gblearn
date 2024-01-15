@@ -1,0 +1,24 @@
+{
+  "dex": 922,
+  "speciesName": "Pawmo",
+  "speciesId": "pawmo",
+  "baseStats": {
+    "atk": 147,
+    "def": 82,
+    "hp": 155
+  },
+  "types": [
+    "electric",
+    "fighting"
+  ],
+  "fastMoves": [
+    "SPARK",
+    "CHARGE_BEAM"
+  ],
+  "chargedMoves": [
+    "THUNDERBOLT",
+    "DISCHARGE",
+    "WILD_CHARGE"
+  ],
+  "released": true
+}

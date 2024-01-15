@@ -1,0 +1,24 @@
+{
+  "dex": 375,
+  "speciesName": "Metang",
+  "speciesId": "metang",
+  "baseStats": {
+    "atk": 138,
+    "def": 176,
+    "hp": 155
+  },
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "GYRO_BALL",
+    "PSYCHIC",
+    "PSYSHOCK"
+  ],
+  "released": true
+}

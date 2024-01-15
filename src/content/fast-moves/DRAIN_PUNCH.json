@@ -1,0 +1,8 @@
+{
+  "moveId": "DRAIN_PUNCH",
+  "name": "Drain Punch",
+  "type": "fighting",
+  "power": 20,
+  "energyGain": 0,
+  "cooldown": 500
+}

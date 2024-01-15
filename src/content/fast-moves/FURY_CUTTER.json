@@ -1,0 +1,8 @@
+{
+  "moveId": "FURY_CUTTER",
+  "name": "Fury Cutter",
+  "type": "bug",
+  "power": 2,
+  "energyGain": 4,
+  "cooldown": 500
+}

@@ -1,0 +1,22 @@
+{
+  "dex": 265,
+  "speciesName": "Wurmple",
+  "speciesId": "wurmple",
+  "baseStats": {
+    "atk": 75,
+    "def": 59,
+    "hp": 128
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": true
+}

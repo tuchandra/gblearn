@@ -1,0 +1,24 @@
+{
+  "dex": 161,
+  "speciesName": "Sentret",
+  "speciesId": "sentret",
+  "baseStats": {
+    "atk": 79,
+    "def": 73,
+    "hp": 111
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "DIG",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

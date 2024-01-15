@@ -1,0 +1,28 @@
+{
+  "dex": 55,
+  "speciesName": "Golduck",
+  "speciesId": "golduck",
+  "baseStats": {
+    "atk": 191,
+    "def": 162,
+    "hp": 190
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "HYDRO_PUMP",
+    "ICE_BEAM",
+    "PSYCHIC",
+    "BUBBLE_BEAM",
+    "SYNCHRONOISE",
+    "CROSS_CHOP",
+    "LIQUIDATION"
+  ],
+  "released": true
+}

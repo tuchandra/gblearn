@@ -1,0 +1,8 @@
+{
+  "moveId": "LEAF_TORNADO",
+  "name": "Leaf Tornado",
+  "type": "grass",
+  "power": 45,
+  "energyGain": 0,
+  "cooldown": 500
+}

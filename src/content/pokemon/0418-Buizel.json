@@ -1,0 +1,24 @@
+{
+  "dex": 418,
+  "speciesName": "Buizel",
+  "speciesId": "buizel",
+  "baseStats": {
+    "atk": 132,
+    "def": 67,
+    "hp": 146
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "SWIFT",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

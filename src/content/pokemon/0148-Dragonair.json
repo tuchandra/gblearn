@@ -1,0 +1,25 @@
+{
+  "dex": 148,
+  "speciesName": "Dragonair",
+  "speciesId": "dragonair",
+  "baseStats": {
+    "atk": 163,
+    "def": 135,
+    "hp": 156
+  },
+  "types": [
+    "dragon",
+    "none"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "IRON_TAIL"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "DRAGON_PULSE",
+    "WRAP",
+    "BODY_SLAM"
+  ],
+  "released": true
+}

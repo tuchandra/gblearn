@@ -1,0 +1,24 @@
+{
+  "dex": 659,
+  "speciesName": "Bunnelby",
+  "speciesId": "bunnelby",
+  "baseStats": {
+    "atk": 68,
+    "def": 72,
+    "hp": 116
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "BULLDOZE",
+    "EARTHQUAKE"
+  ],
+  "released": true
+}

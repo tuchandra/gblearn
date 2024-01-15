@@ -1,0 +1,26 @@
+{
+  "dex": 760,
+  "speciesName": "Bewear",
+  "speciesId": "bewear",
+  "baseStats": {
+    "atk": 226,
+    "def": 141,
+    "hp": 260
+  },
+  "types": [
+    "normal",
+    "fighting"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "LOW_KICK",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "SUPER_POWER",
+    "PAYBACK",
+    "STOMP",
+    "DRAIN_PUNCH"
+  ],
+  "released": true
+}

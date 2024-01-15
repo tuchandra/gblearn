@@ -1,0 +1,25 @@
+{
+  "dex": 249,
+  "speciesName": "Lugia",
+  "speciesId": "lugia",
+  "baseStats": {
+    "atk": 193,
+    "def": 310,
+    "hp": 235
+  },
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "EXTRASENSORY"
+  ],
+  "chargedMoves": [
+    "FUTURE_SIGHT",
+    "HYDRO_PUMP",
+    "SKY_ATTACK",
+    "AEROBLAST"
+  ],
+  "released": true
+}

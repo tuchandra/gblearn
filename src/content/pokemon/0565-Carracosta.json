@@ -1,0 +1,25 @@
+{
+  "dex": 565,
+  "speciesName": "Carracosta",
+  "speciesId": "carracosta",
+  "baseStats": {
+    "atk": 192,
+    "def": 197,
+    "hp": 179
+  },
+  "types": [
+    "water",
+    "rock"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "SURF",
+    "ANCIENT_POWER",
+    "BODY_SLAM",
+    "LIQUIDATION"
+  ],
+  "released": true
+}

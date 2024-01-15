@@ -1,0 +1,29 @@
+{
+  "dex": 130,
+  "speciesName": "Gyarados",
+  "speciesId": "gyarados",
+  "baseStats": {
+    "atk": 237,
+    "def": 186,
+    "hp": 216
+  },
+  "types": [
+    "water",
+    "flying"
+  ],
+  "fastMoves": [
+    "BITE",
+    "DRAGON_BREATH",
+    "DRAGON_TAIL",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "DRAGON_PULSE",
+    "HYDRO_PUMP",
+    "OUTRAGE",
+    "TWISTER",
+    "AQUA_TAIL"
+  ],
+  "released": true
+}

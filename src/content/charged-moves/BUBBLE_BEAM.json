@@ -1,0 +1,13 @@
+{
+  "moveId": "BUBBLE_BEAM",
+  "name": "Bubble Beam",
+  "type": "water",
+  "power": 25,
+  "energy": 40,
+  "buffs": [
+    -1,
+    0
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": "1"
+}

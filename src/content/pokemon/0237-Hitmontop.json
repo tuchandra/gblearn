@@ -1,0 +1,25 @@
+{
+  "dex": 237,
+  "speciesName": "Hitmontop",
+  "speciesId": "hitmontop",
+  "baseStats": {
+    "atk": 173,
+    "def": 207,
+    "hp": 137
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "GYRO_BALL",
+    "STONE_EDGE",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

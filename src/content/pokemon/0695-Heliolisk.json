@@ -1,0 +1,27 @@
+{
+  "dex": 695,
+  "speciesName": "Heliolisk",
+  "speciesId": "heliolisk",
+  "baseStats": {
+    "atk": 219,
+    "def": 168,
+    "hp": 158
+  },
+  "types": [
+    "electric",
+    "normal"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "VOLT_SWITCH",
+    "MUD_SLAP"
+  ],
+  "chargedMoves": [
+    "PARABOLIC_CHARGE",
+    "BULLDOZE",
+    "THUNDERBOLT",
+    "GRASS_KNOT",
+    "BREAKING_SWIPE"
+  ],
+  "released": true
+}

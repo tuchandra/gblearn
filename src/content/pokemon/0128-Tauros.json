@@ -1,0 +1,25 @@
+{
+  "dex": 128,
+  "speciesName": "Tauros",
+  "speciesId": "tauros",
+  "baseStats": {
+    "atk": 198,
+    "def": 183,
+    "hp": 181
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "HORN_ATTACK",
+    "IRON_HEAD",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "FLAME_WHEEL",
+  "name": "Flame Wheel",
+  "type": "fire",
+  "power": 60,
+  "energyGain": 0,
+  "cooldown": 500
+}

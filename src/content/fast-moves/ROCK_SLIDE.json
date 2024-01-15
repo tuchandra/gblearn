@@ -1,0 +1,8 @@
+{
+  "moveId": "ROCK_SLIDE",
+  "name": "Rock Slide",
+  "type": "rock",
+  "power": 75,
+  "energyGain": 0,
+  "cooldown": 500
+}

@@ -1,0 +1,27 @@
+{
+  "dex": 254,
+  "speciesName": "Sceptile (Mega)",
+  "speciesId": "sceptile_mega",
+  "baseStats": {
+    "atk": 320,
+    "def": 186,
+    "hp": 172
+  },
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "EARTHQUAKE",
+    "LEAF_BLADE",
+    "FRENZY_PLANT",
+    "DRAGON_CLAW",
+    "BREAKING_SWIPE"
+  ],
+  "released": true
+}

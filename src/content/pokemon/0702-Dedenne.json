@@ -1,0 +1,24 @@
+{
+  "dex": 702,
+  "speciesName": "Dedenne",
+  "speciesId": "dedenne",
+  "baseStats": {
+    "atk": 164,
+    "def": 134,
+    "hp": 167
+  },
+  "types": [
+    "electric",
+    "fairy"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "PLAY_ROUGH",
+    "PARABOLIC_CHARGE"
+  ],
+  "released": true
+}

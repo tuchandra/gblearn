@@ -1,0 +1,8 @@
+{
+  "moveId": "POUND",
+  "name": "Pound",
+  "type": "normal",
+  "power": 4,
+  "energyGain": 4,
+  "cooldown": 1000
+}

@@ -1,0 +1,13 @@
+{
+  "moveId": "SKULL_BASH",
+  "name": "Skull Bash",
+  "type": "normal",
+  "power": 130,
+  "energy": 75,
+  "buffs": [
+    0,
+    1
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

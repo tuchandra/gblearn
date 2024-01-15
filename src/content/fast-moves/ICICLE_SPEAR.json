@@ -1,0 +1,8 @@
+{
+  "moveId": "ICICLE_SPEAR",
+  "name": "Icicle Spear",
+  "type": "ice",
+  "power": 65,
+  "energyGain": 0,
+  "cooldown": 500
+}

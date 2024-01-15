@@ -1,0 +1,25 @@
+{
+  "dex": 434,
+  "speciesName": "Stunky",
+  "speciesId": "stunky",
+  "baseStats": {
+    "atk": 121,
+    "def": 90,
+    "hp": 160
+  },
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "fastMoves": [
+    "BITE",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "FLAMETHROWER",
+    "SLUDGE_BOMB",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

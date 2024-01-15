@@ -1,0 +1,24 @@
+{
+  "dex": 962,
+  "speciesName": "Bombirdier",
+  "speciesId": "bombirdier",
+  "baseStats": {
+    "atk": 198,
+    "def": 172,
+    "hp": 172
+  },
+  "types": [
+    "flying",
+    "dark"
+  ],
+  "fastMoves": [
+    "WING_ATTACK",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "PAYBACK",
+    "AERIAL_ACE",
+    "FLY"
+  ],
+  "released": true
+}

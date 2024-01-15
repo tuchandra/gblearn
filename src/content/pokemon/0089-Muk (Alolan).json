@@ -1,0 +1,26 @@
+{
+  "dex": 89,
+  "speciesName": "Muk (Alolan)",
+  "speciesId": "muk_alolan",
+  "baseStats": {
+    "atk": 190,
+    "def": 172,
+    "hp": 233
+  },
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "fastMoves": [
+    "BITE",
+    "POISON_JAB",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "GUNK_SHOT",
+    "SLUDGE_WAVE",
+    "ACID_SPRAY"
+  ],
+  "released": true
+}

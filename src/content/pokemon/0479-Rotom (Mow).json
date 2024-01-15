@@ -1,0 +1,24 @@
+{
+  "dex": 479,
+  "speciesName": "Rotom (Mow)",
+  "speciesId": "rotom_mow",
+  "baseStats": {
+    "atk": 204,
+    "def": 219,
+    "hp": 137
+  },
+  "types": [
+    "electric",
+    "grass"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "OMINOUS_WIND",
+    "THUNDER",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

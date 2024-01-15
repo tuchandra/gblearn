@@ -1,0 +1,8 @@
+{
+  "moveId": "STOMP",
+  "name": "Stomp",
+  "type": "normal",
+  "power": 55,
+  "energyGain": 0,
+  "cooldown": 500
+}

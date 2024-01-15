@@ -1,0 +1,26 @@
+{
+  "dex": 205,
+  "speciesName": "Forretress",
+  "speciesId": "forretress",
+  "baseStats": {
+    "atk": 161,
+    "def": 205,
+    "hp": 181
+  },
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "HEAVY_SLAM",
+    "ROCK_TOMB",
+    "SAND_TOMB",
+    "MIRROR_SHOT"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 101,
+  "speciesName": "Electrode",
+  "speciesId": "electrode",
+  "baseStats": {
+    "atk": 173,
+    "def": 173,
+    "hp": 155
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "SPARK",
+    "TACKLE",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "HYPER_BEAM",
+    "THUNDERBOLT",
+    "FOUL_PLAY"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 624,
+  "speciesName": "Pawniard",
+  "speciesId": "pawniard",
+  "baseStats": {
+    "atk": 154,
+    "def": 114,
+    "hp": 128
+  },
+  "types": [
+    "dark",
+    "steel"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "NIGHT_SLASH",
+    "IRON_HEAD",
+    "X_SCISSOR"
+  ],
+  "released": true
+}

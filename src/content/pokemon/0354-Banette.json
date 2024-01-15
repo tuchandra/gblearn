@@ -1,0 +1,24 @@
+{
+  "dex": 354,
+  "speciesName": "Banette",
+  "speciesId": "banette",
+  "baseStats": {
+    "atk": 218,
+    "def": 126,
+    "hp": 162
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "HEX",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "SHADOW_BALL",
+    "THUNDER"
+  ],
+  "released": true
+}

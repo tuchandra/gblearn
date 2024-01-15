@@ -1,0 +1,25 @@
+{
+  "dex": 794,
+  "speciesName": "Buzzwole",
+  "speciesId": "buzzwole",
+  "baseStats": {
+    "atk": 236,
+    "def": 196,
+    "hp": 216
+  },
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "POWER_UP_PUNCH",
+    "FELL_STINGER",
+    "LUNGE",
+    "SUPER_POWER"
+  ],
+  "released": true
+}

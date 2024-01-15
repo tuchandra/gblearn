@@ -1,0 +1,24 @@
+{
+  "dex": 775,
+  "speciesName": "Komala",
+  "speciesId": "komala",
+  "baseStats": {
+    "atk": 216,
+    "def": 165,
+    "hp": 163
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "ROLLOUT",
+    "YAWN"
+  ],
+  "chargedMoves": [
+    "PLAY_ROUGH",
+    "BULLDOZE",
+    "PAYBACK"
+  ],
+  "released": true
+}

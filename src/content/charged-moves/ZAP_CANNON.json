@@ -1,0 +1,13 @@
+{
+  "moveId": "ZAP_CANNON",
+  "name": "Zap Cannon",
+  "type": "electric",
+  "power": 150,
+  "energy": 80,
+  "buffs": [
+    -1,
+    0
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".66"
+}

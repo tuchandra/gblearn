@@ -1,0 +1,22 @@
+{
+  "dex": 412,
+  "speciesName": "Burmy (Trash)",
+  "speciesId": "burmy_trash",
+  "baseStats": {
+    "atk": 53,
+    "def": 83,
+    "hp": 120
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": true
+}

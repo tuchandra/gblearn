@@ -1,0 +1,27 @@
+{
+  "dex": 689,
+  "speciesName": "Barbaracle",
+  "speciesId": "barbaracle",
+  "baseStats": {
+    "atk": 194,
+    "def": 205,
+    "hp": 176
+  },
+  "types": [
+    "rock",
+    "water"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "MUD_SLAP",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "SKULL_BASH",
+    "CROSS_CHOP",
+    "STONE_EDGE",
+    "GRASS_KNOT",
+    "RAZOR_SHELL"
+  ],
+  "released": true
+}

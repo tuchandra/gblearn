@@ -1,0 +1,21 @@
+{
+  "dex": 374,
+  "speciesName": "Beldum",
+  "speciesId": "beldum",
+  "baseStats": {
+    "atk": 96,
+    "def": 132,
+    "hp": 120
+  },
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "fastMoves": [
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": true
+}

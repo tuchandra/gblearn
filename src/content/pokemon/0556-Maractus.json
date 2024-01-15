@@ -1,0 +1,24 @@
+{
+  "dex": 556,
+  "speciesName": "Maractus",
+  "speciesId": "maractus",
+  "baseStats": {
+    "atk": 201,
+    "def": 130,
+    "hp": 181
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "PETAL_BLIZZARD",
+    "SOLAR_BEAM"
+  ],
+  "released": true
+}

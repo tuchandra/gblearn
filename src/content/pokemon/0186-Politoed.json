@@ -1,0 +1,28 @@
+{
+  "dex": 186,
+  "speciesName": "Politoed",
+  "speciesId": "politoed",
+  "baseStats": {
+    "atk": 174,
+    "def": 179,
+    "hp": 207
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "EARTHQUAKE",
+    "HYDRO_PUMP",
+    "SURF",
+    "WEATHER_BALL_WATER",
+    "ICE_BEAM",
+    "SCALD"
+  ],
+  "released": true
+}

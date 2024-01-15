@@ -1,0 +1,7 @@
+{
+  "moveId": "HEAT_WAVE",
+  "name": "Heat Wave",
+  "type": "fire",
+  "power": 95,
+  "energy": 75
+}

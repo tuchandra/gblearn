@@ -1,0 +1,8 @@
+{
+  "moveId": "OBSTRUCT",
+  "name": "Obstruct",
+  "type": "dark",
+  "power": 15,
+  "energyGain": 0,
+  "cooldown": 500
+}

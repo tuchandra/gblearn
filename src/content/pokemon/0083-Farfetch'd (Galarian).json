@@ -1,0 +1,24 @@
+{
+  "dex": 83,
+  "speciesName": "Farfetch'd (Galarian)",
+  "speciesId": "farfetchd_galarian",
+  "baseStats": {
+    "atk": 174,
+    "def": 114,
+    "hp": 141
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "BRAVE_BIRD",
+    "LEAF_BLADE"
+  ],
+  "released": true
+}

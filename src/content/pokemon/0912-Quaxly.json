@@ -1,0 +1,24 @@
+{
+  "dex": 912,
+  "speciesName": "Quaxly",
+  "speciesId": "quaxly",
+  "baseStats": {
+    "atk": 120,
+    "def": 86,
+    "hp": 146
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "AERIAL_ACE",
+    "LIQUIDATION"
+  ],
+  "released": true
+}

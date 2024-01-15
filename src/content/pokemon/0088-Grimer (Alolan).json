@@ -1,0 +1,25 @@
+{
+  "dex": 88,
+  "speciesName": "Grimer (Alolan)",
+  "speciesId": "grimer_alolan",
+  "baseStats": {
+    "atk": 135,
+    "def": 90,
+    "hp": 190
+  },
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "fastMoves": [
+    "ACID",
+    "BITE",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "GUNK_SHOT",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

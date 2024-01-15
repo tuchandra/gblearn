@@ -1,0 +1,27 @@
+{
+  "dex": 241,
+  "speciesName": "Miltank",
+  "speciesId": "miltank",
+  "baseStats": {
+    "atk": 157,
+    "def": 193,
+    "hp": 216
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "ZEN_HEADBUTT",
+    "ROLLOUT"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "GYRO_BALL",
+    "ICE_BEAM",
+    "STOMP",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 23,
+  "speciesName": "Ekans",
+  "speciesId": "ekans",
+  "baseStats": {
+    "atk": 110,
+    "def": 97,
+    "hp": 111
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "ACID",
+    "POISON_STING"
+  ],
+  "chargedMoves": [
+    "GUNK_SHOT",
+    "POISON_FANG",
+    "SLUDGE_BOMB",
+    "WRAP"
+  ],
+  "released": true
+}

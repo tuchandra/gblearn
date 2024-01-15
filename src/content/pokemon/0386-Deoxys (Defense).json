@@ -1,0 +1,24 @@
+{
+  "dex": 386,
+  "speciesName": "Deoxys (Defense)",
+  "speciesId": "deoxys_defense",
+  "baseStats": {
+    "atk": 144,
+    "def": 330,
+    "hp": 137
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "PSYCHO_BOOST",
+    "ROCK_SLIDE",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

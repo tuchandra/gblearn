@@ -1,0 +1,7 @@
+{
+  "moveId": "HYDRO_CANNON",
+  "name": "Hydro Cannon",
+  "type": "water",
+  "power": 80,
+  "energy": 40
+}

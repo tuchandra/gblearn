@@ -1,0 +1,26 @@
+{
+  "dex": 139,
+  "speciesName": "Omastar",
+  "speciesId": "omastar",
+  "baseStats": {
+    "atk": 207,
+    "def": 201,
+    "hp": 172
+  },
+  "types": [
+    "rock",
+    "water"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "ROCK_THROW",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "HYDRO_PUMP",
+    "ROCK_BLAST",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

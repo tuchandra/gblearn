@@ -1,0 +1,26 @@
+{
+  "dex": 923,
+  "speciesName": "Pawmot",
+  "speciesId": "pawmot",
+  "baseStats": {
+    "atk": 232,
+    "def": 141,
+    "hp": 172
+  },
+  "types": [
+    "electric",
+    "fighting"
+  ],
+  "fastMoves": [
+    "SPARK",
+    "CHARGE_BEAM",
+    "LOW_KICK"
+  ],
+  "chargedMoves": [
+    "THUNDERBOLT",
+    "DISCHARGE",
+    "WILD_CHARGE",
+    "CLOSE_COMBAT"
+  ],
+  "released": true
+}

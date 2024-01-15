@@ -1,0 +1,24 @@
+{
+  "dex": 457,
+  "speciesName": "Lumineon",
+  "speciesId": "lumineon",
+  "baseStats": {
+    "atk": 142,
+    "def": 170,
+    "hp": 170
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "SILVER_WIND",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

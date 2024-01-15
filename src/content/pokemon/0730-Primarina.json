@@ -1,0 +1,25 @@
+{
+  "dex": 730,
+  "speciesName": "Primarina",
+  "speciesId": "primarina",
+  "baseStats": {
+    "atk": 232,
+    "def": 195,
+    "hp": 190
+  },
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "fastMoves": [
+    "CHARM",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "PSYCHIC",
+    "HYDRO_PUMP",
+    "MOONBLAST",
+    "DISARMING_VOICE"
+  ],
+  "released": true
+}

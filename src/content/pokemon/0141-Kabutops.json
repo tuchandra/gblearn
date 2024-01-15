@@ -1,0 +1,26 @@
+{
+  "dex": 141,
+  "speciesName": "Kabutops",
+  "speciesId": "kabutops",
+  "baseStats": {
+    "atk": 220,
+    "def": 186,
+    "hp": 155
+  },
+  "types": [
+    "rock",
+    "water"
+  ],
+  "fastMoves": [
+    "FURY_CUTTER",
+    "MUD_SHOT",
+    "ROCK_SMASH",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "STONE_EDGE",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

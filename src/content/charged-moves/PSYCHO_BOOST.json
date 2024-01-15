@@ -1,0 +1,13 @@
+{
+  "moveId": "PSYCHO_BOOST",
+  "name": "Psycho Boost",
+  "type": "psychic",
+  "power": 70,
+  "energy": 35,
+  "buffs": [
+    -2,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 194,
+  "speciesName": "Wooper",
+  "speciesId": "wooper",
+  "baseStats": {
+    "atk": 75,
+    "def": 66,
+    "hp": 146
+  },
+  "types": [
+    "water",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "DIG",
+    "MUD_BOMB"
+  ],
+  "released": true
+}

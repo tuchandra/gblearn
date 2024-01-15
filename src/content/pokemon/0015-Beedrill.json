@@ -1,0 +1,27 @@
+{
+  "dex": 15,
+  "speciesName": "Beedrill",
+  "speciesId": "beedrill",
+  "baseStats": {
+    "atk": 169,
+    "def": 130,
+    "hp": 163
+  },
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "INFESTATION",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "SLUDGE_BOMB",
+    "X_SCISSOR",
+    "FELL_STINGER",
+    "DRILL_RUN"
+  ],
+  "released": true
+}

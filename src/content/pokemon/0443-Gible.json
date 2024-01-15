@@ -1,0 +1,24 @@
+{
+  "dex": 443,
+  "speciesName": "Gible",
+  "speciesId": "gible",
+  "baseStats": {
+    "atk": 124,
+    "def": 84,
+    "hp": 151
+  },
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "DIG",
+    "TWISTER"
+  ],
+  "released": true
+}

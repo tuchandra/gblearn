@@ -1,0 +1,29 @@
+{
+  "dex": 97,
+  "speciesName": "Hypno",
+  "speciesId": "hypno",
+  "baseStats": {
+    "atk": 144,
+    "def": 193,
+    "hp": 198
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "FOCUS_BLAST",
+    "FUTURE_SIGHT",
+    "PSYCHIC",
+    "PSYSHOCK",
+    "SHADOW_BALL",
+    "FIRE_PUNCH",
+    "ICE_PUNCH",
+    "THUNDER_PUNCH"
+  ],
+  "released": true
+}

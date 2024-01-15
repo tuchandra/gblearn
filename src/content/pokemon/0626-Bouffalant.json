@@ -1,0 +1,25 @@
+{
+  "dex": 626,
+  "speciesName": "Bouffalant",
+  "speciesId": "bouffalant",
+  "baseStats": {
+    "atk": 195,
+    "def": 182,
+    "hp": 216
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "ZEN_HEADBUTT",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "MEGAHORN",
+    "STOMP",
+    "SKULL_BASH",
+    "EARTHQUAKE"
+  ],
+  "released": true
+}

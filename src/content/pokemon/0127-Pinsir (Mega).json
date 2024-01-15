@@ -1,0 +1,27 @@
+{
+  "dex": 127,
+  "speciesName": "Pinsir (Mega)",
+  "speciesId": "pinsir_mega",
+  "baseStats": {
+    "atk": 305,
+    "def": 231,
+    "hp": 163
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "FURY_CUTTER",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "SUBMISSION",
+    "VICE_GRIP",
+    "X_SCISSOR",
+    "SUPER_POWER"
+  ],
+  "released": true
+}

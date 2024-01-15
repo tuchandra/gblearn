@@ -1,0 +1,25 @@
+{
+  "dex": 52,
+  "speciesName": "Meowth",
+  "speciesId": "meowth",
+  "baseStats": {
+    "atk": 92,
+    "def": 78,
+    "hp": 120
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "DARK_PULSE",
+    "FOUL_PLAY",
+    "NIGHT_SLASH"
+  ],
+  "released": true
+}

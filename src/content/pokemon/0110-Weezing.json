@@ -1,0 +1,26 @@
+{
+  "dex": 110,
+  "speciesName": "Weezing",
+  "speciesId": "weezing",
+  "baseStats": {
+    "atk": 174,
+    "def": 197,
+    "hp": 163
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "ACID",
+    "INFESTATION",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "SHADOW_BALL",
+    "SLUDGE_BOMB",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

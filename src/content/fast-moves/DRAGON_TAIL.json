@@ -1,0 +1,8 @@
+{
+  "moveId": "DRAGON_TAIL",
+  "name": "Dragon Tail",
+  "type": "dragon",
+  "power": 13,
+  "energyGain": 9,
+  "cooldown": 1500
+}

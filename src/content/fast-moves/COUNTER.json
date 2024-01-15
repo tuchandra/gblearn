@@ -1,0 +1,8 @@
+{
+  "moveId": "COUNTER",
+  "name": "Counter",
+  "type": "fighting",
+  "power": 8,
+  "energyGain": 7,
+  "cooldown": 1000
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "HYPER_BEAM",
+  "name": "Hyper Beam",
+  "type": "normal",
+  "power": 150,
+  "energyGain": 0,
+  "cooldown": 500
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 146,
+  "speciesName": "Moltres (Galarian)",
+  "speciesId": "moltres_galarian",
+  "baseStats": {
+    "atk": 202,
+    "def": 231,
+    "hp": 207
+  },
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "fastMoves": [
+    "SUCKER_PUNCH",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "PAYBACK",
+    "ANCIENT_POWER",
+    "BRAVE_BIRD"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 531,
+  "speciesName": "Audino",
+  "speciesId": "audino",
+  "baseStats": {
+    "atk": 114,
+    "def": 163,
+    "hp": 230
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "DISARMING_VOICE",
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM"
+  ],
+  "released": true
+}

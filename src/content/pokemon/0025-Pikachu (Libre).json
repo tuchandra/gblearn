@@ -1,0 +1,24 @@
+{
+  "dex": 25,
+  "speciesName": "Pikachu (Libre)",
+  "speciesId": "pikachu_libre",
+  "baseStats": {
+    "atk": 112,
+    "def": 96,
+    "hp": 111
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "FLYING_PRESS",
+    "PLAY_ROUGH",
+    "THUNDER_PUNCH"
+  ],
+  "released": true
+}

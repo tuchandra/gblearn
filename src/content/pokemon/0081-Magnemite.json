@@ -1,0 +1,25 @@
+{
+  "dex": 81,
+  "speciesName": "Magnemite",
+  "speciesId": "magnemite",
+  "baseStats": {
+    "atk": 165,
+    "def": 121,
+    "hp": 93
+  },
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "fastMoves": [
+    "SPARK",
+    "THUNDER_SHOCK",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "MAGNET_BOMB",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

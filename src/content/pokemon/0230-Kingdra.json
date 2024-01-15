@@ -1,0 +1,26 @@
+{
+  "dex": 230,
+  "speciesName": "Kingdra",
+  "speciesId": "kingdra",
+  "baseStats": {
+    "atk": 194,
+    "def": 194,
+    "hp": 181
+  },
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "WATER_GUN",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "HYDRO_PUMP",
+    "OUTRAGE",
+    "OCTAZOOKA"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 33,
+  "speciesName": "Nidorino",
+  "speciesId": "nidorino",
+  "baseStats": {
+    "atk": 137,
+    "def": 111,
+    "hp": 156
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "POISON_JAB",
+    "POISON_STING"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "HORN_ATTACK",
+    "SLUDGE_BOMB",
+    "ICE_BEAM"
+  ],
+  "released": true
+}

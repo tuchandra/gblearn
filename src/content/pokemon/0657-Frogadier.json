@@ -1,0 +1,24 @@
+{
+  "dex": 657,
+  "speciesName": "Frogadier",
+  "speciesId": "frogadier",
+  "baseStats": {
+    "atk": 168,
+    "def": 114,
+    "hp": 144
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "BUBBLE"
+  ],
+  "chargedMoves": [
+    "WATER_PULSE",
+    "AERIAL_ACE",
+    "SURF"
+  ],
+  "released": true
+}

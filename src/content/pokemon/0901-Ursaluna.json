@@ -1,0 +1,27 @@
+{
+  "dex": 901,
+  "speciesName": "Ursaluna",
+  "speciesId": "ursaluna",
+  "baseStats": {
+    "atk": 243,
+    "def": 181,
+    "hp": 277
+  },
+  "types": [
+    "ground",
+    "normal"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "FIRE_PUNCH",
+    "THUNDER_PUNCH",
+    "AERIAL_ACE",
+    "HIGH_HORSEPOWER",
+    "ICE_PUNCH",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

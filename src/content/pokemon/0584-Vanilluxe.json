@@ -1,0 +1,24 @@
+{
+  "dex": 584,
+  "speciesName": "Vanilluxe",
+  "speciesId": "vanilluxe",
+  "baseStats": {
+    "atk": 218,
+    "def": 184,
+    "hp": 174
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "FROST_BREATH",
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "FLASH_CANNON",
+    "SIGNAL_BEAM"
+  ],
+  "released": true
+}

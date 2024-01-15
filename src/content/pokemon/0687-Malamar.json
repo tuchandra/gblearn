@@ -1,0 +1,25 @@
+{
+  "dex": 687,
+  "speciesName": "Malamar",
+  "speciesId": "malamar",
+  "baseStats": {
+    "atk": 177,
+    "def": 165,
+    "hp": 200
+  },
+  "types": [
+    "dark",
+    "psychic"
+  ],
+  "fastMoves": [
+    "PECK",
+    "PSYCHO_CUT"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "FOUL_PLAY",
+    "SUPER_POWER",
+    "HYPER_BEAM"
+  ],
+  "released": true
+}

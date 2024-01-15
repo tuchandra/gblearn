@@ -1,0 +1,24 @@
+{
+  "dex": 621,
+  "speciesName": "Druddigon",
+  "speciesId": "druddigon",
+  "baseStats": {
+    "atk": 213,
+    "def": 170,
+    "hp": 184
+  },
+  "types": [
+    "dragon",
+    "none"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "NIGHT_SLASH",
+    "HYPER_BEAM"
+  ],
+  "released": true
+}

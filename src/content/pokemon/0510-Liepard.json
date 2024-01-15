@@ -1,0 +1,25 @@
+{
+  "dex": 510,
+  "speciesName": "Liepard",
+  "speciesId": "liepard",
+  "baseStats": {
+    "atk": 187,
+    "def": 106,
+    "hp": 162
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARM",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "GUNK_SHOT",
+    "PLAY_ROUGH",
+    "DARK_PULSE",
+    "PAYBACK"
+  ],
+  "released": true
+}

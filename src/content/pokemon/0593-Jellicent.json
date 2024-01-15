@@ -1,0 +1,25 @@
+{
+  "dex": 593,
+  "speciesName": "Jellicent",
+  "speciesId": "jellicent",
+  "baseStats": {
+    "atk": 159,
+    "def": 178,
+    "hp": 225
+  },
+  "types": [
+    "water",
+    "ghost"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "HEX"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "ICE_BEAM",
+    "BUBBLE_BEAM",
+    "SURF"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 154,
+  "speciesName": "Meganium",
+  "speciesId": "meganium",
+  "baseStats": {
+    "atk": 168,
+    "def": 202,
+    "hp": 190
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "VINE_WHIP",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "FRENZY_PLANT",
+    "PETAL_BLIZZARD",
+    "SOLAR_BEAM"
+  ],
+  "released": true
+}

@@ -1,0 +1,27 @@
+{
+  "dex": 244,
+  "speciesName": "Entei",
+  "speciesId": "entei",
+  "baseStats": {
+    "atk": 235,
+    "def": 171,
+    "hp": 251
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "FIRE_FANG",
+    "FIRE_SPIN"
+  ],
+  "chargedMoves": [
+    "FIRE_BLAST",
+    "FLAMETHROWER",
+    "IRON_HEAD",
+    "OVERHEAT",
+    "FLAME_CHARGE",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 380,
+  "speciesName": "Latias (Mega)",
+  "speciesId": "latias_mega",
+  "baseStats": {
+    "atk": 289,
+    "def": 297,
+    "hp": 190
+  },
+  "types": [
+    "dragon",
+    "psychic"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "ZEN_HEADBUTT",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "OUTRAGE",
+    "PSYCHIC",
+    "THUNDER",
+    "MIST_BALL"
+  ],
+  "released": true
+}

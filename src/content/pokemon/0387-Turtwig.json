@@ -1,0 +1,24 @@
+{
+  "dex": 387,
+  "speciesName": "Turtwig",
+  "speciesId": "turtwig",
+  "baseStats": {
+    "atk": 119,
+    "def": 110,
+    "hp": 146
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "ENERGY_BALL",
+    "SEED_BOMB"
+  ],
+  "released": true
+}

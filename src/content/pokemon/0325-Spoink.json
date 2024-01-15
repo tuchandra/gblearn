@@ -1,0 +1,24 @@
+{
+  "dex": 325,
+  "speciesName": "Spoink",
+  "speciesId": "spoink",
+  "baseStats": {
+    "atk": 125,
+    "def": 122,
+    "hp": 155
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "SPLASH",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "MIRROR_COAT",
+    "PSYBEAM",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

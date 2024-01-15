@@ -1,0 +1,24 @@
+{
+  "dex": 361,
+  "speciesName": "Snorunt",
+  "speciesId": "snorunt",
+  "baseStats": {
+    "atk": 95,
+    "def": 95,
+    "hp": 137
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "HEX",
+    "POWDER_SNOW"
+  ],
+  "chargedMoves": [
+    "AVALANCHE",
+    "ICY_WIND",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

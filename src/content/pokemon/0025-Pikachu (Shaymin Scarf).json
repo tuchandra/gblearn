@@ -1,0 +1,28 @@
+{
+  "dex": 25,
+  "speciesName": "Pikachu (Shaymin Scarf)",
+  "speciesId": "pikachu_shaymin",
+  "baseStats": {
+    "atk": 112,
+    "def": 96,
+    "hp": 111
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "PRESENT",
+    "QUICK_ATTACK",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "SURF",
+    "THUNDER",
+    "THUNDERBOLT",
+    "WILD_CHARGE",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

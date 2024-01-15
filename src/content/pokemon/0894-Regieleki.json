@@ -1,0 +1,25 @@
+{
+  "dex": 894,
+  "speciesName": "Regieleki",
+  "speciesId": "regieleki",
+  "baseStats": {
+    "atk": 250,
+    "def": 125,
+    "hp": 190
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "LOCK_ON",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "ZAP_CANNON",
+    "THUNDER",
+    "HYPER_BEAM"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 397,
+  "speciesName": "Staravia",
+  "speciesId": "staravia",
+  "baseStats": {
+    "atk": 142,
+    "def": 94,
+    "hp": 146
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BRAVE_BIRD",
+    "HEAT_WAVE",
+    "FLY"
+  ],
+  "released": true
+}

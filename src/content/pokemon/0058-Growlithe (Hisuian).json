@@ -1,0 +1,24 @@
+{
+  "dex": 58,
+  "speciesName": "Growlithe (Hisuian)",
+  "speciesId": "growlithe_hisuian",
+  "baseStats": {
+    "atk": 142,
+    "def": 92,
+    "hp": 155
+  },
+  "types": [
+    "fire",
+    "rock"
+  ],
+  "fastMoves": [
+    "BITE",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "ROCK_SLIDE",
+    "CRUNCH",
+    "FLAMETHROWER"
+  ],
+  "released": true
+}

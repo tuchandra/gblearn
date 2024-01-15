@@ -1,0 +1,26 @@
+{
+  "dex": 711,
+  "speciesName": "Gourgeist (Small)",
+  "speciesId": "gourgeist_small",
+  "baseStats": {
+    "atk": 171,
+    "def": 219,
+    "hp": 146
+  },
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "fastMoves": [
+    "HEX",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "SEED_BOMB",
+    "SHADOW_BALL",
+    "FOUL_PLAY",
+    "FIRE_BLAST",
+    "POLTERGEIST"
+  ],
+  "released": true
+}

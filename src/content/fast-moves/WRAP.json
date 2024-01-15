@@ -1,0 +1,8 @@
+{
+  "moveId": "WRAP",
+  "name": "Wrap",
+  "type": "normal",
+  "power": 60,
+  "energyGain": 0,
+  "cooldown": 500
+}

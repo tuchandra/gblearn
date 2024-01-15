@@ -1,0 +1,26 @@
+{
+  "dex": 135,
+  "speciesName": "Jolteon",
+  "speciesId": "jolteon",
+  "baseStats": {
+    "atk": 232,
+    "def": 182,
+    "hp": 163
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "LAST_RESORT",
+    "THUNDER",
+    "THUNDERBOLT",
+    "ZAP_CANNON"
+  ],
+  "released": true
+}

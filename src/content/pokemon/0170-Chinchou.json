@@ -1,0 +1,24 @@
+{
+  "dex": 170,
+  "speciesName": "Chinchou",
+  "speciesId": "chinchou",
+  "baseStats": {
+    "atk": 106,
+    "def": 97,
+    "hp": 181
+  },
+  "types": [
+    "water",
+    "electric"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "BUBBLE_BEAM",
+    "THUNDERBOLT",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

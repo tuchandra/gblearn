@@ -1,0 +1,24 @@
+{
+  "dex": 571,
+  "speciesName": "Zoroark",
+  "speciesId": "zoroark",
+  "baseStats": {
+    "atk": 250,
+    "def": 127,
+    "hp": 155
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "SHADOW_CLAW",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "FOUL_PLAY",
+    "SLUDGE_BOMB",
+    "FLAMETHROWER"
+  ],
+  "released": true
+}

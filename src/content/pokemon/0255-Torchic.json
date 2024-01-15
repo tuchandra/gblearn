@@ -1,0 +1,24 @@
+{
+  "dex": 255,
+  "speciesName": "Torchic",
+  "speciesId": "torchic",
+  "baseStats": {
+    "atk": 130,
+    "def": 87,
+    "hp": 128
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "FLAMETHROWER",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

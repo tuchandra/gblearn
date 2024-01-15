@@ -1,0 +1,58 @@
+{
+  "dex": 151,
+  "speciesName": "Mew",
+  "speciesId": "mew",
+  "baseStats": {
+    "atk": 210,
+    "def": 210,
+    "hp": 225
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "CUT",
+    "DRAGON_TAIL",
+    "FROST_BREATH",
+    "INFESTATION",
+    "POISON_JAB",
+    "POUND",
+    "ROCK_SMASH",
+    "SHADOW_CLAW",
+    "SNARL",
+    "STEEL_WING",
+    "STRUGGLE_BUG",
+    "VOLT_SWITCH",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "BLIZZARD",
+    "BULLDOZE",
+    "DARK_PULSE",
+    "DAZZLING_GLEAM",
+    "DRAGON_CLAW",
+    "ENERGY_BALL",
+    "FLAME_CHARGE",
+    "FLASH_CANNON",
+    "FOCUS_BLAST",
+    "GRASS_KNOT",
+    "GYRO_BALL",
+    "HYPER_BEAM",
+    "ICE_BEAM",
+    "LOW_SWEEP",
+    "OVERHEAT",
+    "PSYCHIC",
+    "PSYSHOCK",
+    "ROCK_SLIDE",
+    "SOLAR_BEAM",
+    "STONE_EDGE",
+    "SURF",
+    "THUNDER",
+    "THUNDERBOLT",
+    "WILD_CHARGE"
+  ],
+  "released": true
+}

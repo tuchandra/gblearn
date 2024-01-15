@@ -1,0 +1,24 @@
+{
+  "dex": 710,
+  "speciesName": "Pumpkaboo (Average)",
+  "speciesId": "pumpkaboo_average",
+  "baseStats": {
+    "atk": 121,
+    "def": 123,
+    "hp": 135
+  },
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "GRASS_KNOT",
+    "SHADOW_SNEAK",
+    "FOUL_PLAY"
+  ],
+  "released": true
+}

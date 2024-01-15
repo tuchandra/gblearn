@@ -1,0 +1,25 @@
+{
+  "dex": 784,
+  "speciesName": "Kommo-o",
+  "speciesId": "kommo_o",
+  "baseStats": {
+    "atk": 222,
+    "def": 240,
+    "hp": 181
+  },
+  "types": [
+    "dragon",
+    "fighting"
+  ],
+  "fastMoves": [
+    "POISON_JAB",
+    "DRAGON_TAIL"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "CLOSE_COMBAT",
+    "FLAMETHROWER",
+    "BOOMBURST"
+  ],
+  "released": true
+}

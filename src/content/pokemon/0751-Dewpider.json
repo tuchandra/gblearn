@@ -1,0 +1,24 @@
+{
+  "dex": 751,
+  "speciesName": "Dewpider",
+  "speciesId": "dewpider",
+  "baseStats": {
+    "atk": 72,
+    "def": 117,
+    "hp": 116
+  },
+  "types": [
+    "water",
+    "bug"
+  ],
+  "fastMoves": [
+    "INFESTATION",
+    "BUG_BITE"
+  ],
+  "chargedMoves": [
+    "WATER_PULSE",
+    "BUBBLE_BEAM",
+    "MIRROR_COAT"
+  ],
+  "released": true
+}

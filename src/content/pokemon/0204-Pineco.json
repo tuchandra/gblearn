@@ -1,0 +1,24 @@
+{
+  "dex": 204,
+  "speciesName": "Pineco",
+  "speciesId": "pineco",
+  "baseStats": {
+    "atk": 108,
+    "def": 122,
+    "hp": 137
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "GYRO_BALL",
+    "ROCK_TOMB",
+    "SAND_TOMB"
+  ],
+  "released": true
+}

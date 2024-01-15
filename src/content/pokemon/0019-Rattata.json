@@ -1,0 +1,24 @@
+{
+  "dex": 19,
+  "speciesName": "Rattata",
+  "speciesId": "rattata",
+  "baseStats": {
+    "atk": 103,
+    "def": 70,
+    "hp": 102
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "DIG",
+    "HYPER_FANG"
+  ],
+  "released": true
+}

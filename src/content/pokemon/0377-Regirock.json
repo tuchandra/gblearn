@@ -1,0 +1,26 @@
+{
+  "dex": 377,
+  "speciesName": "Regirock",
+  "speciesId": "regirock",
+  "baseStats": {
+    "atk": 179,
+    "def": 309,
+    "hp": 190
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "ROCK_THROW",
+    "LOCK_ON"
+  ],
+  "chargedMoves": [
+    "FOCUS_BLAST",
+    "STONE_EDGE",
+    "ZAP_CANNON",
+    "EARTHQUAKE"
+  ],
+  "released": true
+}

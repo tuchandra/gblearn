@@ -1,0 +1,23 @@
+{
+  "dex": 756,
+  "speciesName": "Shiinotic",
+  "speciesId": "shiinotic",
+  "baseStats": {
+    "atk": 154,
+    "def": 168,
+    "hp": 155
+  },
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "fastMoves": [
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "MOONBLAST",
+    "SEED_BOMB",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

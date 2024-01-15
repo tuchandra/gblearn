@@ -1,0 +1,25 @@
+{
+  "dex": 392,
+  "speciesName": "Infernape",
+  "speciesId": "infernape",
+  "baseStats": {
+    "atk": 222,
+    "def": 151,
+    "hp": 183
+  },
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "fastMoves": [
+    "FIRE_SPIN",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "FLAMETHROWER",
+    "SOLAR_BEAM",
+    "BLAST_BURN"
+  ],
+  "released": true
+}

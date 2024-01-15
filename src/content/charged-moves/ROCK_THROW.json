@@ -1,0 +1,7 @@
+{
+  "moveId": "ROCK_THROW",
+  "name": "Rock Throw",
+  "type": "rock",
+  "power": 8,
+  "energy": 0
+}

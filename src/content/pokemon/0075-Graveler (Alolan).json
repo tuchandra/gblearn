@@ -1,0 +1,24 @@
+{
+  "dex": 75,
+  "speciesName": "Graveler (Alolan)",
+  "speciesId": "graveler_alolan",
+  "baseStats": {
+    "atk": 164,
+    "def": 164,
+    "hp": 146
+  },
+  "types": [
+    "rock",
+    "electric"
+  ],
+  "fastMoves": [
+    "ROCK_THROW",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "ROCK_BLAST",
+    "STONE_EDGE",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

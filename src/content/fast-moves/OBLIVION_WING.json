@@ -1,0 +1,8 @@
+{
+  "moveId": "OBLIVION_WING",
+  "name": "Oblivion Wing",
+  "type": "flying",
+  "power": 85,
+  "energyGain": 0,
+  "cooldown": 500
+}

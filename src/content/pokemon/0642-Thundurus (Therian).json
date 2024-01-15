@@ -1,0 +1,25 @@
+{
+  "dex": 642,
+  "speciesName": "Thundurus (Therian)",
+  "speciesId": "thundurus_therian",
+  "baseStats": {
+    "atk": 295,
+    "def": 161,
+    "hp": 188
+  },
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "fastMoves": [
+    "BITE",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "SLUDGE_WAVE",
+    "THUNDER",
+    "FOCUS_BLAST",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

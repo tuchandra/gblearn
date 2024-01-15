@@ -1,0 +1,27 @@
+{
+  "dex": 652,
+  "speciesName": "Chesnaught",
+  "speciesId": "chesnaught",
+  "baseStats": {
+    "atk": 201,
+    "def": 204,
+    "hp": 204
+  },
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "SMACK_DOWN",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "GYRO_BALL",
+    "ENERGY_BALL",
+    "SUPER_POWER",
+    "SOLAR_BEAM",
+    "FRENZY_PLANT"
+  ],
+  "released": true
+}

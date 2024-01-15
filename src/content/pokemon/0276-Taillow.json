@@ -1,0 +1,22 @@
+{
+  "dex": 276,
+  "speciesName": "Taillow",
+  "speciesId": "taillow",
+  "baseStats": {
+    "atk": 106,
+    "def": 61,
+    "hp": 120
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE"
+  ],
+  "released": true
+}

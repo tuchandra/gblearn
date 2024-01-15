@@ -1,0 +1,27 @@
+{
+  "dex": 160,
+  "speciesName": "Feraligatr",
+  "speciesId": "feraligatr",
+  "baseStats": {
+    "atk": 205,
+    "def": 188,
+    "hp": 198
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "WATER_GUN",
+    "WATERFALL",
+    "ICE_FANG"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "HYDRO_CANNON",
+    "HYDRO_PUMP",
+    "ICE_BEAM"
+  ],
+  "released": true
+}

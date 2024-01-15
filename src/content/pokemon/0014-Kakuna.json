@@ -1,0 +1,22 @@
+{
+  "dex": 14,
+  "speciesName": "Kakuna",
+  "speciesId": "kakuna",
+  "baseStats": {
+    "atk": 46,
+    "def": 75,
+    "hp": 128
+  },
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "POISON_STING"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": true
+}

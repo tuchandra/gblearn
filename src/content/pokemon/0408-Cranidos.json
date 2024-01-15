@@ -1,0 +1,24 @@
+{
+  "dex": 408,
+  "speciesName": "Cranidos",
+  "speciesId": "cranidos",
+  "baseStats": {
+    "atk": 218,
+    "def": 71,
+    "hp": 167
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "TAKE_DOWN",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "BULLDOZE",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

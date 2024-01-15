@@ -1,0 +1,8 @@
+{
+  "moveId": "LUNGE",
+  "name": "Lunge",
+  "type": "bug",
+  "power": 60,
+  "energyGain": 0,
+  "cooldown": 500
+}

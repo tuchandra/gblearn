@@ -1,0 +1,24 @@
+{
+  "dex": 296,
+  "speciesName": "Makuhita",
+  "speciesId": "makuhita",
+  "baseStats": {
+    "atk": 99,
+    "def": 54,
+    "hp": 176
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "CROSS_CHOP",
+    "HEAVY_SLAM",
+    "LOW_SWEEP"
+  ],
+  "released": true
+}

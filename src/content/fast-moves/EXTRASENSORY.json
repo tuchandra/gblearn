@@ -1,0 +1,8 @@
+{
+  "moveId": "EXTRASENSORY",
+  "name": "Extrasensory",
+  "type": "psychic",
+  "power": 8,
+  "energyGain": 10,
+  "cooldown": 1500
+}

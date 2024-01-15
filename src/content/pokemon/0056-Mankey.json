@@ -1,0 +1,24 @@
+{
+  "dex": 56,
+  "speciesName": "Mankey",
+  "speciesId": "mankey",
+  "baseStats": {
+    "atk": 148,
+    "def": 82,
+    "hp": 120
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "KARATE_CHOP",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "CROSS_CHOP",
+    "LOW_SWEEP"
+  ],
+  "released": true
+}

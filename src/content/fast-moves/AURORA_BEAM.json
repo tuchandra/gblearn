@@ -1,0 +1,8 @@
+{
+  "moveId": "AURORA_BEAM",
+  "name": "Aurora Beam",
+  "type": "ice",
+  "power": 80,
+  "energyGain": 0,
+  "cooldown": 500
+}

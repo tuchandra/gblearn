@@ -1,0 +1,13 @@
+{
+  "moveId": "TRAILBLAZE",
+  "name": "Trailblaze",
+  "type": "grass",
+  "power": 65,
+  "energy": 50,
+  "buffs": [
+    1,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 389,
+  "speciesName": "Torterra",
+  "speciesId": "torterra",
+  "baseStats": {
+    "atk": 202,
+    "def": 188,
+    "hp": 216
+  },
+  "types": [
+    "grass",
+    "ground"
+  ],
+  "fastMoves": [
+    "BITE",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "SOLAR_BEAM",
+    "SAND_TOMB",
+    "STONE_EDGE",
+    "FRENZY_PLANT"
+  ],
+  "released": true
+}

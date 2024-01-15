@@ -1,0 +1,25 @@
+{
+  "dex": 83,
+  "speciesName": "Farfetch'd",
+  "speciesId": "farfetchd",
+  "baseStats": {
+    "atk": 124,
+    "def": 115,
+    "hp": 141
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "CUT",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "AIR_CUTTER",
+    "LEAF_BLADE"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 355,
+  "speciesName": "Duskull",
+  "speciesId": "duskull",
+  "baseStats": {
+    "atk": 70,
+    "def": 162,
+    "hp": 85
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "HEX"
+  ],
+  "chargedMoves": [
+    "NIGHT_SHADE",
+    "OMINOUS_WIND",
+    "SHADOW_SNEAK"
+  ],
+  "released": true
+}

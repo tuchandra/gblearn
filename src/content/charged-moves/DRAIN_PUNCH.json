@@ -1,0 +1,13 @@
+{
+  "moveId": "DRAIN_PUNCH",
+  "name": "Drain Punch",
+  "type": "fighting",
+  "power": 20,
+  "energy": 40,
+  "buffs": [
+    0,
+    1
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

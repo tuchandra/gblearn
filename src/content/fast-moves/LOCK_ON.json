@@ -1,0 +1,8 @@
+{
+  "moveId": "LOCK_ON",
+  "name": "Lock On",
+  "type": "normal",
+  "power": 1,
+  "energyGain": 5,
+  "cooldown": 500
+}

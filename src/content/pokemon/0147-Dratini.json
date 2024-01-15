@@ -1,0 +1,24 @@
+{
+  "dex": 147,
+  "speciesName": "Dratini",
+  "speciesId": "dratini",
+  "baseStats": {
+    "atk": 119,
+    "def": 91,
+    "hp": 121
+  },
+  "types": [
+    "dragon",
+    "none"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "IRON_TAIL"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "TWISTER",
+    "WRAP"
+  ],
+  "released": true
+}

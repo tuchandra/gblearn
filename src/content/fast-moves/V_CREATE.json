@@ -1,0 +1,8 @@
+{
+  "moveId": "V_CREATE",
+  "name": "V-Create",
+  "type": "fire",
+  "power": 95,
+  "energyGain": 0,
+  "cooldown": 500
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "MAGICAL_LEAF",
+  "name": "Magical Leaf",
+  "type": "grass",
+  "power": 10,
+  "energyGain": 10,
+  "cooldown": 1500
+}

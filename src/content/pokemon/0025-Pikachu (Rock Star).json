@@ -1,0 +1,24 @@
+{
+  "dex": 25,
+  "speciesName": "Pikachu (Rock Star)",
+  "speciesId": "pikachu_rock_star",
+  "baseStats": {
+    "atk": 112,
+    "def": 96,
+    "hp": 111
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "METEOR_MASH",
+    "THUNDER_PUNCH",
+    "PLAY_ROUGH"
+  ],
+  "released": true
+}

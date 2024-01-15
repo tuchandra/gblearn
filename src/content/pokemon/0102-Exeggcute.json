@@ -1,0 +1,24 @@
+{
+  "dex": 102,
+  "speciesName": "Exeggcute",
+  "speciesId": "exeggcute",
+  "baseStats": {
+    "atk": 107,
+    "def": 125,
+    "hp": 155
+  },
+  "types": [
+    "grass",
+    "psychic"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "PSYCHIC",
+    "SEED_BOMB"
+  ],
+  "released": true
+}

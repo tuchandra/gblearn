@@ -1,0 +1,24 @@
+{
+  "dex": 269,
+  "speciesName": "Dustox",
+  "speciesId": "dustox",
+  "baseStats": {
+    "atk": 98,
+    "def": 162,
+    "hp": 155
+  },
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "SILVER_WIND",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

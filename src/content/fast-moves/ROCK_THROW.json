@@ -1,0 +1,8 @@
+{
+  "moveId": "ROCK_THROW",
+  "name": "Rock Throw",
+  "type": "rock",
+  "power": 8,
+  "energyGain": 5,
+  "cooldown": 1000
+}

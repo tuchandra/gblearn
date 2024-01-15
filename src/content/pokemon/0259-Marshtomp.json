@@ -1,0 +1,24 @@
+{
+  "dex": 259,
+  "speciesName": "Marshtomp",
+  "speciesId": "marshtomp",
+  "baseStats": {
+    "atk": 156,
+    "def": 133,
+    "hp": 172
+  },
+  "types": [
+    "water",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "MUD_BOMB",
+    "SLUDGE",
+    "SURF"
+  ],
+  "released": true
+}

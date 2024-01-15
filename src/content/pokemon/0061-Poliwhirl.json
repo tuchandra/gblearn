@@ -1,0 +1,25 @@
+{
+  "dex": 61,
+  "speciesName": "Poliwhirl",
+  "speciesId": "poliwhirl",
+  "baseStats": {
+    "atk": 130,
+    "def": 123,
+    "hp": 163
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "BUBBLE_BEAM",
+    "MUD_BOMB",
+    "SCALD",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

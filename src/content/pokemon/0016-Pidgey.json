@@ -1,0 +1,24 @@
+{
+  "dex": 16,
+  "speciesName": "Pidgey",
+  "speciesId": "pidgey",
+  "baseStats": {
+    "atk": 85,
+    "def": 73,
+    "hp": 120
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "AIR_CUTTER",
+    "TWISTER"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 524,
+  "speciesName": "Roggenrola",
+  "speciesId": "roggenrola",
+  "baseStats": {
+    "atk": 121,
+    "def": 110,
+    "hp": 146
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "BULLDOZE",
+    "ROCK_BLAST",
+    "STONE_EDGE"
+  ],
+  "released": true
+}

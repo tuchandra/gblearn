@@ -1,0 +1,24 @@
+{
+  "dex": 156,
+  "speciesName": "Quilava",
+  "speciesId": "quilava",
+  "baseStats": {
+    "atk": 158,
+    "def": 126,
+    "hp": 151
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "FLAME_CHARGE",
+    "FLAMETHROWER"
+  ],
+  "released": true
+}

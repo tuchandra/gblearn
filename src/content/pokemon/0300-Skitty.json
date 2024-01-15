@@ -1,0 +1,24 @@
+{
+  "dex": 300,
+  "speciesName": "Skitty",
+  "speciesId": "skitty",
+  "baseStats": {
+    "atk": 84,
+    "def": 79,
+    "hp": 137
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "DISARMING_VOICE",
+    "WILD_CHARGE"
+  ],
+  "released": true
+}

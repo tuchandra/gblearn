@@ -1,0 +1,24 @@
+{
+  "dex": 274,
+  "speciesName": "Nuzleaf",
+  "speciesId": "nuzleaf",
+  "baseStats": {
+    "atk": 134,
+    "def": 78,
+    "hp": 172
+  },
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "FOUL_PLAY",
+    "GRASS_KNOT",
+    "LEAF_BLADE"
+  ],
+  "released": true
+}

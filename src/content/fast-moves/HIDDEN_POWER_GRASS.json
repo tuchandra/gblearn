@@ -1,0 +1,8 @@
+{
+  "moveId": "HIDDEN_POWER_GRASS",
+  "name": "Hidden Power (Grass)",
+  "type": "grass",
+  "power": 9,
+  "energyGain": 8,
+  "cooldown": 1500
+}

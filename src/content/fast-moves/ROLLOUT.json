@@ -1,0 +1,8 @@
+{
+  "moveId": "ROLLOUT",
+  "name": "Rollout",
+  "type": "rock",
+  "power": 5,
+  "energyGain": 13,
+  "cooldown": 1500
+}

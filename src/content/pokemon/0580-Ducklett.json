@@ -1,0 +1,24 @@
+{
+  "dex": 580,
+  "speciesName": "Ducklett",
+  "speciesId": "ducklett",
+  "baseStats": {
+    "atk": 84,
+    "def": 96,
+    "hp": 158
+  },
+  "types": [
+    "water",
+    "flying"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BUBBLE_BEAM",
+    "BRAVE_BIRD"
+  ],
+  "released": true
+}

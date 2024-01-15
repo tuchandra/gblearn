@@ -1,0 +1,25 @@
+{
+  "dex": 153,
+  "speciesName": "Bayleef",
+  "speciesId": "bayleef",
+  "baseStats": {
+    "atk": 122,
+    "def": 155,
+    "hp": 155
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "TACKLE",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "ENERGY_BALL",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

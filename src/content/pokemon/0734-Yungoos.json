@@ -1,0 +1,24 @@
+{
+  "dex": 734,
+  "speciesName": "Yungoos",
+  "speciesId": "yungoos",
+  "baseStats": {
+    "atk": 122,
+    "def": 56,
+    "hp": 134
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "HYPER_FANG",
+    "CRUNCH",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

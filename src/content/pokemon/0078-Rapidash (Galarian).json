@@ -1,0 +1,27 @@
+{
+  "dex": 78,
+  "speciesName": "Rapidash (Galarian)",
+  "speciesId": "rapidash_galarian",
+  "baseStats": {
+    "atk": 207,
+    "def": 162,
+    "hp": 163
+  },
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "PSYCHO_CUT",
+    "FAIRY_WIND"
+  ],
+  "chargedMoves": [
+    "PLAY_ROUGH",
+    "PSYCHIC",
+    "BODY_SLAM",
+    "MEGAHORN",
+    "HIGH_HORSEPOWER"
+  ],
+  "released": true
+}

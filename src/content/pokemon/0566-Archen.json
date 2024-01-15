@@ -1,0 +1,24 @@
+{
+  "dex": 566,
+  "speciesName": "Archen",
+  "speciesId": "archen",
+  "baseStats": {
+    "atk": 213,
+    "def": 89,
+    "hp": 146
+  },
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "ANCIENT_POWER",
+    "CRUNCH"
+  ],
+  "released": true
+}

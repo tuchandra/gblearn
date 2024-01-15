@@ -1,0 +1,13 @@
+{
+  "moveId": "SILVER_WIND",
+  "name": "Silver Wind",
+  "type": "bug",
+  "power": 60,
+  "energy": 45,
+  "buffs": [
+    1,
+    1
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": ".1"
+}

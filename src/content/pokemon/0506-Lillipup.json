@@ -1,0 +1,24 @@
+{
+  "dex": 506,
+  "speciesName": "Lillipup",
+  "speciesId": "lillipup",
+  "baseStats": {
+    "atk": 107,
+    "def": 86,
+    "hp": 128
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "THUNDERBOLT",
+    "ROCK_TOMB",
+    "DIG"
+  ],
+  "released": true
+}

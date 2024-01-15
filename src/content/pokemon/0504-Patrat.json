@@ -1,0 +1,24 @@
+{
+  "dex": 504,
+  "speciesName": "Patrat",
+  "speciesId": "patrat",
+  "baseStats": {
+    "atk": 98,
+    "def": 73,
+    "hp": 128
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "HYPER_FANG",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "AQUA_JET",
+  "name": "Aqua Jet",
+  "type": "water",
+  "power": 45,
+  "energyGain": 0,
+  "cooldown": 500
+}

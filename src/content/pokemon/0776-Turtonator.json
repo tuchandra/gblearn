@@ -1,0 +1,26 @@
+{
+  "dex": 776,
+  "speciesName": "Turtonator",
+  "speciesId": "turtonator",
+  "baseStats": {
+    "atk": 165,
+    "def": 215,
+    "hp": 155
+  },
+  "types": [
+    "fire",
+    "dragon"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "FIRE_SPIN",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "OVERHEAT",
+    "FLAMETHROWER",
+    "DRAGON_PULSE",
+    "FLASH_CANNON"
+  ],
+  "released": true
+}

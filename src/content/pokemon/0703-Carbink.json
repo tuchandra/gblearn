@@ -1,0 +1,24 @@
+{
+  "dex": 703,
+  "speciesName": "Carbink",
+  "speciesId": "carbink",
+  "baseStats": {
+    "atk": 95,
+    "def": 285,
+    "hp": 137
+  },
+  "types": [
+    "rock",
+    "fairy"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "ROCK_SLIDE",
+    "MOONBLAST",
+    "POWER_GEM"
+  ],
+  "released": true
+}

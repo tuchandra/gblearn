@@ -1,0 +1,27 @@
+{
+  "dex": 124,
+  "speciesName": "Jynx",
+  "speciesId": "jynx",
+  "baseStats": {
+    "atk": 223,
+    "def": 151,
+    "hp": 163
+  },
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "FROST_BREATH",
+    "POUND"
+  ],
+  "chargedMoves": [
+    "AVALANCHE",
+    "DRAINING_KISS",
+    "FOCUS_BLAST",
+    "ICE_PUNCH",
+    "PSYSHOCK"
+  ],
+  "released": true
+}

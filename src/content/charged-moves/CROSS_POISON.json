@@ -1,0 +1,13 @@
+{
+  "moveId": "CROSS_POISON",
+  "name": "Cross Poison",
+  "type": "poison",
+  "power": 50,
+  "energy": 35,
+  "buffs": [
+    2,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": ".125"
+}

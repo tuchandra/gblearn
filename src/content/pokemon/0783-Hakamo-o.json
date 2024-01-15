@@ -1,0 +1,24 @@
+{
+  "dex": 783,
+  "speciesName": "Hakamo-o",
+  "speciesId": "hakamo_o",
+  "baseStats": {
+    "atk": 145,
+    "def": 162,
+    "hp": 146
+  },
+  "types": [
+    "dragon",
+    "fighting"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "DRAGON_TAIL"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "BRICK_BREAK",
+    "DRAGON_PULSE"
+  ],
+  "released": true
+}

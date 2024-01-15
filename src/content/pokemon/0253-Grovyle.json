@@ -1,0 +1,24 @@
+{
+  "dex": 253,
+  "speciesName": "Grovyle",
+  "speciesId": "grovyle",
+  "baseStats": {
+    "atk": 172,
+    "def": 120,
+    "hp": 137
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "GRASS_KNOT",
+    "LEAF_BLADE"
+  ],
+  "released": true
+}

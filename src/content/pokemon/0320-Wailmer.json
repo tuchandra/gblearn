@@ -1,0 +1,25 @@
+{
+  "dex": 320,
+  "speciesName": "Wailmer",
+  "speciesId": "wailmer",
+  "baseStats": {
+    "atk": 136,
+    "def": 68,
+    "hp": 277
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "SPLASH",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "HEAVY_SLAM",
+    "WATER_PULSE",
+    "SCALD"
+  ],
+  "released": true
+}

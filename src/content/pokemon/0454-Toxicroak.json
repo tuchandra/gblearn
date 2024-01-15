@@ -1,0 +1,26 @@
+{
+  "dex": 454,
+  "speciesName": "Toxicroak",
+  "speciesId": "toxicroak",
+  "baseStats": {
+    "atk": 211,
+    "def": 133,
+    "hp": 195
+  },
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "POISON_JAB",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "DYNAMIC_PUNCH",
+    "MUD_BOMB",
+    "SLUDGE_BOMB",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

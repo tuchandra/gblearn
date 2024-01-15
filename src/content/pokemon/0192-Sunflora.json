@@ -1,0 +1,25 @@
+{
+  "dex": 192,
+  "speciesName": "Sunflora",
+  "speciesId": "sunflora",
+  "baseStats": {
+    "atk": 185,
+    "def": 135,
+    "hp": 181
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "PETAL_BLIZZARD",
+    "SLUDGE_BOMB",
+    "SOLAR_BEAM",
+    "LEAF_STORM"
+  ],
+  "released": true
+}

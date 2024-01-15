@@ -1,0 +1,26 @@
+{
+  "dex": 640,
+  "speciesName": "Virizion",
+  "speciesId": "virizion",
+  "baseStats": {
+    "atk": 192,
+    "def": 229,
+    "hp": 209
+  },
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "ZEN_HEADBUTT",
+    "DOUBLE_KICK"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "LEAF_BLADE",
+    "STONE_EDGE",
+    "SACRED_SWORD"
+  ],
+  "released": true
+}

@@ -1,0 +1,27 @@
+{
+  "dex": 127,
+  "speciesName": "Pinsir",
+  "speciesId": "pinsir",
+  "baseStats": {
+    "atk": 238,
+    "def": 182,
+    "hp": 163
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "FURY_CUTTER",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "SUBMISSION",
+    "VICE_GRIP",
+    "X_SCISSOR",
+    "SUPER_POWER"
+  ],
+  "released": true
+}

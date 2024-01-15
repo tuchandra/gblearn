@@ -1,0 +1,8 @@
+{
+  "moveId": "HYDRO_PUMP_BLASTOISE",
+  "name": "Hydro Pump Blastoise",
+  "type": "water",
+  "power": 90,
+  "energyGain": 0,
+  "cooldown": 500
+}

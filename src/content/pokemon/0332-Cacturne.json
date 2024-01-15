@@ -1,0 +1,26 @@
+{
+  "dex": 332,
+  "speciesName": "Cacturne",
+  "speciesId": "cacturne",
+  "baseStats": {
+    "atk": 221,
+    "def": 115,
+    "hp": 172
+  },
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "fastMoves": [
+    "POISON_JAB",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "DYNAMIC_PUNCH",
+    "GRASS_KNOT",
+    "PAYBACK",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

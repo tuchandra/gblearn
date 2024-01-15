@@ -1,0 +1,8 @@
+{
+  "moveId": "PSYCHO_BOOST",
+  "name": "Psycho Boost",
+  "type": "psychic",
+  "power": 70,
+  "energyGain": 0,
+  "cooldown": 500
+}

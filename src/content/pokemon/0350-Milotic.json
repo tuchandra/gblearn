@@ -1,0 +1,24 @@
+{
+  "dex": 350,
+  "speciesName": "Milotic",
+  "speciesId": "milotic",
+  "baseStats": {
+    "atk": 192,
+    "def": 219,
+    "hp": 216
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "HYPER_BEAM",
+    "SURF"
+  ],
+  "released": true
+}

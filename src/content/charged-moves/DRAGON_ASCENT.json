@@ -1,0 +1,13 @@
+{
+  "moveId": "DRAGON_ASCENT",
+  "name": "Dragon Ascent",
+  "type": "flying",
+  "power": 150,
+  "energy": 70,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

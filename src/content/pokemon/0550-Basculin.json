@@ -1,0 +1,24 @@
+{
+  "dex": 550,
+  "speciesName": "Basculin",
+  "speciesId": "basculin",
+  "baseStats": {
+    "atk": 189,
+    "def": 129,
+    "hp": 172
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "AQUA_TAIL",
+    "MUDDY_WATER"
+  ],
+  "released": true
+}

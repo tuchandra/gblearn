@@ -1,0 +1,24 @@
+{
+  "dex": 190,
+  "speciesName": "Aipom",
+  "speciesId": "aipom",
+  "baseStats": {
+    "atk": 136,
+    "def": 112,
+    "hp": 146
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "LOW_SWEEP",
+    "SWIFT"
+  ],
+  "released": true
+}

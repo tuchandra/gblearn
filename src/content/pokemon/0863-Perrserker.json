@@ -1,0 +1,26 @@
+{
+  "dex": 863,
+  "speciesName": "Perrserker",
+  "speciesId": "perrserker",
+  "baseStats": {
+    "atk": 195,
+    "def": 162,
+    "hp": 172
+  },
+  "types": [
+    "steel",
+    "none"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "IRON_HEAD",
+    "CLOSE_COMBAT",
+    "PLAY_ROUGH",
+    "FOUL_PLAY",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 260,
+  "speciesName": "Swampert (Mega)",
+  "speciesId": "swampert_mega",
+  "baseStats": {
+    "atk": 283,
+    "def": 218,
+    "hp": 225
+  },
+  "types": [
+    "water",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "SLUDGE_WAVE",
+    "SURF",
+    "HYDRO_CANNON",
+    "MUDDY_WATER"
+  ],
+  "released": true
+}

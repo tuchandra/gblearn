@@ -1,0 +1,8 @@
+{
+  "moveId": "FRUSTRATION",
+  "name": "Frustration",
+  "type": "normal",
+  "power": 10,
+  "energyGain": 0,
+  "cooldown": 500
+}

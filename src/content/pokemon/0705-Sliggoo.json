@@ -1,0 +1,25 @@
+{
+  "dex": 705,
+  "speciesName": "Sliggoo",
+  "speciesId": "sliggoo",
+  "baseStats": {
+    "atk": 159,
+    "def": 176,
+    "hp": 169
+  },
+  "types": [
+    "dragon",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "SLUDGE_WAVE",
+    "MUDDY_WATER",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 386,
+  "speciesName": "Deoxys (Attack)",
+  "speciesId": "deoxys_attack",
+  "baseStats": {
+    "atk": 414,
+    "def": 46,
+    "hp": 137
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "POISON_JAB",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "PSYCHO_BOOST",
+    "ZAP_CANNON"
+  ],
+  "released": true
+}

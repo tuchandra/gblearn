@@ -1,0 +1,26 @@
+{
+  "dex": 9,
+  "speciesName": "Blastoise (Mega)",
+  "speciesId": "blastoise_mega",
+  "baseStats": {
+    "atk": 264,
+    "def": 237,
+    "hp": 188
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "FLASH_CANNON",
+    "HYDRO_CANNON",
+    "HYDRO_PUMP",
+    "ICE_BEAM",
+    "SKULL_BASH"
+  ],
+  "released": true
+}

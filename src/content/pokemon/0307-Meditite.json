@@ -1,0 +1,24 @@
+{
+  "dex": 307,
+  "speciesName": "Meditite",
+  "speciesId": "meditite",
+  "baseStats": {
+    "atk": 78,
+    "def": 107,
+    "hp": 102
+  },
+  "types": [
+    "fighting",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "ICE_PUNCH",
+    "LOW_SWEEP",
+    "PSYSHOCK"
+  ],
+  "released": true
+}

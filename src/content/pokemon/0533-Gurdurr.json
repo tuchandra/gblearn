@@ -1,0 +1,24 @@
+{
+  "dex": 533,
+  "speciesName": "Gurdurr",
+  "speciesId": "gurdurr",
+  "baseStats": {
+    "atk": 180,
+    "def": 134,
+    "hp": 198
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "LOW_SWEEP",
+    "BRICK_BREAK",
+    "STONE_EDGE"
+  ],
+  "released": true
+}

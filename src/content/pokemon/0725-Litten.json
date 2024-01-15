@@ -1,0 +1,24 @@
+{
+  "dex": 725,
+  "speciesName": "Litten",
+  "speciesId": "litten",
+  "baseStats": {
+    "atk": 128,
+    "def": 79,
+    "hp": 128
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "FLAMETHROWER",
+    "FLAME_CHARGE",
+    "CRUNCH"
+  ],
+  "released": true
+}

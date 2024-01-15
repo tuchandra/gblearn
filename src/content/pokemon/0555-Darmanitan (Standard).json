@@ -1,0 +1,26 @@
+{
+  "dex": 555,
+  "speciesName": "Darmanitan (Standard)",
+  "speciesId": "darmanitan_standard",
+  "baseStats": {
+    "atk": 263,
+    "def": 114,
+    "hp": 233
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "FIRE_FANG",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "OVERHEAT",
+    "FOCUS_BLAST",
+    "PSYCHIC",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

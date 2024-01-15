@@ -1,0 +1,8 @@
+{
+  "moveId": "MUD_SLAP",
+  "name": "Mud Slap",
+  "type": "ground",
+  "power": 11,
+  "energyGain": 9,
+  "cooldown": 1500
+}

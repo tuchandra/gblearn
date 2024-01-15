@@ -1,0 +1,24 @@
+{
+  "dex": 289,
+  "speciesName": "Slaking",
+  "speciesId": "slaking",
+  "baseStats": {
+    "atk": 290,
+    "def": 166,
+    "hp": 284
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "YAWN"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "HYPER_BEAM",
+    "PLAY_ROUGH",
+    "BODY_SLAM"
+  ],
+  "released": true
+}

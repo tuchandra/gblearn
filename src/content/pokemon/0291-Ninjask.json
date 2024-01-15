@@ -1,0 +1,24 @@
+{
+  "dex": 291,
+  "speciesName": "Ninjask",
+  "speciesId": "ninjask",
+  "baseStats": {
+    "atk": 199,
+    "def": 112,
+    "hp": 156
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "FURY_CUTTER",
+    "METAL_CLAW"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BUG_BUZZ",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

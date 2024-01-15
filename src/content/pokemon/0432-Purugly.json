@@ -1,0 +1,24 @@
+{
+  "dex": 432,
+  "speciesName": "Purugly",
+  "speciesId": "purugly",
+  "baseStats": {
+    "atk": 172,
+    "def": 133,
+    "hp": 174
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "PLAY_ROUGH",
+    "THUNDER"
+  ],
+  "released": true
+}

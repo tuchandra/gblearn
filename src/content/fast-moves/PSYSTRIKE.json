@@ -1,0 +1,8 @@
+{
+  "moveId": "PSYSTRIKE",
+  "name": "Psystrike",
+  "type": "psychic",
+  "power": 90,
+  "energyGain": 0,
+  "cooldown": 500
+}

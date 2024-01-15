@@ -1,0 +1,25 @@
+{
+  "dex": 295,
+  "speciesName": "Exploud",
+  "speciesId": "exploud",
+  "baseStats": {
+    "atk": 179,
+    "def": 137,
+    "hp": 232
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "DISARMING_VOICE",
+    "FIRE_BLAST",
+    "BOOMBURST"
+  ],
+  "released": true
+}

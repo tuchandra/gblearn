@@ -1,0 +1,26 @@
+{
+  "dex": 466,
+  "speciesName": "Electivire",
+  "speciesId": "electivire",
+  "baseStats": {
+    "atk": 249,
+    "def": 163,
+    "hp": 181
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "THUNDER",
+    "THUNDER_PUNCH",
+    "WILD_CHARGE",
+    "ICE_PUNCH",
+    "FLAMETHROWER"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 599,
+  "speciesName": "Klink",
+  "speciesId": "klink",
+  "baseStats": {
+    "atk": 98,
+    "def": 121,
+    "hp": 120
+  },
+  "types": [
+    "steel",
+    "none"
+  ],
+  "fastMoves": [
+    "VOLT_SWITCH",
+    "CHARGE_BEAM"
+  ],
+  "chargedMoves": [
+    "VICE_GRIP",
+    "DISCHARGE",
+    "ZAP_CANNON"
+  ],
+  "released": true
+}

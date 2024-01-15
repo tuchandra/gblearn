@@ -1,0 +1,27 @@
+{
+  "dex": 866,
+  "speciesName": "Mr. Rime",
+  "speciesId": "mr_rime",
+  "baseStats": {
+    "atk": 212,
+    "def": 179,
+    "hp": 190
+  },
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ZEN_HEADBUTT",
+    "ICE_SHARD"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "ICE_PUNCH",
+    "ICY_WIND",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

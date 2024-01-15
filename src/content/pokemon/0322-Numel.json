@@ -1,0 +1,24 @@
+{
+  "dex": 322,
+  "speciesName": "Numel",
+  "speciesId": "numel",
+  "baseStats": {
+    "atk": 119,
+    "def": 79,
+    "hp": 155
+  },
+  "types": [
+    "fire",
+    "ground"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BULLDOZE",
+    "HEAT_WAVE",
+    "STOMP"
+  ],
+  "released": true
+}

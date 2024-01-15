@@ -1,0 +1,8 @@
+{
+  "moveId": "HIDDEN_POWER_ELECTRIC",
+  "name": "Hidden Power (Electric)",
+  "type": "electric",
+  "power": 9,
+  "energyGain": 8,
+  "cooldown": 1500
+}

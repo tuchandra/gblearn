@@ -1,0 +1,24 @@
+{
+  "dex": 915,
+  "speciesName": "Lechonk",
+  "speciesId": "lechonk",
+  "baseStats": {
+    "atk": 81,
+    "def": 79,
+    "hp": 144
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "BODY_SLAM",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

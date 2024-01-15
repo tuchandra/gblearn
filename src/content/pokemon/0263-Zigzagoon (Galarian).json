@@ -1,0 +1,24 @@
+{
+  "dex": 263,
+  "speciesName": "Zigzagoon (Galarian)",
+  "speciesId": "zigzagoon_galarian",
+  "baseStats": {
+    "atk": 58,
+    "def": 80,
+    "hp": 116
+  },
+  "types": [
+    "dark",
+    "normal"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "BODY_SLAM",
+    "SWIFT"
+  ],
+  "released": true
+}

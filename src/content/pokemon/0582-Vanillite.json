@@ -1,0 +1,24 @@
+{
+  "dex": 582,
+  "speciesName": "Vanillite",
+  "speciesId": "vanillite",
+  "baseStats": {
+    "atk": 118,
+    "def": 106,
+    "hp": 113
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW",
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "ICY_WIND",
+    "ICE_BEAM",
+    "SIGNAL_BEAM"
+  ],
+  "released": true
+}

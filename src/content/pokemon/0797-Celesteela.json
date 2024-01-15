@@ -1,0 +1,25 @@
+{
+  "dex": 797,
+  "speciesName": "Celesteela",
+  "speciesId": "celesteela",
+  "baseStats": {
+    "atk": 207,
+    "def": 199,
+    "hp": 219
+  },
+  "types": [
+    "steel",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "IRON_HEAD",
+    "BODY_SLAM",
+    "HEAVY_SLAM",
+    "BULLDOZE"
+  ],
+  "released": true
+}

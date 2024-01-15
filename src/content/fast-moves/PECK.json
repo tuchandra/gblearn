@@ -1,0 +1,8 @@
+{
+  "moveId": "PECK",
+  "name": "Peck",
+  "type": "flying",
+  "power": 6,
+  "energyGain": 5,
+  "cooldown": 1000
+}

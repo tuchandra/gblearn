@@ -1,0 +1,25 @@
+{
+  "dex": 491,
+  "speciesName": "Darkrai",
+  "speciesId": "darkrai",
+  "baseStats": {
+    "atk": 285,
+    "def": 198,
+    "hp": 172
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "FOCUS_BLAST",
+    "SHADOW_BALL",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

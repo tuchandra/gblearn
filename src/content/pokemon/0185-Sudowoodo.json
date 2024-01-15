@@ -1,0 +1,27 @@
+{
+  "dex": 185,
+  "speciesName": "Sudowoodo",
+  "speciesId": "sudowoodo",
+  "baseStats": {
+    "atk": 167,
+    "def": 176,
+    "hp": 172
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "ROCK_SLIDE",
+    "STONE_EDGE",
+    "ROCK_TOMB",
+    "METEOR_BEAM",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

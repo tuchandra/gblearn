@@ -1,0 +1,25 @@
+{
+  "dex": 649,
+  "speciesName": "Genesect",
+  "speciesId": "genesect",
+  "baseStats": {
+    "atk": 252,
+    "def": 199,
+    "hp": 174
+  },
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "X_SCISSOR",
+    "MAGNET_BOMB",
+    "HYPER_BEAM",
+    "TECHNO_BLAST_NORMAL"
+  ],
+  "released": true
+}

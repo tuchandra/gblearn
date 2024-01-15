@@ -1,0 +1,7 @@
+{
+  "moveId": "DRILL_RUN",
+  "name": "Drill Run",
+  "type": "ground",
+  "power": 80,
+  "energy": 45
+}

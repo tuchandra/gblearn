@@ -1,0 +1,24 @@
+{
+  "dex": 19,
+  "speciesName": "Rattata (Alolan)",
+  "speciesId": "rattata_alolan",
+  "baseStats": {
+    "atk": 103,
+    "def": 70,
+    "hp": 102
+  },
+  "types": [
+    "dark",
+    "normal"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "HYPER_FANG",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

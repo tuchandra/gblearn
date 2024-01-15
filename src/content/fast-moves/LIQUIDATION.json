@@ -1,0 +1,8 @@
+{
+  "moveId": "LIQUIDATION",
+  "name": "Liquidation",
+  "type": "water",
+  "power": 70,
+  "energyGain": 0,
+  "cooldown": 500
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 635,
+  "speciesName": "Hydreigon",
+  "speciesId": "hydreigon",
+  "baseStats": {
+    "atk": 256,
+    "def": 188,
+    "hp": 211
+  },
+  "types": [
+    "dark",
+    "dragon"
+  ],
+  "fastMoves": [
+    "BITE",
+    "DRAGON_BREATH"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "DARK_PULSE",
+    "FLASH_CANNON",
+    "BRUTAL_SWING"
+  ],
+  "released": true
+}

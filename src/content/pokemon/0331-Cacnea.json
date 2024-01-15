@@ -1,0 +1,26 @@
+{
+  "dex": 331,
+  "speciesName": "Cacnea",
+  "speciesId": "cacnea",
+  "baseStats": {
+    "atk": 156,
+    "def": 74,
+    "hp": 137
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "POISON_STING",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "GRASS_KNOT",
+    "SEED_BOMB",
+    "PAYBACK",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

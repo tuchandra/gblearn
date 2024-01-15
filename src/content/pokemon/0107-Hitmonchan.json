@@ -1,0 +1,28 @@
+{
+  "dex": 107,
+  "speciesName": "Hitmonchan",
+  "speciesId": "hitmonchan",
+  "baseStats": {
+    "atk": 193,
+    "def": 197,
+    "hp": 137
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "BULLET_PUNCH",
+    "COUNTER",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "CLOSE_COMBAT",
+    "FIRE_PUNCH",
+    "ICE_PUNCH",
+    "THUNDER_PUNCH",
+    "POWER_UP_PUNCH"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 900,
+  "speciesName": "Kleavor",
+  "speciesId": "kleavor",
+  "baseStats": {
+    "atk": 253,
+    "def": 174,
+    "hp": 172
+  },
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "X_SCISSOR",
+    "ROCK_SLIDE",
+    "STONE_EDGE",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

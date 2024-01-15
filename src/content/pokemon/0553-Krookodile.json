@@ -1,0 +1,24 @@
+{
+  "dex": 553,
+  "speciesName": "Krookodile",
+  "speciesId": "krookodile",
+  "baseStats": {
+    "atk": 229,
+    "def": 158,
+    "hp": 216
+  },
+  "types": [
+    "ground",
+    "dark"
+  ],
+  "fastMoves": [
+    "SNARL",
+    "MUD_SLAP"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "CRUNCH",
+    "OUTRAGE"
+  ],
+  "released": true
+}

@@ -1,0 +1,22 @@
+{
+  "dex": 562,
+  "speciesName": "Yamask (Galarian)",
+  "speciesId": "yamask_galarian",
+  "baseStats": {
+    "atk": 95,
+    "def": 141,
+    "hp": 116
+  },
+  "types": [
+    "ground",
+    "ghost"
+  ],
+  "fastMoves": [
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "NIGHT_SHADE",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

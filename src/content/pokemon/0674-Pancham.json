@@ -1,0 +1,24 @@
+{
+  "dex": 674,
+  "speciesName": "Pancham",
+  "speciesId": "pancham",
+  "baseStats": {
+    "atk": 145,
+    "def": 107,
+    "hp": 167
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "LOW_SWEEP",
+    "CRUNCH",
+    "BODY_SLAM"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 240,
+  "speciesName": "Magby",
+  "speciesId": "magby",
+  "baseStats": {
+    "atk": 151,
+    "def": 99,
+    "hp": 128
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "KARATE_CHOP"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "FIRE_PUNCH",
+    "FLAME_BURST",
+    "FLAMETHROWER"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 164,
+  "speciesName": "Noctowl",
+  "speciesId": "noctowl",
+  "baseStats": {
+    "atk": 145,
+    "def": 156,
+    "hp": 225
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "EXTRASENSORY",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "NIGHT_SHADE",
+    "PSYCHIC",
+    "SKY_ATTACK",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

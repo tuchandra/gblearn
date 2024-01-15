@@ -1,0 +1,24 @@
+{
+  "dex": 290,
+  "speciesName": "Nincada",
+  "speciesId": "nincada",
+  "baseStats": {
+    "atk": 80,
+    "def": 126,
+    "hp": 104
+  },
+  "types": [
+    "bug",
+    "ground"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BUG_BUZZ",
+    "NIGHT_SLASH"
+  ],
+  "released": true
+}

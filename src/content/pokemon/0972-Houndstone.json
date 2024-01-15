@@ -1,0 +1,24 @@
+{
+  "dex": 972,
+  "speciesName": "Houndstone",
+  "speciesId": "houndstone",
+  "baseStats": {
+    "atk": 186,
+    "def": 195,
+    "hp": 176
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "LICK",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "DIG",
+    "PSYCHIC_FANGS"
+  ],
+  "released": true
+}

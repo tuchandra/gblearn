@@ -1,0 +1,26 @@
+{
+  "dex": 86,
+  "speciesName": "Seel",
+  "speciesId": "seel",
+  "baseStats": {
+    "atk": 85,
+    "def": 121,
+    "hp": 163
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "ICE_SHARD",
+    "LICK",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "AQUA_TAIL",
+    "AURORA_BEAM",
+    "ICY_WIND"
+  ],
+  "released": true
+}

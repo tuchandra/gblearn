@@ -1,0 +1,26 @@
+{
+  "dex": 660,
+  "speciesName": "Diggersby",
+  "speciesId": "diggersby",
+  "baseStats": {
+    "atk": 112,
+    "def": 155,
+    "hp": 198
+  },
+  "types": [
+    "normal",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "HYPER_BEAM",
+    "EARTHQUAKE",
+    "FIRE_PUNCH",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

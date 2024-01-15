@@ -1,0 +1,25 @@
+{
+  "dex": 421,
+  "speciesName": "Cherrim (Sunshine)",
+  "speciesId": "cherrim_sunny",
+  "baseStats": {
+    "atk": 170,
+    "def": 153,
+    "hp": 172
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM",
+    "SOLAR_BEAM",
+    "WEATHER_BALL_FIRE"
+  ],
+  "released": true
+}

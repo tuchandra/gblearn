@@ -1,0 +1,24 @@
+{
+  "dex": 51,
+  "speciesName": "Dugtrio (Alolan)",
+  "speciesId": "dugtrio_alolan",
+  "baseStats": {
+    "atk": 201,
+    "def": 142,
+    "hp": 111
+  },
+  "types": [
+    "ground",
+    "steel"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "MUD_SLAP"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "IRON_HEAD",
+    "MUD_BOMB"
+  ],
+  "released": true
+}

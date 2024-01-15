@@ -1,0 +1,24 @@
+{
+  "dex": 480,
+  "speciesName": "Uxie",
+  "speciesId": "uxie",
+  "baseStats": {
+    "atk": 156,
+    "def": 270,
+    "hp": 181
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "EXTRASENSORY"
+  ],
+  "chargedMoves": [
+    "FUTURE_SIGHT",
+    "SWIFT",
+    "THUNDER"
+  ],
+  "released": true
+}

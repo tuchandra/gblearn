@@ -1,0 +1,24 @@
+{
+  "dex": 650,
+  "speciesName": "Chespin",
+  "speciesId": "chespin",
+  "baseStats": {
+    "atk": 110,
+    "def": 106,
+    "hp": 148
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "TAKE_DOWN",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "GYRO_BALL",
+    "SEED_BOMB",
+    "BODY_SLAM"
+  ],
+  "released": true
+}

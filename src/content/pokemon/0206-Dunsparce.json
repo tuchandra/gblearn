@@ -1,0 +1,25 @@
+{
+  "dex": 206,
+  "speciesName": "Dunsparce",
+  "speciesId": "dunsparce",
+  "baseStats": {
+    "atk": 131,
+    "def": 128,
+    "hp": 225
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "BITE",
+    "ROLLOUT"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "DRILL_RUN",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

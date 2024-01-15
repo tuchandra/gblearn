@@ -1,0 +1,24 @@
+{
+  "dex": 74,
+  "speciesName": "Geodude",
+  "speciesId": "geodude",
+  "baseStats": {
+    "atk": 132,
+    "def": 132,
+    "hp": 120
+  },
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "fastMoves": [
+    "ROCK_THROW",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "ROCK_SLIDE",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

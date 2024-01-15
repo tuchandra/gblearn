@@ -1,0 +1,7 @@
+{
+  "moveId": "EARTHQUAKE",
+  "name": "Earthquake",
+  "type": "ground",
+  "power": 110,
+  "energy": 65
+}

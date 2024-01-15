@@ -1,0 +1,26 @@
+{
+  "dex": 248,
+  "speciesName": "Tyranitar (Mega)",
+  "speciesId": "tyranitar_mega",
+  "baseStats": {
+    "atk": 309,
+    "def": 276,
+    "hp": 225
+  },
+  "types": [
+    "rock",
+    "dark"
+  ],
+  "fastMoves": [
+    "BITE",
+    "IRON_TAIL",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "FIRE_BLAST",
+    "STONE_EDGE",
+    "BRUTAL_SWING"
+  ],
+  "released": true
+}

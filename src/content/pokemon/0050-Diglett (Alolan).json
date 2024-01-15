@@ -1,0 +1,24 @@
+{
+  "dex": 50,
+  "speciesName": "Diglett (Alolan)",
+  "speciesId": "diglett_alolan",
+  "baseStats": {
+    "atk": 108,
+    "def": 81,
+    "hp": 67
+  },
+  "types": [
+    "ground",
+    "steel"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "MUD_SLAP"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "MUD_BOMB",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

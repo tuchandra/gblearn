@@ -1,0 +1,8 @@
+{
+  "moveId": "SWIFT",
+  "name": "Swift",
+  "type": "normal",
+  "power": 60,
+  "energyGain": 0,
+  "cooldown": 500
+}

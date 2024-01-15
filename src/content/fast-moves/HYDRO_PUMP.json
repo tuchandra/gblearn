@@ -1,0 +1,8 @@
+{
+  "moveId": "HYDRO_PUMP",
+  "name": "Hydro Pump",
+  "type": "water",
+  "power": 130,
+  "energyGain": 0,
+  "cooldown": 500
+}

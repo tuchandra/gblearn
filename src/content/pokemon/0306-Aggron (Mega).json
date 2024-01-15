@@ -1,0 +1,27 @@
+{
+  "dex": 306,
+  "speciesName": "Aggron (Mega)",
+  "speciesId": "aggron_mega",
+  "baseStats": {
+    "atk": 247,
+    "def": 331,
+    "hp": 172
+  },
+  "types": [
+    "steel",
+    "none"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "IRON_TAIL",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "HEAVY_SLAM",
+    "STONE_EDGE",
+    "THUNDER",
+    "ROCK_TOMB",
+    "METEOR_BEAM"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 398,
+  "speciesName": "Staraptor",
+  "speciesId": "staraptor",
+  "baseStats": {
+    "atk": 234,
+    "def": 140,
+    "hp": 198
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "WING_ATTACK",
+    "GUST"
+  ],
+  "chargedMoves": [
+    "BRAVE_BIRD",
+    "CLOSE_COMBAT",
+    "HEAT_WAVE",
+    "FLY"
+  ],
+  "released": true
+}

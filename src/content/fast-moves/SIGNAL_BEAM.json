@@ -1,0 +1,8 @@
+{
+  "moveId": "SIGNAL_BEAM",
+  "name": "Signal Beam",
+  "type": "bug",
+  "power": 75,
+  "energyGain": 0,
+  "cooldown": 500
+}

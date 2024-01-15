@@ -1,0 +1,24 @@
+{
+  "dex": 651,
+  "speciesName": "Quilladin",
+  "speciesId": "quilladin",
+  "baseStats": {
+    "atk": 146,
+    "def": 156,
+    "hp": 156
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "GYRO_BALL",
+    "ENERGY_BALL",
+    "BODY_SLAM"
+  ],
+  "released": true
+}

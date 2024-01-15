@@ -1,0 +1,27 @@
+{
+  "dex": 208,
+  "speciesName": "Steelix",
+  "speciesId": "steelix",
+  "baseStats": {
+    "atk": 148,
+    "def": 272,
+    "hp": 181
+  },
+  "types": [
+    "steel",
+    "ground"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "IRON_TAIL",
+    "THUNDER_FANG"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "EARTHQUAKE",
+    "HEAVY_SLAM",
+    "PSYCHIC_FANGS",
+    "BREAKING_SWIPE"
+  ],
+  "released": true
+}

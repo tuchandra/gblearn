@@ -1,0 +1,24 @@
+{
+  "dex": 79,
+  "speciesName": "Slowpoke (Galarian)",
+  "speciesId": "slowpoke_galarian",
+  "baseStats": {
+    "atk": 109,
+    "def": 98,
+    "hp": 207
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "IRON_TAIL"
+  ],
+  "chargedMoves": [
+    "SURF",
+    "PSYSHOCK",
+    "PSYCHIC"
+  ],
+  "released": true
+}

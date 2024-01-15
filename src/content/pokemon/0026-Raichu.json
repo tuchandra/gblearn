@@ -1,0 +1,29 @@
+{
+  "dex": 26,
+  "speciesName": "Raichu",
+  "speciesId": "raichu",
+  "baseStats": {
+    "atk": 193,
+    "def": 151,
+    "hp": 155
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "SPARK",
+    "THUNDER_SHOCK",
+    "VOLT_SWITCH",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "THUNDER",
+    "THUNDER_PUNCH",
+    "WILD_CHARGE",
+    "SKULL_BASH",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

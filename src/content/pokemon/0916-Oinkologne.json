@@ -1,0 +1,24 @@
+{
+  "dex": 916,
+  "speciesName": "Oinkologne",
+  "speciesId": "oinkologne",
+  "baseStats": {
+    "atk": 186,
+    "def": 153,
+    "hp": 242
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "BODY_SLAM",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

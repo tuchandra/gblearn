@@ -1,0 +1,24 @@
+{
+  "dex": 483,
+  "speciesName": "Dialga",
+  "speciesId": "dialga",
+  "baseStats": {
+    "atk": 275,
+    "def": 211,
+    "hp": 205
+  },
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "METAL_CLAW"
+  ],
+  "chargedMoves": [
+    "DRACO_METEOR",
+    "IRON_HEAD",
+    "THUNDER"
+  ],
+  "released": true
+}

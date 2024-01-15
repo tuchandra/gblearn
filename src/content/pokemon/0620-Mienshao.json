@@ -1,0 +1,25 @@
+{
+  "dex": 620,
+  "speciesName": "Mienshao",
+  "speciesId": "mienshao",
+  "baseStats": {
+    "atk": 258,
+    "def": 127,
+    "hp": 163
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "GRASS_KNOT",
+    "STONE_EDGE",
+    "BLAZE_KICK"
+  ],
+  "released": true
+}

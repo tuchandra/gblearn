@@ -1,0 +1,8 @@
+{
+  "moveId": "STRUGGLE",
+  "name": "Struggle",
+  "type": "normal",
+  "power": 35,
+  "energyGain": 0,
+  "cooldown": 500
+}

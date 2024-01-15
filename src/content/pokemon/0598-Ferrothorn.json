@@ -1,0 +1,26 @@
+{
+  "dex": 598,
+  "speciesName": "Ferrothorn",
+  "speciesId": "ferrothorn",
+  "baseStats": {
+    "atk": 158,
+    "def": 223,
+    "hp": 179
+  },
+  "types": [
+    "grass",
+    "steel"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "METAL_CLAW"
+  ],
+  "chargedMoves": [
+    "POWER_WHIP",
+    "FLASH_CANNON",
+    "ACID_SPRAY",
+    "THUNDER",
+    "MIRROR_SHOT"
+  ],
+  "released": true
+}

@@ -1,0 +1,27 @@
+{
+  "dex": 754,
+  "speciesName": "Lurantis",
+  "speciesId": "lurantis",
+  "baseStats": {
+    "atk": 192,
+    "def": 169,
+    "hp": 172
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "FURY_CUTTER",
+    "LEAFAGE"
+  ],
+  "chargedMoves": [
+    "LEAF_BLADE",
+    "LEAF_STORM",
+    "SUPER_POWER",
+    "X_SCISSOR",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

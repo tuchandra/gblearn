@@ -1,0 +1,24 @@
+{
+  "dex": 264,
+  "speciesName": "Linoone",
+  "speciesId": "linoone",
+  "baseStats": {
+    "atk": 142,
+    "def": 128,
+    "hp": 186
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "SHADOW_CLAW",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "GRASS_KNOT",
+    "THUNDER"
+  ],
+  "released": true
+}

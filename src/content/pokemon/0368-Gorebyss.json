@@ -1,0 +1,24 @@
+{
+  "dex": 368,
+  "speciesName": "Gorebyss",
+  "speciesId": "gorebyss",
+  "baseStats": {
+    "atk": 211,
+    "def": 179,
+    "hp": 146
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "DRAINING_KISS",
+    "PSYCHIC",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

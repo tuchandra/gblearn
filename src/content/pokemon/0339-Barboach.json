@@ -1,0 +1,25 @@
+{
+  "dex": 339,
+  "speciesName": "Barboach",
+  "speciesId": "barboach",
+  "baseStats": {
+    "atk": 93,
+    "def": 82,
+    "hp": 137
+  },
+  "types": [
+    "water",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "ICE_BEAM",
+    "MUD_BOMB",
+    "SCALD"
+  ],
+  "released": true
+}

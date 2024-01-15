@@ -1,0 +1,24 @@
+{
+  "dex": 207,
+  "speciesName": "Gligar",
+  "speciesId": "gligar",
+  "baseStats": {
+    "atk": 143,
+    "def": 184,
+    "hp": 163
+  },
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "fastMoves": [
+    "FURY_CUTTER",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "DIG",
+    "NIGHT_SLASH"
+  ],
+  "released": true
+}

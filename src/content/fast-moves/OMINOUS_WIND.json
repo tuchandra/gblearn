@@ -1,0 +1,8 @@
+{
+  "moveId": "OMINOUS_WIND",
+  "name": "Ominous Wind",
+  "type": "ghost",
+  "power": 45,
+  "energyGain": 0,
+  "cooldown": 500
+}

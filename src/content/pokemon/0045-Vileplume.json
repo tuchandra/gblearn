@@ -1,0 +1,25 @@
+{
+  "dex": 45,
+  "speciesName": "Vileplume",
+  "speciesId": "vileplume",
+  "baseStats": {
+    "atk": 202,
+    "def": 167,
+    "hp": 181
+  },
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "fastMoves": [
+    "ACID",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "MOONBLAST",
+    "PETAL_BLIZZARD",
+    "SOLAR_BEAM",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

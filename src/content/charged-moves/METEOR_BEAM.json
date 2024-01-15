@@ -1,0 +1,13 @@
+{
+  "moveId": "METEOR_BEAM",
+  "name": "Meteor Beam",
+  "type": "rock",
+  "power": 120,
+  "energy": 60,
+  "buffs": [
+    1,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

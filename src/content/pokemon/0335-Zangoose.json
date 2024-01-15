@@ -1,0 +1,24 @@
+{
+  "dex": 335,
+  "speciesName": "Zangoose",
+  "speciesId": "zangoose",
+  "baseStats": {
+    "atk": 222,
+    "def": 124,
+    "hp": 177
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "FURY_CUTTER",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "DIG",
+    "NIGHT_SLASH"
+  ],
+  "released": true
+}

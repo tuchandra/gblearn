@@ -1,0 +1,23 @@
+{
+  "dex": 742,
+  "speciesName": "Cutiefly",
+  "speciesId": "cutiefly",
+  "baseStats": {
+    "atk": 110,
+    "def": 81,
+    "hp": 120
+  },
+  "types": [
+    "bug",
+    "fairy"
+  ],
+  "fastMoves": [
+    "FAIRY_WIND",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "BUG_BUZZ"
+  ],
+  "released": true
+}

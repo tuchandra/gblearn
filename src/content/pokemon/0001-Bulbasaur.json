@@ -1,0 +1,24 @@
+{
+  "dex": 1,
+  "speciesName": "Bulbasaur",
+  "speciesId": "bulbasaur",
+  "baseStats": {
+    "atk": 118,
+    "def": 111,
+    "hp": 128
+  },
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "POWER_WHIP",
+    "SEED_BOMB",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

@@ -1,0 +1,13 @@
+{
+  "moveId": "POWER_UP_PUNCH",
+  "name": "Power-Up Punch",
+  "type": "fighting",
+  "power": 20,
+  "energy": 35,
+  "buffs": [
+    1,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

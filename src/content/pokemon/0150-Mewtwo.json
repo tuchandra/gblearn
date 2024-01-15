@@ -1,0 +1,29 @@
+{
+  "dex": 150,
+  "speciesName": "Mewtwo",
+  "speciesId": "mewtwo",
+  "baseStats": {
+    "atk": 300,
+    "def": 182,
+    "hp": 214
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "PSYCHO_CUT"
+  ],
+  "chargedMoves": [
+    "FLAMETHROWER",
+    "FOCUS_BLAST",
+    "HYPER_BEAM",
+    "ICE_BEAM",
+    "PSYCHIC",
+    "SHADOW_BALL",
+    "THUNDERBOLT",
+    "PSYSTRIKE"
+  ],
+  "released": true
+}

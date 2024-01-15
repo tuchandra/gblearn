@@ -1,0 +1,24 @@
+{
+  "dex": 411,
+  "speciesName": "Bastiodon",
+  "speciesId": "bastiodon",
+  "baseStats": {
+    "atk": 94,
+    "def": 286,
+    "hp": 155
+  },
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "fastMoves": [
+    "IRON_TAIL",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "FLAMETHROWER",
+    "FLASH_CANNON",
+    "STONE_EDGE"
+  ],
+  "released": true
+}

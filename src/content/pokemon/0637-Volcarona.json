@@ -1,0 +1,25 @@
+{
+  "dex": 637,
+  "speciesName": "Volcarona",
+  "speciesId": "volcarona",
+  "baseStats": {
+    "atk": 264,
+    "def": 189,
+    "hp": 198
+  },
+  "types": [
+    "bug",
+    "fire"
+  ],
+  "fastMoves": [
+    "FIRE_SPIN",
+    "BUG_BITE"
+  ],
+  "chargedMoves": [
+    "OVERHEAT",
+    "BUG_BUZZ",
+    "SOLAR_BEAM",
+    "HURRICANE"
+  ],
+  "released": true
+}

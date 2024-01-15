@@ -1,0 +1,24 @@
+{
+  "dex": 692,
+  "speciesName": "Clauncher",
+  "speciesId": "clauncher",
+  "baseStats": {
+    "atk": 108,
+    "def": 117,
+    "hp": 137
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "WATER_PULSE",
+    "CRABHAMMER",
+    "AQUA_JET"
+  ],
+  "released": true
+}

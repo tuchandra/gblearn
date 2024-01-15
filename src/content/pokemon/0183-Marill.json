@@ -1,0 +1,24 @@
+{
+  "dex": 183,
+  "speciesName": "Marill",
+  "speciesId": "marill",
+  "baseStats": {
+    "atk": 37,
+    "def": 93,
+    "hp": 172
+  },
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "BODY_SLAM",
+    "BUBBLE_BEAM"
+  ],
+  "released": true
+}

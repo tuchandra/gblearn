@@ -1,0 +1,13 @@
+{
+  "moveId": "OVERHEAT",
+  "name": "Overheat",
+  "type": "fire",
+  "power": 130,
+  "energy": 55,
+  "buffs": [
+    -2,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

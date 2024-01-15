@@ -1,0 +1,25 @@
+{
+  "dex": 76,
+  "speciesName": "Golem (Alolan)",
+  "speciesId": "golem_alolan",
+  "baseStats": {
+    "atk": 211,
+    "def": 198,
+    "hp": 190
+  },
+  "types": [
+    "rock",
+    "electric"
+  ],
+  "fastMoves": [
+    "ROCK_THROW",
+    "VOLT_SWITCH",
+    "ROLLOUT"
+  ],
+  "chargedMoves": [
+    "ROCK_BLAST",
+    "STONE_EDGE",
+    "WILD_CHARGE"
+  ],
+  "released": true
+}

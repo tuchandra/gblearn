@@ -1,0 +1,24 @@
+{
+  "dex": 735,
+  "speciesName": "Gumshoos",
+  "speciesId": "gumshoos",
+  "baseStats": {
+    "atk": 194,
+    "def": 113,
+    "hp": 204
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TAKE_DOWN",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "HYPER_FANG",
+    "CRUNCH",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

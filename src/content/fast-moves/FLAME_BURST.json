@@ -1,0 +1,8 @@
+{
+  "moveId": "FLAME_BURST",
+  "name": "Flame Burst",
+  "type": "fire",
+  "power": 70,
+  "energyGain": 0,
+  "cooldown": 500
+}

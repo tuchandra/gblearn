@@ -1,0 +1,28 @@
+{
+  "dex": 768,
+  "speciesName": "Golisopod",
+  "speciesId": "golisopod",
+  "baseStats": {
+    "atk": 218,
+    "def": 226,
+    "hp": 181
+  },
+  "types": [
+    "bug",
+    "water"
+  ],
+  "fastMoves": [
+    "FURY_CUTTER",
+    "METAL_CLAW",
+    "WATERFALL",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "X_SCISSOR",
+    "AQUA_JET",
+    "AERIAL_ACE",
+    "LIQUIDATION",
+    "RAZOR_SHELL"
+  ],
+  "released": true
+}

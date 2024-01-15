@@ -1,0 +1,27 @@
+{
+  "dex": 437,
+  "speciesName": "Bronzong",
+  "speciesId": "bronzong",
+  "baseStats": {
+    "atk": 161,
+    "def": 213,
+    "hp": 167
+  },
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "FEINT_ATTACK"
+  ],
+  "chargedMoves": [
+    "FLASH_CANNON",
+    "HEAVY_SLAM",
+    "PSYCHIC",
+    "BULLDOZE",
+    "PSYSHOCK",
+    "PAYBACK"
+  ],
+  "released": true
+}

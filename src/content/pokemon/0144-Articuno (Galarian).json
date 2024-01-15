@@ -1,0 +1,24 @@
+{
+  "dex": 144,
+  "speciesName": "Articuno (Galarian)",
+  "speciesId": "articuno_galarian",
+  "baseStats": {
+    "atk": 250,
+    "def": 197,
+    "hp": 207
+  },
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "PSYCHO_CUT"
+  ],
+  "chargedMoves": [
+    "FUTURE_SIGHT",
+    "ANCIENT_POWER",
+    "BRAVE_BIRD"
+  ],
+  "released": true
+}

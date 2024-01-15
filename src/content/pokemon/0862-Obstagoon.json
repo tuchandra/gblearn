@@ -1,0 +1,26 @@
+{
+  "dex": 862,
+  "speciesName": "Obstagoon",
+  "speciesId": "obstagoon",
+  "baseStats": {
+    "atk": 180,
+    "def": 194,
+    "hp": 212
+  },
+  "types": [
+    "dark",
+    "normal"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "LICK"
+  ],
+  "chargedMoves": [
+    "CROSS_CHOP",
+    "NIGHT_SLASH",
+    "HYPER_BEAM",
+    "GUNK_SHOT",
+    "OBSTRUCT"
+  ],
+  "released": true
+}

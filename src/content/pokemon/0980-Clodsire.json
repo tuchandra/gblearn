@@ -1,0 +1,27 @@
+{
+  "dex": 980,
+  "speciesName": "Clodsire",
+  "speciesId": "clodsire",
+  "baseStats": {
+    "atk": 127,
+    "def": 151,
+    "hp": 277
+  },
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "fastMoves": [
+    "POISON_STING",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "SLUDGE_BOMB",
+    "EARTHQUAKE",
+    "STONE_EDGE",
+    "ACID_SPRAY",
+    "WATER_PULSE",
+    "MEGAHORN"
+  ],
+  "released": true
+}

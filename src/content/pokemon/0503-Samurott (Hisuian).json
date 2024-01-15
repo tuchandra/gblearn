@@ -1,0 +1,26 @@
+{
+  "dex": 503,
+  "speciesName": "Samurott (Hisuian)",
+  "speciesId": "samurott_hisuian",
+  "baseStats": {
+    "atk": 218,
+    "def": 152,
+    "hp": 207
+  },
+  "types": [
+    "water",
+    "dark"
+  ],
+  "fastMoves": [
+    "FURY_CUTTER",
+    "WATERFALL",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "RAZOR_SHELL",
+    "ICY_WIND",
+    "X_SCISSOR",
+    "DARK_PULSE"
+  ],
+  "released": true
+}

@@ -1,0 +1,27 @@
+{
+  "dex": 211,
+  "speciesName": "Qwilfish",
+  "speciesId": "qwilfish",
+  "baseStats": {
+    "atk": 184,
+    "def": 138,
+    "hp": 163
+  },
+  "types": [
+    "water",
+    "poison"
+  ],
+  "fastMoves": [
+    "POISON_STING",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "ICE_BEAM",
+    "SLUDGE_WAVE",
+    "ACID_SPRAY",
+    "FELL_STINGER",
+    "SCALD"
+  ],
+  "released": true
+}

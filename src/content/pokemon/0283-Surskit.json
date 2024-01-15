@@ -1,0 +1,24 @@
+{
+  "dex": 283,
+  "speciesName": "Surskit",
+  "speciesId": "surskit",
+  "baseStats": {
+    "atk": 93,
+    "def": 87,
+    "hp": 120
+  },
+  "types": [
+    "bug",
+    "water"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "BUG_BITE"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "BUBBLE_BEAM",
+    "SIGNAL_BEAM"
+  ],
+  "released": true
+}

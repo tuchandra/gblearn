@@ -1,0 +1,25 @@
+{
+  "dex": 645,
+  "speciesName": "Landorus (Incarnate)",
+  "speciesId": "landorus_incarnate",
+  "baseStats": {
+    "atk": 261,
+    "def": 182,
+    "hp": 205
+  },
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "EARTH_POWER",
+    "OUTRAGE",
+    "ROCK_SLIDE",
+    "FOCUS_BLAST"
+  ],
+  "released": true
+}

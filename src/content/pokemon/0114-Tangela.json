@@ -1,0 +1,25 @@
+{
+  "dex": 114,
+  "speciesName": "Tangela",
+  "speciesId": "tangela",
+  "baseStats": {
+    "atk": 183,
+    "def": 169,
+    "hp": 163
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "INFESTATION",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "GRASS_KNOT",
+    "POWER_WHIP",
+    "SLUDGE_BOMB",
+    "SOLAR_BEAM"
+  ],
+  "released": true
+}

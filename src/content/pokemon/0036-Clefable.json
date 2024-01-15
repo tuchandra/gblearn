@@ -1,0 +1,28 @@
+{
+  "dex": 36,
+  "speciesName": "Clefable",
+  "speciesId": "clefable",
+  "baseStats": {
+    "atk": 178,
+    "def": 162,
+    "hp": 216
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "POUND",
+    "ZEN_HEADBUTT",
+    "CHARM",
+    "FAIRY_WIND"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "METEOR_MASH",
+    "MOONBLAST",
+    "PSYCHIC"
+  ],
+  "released": true
+}

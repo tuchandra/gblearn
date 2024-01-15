@@ -1,0 +1,26 @@
+{
+  "dex": 715,
+  "speciesName": "Noivern",
+  "speciesId": "noivern",
+  "baseStats": {
+    "atk": 205,
+    "def": 175,
+    "hp": 198
+  },
+  "types": [
+    "flying",
+    "dragon"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "DRACO_METEOR",
+    "HURRICANE",
+    "HEAT_WAVE",
+    "PSYCHIC",
+    "BOOMBURST"
+  ],
+  "released": true
+}

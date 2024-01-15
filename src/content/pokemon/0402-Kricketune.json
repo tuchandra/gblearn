@@ -1,0 +1,24 @@
+{
+  "dex": 402,
+  "speciesName": "Kricketune",
+  "speciesId": "kricketune",
+  "baseStats": {
+    "atk": 160,
+    "def": 100,
+    "hp": 184
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "FURY_CUTTER",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BUG_BUZZ",
+    "X_SCISSOR"
+  ],
+  "released": true
+}

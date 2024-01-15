@@ -1,0 +1,24 @@
+{
+  "dex": 333,
+  "speciesName": "Swablu",
+  "speciesId": "swablu",
+  "baseStats": {
+    "atk": 76,
+    "def": 132,
+    "hp": 128
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "PECK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "DISARMING_VOICE",
+    "ICE_BEAM"
+  ],
+  "released": true
+}

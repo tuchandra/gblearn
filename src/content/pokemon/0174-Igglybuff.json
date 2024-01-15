@@ -1,0 +1,25 @@
+{
+  "dex": 174,
+  "speciesName": "Igglybuff",
+  "speciesId": "igglybuff",
+  "baseStats": {
+    "atk": 69,
+    "def": 32,
+    "hp": 207
+  },
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "POUND"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "PSYCHIC",
+    "SHADOW_BALL",
+    "WILD_CHARGE"
+  ],
+  "released": true
+}

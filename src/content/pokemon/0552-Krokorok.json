@@ -1,0 +1,24 @@
+{
+  "dex": 552,
+  "speciesName": "Krokorok",
+  "speciesId": "krokorok",
+  "baseStats": {
+    "atk": 155,
+    "def": 90,
+    "hp": 155
+  },
+  "types": [
+    "ground",
+    "dark"
+  ],
+  "fastMoves": [
+    "BITE",
+    "MUD_SLAP"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "CRUNCH",
+    "BULLDOZE"
+  ],
+  "released": true
+}

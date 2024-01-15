@@ -1,0 +1,24 @@
+{
+  "dex": 606,
+  "speciesName": "Beheeyem",
+  "speciesId": "beheeyem",
+  "baseStats": {
+    "atk": 221,
+    "def": 163,
+    "hp": 181
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "ROCK_SLIDE",
+    "DARK_PULSE",
+    "PSYCHIC"
+  ],
+  "released": true
+}

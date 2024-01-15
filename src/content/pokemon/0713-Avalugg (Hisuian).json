@@ -1,0 +1,26 @@
+{
+  "dex": 713,
+  "speciesName": "Avalugg (Hisuian)",
+  "speciesId": "avalugg_hisuian",
+  "baseStats": {
+    "atk": 214,
+    "def": 238,
+    "hp": 216
+  },
+  "types": [
+    "ice",
+    "rock"
+  ],
+  "fastMoves": [
+    "BITE",
+    "TACKLE",
+    "POWDER_SNOW"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "ROCK_SLIDE",
+    "BLIZZARD",
+    "ICY_WIND"
+  ],
+  "released": true
+}

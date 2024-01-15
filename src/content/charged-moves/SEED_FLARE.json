@@ -1,0 +1,13 @@
+{
+  "moveId": "SEED_FLARE",
+  "name": "Seed Flare",
+  "type": "grass",
+  "power": 130,
+  "energy": 75,
+  "buffs": [
+    0,
+    -2
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".4"
+}

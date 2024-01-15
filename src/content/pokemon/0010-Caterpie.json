@@ -1,0 +1,22 @@
+{
+  "dex": 10,
+  "speciesName": "Caterpie",
+  "speciesId": "caterpie",
+  "baseStats": {
+    "atk": 55,
+    "def": 55,
+    "hp": 128
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": true
+}

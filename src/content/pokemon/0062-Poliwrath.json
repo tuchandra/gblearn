@@ -1,0 +1,30 @@
+{
+  "dex": 62,
+  "speciesName": "Poliwrath",
+  "speciesId": "poliwrath",
+  "baseStats": {
+    "atk": 182,
+    "def": 184,
+    "hp": 207
+  },
+  "types": [
+    "water",
+    "fighting"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "MUD_SHOT",
+    "ROCK_SMASH",
+    "COUNTER"
+  ],
+  "chargedMoves": [
+    "DYNAMIC_PUNCH",
+    "HYDRO_PUMP",
+    "ICE_PUNCH",
+    "SUBMISSION",
+    "POWER_UP_PUNCH",
+    "SCALD",
+    "ICY_WIND"
+  ],
+  "released": true
+}

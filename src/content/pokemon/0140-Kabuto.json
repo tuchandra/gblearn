@@ -1,0 +1,24 @@
+{
+  "dex": 140,
+  "speciesName": "Kabuto",
+  "speciesId": "kabuto",
+  "baseStats": {
+    "atk": 148,
+    "def": 140,
+    "hp": 102
+  },
+  "types": [
+    "rock",
+    "water"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "AQUA_JET",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

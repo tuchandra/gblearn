@@ -1,0 +1,8 @@
+{
+  "moveId": "CRUNCH",
+  "name": "Crunch",
+  "type": "dark",
+  "power": 70,
+  "energyGain": 0,
+  "cooldown": 500
+}

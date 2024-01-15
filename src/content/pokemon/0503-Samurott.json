@@ -1,0 +1,27 @@
+{
+  "dex": 503,
+  "speciesName": "Samurott",
+  "speciesId": "samurott",
+  "baseStats": {
+    "atk": 212,
+    "def": 157,
+    "hp": 216
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "FURY_CUTTER",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "HYDRO_PUMP",
+    "BLIZZARD",
+    "MEGAHORN",
+    "RAZOR_SHELL",
+    "HYDRO_CANNON",
+    "LIQUIDATION"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 497,
+  "speciesName": "Serperior",
+  "speciesId": "serperior",
+  "baseStats": {
+    "atk": 161,
+    "def": 204,
+    "hp": 181
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "IRON_TAIL",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "GRASS_KNOT",
+    "LEAF_TORNADO",
+    "AERIAL_ACE",
+    "FRENZY_PLANT"
+  ],
+  "released": true
+}

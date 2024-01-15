@@ -1,0 +1,24 @@
+{
+  "dex": 710,
+  "speciesName": "Pumpkaboo (Super)",
+  "speciesId": "pumpkaboo_super",
+  "baseStats": {
+    "atk": 118,
+    "def": 120,
+    "hp": 153
+  },
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "GRASS_KNOT",
+    "SHADOW_SNEAK",
+    "FOUL_PLAY"
+  ],
+  "released": true
+}

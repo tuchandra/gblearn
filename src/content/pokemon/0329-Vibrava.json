@@ -1,0 +1,25 @@
+{
+  "dex": 329,
+  "speciesName": "Vibrava",
+  "speciesId": "vibrava",
+  "baseStats": {
+    "atk": 134,
+    "def": 99,
+    "hp": 137
+  },
+  "types": [
+    "ground",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "BULLDOZE",
+    "SAND_TOMB",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

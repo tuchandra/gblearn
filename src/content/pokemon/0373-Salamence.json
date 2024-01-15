@@ -1,0 +1,26 @@
+{
+  "dex": 373,
+  "speciesName": "Salamence",
+  "speciesId": "salamence",
+  "baseStats": {
+    "atk": 277,
+    "def": 168,
+    "hp": 216
+  },
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "fastMoves": [
+    "BITE",
+    "DRAGON_TAIL",
+    "FIRE_FANG"
+  ],
+  "chargedMoves": [
+    "DRACO_METEOR",
+    "FIRE_BLAST",
+    "HYDRO_PUMP",
+    "OUTRAGE"
+  ],
+  "released": true
+}

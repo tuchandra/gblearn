@@ -1,0 +1,8 @@
+{
+  "moveId": "PRESENT",
+  "name": "Present",
+  "type": "normal",
+  "power": 3,
+  "energyGain": 12,
+  "cooldown": 1500
+}

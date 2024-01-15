@@ -1,0 +1,24 @@
+{
+  "dex": 261,
+  "speciesName": "Poochyena",
+  "speciesId": "poochyena",
+  "baseStats": {
+    "atk": 96,
+    "def": 61,
+    "hp": 111
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "SNARL",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "DIG",
+    "POISON_FANG"
+  ],
+  "released": true
+}

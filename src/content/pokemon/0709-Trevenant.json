@@ -1,0 +1,24 @@
+{
+  "dex": 709,
+  "speciesName": "Trevenant",
+  "speciesId": "trevenant",
+  "baseStats": {
+    "atk": 201,
+    "def": 154,
+    "hp": 198
+  },
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "fastMoves": [
+    "SHADOW_CLAW",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "SEED_BOMB",
+    "SHADOW_BALL",
+    "FOUL_PLAY"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 193,
+  "speciesName": "Yanma",
+  "speciesId": "yanma",
+  "baseStats": {
+    "atk": 154,
+    "def": 94,
+    "hp": 163
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "ANCIENT_POWER",
+    "SILVER_WIND"
+  ],
+  "released": true
+}

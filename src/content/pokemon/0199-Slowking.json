@@ -1,0 +1,26 @@
+{
+  "dex": 199,
+  "speciesName": "Slowking",
+  "speciesId": "slowking",
+  "baseStats": {
+    "atk": 177,
+    "def": 180,
+    "hp": 216
+  },
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "FIRE_BLAST",
+    "PSYCHIC",
+    "SURF",
+    "SCALD"
+  ],
+  "released": true
+}

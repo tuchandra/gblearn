@@ -1,0 +1,24 @@
+{
+  "dex": 631,
+  "speciesName": "Heatmor",
+  "speciesId": "heatmor",
+  "baseStats": {
+    "atk": 204,
+    "def": 129,
+    "hp": 198
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "LICK",
+    "FIRE_SPIN"
+  ],
+  "chargedMoves": [
+    "FLAMETHROWER",
+    "THUNDER_PUNCH",
+    "POWER_UP_PUNCH"
+  ],
+  "released": true
+}

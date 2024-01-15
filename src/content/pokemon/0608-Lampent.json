@@ -1,0 +1,24 @@
+{
+  "dex": 608,
+  "speciesName": "Lampent",
+  "speciesId": "lampent",
+  "baseStats": {
+    "atk": 169,
+    "def": 115,
+    "hp": 155
+  },
+  "types": [
+    "ghost",
+    "fire"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "FLAME_BURST",
+    "HEAT_WAVE"
+  ],
+  "released": true
+}

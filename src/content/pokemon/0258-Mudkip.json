@@ -1,0 +1,24 @@
+{
+  "dex": 258,
+  "speciesName": "Mudkip",
+  "speciesId": "mudkip",
+  "baseStats": {
+    "atk": 126,
+    "def": 93,
+    "hp": 137
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "SLUDGE",
+    "STOMP"
+  ],
+  "released": true
+}

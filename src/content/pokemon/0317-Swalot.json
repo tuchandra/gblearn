@@ -1,0 +1,26 @@
+{
+  "dex": 317,
+  "speciesName": "Swalot",
+  "speciesId": "swalot",
+  "baseStats": {
+    "atk": 140,
+    "def": 159,
+    "hp": 225
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "INFESTATION",
+    "ROCK_SMASH",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "GUNK_SHOT",
+    "ICE_BEAM",
+    "SLUDGE_BOMB",
+    "ACID_SPRAY"
+  ],
+  "released": true
+}

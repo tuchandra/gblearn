@@ -1,0 +1,27 @@
+{
+  "dex": 38,
+  "speciesName": "Ninetales (Alolan)",
+  "speciesId": "ninetales_alolan",
+  "baseStats": {
+    "atk": 170,
+    "def": 193,
+    "hp": 177
+  },
+  "types": [
+    "ice",
+    "fairy"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "POWDER_SNOW",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "DAZZLING_GLEAM",
+    "ICE_BEAM",
+    "PSYSHOCK",
+    "WEATHER_BALL_ICE"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 288,
+  "speciesName": "Vigoroth",
+  "speciesId": "vigoroth",
+  "baseStats": {
+    "atk": 159,
+    "def": 145,
+    "hp": 190
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "BRICK_BREAK",
+    "BULLDOZE",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

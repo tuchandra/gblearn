@@ -1,0 +1,8 @@
+{
+  "moveId": "TECHNO_BLAST_CHILL",
+  "name": "Techno Blast (Chill)",
+  "type": "ice",
+  "power": 120,
+  "energyGain": 0,
+  "cooldown": 500
+}

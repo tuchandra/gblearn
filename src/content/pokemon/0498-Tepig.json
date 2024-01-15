@@ -1,0 +1,24 @@
+{
+  "dex": 498,
+  "speciesName": "Tepig",
+  "speciesId": "tepig",
+  "baseStats": {
+    "atk": 115,
+    "def": 85,
+    "hp": 163
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "FLAMETHROWER",
+    "BODY_SLAM"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 587,
+  "speciesName": "Emolga",
+  "speciesId": "emolga",
+  "baseStats": {
+    "atk": 158,
+    "def": 127,
+    "hp": 146
+  },
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "AERIAL_ACE",
+    "THUNDERBOLT",
+    "ACROBATICS"
+  ],
+  "released": true
+}

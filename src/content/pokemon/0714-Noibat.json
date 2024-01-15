@@ -1,0 +1,24 @@
+{
+  "dex": 714,
+  "speciesName": "Noibat",
+  "speciesId": "noibat",
+  "baseStats": {
+    "atk": 83,
+    "def": 73,
+    "hp": 120
+  },
+  "types": [
+    "flying",
+    "dragon"
+  ],
+  "fastMoves": [
+    "WING_ATTACK",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "AIR_CUTTER",
+    "HEAT_WAVE"
+  ],
+  "released": true
+}

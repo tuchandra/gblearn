@@ -1,0 +1,7 @@
+{
+  "moveId": "BULLDOZE",
+  "name": "Bulldoze",
+  "type": "ground",
+  "power": 80,
+  "energy": 60
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 544,
+  "speciesName": "Whirlipede",
+  "speciesId": "whirlipede",
+  "baseStats": {
+    "atk": 100,
+    "def": 173,
+    "hp": 120
+  },
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "POISON_STING"
+  ],
+  "chargedMoves": [
+    "SIGNAL_BEAM",
+    "SLUDGE_BOMB",
+    "GYRO_BALL"
+  ],
+  "released": true
+}

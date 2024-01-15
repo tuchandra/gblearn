@@ -1,0 +1,25 @@
+{
+  "dex": 786,
+  "speciesName": "Tapu Lele",
+  "speciesId": "tapu_lele",
+  "baseStats": {
+    "atk": 259,
+    "def": 208,
+    "hp": 172
+  },
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "PSYSHOCK",
+    "MOONBLAST",
+    "FOCUS_BLAST",
+    "FUTURE_SIGHT"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 688,
+  "speciesName": "Binacle",
+  "speciesId": "binacle",
+  "baseStats": {
+    "atk": 96,
+    "def": 120,
+    "hp": 123
+  },
+  "types": [
+    "rock",
+    "water"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "MUD_SLAP"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "CROSS_CHOP",
+    "DIG"
+  ],
+  "released": true
+}

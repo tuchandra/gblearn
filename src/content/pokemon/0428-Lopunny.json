@@ -1,0 +1,26 @@
+{
+  "dex": 428,
+  "speciesName": "Lopunny",
+  "speciesId": "lopunny",
+  "baseStats": {
+    "atk": 156,
+    "def": 194,
+    "hp": 163
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "POUND",
+    "DOUBLE_KICK"
+  ],
+  "chargedMoves": [
+    "FIRE_PUNCH",
+    "FOCUS_BLAST",
+    "HYPER_BEAM",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

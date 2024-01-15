@@ -1,0 +1,30 @@
+{
+  "dex": 59,
+  "speciesName": "Arcanine",
+  "speciesId": "arcanine",
+  "baseStats": {
+    "atk": 227,
+    "def": 166,
+    "hp": 207
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "FIRE_FANG",
+    "SNARL",
+    "THUNDER_FANG"
+  ],
+  "chargedMoves": [
+    "BULLDOZE",
+    "CRUNCH",
+    "FIRE_BLAST",
+    "FLAMETHROWER",
+    "WILD_CHARGE",
+    "PSYCHIC_FANGS",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

@@ -1,0 +1,27 @@
+{
+  "dex": 384,
+  "speciesName": "Rayquaza",
+  "speciesId": "rayquaza",
+  "baseStats": {
+    "atk": 284,
+    "def": 170,
+    "hp": 213
+  },
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "DRAGON_TAIL"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "ANCIENT_POWER",
+    "OUTRAGE",
+    "HURRICANE",
+    "BREAKING_SWIPE",
+    "DRAGON_ASCENT"
+  ],
+  "released": true
+}

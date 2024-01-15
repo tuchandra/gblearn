@@ -1,0 +1,8 @@
+{
+  "moveId": "SLUDGE_WAVE",
+  "name": "Sludge Wave",
+  "type": "poison",
+  "power": 110,
+  "energyGain": 0,
+  "cooldown": 500
+}

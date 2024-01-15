@@ -1,0 +1,26 @@
+{
+  "dex": 638,
+  "speciesName": "Cobalion",
+  "speciesId": "cobalion",
+  "baseStats": {
+    "atk": 192,
+    "def": 229,
+    "hp": 209
+  },
+  "types": [
+    "steel",
+    "fighting"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "ZEN_HEADBUTT",
+    "DOUBLE_KICK"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "IRON_HEAD",
+    "STONE_EDGE",
+    "SACRED_SWORD"
+  ],
+  "released": true
+}

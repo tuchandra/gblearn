@@ -1,0 +1,8 @@
+{
+  "moveId": "FOCUS_BLAST",
+  "name": "Focus Blast",
+  "type": "fighting",
+  "power": 150,
+  "energyGain": 0,
+  "cooldown": 500
+}

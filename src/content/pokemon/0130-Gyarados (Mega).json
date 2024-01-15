@@ -1,0 +1,29 @@
+{
+  "dex": 130,
+  "speciesName": "Gyarados (Mega)",
+  "speciesId": "gyarados_mega",
+  "baseStats": {
+    "atk": 292,
+    "def": 247,
+    "hp": 216
+  },
+  "types": [
+    "water",
+    "dark"
+  ],
+  "fastMoves": [
+    "BITE",
+    "DRAGON_BREATH",
+    "DRAGON_TAIL",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "DRAGON_PULSE",
+    "HYDRO_PUMP",
+    "OUTRAGE",
+    "TWISTER",
+    "AQUA_TAIL"
+  ],
+  "released": true
+}

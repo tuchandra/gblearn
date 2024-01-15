@@ -1,0 +1,8 @@
+{
+  "moveId": "HYPER_FANG",
+  "name": "Hyper Fang",
+  "type": "normal",
+  "power": 80,
+  "energyGain": 0,
+  "cooldown": 500
+}

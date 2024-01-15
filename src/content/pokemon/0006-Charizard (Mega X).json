@@ -1,0 +1,29 @@
+{
+  "dex": 6,
+  "speciesName": "Charizard (Mega X)",
+  "speciesId": "charizard_mega_x",
+  "baseStats": {
+    "atk": 273,
+    "def": 213,
+    "hp": 186
+  },
+  "types": [
+    "fire",
+    "dragon"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "EMBER",
+    "FIRE_SPIN",
+    "WING_ATTACK",
+    "DRAGON_BREATH"
+  ],
+  "chargedMoves": [
+    "BLAST_BURN",
+    "DRAGON_CLAW",
+    "FIRE_BLAST",
+    "FLAMETHROWER",
+    "OVERHEAT"
+  ],
+  "released": true
+}

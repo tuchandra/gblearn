@@ -1,0 +1,24 @@
+{
+  "dex": 273,
+  "speciesName": "Seedot",
+  "speciesId": "seedot",
+  "baseStats": {
+    "atk": 71,
+    "def": 77,
+    "hp": 120
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "FOUL_PLAY",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

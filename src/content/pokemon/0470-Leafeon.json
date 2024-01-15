@@ -1,0 +1,26 @@
+{
+  "dex": 470,
+  "speciesName": "Leafeon",
+  "speciesId": "leafeon",
+  "baseStats": {
+    "atk": 216,
+    "def": 219,
+    "hp": 163
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "RAZOR_LEAF",
+    "BULLET_SEED"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "LEAF_BLADE",
+    "SOLAR_BEAM",
+    "LAST_RESORT"
+  ],
+  "released": true
+}

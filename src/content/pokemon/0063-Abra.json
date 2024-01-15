@@ -1,0 +1,24 @@
+{
+  "dex": 63,
+  "speciesName": "Abra",
+  "speciesId": "abra",
+  "baseStats": {
+    "atk": 195,
+    "def": 82,
+    "hp": 93
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "PSYSHOCK",
+    "SHADOW_BALL",
+    "SIGNAL_BEAM"
+  ],
+  "released": true
+}

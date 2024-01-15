@@ -1,0 +1,26 @@
+{
+  "dex": 378,
+  "speciesName": "Regice",
+  "speciesId": "regice",
+  "baseStats": {
+    "atk": 179,
+    "def": 309,
+    "hp": 190
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "FROST_BREATH",
+    "ROCK_SMASH",
+    "LOCK_ON"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "EARTHQUAKE",
+    "FOCUS_BLAST",
+    "THUNDER"
+  ],
+  "released": true
+}

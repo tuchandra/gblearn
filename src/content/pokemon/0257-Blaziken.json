@@ -1,0 +1,27 @@
+{
+  "dex": 257,
+  "speciesName": "Blaziken",
+  "speciesId": "blaziken",
+  "baseStats": {
+    "atk": 240,
+    "def": 141,
+    "hp": 190
+  },
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "FIRE_SPIN"
+  ],
+  "chargedMoves": [
+    "BRAVE_BIRD",
+    "FOCUS_BLAST",
+    "OVERHEAT",
+    "STONE_EDGE",
+    "BLAST_BURN",
+    "BLAZE_KICK"
+  ],
+  "released": true
+}

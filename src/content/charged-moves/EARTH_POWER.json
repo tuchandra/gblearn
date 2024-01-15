@@ -1,0 +1,13 @@
+{
+  "moveId": "EARTH_POWER",
+  "name": "Earth Power",
+  "type": "ground",
+  "power": 90,
+  "energy": 55,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".1"
+}

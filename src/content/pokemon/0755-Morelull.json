@@ -1,0 +1,22 @@
+{
+  "dex": 755,
+  "speciesName": "Morelull",
+  "speciesId": "morelull",
+  "baseStats": {
+    "atk": 108,
+    "def": 119,
+    "hp": 120
+  },
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "fastMoves": [
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "SEED_BOMB"
+  ],
+  "released": true
+}

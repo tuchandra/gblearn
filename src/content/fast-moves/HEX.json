@@ -1,0 +1,8 @@
+{
+  "moveId": "HEX",
+  "name": "Hex",
+  "type": "ghost",
+  "power": 6,
+  "energyGain": 12,
+  "cooldown": 1500
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 21,
+  "speciesName": "Spearow",
+  "speciesId": "spearow",
+  "baseStats": {
+    "atk": 112,
+    "def": 60,
+    "hp": 120
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "DRILL_PECK",
+    "SKY_ATTACK",
+    "TWISTER"
+  ],
+  "released": true
+}

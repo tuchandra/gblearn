@@ -1,0 +1,21 @@
+{
+  "dex": 999,
+  "speciesName": "Gimmighoul",
+  "speciesId": "gimmighoul",
+  "baseStats": {
+    "atk": 140,
+    "def": 76,
+    "hp": 128
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

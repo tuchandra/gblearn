@@ -1,0 +1,25 @@
+{
+  "dex": 561,
+  "speciesName": "Sigilyph",
+  "speciesId": "sigilyph",
+  "baseStats": {
+    "atk": 204,
+    "def": 167,
+    "hp": 176
+  },
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "AIR_CUTTER",
+    "PSYBEAM",
+    "ANCIENT_POWER",
+    "SIGNAL_BEAM"
+  ],
+  "released": true
+}

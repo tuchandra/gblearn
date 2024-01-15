@@ -1,0 +1,24 @@
+{
+  "dex": 867,
+  "speciesName": "Runerigus",
+  "speciesId": "runerigus",
+  "baseStats": {
+    "atk": 163,
+    "def": 237,
+    "hp": 151
+  },
+  "types": [
+    "ground",
+    "ghost"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "SAND_TOMB",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

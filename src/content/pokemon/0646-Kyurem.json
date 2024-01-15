@@ -1,0 +1,25 @@
+{
+  "dex": 646,
+  "speciesName": "Kyurem",
+  "speciesId": "kyurem",
+  "baseStats": {
+    "atk": 246,
+    "def": 170,
+    "hp": 245
+  },
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "STEEL_WING"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "BLIZZARD",
+    "DRACO_METEOR",
+    "GLACIATE"
+  ],
+  "released": true
+}

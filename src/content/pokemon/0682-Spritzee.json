@@ -1,0 +1,23 @@
+{
+  "dex": 682,
+  "speciesName": "Spritzee",
+  "speciesId": "spritzee",
+  "baseStats": {
+    "atk": 110,
+    "def": 113,
+    "hp": 186
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARM",
+    "CHARGE_BEAM"
+  ],
+  "chargedMoves": [
+    "DRAINING_KISS",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 3,
+  "speciesName": "Venusaur",
+  "speciesId": "venusaur",
+  "baseStats": {
+    "atk": 198,
+    "def": 189,
+    "hp": 190
+  },
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "FRENZY_PLANT",
+    "PETAL_BLIZZARD",
+    "SLUDGE_BOMB",
+    "SOLAR_BEAM"
+  ],
+  "released": true
+}

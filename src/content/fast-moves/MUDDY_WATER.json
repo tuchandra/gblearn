@@ -1,0 +1,8 @@
+{
+  "moveId": "MUDDY_WATER",
+  "name": "Muddy Water",
+  "type": "water",
+  "power": 35,
+  "energyGain": 0,
+  "cooldown": 1000
+}

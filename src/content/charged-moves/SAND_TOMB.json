@@ -1,0 +1,13 @@
+{
+  "moveId": "SAND_TOMB",
+  "name": "Sand Tomb",
+  "type": "ground",
+  "power": 25,
+  "energy": 40,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": "1"
+}

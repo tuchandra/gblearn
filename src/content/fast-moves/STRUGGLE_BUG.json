@@ -1,0 +1,8 @@
+{
+  "moveId": "STRUGGLE_BUG",
+  "name": "Struggle Bug",
+  "type": "bug",
+  "power": 9,
+  "energyGain": 8,
+  "cooldown": 1500
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "SLUDGE",
+  "name": "Sludge",
+  "type": "poison",
+  "power": 50,
+  "energyGain": 0,
+  "cooldown": 500
+}

@@ -1,0 +1,27 @@
+{
+  "dex": 254,
+  "speciesName": "Sceptile",
+  "speciesId": "sceptile",
+  "baseStats": {
+    "atk": 223,
+    "def": 169,
+    "hp": 172
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "EARTHQUAKE",
+    "LEAF_BLADE",
+    "FRENZY_PLANT",
+    "DRAGON_CLAW",
+    "BREAKING_SWIPE"
+  ],
+  "released": true
+}

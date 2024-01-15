@@ -1,0 +1,8 @@
+{
+  "moveId": "NIGHT_SHADE",
+  "name": "Night Shade",
+  "type": "ghost",
+  "power": 60,
+  "energyGain": 0,
+  "cooldown": 500
+}

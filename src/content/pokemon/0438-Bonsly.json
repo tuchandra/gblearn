@@ -1,0 +1,24 @@
+{
+  "dex": 438,
+  "speciesName": "Bonsly",
+  "speciesId": "bonsly",
+  "baseStats": {
+    "atk": 124,
+    "def": 133,
+    "hp": 137
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "ROCK_SLIDE",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

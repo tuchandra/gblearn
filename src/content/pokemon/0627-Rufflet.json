@@ -1,0 +1,25 @@
+{
+  "dex": 627,
+  "speciesName": "Rufflet",
+  "speciesId": "rufflet",
+  "baseStats": {
+    "atk": 150,
+    "def": 97,
+    "hp": 172
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BRAVE_BIRD",
+    "ROCK_TOMB",
+    "FLY"
+  ],
+  "released": true
+}

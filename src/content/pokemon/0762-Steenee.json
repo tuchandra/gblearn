@@ -1,0 +1,25 @@
+{
+  "dex": 762,
+  "speciesName": "Steenee",
+  "speciesId": "steenee",
+  "baseStats": {
+    "atk": 78,
+    "def": 94,
+    "hp": 141
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "DRAINING_KISS",
+    "GRASS_KNOT",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 400,
+  "speciesName": "Bibarel",
+  "speciesId": "bibarel",
+  "baseStats": {
+    "atk": 162,
+    "def": 119,
+    "hp": 188
+  },
+  "types": [
+    "normal",
+    "water"
+  ],
+  "fastMoves": [
+    "TAKE_DOWN",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "HYPER_BEAM",
+    "HYPER_FANG",
+    "SURF"
+  ],
+  "released": true
+}

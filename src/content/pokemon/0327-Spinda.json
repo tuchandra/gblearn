@@ -1,0 +1,24 @@
+{
+  "dex": 327,
+  "speciesName": "Spinda",
+  "speciesId": "spinda",
+  "baseStats": {
+    "atk": 116,
+    "def": 116,
+    "hp": 155
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "PSYCHO_CUT",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "ICY_WIND",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

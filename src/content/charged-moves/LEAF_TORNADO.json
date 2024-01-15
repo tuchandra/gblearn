@@ -1,0 +1,13 @@
+{
+  "moveId": "LEAF_TORNADO",
+  "name": "Leaf Tornado",
+  "type": "grass",
+  "power": 45,
+  "energy": 40,
+  "buffs": [
+    -2,
+    0
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".5"
+}

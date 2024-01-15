@@ -1,0 +1,7 @@
+{
+  "moveId": "BRICK_BREAK",
+  "name": "Brick Break",
+  "type": "fighting",
+  "power": 40,
+  "energy": 35
+}

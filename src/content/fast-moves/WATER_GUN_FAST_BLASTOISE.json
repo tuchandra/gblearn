@@ -1,0 +1,8 @@
+{
+  "moveId": "WATER_GUN_FAST_BLASTOISE",
+  "name": "Water Gun Fast Blastoise",
+  "type": "water",
+  "power": 6,
+  "energyGain": 4,
+  "cooldown": 1000
+}

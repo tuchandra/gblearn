@@ -1,0 +1,24 @@
+{
+  "dex": 777,
+  "speciesName": "Togedemaru",
+  "speciesId": "togedemaru",
+  "baseStats": {
+    "atk": 190,
+    "def": 145,
+    "hp": 163
+  },
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "FELL_STINGER",
+    "WILD_CHARGE",
+    "GYRO_BALL"
+  ],
+  "released": true
+}

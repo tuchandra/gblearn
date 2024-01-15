@@ -1,0 +1,26 @@
+{
+  "dex": 9,
+  "speciesName": "Blastoise",
+  "speciesId": "blastoise",
+  "baseStats": {
+    "atk": 171,
+    "def": 207,
+    "hp": 188
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "FLASH_CANNON",
+    "HYDRO_CANNON",
+    "HYDRO_PUMP",
+    "ICE_BEAM",
+    "SKULL_BASH"
+  ],
+  "released": true
+}

@@ -1,0 +1,13 @@
+{
+  "moveId": "FELL_STINGER",
+  "name": "Fell Stinger",
+  "type": "bug",
+  "power": 20,
+  "energy": 35,
+  "buffs": [
+    1,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

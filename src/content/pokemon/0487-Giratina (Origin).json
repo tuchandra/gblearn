@@ -1,0 +1,25 @@
+{
+  "dex": 487,
+  "speciesName": "Giratina (Origin)",
+  "speciesId": "giratina_origin",
+  "baseStats": {
+    "atk": 225,
+    "def": 187,
+    "hp": 284
+  },
+  "types": [
+    "ghost",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "OMINOUS_WIND",
+    "DRAGON_PULSE",
+    "SHADOW_BALL",
+    "SHADOW_FORCE"
+  ],
+  "released": true
+}

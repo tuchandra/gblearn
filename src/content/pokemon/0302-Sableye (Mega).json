@@ -1,0 +1,24 @@
+{
+  "dex": 302,
+  "speciesName": "Sableye (Mega)",
+  "speciesId": "sableye_mega",
+  "baseStats": {
+    "atk": 151,
+    "def": 216,
+    "hp": 137
+  },
+  "types": [
+    "dark",
+    "ghost"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "FOUL_PLAY",
+    "POWER_GEM",
+    "SHADOW_SNEAK"
+  ],
+  "released": true
+}

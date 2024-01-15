@@ -1,0 +1,27 @@
+{
+  "dex": 199,
+  "speciesName": "Slowking (Galarian)",
+  "speciesId": "slowking_galarian",
+  "baseStats": {
+    "atk": 190,
+    "def": 180,
+    "hp": 216
+  },
+  "types": [
+    "poison",
+    "psychic"
+  ],
+  "fastMoves": [
+    "HEX",
+    "CONFUSION",
+    "ACID"
+  ],
+  "chargedMoves": [
+    "FUTURE_SIGHT",
+    "SHADOW_BALL",
+    "SLUDGE_WAVE",
+    "SURF",
+    "SCALD"
+  ],
+  "released": true
+}

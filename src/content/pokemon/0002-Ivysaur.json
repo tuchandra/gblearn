@@ -1,0 +1,24 @@
+{
+  "dex": 2,
+  "speciesName": "Ivysaur",
+  "speciesId": "ivysaur",
+  "baseStats": {
+    "atk": 151,
+    "def": 143,
+    "hp": 155
+  },
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "POWER_WHIP",
+    "SLUDGE_BOMB",
+    "SOLAR_BEAM"
+  ],
+  "released": true
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "ICE_SHARD",
+  "name": "Ice Shard",
+  "type": "ice",
+  "power": 9,
+  "energyGain": 10,
+  "cooldown": 1500
+}

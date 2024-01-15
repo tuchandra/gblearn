@@ -1,0 +1,25 @@
+{
+  "dex": 229,
+  "speciesName": "Houndoom",
+  "speciesId": "houndoom",
+  "baseStats": {
+    "atk": 224,
+    "def": 144,
+    "hp": 181
+  },
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "fastMoves": [
+    "FIRE_FANG",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "FIRE_BLAST",
+    "FLAMETHROWER",
+    "FOUL_PLAY"
+  ],
+  "released": true
+}

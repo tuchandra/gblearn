@@ -1,0 +1,24 @@
+{
+  "dex": 710,
+  "speciesName": "Pumpkaboo (Small)",
+  "speciesId": "pumpkaboo_small",
+  "baseStats": {
+    "atk": 122,
+    "def": 124,
+    "hp": 127
+  },
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "GRASS_KNOT",
+    "SHADOW_SNEAK",
+    "FOUL_PLAY"
+  ],
+  "released": true
+}

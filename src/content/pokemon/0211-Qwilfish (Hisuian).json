@@ -1,0 +1,26 @@
+{
+  "dex": 211,
+  "speciesName": "Qwilfish (Hisuian)",
+  "speciesId": "qwilfish_hisuian",
+  "baseStats": {
+    "atk": 184,
+    "def": 151,
+    "hp": 163
+  },
+  "types": [
+    "dark",
+    "poison"
+  ],
+  "fastMoves": [
+    "POISON_STING",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "ICE_BEAM",
+    "SLUDGE_BOMB",
+    "DARK_PULSE",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

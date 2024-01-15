@@ -1,0 +1,27 @@
+{
+  "dex": 15,
+  "speciesName": "Beedrill (Mega)",
+  "speciesId": "beedrill_mega",
+  "baseStats": {
+    "atk": 303,
+    "def": 148,
+    "hp": 163
+  },
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "INFESTATION",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "SLUDGE_BOMB",
+    "X_SCISSOR",
+    "FELL_STINGER",
+    "DRILL_RUN"
+  ],
+  "released": true
+}

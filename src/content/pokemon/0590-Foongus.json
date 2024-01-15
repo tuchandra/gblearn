@@ -1,0 +1,24 @@
+{
+  "dex": 590,
+  "speciesName": "Foongus",
+  "speciesId": "foongus",
+  "baseStats": {
+    "atk": 97,
+    "def": 91,
+    "hp": 170
+  },
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "FEINT_ATTACK"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "BODY_SLAM",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

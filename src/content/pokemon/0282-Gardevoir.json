@@ -1,0 +1,28 @@
+{
+  "dex": 282,
+  "speciesName": "Gardevoir",
+  "speciesId": "gardevoir",
+  "baseStats": {
+    "atk": 237,
+    "def": 195,
+    "hp": 169
+  },
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "CONFUSION",
+    "CHARM",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "PSYCHIC",
+    "SHADOW_BALL",
+    "SYNCHRONOISE",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

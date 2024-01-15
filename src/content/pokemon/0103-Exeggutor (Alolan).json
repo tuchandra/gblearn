@@ -1,0 +1,25 @@
+{
+  "dex": 103,
+  "speciesName": "Exeggutor (Alolan)",
+  "speciesId": "exeggutor_alolan",
+  "baseStats": {
+    "atk": 230,
+    "def": 153,
+    "hp": 216
+  },
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "DRAGON_TAIL"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "SEED_BOMB",
+    "SOLAR_BEAM",
+    "DRACO_METEOR"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 588,
+  "speciesName": "Karrablast",
+  "speciesId": "karrablast",
+  "baseStats": {
+    "atk": 137,
+    "def": 87,
+    "hp": 137
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "PECK",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "SIGNAL_BEAM",
+    "X_SCISSOR",
+    "DRILL_RUN",
+    "AERIAL_ACE"
+  ],
+  "released": true
+}

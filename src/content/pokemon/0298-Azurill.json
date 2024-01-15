@@ -1,0 +1,24 @@
+{
+  "dex": 298,
+  "speciesName": "Azurill",
+  "speciesId": "azurill",
+  "baseStats": {
+    "atk": 36,
+    "def": 71,
+    "hp": 137
+  },
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "BUBBLE_BEAM",
+    "ICE_BEAM"
+  ],
+  "released": true
+}

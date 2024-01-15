@@ -1,0 +1,24 @@
+{
+  "dex": 60,
+  "speciesName": "Poliwag",
+  "speciesId": "poliwag",
+  "baseStats": {
+    "atk": 101,
+    "def": 82,
+    "hp": 120
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "BUBBLE_BEAM",
+    "MUD_BOMB"
+  ],
+  "released": true
+}

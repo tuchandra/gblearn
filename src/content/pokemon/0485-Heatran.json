@@ -1,0 +1,27 @@
+{
+  "dex": 485,
+  "speciesName": "Heatran",
+  "speciesId": "heatran",
+  "baseStats": {
+    "atk": 251,
+    "def": 213,
+    "hp": 209
+  },
+  "types": [
+    "fire",
+    "steel"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "FIRE_SPIN"
+  ],
+  "chargedMoves": [
+    "FIRE_BLAST",
+    "IRON_HEAD",
+    "STONE_EDGE",
+    "FLAMETHROWER",
+    "EARTH_POWER",
+    "MAGMA_STORM"
+  ],
+  "released": true
+}

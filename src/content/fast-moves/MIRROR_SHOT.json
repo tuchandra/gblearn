@@ -1,0 +1,8 @@
+{
+  "moveId": "MIRROR_SHOT",
+  "name": "Mirror Shot",
+  "type": "steel",
+  "power": 35,
+  "energyGain": 0,
+  "cooldown": 500
+}

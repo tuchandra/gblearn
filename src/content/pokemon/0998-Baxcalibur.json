@@ -1,0 +1,26 @@
+{
+  "dex": 998,
+  "speciesName": "Baxcalibur",
+  "speciesId": "baxcalibur",
+  "baseStats": {
+    "atk": 254,
+    "def": 168,
+    "hp": 229
+  },
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "ICE_FANG"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "AVALANCHE",
+    "OUTRAGE",
+    "BLIZZARD",
+    "ICY_WIND"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 479,
+  "speciesName": "Rotom (Wash)",
+  "speciesId": "rotom_wash",
+  "baseStats": {
+    "atk": 204,
+    "def": 219,
+    "hp": 137
+  },
+  "types": [
+    "electric",
+    "water"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "HYDRO_PUMP",
+    "THUNDER",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 382,
+  "speciesName": "Kyogre (Primal)",
+  "speciesId": "kyogre_primal",
+  "baseStats": {
+    "atk": 353,
+    "def": 268,
+    "hp": 218
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "HYDRO_PUMP",
+    "THUNDER",
+    "SURF",
+    "ORIGIN_PULSE"
+  ],
+  "released": true
+}

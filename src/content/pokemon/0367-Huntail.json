@@ -1,0 +1,24 @@
+{
+  "dex": 367,
+  "speciesName": "Huntail",
+  "speciesId": "huntail",
+  "baseStats": {
+    "atk": 197,
+    "def": 179,
+    "hp": 146
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "CRUNCH",
+    "ICE_BEAM"
+  ],
+  "released": true
+}

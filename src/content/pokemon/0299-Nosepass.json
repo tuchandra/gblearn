@@ -1,0 +1,24 @@
+{
+  "dex": 299,
+  "speciesName": "Nosepass",
+  "speciesId": "nosepass",
+  "baseStats": {
+    "atk": 82,
+    "def": 215,
+    "hp": 102
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_THROW",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "ROCK_BLAST",
+    "ROCK_SLIDE",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

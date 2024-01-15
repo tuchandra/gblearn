@@ -1,0 +1,28 @@
+{
+  "dex": 717,
+  "speciesName": "Yveltal",
+  "speciesId": "yveltal",
+  "baseStats": {
+    "atk": 250,
+    "def": 185,
+    "hp": 246
+  },
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "fastMoves": [
+    "SUCKER_PUNCH",
+    "SNARL",
+    "GUST"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "HURRICANE",
+    "FOCUS_BLAST",
+    "HYPER_BEAM",
+    "PSYCHIC",
+    "OBLIVION_WING"
+  ],
+  "released": true
+}

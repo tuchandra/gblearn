@@ -1,0 +1,24 @@
+{
+  "dex": 694,
+  "speciesName": "Helioptile",
+  "speciesId": "helioptile",
+  "baseStats": {
+    "atk": 115,
+    "def": 78,
+    "hp": 127
+  },
+  "types": [
+    "electric",
+    "normal"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "PARABOLIC_CHARGE",
+    "BULLDOZE",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

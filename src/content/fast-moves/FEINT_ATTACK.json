@@ -1,0 +1,8 @@
+{
+  "moveId": "FEINT_ATTACK",
+  "name": "Feint Attack",
+  "type": "dark",
+  "power": 6,
+  "energyGain": 6,
+  "cooldown": 1000
+}

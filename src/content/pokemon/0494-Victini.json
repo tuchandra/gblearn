@@ -1,0 +1,25 @@
+{
+  "dex": 494,
+  "speciesName": "Victini",
+  "speciesId": "victini",
+  "baseStats": {
+    "atk": 210,
+    "def": 210,
+    "hp": 225
+  },
+  "types": [
+    "psychic",
+    "fire"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "OVERHEAT",
+    "FOCUS_BLAST",
+    "PSYCHIC",
+    "V_CREATE"
+  ],
+  "released": true
+}

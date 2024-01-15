@@ -1,0 +1,26 @@
+{
+  "dex": 39,
+  "speciesName": "Jigglypuff",
+  "speciesId": "jigglypuff",
+  "baseStats": {
+    "atk": 80,
+    "def": 41,
+    "hp": 251
+  },
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "POUND"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "DAZZLING_GLEAM",
+    "DISARMING_VOICE",
+    "GYRO_BALL",
+    "PLAY_ROUGH"
+  ],
+  "released": true
+}

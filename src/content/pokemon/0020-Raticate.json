@@ -1,0 +1,24 @@
+{
+  "dex": 20,
+  "speciesName": "Raticate",
+  "speciesId": "raticate",
+  "baseStats": {
+    "atk": 161,
+    "def": 139,
+    "hp": 146
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "HYPER_BEAM",
+    "HYPER_FANG"
+  ],
+  "released": true
+}

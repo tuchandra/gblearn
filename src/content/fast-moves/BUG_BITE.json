@@ -1,0 +1,8 @@
+{
+  "moveId": "BUG_BITE",
+  "name": "Bug Bite",
+  "type": "bug",
+  "power": 3,
+  "energyGain": 3,
+  "cooldown": 500
+}

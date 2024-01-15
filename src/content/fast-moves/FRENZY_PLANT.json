@@ -1,0 +1,8 @@
+{
+  "moveId": "FRENZY_PLANT",
+  "name": "Frenzy Plant",
+  "type": "grass",
+  "power": 100,
+  "energyGain": 0,
+  "cooldown": 500
+}

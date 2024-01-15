@@ -1,0 +1,13 @@
+{
+  "moveId": "SHADOW_BONE",
+  "name": "Shadow Bone",
+  "type": "ghost",
+  "power": 75,
+  "energy": 45,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".2"
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 570,
+  "speciesName": "Zorua",
+  "speciesId": "zorua",
+  "baseStats": {
+    "atk": 153,
+    "def": 78,
+    "hp": 120
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "FEINT_ATTACK"
+  ],
+  "chargedMoves": [
+    "FOUL_PLAY",
+    "AERIAL_ACE",
+    "DARK_PULSE"
+  ],
+  "released": true
+}

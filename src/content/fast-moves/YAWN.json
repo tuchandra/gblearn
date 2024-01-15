@@ -1,0 +1,8 @@
+{
+  "moveId": "YAWN",
+  "name": "Yawn",
+  "type": "normal",
+  "power": 0,
+  "energyGain": 12,
+  "cooldown": 2000
+}

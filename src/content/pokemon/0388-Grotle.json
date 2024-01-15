@@ -1,0 +1,24 @@
+{
+  "dex": 388,
+  "speciesName": "Grotle",
+  "speciesId": "grotle",
+  "baseStats": {
+    "atk": 157,
+    "def": 143,
+    "hp": 181
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "ENERGY_BALL",
+    "SOLAR_BEAM"
+  ],
+  "released": true
+}

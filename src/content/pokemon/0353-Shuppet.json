@@ -1,0 +1,24 @@
+{
+  "dex": 353,
+  "speciesName": "Shuppet",
+  "speciesId": "shuppet",
+  "baseStats": {
+    "atk": 138,
+    "def": 65,
+    "hp": 127
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "FEINT_ATTACK"
+  ],
+  "chargedMoves": [
+    "NIGHT_SHADE",
+    "OMINOUS_WIND",
+    "SHADOW_SNEAK"
+  ],
+  "released": true
+}

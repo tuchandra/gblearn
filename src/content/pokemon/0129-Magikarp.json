@@ -1,0 +1,21 @@
+{
+  "dex": 129,
+  "speciesName": "Magikarp",
+  "speciesId": "magikarp",
+  "baseStats": {
+    "atk": 29,
+    "def": 85,
+    "hp": 85
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": true
+}

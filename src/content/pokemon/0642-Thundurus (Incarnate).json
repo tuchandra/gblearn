@@ -1,0 +1,25 @@
+{
+  "dex": 642,
+  "speciesName": "Thundurus (Incarnate)",
+  "speciesId": "thundurus_incarnate",
+  "baseStats": {
+    "atk": 266,
+    "def": 164,
+    "hp": 188
+  },
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "THUNDER",
+    "BRICK_BREAK",
+    "THUNDER_PUNCH"
+  ],
+  "released": true
+}

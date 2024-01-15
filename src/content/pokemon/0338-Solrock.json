@@ -1,0 +1,24 @@
+{
+  "dex": 338,
+  "speciesName": "Solrock",
+  "speciesId": "solrock",
+  "baseStats": {
+    "atk": 178,
+    "def": 153,
+    "hp": 207
+  },
+  "types": [
+    "rock",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "PSYCHIC",
+    "ROCK_SLIDE",
+    "SOLAR_BEAM"
+  ],
+  "released": true
+}

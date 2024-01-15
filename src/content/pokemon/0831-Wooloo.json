@@ -1,0 +1,24 @@
+{
+  "dex": 831,
+  "speciesName": "Wooloo",
+  "speciesId": "wooloo",
+  "baseStats": {
+    "atk": 76,
+    "def": 97,
+    "hp": 123
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "WILD_CHARGE",
+    "PAYBACK",
+    "STOMP"
+  ],
+  "released": true
+}

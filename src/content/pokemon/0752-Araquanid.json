@@ -1,0 +1,24 @@
+{
+  "dex": 752,
+  "speciesName": "Araquanid",
+  "speciesId": "araquanid",
+  "baseStats": {
+    "atk": 126,
+    "def": 219,
+    "hp": 169
+  },
+  "types": [
+    "water",
+    "bug"
+  ],
+  "fastMoves": [
+    "INFESTATION",
+    "BUG_BITE"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "BUBBLE_BEAM",
+    "MIRROR_COAT"
+  ],
+  "released": true
+}

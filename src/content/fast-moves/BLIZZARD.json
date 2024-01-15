@@ -1,0 +1,8 @@
+{
+  "moveId": "BLIZZARD",
+  "name": "Blizzard",
+  "type": "ice",
+  "power": 140,
+  "energyGain": 0,
+  "cooldown": 500
+}

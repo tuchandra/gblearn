@@ -1,0 +1,26 @@
+{
+  "dex": 612,
+  "speciesName": "Haxorus",
+  "speciesId": "haxorus",
+  "baseStats": {
+    "atk": 284,
+    "def": 172,
+    "hp": 183
+  },
+  "types": [
+    "dragon",
+    "none"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "COUNTER"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "SURF",
+    "NIGHT_SLASH",
+    "EARTHQUAKE",
+    "BREAKING_SWIPE"
+  ],
+  "released": true
+}

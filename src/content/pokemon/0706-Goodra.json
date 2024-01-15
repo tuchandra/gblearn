@@ -1,0 +1,25 @@
+{
+  "dex": 706,
+  "speciesName": "Goodra",
+  "speciesId": "goodra",
+  "baseStats": {
+    "atk": 220,
+    "def": 242,
+    "hp": 207
+  },
+  "types": [
+    "dragon",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "DRAGON_BREATH"
+  ],
+  "chargedMoves": [
+    "DRACO_METEOR",
+    "SLUDGE_WAVE",
+    "MUDDY_WATER",
+    "POWER_WHIP"
+  ],
+  "released": true
+}

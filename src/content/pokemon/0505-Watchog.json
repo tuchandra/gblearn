@@ -1,0 +1,24 @@
+{
+  "dex": 505,
+  "speciesName": "Watchog",
+  "speciesId": "watchog",
+  "baseStats": {
+    "atk": 165,
+    "def": 139,
+    "hp": 155
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "HYPER_FANG",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

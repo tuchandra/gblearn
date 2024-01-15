@@ -1,0 +1,24 @@
+{
+  "dex": 632,
+  "speciesName": "Durant",
+  "speciesId": "durant",
+  "baseStats": {
+    "atk": 217,
+    "def": 188,
+    "hp": 151
+  },
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "METAL_CLAW"
+  ],
+  "chargedMoves": [
+    "X_SCISSOR",
+    "IRON_HEAD",
+    "STONE_EDGE"
+  ],
+  "released": true
+}

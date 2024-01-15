@@ -1,0 +1,26 @@
+{
+  "dex": 173,
+  "speciesName": "Cleffa",
+  "speciesId": "cleffa",
+  "baseStats": {
+    "atk": 75,
+    "def": 79,
+    "hp": 137
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "GRASS_KNOT",
+    "PSYCHIC",
+    "PSYSHOCK",
+    "SIGNAL_BEAM"
+  ],
+  "released": true
+}

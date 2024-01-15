@@ -1,0 +1,24 @@
+{
+  "dex": 326,
+  "speciesName": "Grumpig",
+  "speciesId": "grumpig",
+  "baseStats": {
+    "atk": 171,
+    "def": 188,
+    "hp": 190
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "EXTRASENSORY"
+  ],
+  "chargedMoves": [
+    "MIRROR_COAT",
+    "PSYCHIC",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

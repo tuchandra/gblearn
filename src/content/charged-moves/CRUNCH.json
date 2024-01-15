@@ -1,0 +1,13 @@
+{
+  "moveId": "CRUNCH",
+  "name": "Crunch",
+  "type": "dark",
+  "power": 70,
+  "energy": 45,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": "0.3"
+}

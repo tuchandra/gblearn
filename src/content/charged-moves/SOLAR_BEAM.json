@@ -1,0 +1,7 @@
+{
+  "moveId": "SOLAR_BEAM",
+  "name": "Solar Beam",
+  "type": "grass",
+  "power": 150,
+  "energy": 80
+}

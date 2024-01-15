@@ -1,0 +1,24 @@
+{
+  "dex": 870,
+  "speciesName": "Falinks",
+  "speciesId": "falinks",
+  "baseStats": {
+    "atk": 193,
+    "def": 170,
+    "hp": 163
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "COUNTER"
+  ],
+  "chargedMoves": [
+    "SUPER_POWER",
+    "BRICK_BREAK",
+    "MEGAHORN"
+  ],
+  "released": true
+}

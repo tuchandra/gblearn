@@ -1,0 +1,13 @@
+{
+  "moveId": "RAZOR_SHELL",
+  "name": "Razor Shell",
+  "type": "water",
+  "power": 35,
+  "energy": 35,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": "0.5"
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 769,
+  "speciesName": "Sandygast",
+  "speciesId": "sandygast",
+  "baseStats": {
+    "atk": 120,
+    "def": 118,
+    "hp": 146
+  },
+  "types": [
+    "ghost",
+    "ground"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "SAND_TOMB",
+    "SHADOW_BALL",
+    "EARTH_POWER",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

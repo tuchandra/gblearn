@@ -1,0 +1,24 @@
+{
+  "dex": 444,
+  "speciesName": "Gabite",
+  "speciesId": "gabite",
+  "baseStats": {
+    "atk": 172,
+    "def": 125,
+    "hp": 169
+  },
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "FLAMETHROWER",
+    "TWISTER"
+  ],
+  "released": true
+}

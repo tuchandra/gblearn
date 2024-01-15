@@ -1,0 +1,26 @@
+{
+  "dex": 262,
+  "speciesName": "Mightyena",
+  "speciesId": "mightyena",
+  "baseStats": {
+    "atk": 171,
+    "def": 132,
+    "hp": 172
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "FIRE_FANG",
+    "THUNDER_FANG",
+    "ICE_FANG"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "PLAY_ROUGH",
+    "POISON_FANG"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 53,
+  "speciesName": "Persian",
+  "speciesId": "persian",
+  "baseStats": {
+    "atk": 150,
+    "def": 136,
+    "hp": 163
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "FOUL_PLAY",
+    "NIGHT_SLASH",
+    "PLAY_ROUGH",
+    "POWER_GEM",
+    "PAYBACK"
+  ],
+  "released": true
+}

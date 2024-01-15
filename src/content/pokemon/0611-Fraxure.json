@@ -1,0 +1,24 @@
+{
+  "dex": 611,
+  "speciesName": "Fraxure",
+  "speciesId": "fraxure",
+  "baseStats": {
+    "atk": 212,
+    "def": 123,
+    "hp": 165
+  },
+  "types": [
+    "dragon",
+    "none"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "IRON_TAIL"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "AQUA_TAIL",
+    "NIGHT_SLASH"
+  ],
+  "released": true
+}

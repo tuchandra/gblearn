@@ -1,0 +1,8 @@
+{
+  "moveId": "BULLET_PUNCH",
+  "name": "Bullet Punch",
+  "type": "steel",
+  "power": 6,
+  "energyGain": 7,
+  "cooldown": 1000
+}

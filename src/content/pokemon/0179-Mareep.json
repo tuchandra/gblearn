@@ -1,0 +1,25 @@
+{
+  "dex": 179,
+  "speciesName": "Mareep",
+  "speciesId": "mareep",
+  "baseStats": {
+    "atk": 114,
+    "def": 79,
+    "hp": 146
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "DISCHARGE",
+    "THUNDERBOLT",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

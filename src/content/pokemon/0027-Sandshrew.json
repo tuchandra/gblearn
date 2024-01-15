@@ -1,0 +1,25 @@
+{
+  "dex": 27,
+  "speciesName": "Sandshrew",
+  "speciesId": "sandshrew",
+  "baseStats": {
+    "atk": 126,
+    "def": 120,
+    "hp": 137
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "ROCK_SLIDE",
+    "ROCK_TOMB",
+    "SAND_TOMB"
+  ],
+  "released": true
+}

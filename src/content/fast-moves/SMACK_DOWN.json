@@ -1,0 +1,8 @@
+{
+  "moveId": "SMACK_DOWN",
+  "name": "Smack Down",
+  "type": "rock",
+  "power": 12,
+  "energyGain": 8,
+  "cooldown": 1500
+}

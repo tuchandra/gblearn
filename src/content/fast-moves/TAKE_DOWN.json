@@ -1,0 +1,8 @@
+{
+  "moveId": "TAKE_DOWN",
+  "name": "Take Down",
+  "type": "normal",
+  "power": 5,
+  "energyGain": 8,
+  "cooldown": 1500
+}

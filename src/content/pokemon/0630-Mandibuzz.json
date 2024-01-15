@@ -1,0 +1,25 @@
+{
+  "dex": 630,
+  "speciesName": "Mandibuzz",
+  "speciesId": "mandibuzz",
+  "baseStats": {
+    "atk": 129,
+    "def": 205,
+    "hp": 242
+  },
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "fastMoves": [
+    "SNARL",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "AERIAL_ACE",
+    "FOUL_PLAY",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

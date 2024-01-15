@@ -1,0 +1,27 @@
+{
+  "dex": 119,
+  "speciesName": "Seaking",
+  "speciesId": "seaking",
+  "baseStats": {
+    "atk": 175,
+    "def": 147,
+    "hp": 190
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "PECK",
+    "POISON_JAB",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "DRILL_RUN",
+    "ICE_BEAM",
+    "ICY_WIND",
+    "MEGAHORN",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

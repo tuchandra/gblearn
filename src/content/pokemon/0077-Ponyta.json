@@ -1,0 +1,25 @@
+{
+  "dex": 77,
+  "speciesName": "Ponyta",
+  "speciesId": "ponyta",
+  "baseStats": {
+    "atk": 170,
+    "def": 127,
+    "hp": 137
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "FIRE_BLAST",
+    "FLAME_CHARGE",
+    "FLAME_WHEEL",
+    "STOMP"
+  ],
+  "released": true
+}

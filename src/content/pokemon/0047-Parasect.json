@@ -1,0 +1,25 @@
+{
+  "dex": 47,
+  "speciesName": "Parasect",
+  "speciesId": "parasect",
+  "baseStats": {
+    "atk": 165,
+    "def": 146,
+    "hp": 155
+  },
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "FURY_CUTTER",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "CROSS_POISON",
+    "SOLAR_BEAM",
+    "X_SCISSOR"
+  ],
+  "released": true
+}

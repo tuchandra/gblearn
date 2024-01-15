@@ -1,0 +1,25 @@
+{
+  "dex": 545,
+  "speciesName": "Scolipede",
+  "speciesId": "scolipede",
+  "baseStats": {
+    "atk": 203,
+    "def": 175,
+    "hp": 155
+  },
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "MEGAHORN",
+    "SLUDGE_BOMB",
+    "GYRO_BALL",
+    "X_SCISSOR"
+  ],
+  "released": true
+}

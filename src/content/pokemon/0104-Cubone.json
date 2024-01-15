@@ -1,0 +1,24 @@
+{
+  "dex": 104,
+  "speciesName": "Cubone",
+  "speciesId": "cubone",
+  "baseStats": {
+    "atk": 90,
+    "def": 144,
+    "hp": 137
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "BONE_CLUB",
+    "BULLDOZE",
+    "DIG"
+  ],
+  "released": true
+}

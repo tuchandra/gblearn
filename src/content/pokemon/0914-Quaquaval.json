@@ -1,0 +1,25 @@
+{
+  "dex": 914,
+  "speciesName": "Quaquaval",
+  "speciesId": "quaquaval",
+  "baseStats": {
+    "atk": 236,
+    "def": 159,
+    "hp": 198
+  },
+  "types": [
+    "water",
+    "fighting"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "AERIAL_ACE",
+    "LIQUIDATION",
+    "CLOSE_COMBAT"
+  ],
+  "released": true
+}

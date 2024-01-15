@@ -1,0 +1,27 @@
+{
+  "dex": 224,
+  "speciesName": "Octillery",
+  "speciesId": "octillery",
+  "baseStats": {
+    "atk": 197,
+    "def": 141,
+    "hp": 181
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "WATER_GUN",
+    "LOCK_ON"
+  ],
+  "chargedMoves": [
+    "AURORA_BEAM",
+    "GUNK_SHOT",
+    "WATER_PULSE",
+    "ACID_SPRAY",
+    "OCTAZOOKA"
+  ],
+  "released": true
+}

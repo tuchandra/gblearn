@@ -1,0 +1,26 @@
+{
+  "dex": 53,
+  "speciesName": "Persian (Alolan)",
+  "speciesId": "persian_alolan",
+  "baseStats": {
+    "atk": 158,
+    "def": 136,
+    "hp": 163
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "FOUL_PLAY",
+    "PLAY_ROUGH",
+    "PAYBACK",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

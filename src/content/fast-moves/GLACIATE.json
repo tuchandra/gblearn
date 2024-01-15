@@ -1,0 +1,8 @@
+{
+  "moveId": "GLACIATE",
+  "name": "Glaciate",
+  "type": "ice",
+  "power": 60,
+  "energyGain": 0,
+  "cooldown": 500
+}

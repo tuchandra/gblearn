@@ -1,0 +1,8 @@
+{
+  "moveId": "METAL_CLAW",
+  "name": "Metal Claw",
+  "type": "steel",
+  "power": 5,
+  "energyGain": 6,
+  "cooldown": 1000
+}

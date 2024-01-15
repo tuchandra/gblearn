@@ -1,0 +1,24 @@
+{
+  "dex": 535,
+  "speciesName": "Tympole",
+  "speciesId": "tympole",
+  "baseStats": {
+    "atk": 98,
+    "def": 78,
+    "hp": 137
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "BUBBLE"
+  ],
+  "chargedMoves": [
+    "WATER_PULSE",
+    "MUD_BOMB",
+    "SLUDGE_WAVE"
+  ],
+  "released": true
+}

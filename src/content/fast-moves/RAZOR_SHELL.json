@@ -1,0 +1,8 @@
+{
+  "moveId": "RAZOR_SHELL",
+  "name": "Razor Shell",
+  "type": "water",
+  "power": 35,
+  "energyGain": 0,
+  "cooldown": 500
+}

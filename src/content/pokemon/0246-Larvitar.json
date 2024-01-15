@@ -1,0 +1,24 @@
+{
+  "dex": 246,
+  "speciesName": "Larvitar",
+  "speciesId": "larvitar",
+  "baseStats": {
+    "atk": 115,
+    "def": 93,
+    "hp": 137
+  },
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "fastMoves": [
+    "BITE",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "CRUNCH",
+    "STOMP"
+  ],
+  "released": true
+}

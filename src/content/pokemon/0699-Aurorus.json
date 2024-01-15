@@ -1,0 +1,28 @@
+{
+  "dex": 699,
+  "speciesName": "Aurorus",
+  "speciesId": "aurorus",
+  "baseStats": {
+    "atk": 186,
+    "def": 163,
+    "hp": 265
+  },
+  "types": [
+    "rock",
+    "ice"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW",
+    "FROST_BREATH",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "WEATHER_BALL_ICE",
+    "ANCIENT_POWER",
+    "BLIZZARD",
+    "THUNDERBOLT",
+    "HYPER_BEAM",
+    "METEOR_BEAM"
+  ],
+  "released": true
+}

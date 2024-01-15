@@ -1,0 +1,24 @@
+{
+  "dex": 455,
+  "speciesName": "Carnivine",
+  "speciesId": "carnivine",
+  "baseStats": {
+    "atk": 187,
+    "def": 136,
+    "hp": 179
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "ENERGY_BALL",
+    "POWER_WHIP"
+  ],
+  "released": true
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "POLTERGEIST",
+  "name": "Poltergeist",
+  "type": "ghost",
+  "power": 150,
+  "energyGain": 0,
+  "cooldown": 500
+}

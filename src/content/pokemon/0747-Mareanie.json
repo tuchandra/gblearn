@@ -1,0 +1,24 @@
+{
+  "dex": 747,
+  "speciesName": "Mareanie",
+  "speciesId": "mareanie",
+  "baseStats": {
+    "atk": 98,
+    "def": 110,
+    "hp": 137
+  },
+  "types": [
+    "poison",
+    "water"
+  ],
+  "fastMoves": [
+    "POISON_STING",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "BRINE",
+    "GUNK_SHOT",
+    "SLUDGE_WAVE"
+  ],
+  "released": true
+}

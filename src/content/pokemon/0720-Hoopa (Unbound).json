@@ -1,0 +1,24 @@
+{
+  "dex": 720,
+  "speciesName": "Hoopa (Unbound)",
+  "speciesId": "hoopa_unbound",
+  "baseStats": {
+    "atk": 311,
+    "def": 191,
+    "hp": 173
+  },
+  "types": [
+    "psychic",
+    "dark"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "DARK_PULSE",
+    "PSYCHIC"
+  ],
+  "released": true
+}

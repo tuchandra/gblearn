@@ -1,0 +1,25 @@
+{
+  "dex": 758,
+  "speciesName": "Salazzle",
+  "speciesId": "salazzle",
+  "baseStats": {
+    "atk": 228,
+    "def": 130,
+    "hp": 169
+  },
+  "types": [
+    "poison",
+    "fire"
+  ],
+  "fastMoves": [
+    "INCINERATE",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "POISON_FANG",
+    "FIRE_BLAST",
+    "DRAGON_PULSE",
+    "SLUDGE_WAVE"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 277,
+  "speciesName": "Swellow",
+  "speciesId": "swellow",
+  "baseStats": {
+    "atk": 185,
+    "def": 124,
+    "hp": 155
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "STEEL_WING",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BRAVE_BIRD",
+    "SKY_ATTACK"
+  ],
+  "released": true
+}

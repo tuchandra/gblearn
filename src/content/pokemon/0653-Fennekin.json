@@ -1,0 +1,24 @@
+{
+  "dex": 653,
+  "speciesName": "Fennekin",
+  "speciesId": "fennekin",
+  "baseStats": {
+    "atk": 116,
+    "def": 102,
+    "hp": 120
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "PSYSHOCK",
+    "FLAMETHROWER",
+    "FLAME_CHARGE"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 42,
+  "speciesName": "Golbat",
+  "speciesId": "golbat",
+  "baseStats": {
+    "atk": 161,
+    "def": 150,
+    "hp": 181
+  },
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "fastMoves": [
+    "BITE",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AIR_CUTTER",
+    "OMINOUS_WIND",
+    "POISON_FANG",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 31,
+  "speciesName": "Nidoqueen",
+  "speciesId": "nidoqueen",
+  "baseStats": {
+    "atk": 180,
+    "def": 173,
+    "hp": 207
+  },
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "fastMoves": [
+    "BITE",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "SLUDGE_WAVE",
+    "STONE_EDGE",
+    "EARTH_POWER",
+    "POISON_FANG"
+  ],
+  "released": true
+}

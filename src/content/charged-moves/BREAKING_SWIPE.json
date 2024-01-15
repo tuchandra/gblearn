@@ -1,0 +1,13 @@
+{
+  "moveId": "BREAKING_SWIPE",
+  "name": "Breaking Swipe",
+  "type": "dragon",
+  "power": 50,
+  "energy": 35,
+  "buffs": [
+    -1,
+    0
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".5"
+}

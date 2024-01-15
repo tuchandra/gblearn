@@ -1,0 +1,13 @@
+{
+  "moveId": "BUG_BUZZ",
+  "name": "Bug Buzz",
+  "type": "bug",
+  "power": 100,
+  "energy": 60,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".3"
+}

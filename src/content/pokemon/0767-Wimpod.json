@@ -1,0 +1,21 @@
+{
+  "dex": 767,
+  "speciesName": "Wimpod",
+  "speciesId": "wimpod",
+  "baseStats": {
+    "atk": 67,
+    "def": 74,
+    "hp": 93
+  },
+  "types": [
+    "bug",
+    "water"
+  ],
+  "fastMoves": [
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ"
+  ],
+  "released": true
+}

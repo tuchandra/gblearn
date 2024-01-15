@@ -1,0 +1,8 @@
+{
+  "moveId": "BREAKING_SWIPE",
+  "name": "Breaking Swipe",
+  "type": "dragon",
+  "power": 50,
+  "energyGain": 0,
+  "cooldown": 500
+}

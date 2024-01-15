@@ -1,0 +1,26 @@
+{
+  "dex": 462,
+  "speciesName": "Magnezone",
+  "speciesId": "magnezone",
+  "baseStats": {
+    "atk": 238,
+    "def": 205,
+    "hp": 172
+  },
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "SPARK",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "FLASH_CANNON",
+    "WILD_CHARGE",
+    "ZAP_CANNON",
+    "MIRROR_SHOT"
+  ],
+  "released": true
+}

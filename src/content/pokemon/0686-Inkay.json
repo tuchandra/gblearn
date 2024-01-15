@@ -1,0 +1,23 @@
+{
+  "dex": 686,
+  "speciesName": "Inkay",
+  "speciesId": "inkay",
+  "baseStats": {
+    "atk": 98,
+    "def": 95,
+    "hp": 142
+  },
+  "types": [
+    "dark",
+    "psychic"
+  ],
+  "fastMoves": [
+    "PECK",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "NIGHT_SLASH"
+  ],
+  "released": true
+}

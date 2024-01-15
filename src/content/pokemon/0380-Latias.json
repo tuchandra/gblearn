@@ -1,0 +1,26 @@
+{
+  "dex": 380,
+  "speciesName": "Latias",
+  "speciesId": "latias",
+  "baseStats": {
+    "atk": 228,
+    "def": 246,
+    "hp": 190
+  },
+  "types": [
+    "dragon",
+    "psychic"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "ZEN_HEADBUTT",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "OUTRAGE",
+    "PSYCHIC",
+    "THUNDER",
+    "MIST_BALL"
+  ],
+  "released": true
+}

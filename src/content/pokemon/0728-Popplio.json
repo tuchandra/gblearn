@@ -1,0 +1,24 @@
+{
+  "dex": 728,
+  "speciesName": "Popplio",
+  "speciesId": "popplio",
+  "baseStats": {
+    "atk": 120,
+    "def": 103,
+    "hp": 137
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "WATER_PULSE",
+    "AQUA_TAIL"
+  ],
+  "released": true
+}

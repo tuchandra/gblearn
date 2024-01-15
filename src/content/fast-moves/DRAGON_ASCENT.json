@@ -1,0 +1,8 @@
+{
+  "moveId": "DRAGON_ASCENT",
+  "name": "Dragon Ascent",
+  "type": "flying",
+  "power": 150,
+  "energyGain": 0,
+  "cooldown": 500
+}

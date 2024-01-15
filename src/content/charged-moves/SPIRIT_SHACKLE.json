@@ -1,0 +1,13 @@
+{
+  "moveId": "SPIRIT_SHACKLE",
+  "name": "Spirit Shackle",
+  "type": "ghost",
+  "power": 50,
+  "energy": 40,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".33"
+}

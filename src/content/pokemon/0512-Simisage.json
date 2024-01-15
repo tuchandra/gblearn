@@ -1,0 +1,24 @@
+{
+  "dex": 512,
+  "speciesName": "Simisage",
+  "speciesId": "simisage",
+  "baseStats": {
+    "atk": 206,
+    "def": 133,
+    "hp": 181
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "SOLAR_BEAM",
+    "GRASS_KNOT",
+    "CRUNCH"
+  ],
+  "released": true
+}

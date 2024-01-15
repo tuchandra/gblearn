@@ -1,0 +1,24 @@
+{
+  "dex": 719,
+  "speciesName": "Diancie (Mega)",
+  "speciesId": "diancie_mega",
+  "baseStats": {
+    "atk": 342,
+    "def": 235,
+    "hp": 137
+  },
+  "types": [
+    "rock",
+    "fairy"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "ROCK_SLIDE",
+    "MOONBLAST",
+    "POWER_GEM"
+  ],
+  "released": true
+}

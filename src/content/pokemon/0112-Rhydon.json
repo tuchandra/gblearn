@@ -1,0 +1,26 @@
+{
+  "dex": 112,
+  "speciesName": "Rhydon",
+  "speciesId": "rhydon",
+  "baseStats": {
+    "atk": 222,
+    "def": 171,
+    "hp": 233
+  },
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "MEGAHORN",
+    "STONE_EDGE",
+    "SURF",
+    "BREAKING_SWIPE"
+  ],
+  "released": true
+}

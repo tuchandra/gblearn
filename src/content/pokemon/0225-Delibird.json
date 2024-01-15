@@ -1,0 +1,26 @@
+{
+  "dex": 225,
+  "speciesName": "Delibird",
+  "speciesId": "delibird",
+  "baseStats": {
+    "atk": 128,
+    "def": 90,
+    "hp": 128
+  },
+  "types": [
+    "ice",
+    "flying"
+  ],
+  "fastMoves": [
+    "PRESENT",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "ICE_PUNCH",
+    "ICY_WIND",
+    "FLY",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

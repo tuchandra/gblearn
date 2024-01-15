@@ -1,0 +1,8 @@
+{
+  "moveId": "BLEAKWIND_STORM",
+  "name": "Bleakwind Storm",
+  "type": "flying",
+  "power": 60,
+  "energyGain": 0,
+  "cooldown": 500
+}

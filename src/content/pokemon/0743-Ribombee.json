@@ -1,0 +1,23 @@
+{
+  "dex": 743,
+  "speciesName": "Ribombee",
+  "speciesId": "ribombee",
+  "baseStats": {
+    "atk": 198,
+    "def": 146,
+    "hp": 155
+  },
+  "types": [
+    "bug",
+    "fairy"
+  ],
+  "fastMoves": [
+    "FAIRY_WIND",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "BUG_BUZZ"
+  ],
+  "released": true
+}

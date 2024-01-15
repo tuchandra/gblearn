@@ -1,0 +1,25 @@
+{
+  "dex": 614,
+  "speciesName": "Beartic",
+  "speciesId": "beartic",
+  "baseStats": {
+    "atk": 233,
+    "def": 152,
+    "hp": 216
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "ICE_PUNCH",
+    "SURF",
+    "PLAY_ROUGH",
+    "LIQUIDATION"
+  ],
+  "released": true
+}

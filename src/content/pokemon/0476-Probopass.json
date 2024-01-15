@@ -1,0 +1,25 @@
+{
+  "dex": 476,
+  "speciesName": "Probopass",
+  "speciesId": "probopass",
+  "baseStats": {
+    "atk": 135,
+    "def": 275,
+    "hp": 155
+  },
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "fastMoves": [
+    "ROCK_THROW",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "MAGNET_BOMB",
+    "ROCK_SLIDE",
+    "THUNDERBOLT",
+    "ZAP_CANNON"
+  ],
+  "released": true
+}

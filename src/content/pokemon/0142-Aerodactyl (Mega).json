@@ -1,0 +1,27 @@
+{
+  "dex": 142,
+  "speciesName": "Aerodactyl (Mega)",
+  "speciesId": "aerodactyl_mega",
+  "baseStats": {
+    "atk": 292,
+    "def": 210,
+    "hp": 190
+  },
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "fastMoves": [
+    "BITE",
+    "STEEL_WING",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "HYPER_BEAM",
+    "IRON_HEAD",
+    "ROCK_SLIDE",
+    "EARTH_POWER"
+  ],
+  "released": true
+}

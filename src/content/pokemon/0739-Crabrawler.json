@@ -1,0 +1,24 @@
+{
+  "dex": 739,
+  "speciesName": "Crabrawler",
+  "speciesId": "crabrawler",
+  "baseStats": {
+    "atk": 150,
+    "def": 104,
+    "hp": 132
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "BUBBLE"
+  ],
+  "chargedMoves": [
+    "POWER_UP_PUNCH",
+    "CRABHAMMER",
+    "PAYBACK"
+  ],
+  "released": true
+}

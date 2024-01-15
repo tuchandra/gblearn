@@ -1,0 +1,24 @@
+{
+  "dex": 600,
+  "speciesName": "Klang",
+  "speciesId": "klang",
+  "baseStats": {
+    "atk": 150,
+    "def": 174,
+    "hp": 155
+  },
+  "types": [
+    "steel",
+    "none"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "CHARGE_BEAM"
+  ],
+  "chargedMoves": [
+    "VICE_GRIP",
+    "THUNDERBOLT",
+    "ZAP_CANNON"
+  ],
+  "released": true
+}

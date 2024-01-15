@@ -1,0 +1,8 @@
+{
+  "moveId": "FOUL_PLAY",
+  "name": "Foul Play",
+  "type": "dark",
+  "power": 70,
+  "energyGain": 0,
+  "cooldown": 500
+}

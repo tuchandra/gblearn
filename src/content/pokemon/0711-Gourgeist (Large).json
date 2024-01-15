@@ -1,0 +1,26 @@
+{
+  "dex": 711,
+  "speciesName": "Gourgeist (Large)",
+  "speciesId": "gourgeist_large",
+  "baseStats": {
+    "atk": 179,
+    "def": 206,
+    "hp": 181
+  },
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "fastMoves": [
+    "HEX",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "SEED_BOMB",
+    "SHADOW_BALL",
+    "FOUL_PLAY",
+    "FIRE_BLAST",
+    "POLTERGEIST"
+  ],
+  "released": true
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "LAST_RESORT",
+  "name": "Last Resort",
+  "type": "normal",
+  "power": 90,
+  "energyGain": 0,
+  "cooldown": 500
+}

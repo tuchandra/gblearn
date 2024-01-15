@@ -1,0 +1,26 @@
+{
+  "dex": 73,
+  "speciesName": "Tentacruel",
+  "speciesId": "tentacruel",
+  "baseStats": {
+    "atk": 166,
+    "def": 209,
+    "hp": 190
+  },
+  "types": [
+    "water",
+    "poison"
+  ],
+  "fastMoves": [
+    "ACID",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "HYDRO_PUMP",
+    "SLUDGE_WAVE",
+    "ACID_SPRAY",
+    "SCALD"
+  ],
+  "released": true
+}

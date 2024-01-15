@@ -1,0 +1,24 @@
+{
+  "dex": 264,
+  "speciesName": "Linoone (Galarian)",
+  "speciesId": "linoone_galarian",
+  "baseStats": {
+    "atk": 142,
+    "def": 128,
+    "hp": 186
+  },
+  "types": [
+    "dark",
+    "normal"
+  ],
+  "fastMoves": [
+    "SNARL",
+    "LICK"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "BODY_SLAM",
+    "GUNK_SHOT"
+  ],
+  "released": true
+}

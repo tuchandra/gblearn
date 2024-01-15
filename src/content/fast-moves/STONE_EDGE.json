@@ -1,0 +1,8 @@
+{
+  "moveId": "STONE_EDGE",
+  "name": "Stone Edge",
+  "type": "rock",
+  "power": 100,
+  "energyGain": 0,
+  "cooldown": 500
+}

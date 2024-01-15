@@ -1,0 +1,25 @@
+{
+  "dex": 239,
+  "speciesName": "Elekid",
+  "speciesId": "elekid",
+  "baseStats": {
+    "atk": 135,
+    "def": 101,
+    "hp": 128
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "DISCHARGE",
+    "THUNDER_PUNCH",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

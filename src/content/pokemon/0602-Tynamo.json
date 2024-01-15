@@ -1,0 +1,22 @@
+{
+  "dex": 602,
+  "speciesName": "Tynamo",
+  "speciesId": "tynamo",
+  "baseStats": {
+    "atk": 105,
+    "def": 78,
+    "hp": 111
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": true
+}

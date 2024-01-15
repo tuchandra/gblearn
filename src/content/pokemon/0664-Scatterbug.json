@@ -1,0 +1,22 @@
+{
+  "dex": 664,
+  "speciesName": "Scatterbug",
+  "speciesId": "scatterbug",
+  "baseStats": {
+    "atk": 63,
+    "def": 63,
+    "hp": 116
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": true
+}

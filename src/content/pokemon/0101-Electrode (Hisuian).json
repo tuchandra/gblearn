@@ -1,0 +1,24 @@
+{
+  "dex": 101,
+  "speciesName": "Electrode (Hisuian)",
+  "speciesId": "electrode_hisuian",
+  "baseStats": {
+    "atk": 176,
+    "def": 176,
+    "hp": 155
+  },
+  "types": [
+    "electric",
+    "grass"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "SWIFT",
+    "WILD_CHARGE",
+    "ENERGY_BALL"
+  ],
+  "released": true
+}

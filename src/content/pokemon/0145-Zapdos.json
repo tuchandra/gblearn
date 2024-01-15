@@ -1,0 +1,26 @@
+{
+  "dex": 145,
+  "speciesName": "Zapdos",
+  "speciesId": "zapdos",
+  "baseStats": {
+    "atk": 253,
+    "def": 185,
+    "hp": 207
+  },
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "THUNDER",
+    "THUNDERBOLT",
+    "ZAP_CANNON",
+    "ANCIENT_POWER",
+    "DRILL_PECK"
+  ],
+  "released": true
+}

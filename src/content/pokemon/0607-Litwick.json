@@ -1,0 +1,25 @@
+{
+  "dex": 607,
+  "speciesName": "Litwick",
+  "speciesId": "litwick",
+  "baseStats": {
+    "atk": 108,
+    "def": 98,
+    "hp": 137
+  },
+  "types": [
+    "ghost",
+    "fire"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "FLAME_BURST",
+    "HEAT_WAVE",
+    "MYSTICAL_FIRE"
+  ],
+  "released": true
+}

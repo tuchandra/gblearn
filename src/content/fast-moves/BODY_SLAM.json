@@ -1,0 +1,8 @@
+{
+  "moveId": "BODY_SLAM",
+  "name": "Body Slam",
+  "type": "normal",
+  "power": 60,
+  "energyGain": 0,
+  "cooldown": 500
+}

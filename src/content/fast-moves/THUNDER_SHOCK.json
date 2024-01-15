@@ -1,0 +1,8 @@
+{
+  "moveId": "THUNDER_SHOCK",
+  "name": "Thunder Shock",
+  "type": "electric",
+  "power": 3,
+  "energyGain": 9,
+  "cooldown": 1000
+}

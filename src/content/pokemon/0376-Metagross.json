@@ -1,0 +1,25 @@
+{
+  "dex": 376,
+  "speciesName": "Metagross",
+  "speciesId": "metagross",
+  "baseStats": {
+    "atk": 257,
+    "def": 228,
+    "hp": 190
+  },
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "fastMoves": [
+    "BULLET_PUNCH",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "FLASH_CANNON",
+    "METEOR_MASH",
+    "PSYCHIC"
+  ],
+  "released": true
+}

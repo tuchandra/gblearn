@@ -1,0 +1,25 @@
+{
+  "dex": 85,
+  "speciesName": "Dodrio",
+  "speciesId": "dodrio",
+  "baseStats": {
+    "atk": 218,
+    "def": 140,
+    "hp": 155
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "STEEL_WING"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "AIR_CUTTER",
+    "BRAVE_BIRD",
+    "DRILL_PECK"
+  ],
+  "released": true
+}

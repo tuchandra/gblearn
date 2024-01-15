@@ -1,0 +1,22 @@
+{
+  "dex": 13,
+  "speciesName": "Weedle",
+  "speciesId": "weedle",
+  "baseStats": {
+    "atk": 63,
+    "def": 50,
+    "hp": 120
+  },
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "POISON_STING"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": true
+}

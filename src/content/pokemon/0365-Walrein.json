@@ -1,0 +1,26 @@
+{
+  "dex": 365,
+  "speciesName": "Walrein",
+  "speciesId": "walrein",
+  "baseStats": {
+    "atk": 182,
+    "def": 176,
+    "hp": 242
+  },
+  "types": [
+    "ice",
+    "water"
+  ],
+  "fastMoves": [
+    "FROST_BREATH",
+    "WATERFALL",
+    "POWDER_SNOW"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "EARTHQUAKE",
+    "WATER_PULSE",
+    "ICICLE_SPEAR"
+  ],
+  "released": true
+}

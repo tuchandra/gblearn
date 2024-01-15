@@ -1,0 +1,26 @@
+{
+  "dex": 639,
+  "speciesName": "Terrakion",
+  "speciesId": "terrakion",
+  "baseStats": {
+    "atk": 260,
+    "def": 192,
+    "hp": 209
+  },
+  "types": [
+    "rock",
+    "fighting"
+  ],
+  "fastMoves": [
+    "SMACK_DOWN",
+    "ZEN_HEADBUTT",
+    "DOUBLE_KICK"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "EARTHQUAKE",
+    "ROCK_SLIDE",
+    "SACRED_SWORD"
+  ],
+  "released": true
+}

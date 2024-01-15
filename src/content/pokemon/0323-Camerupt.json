@@ -1,0 +1,26 @@
+{
+  "dex": 323,
+  "speciesName": "Camerupt",
+  "speciesId": "camerupt",
+  "baseStats": {
+    "atk": 194,
+    "def": 136,
+    "hp": 172
+  },
+  "types": [
+    "fire",
+    "ground"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "ROCK_SMASH",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "OVERHEAT",
+    "SOLAR_BEAM",
+    "EARTH_POWER"
+  ],
+  "released": true
+}

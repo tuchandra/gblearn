@@ -1,0 +1,29 @@
+{
+  "dex": 407,
+  "speciesName": "Roserade",
+  "speciesId": "roserade",
+  "baseStats": {
+    "atk": 243,
+    "def": 185,
+    "hp": 155
+  },
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "fastMoves": [
+    "POISON_JAB",
+    "RAZOR_LEAF",
+    "BULLET_SEED",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "GRASS_KNOT",
+    "SLUDGE_BOMB",
+    "SOLAR_BEAM",
+    "WEATHER_BALL_FIRE",
+    "LEAF_STORM"
+  ],
+  "released": true
+}

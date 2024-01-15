@@ -1,0 +1,27 @@
+{
+  "dex": 310,
+  "speciesName": "Manectric",
+  "speciesId": "manectric",
+  "baseStats": {
+    "atk": 215,
+    "def": 127,
+    "hp": 172
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "SNARL",
+    "THUNDER_FANG"
+  ],
+  "chargedMoves": [
+    "FLAME_BURST",
+    "THUNDER",
+    "WILD_CHARGE",
+    "OVERHEAT",
+    "PSYCHIC_FANGS"
+  ],
+  "released": true
+}

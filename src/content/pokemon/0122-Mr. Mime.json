@@ -1,0 +1,25 @@
+{
+  "dex": 122,
+  "speciesName": "Mr. Mime",
+  "speciesId": "mr_mime",
+  "baseStats": {
+    "atk": 192,
+    "def": 205,
+    "hp": 120
+  },
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ZEN_HEADBUTT",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

@@ -1,0 +1,13 @@
+{
+  "moveId": "SACRED_FIRE",
+  "name": "Sacred Fire",
+  "type": "fire",
+  "power": 130,
+  "energy": 65,
+  "buffs": [
+    -1,
+    0
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": "0.5"
+}

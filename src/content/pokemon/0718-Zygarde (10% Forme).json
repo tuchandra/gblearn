@@ -1,0 +1,27 @@
+{
+  "dex": 718,
+  "speciesName": "Zygarde (10% Forme)",
+  "speciesId": "zygarde_10",
+  "baseStats": {
+    "atk": 205,
+    "def": 173,
+    "hp": 144
+  },
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "BITE",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "OUTRAGE",
+    "EARTHQUAKE",
+    "CRUNCH",
+    "HYPER_BEAM",
+    "BULLDOZE"
+  ],
+  "released": true
+}

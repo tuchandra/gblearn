@@ -1,0 +1,8 @@
+{
+  "moveId": "SUBMISSION",
+  "name": "Submission",
+  "type": "fighting",
+  "power": 60,
+  "energyGain": 0,
+  "cooldown": 500
+}

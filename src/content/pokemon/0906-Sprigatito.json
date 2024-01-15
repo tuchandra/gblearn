@@ -1,0 +1,24 @@
+{
+  "dex": 906,
+  "speciesName": "Sprigatito",
+  "speciesId": "sprigatito",
+  "baseStats": {
+    "atk": 116,
+    "def": 99,
+    "hp": 120
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "LEAFAGE",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "GRASS_KNOT",
+    "PLAY_ROUGH",
+    "ENERGY_BALL"
+  ],
+  "released": true
+}

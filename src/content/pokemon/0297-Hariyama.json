@@ -1,0 +1,25 @@
+{
+  "dex": 297,
+  "speciesName": "Hariyama",
+  "speciesId": "hariyama",
+  "baseStats": {
+    "atk": 209,
+    "def": 114,
+    "hp": 302
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "BULLET_PUNCH",
+    "COUNTER"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "DYNAMIC_PUNCH",
+    "HEAVY_SLAM",
+    "SUPER_POWER"
+  ],
+  "released": true
+}

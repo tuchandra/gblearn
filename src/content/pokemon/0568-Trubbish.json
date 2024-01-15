@@ -1,0 +1,23 @@
+{
+  "dex": 568,
+  "speciesName": "Trubbish",
+  "speciesId": "trubbish",
+  "baseStats": {
+    "atk": 96,
+    "def": 122,
+    "hp": 137
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "GUNK_SHOT",
+    "SEED_BOMB"
+  ],
+  "released": true
+}

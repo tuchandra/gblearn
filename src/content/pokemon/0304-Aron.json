@@ -1,0 +1,24 @@
+{
+  "dex": 304,
+  "speciesName": "Aron",
+  "speciesId": "aron",
+  "baseStats": {
+    "atk": 121,
+    "def": 141,
+    "hp": 137
+  },
+  "types": [
+    "steel",
+    "rock"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "IRON_HEAD",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

@@ -1,0 +1,22 @@
+{
+  "dex": 360,
+  "speciesName": "Wynaut",
+  "speciesId": "wynaut",
+  "baseStats": {
+    "atk": 41,
+    "def": 86,
+    "hp": 216
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "MIRROR_COAT"
+  ],
+  "released": true
+}

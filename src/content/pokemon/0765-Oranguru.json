@@ -1,0 +1,26 @@
+{
+  "dex": 765,
+  "speciesName": "Oranguru",
+  "speciesId": "oranguru",
+  "baseStats": {
+    "atk": 168,
+    "def": 192,
+    "hp": 207
+  },
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ZEN_HEADBUTT",
+    "YAWN"
+  ],
+  "chargedMoves": [
+    "PSYCHIC",
+    "FOUL_PLAY",
+    "FUTURE_SIGHT",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

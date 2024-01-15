@@ -1,0 +1,24 @@
+{
+  "dex": 910,
+  "speciesName": "Crocalor",
+  "speciesId": "crocalor",
+  "baseStats": {
+    "atk": 162,
+    "def": 134,
+    "hp": 191
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "INCINERATE",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "FLAMETHROWER",
+    "DISARMING_VOICE",
+    "CRUNCH"
+  ],
+  "released": true
+}

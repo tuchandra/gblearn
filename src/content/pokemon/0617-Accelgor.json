@@ -1,0 +1,26 @@
+{
+  "dex": 617,
+  "speciesName": "Accelgor",
+  "speciesId": "accelgor",
+  "baseStats": {
+    "atk": 220,
+    "def": 120,
+    "hp": 190
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "ACID",
+    "INFESTATION",
+    "WATER_SHURIKEN"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "ACID_SPRAY",
+    "SIGNAL_BEAM",
+    "FOCUS_BLAST"
+  ],
+  "released": true
+}

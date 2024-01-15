@@ -1,0 +1,8 @@
+{
+  "moveId": "SPARK",
+  "name": "Spark",
+  "type": "electric",
+  "power": 6,
+  "energyGain": 7,
+  "cooldown": 1000
+}

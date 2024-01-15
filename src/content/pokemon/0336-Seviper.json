@@ -1,0 +1,24 @@
+{
+  "dex": 336,
+  "speciesName": "Seviper",
+  "speciesId": "seviper",
+  "baseStats": {
+    "atk": 196,
+    "def": 118,
+    "hp": 177
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "IRON_TAIL",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "POISON_FANG",
+    "WRAP"
+  ],
+  "released": true
+}

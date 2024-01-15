@@ -1,0 +1,24 @@
+{
+  "dex": 318,
+  "speciesName": "Carvanha",
+  "speciesId": "carvanha",
+  "baseStats": {
+    "atk": 171,
+    "def": 39,
+    "hp": 128
+  },
+  "types": [
+    "water",
+    "dark"
+  ],
+  "fastMoves": [
+    "BITE",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "CRUNCH",
+    "POISON_FANG"
+  ],
+  "released": true
+}

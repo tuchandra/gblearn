@@ -1,0 +1,25 @@
+{
+  "dex": 113,
+  "speciesName": "Chansey",
+  "speciesId": "chansey",
+  "baseStats": {
+    "atk": 60,
+    "def": 128,
+    "hp": 487
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM",
+    "PSYBEAM",
+    "PSYCHIC"
+  ],
+  "released": true
+}

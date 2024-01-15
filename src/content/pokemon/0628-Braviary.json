@@ -1,0 +1,26 @@
+{
+  "dex": 628,
+  "speciesName": "Braviary",
+  "speciesId": "braviary",
+  "baseStats": {
+    "atk": 232,
+    "def": 152,
+    "hp": 225
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "STEEL_WING",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "HEAT_WAVE",
+    "BRAVE_BIRD",
+    "ROCK_SLIDE",
+    "CLOSE_COMBAT",
+    "FLY"
+  ],
+  "released": true
+}

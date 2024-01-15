@@ -1,0 +1,24 @@
+{
+  "dex": 46,
+  "speciesName": "Paras",
+  "speciesId": "paras",
+  "baseStats": {
+    "atk": 121,
+    "def": 99,
+    "hp": 111
+  },
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "CROSS_POISON",
+    "SEED_BOMB",
+    "X_SCISSOR"
+  ],
+  "released": true
+}

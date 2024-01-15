@@ -1,0 +1,8 @@
+{
+  "moveId": "FEATHER_DANCE",
+  "name": "Feather Dance",
+  "type": "flying",
+  "power": 35,
+  "energyGain": 0,
+  "cooldown": 500
+}

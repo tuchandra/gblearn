@@ -1,0 +1,26 @@
+{
+  "dex": 899,
+  "speciesName": "Wyrdeer",
+  "speciesId": "wyrdeer",
+  "baseStats": {
+    "atk": 206,
+    "def": 145,
+    "hp": 230
+  },
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "ZEN_HEADBUTT",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "MEGAHORN",
+    "STOMP",
+    "WILD_CHARGE",
+    "PSYCHIC"
+  ],
+  "released": true
+}

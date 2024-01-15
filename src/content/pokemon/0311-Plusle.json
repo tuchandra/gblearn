@@ -1,0 +1,25 @@
+{
+  "dex": 311,
+  "speciesName": "Plusle",
+  "speciesId": "plusle",
+  "baseStats": {
+    "atk": 167,
+    "def": 129,
+    "hp": 155
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "SWIFT",
+    "THUNDERBOLT",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

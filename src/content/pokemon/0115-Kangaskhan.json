@@ -1,0 +1,27 @@
+{
+  "dex": 115,
+  "speciesName": "Kangaskhan",
+  "speciesId": "kangaskhan",
+  "baseStats": {
+    "atk": 181,
+    "def": 165,
+    "hp": 233
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "MUD_SLAP"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "CRUNCH",
+    "EARTHQUAKE",
+    "OUTRAGE",
+    "STOMP",
+    "POWER_UP_PUNCH"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 428,
+  "speciesName": "Lopunny (Mega)",
+  "speciesId": "lopunny_mega",
+  "baseStats": {
+    "atk": 282,
+    "def": 214,
+    "hp": 163
+  },
+  "types": [
+    "normal",
+    "fighting"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "POUND",
+    "DOUBLE_KICK"
+  ],
+  "chargedMoves": [
+    "FIRE_PUNCH",
+    "FOCUS_BLAST",
+    "HYPER_BEAM"
+  ],
+  "released": true
+}

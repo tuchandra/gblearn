@@ -1,0 +1,24 @@
+{
+  "dex": 220,
+  "speciesName": "Swinub",
+  "speciesId": "swinub",
+  "baseStats": {
+    "atk": 90,
+    "def": 69,
+    "hp": 137
+  },
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "ICY_WIND",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

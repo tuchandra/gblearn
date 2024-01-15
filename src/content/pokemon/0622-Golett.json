@@ -1,0 +1,24 @@
+{
+  "dex": 622,
+  "speciesName": "Golett",
+  "speciesId": "golett",
+  "baseStats": {
+    "atk": 127,
+    "def": 92,
+    "hp": 153
+  },
+  "types": [
+    "ground",
+    "ghost"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "MUD_SLAP"
+  ],
+  "chargedMoves": [
+    "SHADOW_PUNCH",
+    "BRICK_BREAK",
+    "NIGHT_SHADE"
+  ],
+  "released": true
+}

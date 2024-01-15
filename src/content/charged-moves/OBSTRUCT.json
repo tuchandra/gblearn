@@ -1,0 +1,13 @@
+{
+  "moveId": "OBSTRUCT",
+  "name": "Obstruct",
+  "type": "dark",
+  "power": 15,
+  "energy": 40,
+  "buffs": [
+    0,
+    1
+  ],
+  "buffTarget": "both",
+  "buffApplyChance": "1"
+}

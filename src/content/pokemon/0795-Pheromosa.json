@@ -1,0 +1,25 @@
+{
+  "dex": 795,
+  "speciesName": "Pheromosa",
+  "speciesId": "pheromosa",
+  "baseStats": {
+    "atk": 316,
+    "def": 85,
+    "hp": 174
+  },
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "LOW_KICK"
+  ],
+  "chargedMoves": [
+    "FOCUS_BLAST",
+    "BUG_BUZZ",
+    "LUNGE",
+    "CLOSE_COMBAT"
+  ],
+  "released": true
+}

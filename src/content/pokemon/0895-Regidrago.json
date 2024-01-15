@@ -1,0 +1,24 @@
+{
+  "dex": 895,
+  "speciesName": "Regidrago",
+  "speciesId": "regidrago",
+  "baseStats": {
+    "atk": 202,
+    "def": 101,
+    "hp": 400
+  },
+  "types": [
+    "dragon",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE"
+  ],
+  "chargedMoves": [
+    "HYPER_BEAM",
+    "OUTRAGE",
+    "DRAGON_PULSE",
+    "BREAKING_SWIPE"
+  ],
+  "released": true
+}

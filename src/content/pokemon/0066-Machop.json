@@ -1,0 +1,25 @@
+{
+  "dex": 66,
+  "speciesName": "Machop",
+  "speciesId": "machop",
+  "baseStats": {
+    "atk": 137,
+    "def": 82,
+    "hp": 172
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "KARATE_CHOP",
+    "LOW_KICK",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "CROSS_CHOP",
+    "LOW_SWEEP"
+  ],
+  "released": true
+}

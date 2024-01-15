@@ -1,0 +1,24 @@
+{
+  "dex": 729,
+  "speciesName": "Brionne",
+  "speciesId": "brionne",
+  "baseStats": {
+    "atk": 168,
+    "def": 145,
+    "hp": 155
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARM",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "WATER_PULSE",
+    "DISARMING_VOICE"
+  ],
+  "released": true
+}

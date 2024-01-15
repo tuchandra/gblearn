@@ -1,0 +1,26 @@
+{
+  "dex": 723,
+  "speciesName": "Dartrix",
+  "speciesId": "dartrix",
+  "baseStats": {
+    "atk": 142,
+    "def": 139,
+    "hp": 186
+  },
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "RAZOR_LEAF",
+    "LEAFAGE",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "SEED_BOMB",
+    "ENERGY_BALL",
+    "BRAVE_BIRD"
+  ],
+  "released": true
+}

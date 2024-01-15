@@ -1,0 +1,26 @@
+{
+  "dex": 103,
+  "speciesName": "Exeggutor",
+  "speciesId": "exeggutor",
+  "baseStats": {
+    "atk": 233,
+    "def": 149,
+    "hp": 216
+  },
+  "types": [
+    "grass",
+    "psychic"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "CONFUSION",
+    "EXTRASENSORY",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "PSYCHIC",
+    "SEED_BOMB",
+    "SOLAR_BEAM"
+  ],
+  "released": true
+}

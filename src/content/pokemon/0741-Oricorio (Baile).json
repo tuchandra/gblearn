@@ -1,0 +1,24 @@
+{
+  "dex": 741,
+  "speciesName": "Oricorio (Baile)",
+  "speciesId": "oricorio_baile",
+  "baseStats": {
+    "atk": 196,
+    "def": 145,
+    "hp": 181
+  },
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "fastMoves": [
+    "POUND",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "AIR_CUTTER",
+    "HURRICANE"
+  ],
+  "released": true
+}

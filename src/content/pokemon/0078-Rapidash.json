@@ -1,0 +1,28 @@
+{
+  "dex": 78,
+  "speciesName": "Rapidash",
+  "speciesId": "rapidash",
+  "baseStats": {
+    "atk": 207,
+    "def": 162,
+    "hp": 163
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "FIRE_SPIN",
+    "LOW_KICK",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "DRILL_RUN",
+    "FIRE_BLAST",
+    "HEAT_WAVE",
+    "FLAME_CHARGE",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

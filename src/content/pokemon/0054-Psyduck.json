@@ -1,0 +1,24 @@
+{
+  "dex": 54,
+  "speciesName": "Psyduck",
+  "speciesId": "psyduck",
+  "baseStats": {
+    "atk": 122,
+    "def": 95,
+    "hp": 137
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "CROSS_CHOP",
+    "PSYBEAM"
+  ],
+  "released": true
+}

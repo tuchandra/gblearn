@@ -1,0 +1,25 @@
+{
+  "dex": 623,
+  "speciesName": "Golurk",
+  "speciesId": "golurk",
+  "baseStats": {
+    "atk": 222,
+    "def": 154,
+    "hp": 205
+  },
+  "types": [
+    "ground",
+    "ghost"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "MUD_SLAP"
+  ],
+  "chargedMoves": [
+    "SHADOW_PUNCH",
+    "DYNAMIC_PUNCH",
+    "EARTH_POWER",
+    "POLTERGEIST"
+  ],
+  "released": true
+}

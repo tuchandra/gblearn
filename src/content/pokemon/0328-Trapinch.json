@@ -1,0 +1,25 @@
+{
+  "dex": 328,
+  "speciesName": "Trapinch",
+  "speciesId": "trapinch",
+  "baseStats": {
+    "atk": 162,
+    "def": 78,
+    "hp": 128
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "DIG",
+    "SAND_TOMB",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

@@ -1,0 +1,27 @@
+{
+  "dex": 189,
+  "speciesName": "Jumpluff",
+  "speciesId": "jumpluff",
+  "baseStats": {
+    "atk": 118,
+    "def": 183,
+    "hp": 181
+  },
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "INFESTATION",
+    "FAIRY_WIND"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "ENERGY_BALL",
+    "AERIAL_ACE",
+    "SOLAR_BEAM",
+    "ACROBATICS"
+  ],
+  "released": true
+}

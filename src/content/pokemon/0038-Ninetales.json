@@ -1,0 +1,30 @@
+{
+  "dex": 38,
+  "speciesName": "Ninetales",
+  "speciesId": "ninetales",
+  "baseStats": {
+    "atk": 169,
+    "def": 190,
+    "hp": 177
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "FEINT_ATTACK",
+    "FIRE_SPIN"
+  ],
+  "chargedMoves": [
+    "FIRE_BLAST",
+    "FLAMETHROWER",
+    "HEAT_WAVE",
+    "OVERHEAT",
+    "PSYSHOCK",
+    "SOLAR_BEAM",
+    "WEATHER_BALL_FIRE",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

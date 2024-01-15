@@ -1,0 +1,26 @@
+{
+  "dex": 461,
+  "speciesName": "Weavile",
+  "speciesId": "weavile",
+  "baseStats": {
+    "atk": 243,
+    "def": 171,
+    "hp": 172
+  },
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "ICE_SHARD",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "AVALANCHE",
+    "FOCUS_BLAST",
+    "FOUL_PLAY",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

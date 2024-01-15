@@ -1,0 +1,24 @@
+{
+  "dex": 618,
+  "speciesName": "Stunfisk",
+  "speciesId": "stunfisk",
+  "baseStats": {
+    "atk": 144,
+    "def": 171,
+    "hp": 240
+  },
+  "types": [
+    "ground",
+    "electric"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "MUD_BOMB",
+    "DISCHARGE",
+    "MUDDY_WATER"
+  ],
+  "released": true
+}

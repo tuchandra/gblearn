@@ -1,0 +1,24 @@
+{
+  "dex": 417,
+  "speciesName": "Pachirisu",
+  "speciesId": "pachirisu",
+  "baseStats": {
+    "atk": 94,
+    "def": 172,
+    "hp": 155
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "SPARK",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "THUNDER",
+    "THUNDER_PUNCH",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

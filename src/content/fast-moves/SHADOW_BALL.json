@@ -1,0 +1,8 @@
+{
+  "moveId": "SHADOW_BALL",
+  "name": "Shadow Ball",
+  "type": "ghost",
+  "power": 100,
+  "energyGain": 0,
+  "cooldown": 500
+}

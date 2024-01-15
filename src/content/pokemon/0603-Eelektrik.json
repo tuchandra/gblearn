@@ -1,0 +1,24 @@
+{
+  "dex": 603,
+  "speciesName": "Eelektrik",
+  "speciesId": "eelektrik",
+  "baseStats": {
+    "atk": 156,
+    "def": 130,
+    "hp": 163
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "ACID",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "THUNDERBOLT",
+    "DISCHARGE"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 214,
+  "speciesName": "Heracross",
+  "speciesId": "heracross",
+  "baseStats": {
+    "atk": 234,
+    "def": 179,
+    "hp": 190
+  },
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "EARTHQUAKE",
+    "MEGAHORN",
+    "ROCK_BLAST"
+  ],
+  "released": true
+}

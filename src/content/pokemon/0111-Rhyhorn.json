@@ -1,0 +1,24 @@
+{
+  "dex": 111,
+  "speciesName": "Rhyhorn",
+  "speciesId": "rhyhorn",
+  "baseStats": {
+    "atk": 140,
+    "def": 127,
+    "hp": 190
+  },
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "BULLDOZE",
+    "HORN_ATTACK",
+    "STOMP"
+  ],
+  "released": true
+}

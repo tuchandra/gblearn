@@ -1,0 +1,8 @@
+{
+  "moveId": "SEED_FLARE",
+  "name": "Seed Flare",
+  "type": "grass",
+  "power": 130,
+  "energyGain": 0,
+  "cooldown": 500
+}

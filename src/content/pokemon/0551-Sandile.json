@@ -1,0 +1,24 @@
+{
+  "dex": 551,
+  "speciesName": "Sandile",
+  "speciesId": "sandile",
+  "baseStats": {
+    "atk": 132,
+    "def": 69,
+    "hp": 137
+  },
+  "types": [
+    "ground",
+    "dark"
+  ],
+  "fastMoves": [
+    "BITE",
+    "MUD_SLAP"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "CRUNCH",
+    "BULLDOZE"
+  ],
+  "released": true
+}

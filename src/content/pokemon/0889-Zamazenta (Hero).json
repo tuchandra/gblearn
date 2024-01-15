@@ -1,0 +1,27 @@
+{
+  "dex": 889,
+  "speciesName": "Zamazenta (Hero)",
+  "speciesId": "zamazenta_hero",
+  "baseStats": {
+    "atk": 254,
+    "def": 236,
+    "hp": 192
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "SNARL",
+    "QUICK_ATTACK",
+    "ICE_FANG"
+  ],
+  "chargedMoves": [
+    "MOONBLAST",
+    "IRON_HEAD",
+    "CRUNCH",
+    "CLOSE_COMBAT"
+  ],
+  "released": true
+}

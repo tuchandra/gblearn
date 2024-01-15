@@ -1,0 +1,24 @@
+{
+  "dex": 496,
+  "speciesName": "Servine",
+  "speciesId": "servine",
+  "baseStats": {
+    "atk": 122,
+    "def": 152,
+    "hp": 155
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "IRON_TAIL",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "GRASS_KNOT",
+    "LEAF_TORNADO",
+    "WRAP"
+  ],
+  "released": true
+}

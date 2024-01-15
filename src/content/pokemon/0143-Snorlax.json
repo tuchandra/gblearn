@@ -1,0 +1,29 @@
+{
+  "dex": 143,
+  "speciesName": "Snorlax",
+  "speciesId": "snorlax",
+  "baseStats": {
+    "atk": 190,
+    "def": 169,
+    "hp": 330
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "LICK",
+    "ZEN_HEADBUTT",
+    "YAWN"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "EARTHQUAKE",
+    "HEAVY_SLAM",
+    "HYPER_BEAM",
+    "OUTRAGE",
+    "SKULL_BASH",
+    "SUPER_POWER"
+  ],
+  "released": true
+}

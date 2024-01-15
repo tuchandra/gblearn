@@ -1,0 +1,24 @@
+{
+  "dex": 294,
+  "speciesName": "Loudred",
+  "speciesId": "loudred",
+  "baseStats": {
+    "atk": 134,
+    "def": 81,
+    "hp": 197
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "DISARMING_VOICE",
+    "FLAMETHROWER",
+    "STOMP"
+  ],
+  "released": true
+}

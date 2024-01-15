@@ -1,0 +1,25 @@
+{
+  "dex": 356,
+  "speciesName": "Dusclops",
+  "speciesId": "dusclops",
+  "baseStats": {
+    "atk": 124,
+    "def": 234,
+    "hp": 120
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "HEX"
+  ],
+  "chargedMoves": [
+    "FIRE_PUNCH",
+    "ICE_PUNCH",
+    "SHADOW_PUNCH",
+    "POLTERGEIST"
+  ],
+  "released": true
+}

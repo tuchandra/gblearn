@@ -1,0 +1,25 @@
+{
+  "dex": 488,
+  "speciesName": "Cresselia",
+  "speciesId": "cresselia",
+  "baseStats": {
+    "atk": 152,
+    "def": 258,
+    "hp": 260
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "PSYCHO_CUT"
+  ],
+  "chargedMoves": [
+    "AURORA_BEAM",
+    "FUTURE_SIGHT",
+    "MOONBLAST",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

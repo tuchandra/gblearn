@@ -1,0 +1,24 @@
+{
+  "dex": 247,
+  "speciesName": "Pupitar",
+  "speciesId": "pupitar",
+  "baseStats": {
+    "atk": 155,
+    "def": 133,
+    "hp": 172
+  },
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "fastMoves": [
+    "BITE",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "CRUNCH",
+    "DIG"
+  ],
+  "released": true
+}

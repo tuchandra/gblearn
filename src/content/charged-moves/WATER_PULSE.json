@@ -1,0 +1,7 @@
+{
+  "moveId": "WATER_PULSE",
+  "name": "Water Pulse",
+  "type": "water",
+  "power": 70,
+  "energy": 60
+}

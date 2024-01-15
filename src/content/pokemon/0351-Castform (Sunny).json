@@ -1,0 +1,24 @@
+{
+  "dex": 351,
+  "speciesName": "Castform (Sunny)",
+  "speciesId": "castform_sunny",
+  "baseStats": {
+    "atk": 139,
+    "def": 139,
+    "hp": 172
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "FIRE_BLAST",
+    "SOLAR_BEAM",
+    "WEATHER_BALL_FIRE"
+  ],
+  "released": true
+}

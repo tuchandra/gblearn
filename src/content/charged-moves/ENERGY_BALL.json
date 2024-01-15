@@ -1,0 +1,13 @@
+{
+  "moveId": "ENERGY_BALL",
+  "name": "Energy Ball",
+  "type": "grass",
+  "power": 90,
+  "energy": 55,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".1"
+}

@@ -1,0 +1,23 @@
+{
+  "dex": 287,
+  "speciesName": "Slakoth",
+  "speciesId": "slakoth",
+  "baseStats": {
+    "atk": 104,
+    "def": 92,
+    "hp": 155
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "YAWN"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "BRICK_BREAK",
+    "NIGHT_SLASH"
+  ],
+  "released": true
+}

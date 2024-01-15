@@ -1,0 +1,8 @@
+{
+  "moveId": "SCORCHING_SANDS",
+  "name": "Scorching Sands",
+  "type": "ground",
+  "power": 80,
+  "energyGain": 0,
+  "cooldown": 500
+}

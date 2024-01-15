@@ -1,0 +1,26 @@
+{
+  "dex": 547,
+  "speciesName": "Whimsicott",
+  "speciesId": "whimsicott",
+  "baseStats": {
+    "atk": 164,
+    "def": 176,
+    "hp": 155
+  },
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "fastMoves": [
+    "CHARM",
+    "RAZOR_LEAF",
+    "FAIRY_WIND"
+  ],
+  "chargedMoves": [
+    "GRASS_KNOT",
+    "HURRICANE",
+    "MOONBLAST",
+    "SEED_BOMB"
+  ],
+  "released": true
+}

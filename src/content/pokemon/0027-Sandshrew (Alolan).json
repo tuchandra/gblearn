@@ -1,0 +1,24 @@
+{
+  "dex": 27,
+  "speciesName": "Sandshrew (Alolan)",
+  "speciesId": "sandshrew_alolan",
+  "baseStats": {
+    "atk": 125,
+    "def": 129,
+    "hp": 137
+  },
+  "types": [
+    "ice",
+    "steel"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "POWDER_SNOW"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "GYRO_BALL",
+    "NIGHT_SLASH"
+  ],
+  "released": true
+}

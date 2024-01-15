@@ -1,0 +1,25 @@
+{
+  "dex": 30,
+  "speciesName": "Nidorina",
+  "speciesId": "nidorina",
+  "baseStats": {
+    "atk": 117,
+    "def": 120,
+    "hp": 172
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "POISON_STING"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "POISON_FANG",
+    "SLUDGE_BOMB",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

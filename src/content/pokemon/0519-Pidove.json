@@ -1,0 +1,24 @@
+{
+  "dex": 519,
+  "speciesName": "Pidove",
+  "speciesId": "pidove",
+  "baseStats": {
+    "atk": 98,
+    "def": 80,
+    "hp": 137
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "HEAT_WAVE",
+    "AERIAL_ACE",
+    "AIR_CUTTER"
+  ],
+  "released": true
+}

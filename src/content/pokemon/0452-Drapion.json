@@ -1,0 +1,27 @@
+{
+  "dex": 452,
+  "speciesName": "Drapion",
+  "speciesId": "drapion",
+  "baseStats": {
+    "atk": 180,
+    "def": 202,
+    "hp": 172
+  },
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "fastMoves": [
+    "BITE",
+    "INFESTATION",
+    "POISON_STING",
+    "ICE_FANG"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "CRUNCH",
+    "SLUDGE_BOMB",
+    "FELL_STINGER"
+  ],
+  "released": true
+}

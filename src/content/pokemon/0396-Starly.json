@@ -1,0 +1,24 @@
+{
+  "dex": 396,
+  "speciesName": "Starly",
+  "speciesId": "starly",
+  "baseStats": {
+    "atk": 101,
+    "def": 58,
+    "hp": 120
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BRAVE_BIRD",
+    "FLY"
+  ],
+  "released": true
+}

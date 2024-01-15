@@ -1,0 +1,24 @@
+{
+  "dex": 726,
+  "speciesName": "Torracat",
+  "speciesId": "torracat",
+  "baseStats": {
+    "atk": 174,
+    "def": 103,
+    "hp": 163
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "FLAMETHROWER",
+    "FLAME_CHARGE",
+    "CRUNCH"
+  ],
+  "released": true
+}

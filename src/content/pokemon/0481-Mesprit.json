@@ -1,0 +1,24 @@
+{
+  "dex": 481,
+  "speciesName": "Mesprit",
+  "speciesId": "mesprit",
+  "baseStats": {
+    "atk": 212,
+    "def": 212,
+    "hp": 190
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "EXTRASENSORY"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "FUTURE_SIGHT",
+    "SWIFT"
+  ],
+  "released": true
+}

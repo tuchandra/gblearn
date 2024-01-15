@@ -1,0 +1,26 @@
+{
+  "dex": 662,
+  "speciesName": "Fletchinder",
+  "speciesId": "fletchinder",
+  "baseStats": {
+    "atk": 145,
+    "def": 110,
+    "hp": 158
+  },
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "EMBER",
+    "STEEL_WING"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "HEAT_WAVE",
+    "FLAME_CHARGE",
+    "FLY"
+  ],
+  "released": true
+}

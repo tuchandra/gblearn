@@ -1,0 +1,25 @@
+{
+  "dex": 312,
+  "speciesName": "Minun",
+  "speciesId": "minun",
+  "baseStats": {
+    "atk": 147,
+    "def": 150,
+    "hp": 155
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "SWIFT",
+    "THUNDERBOLT",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

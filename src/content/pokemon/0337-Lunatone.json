@@ -1,0 +1,24 @@
+{
+  "dex": 337,
+  "speciesName": "Lunatone",
+  "speciesId": "lunatone",
+  "baseStats": {
+    "atk": 178,
+    "def": 153,
+    "hp": 207
+  },
+  "types": [
+    "rock",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "MOONBLAST",
+    "PSYCHIC",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

@@ -1,0 +1,23 @@
+{
+  "dex": 427,
+  "speciesName": "Buneary",
+  "speciesId": "buneary",
+  "baseStats": {
+    "atk": 130,
+    "def": 105,
+    "hp": 146
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "FIRE_PUNCH",
+    "SWIFT"
+  ],
+  "released": true
+}

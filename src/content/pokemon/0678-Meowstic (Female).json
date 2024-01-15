@@ -1,0 +1,25 @@
+{
+  "dex": 678,
+  "speciesName": "Meowstic (Female)",
+  "speciesId": "meowstic_female",
+  "baseStats": {
+    "atk": 166,
+    "def": 167,
+    "hp": 179
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "CHARM",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "PSYCHIC",
+    "ENERGY_BALL",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

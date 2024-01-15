@@ -1,0 +1,24 @@
+{
+  "dex": 521,
+  "speciesName": "Unfezant",
+  "speciesId": "unfezant",
+  "baseStats": {
+    "atk": 226,
+    "def": 146,
+    "hp": 190
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "STEEL_WING"
+  ],
+  "chargedMoves": [
+    "HEAT_WAVE",
+    "HYPER_BEAM",
+    "SKY_ATTACK"
+  ],
+  "released": true
+}

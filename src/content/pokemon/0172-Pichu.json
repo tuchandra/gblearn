@@ -1,0 +1,24 @@
+{
+  "dex": 172,
+  "speciesName": "Pichu",
+  "speciesId": "pichu",
+  "baseStats": {
+    "atk": 77,
+    "def": 53,
+    "hp": 85
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "DISARMING_VOICE",
+    "THUNDER_PUNCH",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

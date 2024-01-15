@@ -1,0 +1,24 @@
+{
+  "dex": 43,
+  "speciesName": "Oddish",
+  "speciesId": "oddish",
+  "baseStats": {
+    "atk": 131,
+    "def": 112,
+    "hp": 128
+  },
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "fastMoves": [
+    "ACID",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "MOONBLAST",
+    "SEED_BOMB",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

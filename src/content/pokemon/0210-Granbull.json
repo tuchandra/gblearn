@@ -1,0 +1,25 @@
+{
+  "dex": 210,
+  "speciesName": "Granbull",
+  "speciesId": "granbull",
+  "baseStats": {
+    "atk": 212,
+    "def": 131,
+    "hp": 207
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "SNARL",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "CRUNCH",
+    "PLAY_ROUGH"
+  ],
+  "released": true
+}

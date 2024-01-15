@@ -1,0 +1,24 @@
+{
+  "dex": 393,
+  "speciesName": "Piplup",
+  "speciesId": "piplup",
+  "baseStats": {
+    "atk": 112,
+    "def": 102,
+    "hp": 142
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "POUND"
+  ],
+  "chargedMoves": [
+    "BUBBLE_BEAM",
+    "DRILL_PECK",
+    "ICY_WIND"
+  ],
+  "released": true
+}

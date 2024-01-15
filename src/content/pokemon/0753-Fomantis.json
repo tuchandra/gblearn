@@ -1,0 +1,26 @@
+{
+  "dex": 753,
+  "speciesName": "Fomantis",
+  "speciesId": "fomantis",
+  "baseStats": {
+    "atk": 100,
+    "def": 64,
+    "hp": 120
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "FURY_CUTTER",
+    "LEAFAGE"
+  ],
+  "chargedMoves": [
+    "LEAF_BLADE",
+    "ENERGY_BALL",
+    "GRASS_KNOT",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

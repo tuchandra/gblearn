@@ -1,0 +1,24 @@
+{
+  "dex": 759,
+  "speciesName": "Stufful",
+  "speciesId": "stufful",
+  "baseStats": {
+    "atk": 136,
+    "def": 95,
+    "hp": 172
+  },
+  "types": [
+    "normal",
+    "fighting"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "SUPER_POWER",
+    "BRICK_BREAK",
+    "STOMP"
+  ],
+  "released": true
+}

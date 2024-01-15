@@ -1,0 +1,26 @@
+{
+  "dex": 473,
+  "speciesName": "Mamoswine",
+  "speciesId": "mamoswine",
+  "baseStats": {
+    "atk": 247,
+    "def": 146,
+    "hp": 242
+  },
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "POWDER_SNOW"
+  ],
+  "chargedMoves": [
+    "AVALANCHE",
+    "BULLDOZE",
+    "STONE_EDGE",
+    "ANCIENT_POWER",
+    "HIGH_HORSEPOWER"
+  ],
+  "released": true
+}

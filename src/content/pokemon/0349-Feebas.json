@@ -1,0 +1,22 @@
+{
+  "dex": 349,
+  "speciesName": "Feebas",
+  "speciesId": "feebas",
+  "baseStats": {
+    "atk": 29,
+    "def": 85,
+    "hp": 85
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "SPLASH",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "MIRROR_COAT"
+  ],
+  "released": true
+}

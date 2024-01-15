@@ -1,0 +1,13 @@
+{
+  "moveId": "MUDDY_WATER",
+  "name": "Muddy Water",
+  "type": "water",
+  "power": 35,
+  "energy": 35,
+  "buffs": [
+    -1,
+    0
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".3"
+}

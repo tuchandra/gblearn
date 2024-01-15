@@ -1,0 +1,24 @@
+{
+  "dex": 404,
+  "speciesName": "Luxio",
+  "speciesId": "luxio",
+  "baseStats": {
+    "atk": 159,
+    "def": 95,
+    "hp": 155
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "THUNDERBOLT",
+    "WILD_CHARGE"
+  ],
+  "released": true
+}

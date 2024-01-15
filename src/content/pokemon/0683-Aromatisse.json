@@ -1,0 +1,25 @@
+{
+  "dex": 683,
+  "speciesName": "Aromatisse",
+  "speciesId": "aromatisse",
+  "baseStats": {
+    "atk": 173,
+    "def": 150,
+    "hp": 226
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARM",
+    "CHARGE_BEAM"
+  ],
+  "chargedMoves": [
+    "MOONBLAST",
+    "THUNDERBOLT",
+    "PSYCHIC",
+    "DRAINING_KISS"
+  ],
+  "released": true
+}

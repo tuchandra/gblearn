@@ -1,0 +1,8 @@
+{
+  "moveId": "PSYCHIC",
+  "name": "Psychic",
+  "type": "psychic",
+  "power": 75,
+  "energyGain": 0,
+  "cooldown": 500
+}

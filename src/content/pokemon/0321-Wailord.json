@@ -1,0 +1,25 @@
+{
+  "dex": 321,
+  "speciesName": "Wailord",
+  "speciesId": "wailord",
+  "baseStats": {
+    "atk": 175,
+    "def": 87,
+    "hp": 347
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "HYPER_BEAM",
+    "SURF",
+    "SCALD"
+  ],
+  "released": true
+}

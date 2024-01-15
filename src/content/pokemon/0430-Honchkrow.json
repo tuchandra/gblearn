@@ -1,0 +1,25 @@
+{
+  "dex": 430,
+  "speciesName": "Honchkrow",
+  "speciesId": "honchkrow",
+  "baseStats": {
+    "atk": 243,
+    "def": 103,
+    "hp": 225
+  },
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "BRAVE_BIRD",
+    "DARK_PULSE",
+    "PSYCHIC",
+    "SKY_ATTACK"
+  ],
+  "released": true
+}

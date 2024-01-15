@@ -1,0 +1,24 @@
+{
+  "dex": 537,
+  "speciesName": "Seismitoad",
+  "speciesId": "seismitoad",
+  "baseStats": {
+    "atk": 188,
+    "def": 150,
+    "hp": 233
+  },
+  "types": [
+    "water",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "BUBBLE"
+  ],
+  "chargedMoves": [
+    "MUDDY_WATER",
+    "EARTH_POWER",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

@@ -1,0 +1,8 @@
+{
+  "moveId": "SANDSEAR_STORM",
+  "name": "Sandsear Storm",
+  "type": "ground",
+  "power": 60,
+  "energyGain": 0,
+  "cooldown": 500
+}

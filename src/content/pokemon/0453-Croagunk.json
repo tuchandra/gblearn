@@ -1,0 +1,25 @@
+{
+  "dex": 453,
+  "speciesName": "Croagunk",
+  "speciesId": "croagunk",
+  "baseStats": {
+    "atk": 116,
+    "def": 76,
+    "hp": 134
+  },
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "fastMoves": [
+    "POISON_JAB",
+    "POISON_STING",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "LOW_SWEEP",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

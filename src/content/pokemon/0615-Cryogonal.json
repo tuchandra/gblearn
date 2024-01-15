@@ -1,0 +1,26 @@
+{
+  "dex": 615,
+  "speciesName": "Cryogonal",
+  "speciesId": "cryogonal",
+  "baseStats": {
+    "atk": 190,
+    "def": 218,
+    "hp": 190
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "ICE_SHARD",
+    "FROST_BREATH"
+  ],
+  "chargedMoves": [
+    "AURORA_BEAM",
+    "NIGHT_SLASH",
+    "SOLAR_BEAM",
+    "WATER_PULSE",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

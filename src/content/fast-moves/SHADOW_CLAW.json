@@ -1,0 +1,8 @@
+{
+  "moveId": "SHADOW_CLAW",
+  "name": "Shadow Claw",
+  "type": "ghost",
+  "power": 6,
+  "energyGain": 8,
+  "cooldown": 1000
+}

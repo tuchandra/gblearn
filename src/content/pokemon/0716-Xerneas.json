@@ -1,0 +1,27 @@
+{
+  "dex": 716,
+  "speciesName": "Xerneas",
+  "speciesId": "xerneas",
+  "baseStats": {
+    "atk": 250,
+    "def": 185,
+    "hp": 246
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "ZEN_HEADBUTT",
+    "GEOMANCY"
+  ],
+  "chargedMoves": [
+    "MOONBLAST",
+    "MEGAHORN",
+    "CLOSE_COMBAT",
+    "GIGA_IMPACT",
+    "THUNDER"
+  ],
+  "released": true
+}

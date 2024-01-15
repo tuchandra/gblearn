@@ -1,0 +1,8 @@
+{
+  "moveId": "SYNCHRONOISE",
+  "name": "Synchronoise",
+  "type": "psychic",
+  "power": 80,
+  "energyGain": 0,
+  "cooldown": 500
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 271,
+  "speciesName": "Lombre",
+  "speciesId": "lombre",
+  "baseStats": {
+    "atk": 112,
+    "def": 119,
+    "hp": 155
+  },
+  "types": [
+    "water",
+    "grass"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "BUBBLE_BEAM",
+    "GRASS_KNOT",
+    "ICE_BEAM",
+    "SCALD"
+  ],
+  "released": true
+}

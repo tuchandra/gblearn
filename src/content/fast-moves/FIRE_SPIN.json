@@ -1,0 +1,8 @@
+{
+  "moveId": "FIRE_SPIN",
+  "name": "Fire Spin",
+  "type": "fire",
+  "power": 10,
+  "energyGain": 10,
+  "cooldown": 1500
+}

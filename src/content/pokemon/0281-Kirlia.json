@@ -1,0 +1,27 @@
+{
+  "dex": 281,
+  "speciesName": "Kirlia",
+  "speciesId": "kirlia",
+  "baseStats": {
+    "atk": 117,
+    "def": 90,
+    "hp": 116
+  },
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "CONFUSION",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "DISARMING_VOICE",
+    "PSYCHIC",
+    "SHADOW_SNEAK",
+    "DRAINING_KISS",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

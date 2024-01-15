@@ -1,0 +1,22 @@
+{
+  "dex": 684,
+  "speciesName": "Swirlix",
+  "speciesId": "swirlix",
+  "baseStats": {
+    "atk": 109,
+    "def": 119,
+    "hp": 158
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "DRAINING_KISS",
+    "ENERGY_BALL"
+  ],
+  "released": true
+}

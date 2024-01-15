@@ -1,0 +1,24 @@
+{
+  "dex": 669,
+  "speciesName": "Flabebe",
+  "speciesId": "flabebe",
+  "baseStats": {
+    "atk": 108,
+    "def": 120,
+    "hp": 127
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "VINE_WHIP",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "PETAL_BLIZZARD",
+    "PSYCHIC"
+  ],
+  "released": true
+}

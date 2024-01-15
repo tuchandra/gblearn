@@ -1,0 +1,29 @@
+{
+  "dex": 181,
+  "speciesName": "Ampharos (Mega)",
+  "speciesId": "ampharos_mega",
+  "baseStats": {
+    "atk": 294,
+    "def": 203,
+    "hp": 207
+  },
+  "types": [
+    "electric",
+    "dragon"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "FOCUS_BLAST",
+    "POWER_GEM",
+    "THUNDER",
+    "ZAP_CANNON",
+    "THUNDER_PUNCH",
+    "BRUTAL_SWING",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

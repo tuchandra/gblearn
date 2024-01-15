@@ -1,0 +1,25 @@
+{
+  "dex": 920,
+  "speciesName": "Lokix",
+  "speciesId": "lokix",
+  "baseStats": {
+    "atk": 199,
+    "def": 144,
+    "hp": 174
+  },
+  "types": [
+    "bug",
+    "dark"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "X_SCISSOR",
+    "BUG_BUZZ",
+    "DARK_PULSE",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

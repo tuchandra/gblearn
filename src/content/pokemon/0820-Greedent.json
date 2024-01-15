@@ -1,0 +1,26 @@
+{
+  "dex": 820,
+  "speciesName": "Greedent",
+  "speciesId": "greedent",
+  "baseStats": {
+    "atk": 160,
+    "def": 156,
+    "hp": 260
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "BITE",
+    "BULLET_SEED",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "CRUNCH",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

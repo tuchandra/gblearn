@@ -1,0 +1,26 @@
+{
+  "dex": 644,
+  "speciesName": "Zekrom",
+  "speciesId": "zekrom",
+  "baseStats": {
+    "atk": 275,
+    "def": 211,
+    "hp": 205
+  },
+  "types": [
+    "dragon",
+    "electric"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "CHARGE_BEAM"
+  ],
+  "chargedMoves": [
+    "OUTRAGE",
+    "WILD_CHARGE",
+    "FLASH_CANNON",
+    "CRUNCH",
+    "FUSION_BOLT"
+  ],
+  "released": true
+}

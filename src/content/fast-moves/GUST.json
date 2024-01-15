@@ -1,0 +1,8 @@
+{
+  "moveId": "GUST",
+  "name": "Gust",
+  "type": "flying",
+  "power": 16,
+  "energyGain": 12,
+  "cooldown": 2000
+}

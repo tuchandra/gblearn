@@ -1,0 +1,24 @@
+{
+  "dex": 525,
+  "speciesName": "Boldore",
+  "speciesId": "boldore",
+  "baseStats": {
+    "atk": 174,
+    "def": 143,
+    "hp": 172
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "ROCK_SLIDE",
+    "BULLDOZE",
+    "STONE_EDGE"
+  ],
+  "released": true
+}

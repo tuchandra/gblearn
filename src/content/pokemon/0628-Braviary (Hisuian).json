@@ -1,0 +1,26 @@
+{
+  "dex": 628,
+  "speciesName": "Braviary (Hisuian)",
+  "speciesId": "braviary_hisuian",
+  "baseStats": {
+    "atk": 213,
+    "def": 137,
+    "hp": 242
+  },
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "fastMoves": [
+    "ZEN_HEADBUTT",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "BRAVE_BIRD",
+    "PSYCHIC",
+    "OMINOUS_WIND",
+    "FLY"
+  ],
+  "released": true
+}

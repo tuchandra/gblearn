@@ -1,0 +1,24 @@
+{
+  "dex": 573,
+  "speciesName": "Cinccino",
+  "speciesId": "cinccino",
+  "baseStats": {
+    "atk": 198,
+    "def": 130,
+    "hp": 181
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "HYPER_BEAM",
+    "THUNDERBOLT",
+    "AQUA_TAIL"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 75,
+  "speciesName": "Graveler",
+  "speciesId": "graveler",
+  "baseStats": {
+    "atk": 164,
+    "def": 164,
+    "hp": 146
+  },
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "MUD_SLAP",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "ROCK_BLAST",
+    "ROCK_SLIDE",
+    "STONE_EDGE"
+  ],
+  "released": true
+}

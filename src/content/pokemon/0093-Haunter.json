@@ -1,0 +1,27 @@
+{
+  "dex": 93,
+  "speciesName": "Haunter",
+  "speciesId": "haunter",
+  "baseStats": {
+    "atk": 223,
+    "def": 107,
+    "hp": 128
+  },
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "LICK",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "SHADOW_BALL",
+    "SHADOW_PUNCH",
+    "SLUDGE_BOMB",
+    "ICE_PUNCH"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 439,
+  "speciesName": "Mime (Jr)",
+  "speciesId": "mime_jr",
+  "baseStats": {
+    "atk": 125,
+    "def": 142,
+    "hp": 85
+  },
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "POUND"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "PSYSHOCK"
+  ],
+  "released": true
+}

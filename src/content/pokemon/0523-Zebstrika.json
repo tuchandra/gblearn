@@ -1,0 +1,24 @@
+{
+  "dex": 523,
+  "speciesName": "Zebstrika",
+  "speciesId": "zebstrika",
+  "baseStats": {
+    "atk": 211,
+    "def": 136,
+    "hp": 181
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "DISCHARGE",
+    "WILD_CHARGE"
+  ],
+  "released": true
+}

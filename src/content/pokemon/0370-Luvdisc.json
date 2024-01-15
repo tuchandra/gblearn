@@ -1,0 +1,24 @@
+{
+  "dex": 370,
+  "speciesName": "Luvdisc",
+  "speciesId": "luvdisc",
+  "baseStats": {
+    "atk": 81,
+    "def": 128,
+    "hp": 125
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "SPLASH",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "DRAINING_KISS",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

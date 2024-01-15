@@ -1,0 +1,24 @@
+{
+  "dex": 163,
+  "speciesName": "Hoothoot",
+  "speciesId": "hoothoot",
+  "baseStats": {
+    "atk": 67,
+    "def": 88,
+    "hp": 155
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "PECK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "NIGHT_SHADE",
+    "SKY_ATTACK"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 49,
+  "speciesName": "Venomoth",
+  "speciesId": "venomoth",
+  "baseStats": {
+    "atk": 179,
+    "def": 143,
+    "hp": 172
+  },
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "CONFUSION",
+    "INFESTATION"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "POISON_FANG",
+    "PSYCHIC",
+    "SILVER_WIND"
+  ],
+  "released": true
+}

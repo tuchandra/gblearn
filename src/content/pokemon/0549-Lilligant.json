@@ -1,0 +1,40 @@
+{
+  "dex": 549,
+  "speciesName": "Lilligant",
+  "speciesId": "lilligant",
+  "baseStats": {
+    "atk": 214,
+    "def": 155,
+    "hp": 172
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARM",
+    "HIDDEN_POWER_BUG",
+    "HIDDEN_POWER_DARK",
+    "HIDDEN_POWER_DRAGON",
+    "HIDDEN_POWER_ELECTRIC",
+    "HIDDEN_POWER_FIGHTING",
+    "HIDDEN_POWER_FIRE",
+    "HIDDEN_POWER_FLYING",
+    "HIDDEN_POWER_GHOST",
+    "HIDDEN_POWER_GRASS",
+    "HIDDEN_POWER_GROUND",
+    "HIDDEN_POWER_ICE",
+    "HIDDEN_POWER_POISON",
+    "HIDDEN_POWER_PSYCHIC",
+    "HIDDEN_POWER_ROCK",
+    "HIDDEN_POWER_STEEL",
+    "HIDDEN_POWER_WATER",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "PETAL_BLIZZARD",
+    "HYPER_BEAM",
+    "SOLAR_BEAM"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 996,
+  "speciesName": "Frigibax",
+  "speciesId": "frigibax",
+  "baseStats": {
+    "atk": 134,
+    "def": 86,
+    "hp": 163
+  },
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "ICE_FANG"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "AVALANCHE",
+    "OUTRAGE",
+    "ICY_WIND"
+  ],
+  "released": true
+}

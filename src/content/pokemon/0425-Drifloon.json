@@ -1,0 +1,24 @@
+{
+  "dex": 425,
+  "speciesName": "Drifloon",
+  "speciesId": "drifloon",
+  "baseStats": {
+    "atk": 117,
+    "def": 80,
+    "hp": 207
+  },
+  "types": [
+    "ghost",
+    "flying"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "HEX"
+  ],
+  "chargedMoves": [
+    "ICY_WIND",
+    "OMINOUS_WIND",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

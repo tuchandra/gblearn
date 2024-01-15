@@ -1,0 +1,8 @@
+{
+  "moveId": "INFESTATION",
+  "name": "Infestation",
+  "type": "bug",
+  "power": 6,
+  "energyGain": 12,
+  "cooldown": 1500
+}

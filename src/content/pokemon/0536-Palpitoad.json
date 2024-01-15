@@ -1,0 +1,24 @@
+{
+  "dex": 536,
+  "speciesName": "Palpitoad",
+  "speciesId": "palpitoad",
+  "baseStats": {
+    "atk": 128,
+    "def": 109,
+    "hp": 181
+  },
+  "types": [
+    "water",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "BUBBLE"
+  ],
+  "chargedMoves": [
+    "WATER_PULSE",
+    "EARTH_POWER",
+    "SLUDGE_WAVE"
+  ],
+  "released": true
+}

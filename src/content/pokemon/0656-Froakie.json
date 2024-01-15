@@ -1,0 +1,24 @@
+{
+  "dex": 656,
+  "speciesName": "Froakie",
+  "speciesId": "froakie",
+  "baseStats": {
+    "atk": 122,
+    "def": 84,
+    "hp": 121
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "BUBBLE"
+  ],
+  "chargedMoves": [
+    "WATER_PULSE",
+    "AERIAL_ACE",
+    "SURF"
+  ],
+  "released": true
+}

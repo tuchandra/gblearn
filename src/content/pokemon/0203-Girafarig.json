@@ -1,0 +1,27 @@
+{
+  "dex": 203,
+  "speciesName": "Girafarig",
+  "speciesId": "girafarig",
+  "baseStats": {
+    "atk": 182,
+    "def": 133,
+    "hp": 172
+  },
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "TACKLE",
+    "DOUBLE_KICK"
+  ],
+  "chargedMoves": [
+    "MIRROR_COAT",
+    "PSYCHIC",
+    "THUNDERBOLT",
+    "PSYCHIC_FANGS",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 133,
+  "speciesName": "Eevee",
+  "speciesId": "eevee",
+  "baseStats": {
+    "atk": 104,
+    "def": 114,
+    "hp": 146
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "DIG",
+    "LAST_RESORT",
+    "SWIFT"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 526,
+  "speciesName": "Gigalith",
+  "speciesId": "gigalith",
+  "baseStats": {
+    "atk": 226,
+    "def": 201,
+    "hp": 198
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "ROCK_SLIDE",
+    "SOLAR_BEAM",
+    "SUPER_POWER",
+    "HEAVY_SLAM",
+    "METEOR_BEAM"
+  ],
+  "released": true
+}

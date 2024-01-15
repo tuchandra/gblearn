@@ -1,0 +1,13 @@
+{
+  "moveId": "V_CREATE",
+  "name": "V-Create",
+  "type": "fire",
+  "power": 95,
+  "energy": 40,
+  "buffs": [
+    0,
+    -3
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

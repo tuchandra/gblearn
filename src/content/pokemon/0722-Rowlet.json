@@ -1,0 +1,25 @@
+{
+  "dex": 722,
+  "speciesName": "Rowlet",
+  "speciesId": "rowlet",
+  "baseStats": {
+    "atk": 102,
+    "def": 99,
+    "hp": 169
+  },
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "RAZOR_LEAF",
+    "LEAFAGE",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "SEED_BOMB",
+    "ENERGY_BALL"
+  ],
+  "released": true
+}

@@ -1,0 +1,28 @@
+{
+  "dex": 18,
+  "speciesName": "Pidgeot (Mega)",
+  "speciesId": "pidgeot_mega",
+  "baseStats": {
+    "atk": 280,
+    "def": 175,
+    "hp": 195
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "STEEL_WING",
+    "WING_ATTACK",
+    "GUST"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "AIR_CUTTER",
+    "BRAVE_BIRD",
+    "HURRICANE",
+    "FEATHER_DANCE"
+  ],
+  "released": true
+}

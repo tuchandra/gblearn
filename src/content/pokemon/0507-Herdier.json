@@ -1,0 +1,24 @@
+{
+  "dex": 507,
+  "speciesName": "Herdier",
+  "speciesId": "herdier",
+  "baseStats": {
+    "atk": 145,
+    "def": 126,
+    "hp": 163
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "LICK",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "THUNDERBOLT",
+    "PLAY_ROUGH",
+    "DIG"
+  ],
+  "released": true
+}

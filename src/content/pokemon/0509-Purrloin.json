@@ -1,0 +1,24 @@
+{
+  "dex": 509,
+  "speciesName": "Purrloin",
+  "speciesId": "purrloin",
+  "baseStats": {
+    "atk": 98,
+    "def": 73,
+    "hp": 121
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "NIGHT_SLASH",
+    "PLAY_ROUGH",
+    "DARK_PULSE"
+  ],
+  "released": true
+}

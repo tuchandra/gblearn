@@ -1,0 +1,8 @@
+{
+  "moveId": "HIGH_HORSEPOWER",
+  "name": "High Horsepower",
+  "type": "ground",
+  "power": 100,
+  "energyGain": 0,
+  "cooldown": 500
+}

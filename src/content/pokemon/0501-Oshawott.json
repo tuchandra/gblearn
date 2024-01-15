@@ -1,0 +1,24 @@
+{
+  "dex": 501,
+  "speciesName": "Oshawott",
+  "speciesId": "oshawott",
+  "baseStats": {
+    "atk": 117,
+    "def": 85,
+    "hp": 146
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "WATER_PULSE",
+    "NIGHT_SLASH"
+  ],
+  "released": true
+}

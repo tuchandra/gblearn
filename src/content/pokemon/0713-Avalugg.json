@@ -1,0 +1,27 @@
+{
+  "dex": 713,
+  "speciesName": "Avalugg",
+  "speciesId": "avalugg",
+  "baseStats": {
+    "atk": 196,
+    "def": 240,
+    "hp": 216
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "ICE_FANG"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "AVALANCHE",
+    "EARTHQUAKE",
+    "BODY_SLAM",
+    "MIRROR_COAT",
+    "ICY_WIND"
+  ],
+  "released": true
+}

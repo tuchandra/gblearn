@@ -1,0 +1,24 @@
+{
+  "dex": 670,
+  "speciesName": "Floette",
+  "speciesId": "floette",
+  "baseStats": {
+    "atk": 136,
+    "def": 151,
+    "hp": 144
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "VINE_WHIP",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "PETAL_BLIZZARD",
+    "PSYCHIC"
+  ],
+  "released": true
+}

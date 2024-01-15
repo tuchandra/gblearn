@@ -1,0 +1,8 @@
+{
+  "moveId": "TACKLE",
+  "name": "Tackle",
+  "type": "normal",
+  "power": 3,
+  "energyGain": 3,
+  "cooldown": 500
+}

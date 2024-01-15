@@ -1,0 +1,27 @@
+{
+  "dex": 275,
+  "speciesName": "Shiftry",
+  "speciesId": "shiftry",
+  "baseStats": {
+    "atk": 200,
+    "def": 121,
+    "hp": 207
+  },
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "RAZOR_LEAF",
+    "SNARL",
+    "BULLET_SEED"
+  ],
+  "chargedMoves": [
+    "FOUL_PLAY",
+    "HURRICANE",
+    "LEAF_BLADE",
+    "LEAF_TORNADO"
+  ],
+  "released": true
+}

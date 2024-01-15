@@ -1,0 +1,24 @@
+{
+  "dex": 362,
+  "speciesName": "Glalie (Mega)",
+  "speciesId": "glalie_mega",
+  "baseStats": {
+    "atk": 252,
+    "def": 168,
+    "hp": 190
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "FROST_BREATH",
+    "ICE_SHARD"
+  ],
+  "chargedMoves": [
+    "AVALANCHE",
+    "GYRO_BALL",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

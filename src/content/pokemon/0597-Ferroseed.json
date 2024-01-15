@@ -1,0 +1,24 @@
+{
+  "dex": 597,
+  "speciesName": "Ferroseed",
+  "speciesId": "ferroseed",
+  "baseStats": {
+    "atk": 82,
+    "def": 155,
+    "hp": 127
+  },
+  "types": [
+    "grass",
+    "steel"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "METAL_CLAW"
+  ],
+  "chargedMoves": [
+    "GYRO_BALL",
+    "FLASH_CANNON",
+    "IRON_HEAD"
+  ],
+  "released": true
+}

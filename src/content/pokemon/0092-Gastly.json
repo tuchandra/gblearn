@@ -1,0 +1,26 @@
+{
+  "dex": 92,
+  "speciesName": "Gastly",
+  "speciesId": "gastly",
+  "baseStats": {
+    "atk": 186,
+    "def": 67,
+    "hp": 102
+  },
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "LICK",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "NIGHT_SHADE",
+    "OMINOUS_WIND",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

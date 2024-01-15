@@ -1,0 +1,25 @@
+{
+  "dex": 334,
+  "speciesName": "Altaria (Mega)",
+  "speciesId": "altaria_mega",
+  "baseStats": {
+    "atk": 222,
+    "def": 218,
+    "hp": 181
+  },
+  "types": [
+    "dragon",
+    "fairy"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "PECK"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "DRAGON_PULSE",
+    "SKY_ATTACK",
+    "MOONBLAST"
+  ],
+  "released": true
+}

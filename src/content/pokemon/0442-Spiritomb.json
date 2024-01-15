@@ -1,0 +1,24 @@
+{
+  "dex": 442,
+  "speciesName": "Spiritomb",
+  "speciesId": "spiritomb",
+  "baseStats": {
+    "atk": 169,
+    "def": 199,
+    "hp": 137
+  },
+  "types": [
+    "ghost",
+    "dark"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "OMINOUS_WIND",
+    "SHADOW_BALL",
+    "SHADOW_SNEAK"
+  ],
+  "released": true
+}

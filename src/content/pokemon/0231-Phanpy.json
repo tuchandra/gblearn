@@ -1,0 +1,25 @@
+{
+  "dex": 231,
+  "speciesName": "Phanpy",
+  "speciesId": "phanpy",
+  "baseStats": {
+    "atk": 107,
+    "def": 98,
+    "hp": 207
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "BULLDOZE",
+    "ROCK_SLIDE",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

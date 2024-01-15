@@ -1,0 +1,24 @@
+{
+  "dex": 309,
+  "speciesName": "Electrike",
+  "speciesId": "electrike",
+  "baseStats": {
+    "atk": 123,
+    "def": 78,
+    "hp": 120
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "SWIFT",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

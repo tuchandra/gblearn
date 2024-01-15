@@ -1,0 +1,27 @@
+{
+  "dex": 697,
+  "speciesName": "Tyrantrum",
+  "speciesId": "tyrantrum",
+  "baseStats": {
+    "atk": 227,
+    "def": 191,
+    "hp": 193
+  },
+  "types": [
+    "rock",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "CHARM",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "STONE_EDGE",
+    "OUTRAGE",
+    "EARTHQUAKE",
+    "METEOR_BEAM"
+  ],
+  "released": true
+}

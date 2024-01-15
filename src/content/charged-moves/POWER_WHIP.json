@@ -1,0 +1,7 @@
+{
+  "moveId": "POWER_WHIP",
+  "name": "Power Whip",
+  "type": "grass",
+  "power": 90,
+  "energy": 50
+}

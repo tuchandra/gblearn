@@ -1,0 +1,28 @@
+{
+  "dex": 655,
+  "speciesName": "Delphox",
+  "speciesId": "delphox",
+  "baseStats": {
+    "atk": 230,
+    "def": 189,
+    "hp": 181
+  },
+  "types": [
+    "fire",
+    "psychic"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "FIRE_SPIN",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "PSYCHIC",
+    "FLAMETHROWER",
+    "FLAME_CHARGE",
+    "FIRE_BLAST",
+    "BLAST_BURN",
+    "MYSTICAL_FIRE"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 685,
+  "speciesName": "Slurpuff",
+  "speciesId": "slurpuff",
+  "baseStats": {
+    "atk": 168,
+    "def": 163,
+    "hp": 193
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "CHARM",
+    "FAIRY_WIND"
+  ],
+  "chargedMoves": [
+    "PLAY_ROUGH",
+    "ENERGY_BALL",
+    "FLAMETHROWER",
+    "DRAINING_KISS"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 779,
+  "speciesName": "Bruxish",
+  "speciesId": "bruxish",
+  "baseStats": {
+    "atk": 208,
+    "def": 145,
+    "hp": 169
+  },
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "CONFUSION",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "PSYCHIC_FANGS",
+    "AQUA_TAIL",
+    "CRUNCH"
+  ],
+  "released": true
+}

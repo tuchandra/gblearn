@@ -1,0 +1,24 @@
+{
+  "dex": 358,
+  "speciesName": "Chimecho",
+  "speciesId": "chimecho",
+  "baseStats": {
+    "atk": 175,
+    "def": 170,
+    "hp": 181
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "EXTRASENSORY"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "PSYSHOCK",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

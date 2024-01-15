@@ -1,0 +1,26 @@
+{
+  "dex": 395,
+  "speciesName": "Empoleon",
+  "speciesId": "empoleon",
+  "baseStats": {
+    "atk": 210,
+    "def": 186,
+    "hp": 197
+  },
+  "types": [
+    "water",
+    "steel"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "FLASH_CANNON",
+    "HYDRO_PUMP",
+    "HYDRO_CANNON",
+    "DRILL_PECK"
+  ],
+  "released": true
+}

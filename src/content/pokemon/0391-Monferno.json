@@ -1,0 +1,24 @@
+{
+  "dex": 391,
+  "speciesName": "Monferno",
+  "speciesId": "monferno",
+  "baseStats": {
+    "atk": 158,
+    "def": 105,
+    "hp": 162
+  },
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "FLAME_WHEEL",
+    "FLAMETHROWER",
+    "LOW_SWEEP"
+  ],
+  "released": true
+}

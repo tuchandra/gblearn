@@ -1,0 +1,25 @@
+{
+  "dex": 661,
+  "speciesName": "Fletchling",
+  "speciesId": "fletchling",
+  "baseStats": {
+    "atk": 95,
+    "def": 80,
+    "hp": 128
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "HEAT_WAVE",
+    "SWIFT",
+    "FLY"
+  ],
+  "released": true
+}

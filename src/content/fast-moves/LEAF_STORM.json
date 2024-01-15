@@ -1,0 +1,8 @@
+{
+  "moveId": "LEAF_STORM",
+  "name": "Leaf Storm",
+  "type": "grass",
+  "power": 130,
+  "energyGain": 0,
+  "cooldown": 500
+}

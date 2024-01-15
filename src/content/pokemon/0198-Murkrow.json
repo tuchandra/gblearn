@@ -1,0 +1,24 @@
+{
+  "dex": 198,
+  "speciesName": "Murkrow",
+  "speciesId": "murkrow",
+  "baseStats": {
+    "atk": 175,
+    "def": 87,
+    "hp": 155
+  },
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "PECK"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "DRILL_PECK",
+    "FOUL_PLAY"
+  ],
+  "released": true
+}

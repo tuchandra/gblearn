@@ -1,0 +1,8 @@
+{
+  "moveId": "MUD_SHOT",
+  "name": "Mud Shot",
+  "type": "ground",
+  "power": 3,
+  "energyGain": 9,
+  "cooldown": 1000
+}

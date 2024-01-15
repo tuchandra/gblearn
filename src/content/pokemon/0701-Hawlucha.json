@@ -1,0 +1,25 @@
+{
+  "dex": 701,
+  "speciesName": "Hawlucha",
+  "speciesId": "hawlucha",
+  "baseStats": {
+    "atk": 195,
+    "def": 153,
+    "hp": 186
+  },
+  "types": [
+    "fighting",
+    "flying"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "FLYING_PRESS",
+    "AERIAL_ACE",
+    "X_SCISSOR",
+    "POWER_UP_PUNCH"
+  ],
+  "released": true
+}

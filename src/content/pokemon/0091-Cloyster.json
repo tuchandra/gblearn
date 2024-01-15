@@ -1,0 +1,28 @@
+{
+  "dex": 91,
+  "speciesName": "Cloyster",
+  "speciesId": "cloyster",
+  "baseStats": {
+    "atk": 186,
+    "def": 256,
+    "hp": 137
+  },
+  "types": [
+    "water",
+    "ice"
+  ],
+  "fastMoves": [
+    "FROST_BREATH",
+    "ICE_SHARD"
+  ],
+  "chargedMoves": [
+    "AURORA_BEAM",
+    "AVALANCHE",
+    "BLIZZARD",
+    "HYDRO_PUMP",
+    "ICY_WIND",
+    "LIQUIDATION",
+    "RAZOR_SHELL"
+  ],
+  "released": true
+}

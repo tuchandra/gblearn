@@ -1,0 +1,8 @@
+{
+  "moveId": "DRAGON_BREATH",
+  "name": "Dragon Breath",
+  "type": "dragon",
+  "power": 4,
+  "energyGain": 3,
+  "cooldown": 500
+}

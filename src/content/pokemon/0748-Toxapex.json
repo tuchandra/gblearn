@@ -1,0 +1,24 @@
+{
+  "dex": 748,
+  "speciesName": "Toxapex",
+  "speciesId": "toxapex",
+  "baseStats": {
+    "atk": 114,
+    "def": 273,
+    "hp": 137
+  },
+  "types": [
+    "poison",
+    "water"
+  ],
+  "fastMoves": [
+    "POISON_JAB",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "BRINE",
+    "GUNK_SHOT",
+    "SLUDGE_WAVE"
+  ],
+  "released": true
+}

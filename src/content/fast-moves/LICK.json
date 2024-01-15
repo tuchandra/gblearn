@@ -1,0 +1,8 @@
+{
+  "moveId": "LICK",
+  "name": "Lick",
+  "type": "ghost",
+  "power": 3,
+  "energyGain": 3,
+  "cooldown": 500
+}

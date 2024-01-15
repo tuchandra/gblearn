@@ -1,0 +1,8 @@
+{
+  "moveId": "WATER_PULSE",
+  "name": "Water Pulse",
+  "type": "water",
+  "power": 70,
+  "energyGain": 0,
+  "cooldown": 500
+}

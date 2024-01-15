@@ -1,0 +1,24 @@
+{
+  "dex": 572,
+  "speciesName": "Minccino",
+  "speciesId": "minccino",
+  "baseStats": {
+    "atk": 98,
+    "def": 80,
+    "hp": 146
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "SWIFT",
+    "THUNDERBOLT",
+    "AQUA_TAIL"
+  ],
+  "released": true
+}

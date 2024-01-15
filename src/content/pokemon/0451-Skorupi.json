@@ -1,0 +1,24 @@
+{
+  "dex": 451,
+  "speciesName": "Skorupi",
+  "speciesId": "skorupi",
+  "baseStats": {
+    "atk": 93,
+    "def": 151,
+    "hp": 120
+  },
+  "types": [
+    "poison",
+    "bug"
+  ],
+  "fastMoves": [
+    "INFESTATION",
+    "POISON_STING"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "CROSS_POISON",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

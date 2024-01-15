@@ -1,0 +1,25 @@
+{
+  "dex": 419,
+  "speciesName": "Floatzel",
+  "speciesId": "floatzel",
+  "baseStats": {
+    "atk": 221,
+    "def": 114,
+    "hp": 198
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "HYDRO_PUMP",
+    "SWIFT",
+    "LIQUIDATION"
+  ],
+  "released": true
+}

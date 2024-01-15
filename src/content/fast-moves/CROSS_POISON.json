@@ -1,0 +1,8 @@
+{
+  "moveId": "CROSS_POISON",
+  "name": "Cross Poison",
+  "type": "poison",
+  "power": 50,
+  "energyGain": 0,
+  "cooldown": 500
+}

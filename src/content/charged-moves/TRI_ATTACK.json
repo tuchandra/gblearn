@@ -1,0 +1,13 @@
+{
+  "moveId": "TRI_ATTACK",
+  "name": "Tri Attack",
+  "type": "normal",
+  "power": 65,
+  "energy": 50,
+  "buffs": [
+    -1,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".5"
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 693,
+  "speciesName": "Clawitzer",
+  "speciesId": "clawitzer",
+  "baseStats": {
+    "atk": 221,
+    "def": 171,
+    "hp": 174
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "WATER_PULSE",
+    "DARK_PULSE",
+    "ICE_BEAM",
+    "CRABHAMMER"
+  ],
+  "released": true
+}

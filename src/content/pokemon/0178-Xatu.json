@@ -1,0 +1,24 @@
+{
+  "dex": 178,
+  "speciesName": "Xatu",
+  "speciesId": "xatu",
+  "baseStats": {
+    "atk": 192,
+    "def": 146,
+    "hp": 163
+  },
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "FEINT_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "FUTURE_SIGHT",
+    "OMINOUS_WIND"
+  ],
+  "released": true
+}

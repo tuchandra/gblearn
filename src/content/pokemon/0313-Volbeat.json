@@ -1,0 +1,24 @@
+{
+  "dex": 313,
+  "speciesName": "Volbeat",
+  "speciesId": "volbeat",
+  "baseStats": {
+    "atk": 143,
+    "def": 166,
+    "hp": 163
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "STRUGGLE_BUG",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "SIGNAL_BEAM",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

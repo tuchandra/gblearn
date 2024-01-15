@@ -1,0 +1,25 @@
+{
+  "dex": 126,
+  "speciesName": "Magmar",
+  "speciesId": "magmar",
+  "baseStats": {
+    "atk": 206,
+    "def": 154,
+    "hp": 163
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "KARATE_CHOP"
+  ],
+  "chargedMoves": [
+    "FIRE_BLAST",
+    "FIRE_PUNCH",
+    "FLAMETHROWER",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

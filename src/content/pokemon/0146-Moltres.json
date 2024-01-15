@@ -1,0 +1,26 @@
+{
+  "dex": 146,
+  "speciesName": "Moltres",
+  "speciesId": "moltres",
+  "baseStats": {
+    "atk": 251,
+    "def": 181,
+    "hp": 207
+  },
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "fastMoves": [
+    "FIRE_SPIN",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "FIRE_BLAST",
+    "HEAT_WAVE",
+    "OVERHEAT",
+    "SKY_ATTACK",
+    "ANCIENT_POWER"
+  ],
+  "released": true
+}

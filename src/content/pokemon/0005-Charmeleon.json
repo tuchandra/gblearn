@@ -1,0 +1,25 @@
+{
+  "dex": 5,
+  "speciesName": "Charmeleon",
+  "speciesId": "charmeleon",
+  "baseStats": {
+    "atk": 158,
+    "def": 126,
+    "hp": 151
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "FIRE_FANG",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "FIRE_PUNCH",
+    "FLAME_BURST",
+    "FLAMETHROWER"
+  ],
+  "released": true
+}

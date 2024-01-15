@@ -1,0 +1,25 @@
+{
+  "dex": 109,
+  "speciesName": "Koffing",
+  "speciesId": "koffing",
+  "baseStats": {
+    "atk": 119,
+    "def": 141,
+    "hp": 120
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "ACID",
+    "INFESTATION",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "SLUDGE",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

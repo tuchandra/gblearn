@@ -1,0 +1,25 @@
+{
+  "dex": 707,
+  "speciesName": "Klefki",
+  "speciesId": "klefki",
+  "baseStats": {
+    "atk": 160,
+    "def": 179,
+    "hp": 149
+  },
+  "types": [
+    "steel",
+    "fairy"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "FLASH_CANNON",
+    "PLAY_ROUGH",
+    "DRAINING_KISS",
+    "FOUL_PLAY"
+  ],
+  "released": true
+}

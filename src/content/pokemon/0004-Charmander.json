@@ -1,0 +1,24 @@
+{
+  "dex": 4,
+  "speciesName": "Charmander",
+  "speciesId": "charmander",
+  "baseStats": {
+    "atk": 116,
+    "def": 93,
+    "hp": 118
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "FLAME_BURST",
+    "FLAME_CHARGE",
+    "FLAMETHROWER"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 381,
+  "speciesName": "Latios (Mega)",
+  "speciesId": "latios_mega",
+  "baseStats": {
+    "atk": 335,
+    "def": 241,
+    "hp": 190
+  },
+  "types": [
+    "dragon",
+    "psychic"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "PSYCHIC",
+    "SOLAR_BEAM",
+    "LUSTER_PURGE"
+  ],
+  "released": true
+}

@@ -1,0 +1,7 @@
+{
+  "moveId": "DIG",
+  "name": "Dig",
+  "type": "ground",
+  "power": 80,
+  "energy": 50
+}

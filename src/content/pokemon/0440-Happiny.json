@@ -1,0 +1,22 @@
+{
+  "dex": 440,
+  "speciesName": "Happiny",
+  "speciesId": "happiny",
+  "baseStats": {
+    "atk": 25,
+    "def": 77,
+    "hp": 225
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "PSYCHIC"
+  ],
+  "released": true
+}

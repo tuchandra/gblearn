@@ -1,0 +1,25 @@
+{
+  "dex": 908,
+  "speciesName": "Meowscarada",
+  "speciesId": "meowscarada",
+  "baseStats": {
+    "atk": 233,
+    "def": 153,
+    "hp": 183
+  },
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "fastMoves": [
+    "LEAFAGE",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "GRASS_KNOT",
+    "PLAY_ROUGH",
+    "ENERGY_BALL",
+    "NIGHT_SLASH"
+  ],
+  "released": true
+}

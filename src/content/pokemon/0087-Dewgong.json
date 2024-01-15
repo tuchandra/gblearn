@@ -1,0 +1,29 @@
+{
+  "dex": 87,
+  "speciesName": "Dewgong",
+  "speciesId": "dewgong",
+  "baseStats": {
+    "atk": 139,
+    "def": 177,
+    "hp": 207
+  },
+  "types": [
+    "water",
+    "ice"
+  ],
+  "fastMoves": [
+    "FROST_BREATH",
+    "ICE_SHARD",
+    "IRON_TAIL"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "AURORA_BEAM",
+    "BLIZZARD",
+    "ICY_WIND",
+    "WATER_PULSE",
+    "DRILL_RUN",
+    "LIQUIDATION"
+  ],
+  "released": true
+}

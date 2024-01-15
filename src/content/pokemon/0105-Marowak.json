@@ -1,0 +1,25 @@
+{
+  "dex": 105,
+  "speciesName": "Marowak",
+  "speciesId": "marowak",
+  "baseStats": {
+    "atk": 144,
+    "def": 186,
+    "hp": 155
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "BONE_CLUB",
+    "DIG",
+    "EARTHQUAKE",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

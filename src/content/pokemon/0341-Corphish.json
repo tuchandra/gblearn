@@ -1,0 +1,26 @@
+{
+  "dex": 341,
+  "speciesName": "Corphish",
+  "speciesId": "corphish",
+  "baseStats": {
+    "atk": 141,
+    "def": 99,
+    "hp": 125
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "BUBBLE_BEAM",
+    "VICE_GRIP",
+    "RAZOR_SHELL",
+    "SCALD"
+  ],
+  "released": true
+}

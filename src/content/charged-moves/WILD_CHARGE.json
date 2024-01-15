@@ -1,0 +1,13 @@
+{
+  "moveId": "WILD_CHARGE",
+  "name": "Wild Charge",
+  "type": "electric",
+  "power": 100,
+  "energy": 45,
+  "buffs": [
+    0,
+    -2
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

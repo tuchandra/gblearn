@@ -1,0 +1,25 @@
+{
+  "dex": 740,
+  "speciesName": "Crabominable",
+  "speciesId": "crabominable",
+  "baseStats": {
+    "atk": 231,
+    "def": 138,
+    "hp": 219
+  },
+  "types": [
+    "fighting",
+    "ice"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "BUBBLE"
+  ],
+  "chargedMoves": [
+    "POWER_UP_PUNCH",
+    "CRABHAMMER",
+    "PAYBACK",
+    "ICE_PUNCH"
+  ],
+  "released": true
+}

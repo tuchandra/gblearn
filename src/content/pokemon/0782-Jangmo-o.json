@@ -1,0 +1,24 @@
+{
+  "dex": 782,
+  "speciesName": "Jangmo-o",
+  "speciesId": "jangmo_o",
+  "baseStats": {
+    "atk": 102,
+    "def": 108,
+    "hp": 128
+  },
+  "types": [
+    "dragon",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "DRAGON_TAIL"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "BRICK_BREAK",
+    "DRAGON_PULSE"
+  ],
+  "released": true
+}

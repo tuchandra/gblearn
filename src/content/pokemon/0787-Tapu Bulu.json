@@ -1,0 +1,25 @@
+{
+  "dex": 787,
+  "speciesName": "Tapu Bulu",
+  "speciesId": "tapu_bulu",
+  "baseStats": {
+    "atk": 249,
+    "def": 215,
+    "hp": 172
+  },
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "GRASS_KNOT",
+    "DAZZLING_GLEAM",
+    "MEGAHORN",
+    "SOLAR_BEAM"
+  ],
+  "released": true
+}

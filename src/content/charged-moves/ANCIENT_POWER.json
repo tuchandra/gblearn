@@ -1,0 +1,13 @@
+{
+  "moveId": "ANCIENT_POWER",
+  "name": "Ancient Power",
+  "type": "rock",
+  "power": 60,
+  "energy": 45,
+  "buffs": [
+    1,
+    1
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": ".1"
+}

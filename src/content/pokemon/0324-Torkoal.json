@@ -1,0 +1,24 @@
+{
+  "dex": 324,
+  "speciesName": "Torkoal",
+  "speciesId": "torkoal",
+  "baseStats": {
+    "atk": 151,
+    "def": 203,
+    "hp": 172
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "FIRE_SPIN"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "OVERHEAT",
+    "SOLAR_BEAM"
+  ],
+  "released": true
+}

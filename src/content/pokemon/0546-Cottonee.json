@@ -1,0 +1,24 @@
+{
+  "dex": 546,
+  "speciesName": "Cottonee",
+  "speciesId": "cottonee",
+  "baseStats": {
+    "atk": 71,
+    "def": 111,
+    "hp": 120
+  },
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "fastMoves": [
+    "CHARM",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "SEED_BOMB",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

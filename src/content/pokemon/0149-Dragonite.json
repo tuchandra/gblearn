@@ -1,0 +1,29 @@
+{
+  "dex": 149,
+  "speciesName": "Dragonite",
+  "speciesId": "dragonite",
+  "baseStats": {
+    "atk": 263,
+    "def": 198,
+    "hp": 209
+  },
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "DRAGON_TAIL",
+    "STEEL_WING"
+  ],
+  "chargedMoves": [
+    "DRACO_METEOR",
+    "DRAGON_CLAW",
+    "DRAGON_PULSE",
+    "HURRICANE",
+    "HYPER_BEAM",
+    "OUTRAGE",
+    "SUPER_POWER"
+  ],
+  "released": true
+}

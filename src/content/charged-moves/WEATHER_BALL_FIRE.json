@@ -1,0 +1,7 @@
+{
+  "moveId": "WEATHER_BALL_FIRE",
+  "name": "Weather Ball (Fire)",
+  "type": "fire",
+  "power": 55,
+  "energy": 35
+}

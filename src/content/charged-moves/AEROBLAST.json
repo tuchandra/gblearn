@@ -1,0 +1,13 @@
+{
+  "moveId": "AEROBLAST",
+  "name": "Aeroblast",
+  "type": "flying",
+  "power": 170,
+  "energy": 75,
+  "buffs": [
+    2,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": ".125"
+}

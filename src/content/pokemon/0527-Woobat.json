@@ -1,0 +1,24 @@
+{
+  "dex": 527,
+  "speciesName": "Woobat",
+  "speciesId": "woobat",
+  "baseStats": {
+    "atk": 107,
+    "def": 85,
+    "hp": 163
+  },
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "AIR_CUTTER",
+    "AERIAL_ACE",
+    "PSYSHOCK"
+  ],
+  "released": true
+}

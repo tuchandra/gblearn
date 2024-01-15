@@ -1,0 +1,27 @@
+{
+  "dex": 306,
+  "speciesName": "Aggron",
+  "speciesId": "aggron",
+  "baseStats": {
+    "atk": 198,
+    "def": 257,
+    "hp": 172
+  },
+  "types": [
+    "steel",
+    "rock"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "IRON_TAIL",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "HEAVY_SLAM",
+    "STONE_EDGE",
+    "THUNDER",
+    "ROCK_TOMB",
+    "METEOR_BEAM"
+  ],
+  "released": true
+}

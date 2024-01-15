@@ -1,0 +1,25 @@
+{
+  "dex": 770,
+  "speciesName": "Palossand",
+  "speciesId": "palossand",
+  "baseStats": {
+    "atk": 178,
+    "def": 178,
+    "hp": 198
+  },
+  "types": [
+    "ghost",
+    "ground"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "SAND_TOMB",
+    "SHADOW_BALL",
+    "EARTH_POWER",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

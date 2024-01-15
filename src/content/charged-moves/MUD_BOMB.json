@@ -1,0 +1,7 @@
+{
+  "moveId": "MUD_BOMB",
+  "name": "Mud Bomb",
+  "type": "ground",
+  "power": 60,
+  "energy": 40
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 757,
+  "speciesName": "Salandit",
+  "speciesId": "salandit",
+  "baseStats": {
+    "atk": 136,
+    "def": 80,
+    "hp": 134
+  },
+  "types": [
+    "poison",
+    "fire"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "POISON_FANG",
+    "FLAMETHROWER",
+    "DRAGON_PULSE"
+  ],
+  "released": true
+}

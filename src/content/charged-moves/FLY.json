@@ -1,0 +1,7 @@
+{
+  "moveId": "FLY",
+  "name": "Fly",
+  "type": "flying",
+  "power": 80,
+  "energy": 45
+}

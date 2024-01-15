@@ -1,0 +1,24 @@
+{
+  "dex": 351,
+  "speciesName": "Castform (Snowy)",
+  "speciesId": "castform_snowy",
+  "baseStats": {
+    "atk": 139,
+    "def": 139,
+    "hp": 172
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "ICE_BEAM",
+    "WEATHER_BALL_ICE"
+  ],
+  "released": true
+}

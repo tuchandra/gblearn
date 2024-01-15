@@ -1,0 +1,24 @@
+{
+  "dex": 32,
+  "speciesName": "Nidoran Male",
+  "speciesId": "nidoran_male",
+  "baseStats": {
+    "atk": 105,
+    "def": 76,
+    "hp": 130
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "PECK",
+    "POISON_STING"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "HORN_ATTACK",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

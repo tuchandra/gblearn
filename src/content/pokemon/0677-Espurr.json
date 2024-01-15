@@ -1,0 +1,24 @@
+{
+  "dex": 677,
+  "speciesName": "Espurr",
+  "speciesId": "espurr",
+  "baseStats": {
+    "atk": 120,
+    "def": 114,
+    "hp": 158
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "PSYSHOCK",
+    "ENERGY_BALL",
+    "PSYCHIC"
+  ],
+  "released": true
+}

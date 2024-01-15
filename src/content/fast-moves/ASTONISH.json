@@ -1,0 +1,8 @@
+{
+  "moveId": "ASTONISH",
+  "name": "Astonish",
+  "type": "ghost",
+  "power": 9,
+  "energyGain": 10,
+  "cooldown": 1500
+}

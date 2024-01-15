@@ -1,0 +1,25 @@
+{
+  "dex": 308,
+  "speciesName": "Medicham",
+  "speciesId": "medicham",
+  "baseStats": {
+    "atk": 121,
+    "def": 152,
+    "hp": 155
+  },
+  "types": [
+    "fighting",
+    "psychic"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "PSYCHO_CUT"
+  ],
+  "chargedMoves": [
+    "DYNAMIC_PUNCH",
+    "ICE_PUNCH",
+    "PSYCHIC",
+    "POWER_UP_PUNCH"
+  ],
+  "released": true
+}

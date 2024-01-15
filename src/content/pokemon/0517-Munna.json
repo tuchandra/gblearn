@@ -1,0 +1,24 @@
+{
+  "dex": 517,
+  "speciesName": "Munna",
+  "speciesId": "munna",
+  "baseStats": {
+    "atk": 111,
+    "def": 92,
+    "hp": 183
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "ZEN_HEADBUTT",
+    "CHARGE_BEAM"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "DAZZLING_GLEAM",
+    "PSYSHOCK"
+  ],
+  "released": true
+}

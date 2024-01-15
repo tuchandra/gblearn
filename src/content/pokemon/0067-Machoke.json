@@ -1,0 +1,25 @@
+{
+  "dex": 67,
+  "speciesName": "Machoke",
+  "speciesId": "machoke",
+  "baseStats": {
+    "atk": 177,
+    "def": 125,
+    "hp": 190
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "KARATE_CHOP",
+    "LOW_KICK"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "CROSS_CHOP",
+    "DYNAMIC_PUNCH",
+    "SUBMISSION"
+  ],
+  "released": true
+}

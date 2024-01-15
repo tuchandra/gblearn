@@ -1,0 +1,25 @@
+{
+  "dex": 70,
+  "speciesName": "Weepinbell",
+  "speciesId": "weepinbell",
+  "baseStats": {
+    "atk": 172,
+    "def": 92,
+    "hp": 163
+  },
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "fastMoves": [
+    "ACID",
+    "BULLET_SEED",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "POWER_WHIP",
+    "SEED_BOMB",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

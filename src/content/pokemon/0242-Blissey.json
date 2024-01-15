@@ -1,0 +1,24 @@
+{
+  "dex": 242,
+  "speciesName": "Blissey",
+  "speciesId": "blissey",
+  "baseStats": {
+    "atk": 129,
+    "def": 169,
+    "hp": 496
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM",
+    "PSYCHIC"
+  ],
+  "released": true
+}

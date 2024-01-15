@@ -1,0 +1,25 @@
+{
+  "dex": 334,
+  "speciesName": "Altaria",
+  "speciesId": "altaria",
+  "baseStats": {
+    "atk": 141,
+    "def": 201,
+    "hp": 181
+  },
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "PECK"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "DRAGON_PULSE",
+    "SKY_ATTACK",
+    "MOONBLAST"
+  ],
+  "released": true
+}

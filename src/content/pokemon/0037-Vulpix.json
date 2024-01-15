@@ -1,0 +1,25 @@
+{
+  "dex": 37,
+  "speciesName": "Vulpix",
+  "speciesId": "vulpix",
+  "baseStats": {
+    "atk": 96,
+    "def": 109,
+    "hp": 116
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "FLAME_CHARGE",
+    "FLAMETHROWER",
+    "WEATHER_BALL_FIRE"
+  ],
+  "released": true
+}

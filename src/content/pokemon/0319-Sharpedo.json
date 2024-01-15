@@ -1,0 +1,24 @@
+{
+  "dex": 319,
+  "speciesName": "Sharpedo",
+  "speciesId": "sharpedo",
+  "baseStats": {
+    "atk": 243,
+    "def": 83,
+    "hp": 172
+  },
+  "types": [
+    "water",
+    "dark"
+  ],
+  "fastMoves": [
+    "BITE",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "HYDRO_PUMP",
+    "POISON_FANG"
+  ],
+  "released": true
+}

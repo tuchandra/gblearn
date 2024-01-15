@@ -1,0 +1,7 @@
+{
+  "moveId": "VOLT_SWITCH",
+  "name": "Volt Switch",
+  "type": "electric",
+  "power": 12,
+  "energy": 0
+}

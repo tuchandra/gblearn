@@ -1,0 +1,24 @@
+{
+  "dex": 539,
+  "speciesName": "Sawk",
+  "speciesId": "sawk",
+  "baseStats": {
+    "atk": 231,
+    "def": 153,
+    "hp": 181
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "FOCUS_BLAST",
+    "LOW_SWEEP",
+    "BODY_SLAM"
+  ],
+  "released": true
+}

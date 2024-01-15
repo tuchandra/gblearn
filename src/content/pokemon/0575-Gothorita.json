@@ -1,0 +1,24 @@
+{
+  "dex": 575,
+  "speciesName": "Gothorita",
+  "speciesId": "gothorita",
+  "baseStats": {
+    "atk": 137,
+    "def": 153,
+    "hp": 155
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "FUTURE_SIGHT",
+    "PSYCHIC"
+  ],
+  "released": true
+}

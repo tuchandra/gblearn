@@ -1,0 +1,27 @@
+{
+  "dex": 136,
+  "speciesName": "Flareon",
+  "speciesId": "flareon",
+  "baseStats": {
+    "atk": 246,
+    "def": 179,
+    "hp": 163
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "FIRE_SPIN"
+  ],
+  "chargedMoves": [
+    "FIRE_BLAST",
+    "FLAMETHROWER",
+    "HEAT_WAVE",
+    "LAST_RESORT",
+    "OVERHEAT",
+    "SUPER_POWER"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 182,
+  "speciesName": "Bellossom",
+  "speciesId": "bellossom",
+  "baseStats": {
+    "atk": 169,
+    "def": 186,
+    "hp": 181
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "ACID",
+    "RAZOR_LEAF",
+    "BULLET_SEED",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "LEAF_BLADE",
+    "PETAL_BLIZZARD"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 177,
+  "speciesName": "Natu",
+  "speciesId": "natu",
+  "baseStats": {
+    "atk": 134,
+    "def": 89,
+    "hp": 120
+  },
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "DRILL_PECK",
+    "NIGHT_SHADE",
+    "PSYSHOCK"
+  ],
+  "released": true
+}

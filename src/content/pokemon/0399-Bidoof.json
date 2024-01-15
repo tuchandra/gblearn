@@ -1,0 +1,28 @@
+{
+  "dex": 399,
+  "speciesName": "Bidoof",
+  "speciesId": "bidoof",
+  "baseStats": {
+    "atk": 80,
+    "def": 73,
+    "hp": 153
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "GRASS_KNOT",
+    "HYPER_FANG",
+    "ICE_BEAM",
+    "THUNDERBOLT",
+    "SHADOW_BALL",
+    "SUPER_POWER"
+  ],
+  "released": true
+}

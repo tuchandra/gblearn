@@ -1,0 +1,27 @@
+{
+  "dex": 352,
+  "speciesName": "Kecleon",
+  "speciesId": "kecleon",
+  "baseStats": {
+    "atk": 161,
+    "def": 189,
+    "hp": 155
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "LICK",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "FLAMETHROWER",
+    "FOUL_PLAY",
+    "ICE_BEAM",
+    "SHADOW_SNEAK",
+    "THUNDER"
+  ],
+  "released": true
+}

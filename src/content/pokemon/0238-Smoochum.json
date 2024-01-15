@@ -1,0 +1,25 @@
+{
+  "dex": 238,
+  "speciesName": "Smoochum",
+  "speciesId": "smoochum",
+  "baseStats": {
+    "atk": 153,
+    "def": 91,
+    "hp": 128
+  },
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "fastMoves": [
+    "FROST_BREATH",
+    "POUND",
+    "POWDER_SNOW"
+  ],
+  "chargedMoves": [
+    "ICE_BEAM",
+    "ICE_PUNCH",
+    "PSYSHOCK"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 798,
+  "speciesName": "Kartana",
+  "speciesId": "kartana",
+  "baseStats": {
+    "atk": 323,
+    "def": 182,
+    "hp": 139
+  },
+  "types": [
+    "grass",
+    "steel"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "LEAF_BLADE",
+    "X_SCISSOR",
+    "NIGHT_SLASH",
+    "AERIAL_ACE"
+  ],
+  "released": true
+}

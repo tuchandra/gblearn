@@ -1,0 +1,8 @@
+{
+  "moveId": "WING_ATTACK",
+  "name": "Wing Attack",
+  "type": "flying",
+  "power": 5,
+  "energyGain": 8,
+  "cooldown": 1000
+}

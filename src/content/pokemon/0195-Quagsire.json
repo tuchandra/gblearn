@@ -1,0 +1,27 @@
+{
+  "dex": 195,
+  "speciesName": "Quagsire",
+  "speciesId": "quagsire",
+  "baseStats": {
+    "atk": 152,
+    "def": 143,
+    "hp": 216
+  },
+  "types": [
+    "water",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "SLUDGE_BOMB",
+    "STONE_EDGE",
+    "ACID_SPRAY",
+    "MUD_BOMB",
+    "AQUA_TAIL"
+  ],
+  "released": true
+}

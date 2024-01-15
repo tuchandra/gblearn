@@ -1,0 +1,24 @@
+{
+  "dex": 633,
+  "speciesName": "Deino",
+  "speciesId": "deino",
+  "baseStats": {
+    "atk": 116,
+    "def": 93,
+    "hp": 141
+  },
+  "types": [
+    "dark",
+    "dragon"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "DRAGON_BREATH"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "CRUNCH",
+    "BODY_SLAM"
+  ],
+  "released": true
+}

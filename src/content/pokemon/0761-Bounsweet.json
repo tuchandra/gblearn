@@ -1,0 +1,23 @@
+{
+  "dex": 761,
+  "speciesName": "Bounsweet",
+  "speciesId": "bounsweet",
+  "baseStats": {
+    "atk": 55,
+    "def": 69,
+    "hp": 123
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "DRAINING_KISS"
+  ],
+  "released": true
+}

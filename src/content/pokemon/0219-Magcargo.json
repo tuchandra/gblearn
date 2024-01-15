@@ -1,0 +1,26 @@
+{
+  "dex": 219,
+  "speciesName": "Magcargo",
+  "speciesId": "magcargo",
+  "baseStats": {
+    "atk": 139,
+    "def": 191,
+    "hp": 137
+  },
+  "types": [
+    "fire",
+    "rock"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "ROCK_THROW",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "HEAT_WAVE",
+    "OVERHEAT",
+    "STONE_EDGE",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

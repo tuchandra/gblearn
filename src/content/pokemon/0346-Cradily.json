@@ -1,0 +1,26 @@
+{
+  "dex": 346,
+  "speciesName": "Cradily",
+  "speciesId": "cradily",
+  "baseStats": {
+    "atk": 152,
+    "def": 194,
+    "hp": 200
+  },
+  "types": [
+    "rock",
+    "grass"
+  ],
+  "fastMoves": [
+    "ACID",
+    "INFESTATION",
+    "BULLET_SEED"
+  ],
+  "chargedMoves": [
+    "BULLDOZE",
+    "GRASS_KNOT",
+    "STONE_EDGE",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

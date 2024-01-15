@@ -1,0 +1,24 @@
+{
+  "dex": 222,
+  "speciesName": "Corsola",
+  "speciesId": "corsola",
+  "baseStats": {
+    "atk": 118,
+    "def": 156,
+    "hp": 146
+  },
+  "types": [
+    "water",
+    "rock"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BUBBLE_BEAM",
+    "POWER_GEM",
+    "ROCK_BLAST"
+  ],
+  "released": true
+}

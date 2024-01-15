@@ -1,0 +1,26 @@
+{
+  "dex": 76,
+  "speciesName": "Golem",
+  "speciesId": "golem",
+  "baseStats": {
+    "atk": 211,
+    "def": 198,
+    "hp": 190
+  },
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "MUD_SLAP",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "EARTHQUAKE",
+    "ROCK_BLAST",
+    "STONE_EDGE"
+  ],
+  "released": true
+}

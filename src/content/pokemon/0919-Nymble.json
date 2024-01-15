@@ -1,0 +1,24 @@
+{
+  "dex": 919,
+  "speciesName": "Nymble",
+  "speciesId": "nymble",
+  "baseStats": {
+    "atk": 81,
+    "def": 65,
+    "hp": 107
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "X_SCISSOR",
+    "BUG_BUZZ",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 449,
+  "speciesName": "Hippopotas",
+  "speciesId": "hippopotas",
+  "baseStats": {
+    "atk": 124,
+    "def": 118,
+    "hp": 169
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "DIG",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

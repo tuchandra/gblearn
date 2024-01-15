@@ -1,0 +1,25 @@
+{
+  "dex": 478,
+  "speciesName": "Froslass",
+  "speciesId": "froslass",
+  "baseStats": {
+    "atk": 171,
+    "def": 150,
+    "hp": 172
+  },
+  "types": [
+    "ice",
+    "ghost"
+  ],
+  "fastMoves": [
+    "HEX",
+    "POWDER_SNOW"
+  ],
+  "chargedMoves": [
+    "AVALANCHE",
+    "CRUNCH",
+    "SHADOW_BALL",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

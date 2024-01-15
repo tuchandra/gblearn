@@ -1,0 +1,23 @@
+{
+  "dex": 202,
+  "speciesName": "Wobbuffet",
+  "speciesId": "wobbuffet",
+  "baseStats": {
+    "atk": 60,
+    "def": 106,
+    "hp": 382
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "SPLASH",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "MIRROR_COAT"
+  ],
+  "released": true
+}

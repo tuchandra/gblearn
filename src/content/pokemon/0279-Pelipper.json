@@ -1,0 +1,25 @@
+{
+  "dex": 279,
+  "speciesName": "Pelipper",
+  "speciesId": "pelipper",
+  "baseStats": {
+    "atk": 175,
+    "def": 174,
+    "hp": 155
+  },
+  "types": [
+    "water",
+    "flying"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "HURRICANE",
+    "HYDRO_PUMP",
+    "WEATHER_BALL_WATER"
+  ],
+  "released": true
+}

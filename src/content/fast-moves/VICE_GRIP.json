@@ -1,0 +1,8 @@
+{
+  "moveId": "VICE_GRIP",
+  "name": "Vise Grip",
+  "type": "normal",
+  "power": 40,
+  "energyGain": 0,
+  "cooldown": 500
+}

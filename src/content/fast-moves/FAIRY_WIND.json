@@ -1,0 +1,8 @@
+{
+  "moveId": "FAIRY_WIND",
+  "name": "Fairy Wind",
+  "type": "fairy",
+  "power": 3,
+  "energyGain": 9,
+  "cooldown": 1000
+}

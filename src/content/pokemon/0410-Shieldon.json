@@ -1,0 +1,24 @@
+{
+  "dex": 410,
+  "speciesName": "Shieldon",
+  "speciesId": "shieldon",
+  "baseStats": {
+    "atk": 76,
+    "def": 195,
+    "hp": 102
+  },
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "fastMoves": [
+    "IRON_TAIL",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "HEAVY_SLAM",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

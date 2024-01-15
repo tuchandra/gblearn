@@ -1,0 +1,24 @@
+{
+  "dex": 479,
+  "speciesName": "Rotom (Frost)",
+  "speciesId": "rotom_frost",
+  "baseStats": {
+    "atk": 204,
+    "def": 219,
+    "hp": 137
+  },
+  "types": [
+    "electric",
+    "ice"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "THUNDER",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 12,
+  "speciesName": "Butterfree",
+  "speciesId": "butterfree",
+  "baseStats": {
+    "atk": 167,
+    "def": 137,
+    "hp": 155
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "CONFUSION",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "PSYCHIC",
+    "SIGNAL_BEAM"
+  ],
+  "released": true
+}

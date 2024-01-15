@@ -1,0 +1,28 @@
+{
+  "dex": 34,
+  "speciesName": "Nidoking",
+  "speciesId": "nidoking",
+  "baseStats": {
+    "atk": 204,
+    "def": 156,
+    "hp": 191
+  },
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "fastMoves": [
+    "FURY_CUTTER",
+    "IRON_TAIL",
+    "POISON_JAB",
+    "DOUBLE_KICK"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "MEGAHORN",
+    "SLUDGE_WAVE",
+    "EARTH_POWER",
+    "SAND_TOMB"
+  ],
+  "released": true
+}

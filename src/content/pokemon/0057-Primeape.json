@@ -1,0 +1,27 @@
+{
+  "dex": 57,
+  "speciesName": "Primeape",
+  "speciesId": "primeape",
+  "baseStats": {
+    "atk": 207,
+    "def": 138,
+    "hp": 163
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "KARATE_CHOP",
+    "LOW_KICK"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "CROSS_CHOP",
+    "LOW_SWEEP",
+    "NIGHT_SLASH",
+    "ICE_PUNCH"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 472,
+  "speciesName": "Gliscor",
+  "speciesId": "gliscor",
+  "baseStats": {
+    "atk": 185,
+    "def": 222,
+    "hp": 181
+  },
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "fastMoves": [
+    "FURY_CUTTER",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "EARTHQUAKE",
+    "NIGHT_SLASH",
+    "SAND_TOMB"
+  ],
+  "released": true
+}

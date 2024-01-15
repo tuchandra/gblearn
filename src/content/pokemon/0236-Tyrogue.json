@@ -1,0 +1,24 @@
+{
+  "dex": 236,
+  "speciesName": "Tyrogue",
+  "speciesId": "tyrogue",
+  "baseStats": {
+    "atk": 64,
+    "def": 64,
+    "hp": 111
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "LOW_SWEEP",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

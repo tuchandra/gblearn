@@ -1,0 +1,25 @@
+{
+  "dex": 618,
+  "speciesName": "Stunfisk (Galarian)",
+  "speciesId": "stunfisk_galarian",
+  "baseStats": {
+    "atk": 144,
+    "def": 171,
+    "hp": 240
+  },
+  "types": [
+    "ground",
+    "steel"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "METAL_CLAW"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "FLASH_CANNON",
+    "MUDDY_WATER",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

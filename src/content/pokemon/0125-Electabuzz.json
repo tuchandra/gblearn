@@ -1,0 +1,24 @@
+{
+  "dex": 125,
+  "speciesName": "Electabuzz",
+  "speciesId": "electabuzz",
+  "baseStats": {
+    "atk": 198,
+    "def": 158,
+    "hp": 163
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "THUNDER",
+    "THUNDER_PUNCH",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

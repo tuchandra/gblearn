@@ -1,0 +1,7 @@
+{
+  "moveId": "ROCK_BLAST",
+  "name": "Rock Blast",
+  "type": "rock",
+  "power": 50,
+  "energy": 40
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 134,
+  "speciesName": "Vaporeon",
+  "speciesId": "vaporeon",
+  "baseStats": {
+    "atk": 205,
+    "def": 161,
+    "hp": 277
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "HYDRO_PUMP",
+    "LAST_RESORT",
+    "WATER_PULSE",
+    "SCALD",
+    "LIQUIDATION"
+  ],
+  "released": true
+}

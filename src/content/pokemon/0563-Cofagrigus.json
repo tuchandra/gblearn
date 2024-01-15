@@ -1,0 +1,25 @@
+{
+  "dex": 563,
+  "speciesName": "Cofagrigus",
+  "speciesId": "cofagrigus",
+  "baseStats": {
+    "atk": 163,
+    "def": 237,
+    "hp": 151
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "ZEN_HEADBUTT",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "DARK_PULSE",
+    "PSYCHIC"
+  ],
+  "released": true
+}

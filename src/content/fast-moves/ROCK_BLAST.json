@@ -1,0 +1,8 @@
+{
+  "moveId": "ROCK_BLAST",
+  "name": "Rock Blast",
+  "type": "rock",
+  "power": 50,
+  "energyGain": 0,
+  "cooldown": 500
+}

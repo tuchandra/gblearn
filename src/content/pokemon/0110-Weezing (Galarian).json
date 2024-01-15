@@ -1,0 +1,26 @@
+{
+  "dex": 110,
+  "speciesName": "Weezing (Galarian)",
+  "speciesId": "weezing_galarian",
+  "baseStats": {
+    "atk": 174,
+    "def": 197,
+    "hp": 163
+  },
+  "types": [
+    "poison",
+    "fairy"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "FAIRY_WIND"
+  ],
+  "chargedMoves": [
+    "SLUDGE",
+    "HYPER_BEAM",
+    "PLAY_ROUGH",
+    "OVERHEAT",
+    "BRUTAL_SWING"
+  ],
+  "released": true
+}

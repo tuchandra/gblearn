@@ -1,0 +1,25 @@
+{
+  "dex": 542,
+  "speciesName": "Leavanny",
+  "speciesId": "leavanny",
+  "baseStats": {
+    "atk": 205,
+    "def": 165,
+    "hp": 181
+  },
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "BUG_BITE"
+  ],
+  "chargedMoves": [
+    "LEAF_BLADE",
+    "X_SCISSOR",
+    "SILVER_WIND",
+    "LEAF_STORM"
+  ],
+  "released": true
+}

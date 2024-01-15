@@ -1,0 +1,25 @@
+{
+  "dex": 744,
+  "speciesName": "Rockruff",
+  "speciesId": "rockruff",
+  "baseStats": {
+    "atk": 117,
+    "def": 78,
+    "hp": 128
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "STONE_EDGE",
+    "ROCK_TOMB",
+    "CRUNCH",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

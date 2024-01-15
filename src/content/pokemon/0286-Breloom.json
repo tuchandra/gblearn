@@ -1,0 +1,25 @@
+{
+  "dex": 286,
+  "speciesName": "Breloom",
+  "speciesId": "breloom",
+  "baseStats": {
+    "atk": 241,
+    "def": 144,
+    "hp": 155
+  },
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "COUNTER"
+  ],
+  "chargedMoves": [
+    "DYNAMIC_PUNCH",
+    "GRASS_KNOT",
+    "SEED_BOMB",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

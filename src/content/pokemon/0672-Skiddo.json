@@ -1,0 +1,24 @@
+{
+  "dex": 672,
+  "speciesName": "Skiddo",
+  "speciesId": "skiddo",
+  "baseStats": {
+    "atk": 123,
+    "def": 102,
+    "hp": 165
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "ZEN_HEADBUTT",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "ROCK_SLIDE",
+    "SEED_BOMB"
+  ],
+  "released": true
+}

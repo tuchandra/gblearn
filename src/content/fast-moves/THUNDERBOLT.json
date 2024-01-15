@@ -1,0 +1,8 @@
+{
+  "moveId": "THUNDERBOLT",
+  "name": "Thunderbolt",
+  "type": "electric",
+  "power": 90,
+  "energyGain": 0,
+  "cooldown": 500
+}

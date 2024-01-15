@@ -1,0 +1,8 @@
+{
+  "moveId": "WILDBOLT_STORM",
+  "name": "Wildbolt Storm",
+  "type": "electric",
+  "power": 60,
+  "energyGain": 0,
+  "cooldown": 500
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 217,
+  "speciesName": "Ursaring",
+  "speciesId": "ursaring",
+  "baseStats": {
+    "atk": 236,
+    "def": 144,
+    "hp": 207
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "METAL_CLAW",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "HYPER_BEAM",
+    "PLAY_ROUGH",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

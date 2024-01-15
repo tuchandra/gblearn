@@ -1,0 +1,8 @@
+{
+  "moveId": "IRON_HEAD",
+  "name": "Iron Head",
+  "type": "steel",
+  "power": 70,
+  "energyGain": 0,
+  "cooldown": 500
+}

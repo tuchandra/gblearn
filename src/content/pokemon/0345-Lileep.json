@@ -1,0 +1,25 @@
+{
+  "dex": 345,
+  "speciesName": "Lileep",
+  "speciesId": "lileep",
+  "baseStats": {
+    "atk": 105,
+    "def": 150,
+    "hp": 165
+  },
+  "types": [
+    "rock",
+    "grass"
+  ],
+  "fastMoves": [
+    "ACID",
+    "INFESTATION",
+    "BULLET_SEED"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "GRASS_KNOT",
+    "MIRROR_COAT"
+  ],
+  "released": true
+}

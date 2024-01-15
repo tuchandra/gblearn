@@ -1,0 +1,25 @@
+{
+  "dex": 865,
+  "speciesName": "Sirfetch'd",
+  "speciesId": "sirfetchd",
+  "baseStats": {
+    "atk": 248,
+    "def": 176,
+    "hp": 158
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "BRAVE_BIRD",
+    "LEAF_BLADE",
+    "NIGHT_SLASH"
+  ],
+  "released": true
+}

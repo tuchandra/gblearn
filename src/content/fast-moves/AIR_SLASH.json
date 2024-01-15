@@ -1,0 +1,8 @@
+{
+  "moveId": "AIR_SLASH",
+  "name": "Air Slash",
+  "type": "flying",
+  "power": 9,
+  "energyGain": 9,
+  "cooldown": 1500
+}

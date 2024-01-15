@@ -1,0 +1,26 @@
+{
+  "dex": 929,
+  "speciesName": "Dolliv",
+  "speciesId": "dolliv",
+  "baseStats": {
+    "atk": 137,
+    "def": 131,
+    "hp": 141
+  },
+  "types": [
+    "grass",
+    "normal"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "TACKLE",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "SEED_BOMB",
+    "ENERGY_BALL",
+    "EARTH_POWER",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

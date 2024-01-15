@@ -1,0 +1,27 @@
+{
+  "dex": 658,
+  "speciesName": "Greninja",
+  "speciesId": "greninja",
+  "baseStats": {
+    "atk": 223,
+    "def": 152,
+    "hp": 176
+  },
+  "types": [
+    "water",
+    "dark"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "BUBBLE",
+    "WATER_SHURIKEN"
+  ],
+  "chargedMoves": [
+    "NIGHT_SLASH",
+    "AERIAL_ACE",
+    "SURF",
+    "HYDRO_PUMP",
+    "HYDRO_CANNON"
+  ],
+  "released": true
+}

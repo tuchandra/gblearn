@@ -1,0 +1,29 @@
+{
+  "dex": 6,
+  "speciesName": "Charizard",
+  "speciesId": "charizard",
+  "baseStats": {
+    "atk": 223,
+    "def": 173,
+    "hp": 186
+  },
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "EMBER",
+    "FIRE_SPIN",
+    "WING_ATTACK",
+    "DRAGON_BREATH"
+  ],
+  "chargedMoves": [
+    "BLAST_BURN",
+    "DRAGON_CLAW",
+    "FIRE_BLAST",
+    "FLAMETHROWER",
+    "OVERHEAT"
+  ],
+  "released": true
+}

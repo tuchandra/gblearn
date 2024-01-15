@@ -1,0 +1,27 @@
+{
+  "dex": 142,
+  "speciesName": "Aerodactyl",
+  "speciesId": "aerodactyl",
+  "baseStats": {
+    "atk": 221,
+    "def": 159,
+    "hp": 190
+  },
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "fastMoves": [
+    "BITE",
+    "STEEL_WING",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "HYPER_BEAM",
+    "IRON_HEAD",
+    "ROCK_SLIDE",
+    "EARTH_POWER"
+  ],
+  "released": true
+}

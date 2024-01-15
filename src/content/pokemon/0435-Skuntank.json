@@ -1,0 +1,25 @@
+{
+  "dex": 435,
+  "speciesName": "Skuntank",
+  "speciesId": "skuntank",
+  "baseStats": {
+    "atk": 184,
+    "def": 132,
+    "hp": 230
+  },
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "fastMoves": [
+    "BITE",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "FLAMETHROWER",
+    "SLUDGE_BOMB",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

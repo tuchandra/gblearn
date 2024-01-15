@@ -1,0 +1,24 @@
+{
+  "dex": 431,
+  "speciesName": "Glameow",
+  "speciesId": "glameow",
+  "baseStats": {
+    "atk": 109,
+    "def": 82,
+    "hp": 135
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "PLAY_ROUGH",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

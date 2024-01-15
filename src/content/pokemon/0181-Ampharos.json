@@ -1,0 +1,29 @@
+{
+  "dex": 181,
+  "speciesName": "Ampharos",
+  "speciesId": "ampharos",
+  "baseStats": {
+    "atk": 211,
+    "def": 169,
+    "hp": 207
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARGE_BEAM",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "FOCUS_BLAST",
+    "POWER_GEM",
+    "THUNDER",
+    "ZAP_CANNON",
+    "THUNDER_PUNCH",
+    "BRUTAL_SWING",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

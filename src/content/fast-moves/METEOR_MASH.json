@@ -1,0 +1,8 @@
+{
+  "moveId": "METEOR_MASH",
+  "name": "Meteor Mash",
+  "type": "steel",
+  "power": 100,
+  "energyGain": 0,
+  "cooldown": 500
+}

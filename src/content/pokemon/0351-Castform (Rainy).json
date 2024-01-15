@@ -1,0 +1,24 @@
+{
+  "dex": 351,
+  "speciesName": "Castform (Rainy)",
+  "speciesId": "castform_rainy",
+  "baseStats": {
+    "atk": 139,
+    "def": 139,
+    "hp": 172
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "HYDRO_PUMP",
+    "THUNDER",
+    "WEATHER_BALL_WATER"
+  ],
+  "released": true
+}

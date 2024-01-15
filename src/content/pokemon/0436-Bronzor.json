@@ -1,0 +1,25 @@
+{
+  "dex": 436,
+  "speciesName": "Bronzor",
+  "speciesId": "bronzor",
+  "baseStats": {
+    "atk": 43,
+    "def": 154,
+    "hp": 149
+  },
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "GYRO_BALL",
+    "HEAVY_SLAM",
+    "PSYSHOCK",
+    "PAYBACK"
+  ],
+  "released": true
+}

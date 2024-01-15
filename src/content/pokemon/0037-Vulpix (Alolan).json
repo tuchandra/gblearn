@@ -1,0 +1,25 @@
+{
+  "dex": 37,
+  "speciesName": "Vulpix (Alolan)",
+  "speciesId": "vulpix_alolan",
+  "baseStats": {
+    "atk": 96,
+    "def": 109,
+    "hp": 116
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "DARK_PULSE",
+    "ICE_BEAM",
+    "WEATHER_BALL_ICE"
+  ],
+  "released": true
+}

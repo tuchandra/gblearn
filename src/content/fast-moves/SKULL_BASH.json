@@ -1,0 +1,8 @@
+{
+  "moveId": "SKULL_BASH",
+  "name": "Skull Bash",
+  "type": "normal",
+  "power": 130,
+  "energyGain": 0,
+  "cooldown": 500
+}

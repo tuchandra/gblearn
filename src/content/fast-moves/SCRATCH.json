@@ -1,0 +1,8 @@
+{
+  "moveId": "SCRATCH",
+  "name": "Scratch",
+  "type": "normal",
+  "power": 4,
+  "energyGain": 2,
+  "cooldown": 500
+}

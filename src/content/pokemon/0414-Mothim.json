@@ -1,0 +1,24 @@
+{
+  "dex": 414,
+  "speciesName": "Mothim",
+  "speciesId": "mothim",
+  "baseStats": {
+    "atk": 185,
+    "def": 98,
+    "hp": 172
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "BUG_BITE"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BUG_BUZZ",
+    "PSYBEAM"
+  ],
+  "released": true
+}

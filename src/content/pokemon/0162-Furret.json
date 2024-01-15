@@ -1,0 +1,24 @@
+{
+  "dex": 162,
+  "speciesName": "Furret",
+  "speciesId": "furret",
+  "baseStats": {
+    "atk": 148,
+    "def": 125,
+    "hp": 198
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "DIG",
+    "HYPER_BEAM"
+  ],
+  "released": true
+}

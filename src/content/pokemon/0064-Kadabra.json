@@ -1,0 +1,24 @@
+{
+  "dex": 64,
+  "speciesName": "Kadabra",
+  "speciesId": "kadabra",
+  "baseStats": {
+    "atk": 232,
+    "def": 117,
+    "hp": 120
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "PSYCHO_CUT"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "PSYBEAM",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

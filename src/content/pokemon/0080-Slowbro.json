@@ -1,0 +1,26 @@
+{
+  "dex": 80,
+  "speciesName": "Slowbro",
+  "speciesId": "slowbro",
+  "baseStats": {
+    "atk": 177,
+    "def": 180,
+    "hp": 216
+  },
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "ICE_BEAM",
+    "PSYCHIC",
+    "WATER_PULSE",
+    "SURF",
+    "SCALD"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 216,
+  "speciesName": "Teddiursa",
+  "speciesId": "teddiursa",
+  "baseStats": {
+    "atk": 142,
+    "def": 93,
+    "hp": 155
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "LICK",
+    "SCRATCH"
+  ],
+  "chargedMoves": [
+    "CROSS_CHOP",
+    "CRUNCH",
+    "PLAY_ROUGH",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 592,
+  "speciesName": "Frillish",
+  "speciesId": "frillish",
+  "baseStats": {
+    "atk": 115,
+    "def": 134,
+    "hp": 146
+  },
+  "types": [
+    "water",
+    "ghost"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "HEX"
+  ],
+  "chargedMoves": [
+    "NIGHT_SHADE",
+    "ICE_BEAM",
+    "OMINOUS_WIND"
+  ],
+  "released": true
+}

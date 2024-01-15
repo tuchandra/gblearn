@@ -1,0 +1,7 @@
+{
+  "moveId": "WEATHER_BALL_ICE",
+  "name": "Weather Ball (Ice)",
+  "type": "ice",
+  "power": 55,
+  "energy": 35
+}

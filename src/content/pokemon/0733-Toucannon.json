@@ -1,0 +1,25 @@
+{
+  "dex": 733,
+  "speciesName": "Toucannon",
+  "speciesId": "toucannon",
+  "baseStats": {
+    "atk": 222,
+    "def": 146,
+    "hp": 190
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "ROCK_SMASH",
+    "BULLET_SEED"
+  ],
+  "chargedMoves": [
+    "DRILL_PECK",
+    "ROCK_BLAST",
+    "FLASH_CANNON"
+  ],
+  "released": true
+}

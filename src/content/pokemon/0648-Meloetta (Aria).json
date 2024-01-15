@@ -1,0 +1,25 @@
+{
+  "dex": 648,
+  "speciesName": "Meloetta (Aria)",
+  "speciesId": "meloetta_aria",
+  "baseStats": {
+    "atk": 250,
+    "def": 225,
+    "hp": 225
+  },
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "PSYSHOCK",
+    "THUNDERBOLT",
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM"
+  ],
+  "released": true
+}

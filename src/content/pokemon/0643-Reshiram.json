@@ -1,0 +1,26 @@
+{
+  "dex": 643,
+  "speciesName": "Reshiram",
+  "speciesId": "reshiram",
+  "baseStats": {
+    "atk": 275,
+    "def": 211,
+    "hp": 205
+  },
+  "types": [
+    "dragon",
+    "fire"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "FIRE_FANG"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "OVERHEAT",
+    "DRACO_METEOR",
+    "STONE_EDGE",
+    "FUSION_FLARE"
+  ],
+  "released": true
+}

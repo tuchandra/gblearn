@@ -1,0 +1,26 @@
+{
+  "dex": 465,
+  "speciesName": "Tangrowth",
+  "speciesId": "tangrowth",
+  "baseStats": {
+    "atk": 207,
+    "def": 184,
+    "hp": 225
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "INFESTATION",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "ROCK_SLIDE",
+    "SLUDGE_BOMB",
+    "SOLAR_BEAM",
+    "POWER_WHIP"
+  ],
+  "released": true
+}

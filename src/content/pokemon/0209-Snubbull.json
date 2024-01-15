@@ -1,0 +1,24 @@
+{
+  "dex": 209,
+  "speciesName": "Snubbull",
+  "speciesId": "snubbull",
+  "baseStats": {
+    "atk": 137,
+    "def": 85,
+    "hp": 155
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "CRUNCH",
+    "DAZZLING_GLEAM"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 792,
+  "speciesName": "Lunala",
+  "speciesId": "lunala",
+  "baseStats": {
+    "atk": 255,
+    "def": 191,
+    "hp": 264
+  },
+  "types": [
+    "psychic",
+    "ghost"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "PSYCHIC",
+    "MOONBLAST",
+    "FUTURE_SIGHT"
+  ],
+  "released": true
+}

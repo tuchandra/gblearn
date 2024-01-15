@@ -1,0 +1,24 @@
+{
+  "dex": 48,
+  "speciesName": "Venonat",
+  "speciesId": "venonat",
+  "baseStats": {
+    "atk": 100,
+    "def": 100,
+    "hp": 155
+  },
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "POISON_FANG",
+    "PSYBEAM",
+    "SIGNAL_BEAM"
+  ],
+  "released": true
+}

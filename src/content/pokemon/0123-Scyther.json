@@ -1,0 +1,27 @@
+{
+  "dex": 123,
+  "speciesName": "Scyther",
+  "speciesId": "scyther",
+  "baseStats": {
+    "atk": 218,
+    "def": 170,
+    "hp": 172
+  },
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "FURY_CUTTER",
+    "STEEL_WING"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BUG_BUZZ",
+    "NIGHT_SLASH",
+    "X_SCISSOR",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

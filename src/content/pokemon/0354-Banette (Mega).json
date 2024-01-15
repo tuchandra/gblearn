@@ -1,0 +1,24 @@
+{
+  "dex": 354,
+  "speciesName": "Banette (Mega)",
+  "speciesId": "banette_mega",
+  "baseStats": {
+    "atk": 312,
+    "def": 160,
+    "hp": 162
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "HEX",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "SHADOW_BALL",
+    "THUNDER"
+  ],
+  "released": true
+}

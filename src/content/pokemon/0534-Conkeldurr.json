@@ -1,0 +1,25 @@
+{
+  "dex": 534,
+  "speciesName": "Conkeldurr",
+  "speciesId": "conkeldurr",
+  "baseStats": {
+    "atk": 243,
+    "def": 158,
+    "hp": 233
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "DYNAMIC_PUNCH",
+    "FOCUS_BLAST",
+    "STONE_EDGE",
+    "BRUTAL_SWING"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 429,
+  "speciesName": "Mismagius",
+  "speciesId": "mismagius",
+  "baseStats": {
+    "atk": 211,
+    "def": 187,
+    "hp": 155
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "HEX",
+    "SUCKER_PUNCH",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "DAZZLING_GLEAM",
+    "SHADOW_BALL"
+  ],
+  "released": true
+}

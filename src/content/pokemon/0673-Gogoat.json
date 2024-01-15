@@ -1,0 +1,25 @@
+{
+  "dex": 673,
+  "speciesName": "Gogoat",
+  "speciesId": "gogoat",
+  "baseStats": {
+    "atk": 196,
+    "def": 146,
+    "hp": 265
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "ZEN_HEADBUTT",
+    "ROCK_SMASH",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "LEAF_BLADE",
+    "SEED_BOMB"
+  ],
+  "released": true
+}

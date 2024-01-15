@@ -1,0 +1,27 @@
+{
+  "dex": 460,
+  "speciesName": "Abomasnow",
+  "speciesId": "abomasnow",
+  "baseStats": {
+    "atk": 178,
+    "def": 158,
+    "hp": 207
+  },
+  "types": [
+    "grass",
+    "ice"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW",
+    "RAZOR_LEAF",
+    "LEAFAGE"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "ENERGY_BALL",
+    "OUTRAGE",
+    "WEATHER_BALL_ICE",
+    "ICY_WIND"
+  ],
+  "released": true
+}

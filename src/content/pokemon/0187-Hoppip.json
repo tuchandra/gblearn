@@ -1,0 +1,24 @@
+{
+  "dex": 187,
+  "speciesName": "Hoppip",
+  "speciesId": "hoppip",
+  "baseStats": {
+    "atk": 67,
+    "def": 94,
+    "hp": 111
+  },
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "GRASS_KNOT",
+    "SEED_BOMB"
+  ],
+  "released": true
+}

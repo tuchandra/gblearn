@@ -1,0 +1,30 @@
+{
+  "dex": 344,
+  "speciesName": "Claydol",
+  "speciesId": "claydol",
+  "baseStats": {
+    "atk": 140,
+    "def": 229,
+    "hp": 155
+  },
+  "types": [
+    "ground",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "EXTRASENSORY",
+    "MUD_SLAP"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "GYRO_BALL",
+    "PSYCHIC",
+    "EARTH_POWER",
+    "ICE_BEAM",
+    "SHADOW_BALL",
+    "ROCK_TOMB",
+    "SCORCHING_SANDS"
+  ],
+  "released": true
+}

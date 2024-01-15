@@ -1,0 +1,22 @@
+{
+  "dex": 268,
+  "speciesName": "Cascoon",
+  "speciesId": "cascoon",
+  "baseStats": {
+    "atk": 60,
+    "def": 77,
+    "hp": 137
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "POISON_STING"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": true
+}

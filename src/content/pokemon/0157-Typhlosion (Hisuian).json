@@ -1,0 +1,25 @@
+{
+  "dex": 157,
+  "speciesName": "Typhlosion (Hisuian)",
+  "speciesId": "typhlosion_hisuian",
+  "baseStats": {
+    "atk": 238,
+    "def": 172,
+    "hp": 177
+  },
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "HEX"
+  ],
+  "chargedMoves": [
+    "FIRE_PUNCH",
+    "WILD_CHARGE",
+    "SHADOW_BALL",
+    "OVERHEAT"
+  ],
+  "released": true
+}

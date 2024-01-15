@@ -1,0 +1,25 @@
+{
+  "dex": 745,
+  "speciesName": "Lycanroc (Midday)",
+  "speciesId": "lycanroc_midday",
+  "baseStats": {
+    "atk": 231,
+    "def": 140,
+    "hp": 181
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "SUCKER_PUNCH",
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "STONE_EDGE",
+    "DRILL_RUN",
+    "CRUNCH",
+    "TRAILBLAZE"
+  ],
+  "released": true
+}

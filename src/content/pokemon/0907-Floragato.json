@@ -1,0 +1,24 @@
+{
+  "dex": 907,
+  "speciesName": "Floragato",
+  "speciesId": "floragato",
+  "baseStats": {
+    "atk": 157,
+    "def": 128,
+    "hp": 156
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "LEAFAGE",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "GRASS_KNOT",
+    "PLAY_ROUGH",
+    "ENERGY_BALL"
+  ],
+  "released": true
+}

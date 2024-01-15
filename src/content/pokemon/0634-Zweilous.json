@@ -1,0 +1,24 @@
+{
+  "dex": 634,
+  "speciesName": "Zweilous",
+  "speciesId": "zweilous",
+  "baseStats": {
+    "atk": 159,
+    "def": 135,
+    "hp": 176
+  },
+  "types": [
+    "dark",
+    "dragon"
+  ],
+  "fastMoves": [
+    "BITE",
+    "DRAGON_BREATH"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "DARK_PULSE",
+    "BODY_SLAM"
+  ],
+  "released": true
+}

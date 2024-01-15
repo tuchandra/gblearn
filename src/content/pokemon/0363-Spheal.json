@@ -1,0 +1,24 @@
+{
+  "dex": 363,
+  "speciesName": "Spheal",
+  "speciesId": "spheal",
+  "baseStats": {
+    "atk": 95,
+    "def": 90,
+    "hp": 172
+  },
+  "types": [
+    "ice",
+    "water"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "AURORA_BEAM",
+    "BODY_SLAM",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

@@ -1,0 +1,39 @@
+{
+  "dex": 579,
+  "speciesName": "Reuniclus",
+  "speciesId": "reuniclus",
+  "baseStats": {
+    "atk": 214,
+    "def": 148,
+    "hp": 242
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "HIDDEN_POWER_BUG",
+    "HIDDEN_POWER_DARK",
+    "HIDDEN_POWER_DRAGON",
+    "HIDDEN_POWER_ELECTRIC",
+    "HIDDEN_POWER_FIGHTING",
+    "HIDDEN_POWER_FIRE",
+    "HIDDEN_POWER_FLYING",
+    "HIDDEN_POWER_GHOST",
+    "HIDDEN_POWER_GRASS",
+    "HIDDEN_POWER_GROUND",
+    "HIDDEN_POWER_ICE",
+    "HIDDEN_POWER_POISON",
+    "HIDDEN_POWER_PSYCHIC",
+    "HIDDEN_POWER_ROCK",
+    "HIDDEN_POWER_STEEL",
+    "HIDDEN_POWER_WATER",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "FUTURE_SIGHT",
+    "SHADOW_BALL",
+    "THUNDER"
+  ],
+  "released": true
+}

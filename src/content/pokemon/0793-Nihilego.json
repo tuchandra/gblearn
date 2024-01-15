@@ -1,0 +1,26 @@
+{
+  "dex": 793,
+  "speciesName": "Nihilego",
+  "speciesId": "nihilego",
+  "baseStats": {
+    "atk": 249,
+    "def": 210,
+    "hp": 240
+  },
+  "types": [
+    "rock",
+    "poison"
+  ],
+  "fastMoves": [
+    "ACID",
+    "POUND",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "POWER_GEM",
+    "GUNK_SHOT",
+    "SLUDGE_BOMB",
+    "ROCK_SLIDE"
+  ],
+  "released": true
+}

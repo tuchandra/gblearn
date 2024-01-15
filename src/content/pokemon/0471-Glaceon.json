@@ -1,0 +1,26 @@
+{
+  "dex": 471,
+  "speciesName": "Glaceon",
+  "speciesId": "glaceon",
+  "baseStats": {
+    "atk": 238,
+    "def": 205,
+    "hp": 163
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "FROST_BREATH",
+    "ICE_SHARD"
+  ],
+  "chargedMoves": [
+    "AVALANCHE",
+    "ICE_BEAM",
+    "ICY_WIND",
+    "LAST_RESORT",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

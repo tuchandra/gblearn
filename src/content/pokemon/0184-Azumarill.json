@@ -1,0 +1,24 @@
+{
+  "dex": 184,
+  "speciesName": "Azumarill",
+  "speciesId": "azumarill",
+  "baseStats": {
+    "atk": 112,
+    "def": 152,
+    "hp": 225
+  },
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "HYDRO_PUMP",
+    "ICE_BEAM",
+    "PLAY_ROUGH"
+  ],
+  "released": true
+}

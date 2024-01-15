@@ -1,0 +1,28 @@
+{
+  "dex": 28,
+  "speciesName": "Sandslash (Alolan)",
+  "speciesId": "sandslash_alolan",
+  "baseStats": {
+    "atk": 177,
+    "def": 195,
+    "hp": 181
+  },
+  "types": [
+    "ice",
+    "steel"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "POWDER_SNOW",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "BULLDOZE",
+    "GYRO_BALL",
+    "ICE_PUNCH",
+    "DRILL_RUN",
+    "AERIAL_ACE"
+  ],
+  "released": true
+}

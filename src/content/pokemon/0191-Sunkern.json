@@ -1,0 +1,24 @@
+{
+  "dex": 191,
+  "speciesName": "Sunkern",
+  "speciesId": "sunkern",
+  "baseStats": {
+    "atk": 55,
+    "def": 55,
+    "hp": 102
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "CUT",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "GRASS_KNOT",
+    "SEED_BOMB"
+  ],
+  "released": true
+}

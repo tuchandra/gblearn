@@ -1,0 +1,27 @@
+{
+  "dex": 763,
+  "speciesName": "Tsareena",
+  "speciesId": "tsareena",
+  "baseStats": {
+    "atk": 222,
+    "def": 195,
+    "hp": 176
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "CHARM",
+    "MAGICAL_LEAF"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "DRAINING_KISS",
+    "GRASS_KNOT",
+    "STOMP",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

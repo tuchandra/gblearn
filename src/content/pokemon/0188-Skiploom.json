@@ -1,0 +1,24 @@
+{
+  "dex": 188,
+  "speciesName": "Skiploom",
+  "speciesId": "skiploom",
+  "baseStats": {
+    "atk": 91,
+    "def": 120,
+    "hp": 146
+  },
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "ENERGY_BALL",
+    "GRASS_KNOT"
+  ],
+  "released": true
+}

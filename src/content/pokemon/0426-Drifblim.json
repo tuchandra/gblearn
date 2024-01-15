@@ -1,0 +1,25 @@
+{
+  "dex": 426,
+  "speciesName": "Drifblim",
+  "speciesId": "drifblim",
+  "baseStats": {
+    "atk": 180,
+    "def": 102,
+    "hp": 312
+  },
+  "types": [
+    "ghost",
+    "flying"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "HEX"
+  ],
+  "chargedMoves": [
+    "ICY_WIND",
+    "OMINOUS_WIND",
+    "SHADOW_BALL",
+    "MYSTICAL_FIRE"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 903,
+  "speciesName": "Sneasler",
+  "speciesId": "sneasler",
+  "baseStats": {
+    "atk": 259,
+    "def": 158,
+    "hp": 190
+  },
+  "types": [
+    "fighting",
+    "poison"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "POISON_JAB",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "CLOSE_COMBAT",
+    "X_SCISSOR"
+  ],
+  "released": true
+}

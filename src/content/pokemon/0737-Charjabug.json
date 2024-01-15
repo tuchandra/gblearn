@@ -1,0 +1,25 @@
+{
+  "dex": 737,
+  "speciesName": "Charjabug",
+  "speciesId": "charjabug",
+  "baseStats": {
+    "atk": 145,
+    "def": 161,
+    "hp": 149
+  },
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "SPARK",
+    "VOLT_SWITCH"
+  ],
+  "chargedMoves": [
+    "X_SCISSOR",
+    "DISCHARGE",
+    "CRUNCH"
+  ],
+  "released": true
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 51,
+  "speciesName": "Dugtrio",
+  "speciesId": "dugtrio",
+  "baseStats": {
+    "atk": 167,
+    "def": 136,
+    "hp": 111
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "MUD_SLAP",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "EARTHQUAKE",
+    "MUD_BOMB",
+    "STONE_EDGE"
+  ],
+  "released": true
+}

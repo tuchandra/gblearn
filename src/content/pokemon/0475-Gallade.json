@@ -1,0 +1,26 @@
+{
+  "dex": 475,
+  "speciesName": "Gallade",
+  "speciesId": "gallade",
+  "baseStats": {
+    "atk": 237,
+    "def": 195,
+    "hp": 169
+  },
+  "types": [
+    "psychic",
+    "fighting"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "LOW_KICK",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "LEAF_BLADE",
+    "PSYCHIC",
+    "SYNCHRONOISE"
+  ],
+  "released": true
+}

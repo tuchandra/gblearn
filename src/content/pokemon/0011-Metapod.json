@@ -1,0 +1,22 @@
+{
+  "dex": 11,
+  "speciesName": "Metapod",
+  "speciesId": "metapod",
+  "baseStats": {
+    "atk": 45,
+    "def": 80,
+    "hp": 137
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": true
+}

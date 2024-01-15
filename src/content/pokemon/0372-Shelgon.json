@@ -1,0 +1,24 @@
+{
+  "dex": 372,
+  "speciesName": "Shelgon",
+  "speciesId": "shelgon",
+  "baseStats": {
+    "atk": 172,
+    "def": 155,
+    "hp": 163
+  },
+  "types": [
+    "dragon",
+    "none"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "FLAMETHROWER",
+    "TWISTER"
+  ],
+  "released": true
+}

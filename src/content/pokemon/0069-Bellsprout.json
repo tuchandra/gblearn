@@ -1,0 +1,24 @@
+{
+  "dex": 69,
+  "speciesName": "Bellsprout",
+  "speciesId": "bellsprout",
+  "baseStats": {
+    "atk": 139,
+    "def": 61,
+    "hp": 137
+  },
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "fastMoves": [
+    "ACID",
+    "VINE_WHIP"
+  ],
+  "chargedMoves": [
+    "POWER_WHIP",
+    "SLUDGE_BOMB",
+    "WRAP"
+  ],
+  "released": true
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 248,
+  "speciesName": "Tyranitar",
+  "speciesId": "tyranitar",
+  "baseStats": {
+    "atk": 251,
+    "def": 207,
+    "hp": 225
+  },
+  "types": [
+    "rock",
+    "dark"
+  ],
+  "fastMoves": [
+    "BITE",
+    "IRON_TAIL",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "FIRE_BLAST",
+    "STONE_EDGE",
+    "BRUTAL_SWING"
+  ],
+  "released": true
+}

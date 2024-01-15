@@ -1,0 +1,27 @@
+{
+  "dex": 105,
+  "speciesName": "Marowak (Alolan)",
+  "speciesId": "marowak_alolan",
+  "baseStats": {
+    "atk": 144,
+    "def": 186,
+    "hp": 155
+  },
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "fastMoves": [
+    "HEX",
+    "ROCK_SMASH",
+    "FIRE_SPIN"
+  ],
+  "chargedMoves": [
+    "BONE_CLUB",
+    "FIRE_BLAST",
+    "SHADOW_BALL",
+    "FLAME_WHEEL",
+    "SHADOW_BONE"
+  ],
+  "released": true
+}

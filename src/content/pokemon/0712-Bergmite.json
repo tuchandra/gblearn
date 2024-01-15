@@ -1,0 +1,24 @@
+{
+  "dex": 712,
+  "speciesName": "Bergmite",
+  "speciesId": "bergmite",
+  "baseStats": {
+    "atk": 117,
+    "def": 120,
+    "hp": 146
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "ICY_WIND",
+    "MIRROR_COAT"
+  ],
+  "released": true
+}

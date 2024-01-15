@@ -1,0 +1,24 @@
+{
+  "dex": 213,
+  "speciesName": "Shuckle",
+  "speciesId": "shuckle",
+  "baseStats": {
+    "atk": 17,
+    "def": 396,
+    "hp": 85
+  },
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "fastMoves": [
+    "ROCK_THROW",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "GYRO_BALL",
+    "ROCK_BLAST",
+    "STONE_EDGE"
+  ],
+  "released": true
+}

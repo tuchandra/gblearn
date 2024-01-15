@@ -1,0 +1,24 @@
+{
+  "dex": 118,
+  "speciesName": "Goldeen",
+  "speciesId": "goldeen",
+  "baseStats": {
+    "atk": 123,
+    "def": 110,
+    "hp": 128
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "PECK"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "HORN_ATTACK",
+    "WATER_PULSE"
+  ],
+  "released": true
+}

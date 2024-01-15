@@ -1,0 +1,26 @@
+{
+  "dex": 711,
+  "speciesName": "Gourgeist (Super)",
+  "speciesId": "gourgeist_super",
+  "baseStats": {
+    "atk": 182,
+    "def": 200,
+    "hp": 198
+  },
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "fastMoves": [
+    "HEX",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "SEED_BOMB",
+    "SHADOW_BALL",
+    "FOUL_PLAY",
+    "FIRE_BLAST",
+    "POLTERGEIST"
+  ],
+  "released": true
+}

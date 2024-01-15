@@ -1,0 +1,24 @@
+{
+  "dex": 532,
+  "speciesName": "Timburr",
+  "speciesId": "timburr",
+  "baseStats": {
+    "atk": 134,
+    "def": 87,
+    "hp": 181
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "POUND"
+  ],
+  "chargedMoves": [
+    "LOW_SWEEP",
+    "BRICK_BREAK",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

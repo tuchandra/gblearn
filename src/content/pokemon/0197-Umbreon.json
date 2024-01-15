@@ -1,0 +1,25 @@
+{
+  "dex": 197,
+  "speciesName": "Umbreon",
+  "speciesId": "umbreon",
+  "baseStats": {
+    "atk": 126,
+    "def": 240,
+    "hp": 216
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "FEINT_ATTACK",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "FOUL_PLAY",
+    "LAST_RESORT",
+    "PSYCHIC"
+  ],
+  "released": true
+}

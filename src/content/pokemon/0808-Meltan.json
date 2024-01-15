@@ -1,0 +1,22 @@
+{
+  "dex": 808,
+  "speciesName": "Meltan",
+  "speciesId": "meltan",
+  "baseStats": {
+    "atk": 118,
+    "def": 99,
+    "hp": 130
+  },
+  "types": [
+    "steel",
+    "none"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "FLASH_CANNON",
+    "THUNDERBOLT"
+  ],
+  "released": true
+}

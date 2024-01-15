@@ -1,0 +1,8 @@
+{
+  "moveId": "LEAFAGE",
+  "name": "Leafage",
+  "type": "grass",
+  "power": 6,
+  "energyGain": 7,
+  "cooldown": 1000
+}

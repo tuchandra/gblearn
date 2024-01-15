@@ -1,0 +1,24 @@
+{
+  "dex": 316,
+  "speciesName": "Gulpin",
+  "speciesId": "gulpin",
+  "baseStats": {
+    "atk": 80,
+    "def": 99,
+    "hp": 172
+  },
+  "types": [
+    "poison",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "GUNK_SHOT",
+    "ICE_BEAM",
+    "SLUDGE"
+  ],
+  "released": true
+}

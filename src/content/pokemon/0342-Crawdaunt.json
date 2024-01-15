@@ -1,0 +1,27 @@
+{
+  "dex": 342,
+  "speciesName": "Crawdaunt",
+  "speciesId": "crawdaunt",
+  "baseStats": {
+    "atk": 224,
+    "def": 142,
+    "hp": 160
+  },
+  "types": [
+    "water",
+    "dark"
+  ],
+  "fastMoves": [
+    "SNARL",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "BUBBLE_BEAM",
+    "NIGHT_SLASH",
+    "VICE_GRIP",
+    "CRABHAMMER",
+    "RAZOR_SHELL",
+    "SCALD"
+  ],
+  "released": true
+}

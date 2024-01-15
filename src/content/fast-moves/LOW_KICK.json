@@ -1,0 +1,8 @@
+{
+  "moveId": "LOW_KICK",
+  "name": "Low Kick",
+  "type": "fighting",
+  "power": 4,
+  "energyGain": 5,
+  "cooldown": 1000
+}

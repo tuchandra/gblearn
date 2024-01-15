@@ -1,0 +1,24 @@
+{
+  "dex": 515,
+  "speciesName": "Panpour",
+  "speciesId": "panpour",
+  "baseStats": {
+    "atk": 104,
+    "def": 94,
+    "hp": 137
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "SURF",
+    "WATER_PULSE",
+    "CRUNCH"
+  ],
+  "released": true
+}

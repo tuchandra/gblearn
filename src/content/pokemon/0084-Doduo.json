@@ -1,0 +1,25 @@
+{
+  "dex": 84,
+  "speciesName": "Doduo",
+  "speciesId": "doduo",
+  "baseStats": {
+    "atk": 158,
+    "def": 83,
+    "hp": 111
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BRAVE_BIRD",
+    "DRILL_PECK",
+    "SWIFT"
+  ],
+  "released": true
+}

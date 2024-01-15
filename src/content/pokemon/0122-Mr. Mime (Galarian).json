@@ -1,0 +1,25 @@
+{
+  "dex": 122,
+  "speciesName": "Mr. Mime (Galarian)",
+  "speciesId": "mr_mime_galarian",
+  "baseStats": {
+    "atk": 183,
+    "def": 169,
+    "hp": 137
+  },
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "ICE_PUNCH",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

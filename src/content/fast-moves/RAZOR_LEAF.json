@@ -1,0 +1,8 @@
+{
+  "moveId": "RAZOR_LEAF",
+  "name": "Razor Leaf",
+  "type": "grass",
+  "power": 10,
+  "energyGain": 4,
+  "cooldown": 1000
+}

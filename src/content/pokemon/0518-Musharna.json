@@ -1,0 +1,24 @@
+{
+  "dex": 518,
+  "speciesName": "Musharna",
+  "speciesId": "musharna",
+  "baseStats": {
+    "atk": 183,
+    "def": 166,
+    "hp": 253
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "ZEN_HEADBUTT",
+    "CHARGE_BEAM"
+  ],
+  "chargedMoves": [
+    "FUTURE_SIGHT",
+    "DAZZLING_GLEAM",
+    "PSYSHOCK"
+  ],
+  "released": true
+}

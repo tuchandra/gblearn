@@ -1,0 +1,8 @@
+{
+  "moveId": "POWER_UP_PUNCH",
+  "name": "Power-Up Punch",
+  "type": "fighting",
+  "power": 20,
+  "energyGain": 0,
+  "cooldown": 500
+}

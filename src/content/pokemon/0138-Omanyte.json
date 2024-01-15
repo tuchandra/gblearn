@@ -1,0 +1,26 @@
+{
+  "dex": 138,
+  "speciesName": "Omanyte",
+  "speciesId": "omanyte",
+  "baseStats": {
+    "atk": 155,
+    "def": 153,
+    "hp": 111
+  },
+  "types": [
+    "rock",
+    "water"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "ANCIENT_POWER",
+    "BRINE",
+    "BUBBLE_BEAM",
+    "ROCK_BLAST",
+    "ROCK_TOMB"
+  ],
+  "released": true
+}

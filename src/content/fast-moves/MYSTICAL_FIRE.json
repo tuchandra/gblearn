@@ -1,0 +1,8 @@
+{
+  "moveId": "MYSTICAL_FIRE",
+  "name": "Mystical Fire",
+  "type": "fire",
+  "power": 60,
+  "energyGain": 0,
+  "cooldown": 500
+}

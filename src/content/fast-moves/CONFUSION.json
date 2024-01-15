@@ -1,0 +1,8 @@
+{
+  "moveId": "CONFUSION",
+  "name": "Confusion",
+  "type": "psychic",
+  "power": 16,
+  "energyGain": 12,
+  "cooldown": 2000
+}

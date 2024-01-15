@@ -1,0 +1,8 @@
+{
+  "moveId": "GEOMANCY",
+  "name": "Geomancy",
+  "type": "fairy",
+  "power": 4,
+  "energyGain": 13,
+  "cooldown": 1500
+}

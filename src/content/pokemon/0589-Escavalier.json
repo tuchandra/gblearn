@@ -1,0 +1,25 @@
+{
+  "dex": 589,
+  "speciesName": "Escavalier",
+  "speciesId": "escavalier",
+  "baseStats": {
+    "atk": 223,
+    "def": 187,
+    "hp": 172
+  },
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "fastMoves": [
+    "COUNTER",
+    "BUG_BITE"
+  ],
+  "chargedMoves": [
+    "MEGAHORN",
+    "ACID_SPRAY",
+    "DRILL_RUN",
+    "AERIAL_ACE"
+  ],
+  "released": true
+}

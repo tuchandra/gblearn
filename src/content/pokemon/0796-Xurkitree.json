@@ -1,0 +1,25 @@
+{
+  "dex": 796,
+  "speciesName": "Xurkitree",
+  "speciesId": "xurkitree",
+  "baseStats": {
+    "atk": 330,
+    "def": 144,
+    "hp": 195
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "SPARK"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "THUNDER",
+    "POWER_WHIP",
+    "DAZZLING_GLEAM"
+  ],
+  "released": true
+}

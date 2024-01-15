@@ -1,0 +1,28 @@
+{
+  "dex": 663,
+  "speciesName": "Talonflame",
+  "speciesId": "talonflame",
+  "baseStats": {
+    "atk": 176,
+    "def": 155,
+    "hp": 186
+  },
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "FIRE_SPIN",
+    "STEEL_WING",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "BRAVE_BIRD",
+    "FIRE_BLAST",
+    "FLAME_CHARGE",
+    "HURRICANE",
+    "FLY"
+  ],
+  "released": true
+}

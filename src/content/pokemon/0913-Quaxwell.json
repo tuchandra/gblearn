@@ -1,0 +1,24 @@
+{
+  "dex": 913,
+  "speciesName": "Quaxwell",
+  "speciesId": "quaxwell",
+  "baseStats": {
+    "atk": 162,
+    "def": 123,
+    "hp": 172
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "WING_ATTACK"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "AERIAL_ACE",
+    "LIQUIDATION"
+  ],
+  "released": true
+}

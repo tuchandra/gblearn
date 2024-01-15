@@ -1,0 +1,8 @@
+{
+  "moveId": "PAYBACK",
+  "name": "Payback",
+  "type": "dark",
+  "power": 110,
+  "energyGain": 0,
+  "cooldown": 500
+}

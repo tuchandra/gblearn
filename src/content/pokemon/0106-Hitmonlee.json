@@ -1,0 +1,28 @@
+{
+  "dex": 106,
+  "speciesName": "Hitmonlee",
+  "speciesId": "hitmonlee",
+  "baseStats": {
+    "atk": 224,
+    "def": 181,
+    "hp": 137
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "ROCK_SMASH",
+    "DOUBLE_KICK"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "CLOSE_COMBAT",
+    "LOW_SWEEP",
+    "STOMP",
+    "STONE_EDGE",
+    "BLAZE_KICK"
+  ],
+  "released": true
+}

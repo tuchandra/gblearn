@@ -1,0 +1,25 @@
+{
+  "dex": 997,
+  "speciesName": "Arctibax",
+  "speciesId": "arctibax",
+  "baseStats": {
+    "atk": 173,
+    "def": 128,
+    "hp": 207
+  },
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "ICE_FANG"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "AVALANCHE",
+    "OUTRAGE",
+    "ICY_WIND"
+  ],
+  "released": true
+}

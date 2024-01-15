@@ -1,0 +1,25 @@
+{
+  "dex": 690,
+  "speciesName": "Skrelp",
+  "speciesId": "skrelp",
+  "baseStats": {
+    "atk": 109,
+    "def": 109,
+    "hp": 137
+  },
+  "types": [
+    "poison",
+    "water"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "ACID"
+  ],
+  "chargedMoves": [
+    "AQUA_TAIL",
+    "WATER_PULSE",
+    "TWISTER",
+    "SLUDGE_BOMB"
+  ],
+  "released": true
+}

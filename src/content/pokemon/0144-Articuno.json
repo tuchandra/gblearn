@@ -1,0 +1,27 @@
+{
+  "dex": 144,
+  "speciesName": "Articuno",
+  "speciesId": "articuno",
+  "baseStats": {
+    "atk": 192,
+    "def": 236,
+    "hp": 207
+  },
+  "types": [
+    "ice",
+    "flying"
+  ],
+  "fastMoves": [
+    "FROST_BREATH",
+    "ICE_SHARD"
+  ],
+  "chargedMoves": [
+    "BLIZZARD",
+    "HURRICANE",
+    "ICE_BEAM",
+    "ICY_WIND",
+    "ANCIENT_POWER",
+    "TRIPLE_AXEL"
+  ],
+  "released": true
+}

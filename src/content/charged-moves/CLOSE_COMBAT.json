@@ -1,0 +1,13 @@
+{
+  "moveId": "CLOSE_COMBAT",
+  "name": "Close Combat",
+  "type": "fighting",
+  "power": 100,
+  "energy": 45,
+  "buffs": [
+    0,
+    -2
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}
