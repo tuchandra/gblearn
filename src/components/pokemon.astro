@@ -17,13 +17,13 @@ const typeIcon = `types/${fastMoveType}.png`;
 ---
 
 <div
-  class="container flex flex-row items-center mb-1 gap-x-2 bg-neutral rounded-md"
+  class="container mb-1 flex flex-row items-center gap-x-2 rounded-md bg-neutral"
 >
-  <img src={pokemonIcon} alt={name} class="rounded-full w-12 h-12" />
+  <img src={pokemonIcon} alt={name} class="h-12 w-12 rounded-full" />
   <!-- One block of text; first line = move name, second line = X energy / Y turns -->
   <div class="">
     <p class="flex flex-row items-center">
-      <img src={typeIcon} class="rounded-full w-4 h-4" />
+      <img src={typeIcon} class="h-4 w-4 rounded-full" />
       <span class="ml-2 text-sm">{fastMove}</span>
     </p>
     <p class="text-xs">(+{fastMoveEnergy} energy / {fastMoveTurns} turn)</p>
