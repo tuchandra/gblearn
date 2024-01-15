@@ -29,5 +29,12 @@
     ],
     "singleQuote": true,
     "semi": true
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss/nesting": {},
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
   }
 }
