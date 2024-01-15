@@ -5,16 +5,20 @@
   "type": "module",
   "scripts": {
     "dev": "bunx --bun astro dev",
-    "start": "astro start",
-    "build": "tsc && astro build",
-    "preview": "astro preview"
+    "start": "bunx --bun astro start",
+    "build": "tsc && bunx --bun astro build",
+    "preview": "bunx --bun astro preview"
   },
-  "devDependencies": {
+  "dependencies": {
     "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.1.2",
     "autoprefixer": "^10.4.16",
+    "daisyui": "^4.6.0",
     "postcss": "^8.4.33",
+    "prettier": "^3.2.2",
+    "prettier-plugin-astro": "^0.12.3",
+    "prettier-plugin-tailwind": "^2.2.12",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.2.2",
-    "astro": "^4.1.2"
+    "typescript": "^5.2.2"
   }
 }

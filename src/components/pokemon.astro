@@ -1,0 +1,32 @@
+---
+// Component for one Pokemon displayed on the homepage.
+
+interface Props {
+  name: string;
+  dexnum: number | string;
+  fastMoveType: string;
+  fastMove: string;
+  fastMoveEnergy: number;
+  fastMoveTurns: number;
+}
+
+const { dexnum, name, fastMove, fastMoveType, fastMoveTurns, fastMoveEnergy } =
+  Astro.props;
+const pokemonIcon = `pokeicons/${dexnum}.png`;
+const typeIcon = `types/${fastMoveType}.png`;
+---
+
+<div class="container flex flex-row items-center my-2 gap-x-2 bg-slate-700">
+  <img src={pokemonIcon} alt={name} class="rounded-full w-12 h-12" />
+  <!-- One block of text; first line = move name, second line = X energy / Y turns -->
+  <div class="">
+    <p class="flex flex-row items-center">
+      <img src={typeIcon} class="rounded-full w-4 h-4" />
+      <span class="ml-2">{fastMove}</span>
+    </p>
+    <p class="text-sm">({fastMoveEnergy} energy / {fastMoveTurns} turn)</p>
+  </div>
+
+  <p>{name} is a Pokemon</p>
+  <p>5 5 4 4</p>
+</div>

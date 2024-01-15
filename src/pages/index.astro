@@ -1,16 +1,57 @@
 ---
-// Welcome to Astro! Everything between these triple-dash code fences
-// is your "component frontmatter". It never runs in the browser.
 console.log("This runs in your terminal, not the browser!");
+import Pokemon from "../components/pokemon.astro";
 ---
 
 <html>
-    <body>
-        <h1 class="text-2xl py-2 px-4 font-bold text-teal-600 underline">
-            Hello, beep!
-        </h1>
-        <p class="px-4 text-blue-500 group-hover:text-gray">
-            This is very confusing
-        </p>
-    </body>
+  <body class="flex flex-col items-center">
+    <!-- Navbar -->
+    <div class="w-full flex-grow">
+      <div class="navbar bg-green-400">
+        <a
+          href="/"
+          class="px-2 text-xl text-gray-800 font-bold flex gap-4 items-center"
+        >
+          <img
+            src="pokeicons/1011.png"
+            alt="Dipplin"
+            class="rounded-full bg-base-200 w-12 h-12"
+          />
+          <span>GO Battle Learn</span>
+        </a>
+      </div>
+    </div>
+    <!-- Content -->
+    <Pokemon
+      name="Abomasnow"
+      dexnum="460"
+      fastMove="Powder Snow"
+      fastMoveType="ice"
+      fastMoveEnergy={8}
+      fastMoveTurns={2}
+    />
+    <Pokemon
+      name="Carbink"
+      dexnum="703"
+      fastMove="Rock Throw"
+      fastMoveType="rock"
+      fastMoveEnergy={5}
+      fastMoveTurns={2}
+    />
+    <Pokemon
+      name="Slurpuff"
+      dexnum="685"
+      fastMove="Fairy Wind"
+      fastMoveType="fairy"
+      fastMoveEnergy={9}
+      fastMoveTurns={2}
+    />
+    <div class="container flex flex-col">
+      <h1 class="text-2xl py-2 px-4 font-bold text-teal-600">Hello, beep!</h1>
+      <p class="px-4 text-blue-500 group-hover:text-gray">
+        This is very confusing
+      </p>
+      <button class="btn btn-success m-4">Click me!</button>
+    </div>
+  </body>
 </html>
