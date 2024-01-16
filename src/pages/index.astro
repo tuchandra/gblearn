@@ -38,9 +38,13 @@ const greatleague = pokemon.filter((p) => species.includes(p.data.speciesName));
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
       <div class="flex flex-col px-1">
+        <Pokemon pokemon={await getEntry('pokemon', '0150-mewtwo_armored')} />
+        <Pokemon pokemon={await getEntry('pokemon', '0334-altaria_mega')} />
+        <Pokemon pokemon={await getEntry('pokemon', '0006-charizard_mega_x')} />
         <Pokemon
-          pokemon={await getEntry('pokemon', '0038-Ninetales (Alolan)')}
+          pokemon={await getEntry('pokemon', '0645-landorus_incarnate')}
         />
+        <Pokemon pokemon={await getEntry('pokemon', '0351-castform_sunny')} />
         <Pokemon pokemon={greatleague[1]} />
         <Pokemon pokemon={greatleague[2]} />
       </div>

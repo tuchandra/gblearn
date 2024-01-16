@@ -35,7 +35,7 @@ async function getGamemaster(): Promise<{
     .parse(gamemaster.pokemon)
     .filter(
       (mon) =>
-        !(mon.speciesName !== 'DITTO') &&
+        mon.speciesId !== 'ditto' &&
         // Shadows contain no new information (for our purposes)
         !mon.speciesId.includes('_shadow') &&
         // The 'duplicate' tag is just Lanturn, which is double-counted in GL with both fast moves
