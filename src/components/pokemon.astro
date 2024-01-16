@@ -3,6 +3,8 @@
 
 import { getEntries, type CollectionEntry } from 'astro:content';
 import type { Pokemon } from '../models';
+import FastMove from './fastMove.astro';
+import ChargedMove from './chargedMove.astro';
 
 interface Props {
   pokemon: CollectionEntry<'pokemon'>;
@@ -16,18 +18,17 @@ const pokemonIcon = `pokemon/${data.dex}.png`;
 const typeIcon = `types/${data.types[0]}.png`;
 ---
 
-<div
-  class="container mb-1 flex flex-row items-center gap-x-2 rounded-md bg-neutral"
->
-  <img src={pokemonIcon} alt={data.speciesName} class="h-12 w-12 rounded-full" />
+<div class="container mb-1 items-center rounded-md bg-neutral p-2">
+  <img
+    src={pokemonIcon}
+    alt={data.speciesName}
+    class="h-12 w-12 rounded-full"
+  />
   <!-- One block of text; first line = move name, second line = X energy / Y turns -->
-  <div class="">
-    <p class="flex flex-row items-center">
-      <img src={typeIcon} class="h-4 w-4 rounded-full" />
-      <span class="ml-2 text-sm">{fastMoves[0].data.name}</span>
-    </p>
-    <p class="text-xs">(+{fastMoves[0].data.energyGain} energy / {fastMoves[0].data.cooldown / 500} turn)</p>
+  <div class="flex flex-row gap-4">
+    {fastMoves.map((move) => <FastMove move={move.data} />)}
   </div>
-
-  <p>5 5 4 4</p>
+  <div class="my-4 flex flex-row gap-4">
+    {chargedMoves.map((move) => <ChargedMove move={move.data} />)}
+  </div>
 </div>

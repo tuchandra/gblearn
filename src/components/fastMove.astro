@@ -1,0 +1,24 @@
+---
+// Component for one fast move (type, name, energy, damage)
+
+import type { FastMove } from '../models';
+
+interface Props {
+  move: FastMove;
+}
+const { move } = Astro.props;
+---
+
+<div class="flex flex-col">
+  <div class="inline-flex">
+    <img
+      src={`types/${move.type}.png`}
+      alt={move.type}
+      class="h-4 w-4 rounded-full"
+    />
+    <span class="ml-1 text-sm">{move.name}</span>
+  </div>
+  <span class="text-xs">
+    (+{move.energyGain} E / {move.cooldown / 500} T)
+  </span>
+</div>
