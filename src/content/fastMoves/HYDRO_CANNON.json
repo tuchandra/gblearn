@@ -1,8 +1,0 @@
-{
-  "moveId": "HYDRO_CANNON",
-  "name": "Hydro Cannon",
-  "type": "water",
-  "power": 80,
-  "energyGain": 0,
-  "cooldown": 500
-}

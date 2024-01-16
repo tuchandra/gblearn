@@ -1,8 +1,0 @@
-{
-  "moveId": "DISARMING_VOICE",
-  "name": "Disarming Voice",
-  "type": "fairy",
-  "power": 70,
-  "energyGain": 0,
-  "cooldown": 500
-}

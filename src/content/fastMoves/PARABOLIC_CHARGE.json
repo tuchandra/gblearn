@@ -1,8 +1,0 @@
-{
-  "moveId": "PARABOLIC_CHARGE",
-  "name": "Parabolic Charge",
-  "type": "electric",
-  "power": 65,
-  "energyGain": 0,
-  "cooldown": 500
-}

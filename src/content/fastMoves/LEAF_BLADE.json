@@ -1,8 +1,0 @@
-{
-  "moveId": "LEAF_BLADE",
-  "name": "Leaf Blade",
-  "type": "grass",
-  "power": 70,
-  "energyGain": 0,
-  "cooldown": 500
-}

@@ -1,8 +1,0 @@
-{
-  "moveId": "DOUBLE_IRON_BASH",
-  "name": "Double Iron Bash",
-  "type": "steel",
-  "power": 50,
-  "energyGain": 0,
-  "cooldown": 500
-}

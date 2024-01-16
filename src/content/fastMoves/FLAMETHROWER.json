@@ -1,8 +1,0 @@
-{
-  "moveId": "FLAMETHROWER",
-  "name": "Flamethrower",
-  "type": "fire",
-  "power": 90,
-  "energyGain": 0,
-  "cooldown": 500
-}

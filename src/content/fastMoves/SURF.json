@@ -1,8 +1,0 @@
-{
-  "moveId": "SURF",
-  "name": "Surf",
-  "type": "water",
-  "power": 65,
-  "energyGain": 0,
-  "cooldown": 500
-}

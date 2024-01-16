@@ -1,8 +1,0 @@
-{
-  "moveId": "MAGMA_STORM",
-  "name": "Magma Storm",
-  "type": "fire",
-  "power": 65,
-  "energyGain": 0,
-  "cooldown": 500
-}

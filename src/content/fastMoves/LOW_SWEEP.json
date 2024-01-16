@@ -1,8 +1,0 @@
-{
-  "moveId": "LOW_SWEEP",
-  "name": "Low Sweep",
-  "type": "fighting",
-  "power": 40,
-  "energyGain": 0,
-  "cooldown": 500
-}

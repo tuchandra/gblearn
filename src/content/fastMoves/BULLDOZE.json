@@ -1,8 +1,0 @@
-{
-  "moveId": "BULLDOZE",
-  "name": "Bulldoze",
-  "type": "ground",
-  "power": 80,
-  "energyGain": 0,
-  "cooldown": 500
-}

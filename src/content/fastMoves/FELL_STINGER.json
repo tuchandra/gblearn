@@ -1,8 +1,0 @@
-{
-  "moveId": "FELL_STINGER",
-  "name": "Fell Stinger",
-  "type": "bug",
-  "power": 20,
-  "energyGain": 0,
-  "cooldown": 500
-}

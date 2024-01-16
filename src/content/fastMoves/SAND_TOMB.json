@@ -1,8 +1,0 @@
-{
-  "moveId": "SAND_TOMB",
-  "name": "Sand Tomb",
-  "type": "ground",
-  "power": 25,
-  "energyGain": 0,
-  "cooldown": 500
-}

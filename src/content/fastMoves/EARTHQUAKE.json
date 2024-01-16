@@ -1,8 +1,0 @@
-{
-  "moveId": "EARTHQUAKE",
-  "name": "Earthquake",
-  "type": "ground",
-  "power": 110,
-  "energyGain": 0,
-  "cooldown": 500
-}

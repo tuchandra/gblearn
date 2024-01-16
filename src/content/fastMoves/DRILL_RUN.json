@@ -1,8 +1,0 @@
-{
-  "moveId": "DRILL_RUN",
-  "name": "Drill Run",
-  "type": "ground",
-  "power": 80,
-  "energyGain": 0,
-  "cooldown": 500
-}

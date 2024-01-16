@@ -1,8 +1,0 @@
-{
-  "moveId": "TRIPLE_AXEL",
-  "name": "Triple Axel",
-  "type": "ice",
-  "power": 60,
-  "energyGain": 0,
-  "cooldown": 500
-}

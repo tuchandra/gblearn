@@ -1,8 +1,0 @@
-{
-  "moveId": "BONE_CLUB",
-  "name": "Bone Club",
-  "type": "ground",
-  "power": 40,
-  "energyGain": 0,
-  "cooldown": 500
-}

@@ -1,8 +1,0 @@
-{
-  "moveId": "DYNAMIC_PUNCH",
-  "name": "Dynamic Punch",
-  "type": "fighting",
-  "power": 90,
-  "energyGain": 0,
-  "cooldown": 500
-}

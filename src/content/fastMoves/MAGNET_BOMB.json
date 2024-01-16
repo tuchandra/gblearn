@@ -1,8 +1,0 @@
-{
-  "moveId": "MAGNET_BOMB",
-  "name": "Magnet Bomb",
-  "type": "steel",
-  "power": 70,
-  "energyGain": 0,
-  "cooldown": 500
-}

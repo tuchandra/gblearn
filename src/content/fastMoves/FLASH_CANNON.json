@@ -1,8 +1,0 @@
-{
-  "moveId": "FLASH_CANNON",
-  "name": "Flash Cannon",
-  "type": "steel",
-  "power": 110,
-  "energyGain": 0,
-  "cooldown": 500
-}

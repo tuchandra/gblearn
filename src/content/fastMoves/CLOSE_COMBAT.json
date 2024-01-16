@@ -1,8 +1,0 @@
-{
-  "moveId": "CLOSE_COMBAT",
-  "name": "Close Combat",
-  "type": "fighting",
-  "power": 100,
-  "energyGain": 0,
-  "cooldown": 500
-}

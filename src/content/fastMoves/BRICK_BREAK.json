@@ -1,8 +1,0 @@
-{
-  "moveId": "BRICK_BREAK",
-  "name": "Brick Break",
-  "type": "fighting",
-  "power": 40,
-  "energyGain": 0,
-  "cooldown": 500
-}

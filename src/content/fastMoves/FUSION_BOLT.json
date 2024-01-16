@@ -1,8 +1,0 @@
-{
-  "moveId": "FUSION_BOLT",
-  "name": "Fusion Bolt",
-  "type": "electric",
-  "power": 90,
-  "energyGain": 0,
-  "cooldown": 500
-}

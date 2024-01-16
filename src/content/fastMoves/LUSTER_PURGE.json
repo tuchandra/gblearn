@@ -1,8 +1,0 @@
-{
-  "moveId": "LUSTER_PURGE",
-  "name": "Luster Purge",
-  "type": "psychic",
-  "power": 120,
-  "energyGain": 0,
-  "cooldown": 500
-}

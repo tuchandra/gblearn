@@ -1,8 +1,0 @@
-{
-  "moveId": "SUPER_POWER",
-  "name": "Superpower",
-  "type": "fighting",
-  "power": 85,
-  "energyGain": 0,
-  "cooldown": 500
-}

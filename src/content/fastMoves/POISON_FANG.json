@@ -1,8 +1,0 @@
-{
-  "moveId": "POISON_FANG",
-  "name": "Poison Fang",
-  "type": "poison",
-  "power": 45,
-  "energyGain": 0,
-  "cooldown": 500
-}

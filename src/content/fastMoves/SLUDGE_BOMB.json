@@ -1,8 +1,0 @@
-{
-  "moveId": "SLUDGE_BOMB",
-  "name": "Sludge Bomb",
-  "type": "poison",
-  "power": 80,
-  "energyGain": 0,
-  "cooldown": 500
-}

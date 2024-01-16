@@ -1,8 +1,0 @@
-{
-  "moveId": "BLAZE_KICK",
-  "name": "Blaze Kick",
-  "type": "fire",
-  "power": 60,
-  "energyGain": 0,
-  "cooldown": 500
-}

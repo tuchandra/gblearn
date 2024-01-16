@@ -34,8 +34,14 @@ async function getGamemaster(): Promise<{
     .array(PokemonSchema)
     .parse(gamemaster.pokemon)
     .filter((mon) => mon.released && !mon.speciesId.includes('shadow'));
-  const fastMoves = z.array(FastMoveSchema).parse(gamemaster.moves);
-  const chargedMoves = z.array(ChargedMoveSchema).parse(gamemaster.moves);
+  const fastMoves = z
+    .array(FastMoveSchema)
+    .parse(gamemaster.moves)
+    .filter((m) => m.energyGain > 0);
+  const chargedMoves = z
+    .array(ChargedMoveSchema)
+    .parse(gamemaster.moves)
+    .filter((m) => m.energy > 0);
   return { pokemon, fastMoves, chargedMoves };
 }
 

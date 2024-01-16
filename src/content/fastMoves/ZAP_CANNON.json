@@ -1,8 +1,0 @@
-{
-  "moveId": "ZAP_CANNON",
-  "name": "Zap Cannon",
-  "type": "electric",
-  "power": 150,
-  "energyGain": 0,
-  "cooldown": 500
-}

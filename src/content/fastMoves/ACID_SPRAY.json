@@ -1,8 +1,0 @@
-{
-  "moveId": "ACID_SPRAY",
-  "name": "Acid Spray",
-  "type": "poison",
-  "power": 20,
-  "energyGain": 0,
-  "cooldown": 500
-}

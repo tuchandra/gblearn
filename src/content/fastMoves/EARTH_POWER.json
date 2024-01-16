@@ -1,8 +1,0 @@
-{
-  "moveId": "EARTH_POWER",
-  "name": "Earth Power",
-  "type": "ground",
-  "power": 90,
-  "energyGain": 0,
-  "cooldown": 500
-}

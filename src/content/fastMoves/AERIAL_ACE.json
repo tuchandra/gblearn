@@ -1,8 +1,0 @@
-{
-  "moveId": "AERIAL_ACE",
-  "name": "Aerial Ace",
-  "type": "flying",
-  "power": 55,
-  "energyGain": 0,
-  "cooldown": 500
-}

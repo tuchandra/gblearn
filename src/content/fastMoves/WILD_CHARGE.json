@@ -1,8 +1,0 @@
-{
-  "moveId": "WILD_CHARGE",
-  "name": "Wild Charge",
-  "type": "electric",
-  "power": 100,
-  "energyGain": 0,
-  "cooldown": 500
-}

@@ -1,8 +1,0 @@
-{
-  "moveId": "DRILL_PECK",
-  "name": "Drill Peck",
-  "type": "flying",
-  "power": 65,
-  "energyGain": 0,
-  "cooldown": 500
-}

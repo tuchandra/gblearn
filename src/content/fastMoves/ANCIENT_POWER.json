@@ -1,8 +1,0 @@
-{
-  "moveId": "ANCIENT_POWER",
-  "name": "Ancient Power",
-  "type": "rock",
-  "power": 60,
-  "energyGain": 0,
-  "cooldown": 500
-}

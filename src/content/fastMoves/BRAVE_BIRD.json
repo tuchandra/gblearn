@@ -1,8 +1,0 @@
-{
-  "moveId": "BRAVE_BIRD",
-  "name": "Brave Bird",
-  "type": "flying",
-  "power": 130,
-  "energyGain": 0,
-  "cooldown": 500
-}

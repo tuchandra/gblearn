@@ -1,8 +1,0 @@
-{
-  "moveId": "ROCK_TOMB",
-  "name": "Rock Tomb",
-  "type": "rock",
-  "power": 70,
-  "energyGain": 0,
-  "cooldown": 500
-}

@@ -1,8 +1,0 @@
-{
-  "moveId": "SOLAR_BEAM",
-  "name": "Solar Beam",
-  "type": "grass",
-  "power": 150,
-  "energyGain": 0,
-  "cooldown": 500
-}

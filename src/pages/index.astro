@@ -1,6 +1,6 @@
 ---
 import Pokemon from '../components/pokemon.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 
 const pokemon = await getCollection('pokemon');
 
@@ -38,7 +38,9 @@ const greatleague = pokemon.filter((p) => species.includes(p.data.speciesName));
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
       <div class="flex flex-col px-1">
-        <Pokemon pokemon={greatleague[0]} />
+        <Pokemon
+          pokemon={await getEntry('pokemon', '0038-Ninetales (Alolan)')}
+        />
         <Pokemon pokemon={greatleague[1]} />
         <Pokemon pokemon={greatleague[2]} />
       </div>

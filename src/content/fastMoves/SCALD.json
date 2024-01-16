@@ -1,8 +1,0 @@
-{
-  "moveId": "SCALD",
-  "name": "Scald",
-  "type": "water",
-  "power": 85,
-  "energyGain": 0,
-  "cooldown": 500
-}

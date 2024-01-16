@@ -1,8 +1,0 @@
-{
-  "moveId": "FIRE_PUNCH",
-  "name": "Fire Punch",
-  "type": "fire",
-  "power": 55,
-  "energyGain": 0,
-  "cooldown": 500
-}

@@ -1,8 +1,0 @@
-{
-  "moveId": "FLY",
-  "name": "Fly",
-  "type": "flying",
-  "power": 80,
-  "energyGain": 0,
-  "cooldown": 500
-}

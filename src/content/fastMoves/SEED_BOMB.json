@@ -1,8 +1,0 @@
-{
-  "moveId": "SEED_BOMB",
-  "name": "Seed Bomb",
-  "type": "grass",
-  "power": 60,
-  "energyGain": 0,
-  "cooldown": 500
-}

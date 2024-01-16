@@ -1,8 +1,0 @@
-{
-  "moveId": "ICE_PUNCH",
-  "name": "Ice Punch",
-  "type": "ice",
-  "power": 55,
-  "energyGain": 0,
-  "cooldown": 500
-}

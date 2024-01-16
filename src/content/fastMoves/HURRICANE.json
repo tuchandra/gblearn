@@ -1,8 +1,0 @@
-{
-  "moveId": "HURRICANE",
-  "name": "Hurricane",
-  "type": "flying",
-  "power": 110,
-  "energyGain": 0,
-  "cooldown": 500
-}

@@ -1,8 +1,0 @@
-{
-  "moveId": "GUNK_SHOT",
-  "name": "Gunk Shot",
-  "type": "poison",
-  "power": 130,
-  "energyGain": 0,
-  "cooldown": 500
-}

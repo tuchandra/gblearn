@@ -1,8 +1,0 @@
-{
-  "moveId": "FLAME_CHARGE",
-  "name": "Flame Charge",
-  "type": "fire",
-  "power": 65,
-  "energyGain": 0,
-  "cooldown": 500
-}

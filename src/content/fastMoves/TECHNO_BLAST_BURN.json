@@ -1,8 +1,0 @@
-{
-  "moveId": "TECHNO_BLAST_BURN",
-  "name": "Techno Blast (Burn)",
-  "type": "fire",
-  "power": 120,
-  "energyGain": 0,
-  "cooldown": 500
-}

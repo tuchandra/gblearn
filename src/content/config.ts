@@ -17,9 +17,14 @@ const chargedMoves = defineCollection({
   type: 'data',
   schema: ChargedMoveSchema,
 });
+const moves = defineCollection({
+  type: 'data',
+  schema: z.union([FastMoveSchema, ChargedMoveSchema]),
+});
 
 export const collections = {
   pokemon,
   fastMoves,
   chargedMoves,
+  moves,
 };

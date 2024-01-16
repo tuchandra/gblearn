@@ -1,8 +1,0 @@
-{
-  "moveId": "SHADOW_PUNCH",
-  "name": "Shadow Punch",
-  "type": "ghost",
-  "power": 40,
-  "energyGain": 0,
-  "cooldown": 500
-}

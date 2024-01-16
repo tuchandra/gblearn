@@ -1,8 +1,0 @@
-{
-  "moveId": "SHADOW_BONE",
-  "name": "Shadow Bone",
-  "type": "ghost",
-  "power": 75,
-  "energyGain": 0,
-  "cooldown": 500
-}

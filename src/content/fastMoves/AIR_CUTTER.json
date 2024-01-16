@@ -1,8 +1,0 @@
-{
-  "moveId": "AIR_CUTTER",
-  "name": "Air Cutter",
-  "type": "flying",
-  "power": 60,
-  "energyGain": 0,
-  "cooldown": 500
-}

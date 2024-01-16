@@ -1,8 +1,0 @@
-{
-  "moveId": "HORN_ATTACK",
-  "name": "Horn Attack",
-  "type": "normal",
-  "power": 40,
-  "energyGain": 0,
-  "cooldown": 500
-}

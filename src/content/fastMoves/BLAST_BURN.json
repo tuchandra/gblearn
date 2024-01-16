@@ -1,8 +1,0 @@
-{
-  "moveId": "BLAST_BURN",
-  "name": "Blast Burn",
-  "type": "fire",
-  "power": 110,
-  "energyGain": 0,
-  "cooldown": 500
-}

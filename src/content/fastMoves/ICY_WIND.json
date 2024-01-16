@@ -1,8 +1,0 @@
-{
-  "moveId": "ICY_WIND",
-  "name": "Icy Wind",
-  "type": "ice",
-  "power": 60,
-  "energyGain": 0,
-  "cooldown": 500
-}
