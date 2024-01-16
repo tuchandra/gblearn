@@ -1,13 +1,17 @@
 ---
 // Component for one Pokemon displayed on the homepage.
 
-import type { CollectionEntry } from 'astro:content';
+import { getEntries, type CollectionEntry } from 'astro:content';
 import type { Pokemon } from '../models';
 
 interface Props {
   pokemon: CollectionEntry<'pokemon'>;
 }
 const { data } = Astro.props.pokemon;
+
+const fastMoves = await getEntries(data.fastMoves);
+const chargedMoves = await getEntries(data.chargedMoves);
+
 const pokemonIcon = `pokemon/${data.dex}.png`;
 const typeIcon = `types/${data.types[0]}.png`;
 ---
@@ -20,9 +24,9 @@ const typeIcon = `types/${data.types[0]}.png`;
   <div class="">
     <p class="flex flex-row items-center">
       <img src={typeIcon} class="h-4 w-4 rounded-full" />
-      <span class="ml-2 text-sm">{data.fastMoves[0]}</span>
+      <span class="ml-2 text-sm">{fastMoves[0].data.name}</span>
     </p>
-    <p class="text-xs">(+{'X'} energy / {'Y'} turn)</p>
+    <p class="text-xs">(+{fastMoves[0].data.energyGain} energy / {fastMoves[0].data.cooldown / 500} turn)</p>
   </div>
 
   <p>5 5 4 4</p>

@@ -1,9 +1,13 @@
-import { defineCollection } from 'astro:content';
+import { defineCollection, z, reference } from 'astro:content';
 import { PokemonSchema, FastMoveSchema, ChargedMoveSchema } from '../models';
 
 const pokemon = defineCollection({
   type: 'data',
-  schema: PokemonSchema,
+  schema: z.object({
+    ...PokemonSchema.shape,
+    fastMoves: z.array(reference('fastMoves')),
+    chargedMoves: z.array(reference('chargedMoves')),
+  }),
 });
 const fastMoves = defineCollection({
   type: 'data',

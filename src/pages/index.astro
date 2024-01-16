@@ -1,17 +1,12 @@
 ---
-console.log('This runs in your terminal, not the browser!');
-
-import type { Pokemon as TPokemon } from '../models';
+import { getEntries } from 'astro:content';
 import Pokemon from '../components/pokemon.astro';
-import type { CollectionEntry } from 'astro:content';
-
 import { getCollection } from 'astro:content';
+
 const pokemon = await getCollection('pokemon');
 
 const species = ['Abomasnow', 'Carbink', 'Slurpuff', 'Lanturn', 'Venusaur'];
 const greatleague = pokemon.filter((p) => species.includes(p.data.speciesName));
-console.log(greatleague)
-
 ---
 
 <html data-theme="sunset">
