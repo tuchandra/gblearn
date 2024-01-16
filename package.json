@@ -36,5 +36,8 @@
       "tailwindcss": {},
       "autoprefixer": {}
     }
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.1"
   }
 }

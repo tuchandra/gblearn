@@ -3,22 +3,15 @@
  *
  * tldr:
  * - invoke with `bun scripts/fetch_gamemaster.ts`
- * - writes to src/content/<dir>/*.json for dir = {pokemon, fast-moves, charged-moves}
- * Usage: `bun scripts/fetch_gamemaster.ts`
+ * - requires bun, since we use the file writing API
+ * - (over)writes JSON to:
+ *   - src/content/pokemon.json
+ *   - src/content/fast-moves.json
+ *   - src/content/charged-moves.json
  *
- * Fetch the latest GameMaster file from the PVPoke Github repo, which itself
- * is sourced from PokeMiners with some convenient-for-PVP preprocessing.
- *
- *
+ * This script fetches the latest GameMaster file from the PVPoke Github repo,
+ * which itself is sourced from PokeMiners with some convenient-for-PVP preprocessing.
  */
-
-// fetch_gamemaster.ts
-//
-// Fetch the latest GameMaster file from the PVPoke Github repo,
-// which (afaik) itself fetches from PokeMiners. Create or update
-// new files with the data in src/content/pokemon/*.json.
-//
-// This can be run directly with bun!
 
 import { z } from 'zod';
 import {
@@ -26,7 +19,7 @@ import {
   FastMoveSchema,
   ChargedMoveSchema,
 } from '../src/models';
-import type { Pokemon, Move, FastMove, ChargedMove } from '../src/models';
+import type { Pokemon, FastMove, ChargedMove, Move } from '../src/models';
 
 async function getGamemaster(): Promise<{
   pokemon: Pokemon[];
@@ -37,42 +30,42 @@ async function getGamemaster(): Promise<{
     'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gamemaster.json';
   const gamemaster = await fetch(url).then((res) => res.json());
 
-  const pokemon: Pokemon[] = z
+  const pokemon = z
     .array(PokemonSchema)
     .parse(gamemaster.pokemon)
     .filter((mon) => mon.released && !mon.speciesId.includes('shadow'));
-  const fastMoves: FastMove[] = z.array(FastMoveSchema).parse(gamemaster.moves);
-  const chargedMoves: ChargedMove[] = z
-    .array(ChargedMoveSchema)
-    .parse(gamemaster.moves);
+  const fastMoves = z.array(FastMoveSchema).parse(gamemaster.moves);
+  const chargedMoves = z.array(ChargedMoveSchema).parse(gamemaster.moves);
   return { pokemon, fastMoves, chargedMoves };
 }
 
-const { pokemon, fastMoves, chargedMoves } = await getGamemaster();
-
-for (const mon of pokemon) {
-  // Write to files formatted as 0004-charmander.json
-  const dexnum = mon.dex.toString().padStart(4, '0');
-  const filename = `${dexnum}-${mon.speciesName}.json`;
-  await Bun.write(
-    `src/content/pokemon/${filename}`,
-    JSON.stringify(mon, null, 2),
-  );
+async function writePokemon(pokemon: Pokemon[]) {
+  for (const mon of pokemon) {
+    const dexnum = mon.dex.toString().padStart(4, '0');
+    const filename = `${dexnum}-${mon.speciesName}.json`;
+    await Bun.write(
+      `src/content/pokemon/${filename}`,
+      JSON.stringify(mon, null, 2),
+    );
+  }
+  console.log(`Wrote ${pokemon.length} pokemon files.`);
 }
-console.log(`Wrote ${pokemon.length} pokemon files.`);
 
-for (const move of fastMoves) {
-  await Bun.write(
-    `src/content/fast-moves/${move.moveId}.json`,
-    JSON.stringify(move, null, 2),
-  );
+async function writeMoves(moves: Move[], dir: string) {
+  for (const move of moves) {
+    await Bun.write(
+      `src/content/${dir}/${move.moveId}.json`,
+      JSON.stringify(move, null, 2),
+    );
+  }
+  console.log(`Wrote ${moves.length} files to ${dir}.`);
 }
-console.log(`Wrote ${fastMoves.length} fast move files.`);
 
-for (const move of chargedMoves) {
-  await Bun.write(
-    `src/content/charged-moves/${move.moveId}.json`,
-    JSON.stringify(move, null, 2),
-  );
+async function main() {
+  const { pokemon, fastMoves, chargedMoves } = await getGamemaster();
+  await writePokemon(pokemon);
+  await writeMoves(fastMoves, 'fast-moves');
+  await writeMoves(chargedMoves, 'charged-moves');
 }
-console.log(`Wrote ${chargedMoves.length} charged move files.`);
+
+main();
