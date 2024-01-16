@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from 'astro:content';
 
 const PokemonSchema = z.object({
   dex: z.number(),

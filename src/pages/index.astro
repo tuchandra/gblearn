@@ -1,6 +1,17 @@
 ---
 console.log('This runs in your terminal, not the browser!');
+
+import type { Pokemon as TPokemon } from '../models';
 import Pokemon from '../components/pokemon.astro';
+import type { CollectionEntry } from 'astro:content';
+
+import { getCollection } from 'astro:content';
+const pokemon = await getCollection('pokemon');
+
+const species = ['Abomasnow', 'Carbink', 'Slurpuff', 'Lanturn', 'Venusaur'];
+const greatleague = pokemon.filter((p) => species.includes(p.data.speciesName));
+console.log(greatleague)
+
 ---
 
 <html data-theme="sunset">
@@ -13,7 +24,7 @@ import Pokemon from '../components/pokemon.astro';
           class="flex items-center gap-4 px-2 text-xl italic text-neutral-content"
         >
           <img
-            src="pokeicons/1011.png"
+            src="pokemon/1011.png"
             alt="Dipplin"
             class="h-12 w-12 rounded-full bg-primary"
           />
@@ -25,57 +36,16 @@ import Pokemon from '../components/pokemon.astro';
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
       <div class="flex flex-col px-1">
-        <Pokemon
-          name="Venusaur"
-          dexnum="3"
-          fastMove="Vine Whip"
-          fastMoveType="grass"
-          fastMoveEnergy={8}
-          fastMoveTurns={2}
-        /><Pokemon
-          name="Abomasnow"
-          dexnum="460"
-          fastMove="Powder Snow"
-          fastMoveType="ice"
-          fastMoveEnergy={8}
-          fastMoveTurns={2}
-        /><Pokemon
-          name="Lanturn"
-          dexnum="171"
-          fastMove="Spark"
-          fastMoveType="electric"
-          fastMoveEnergy={7}
-          fastMoveTurns={2}
-        />
+        <Pokemon pokemon={greatleague[0]} />
+        <Pokemon pokemon={greatleague[1]} />
+        <Pokemon pokemon={greatleague[2]} />
       </div>
     </div>
 
     <!-- Content -->
     <div class="divider divider-primary italic">Matchups</div>
-    <Pokemon
-      name="Abomasnow"
-      dexnum="460"
-      fastMove="Powder Snow"
-      fastMoveType="ice"
-      fastMoveEnergy={8}
-      fastMoveTurns={2}
-    />
-    <Pokemon
-      name="Carbink"
-      dexnum="703"
-      fastMove="Rock Throw"
-      fastMoveType="rock"
-      fastMoveEnergy={5}
-      fastMoveTurns={2}
-    />
-    <Pokemon
-      name="Slurpuff"
-      dexnum="685"
-      fastMove="Fairy Wind"
-      fastMoveType="fairy"
-      fastMoveEnergy={9}
-      fastMoveTurns={2}
-    />
+    <Pokemon pokemon={greatleague[3]} />
+    <Pokemon pokemon={greatleague[4]} />
     <div class="container flex flex-col">
       <h1 class="px-4 py-2 text-2xl font-bold text-teal-600">Hello, beep!</h1>
       <p class="group-hover:text-gray px-4 text-blue-500">

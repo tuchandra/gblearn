@@ -1,13 +1,13 @@
 /**
- * fetch_gamemaster.ts
+ * fetchGamemaster.ts
  *
  * tldr:
- * - invoke with `bun scripts/fetch_gamemaster.ts`
+ * - invoke with `bun scripts/fetchGamemaster.ts`
  * - requires bun, since we use the file writing API
  * - (over)writes JSON to:
  *   - src/content/pokemon.json
- *   - src/content/fast-moves.json
- *   - src/content/charged-moves.json
+ *   - src/content/fastMoves.json
+ *   - src/content/chargedMoves.json
  *
  * This script fetches the latest GameMaster file from the PVPoke Github repo,
  * which itself is sourced from PokeMiners with some convenient-for-PVP preprocessing.
@@ -64,8 +64,8 @@ async function writeMoves(moves: Move[], dir: string) {
 async function main() {
   const { pokemon, fastMoves, chargedMoves } = await getGamemaster();
   await writePokemon(pokemon);
-  await writeMoves(fastMoves, 'fast-moves');
-  await writeMoves(chargedMoves, 'charged-moves');
+  await writeMoves(fastMoves, 'fastMoves');
+  await writeMoves(chargedMoves, 'chargedMoves');
 }
 
 main();

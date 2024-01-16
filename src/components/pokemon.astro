@@ -1,32 +1,28 @@
 ---
 // Component for one Pokemon displayed on the homepage.
 
-interface Props {
-  name: string;
-  dexnum: number | string;
-  fastMoveType: string;
-  fastMove: string;
-  fastMoveEnergy: number;
-  fastMoveTurns: number;
-}
+import type { CollectionEntry } from 'astro:content';
+import type { Pokemon } from '../models';
 
-const { dexnum, name, fastMove, fastMoveType, fastMoveTurns, fastMoveEnergy } =
-  Astro.props;
-const pokemonIcon = `pokeicons/${dexnum}.png`;
-const typeIcon = `types/${fastMoveType}.png`;
+interface Props {
+  pokemon: CollectionEntry<'pokemon'>;
+}
+const { data } = Astro.props.pokemon;
+const pokemonIcon = `pokemon/${data.dex}.png`;
+const typeIcon = `types/${data.types[0]}.png`;
 ---
 
 <div
   class="container mb-1 flex flex-row items-center gap-x-2 rounded-md bg-neutral"
 >
-  <img src={pokemonIcon} alt={name} class="h-12 w-12 rounded-full" />
+  <img src={pokemonIcon} alt={data.speciesName} class="h-12 w-12 rounded-full" />
   <!-- One block of text; first line = move name, second line = X energy / Y turns -->
   <div class="">
     <p class="flex flex-row items-center">
       <img src={typeIcon} class="h-4 w-4 rounded-full" />
-      <span class="ml-2 text-sm">{fastMove}</span>
+      <span class="ml-2 text-sm">{data.fastMoves[0]}</span>
     </p>
-    <p class="text-xs">(+{fastMoveEnergy} energy / {fastMoveTurns} turn)</p>
+    <p class="text-xs">(+{'X'} energy / {'Y'} turn)</p>
   </div>
 
   <p>5 5 4 4</p>
