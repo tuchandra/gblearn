@@ -14,7 +14,10 @@ const { data } = Astro.props.pokemon;
 const fastMoves = await getEntries(data.fastMoves);
 const chargedMoves = await getEntries(data.chargedMoves);
 
-const pokemonIcon = `pokemon/${data.dex}.png`;
+const formId = `${data.dex.toString().padStart(4, '0')}_${data.speciesId}`;
+const pokemonIcon = `tempicons/${formId}.png`;
+
+// const pokemonIcon = `pokemon/${data.dex}.png`;
 const typeIcon = `types/${data.types[0]}.png`;
 ---
 
