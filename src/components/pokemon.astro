@@ -19,16 +19,15 @@ const typeIcon = `types/${data.types[0]}.png`;
 ---
 
 <div class="container mb-1 items-center rounded-md bg-neutral p-2">
-  <img
-    src={pokemonIcon}
-    alt={data.speciesName}
-    class="h-12 w-12 rounded-full"
-  />
-  <!-- One block of text; first line = move name, second line = X energy / Y turns -->
-  <div class="flex flex-row gap-4">
+  <div class="flex flex-row justify-between">
+    <img
+      src={pokemonIcon}
+      alt={data.speciesName}
+      class="h-12 w-12 rounded-full"
+    />
     {fastMoves.map((move) => <FastMove move={move.data} />)}
   </div>
-  <div class="my-4 flex flex-row gap-4">
+  <div class="my-4 flex flex-col gap-4">
     {chargedMoves.map((move) => <ChargedMove move={move.data} />)}
   </div>
 </div>
