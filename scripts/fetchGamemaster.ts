@@ -9,7 +9,7 @@
  *   - src/content/fastMoves.json
  *   - src/content/chargedMoves.json
  *
- * This script fetches the latest GameMaster file from the PVPoke Github repo,
+ * This script fetches the latest data file from the PVPoke Github repo,
  * which itself is sourced from PokeMiners with some convenient-for-PVP preprocessing.
  */
 
@@ -35,9 +35,10 @@ async function getGamemaster(): Promise<{
     .parse(gamemaster.pokemon)
     .filter(
       (mon) =>
-        mon.released &&
-        !mon.speciesId.includes('shadow') &&
-        !mon.tags?.includes('duplicate'), // this is literally just water gun lanturn
+        // Shadows contain no new information (for our purposes)
+        !mon.speciesId.includes('_shadow') &&
+        // The 'duplicate' tag is just Lanturn, which is double-counted in GL with both fast moves
+        !mon.tags?.includes('duplicate'),
     );
   const fastMoves = z
     .array(FastMoveSchema)
@@ -48,50 +49,6 @@ async function getGamemaster(): Promise<{
     .parse(gamemaster.moves)
     .filter((m) => m.energy > 0);
   return { pokemon, fastMoves, chargedMoves };
-}
-
-/**
- * Construct the UICONS-compliant path for a given Pokemon. We have to account for all of the
- * complexities underlying the question "What is a Pokemon?" like mega evolutions, regional
- * forms, Pumpkaboo/Gourgeist, all the Pikachu costumes, and more. Localize that here so that
- * each pokemon.json entry can just include the path to the correct image.
- */
-function constructImagePath(pokemon: Pokemon): string {
-  const dexnum = pokemon.dex.toString();
-
-  // Mega evolutions (and primals) are encoded with a temporary evolution ID
-  const isMega =
-    pokemon.speciesId.includes('mega') ||
-    pokemon.speciesId.includes('primal') ||
-    pokemon.tags?.includes('mega');
-
-  if (isMega) {
-    let tempEvolutionId: string;
-    if (pokemon.speciesName.includes('(Mega X)')) tempEvolutionId = 'e2';
-    if (pokemon.speciesName.includes('(Mega Y)')) tempEvolutionId = 'e3';
-    if (pokemon.speciesName.includes('(Primal)')) tempEvolutionId = 'e4';
-    else tempEvolutionId = 'e1';
-
-    return `${dexnum}_e${tempEvolutionId}.png`;
-  }
-
-  // Alolans
-
-  // Galarians
-
-  // Hisuian
-
-  // Paldean
-
-  // Pikachu
-
-  // Pumpkaboo/Gourgeist
-
-  // Various one-offs
-  // - Armored Mewtwo
-  // - Castform
-
-  return `${dexnum}.png`;
 }
 
 async function writePokemon(pokemon: Pokemon[]) {
