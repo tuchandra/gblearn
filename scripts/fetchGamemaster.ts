@@ -33,7 +33,12 @@ async function getGamemaster(): Promise<{
   const pokemon = z
     .array(PokemonSchema)
     .parse(gamemaster.pokemon)
-    .filter((mon) => mon.released && !mon.speciesId.includes('shadow'));
+    .filter(
+      (mon) =>
+        mon.released &&
+        !mon.speciesId.includes('shadow') &&
+        !mon.tags?.includes('duplicate'), // this is literally just water gun lanturn
+    );
   const fastMoves = z
     .array(FastMoveSchema)
     .parse(gamemaster.moves)
@@ -45,10 +50,54 @@ async function getGamemaster(): Promise<{
   return { pokemon, fastMoves, chargedMoves };
 }
 
+/**
+ * Construct the UICONS-compliant path for a given Pokemon. We have to account for all of the
+ * complexities underlying the question "What is a Pokemon?" like mega evolutions, regional
+ * forms, Pumpkaboo/Gourgeist, all the Pikachu costumes, and more. Localize that here so that
+ * each pokemon.json entry can just include the path to the correct image.
+ */
+function constructImagePath(pokemon: Pokemon): string {
+  const dexnum = pokemon.dex.toString();
+
+  // Mega evolutions (and primals) are encoded with a temporary evolution ID
+  const isMega =
+    pokemon.speciesId.includes('mega') ||
+    pokemon.speciesId.includes('primal') ||
+    pokemon.tags?.includes('mega');
+
+  if (isMega) {
+    let tempEvolutionId: string;
+    if (pokemon.speciesName.includes('(Mega X)')) tempEvolutionId = 'e2';
+    if (pokemon.speciesName.includes('(Mega Y)')) tempEvolutionId = 'e3';
+    if (pokemon.speciesName.includes('(Primal)')) tempEvolutionId = 'e4';
+    else tempEvolutionId = 'e1';
+
+    return `${dexnum}_e${tempEvolutionId}.png`;
+  }
+
+  // Alolans
+
+  // Galarians
+
+  // Hisuian
+
+  // Paldean
+
+  // Pikachu
+
+  // Pumpkaboo/Gourgeist
+
+  // Various one-offs
+  // - Armored Mewtwo
+  // - Castform
+
+  return `${dexnum}.png`;
+}
+
 async function writePokemon(pokemon: Pokemon[]) {
   for (const mon of pokemon) {
     const dexnum = mon.dex.toString().padStart(4, '0');
-    const filename = `${dexnum}-${mon.speciesName}.json`;
+    const filename = `${dexnum}-${mon.speciesId}.json`;
     await Bun.write(
       `src/content/pokemon/${filename}`,
       JSON.stringify(mon, null, 2),

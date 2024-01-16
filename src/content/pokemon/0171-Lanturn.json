@@ -1,7 +1,7 @@
 {
   "dex": 171,
   "speciesName": "Lanturn",
-  "speciesId": "lanturnw",
+  "speciesId": "lanturn",
   "baseStats": {
     "atk": 146,
     "def": 137,
@@ -22,9 +22,5 @@
     "THUNDERBOLT",
     "SURF"
   ],
-  "released": true,
-  "tags": [
-    "duplicate",
-    "duplicate1500"
-  ]
+  "released": true
 }
