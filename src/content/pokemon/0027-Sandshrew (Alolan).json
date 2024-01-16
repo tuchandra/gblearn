@@ -20,5 +20,9 @@
     "GYRO_BALL",
     "NIGHT_SLASH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "alolan",
+    "shadoweligible"
+  ]
 }

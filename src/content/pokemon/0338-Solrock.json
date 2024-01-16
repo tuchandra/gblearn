@@ -20,5 +20,8 @@
     "ROCK_SLIDE",
     "SOLAR_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

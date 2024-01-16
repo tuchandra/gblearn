@@ -20,5 +20,8 @@
     "CRUNCH",
     "DAZZLING_GLEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

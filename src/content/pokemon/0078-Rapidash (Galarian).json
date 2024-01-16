@@ -23,5 +23,8 @@
     "MEGAHORN",
     "HIGH_HORSEPOWER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "galarian"
+  ]
 }

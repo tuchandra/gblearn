@@ -21,5 +21,9 @@
     "SLUDGE_BOMB",
     "SOLAR_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

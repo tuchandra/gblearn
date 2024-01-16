@@ -20,5 +20,8 @@
     "PSYSHOCK",
     "PSYCHIC"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "galarian"
+  ]
 }

@@ -23,5 +23,8 @@
     "ROCK_SLIDE",
     "EARTH_POWER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

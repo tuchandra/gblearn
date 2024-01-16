@@ -20,5 +20,8 @@
     "BRAVE_BIRD",
     "LEAF_BLADE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "galarian"
+  ]
 }

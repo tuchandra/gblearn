@@ -20,5 +20,8 @@
     "ROCK_BLAST",
     "STONE_EDGE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

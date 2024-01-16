@@ -20,5 +20,8 @@
     "SIGNAL_BEAM",
     "THUNDERBOLT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

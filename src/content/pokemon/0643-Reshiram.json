@@ -22,5 +22,8 @@
     "STONE_EDGE",
     "FUSION_FLARE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

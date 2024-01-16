@@ -21,5 +21,8 @@
     "WATER_PULSE",
     "SCALD"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

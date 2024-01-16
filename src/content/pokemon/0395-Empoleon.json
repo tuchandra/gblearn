@@ -22,5 +22,8 @@
     "HYDRO_CANNON",
     "DRILL_PECK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

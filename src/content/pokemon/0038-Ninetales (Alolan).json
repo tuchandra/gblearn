@@ -23,5 +23,9 @@
     "PSYSHOCK",
     "WEATHER_BALL_ICE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "alolan",
+    "shadoweligible"
+  ]
 }

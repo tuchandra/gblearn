@@ -22,5 +22,8 @@
     "ICE_PUNCH",
     "FLAMETHROWER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

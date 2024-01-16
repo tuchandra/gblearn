@@ -24,5 +24,8 @@
     "VICE_GRIP",
     "POWER_UP_PUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

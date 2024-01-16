@@ -22,5 +22,8 @@
     "SURF",
     "SCALD"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

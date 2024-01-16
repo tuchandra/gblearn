@@ -41,5 +41,8 @@
     "SOLAR_BEAM",
     "ZAP_CANNON"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

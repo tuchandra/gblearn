@@ -23,5 +23,8 @@
     "SLUDGE_BOMB",
     "FELL_STINGER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -23,5 +23,9 @@
     "FLAME_CHARGE",
     "SCORCHING_SANDS"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary",
+    "shadoweligible"
+  ]
 }

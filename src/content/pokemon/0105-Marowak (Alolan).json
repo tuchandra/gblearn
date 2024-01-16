@@ -23,5 +23,9 @@
     "FLAME_WHEEL",
     "SHADOW_BONE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "alolan",
+    "shadoweligible"
+  ]
 }

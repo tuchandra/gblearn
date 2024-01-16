@@ -23,5 +23,8 @@
     "SOLAR_BEAM",
     "ACROBATICS"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -22,5 +22,8 @@
     "ENERGY_BALL",
     "BRAVE_BIRD"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

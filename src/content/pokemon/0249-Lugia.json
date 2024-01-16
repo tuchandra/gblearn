@@ -21,5 +21,9 @@
     "SKY_ATTACK",
     "AEROBLAST"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary",
+    "shadoweligible"
+  ]
 }

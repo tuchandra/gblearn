@@ -22,5 +22,8 @@
     "ACID_SPRAY",
     "LEAF_TORNADO"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

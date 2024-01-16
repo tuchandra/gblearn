@@ -21,5 +21,8 @@
     "THUNDERBOLT",
     "ZAP_CANNON"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

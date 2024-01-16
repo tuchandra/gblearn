@@ -21,5 +21,8 @@
     "CRUNCH",
     "SLUDGE_BOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "ultrabeast"
+  ]
 }

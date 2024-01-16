@@ -22,5 +22,8 @@
     "FIRE_BLAST",
     "POLTERGEIST"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "teambuilderexclude"
+  ]
 }

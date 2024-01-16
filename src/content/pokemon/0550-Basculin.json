@@ -20,5 +20,8 @@
     "AQUA_TAIL",
     "MUDDY_WATER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

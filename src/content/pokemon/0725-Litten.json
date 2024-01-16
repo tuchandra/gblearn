@@ -20,5 +20,8 @@
     "FLAME_CHARGE",
     "CRUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

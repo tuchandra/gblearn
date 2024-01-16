@@ -20,5 +20,8 @@
     "LEAF_BLADE",
     "STOMP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

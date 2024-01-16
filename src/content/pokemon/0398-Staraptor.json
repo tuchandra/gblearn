@@ -22,5 +22,8 @@
     "HEAT_WAVE",
     "FLY"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

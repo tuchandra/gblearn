@@ -20,5 +20,8 @@
     "DIG",
     "SLUDGE_WAVE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "paldean"
+  ]
 }

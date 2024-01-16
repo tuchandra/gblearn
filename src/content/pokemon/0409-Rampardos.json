@@ -20,5 +20,9 @@
     "OUTRAGE",
     "ROCK_SLIDE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "include1500",
+    "shadoweligible"
+  ]
 }

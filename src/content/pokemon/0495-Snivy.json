@@ -20,5 +20,8 @@
     "SEED_BOMB",
     "WRAP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

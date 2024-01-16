@@ -20,5 +20,9 @@
     "ENERGY_BALL",
     "SOLAR_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

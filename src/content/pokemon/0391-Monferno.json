@@ -20,5 +20,8 @@
     "FLAMETHROWER",
     "LOW_SWEEP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

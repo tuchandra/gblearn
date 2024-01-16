@@ -21,5 +21,8 @@
     "SUPER_POWER",
     "ICE_PUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "galarian"
+  ]
 }

@@ -22,5 +22,9 @@
     "SLUDGE_WAVE",
     "ACID_SPRAY"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "alolan",
+    "shadoweligible"
+  ]
 }

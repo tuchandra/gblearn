@@ -21,5 +21,9 @@
     "GUNK_SHOT",
     "TECHNO_BLAST_DOUSE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }

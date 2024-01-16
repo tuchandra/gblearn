@@ -22,5 +22,8 @@
     "WATER_PULSE",
     "ICICLE_SPEAR"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

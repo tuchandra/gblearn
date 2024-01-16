@@ -21,5 +21,8 @@
     "SHADOW_BALL",
     "MYSTICAL_FIRE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

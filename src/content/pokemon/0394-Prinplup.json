@@ -20,5 +20,8 @@
     "HYDRO_PUMP",
     "ICY_WIND"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

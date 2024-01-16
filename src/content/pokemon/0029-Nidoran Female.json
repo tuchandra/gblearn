@@ -20,5 +20,8 @@
     "POISON_FANG",
     "SLUDGE_BOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

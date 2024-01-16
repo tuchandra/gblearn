@@ -20,5 +20,8 @@
     "SHADOW_BALL",
     "SIGNAL_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -21,5 +21,8 @@
     "GRASS_KNOT",
     "MIRROR_COAT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -20,5 +20,9 @@
     "FLAMETHROWER",
     "ROCK_SLIDE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

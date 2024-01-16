@@ -22,5 +22,9 @@
     "ICE_BEAM",
     "SKULL_BASH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

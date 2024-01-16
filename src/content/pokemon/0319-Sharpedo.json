@@ -20,5 +20,9 @@
     "HYDRO_PUMP",
     "POISON_FANG"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible",
+    "include1500"
+  ]
 }

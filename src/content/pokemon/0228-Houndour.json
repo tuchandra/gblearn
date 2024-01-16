@@ -20,5 +20,8 @@
     "DARK_PULSE",
     "FLAMETHROWER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -23,5 +23,9 @@
     "OVERHEAT",
     "PSYCHIC_FANGS"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible",
+    "mega"
+  ]
 }

@@ -22,5 +22,8 @@
     "SHADOW_BALL",
     "POLTERGEIST"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

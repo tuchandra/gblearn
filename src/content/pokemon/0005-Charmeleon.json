@@ -21,5 +21,9 @@
     "FLAME_BURST",
     "FLAMETHROWER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

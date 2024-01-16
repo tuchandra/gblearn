@@ -21,5 +21,8 @@
     "HEAT_WAVE",
     "MYSTICAL_FIRE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

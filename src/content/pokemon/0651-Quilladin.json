@@ -20,5 +20,8 @@
     "ENERGY_BALL",
     "BODY_SLAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

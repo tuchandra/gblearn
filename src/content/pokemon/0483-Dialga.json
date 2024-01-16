@@ -20,5 +20,8 @@
     "IRON_HEAD",
     "THUNDER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

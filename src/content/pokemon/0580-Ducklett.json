@@ -20,5 +20,8 @@
     "BUBBLE_BEAM",
     "BRAVE_BIRD"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

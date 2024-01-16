@@ -20,5 +20,8 @@
     "ENERGY_BALL",
     "POWER_WHIP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

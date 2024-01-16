@@ -21,5 +21,8 @@
     "MUD_BOMB",
     "SCALD"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

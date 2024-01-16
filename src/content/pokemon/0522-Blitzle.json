@@ -20,5 +20,8 @@
     "DISCHARGE",
     "THUNDERBOLT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

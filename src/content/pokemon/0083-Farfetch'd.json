@@ -21,5 +21,8 @@
     "AIR_CUTTER",
     "LEAF_BLADE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

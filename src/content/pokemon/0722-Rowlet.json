@@ -21,5 +21,8 @@
     "SEED_BOMB",
     "ENERGY_BALL"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

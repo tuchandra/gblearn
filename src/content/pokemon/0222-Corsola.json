@@ -20,5 +20,8 @@
     "POWER_GEM",
     "ROCK_BLAST"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

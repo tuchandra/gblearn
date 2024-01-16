@@ -20,5 +20,8 @@
     "IRON_HEAD",
     "ROCK_TOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

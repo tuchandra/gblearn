@@ -23,5 +23,8 @@
     "HYDRO_PUMP",
     "HYDRO_CANNON"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

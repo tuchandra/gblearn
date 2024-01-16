@@ -23,5 +23,8 @@
     "PSYCHIC_FANGS",
     "TRAILBLAZE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

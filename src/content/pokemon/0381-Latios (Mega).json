@@ -21,5 +21,10 @@
     "SOLAR_BEAM",
     "LUSTER_PURGE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary",
+    "shadoweligible",
+    "mega"
+  ]
 }

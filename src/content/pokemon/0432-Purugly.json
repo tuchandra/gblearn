@@ -20,5 +20,8 @@
     "PLAY_ROUGH",
     "THUNDER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

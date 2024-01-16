@@ -23,5 +23,8 @@
     "BREAKING_SWIPE",
     "DRAGON_ASCENT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

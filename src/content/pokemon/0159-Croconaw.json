@@ -20,5 +20,9 @@
     "ICE_PUNCH",
     "WATER_PULSE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

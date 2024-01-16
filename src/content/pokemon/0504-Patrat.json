@@ -20,5 +20,8 @@
     "HYPER_FANG",
     "GRASS_KNOT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

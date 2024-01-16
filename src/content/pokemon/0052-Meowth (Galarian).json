@@ -21,5 +21,8 @@
     "DIG",
     "TRAILBLAZE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "galarian"
+  ]
 }

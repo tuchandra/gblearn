@@ -22,5 +22,8 @@
     "CRUNCH",
     "FUSION_BOLT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

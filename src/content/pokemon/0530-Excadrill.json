@@ -23,5 +23,8 @@
     "IRON_HEAD",
     "SCORCHING_SANDS"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

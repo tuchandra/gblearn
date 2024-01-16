@@ -23,5 +23,9 @@
     "ROCK_TOMB",
     "METEOR_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible",
+    "mega"
+  ]
 }

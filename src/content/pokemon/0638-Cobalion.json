@@ -22,5 +22,8 @@
     "STONE_EDGE",
     "SACRED_SWORD"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

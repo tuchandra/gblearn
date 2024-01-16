@@ -24,5 +24,8 @@
     "ROCK_WRECKER",
     "BREAKING_SWIPE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

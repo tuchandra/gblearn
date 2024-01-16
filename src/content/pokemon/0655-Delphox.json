@@ -24,5 +24,8 @@
     "BLAST_BURN",
     "MYSTICAL_FIRE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

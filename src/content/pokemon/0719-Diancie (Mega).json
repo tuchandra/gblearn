@@ -20,5 +20,10 @@
     "MOONBLAST",
     "POWER_GEM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable",
+    "mega"
+  ]
 }

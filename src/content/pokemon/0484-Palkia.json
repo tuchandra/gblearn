@@ -21,5 +21,8 @@
     "HYDRO_PUMP",
     "AQUA_TAIL"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

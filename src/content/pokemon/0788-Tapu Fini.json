@@ -36,5 +36,8 @@
     "ICE_BEAM",
     "HYDRO_PUMP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

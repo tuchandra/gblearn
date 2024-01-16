@@ -20,5 +20,8 @@
     "NIGHT_SHADE",
     "SKY_ATTACK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

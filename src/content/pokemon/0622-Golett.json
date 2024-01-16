@@ -20,5 +20,8 @@
     "BRICK_BREAK",
     "NIGHT_SHADE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

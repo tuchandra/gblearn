@@ -22,5 +22,8 @@
     "POWER_GEM",
     "PAYBACK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

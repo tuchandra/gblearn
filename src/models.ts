@@ -1,4 +1,4 @@
-import { z } from 'astro:content';
+import { z } from 'zod';
 
 const PokemonSchema = z.object({
   dex: z.number(),
@@ -13,6 +13,7 @@ const PokemonSchema = z.object({
   fastMoves: z.array(z.string()),
   chargedMoves: z.array(z.string()),
   released: z.boolean(),
+  tags: z.array(z.string()).optional(),
 });
 
 const FastMoveSchema = z.object({

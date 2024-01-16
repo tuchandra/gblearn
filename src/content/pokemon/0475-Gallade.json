@@ -22,5 +22,8 @@
     "PSYCHIC",
     "SYNCHRONOISE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

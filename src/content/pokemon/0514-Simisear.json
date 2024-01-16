@@ -20,5 +20,8 @@
     "FIRE_BLAST",
     "CRUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

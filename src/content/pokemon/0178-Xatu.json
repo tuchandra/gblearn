@@ -20,5 +20,8 @@
     "FUTURE_SIGHT",
     "OMINOUS_WIND"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

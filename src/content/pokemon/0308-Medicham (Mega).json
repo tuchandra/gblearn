@@ -21,5 +21,8 @@
     "PSYCHIC",
     "POWER_UP_PUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mega"
+  ]
 }

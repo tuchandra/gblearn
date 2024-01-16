@@ -23,5 +23,9 @@
     "SEED_BOMB",
     "LEAF_STORM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }

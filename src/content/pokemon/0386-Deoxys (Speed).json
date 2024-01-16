@@ -20,5 +20,9 @@
     "SWIFT",
     "THUNDERBOLT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }

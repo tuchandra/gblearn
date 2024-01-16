@@ -19,5 +19,8 @@
   "chargedMoves": [
     "MIRROR_COAT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

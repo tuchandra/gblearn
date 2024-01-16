@@ -20,5 +20,9 @@
     "PSYCHO_BOOST",
     "THUNDERBOLT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }

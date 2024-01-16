@@ -20,5 +20,8 @@
     "BODY_SLAM",
     "GRASS_KNOT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

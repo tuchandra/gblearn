@@ -22,5 +22,9 @@
     "STONE_EDGE",
     "BRUTAL_SWING"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible",
+    "mega"
+  ]
 }

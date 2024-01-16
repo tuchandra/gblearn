@@ -21,5 +21,8 @@
     "SOLAR_BEAM",
     "FLAMETHROWER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

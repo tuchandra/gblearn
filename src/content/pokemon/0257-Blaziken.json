@@ -23,5 +23,9 @@
     "BLAST_BURN",
     "BLAZE_KICK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

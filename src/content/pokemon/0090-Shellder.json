@@ -21,5 +21,8 @@
     "WATER_PULSE",
     "RAZOR_SHELL"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

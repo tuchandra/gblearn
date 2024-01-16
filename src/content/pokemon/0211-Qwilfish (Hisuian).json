@@ -22,5 +22,8 @@
     "DARK_PULSE",
     "SHADOW_BALL"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "hisuian"
+  ]
 }

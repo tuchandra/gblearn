@@ -20,5 +20,8 @@
     "PSYCHIC",
     "ROCK_SLIDE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

@@ -21,5 +21,9 @@
     "ZAP_CANNON",
     "TECHNO_BLAST_SHOCK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }

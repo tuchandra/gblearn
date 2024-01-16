@@ -20,5 +20,9 @@
     "AQUA_TAIL",
     "WATER_PULSE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

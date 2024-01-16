@@ -22,5 +22,8 @@
     "OMINOUS_WIND",
     "FLY"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "hisuian"
+  ]
 }

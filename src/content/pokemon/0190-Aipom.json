@@ -20,5 +20,8 @@
     "LOW_SWEEP",
     "SWIFT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

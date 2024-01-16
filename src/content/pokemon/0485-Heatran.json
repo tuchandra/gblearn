@@ -23,5 +23,8 @@
     "EARTH_POWER",
     "MAGMA_STORM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

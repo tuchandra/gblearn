@@ -23,5 +23,8 @@
     "GIGA_IMPACT",
     "THUNDER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

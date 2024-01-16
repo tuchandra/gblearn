@@ -20,5 +20,8 @@
     "CRUNCH",
     "FLAMETHROWER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "hisuian"
+  ]
 }

@@ -21,5 +21,8 @@
     "SILVER_WIND",
     "DYNAMIC_PUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

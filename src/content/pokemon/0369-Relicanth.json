@@ -20,5 +20,8 @@
     "AQUA_TAIL",
     "HYDRO_PUMP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

@@ -24,5 +24,8 @@
     "CROSS_CHOP",
     "LIQUIDATION"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

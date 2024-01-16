@@ -25,5 +25,9 @@
     "THUNDERBOLT",
     "PSYSTRIKE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary",
+    "shadoweligible"
+  ]
 }

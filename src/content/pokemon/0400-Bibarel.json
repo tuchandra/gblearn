@@ -20,5 +20,8 @@
     "HYPER_FANG",
     "SURF"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

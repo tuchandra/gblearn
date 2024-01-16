@@ -20,5 +20,8 @@
     "BODY_SLAM",
     "WATER_PULSE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -23,5 +23,8 @@
     "HYPER_BEAM",
     "BULLDOZE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

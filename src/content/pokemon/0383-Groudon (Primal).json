@@ -22,5 +22,9 @@
     "FIRE_PUNCH",
     "PRECIPICE_BLADES"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary",
+    "mega"
+  ]
 }

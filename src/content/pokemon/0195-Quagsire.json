@@ -23,5 +23,8 @@
     "MUD_BOMB",
     "AQUA_TAIL"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

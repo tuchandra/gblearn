@@ -20,5 +20,8 @@
     "SWIFT",
     "THUNDER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

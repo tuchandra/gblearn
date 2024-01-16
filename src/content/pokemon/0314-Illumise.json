@@ -20,5 +20,8 @@
     "DAZZLING_GLEAM",
     "SILVER_WIND"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

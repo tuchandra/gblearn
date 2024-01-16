@@ -21,5 +21,8 @@
     "LUNGE",
     "CLOSE_COMBAT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "ultrabeast"
+  ]
 }

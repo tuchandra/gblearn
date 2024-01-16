@@ -21,5 +21,8 @@
     "SHADOW_PUNCH",
     "POLTERGEIST"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

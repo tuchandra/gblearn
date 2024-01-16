@@ -20,5 +20,9 @@
     "SEED_BOMB",
     "SLUDGE_BOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

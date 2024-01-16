@@ -21,5 +21,8 @@
     "MEGAHORN",
     "ROCK_BLAST"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

@@ -24,5 +24,8 @@
     "BODY_SLAM",
     "TRAILBLAZE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

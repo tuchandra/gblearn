@@ -20,5 +20,8 @@
     "PSYBEAM",
     "SWIFT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "galarian"
+  ]
 }

@@ -23,5 +23,8 @@
     "WILD_CHARGE",
     "CLOSE_COMBAT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

@@ -20,5 +20,8 @@
     "DIG",
     "MUD_BOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

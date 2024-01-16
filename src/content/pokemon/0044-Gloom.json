@@ -20,5 +20,8 @@
     "PETAL_BLIZZARD",
     "SLUDGE_BOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

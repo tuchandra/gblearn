@@ -22,5 +22,8 @@
     "FLAME_CHARGE",
     "BLAST_BURN"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

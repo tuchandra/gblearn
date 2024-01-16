@@ -22,5 +22,8 @@
     "OVERHEAT",
     "BRUTAL_SWING"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "galarian"
+  ]
 }

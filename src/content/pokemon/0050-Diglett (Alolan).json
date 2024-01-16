@@ -20,5 +20,9 @@
     "MUD_BOMB",
     "ROCK_TOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "alolan",
+    "shadoweligible"
+  ]
 }

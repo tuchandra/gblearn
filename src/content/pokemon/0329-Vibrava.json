@@ -21,5 +21,8 @@
     "SAND_TOMB",
     "SCORCHING_SANDS"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

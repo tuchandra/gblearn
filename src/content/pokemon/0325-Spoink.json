@@ -20,5 +20,8 @@
     "PSYBEAM",
     "SHADOW_BALL"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

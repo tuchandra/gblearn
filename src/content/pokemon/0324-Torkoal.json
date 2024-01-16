@@ -20,5 +20,8 @@
     "OVERHEAT",
     "SOLAR_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

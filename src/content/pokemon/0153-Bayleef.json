@@ -21,5 +21,9 @@
     "ENERGY_BALL",
     "GRASS_KNOT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

@@ -21,5 +21,8 @@
     "HEAVY_SLAM",
     "BULLDOZE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "ultrabeast"
+  ]
 }

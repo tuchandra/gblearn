@@ -23,5 +23,8 @@
     "SLUDGE_BOMB",
     "ICE_PUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

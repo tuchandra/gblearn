@@ -20,5 +20,8 @@
     "PLAY_ROUGH",
     "DARK_PULSE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

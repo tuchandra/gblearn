@@ -26,5 +26,8 @@
     "PSYCHIC_FANGS",
     "SCORCHING_SANDS"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

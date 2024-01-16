@@ -35,5 +35,8 @@
     "GRASS_KNOT",
     "DRAINING_KISS"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

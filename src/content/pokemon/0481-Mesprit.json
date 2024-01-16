@@ -20,5 +20,8 @@
     "FUTURE_SIGHT",
     "SWIFT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

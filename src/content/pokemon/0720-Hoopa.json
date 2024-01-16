@@ -20,5 +20,9 @@
     "PSYBEAM",
     "PSYCHIC"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }

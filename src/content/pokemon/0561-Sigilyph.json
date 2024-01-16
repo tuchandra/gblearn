@@ -21,5 +21,8 @@
     "ANCIENT_POWER",
     "SIGNAL_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

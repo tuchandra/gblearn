@@ -20,5 +20,9 @@
     "HYPER_FANG",
     "SHADOW_BALL"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "alolan",
+    "shadoweligible"
+  ]
 }

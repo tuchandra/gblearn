@@ -20,5 +20,8 @@
     "DRILL_PECK",
     "ICY_WIND"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

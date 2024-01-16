@@ -20,5 +20,9 @@
     "ROCK_TOMB",
     "THUNDERBOLT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "alolan",
+    "shadoweligible"
+  ]
 }

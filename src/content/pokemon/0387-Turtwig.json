@@ -20,5 +20,9 @@
     "ENERGY_BALL",
     "SEED_BOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

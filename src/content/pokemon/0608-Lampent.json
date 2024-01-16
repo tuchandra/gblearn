@@ -20,5 +20,8 @@
     "FLAME_BURST",
     "HEAT_WAVE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

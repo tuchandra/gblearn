@@ -22,5 +22,9 @@
     "ZAP_CANNON",
     "EARTHQUAKE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary",
+    "shadoweligible"
+  ]
 }

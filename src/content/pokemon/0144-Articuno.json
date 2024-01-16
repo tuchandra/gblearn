@@ -23,5 +23,9 @@
     "ANCIENT_POWER",
     "TRIPLE_AXEL"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary",
+    "shadoweligible"
+  ]
 }

@@ -20,5 +20,8 @@
     "FLASH_CANNON",
     "SKY_ATTACK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

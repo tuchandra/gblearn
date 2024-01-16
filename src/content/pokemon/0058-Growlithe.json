@@ -20,5 +20,8 @@
     "FLAME_WHEEL",
     "FLAMETHROWER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

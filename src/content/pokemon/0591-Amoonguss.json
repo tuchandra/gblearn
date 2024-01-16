@@ -20,5 +20,8 @@
     "SLUDGE_BOMB",
     "GRASS_KNOT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

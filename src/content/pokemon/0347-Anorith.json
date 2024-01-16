@@ -20,5 +20,8 @@
     "AQUA_JET",
     "CROSS_POISON"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

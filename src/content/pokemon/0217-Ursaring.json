@@ -22,5 +22,8 @@
     "PLAY_ROUGH",
     "TRAILBLAZE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

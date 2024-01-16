@@ -21,5 +21,8 @@
     "SHADOW_SNEAK",
     "SHADOW_FORCE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

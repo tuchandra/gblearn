@@ -21,5 +21,9 @@
     "DAZZLING_GLEAM",
     "HYPER_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }

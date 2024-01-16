@@ -22,5 +22,8 @@
     "THUNDERBOLT",
     "FOUL_PLAY"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

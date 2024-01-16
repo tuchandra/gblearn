@@ -20,5 +20,8 @@
     "HEAVY_SLAM",
     "ROCK_TOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

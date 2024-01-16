@@ -22,5 +22,8 @@
     "ZAP_CANNON",
     "MIRROR_SHOT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

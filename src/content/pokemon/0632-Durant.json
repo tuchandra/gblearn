@@ -20,5 +20,8 @@
     "IRON_HEAD",
     "STONE_EDGE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

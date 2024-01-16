@@ -21,5 +21,8 @@
     "DARK_PULSE",
     "PAYBACK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

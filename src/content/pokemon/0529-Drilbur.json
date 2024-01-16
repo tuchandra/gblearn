@@ -20,5 +20,8 @@
     "DIG",
     "DRILL_RUN"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -23,5 +23,8 @@
     "CRUNCH",
     "CLOSE_COMBAT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

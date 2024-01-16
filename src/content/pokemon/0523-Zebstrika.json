@@ -20,5 +20,8 @@
     "DISCHARGE",
     "WILD_CHARGE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

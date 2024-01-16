@@ -23,5 +23,8 @@
     "FLAME_CHARGE",
     "POLTERGEIST"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

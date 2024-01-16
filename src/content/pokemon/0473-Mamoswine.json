@@ -22,5 +22,8 @@
     "ANCIENT_POWER",
     "HIGH_HORSEPOWER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

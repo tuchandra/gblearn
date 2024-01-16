@@ -23,5 +23,8 @@
     "LEAF_BLADE",
     "LEAF_TORNADO"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -21,5 +21,8 @@
     "SKY_ATTACK",
     "MOONBLAST"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mega"
+  ]
 }

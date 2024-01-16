@@ -21,5 +21,8 @@
     "SKULL_BASH",
     "EARTHQUAKE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

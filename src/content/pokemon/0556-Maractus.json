@@ -20,5 +20,8 @@
     "PETAL_BLIZZARD",
     "SOLAR_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

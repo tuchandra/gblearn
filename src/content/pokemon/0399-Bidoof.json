@@ -24,5 +24,8 @@
     "SHADOW_BALL",
     "SUPER_POWER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

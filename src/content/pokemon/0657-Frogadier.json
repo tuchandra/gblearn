@@ -20,5 +20,8 @@
     "AERIAL_ACE",
     "SURF"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

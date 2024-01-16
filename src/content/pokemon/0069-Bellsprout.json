@@ -20,5 +20,8 @@
     "SLUDGE_BOMB",
     "WRAP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

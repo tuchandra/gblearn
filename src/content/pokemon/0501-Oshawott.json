@@ -20,5 +20,8 @@
     "WATER_PULSE",
     "NIGHT_SLASH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

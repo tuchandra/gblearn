@@ -23,5 +23,9 @@
     "FELL_STINGER",
     "DRILL_RUN"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible",
+    "mega"
+  ]
 }

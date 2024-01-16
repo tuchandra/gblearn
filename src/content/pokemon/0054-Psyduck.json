@@ -20,5 +20,8 @@
     "CROSS_CHOP",
     "PSYBEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

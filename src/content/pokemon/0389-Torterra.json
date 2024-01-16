@@ -22,5 +22,9 @@
     "STONE_EDGE",
     "FRENZY_PLANT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

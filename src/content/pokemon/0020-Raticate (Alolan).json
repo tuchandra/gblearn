@@ -20,5 +20,9 @@
     "HYPER_BEAM",
     "HYPER_FANG"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "alolan",
+    "shadoweligible"
+  ]
 }

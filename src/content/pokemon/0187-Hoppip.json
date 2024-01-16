@@ -20,5 +20,8 @@
     "GRASS_KNOT",
     "SEED_BOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

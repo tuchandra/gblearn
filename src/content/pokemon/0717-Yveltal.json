@@ -24,5 +24,8 @@
     "PSYCHIC",
     "OBLIVION_WING"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

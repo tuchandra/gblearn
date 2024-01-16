@@ -20,5 +20,8 @@
     "POISON_FANG",
     "WRAP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

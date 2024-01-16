@@ -22,5 +22,9 @@
     "X_SCISSOR",
     "SACRED_SWORD"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }

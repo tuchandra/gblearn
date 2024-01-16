@@ -23,5 +23,9 @@
     "PSYCHIC_FANGS",
     "BREAKING_SWIPE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mega",
+    "shadoweligible"
+  ]
 }

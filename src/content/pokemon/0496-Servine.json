@@ -20,5 +20,8 @@
     "LEAF_TORNADO",
     "WRAP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

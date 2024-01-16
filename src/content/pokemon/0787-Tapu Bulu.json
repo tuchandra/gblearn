@@ -21,5 +21,8 @@
     "MEGAHORN",
     "SOLAR_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

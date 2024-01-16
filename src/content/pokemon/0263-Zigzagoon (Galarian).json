@@ -20,5 +20,8 @@
     "BODY_SLAM",
     "SWIFT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "galarian"
+  ]
 }

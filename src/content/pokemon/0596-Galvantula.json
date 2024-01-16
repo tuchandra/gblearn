@@ -22,5 +22,8 @@
     "ENERGY_BALL",
     "LUNGE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

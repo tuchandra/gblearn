@@ -21,5 +21,8 @@
     "EARTH_POWER",
     "POLTERGEIST"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

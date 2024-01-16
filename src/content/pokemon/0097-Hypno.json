@@ -25,5 +25,8 @@
     "ICE_PUNCH",
     "THUNDER_PUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

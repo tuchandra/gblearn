@@ -23,5 +23,8 @@
     "STONE_EDGE",
     "BREAKING_SWIPE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

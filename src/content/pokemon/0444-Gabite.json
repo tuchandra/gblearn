@@ -20,5 +20,8 @@
     "FLAMETHROWER",
     "TWISTER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

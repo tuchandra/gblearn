@@ -21,5 +21,8 @@
     "POWER_WHIP",
     "DAZZLING_GLEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "ultrabeast"
+  ]
 }

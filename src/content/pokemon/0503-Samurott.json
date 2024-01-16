@@ -23,5 +23,8 @@
     "HYDRO_CANNON",
     "LIQUIDATION"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

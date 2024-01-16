@@ -24,5 +24,8 @@
     "FRENZY_PLANT",
     "SPIRIT_SHACKLE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

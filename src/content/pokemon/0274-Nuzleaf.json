@@ -20,5 +20,8 @@
     "GRASS_KNOT",
     "LEAF_BLADE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -26,5 +26,8 @@
     "WEATHER_BALL_FIRE",
     "SCORCHING_SANDS"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

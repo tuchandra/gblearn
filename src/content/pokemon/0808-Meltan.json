@@ -18,5 +18,9 @@
     "FLASH_CANNON",
     "THUNDERBOLT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "include1500"
+  ]
 }

@@ -22,5 +22,8 @@
     "LEAF_BLADE",
     "PETAL_BLIZZARD"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

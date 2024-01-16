@@ -20,5 +20,9 @@
     "PSYCHO_BOOST",
     "ZAP_CANNON"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }

@@ -20,5 +20,8 @@
     "BUBBLE_BEAM",
     "HURRICANE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -20,5 +20,9 @@
     "FLAMETHROWER",
     "SWIFT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

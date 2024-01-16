@@ -20,5 +20,8 @@
     "BUBBLE_BEAM",
     "MUD_BOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

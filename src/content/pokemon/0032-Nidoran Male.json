@@ -20,5 +20,8 @@
     "HORN_ATTACK",
     "SLUDGE_BOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

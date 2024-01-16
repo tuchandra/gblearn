@@ -21,5 +21,8 @@
     "ROCK_SLIDE",
     "FOCUS_BLAST"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

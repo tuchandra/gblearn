@@ -23,5 +23,9 @@
     "DRAGON_CLAW",
     "BREAKING_SWIPE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

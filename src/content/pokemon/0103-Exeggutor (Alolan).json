@@ -21,5 +21,9 @@
     "SOLAR_BEAM",
     "DRACO_METEOR"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "alolan",
+    "shadoweligible"
+  ]
 }

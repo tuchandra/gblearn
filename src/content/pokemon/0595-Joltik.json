@@ -20,5 +20,8 @@
     "BUG_BUZZ",
     "DISCHARGE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

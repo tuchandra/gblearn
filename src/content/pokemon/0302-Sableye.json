@@ -20,5 +20,8 @@
     "POWER_GEM",
     "SHADOW_SNEAK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

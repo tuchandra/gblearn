@@ -20,5 +20,8 @@
     "CROSS_CHOP",
     "LOW_SWEEP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "include1500"
+  ]
 }

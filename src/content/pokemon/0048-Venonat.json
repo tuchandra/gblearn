@@ -20,5 +20,8 @@
     "PSYBEAM",
     "SIGNAL_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -22,5 +22,9 @@
     "THUNDER",
     "MIST_BALL"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary",
+    "shadoweligible"
+  ]
 }

@@ -26,5 +26,8 @@
     "SLUDGE_WAVE",
     "SHADOW_PUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mega"
+  ]
 }

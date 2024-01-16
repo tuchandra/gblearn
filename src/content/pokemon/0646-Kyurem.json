@@ -21,5 +21,8 @@
     "DRACO_METEOR",
     "GLACIATE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

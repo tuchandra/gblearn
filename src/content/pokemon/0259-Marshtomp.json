@@ -20,5 +20,9 @@
     "SLUDGE",
     "SURF"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

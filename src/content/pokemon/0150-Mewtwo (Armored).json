@@ -22,5 +22,8 @@
     "FUTURE_SIGHT",
     "PSYSTRIKE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

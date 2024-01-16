@@ -22,5 +22,8 @@
     "STONE_EDGE",
     "ROCK_SLIDE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -23,5 +23,8 @@
     "GRASS_KNOT",
     "TRAILBLAZE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "alolan"
+  ]
 }

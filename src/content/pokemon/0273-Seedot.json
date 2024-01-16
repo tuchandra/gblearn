@@ -20,5 +20,8 @@
     "FOUL_PLAY",
     "GRASS_KNOT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

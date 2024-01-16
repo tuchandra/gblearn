@@ -20,5 +20,8 @@
     "SHADOW_SNEAK",
     "FOUL_PLAY"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "teambuilderexclude"
+  ]
 }

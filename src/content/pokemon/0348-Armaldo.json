@@ -21,5 +21,8 @@
     "WATER_PULSE",
     "LIQUIDATION"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

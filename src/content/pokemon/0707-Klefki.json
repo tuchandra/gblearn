@@ -21,5 +21,8 @@
     "DRAINING_KISS",
     "FOUL_PLAY"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

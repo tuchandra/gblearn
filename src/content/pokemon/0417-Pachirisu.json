@@ -20,5 +20,8 @@
     "THUNDER_PUNCH",
     "THUNDERBOLT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

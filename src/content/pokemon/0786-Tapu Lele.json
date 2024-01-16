@@ -21,5 +21,8 @@
     "FOCUS_BLAST",
     "FUTURE_SIGHT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

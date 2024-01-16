@@ -22,5 +22,8 @@
     "DARK_PULSE",
     "BLAZE_KICK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

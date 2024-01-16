@@ -21,5 +21,8 @@
     "THUNDER",
     "HYPER_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

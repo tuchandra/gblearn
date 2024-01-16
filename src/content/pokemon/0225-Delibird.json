@@ -22,5 +22,8 @@
     "FLY",
     "TRIPLE_AXEL"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

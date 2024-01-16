@@ -20,5 +20,8 @@
     "FLAMETHROWER",
     "FLAME_CHARGE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

@@ -20,5 +20,8 @@
     "WATER_PULSE",
     "DISARMING_VOICE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

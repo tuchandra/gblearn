@@ -21,5 +21,9 @@
     "STONE_EDGE",
     "WILD_CHARGE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "alolan",
+    "shadoweligible"
+  ]
 }

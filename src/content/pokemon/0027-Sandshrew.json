@@ -21,5 +21,8 @@
     "ROCK_TOMB",
     "SAND_TOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

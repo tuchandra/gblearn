@@ -21,5 +21,8 @@
     "DRAGON_PULSE",
     "HYDRO_PUMP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

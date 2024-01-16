@@ -20,5 +20,8 @@
     "SEED_BOMB",
     "CRUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

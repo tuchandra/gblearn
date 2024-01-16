@@ -25,5 +25,9 @@
     "FLAMETHROWER",
     "OVERHEAT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

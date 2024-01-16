@@ -21,5 +21,8 @@
     "HYPER_BEAM",
     "HURRICANE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

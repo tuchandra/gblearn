@@ -20,5 +20,8 @@
     "HYDRO_PUMP",
     "CRUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

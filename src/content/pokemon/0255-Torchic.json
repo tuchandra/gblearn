@@ -20,5 +20,9 @@
     "FLAMETHROWER",
     "ROCK_TOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

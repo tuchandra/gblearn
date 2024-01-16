@@ -20,5 +20,8 @@
     "SEED_BOMB",
     "BODY_SLAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

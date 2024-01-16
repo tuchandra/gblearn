@@ -25,5 +25,9 @@
     "TWISTER",
     "AQUA_TAIL"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible",
+    "mega"
+  ]
 }

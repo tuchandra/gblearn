@@ -20,5 +20,8 @@
     "LOW_SWEEP",
     "BODY_SLAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -21,5 +21,8 @@
     "SURF",
     "ORIGIN_PULSE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

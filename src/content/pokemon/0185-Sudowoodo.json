@@ -23,5 +23,8 @@
     "METEOR_BEAM",
     "TRAILBLAZE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

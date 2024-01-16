@@ -36,5 +36,8 @@
     "EARTH_POWER",
     "EARTHQUAKE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

@@ -21,5 +21,8 @@
     "MUDDY_WATER",
     "ROCK_SLIDE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "galarian"
+  ]
 }

@@ -22,5 +22,9 @@
     "ANCIENT_POWER",
     "DRILL_PECK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary",
+    "shadoweligible"
+  ]
 }

@@ -22,5 +22,10 @@
     "HYDRO_CANNON",
     "MUDDY_WATER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible",
+    "mega"
+  ]
 }

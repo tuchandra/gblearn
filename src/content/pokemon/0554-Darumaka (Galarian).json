@@ -19,5 +19,8 @@
     "ICE_PUNCH",
     "ICE_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "galarian"
+  ]
 }

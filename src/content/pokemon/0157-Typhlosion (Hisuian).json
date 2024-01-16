@@ -21,5 +21,9 @@
     "SHADOW_BALL",
     "OVERHEAT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "hisuian"
+  ]
 }

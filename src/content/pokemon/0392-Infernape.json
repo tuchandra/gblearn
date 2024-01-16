@@ -21,5 +21,8 @@
     "SOLAR_BEAM",
     "BLAST_BURN"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

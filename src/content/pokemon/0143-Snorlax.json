@@ -25,5 +25,8 @@
     "SKULL_BASH",
     "SUPER_POWER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

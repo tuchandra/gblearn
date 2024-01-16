@@ -21,5 +21,8 @@
     "SLUDGE_BOMB",
     "ICE_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

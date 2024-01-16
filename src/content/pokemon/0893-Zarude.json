@@ -20,5 +20,9 @@
     "ENERGY_BALL",
     "DARK_PULSE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }

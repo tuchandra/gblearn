@@ -21,5 +21,8 @@
     "FIRE_BLAST",
     "BOOMBURST"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

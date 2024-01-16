@@ -20,5 +20,8 @@
     "BODY_SLAM",
     "GUNK_SHOT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "galarian"
+  ]
 }

@@ -35,5 +35,9 @@
     "FOCUS_BLAST",
     "THUNDER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary",
+    "shadoweligible"
+  ]
 }

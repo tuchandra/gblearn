@@ -20,5 +20,8 @@
     "GRASS_KNOT",
     "CRUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

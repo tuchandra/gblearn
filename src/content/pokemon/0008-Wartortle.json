@@ -20,5 +20,9 @@
     "HYDRO_PUMP",
     "ICE_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter",
+    "shadoweligible"
+  ]
 }

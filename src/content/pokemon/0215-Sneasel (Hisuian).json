@@ -20,5 +20,9 @@
     "CLOSE_COMBAT",
     "X_SCISSOR"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "hisuian",
+    "shadoweligible"
+  ]
 }

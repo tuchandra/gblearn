@@ -22,5 +22,8 @@
     "HURRICANE",
     "BLEAKWIND_STORM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

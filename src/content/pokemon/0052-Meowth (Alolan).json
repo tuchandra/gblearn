@@ -21,5 +21,8 @@
     "NIGHT_SLASH",
     "TRAILBLAZE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "alolan"
+  ]
 }

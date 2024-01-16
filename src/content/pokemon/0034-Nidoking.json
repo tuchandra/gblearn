@@ -24,5 +24,8 @@
     "EARTH_POWER",
     "SAND_TOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -20,5 +20,8 @@
     "WATER_PULSE",
     "X_SCISSOR"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

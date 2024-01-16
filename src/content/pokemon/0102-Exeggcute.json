@@ -20,5 +20,8 @@
     "PSYCHIC",
     "SEED_BOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

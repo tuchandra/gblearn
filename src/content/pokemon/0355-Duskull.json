@@ -20,5 +20,8 @@
     "OMINOUS_WIND",
     "SHADOW_SNEAK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

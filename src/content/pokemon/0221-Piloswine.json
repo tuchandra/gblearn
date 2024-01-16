@@ -21,5 +21,8 @@
     "STONE_EDGE",
     "HIGH_HORSEPOWER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

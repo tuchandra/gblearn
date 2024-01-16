@@ -20,5 +20,9 @@
     "DARK_PULSE",
     "PSYCHIC"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }

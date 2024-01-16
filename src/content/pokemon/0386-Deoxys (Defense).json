@@ -20,5 +20,9 @@
     "ROCK_SLIDE",
     "THUNDERBOLT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }

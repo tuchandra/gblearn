@@ -20,5 +20,8 @@
     "DRAGON_PULSE",
     "FLASH_CANNON"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -22,5 +22,8 @@
     "SUPER_POWER",
     "DOUBLE_IRON_BASH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical"
+  ]
 }

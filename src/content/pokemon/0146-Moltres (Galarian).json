@@ -20,5 +20,9 @@
     "ANCIENT_POWER",
     "BRAVE_BIRD"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary",
+    "galarian"
+  ]
 }

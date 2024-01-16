@@ -21,5 +21,8 @@
     "BRICK_BREAK",
     "THUNDER_PUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

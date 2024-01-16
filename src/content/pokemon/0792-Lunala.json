@@ -21,5 +21,8 @@
     "MOONBLAST",
     "FUTURE_SIGHT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

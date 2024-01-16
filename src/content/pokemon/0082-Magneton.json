@@ -23,5 +23,8 @@
     "MAGNET_BOMB",
     "ZAP_CANNON"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -20,5 +20,8 @@
     "WATER_PULSE",
     "CRUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "regional"
+  ]
 }

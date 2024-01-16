@@ -21,5 +21,9 @@
     "NIGHT_SLASH",
     "AERIAL_ACE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "ultrabeast",
+    "include1500"
+  ]
 }

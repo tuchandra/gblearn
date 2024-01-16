@@ -20,5 +20,8 @@
     "HEAT_WAVE",
     "STOMP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -22,5 +22,8 @@
     "SOLAR_BEAM",
     "POWER_WHIP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

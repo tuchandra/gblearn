@@ -20,5 +20,8 @@
     "NIGHT_SHADE",
     "PSYSHOCK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

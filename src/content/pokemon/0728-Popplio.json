@@ -20,5 +20,8 @@
     "WATER_PULSE",
     "AQUA_TAIL"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

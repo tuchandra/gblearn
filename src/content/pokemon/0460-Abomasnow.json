@@ -23,5 +23,8 @@
     "WEATHER_BALL_ICE",
     "ICY_WIND"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

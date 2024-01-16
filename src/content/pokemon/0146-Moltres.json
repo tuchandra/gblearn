@@ -22,5 +22,9 @@
     "SKY_ATTACK",
     "ANCIENT_POWER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "legendary",
+    "shadoweligible"
+  ]
 }

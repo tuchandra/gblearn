@@ -20,5 +20,9 @@
     "DOOM_DESIRE",
     "PSYCHIC"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }
