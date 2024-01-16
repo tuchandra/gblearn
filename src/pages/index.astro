@@ -1,11 +1,18 @@
 ---
-import { getEntries } from 'astro:content';
 import Pokemon from '../components/pokemon.astro';
 import { getCollection } from 'astro:content';
 
 const pokemon = await getCollection('pokemon');
 
-const species = ['Abomasnow', 'Carbink', 'Slurpuff', 'Lanturn', 'Venusaur', 'Weezing (Galarian)'];
+const species = [
+  'Abomasnow',
+  'Carbink',
+  'Slurpuff',
+  'Lanturn',
+  'Gholdengo',
+  'Venusaur',
+  'Weezing (Galarian)',
+];
 const greatleague = pokemon.filter((p) => species.includes(p.data.speciesName));
 ---
 
@@ -42,6 +49,7 @@ const greatleague = pokemon.filter((p) => species.includes(p.data.speciesName));
     <Pokemon pokemon={greatleague[3]} />
     <Pokemon pokemon={greatleague[4]} />
     <Pokemon pokemon={greatleague[5]} />
+    <Pokemon pokemon={greatleague[6]} />
     <div class="container flex flex-col">
       <h1 class="px-4 py-2 text-2xl font-bold text-teal-600">Hello, beep!</h1>
       <p class="group-hover:text-gray px-4 text-blue-500">
