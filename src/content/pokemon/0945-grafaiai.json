@@ -1,0 +1,24 @@
+{
+  "dex": 945,
+  "speciesName": "Grafaiai",
+  "speciesId": "grafaiai",
+  "baseStats": {
+    "atk": 199,
+    "def": 149,
+    "hp": 160
+  },
+  "types": [
+    "poison",
+    "normal"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "ACID_SPRAY",
+    "POISON_FANG",
+    "SLUDGE_BOMB"
+  ],
+  "released": false
+}

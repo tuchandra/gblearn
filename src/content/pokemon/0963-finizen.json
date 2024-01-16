@@ -1,0 +1,24 @@
+{
+  "dex": 963,
+  "speciesName": "Finizen",
+  "speciesId": "finizen",
+  "baseStats": {
+    "atk": 90,
+    "def": 80,
+    "hp": 172
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATERFALL",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "WATER_PULSE",
+    "ICY_WIND"
+  ],
+  "released": false
+}

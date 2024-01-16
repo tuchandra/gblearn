@@ -1,0 +1,25 @@
+{
+  "dex": 918,
+  "speciesName": "Spidops",
+  "speciesId": "spidops",
+  "baseStats": {
+    "atk": 139,
+    "def": 166,
+    "hp": 155
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "COUNTER"
+  ],
+  "chargedMoves": [
+    "X_SCISSOR",
+    "GRASS_KNOT",
+    "LUNGE",
+    "ROCK_TOMB"
+  ],
+  "released": false
+}

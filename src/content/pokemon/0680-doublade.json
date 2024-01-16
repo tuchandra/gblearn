@@ -1,0 +1,23 @@
+{
+  "dex": 680,
+  "speciesName": "Doublade",
+  "speciesId": "doublade",
+  "baseStats": {
+    "atk": 188,
+    "def": 206,
+    "hp": 153
+  },
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "fastMoves": [
+    "PSYCHO_CUT",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "IRON_HEAD",
+    "GYRO_BALL"
+  ],
+  "released": false
+}

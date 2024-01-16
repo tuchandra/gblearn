@@ -1,0 +1,23 @@
+{
+  "dex": 967,
+  "speciesName": "Cyclizar",
+  "speciesId": "cyclizar",
+  "baseStats": {
+    "atk": 205,
+    "def": 142,
+    "hp": 172
+  },
+  "types": [
+    "dragon",
+    "normal"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "DRAGON_CLAW",
+    "BODY_SLAM"
+  ],
+  "released": false
+}

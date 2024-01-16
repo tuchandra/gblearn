@@ -1,0 +1,24 @@
+{
+  "dex": 812,
+  "speciesName": "Rillaboom",
+  "speciesId": "rillaboom",
+  "baseStats": {
+    "atk": 239,
+    "def": 168,
+    "hp": 225
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "GRASS_KNOT",
+    "EARTH_POWER"
+  ],
+  "released": false
+}

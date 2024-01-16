@@ -1,0 +1,21 @@
+{
+  "dex": 1008,
+  "speciesName": "Miraidon",
+  "speciesId": "miraidon",
+  "baseStats": {
+    "atk": 263,
+    "def": 223,
+    "hp": 205
+  },
+  "types": [
+    "electric",
+    "dragon"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

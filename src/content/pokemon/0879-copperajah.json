@@ -1,0 +1,25 @@
+{
+  "dex": 879,
+  "speciesName": "Copperajah",
+  "speciesId": "copperajah",
+  "baseStats": {
+    "atk": 226,
+    "def": 126,
+    "hp": 263
+  },
+  "types": [
+    "steel",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "IRON_HEAD",
+    "DIG",
+    "PLAY_ROUGH",
+    "HEAVY_SLAM"
+  ],
+  "released": false
+}

@@ -1,0 +1,21 @@
+{
+  "dex": 801,
+  "speciesName": "Magearna",
+  "speciesId": "magearna",
+  "baseStats": {
+    "atk": 246,
+    "def": 225,
+    "hp": 190
+  },
+  "types": [
+    "steel",
+    "fairy"
+  ],
+  "fastMoves": [
+    "STRUGGLE"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

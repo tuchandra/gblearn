@@ -1,0 +1,24 @@
+{
+  "dex": 843,
+  "speciesName": "Silicobra",
+  "speciesId": "silicobra",
+  "baseStats": {
+    "atk": 103,
+    "def": 123,
+    "hp": 141
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "BULLDOZE",
+    "EARTH_POWER"
+  ],
+  "released": false
+}

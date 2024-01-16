@@ -1,0 +1,22 @@
+{
+  "dex": 885,
+  "speciesName": "Dreepy",
+  "speciesId": "dreepy",
+  "baseStats": {
+    "atk": 117,
+    "def": 61,
+    "hp": 99
+  },
+  "types": [
+    "dragon",
+    "ghost"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "QUICK_ATTACK"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

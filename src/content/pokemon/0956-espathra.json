@@ -1,0 +1,24 @@
+{
+  "dex": 956,
+  "speciesName": "Espathra",
+  "speciesId": "espathra",
+  "baseStats": {
+    "atk": 204,
+    "def": 127,
+    "hp": 216
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "PECK",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "PSYSHOCK",
+    "PSYCHIC"
+  ],
+  "released": false
+}

@@ -1,0 +1,27 @@
+{
+  "dex": 888,
+  "speciesName": "Zacian",
+  "speciesId": "zacian",
+  "baseStats": {
+    "atk": 254,
+    "def": 236,
+    "hp": 192
+  },
+  "types": [
+    "fairy",
+    "steel"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "SNARL",
+    "QUICK_ATTACK",
+    "FIRE_FANG"
+  ],
+  "chargedMoves": [
+    "PLAY_ROUGH",
+    "IRON_HEAD",
+    "WILD_CHARGE",
+    "CLOSE_COMBAT"
+  ],
+  "released": false
+}

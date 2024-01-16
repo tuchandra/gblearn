@@ -1,0 +1,26 @@
+{
+  "dex": 849,
+  "speciesName": "Toxtricity (Low Key)",
+  "speciesId": "toxtricity_low_key",
+  "baseStats": {
+    "atk": 224,
+    "def": 140,
+    "hp": 181
+  },
+  "types": [
+    "electric",
+    "poison"
+  ],
+  "fastMoves": [
+    "ACID",
+    "SPARK",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "ACID_SPRAY",
+    "DISCHARGE",
+    "WILD_CHARGE",
+    "POWER_UP_PUNCH"
+  ],
+  "released": false
+}

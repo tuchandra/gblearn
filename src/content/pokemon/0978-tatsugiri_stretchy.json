@@ -1,0 +1,25 @@
+{
+  "dex": 978,
+  "speciesName": "Tatsugiri_stretchy",
+  "speciesId": "tatsugiri_stretchy",
+  "baseStats": {
+    "atk": 226,
+    "def": 166,
+    "hp": 169
+  },
+  "types": [
+    "dragon",
+    "water"
+  ],
+  "fastMoves": [
+    "TAKE_DOWN",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "OUTRAGE",
+    "SURF",
+    "HYDRO_PUMP",
+    "MUDDY_WATER"
+  ],
+  "released": false
+}

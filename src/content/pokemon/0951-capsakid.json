@@ -1,0 +1,24 @@
+{
+  "dex": 951,
+  "speciesName": "Capsakid",
+  "speciesId": "capsakid",
+  "baseStats": {
+    "atk": 118,
+    "def": 76,
+    "hp": 137
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "LEAFAGE",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "LEAF_STORM",
+    "GRASS_KNOT",
+    "SEED_BOMB"
+  ],
+  "released": false
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 800,
+  "speciesName": "Necrozma (Ultra)",
+  "speciesId": "necrozma_ultra",
+  "baseStats": {
+    "atk": 337,
+    "def": 196,
+    "hp": 200
+  },
+  "types": [
+    "psychic",
+    "dragon"
+  ],
+  "fastMoves": [
+    "STRUGGLE"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false,
+  "tags": [
+    "ultrabeast"
+  ]
+}

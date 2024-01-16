@@ -1,0 +1,28 @@
+{
+  "dex": 646,
+  "speciesName": "Kyurem (Black)",
+  "speciesId": "kyurem_black",
+  "baseStats": {
+    "atk": 310,
+    "def": 183,
+    "hp": 245
+  },
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "IRON_HEAD",
+    "BLIZZARD",
+    "STONE_EDGE",
+    "OUTRAGE"
+  ],
+  "released": false,
+  "tags": [
+    "legendary"
+  ]
+}

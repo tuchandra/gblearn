@@ -1,0 +1,23 @@
+{
+  "dex": 817,
+  "speciesName": "Drizzile",
+  "speciesId": "drizzile",
+  "baseStats": {
+    "atk": 186,
+    "def": 113,
+    "hp": 163
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "WATER_PULSE",
+    "SURF"
+  ],
+  "released": false
+}

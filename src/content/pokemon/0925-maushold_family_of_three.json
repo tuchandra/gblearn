@@ -1,0 +1,25 @@
+{
+  "dex": 925,
+  "speciesName": "Maushold_family_of_three",
+  "speciesId": "maushold_family_of_three",
+  "baseStats": {
+    "atk": 159,
+    "def": 157,
+    "hp": 179
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TAKE_DOWN",
+    "MUD_SHOT",
+    "BULLET_SEED"
+  ],
+  "chargedMoves": [
+    "SWIFT",
+    "PLAY_ROUGH",
+    "CRUNCH"
+  ],
+  "released": false
+}

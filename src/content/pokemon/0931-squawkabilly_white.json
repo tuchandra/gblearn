@@ -1,0 +1,24 @@
+{
+  "dex": 931,
+  "speciesName": "Squawkabilly_white",
+  "speciesId": "squawkabilly_white",
+  "baseStats": {
+    "atk": 185,
+    "def": 105,
+    "hp": 193
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "fastMoves": [
+    "PECK",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BRAVE_BIRD",
+    "FLY"
+  ],
+  "released": false
+}

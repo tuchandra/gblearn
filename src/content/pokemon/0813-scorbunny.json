@@ -1,0 +1,23 @@
+{
+  "dex": 813,
+  "speciesName": "Scorbunny",
+  "speciesId": "scorbunny",
+  "baseStats": {
+    "atk": 132,
+    "def": 79,
+    "hp": 137
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "FLAMETHROWER"
+  ],
+  "released": false
+}

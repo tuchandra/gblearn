@@ -1,0 +1,25 @@
+{
+  "dex": 976,
+  "speciesName": "Veluza",
+  "speciesId": "veluza",
+  "baseStats": {
+    "atk": 196,
+    "def": 139,
+    "hp": 207
+  },
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "fastMoves": [
+    "ICE_FANG",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "WATER_PULSE",
+    "PSYCHIC_FANGS",
+    "DRILL_RUN",
+    "CRUNCH"
+  ],
+  "released": false
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 917,
+  "speciesName": "Tarountula",
+  "speciesId": "tarountula",
+  "baseStats": {
+    "atk": 70,
+    "def": 77,
+    "hp": 111
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "X_SCISSOR",
+    "GRASS_KNOT",
+    "LUNGE"
+  ],
+  "released": false
+}

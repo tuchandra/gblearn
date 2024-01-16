@@ -1,0 +1,24 @@
+{
+  "dex": 839,
+  "speciesName": "Coalossal",
+  "speciesId": "coalossal",
+  "baseStats": {
+    "atk": 146,
+    "def": 198,
+    "hp": 242
+  },
+  "types": [
+    "rock",
+    "fire"
+  ],
+  "fastMoves": [
+    "SMACK_DOWN",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "ROCK_BLAST",
+    "ROCK_SLIDE",
+    "FLAME_CHARGE"
+  ],
+  "released": false
+}

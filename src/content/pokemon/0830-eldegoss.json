@@ -1,0 +1,23 @@
+{
+  "dex": 830,
+  "speciesName": "Eldegoss",
+  "speciesId": "eldegoss",
+  "baseStats": {
+    "atk": 148,
+    "def": 211,
+    "hp": 155
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "BULLET_SEED"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "GRASS_KNOT"
+  ],
+  "released": false
+}

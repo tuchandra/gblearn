@@ -1,0 +1,24 @@
+{
+  "dex": 898,
+  "speciesName": "Calyrex",
+  "speciesId": "calyrex",
+  "baseStats": {
+    "atk": 162,
+    "def": 162,
+    "hp": 225
+  },
+  "types": [
+    "psychic",
+    "grass"
+  ],
+  "fastMoves": [
+    "POUND",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "PSYSHOCK",
+    "PSYCHIC",
+    "ENERGY_BALL"
+  ],
+  "released": false
+}

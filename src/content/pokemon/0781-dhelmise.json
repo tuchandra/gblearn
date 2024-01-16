@@ -1,0 +1,24 @@
+{
+  "dex": 781,
+  "speciesName": "Dhelmise",
+  "speciesId": "dhelmise",
+  "baseStats": {
+    "atk": 233,
+    "def": 179,
+    "hp": 172
+  },
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "POWER_WHIP",
+    "SHADOW_BALL",
+    "HEAVY_SLAM"
+  ],
+  "released": false
+}

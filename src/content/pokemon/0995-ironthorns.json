@@ -1,0 +1,21 @@
+{
+  "dex": 995,
+  "speciesName": "Ironthorns",
+  "speciesId": "ironthorns",
+  "baseStats": {
+    "atk": 250,
+    "def": 200,
+    "hp": 225
+  },
+  "types": [
+    "rock",
+    "electric"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

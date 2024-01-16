@@ -1,0 +1,25 @@
+{
+  "dex": 842,
+  "speciesName": "Appletun",
+  "speciesId": "appletun",
+  "baseStats": {
+    "atk": 178,
+    "def": 146,
+    "hp": 242
+  },
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "ENERGY_BALL",
+    "OUTRAGE",
+    "SEED_BOMB"
+  ],
+  "released": false
+}

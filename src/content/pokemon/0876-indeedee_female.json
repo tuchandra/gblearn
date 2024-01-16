@@ -1,0 +1,23 @@
+{
+  "dex": 876,
+  "speciesName": "Indeedee (Female)",
+  "speciesId": "indeedee_female",
+  "baseStats": {
+    "atk": 184,
+    "def": 184,
+    "hp": 172
+  },
+  "types": [
+    "psychic",
+    "normal"
+  ],
+  "fastMoves": [
+    "EXTRASENSORY"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "ENERGY_BALL"
+  ],
+  "released": false
+}

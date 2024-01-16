@@ -1,0 +1,25 @@
+{
+  "dex": 954,
+  "speciesName": "Rabsca",
+  "speciesId": "rabsca",
+  "baseStats": {
+    "atk": 201,
+    "def": 178,
+    "hp": 181
+  },
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "BUG_BUZZ",
+    "LUNGE",
+    "PSYBEAM"
+  ],
+  "released": false
+}

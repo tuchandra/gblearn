@@ -1,0 +1,21 @@
+{
+  "dex": 989,
+  "speciesName": "Sandyshocks",
+  "speciesId": "sandyshocks",
+  "baseStats": {
+    "atk": 244,
+    "def": 195,
+    "hp": 198
+  },
+  "types": [
+    "electric",
+    "ground"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

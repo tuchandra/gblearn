@@ -1,0 +1,26 @@
+{
+  "dex": 981,
+  "speciesName": "Farigiraf",
+  "speciesId": "farigiraf",
+  "baseStats": {
+    "atk": 209,
+    "def": 136,
+    "hp": 260
+  },
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "CONFUSION",
+    "DOUBLE_KICK"
+  ],
+  "chargedMoves": [
+    "PSYCHIC",
+    "THUNDERBOLT",
+    "MIRROR_COAT",
+    "PSYCHIC_FANGS"
+  ],
+  "released": false
+}

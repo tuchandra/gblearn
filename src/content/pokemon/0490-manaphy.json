@@ -1,0 +1,24 @@
+{
+  "dex": 490,
+  "speciesName": "Manaphy",
+  "speciesId": "manaphy",
+  "baseStats": {
+    "atk": 210,
+    "def": 210,
+    "hp": 225
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "BUBBLE_BEAM",
+    "PSYCHIC",
+    "SURF"
+  ],
+  "released": false
+}

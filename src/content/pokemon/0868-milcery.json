@@ -1,0 +1,22 @@
+{
+  "dex": 868,
+  "speciesName": "Milcery",
+  "speciesId": "milcery",
+  "baseStats": {
+    "atk": 90,
+    "def": 97,
+    "hp": 128
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM"
+  ],
+  "released": false
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 869,
+  "speciesName": "Alcremie",
+  "speciesId": "alcremie",
+  "baseStats": {
+    "atk": 203,
+    "def": 203,
+    "hp": 163
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "PSYSHOCK",
+    "ENERGY_BALL"
+  ],
+  "released": false
+}

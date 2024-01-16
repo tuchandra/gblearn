@@ -1,0 +1,25 @@
+{
+  "dex": 853,
+  "speciesName": "Grapploct",
+  "speciesId": "grapploct",
+  "baseStats": {
+    "atk": 209,
+    "def": 162,
+    "hp": 190
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "SUPER_POWER",
+    "ICE_PUNCH",
+    "SURF"
+  ],
+  "released": false
+}

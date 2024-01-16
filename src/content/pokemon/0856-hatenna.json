@@ -1,0 +1,24 @@
+{
+  "dex": 856,
+  "speciesName": "Hatenna",
+  "speciesId": "hatenna",
+  "baseStats": {
+    "atk": 98,
+    "def": 93,
+    "hp": 123
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "DAZZLING_GLEAM"
+  ],
+  "released": false
+}

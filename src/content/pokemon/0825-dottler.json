@@ -1,0 +1,23 @@
+{
+  "dex": 825,
+  "speciesName": "Dottler",
+  "speciesId": "dottler",
+  "baseStats": {
+    "atk": 87,
+    "def": 157,
+    "hp": 137
+  },
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "fastMoves": [
+    "STRUGGLE_BUG",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "PSYCHIC"
+  ],
+  "released": false
+}

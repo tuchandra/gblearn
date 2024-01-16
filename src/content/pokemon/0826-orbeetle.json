@@ -1,0 +1,23 @@
+{
+  "dex": 826,
+  "speciesName": "Orbeetle",
+  "speciesId": "orbeetle",
+  "baseStats": {
+    "atk": 156,
+    "def": 240,
+    "hp": 155
+  },
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "fastMoves": [
+    "STRUGGLE_BUG",
+    "CONFUSION"
+  ],
+  "chargedMoves": [
+    "BUG_BUZZ",
+    "PSYCHIC"
+  ],
+  "released": false
+}

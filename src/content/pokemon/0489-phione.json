@@ -1,0 +1,24 @@
+{
+  "dex": 489,
+  "speciesName": "Phione",
+  "speciesId": "phione",
+  "baseStats": {
+    "atk": 162,
+    "def": 162,
+    "hp": 190
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "BUBBLE",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "BUBBLE_BEAM",
+    "SURF",
+    "WATER_PULSE"
+  ],
+  "released": false
+}

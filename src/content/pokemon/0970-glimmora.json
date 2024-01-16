@@ -1,0 +1,24 @@
+{
+  "dex": 970,
+  "speciesName": "Glimmora",
+  "speciesId": "glimmora",
+  "baseStats": {
+    "atk": 246,
+    "def": 177,
+    "hp": 195
+  },
+  "types": [
+    "rock",
+    "poison"
+  ],
+  "fastMoves": [
+    "ROCK_THROW",
+    "SMACK_DOWN"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "ROCK_SLIDE",
+    "SLUDGE_WAVE"
+  ],
+  "released": false
+}

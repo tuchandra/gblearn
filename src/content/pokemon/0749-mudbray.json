@@ -1,0 +1,24 @@
+{
+  "dex": 749,
+  "speciesName": "Mudbray",
+  "speciesId": "mudbray",
+  "baseStats": {
+    "atk": 175,
+    "def": 121,
+    "hp": 172
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "BULLDOZE",
+    "BODY_SLAM",
+    "EARTHQUAKE"
+  ],
+  "released": false
+}

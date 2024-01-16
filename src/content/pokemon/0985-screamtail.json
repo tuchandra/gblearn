@@ -1,0 +1,21 @@
+{
+  "dex": 985,
+  "speciesName": "Screamtail",
+  "speciesId": "screamtail",
+  "baseStats": {
+    "atk": 139,
+    "def": 234,
+    "hp": 251
+  },
+  "types": [
+    "fairy",
+    "psychic"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

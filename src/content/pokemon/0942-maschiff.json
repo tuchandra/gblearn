@@ -1,0 +1,24 @@
+{
+  "dex": 942,
+  "speciesName": "Maschiff",
+  "speciesId": "maschiff",
+  "baseStats": {
+    "atk": 140,
+    "def": 108,
+    "hp": 155
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "SNARL",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "PAYBACK",
+    "DIG"
+  ],
+  "released": false
+}

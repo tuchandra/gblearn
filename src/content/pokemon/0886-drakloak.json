@@ -1,0 +1,24 @@
+{
+  "dex": 886,
+  "speciesName": "Drakloak",
+  "speciesId": "drakloak",
+  "baseStats": {
+    "atk": 163,
+    "def": 105,
+    "hp": 169
+  },
+  "types": [
+    "dragon",
+    "ghost"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "DRAGON_TAIL"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "SHADOW_BALL",
+    "OUTRAGE"
+  ],
+  "released": false
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 959,
+  "speciesName": "Tinkaton",
+  "speciesId": "tinkaton",
+  "baseStats": {
+    "atk": 155,
+    "def": 196,
+    "hp": 198
+  },
+  "types": [
+    "fairy",
+    "steel"
+  ],
+  "fastMoves": [
+    "FAIRY_WIND",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "PLAY_ROUGH",
+    "BRUTAL_SWING",
+    "FLASH_CANNON",
+    "HEAVY_SLAM"
+  ],
+  "released": false
+}

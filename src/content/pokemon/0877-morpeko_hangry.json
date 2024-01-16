@@ -1,0 +1,25 @@
+{
+  "dex": 877,
+  "speciesName": "Morpeko (Hangry)",
+  "speciesId": "morpeko_hangry",
+  "baseStats": {
+    "atk": 192,
+    "def": 121,
+    "hp": 151
+  },
+  "types": [
+    "electric",
+    "dark"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "PAYBACK",
+    "THUNDERBOLT",
+    "WILD_CHARGE"
+  ],
+  "released": false
+}

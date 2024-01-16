@@ -1,0 +1,21 @@
+{
+  "dex": 990,
+  "speciesName": "Irontreads",
+  "speciesId": "irontreads",
+  "baseStats": {
+    "atk": 227,
+    "def": 216,
+    "hp": 207
+  },
+  "types": [
+    "ground",
+    "steel"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

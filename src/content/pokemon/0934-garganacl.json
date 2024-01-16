@@ -1,0 +1,24 @@
+{
+  "dex": 934,
+  "speciesName": "Garganacl",
+  "speciesId": "garganacl",
+  "baseStats": {
+    "atk": 171,
+    "def": 212,
+    "hp": 225
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "SMACK_DOWN",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "ROCK_SLIDE",
+    "ROCK_TOMB",
+    "ANCIENT_POWER"
+  ],
+  "released": false
+}

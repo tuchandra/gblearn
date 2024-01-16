@@ -1,0 +1,26 @@
+{
+  "dex": 892,
+  "speciesName": "Urshifu (Single Strike)",
+  "speciesId": "urshifu_single_strike",
+  "baseStats": {
+    "atk": 254,
+    "def": 177,
+    "hp": 225
+  },
+  "types": [
+    "fighting",
+    "dark"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "COUNTER",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "DYNAMIC_PUNCH",
+    "CLOSE_COMBAT",
+    "PAYBACK"
+  ],
+  "released": false
+}

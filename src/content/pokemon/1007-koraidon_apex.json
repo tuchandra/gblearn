@@ -1,0 +1,21 @@
+{
+  "dex": 1007,
+  "speciesName": "Koraidon_apex",
+  "speciesId": "koraidon_apex",
+  "baseStats": {
+    "atk": 263,
+    "def": 223,
+    "hp": 205
+  },
+  "types": [
+    "fighting",
+    "dragon"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

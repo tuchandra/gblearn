@@ -1,0 +1,26 @@
+{
+  "dex": 773,
+  "speciesName": "Silvally (Fairy)",
+  "speciesId": "silvally_fairy",
+  "baseStats": {
+    "atk": 198,
+    "def": 198,
+    "hp": 216
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "TRI_ATTACK",
+    "IRON_HEAD",
+    "AERIAL_ACE",
+    "X_SCISSOR"
+  ],
+  "released": false
+}

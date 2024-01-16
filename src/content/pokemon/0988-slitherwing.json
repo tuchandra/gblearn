@@ -1,0 +1,21 @@
+{
+  "dex": 988,
+  "speciesName": "Slitherwing",
+  "speciesId": "slitherwing",
+  "baseStats": {
+    "atk": 261,
+    "def": 193,
+    "hp": 198
+  },
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

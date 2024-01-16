@@ -1,0 +1,24 @@
+{
+  "dex": 860,
+  "speciesName": "Morgrem",
+  "speciesId": "morgrem",
+  "baseStats": {
+    "atk": 145,
+    "def": 102,
+    "hp": 163
+  },
+  "types": [
+    "dark",
+    "fairy"
+  ],
+  "fastMoves": [
+    "BITE",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "FOUL_PLAY",
+    "DARK_PULSE",
+    "PLAY_ROUGH"
+  ],
+  "released": false
+}

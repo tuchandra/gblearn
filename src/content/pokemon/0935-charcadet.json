@@ -1,0 +1,24 @@
+{
+  "dex": 935,
+  "speciesName": "Charcadet",
+  "speciesId": "charcadet",
+  "baseStats": {
+    "atk": 92,
+    "def": 74,
+    "hp": 120
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "HEAT_WAVE",
+    "FLAMETHROWER"
+  ],
+  "released": false
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 897,
+  "speciesName": "Spectrier",
+  "speciesId": "spectrier",
+  "baseStats": {
+    "atk": 273,
+    "def": 146,
+    "hp": 205
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "FOUL_PLAY",
+    "BULLDOZE"
+  ],
+  "released": false
+}

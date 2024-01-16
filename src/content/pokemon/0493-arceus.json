@@ -1,0 +1,24 @@
+{
+  "dex": 493,
+  "speciesName": "Arceus",
+  "speciesId": "arceus",
+  "baseStats": {
+    "atk": 238,
+    "def": 238,
+    "hp": 237
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "IRON_TAIL",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "FUTURE_SIGHT",
+    "HYPER_BEAM",
+    "OUTRAGE"
+  ],
+  "released": false
+}

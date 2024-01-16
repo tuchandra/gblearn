@@ -1,0 +1,28 @@
+{
+  "dex": 646,
+  "speciesName": "Kyurem (White)",
+  "speciesId": "kyurem_white",
+  "baseStats": {
+    "atk": 310,
+    "def": 183,
+    "hp": 245
+  },
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "STEEL_WING"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "BLIZZARD",
+    "ANCIENT_POWER",
+    "FOCUS_BLAST"
+  ],
+  "released": false,
+  "tags": [
+    "legendary"
+  ]
+}

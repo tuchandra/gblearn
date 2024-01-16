@@ -1,0 +1,24 @@
+{
+  "dex": 941,
+  "speciesName": "Kilowattrel",
+  "speciesId": "kilowattrel",
+  "baseStats": {
+    "atk": 221,
+    "def": 132,
+    "hp": 172
+  },
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "ACROBATICS",
+    "AERIAL_ACE",
+    "THUNDERBOLT"
+  ],
+  "released": false
+}

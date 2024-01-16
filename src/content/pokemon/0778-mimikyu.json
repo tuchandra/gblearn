@@ -1,0 +1,24 @@
+{
+  "dex": 778,
+  "speciesName": "Mimikyu",
+  "speciesId": "mimikyu",
+  "baseStats": {
+    "atk": 177,
+    "def": 199,
+    "hp": 146
+  },
+  "types": [
+    "ghost",
+    "fairy"
+  ],
+  "fastMoves": [
+    "SHADOW_CLAW",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "SHADOW_SNEAK",
+    "PLAY_ROUGH",
+    "SHADOW_BALL"
+  ],
+  "released": false
+}

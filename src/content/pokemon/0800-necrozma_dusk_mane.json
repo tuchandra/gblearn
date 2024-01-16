@@ -1,0 +1,24 @@
+{
+  "dex": 800,
+  "speciesName": "Necrozma (Dusk Mane)",
+  "speciesId": "necrozma_dusk_mane",
+  "baseStats": {
+    "atk": 277,
+    "def": 220,
+    "hp": 200
+  },
+  "types": [
+    "psychic",
+    "steel"
+  ],
+  "fastMoves": [
+    "STRUGGLE"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false,
+  "tags": [
+    "ultrabeast"
+  ]
+}

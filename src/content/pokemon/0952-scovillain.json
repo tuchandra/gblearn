@@ -1,0 +1,25 @@
+{
+  "dex": 952,
+  "speciesName": "Scovillain",
+  "speciesId": "scovillain",
+  "baseStats": {
+    "atk": 216,
+    "def": 130,
+    "hp": 163
+  },
+  "types": [
+    "grass",
+    "fire"
+  ],
+  "fastMoves": [
+    "LEAFAGE",
+    "FIRE_FANG"
+  ],
+  "chargedMoves": [
+    "LEAF_STORM",
+    "GRASS_KNOT",
+    "OVERHEAT",
+    "FLAMETHROWER"
+  ],
+  "released": false
+}

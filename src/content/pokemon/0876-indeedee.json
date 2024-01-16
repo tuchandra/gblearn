@@ -1,0 +1,23 @@
+{
+  "dex": 876,
+  "speciesName": "Indeedee",
+  "speciesId": "indeedee",
+  "baseStats": {
+    "atk": 208,
+    "def": 166,
+    "hp": 155
+  },
+  "types": [
+    "psychic",
+    "normal"
+  ],
+  "fastMoves": [
+    "EXTRASENSORY"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "SHADOW_BALL"
+  ],
+  "released": false
+}

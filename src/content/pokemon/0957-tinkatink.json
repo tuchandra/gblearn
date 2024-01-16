@@ -1,0 +1,24 @@
+{
+  "dex": 957,
+  "speciesName": "Tinkatink",
+  "speciesId": "tinkatink",
+  "baseStats": {
+    "atk": 85,
+    "def": 110,
+    "hp": 137
+  },
+  "types": [
+    "fairy",
+    "steel"
+  ],
+  "fastMoves": [
+    "FAIRY_WIND",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "PLAY_ROUGH",
+    "BRUTAL_SWING",
+    "FLASH_CANNON"
+  ],
+  "released": false
+}

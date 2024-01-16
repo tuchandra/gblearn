@@ -1,0 +1,25 @@
+{
+  "dex": 746,
+  "speciesName": "Wishiwashi (School)",
+  "speciesId": "wishiwashi_school",
+  "baseStats": {
+    "atk": 255,
+    "def": 242,
+    "hp": 128
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "WATERFALL",
+    "IRON_TAIL"
+  ],
+  "chargedMoves": [
+    "BRINE",
+    "SURF",
+    "AQUA_TAIL"
+  ],
+  "released": false
+}

@@ -1,0 +1,29 @@
+{
+  "dex": 648,
+  "speciesName": "Meloetta (Pirouette)",
+  "speciesId": "meloetta_pirouette",
+  "baseStats": {
+    "atk": 269,
+    "def": 188,
+    "hp": 225
+  },
+  "types": [
+    "normal",
+    "fighting"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "LOW_KICK"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "FIRE_PUNCH",
+    "ICE_PUNCH",
+    "HYPER_BEAM"
+  ],
+  "released": false,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
+}

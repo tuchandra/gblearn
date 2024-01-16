@@ -1,0 +1,25 @@
+{
+  "dex": 936,
+  "speciesName": "Armarouge",
+  "speciesId": "armarouge",
+  "baseStats": {
+    "atk": 234,
+    "def": 185,
+    "hp": 198
+  },
+  "types": [
+    "fire",
+    "psychic"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "HEAT_WAVE",
+    "FLAMETHROWER",
+    "PSYSHOCK"
+  ],
+  "released": false
+}

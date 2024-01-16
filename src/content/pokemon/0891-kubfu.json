@@ -1,0 +1,24 @@
+{
+  "dex": 891,
+  "speciesName": "Kubfu",
+  "speciesId": "kubfu",
+  "baseStats": {
+    "atk": 170,
+    "def": 112,
+    "hp": 155
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "COUNTER"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "DYNAMIC_PUNCH",
+    "CLOSE_COMBAT"
+  ],
+  "released": false
+}

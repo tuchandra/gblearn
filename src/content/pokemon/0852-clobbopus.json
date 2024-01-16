@@ -1,0 +1,23 @@
+{
+  "dex": 852,
+  "speciesName": "Clobbopus",
+  "speciesId": "clobbopus",
+  "baseStats": {
+    "atk": 121,
+    "def": 103,
+    "hp": 137
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "SUPER_POWER",
+    "ICE_PUNCH"
+  ],
+  "released": false
+}

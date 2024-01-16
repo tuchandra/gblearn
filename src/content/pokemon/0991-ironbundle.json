@@ -1,0 +1,21 @@
+{
+  "dex": 991,
+  "speciesName": "Ironbundle",
+  "speciesId": "ironbundle",
+  "baseStats": {
+    "atk": 266,
+    "def": 211,
+    "hp": 148
+  },
+  "types": [
+    "ice",
+    "water"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

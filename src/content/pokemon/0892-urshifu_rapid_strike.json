@@ -1,0 +1,26 @@
+{
+  "dex": 892,
+  "speciesName": "Urshifu (Rapid Strike)",
+  "speciesId": "urshifu_rapid_strike",
+  "baseStats": {
+    "atk": 254,
+    "def": 177,
+    "hp": 225
+  },
+  "types": [
+    "fighting",
+    "water"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "COUNTER",
+    "WATERFALL"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "DYNAMIC_PUNCH",
+    "CLOSE_COMBAT",
+    "AQUA_JET"
+  ],
+  "released": false
+}

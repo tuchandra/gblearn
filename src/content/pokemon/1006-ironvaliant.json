@@ -1,0 +1,21 @@
+{
+  "dex": 1006,
+  "speciesName": "Ironvaliant",
+  "speciesId": "ironvaliant",
+  "baseStats": {
+    "atk": 279,
+    "def": 171,
+    "hp": 179
+  },
+  "types": [
+    "fairy",
+    "fighting"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

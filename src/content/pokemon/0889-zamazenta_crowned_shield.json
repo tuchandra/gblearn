@@ -1,0 +1,27 @@
+{
+  "dex": 889,
+  "speciesName": "Zamazenta (Crowned Shield)",
+  "speciesId": "zamazenta_crowned_shield",
+  "baseStats": {
+    "atk": 250,
+    "def": 292,
+    "hp": 192
+  },
+  "types": [
+    "fighting",
+    "steel"
+  ],
+  "fastMoves": [
+    "METAL_CLAW",
+    "SNARL",
+    "QUICK_ATTACK",
+    "ICE_FANG"
+  ],
+  "chargedMoves": [
+    "MOONBLAST",
+    "IRON_HEAD",
+    "CRUNCH",
+    "CLOSE_COMBAT"
+  ],
+  "released": false
+}

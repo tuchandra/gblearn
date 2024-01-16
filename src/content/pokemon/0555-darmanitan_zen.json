@@ -1,0 +1,26 @@
+{
+  "dex": 555,
+  "speciesName": "Darmanitan (Zen)",
+  "speciesId": "darmanitan_zen",
+  "baseStats": {
+    "atk": 243,
+    "def": 202,
+    "hp": 233
+  },
+  "types": [
+    "fire",
+    "psychic"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "FIRE_FANG",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "OVERHEAT",
+    "FOCUS_BLAST",
+    "PSYCHIC",
+    "ROCK_SLIDE"
+  ],
+  "released": false
+}

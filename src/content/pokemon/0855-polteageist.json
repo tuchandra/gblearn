@@ -1,0 +1,25 @@
+{
+  "dex": 855,
+  "speciesName": "Polteageist",
+  "speciesId": "polteageist",
+  "baseStats": {
+    "atk": 248,
+    "def": 189,
+    "hp": 155
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "SUCKER_PUNCH",
+    "HEX"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "DARK_PULSE",
+    "PSYCHIC"
+  ],
+  "released": false
+}

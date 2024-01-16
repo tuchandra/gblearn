@@ -1,0 +1,24 @@
+{
+  "dex": 890,
+  "speciesName": "Eternatus",
+  "speciesId": "eternatus",
+  "baseStats": {
+    "atk": 278,
+    "def": 192,
+    "hp": 268
+  },
+  "types": [
+    "poison",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "CROSS_POISON",
+    "DRAGON_PULSE",
+    "FLAMETHROWER"
+  ],
+  "released": false
+}

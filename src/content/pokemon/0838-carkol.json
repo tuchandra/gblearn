@@ -1,0 +1,24 @@
+{
+  "dex": 838,
+  "speciesName": "Carkol",
+  "speciesId": "carkol",
+  "baseStats": {
+    "atk": 114,
+    "def": 157,
+    "hp": 190
+  },
+  "types": [
+    "rock",
+    "fire"
+  ],
+  "fastMoves": [
+    "SMACK_DOWN",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "ROCK_BLAST",
+    "ROCK_SLIDE",
+    "FLAME_CHARGE"
+  ],
+  "released": false
+}

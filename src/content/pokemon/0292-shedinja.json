@@ -1,0 +1,25 @@
+{
+  "dex": 292,
+  "speciesName": "Shedinja",
+  "speciesId": "shedinja",
+  "baseStats": {
+    "atk": 153,
+    "def": 73,
+    "hp": 1
+  },
+  "types": [
+    "bug",
+    "ghost"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "SHADOW_CLAW",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "DIG",
+    "SHADOW_SNEAK"
+  ],
+  "released": false
+}

@@ -1,0 +1,21 @@
+{
+  "dex": 824,
+  "speciesName": "Blipbug",
+  "speciesId": "blipbug",
+  "baseStats": {
+    "atk": 46,
+    "def": 67,
+    "hp": 93
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

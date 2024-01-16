@@ -1,0 +1,24 @@
+{
+  "dex": 932,
+  "speciesName": "Nacli",
+  "speciesId": "nacli",
+  "baseStats": {
+    "atk": 95,
+    "def": 108,
+    "hp": 146
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_THROW",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "ROCK_BLAST",
+    "ROCK_TOMB",
+    "ANCIENT_POWER"
+  ],
+  "released": false
+}

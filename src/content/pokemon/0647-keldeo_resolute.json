@@ -1,0 +1,30 @@
+{
+  "dex": 647,
+  "speciesName": "Keldeo (Resolute)",
+  "speciesId": "keldeo_resolute",
+  "baseStats": {
+    "atk": 260,
+    "def": 192,
+    "hp": 209
+  },
+  "types": [
+    "water",
+    "fighting"
+  ],
+  "fastMoves": [
+    "POISON_JAB",
+    "LOW_KICK"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "CLOSE_COMBAT",
+    "HYDRO_PUMP",
+    "X_SCISSOR",
+    "SACRED_SWORD"
+  ],
+  "released": false,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
+}

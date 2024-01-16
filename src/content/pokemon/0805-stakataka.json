@@ -1,0 +1,24 @@
+{
+  "dex": 805,
+  "speciesName": "Stakataka",
+  "speciesId": "stakataka",
+  "baseStats": {
+    "atk": 213,
+    "def": 298,
+    "hp": 156
+  },
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "fastMoves": [
+    "STRUGGLE"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false,
+  "tags": [
+    "ultrabeast"
+  ]
+}

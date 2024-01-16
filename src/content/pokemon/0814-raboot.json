@@ -1,0 +1,23 @@
+{
+  "dex": 814,
+  "speciesName": "Raboot",
+  "speciesId": "raboot",
+  "baseStats": {
+    "atk": 170,
+    "def": 125,
+    "hp": 163
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "FLAMETHROWER"
+  ],
+  "released": false
+}

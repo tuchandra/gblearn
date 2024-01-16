@@ -1,0 +1,24 @@
+{
+  "dex": 479,
+  "speciesName": "Rotom (Fan)",
+  "speciesId": "rotom_fan",
+  "baseStats": {
+    "atk": 204,
+    "def": 219,
+    "hp": 137
+  },
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "OMINOUS_WIND",
+    "THUNDER",
+    "THUNDERBOLT"
+  ],
+  "released": false
+}

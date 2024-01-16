@@ -1,0 +1,24 @@
+{
+  "dex": 818,
+  "speciesName": "Inteleon",
+  "speciesId": "inteleon",
+  "baseStats": {
+    "atk": 262,
+    "def": 142,
+    "hp": 172
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "WATER_PULSE",
+    "SURF",
+    "SHADOW_BALL"
+  ],
+  "released": false
+}

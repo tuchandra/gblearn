@@ -1,0 +1,23 @@
+{
+  "dex": 874,
+  "speciesName": "Stonjourner",
+  "speciesId": "stonjourner",
+  "baseStats": {
+    "atk": 222,
+    "def": 182,
+    "hp": 225
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_THROW"
+  ],
+  "chargedMoves": [
+    "STONE_EDGE",
+    "ROCK_SLIDE",
+    "STOMP"
+  ],
+  "released": false
+}

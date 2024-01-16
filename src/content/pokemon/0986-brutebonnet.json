@@ -1,0 +1,21 @@
+{
+  "dex": 986,
+  "speciesName": "Brutebonnet",
+  "speciesId": "brutebonnet",
+  "baseStats": {
+    "atk": 232,
+    "def": 190,
+    "hp": 244
+  },
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

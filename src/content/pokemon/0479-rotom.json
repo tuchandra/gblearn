@@ -1,0 +1,24 @@
+{
+  "dex": 479,
+  "speciesName": "Rotom",
+  "speciesId": "rotom",
+  "baseStats": {
+    "atk": 185,
+    "def": 159,
+    "hp": 137
+  },
+  "types": [
+    "electric",
+    "ghost"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "OMINOUS_WIND",
+    "THUNDER",
+    "THUNDERBOLT"
+  ],
+  "released": false
+}

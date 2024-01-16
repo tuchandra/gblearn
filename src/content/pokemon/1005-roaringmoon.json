@@ -1,0 +1,21 @@
+{
+  "dex": 1005,
+  "speciesName": "Roaringmoon",
+  "speciesId": "roaringmoon",
+  "baseStats": {
+    "atk": 280,
+    "def": 196,
+    "hp": 233
+  },
+  "types": [
+    "dragon",
+    "dark"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

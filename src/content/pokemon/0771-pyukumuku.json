@@ -1,0 +1,21 @@
+{
+  "dex": 771,
+  "speciesName": "Pyukumuku",
+  "speciesId": "pyukumuku",
+  "baseStats": {
+    "atk": 97,
+    "def": 224,
+    "hp": 146
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "COUNTER"
+  ],
+  "chargedMoves": [
+    "MIRROR_COAT"
+  ],
+  "released": false
+}

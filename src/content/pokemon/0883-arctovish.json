@@ -1,0 +1,24 @@
+{
+  "dex": 883,
+  "speciesName": "Arctovish",
+  "speciesId": "arctovish",
+  "baseStats": {
+    "atk": 171,
+    "def": 185,
+    "hp": 207
+  },
+  "types": [
+    "water",
+    "ice"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "BRINE",
+    "AVALANCHE",
+    "ANCIENT_POWER"
+  ],
+  "released": false
+}

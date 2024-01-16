@@ -1,0 +1,25 @@
+{
+  "dex": 841,
+  "speciesName": "Flapple",
+  "speciesId": "flapple",
+  "baseStats": {
+    "atk": 214,
+    "def": 144,
+    "hp": 172
+  },
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "fastMoves": [
+    "BULLET_SEED",
+    "DRAGON_BREATH"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "FLY",
+    "OUTRAGE",
+    "SEED_BOMB"
+  ],
+  "released": false
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 834,
+  "speciesName": "Drednaw",
+  "speciesId": "drednaw",
+  "baseStats": {
+    "atk": 213,
+    "def": 164,
+    "hp": 207
+  },
+  "types": [
+    "water",
+    "rock"
+  ],
+  "fastMoves": [
+    "WATERFALL",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "SURF",
+    "ROCK_BLAST"
+  ],
+  "released": false
+}

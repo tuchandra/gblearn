@@ -1,0 +1,24 @@
+{
+  "dex": 887,
+  "speciesName": "Dragapult",
+  "speciesId": "dragapult",
+  "baseStats": {
+    "atk": 266,
+    "def": 170,
+    "hp": 204
+  },
+  "types": [
+    "dragon",
+    "ghost"
+  ],
+  "fastMoves": [
+    "HEX",
+    "DRAGON_TAIL"
+  ],
+  "chargedMoves": [
+    "DRAGON_PULSE",
+    "SHADOW_BALL",
+    "OUTRAGE"
+  ],
+  "released": false
+}

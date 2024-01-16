@@ -1,0 +1,23 @@
+{
+  "dex": 816,
+  "speciesName": "Sobble",
+  "speciesId": "sobble",
+  "baseStats": {
+    "atk": 132,
+    "def": 79,
+    "hp": 137
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "POUND",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "WATER_PULSE",
+    "SURF"
+  ],
+  "released": false
+}

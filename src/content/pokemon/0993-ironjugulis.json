@@ -1,0 +1,21 @@
+{
+  "dex": 993,
+  "speciesName": "Ironjugulis",
+  "speciesId": "ironjugulis",
+  "baseStats": {
+    "atk": 249,
+    "def": 179,
+    "hp": 214
+  },
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

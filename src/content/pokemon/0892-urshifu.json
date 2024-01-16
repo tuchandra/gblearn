@@ -1,0 +1,24 @@
+{
+  "dex": 892,
+  "speciesName": "Urshifu",
+  "speciesId": "urshifu",
+  "baseStats": {
+    "atk": 254,
+    "def": 177,
+    "hp": 225
+  },
+  "types": [
+    "fighting",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_SMASH",
+    "COUNTER"
+  ],
+  "chargedMoves": [
+    "BRICK_BREAK",
+    "DYNAMIC_PUNCH",
+    "CLOSE_COMBAT"
+  ],
+  "released": false
+}

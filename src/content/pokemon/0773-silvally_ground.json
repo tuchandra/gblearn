@@ -1,0 +1,26 @@
+{
+  "dex": 773,
+  "speciesName": "Silvally (Ground)",
+  "speciesId": "silvally_ground",
+  "baseStats": {
+    "atk": 198,
+    "def": 198,
+    "hp": 216
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "TRI_ATTACK",
+    "IRON_HEAD",
+    "AERIAL_ACE",
+    "X_SCISSOR"
+  ],
+  "released": false
+}

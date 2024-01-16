@@ -1,0 +1,24 @@
+{
+  "dex": 479,
+  "speciesName": "Rotom (Heat)",
+  "speciesId": "rotom_heat",
+  "baseStats": {
+    "atk": 204,
+    "def": 219,
+    "hp": 137
+  },
+  "types": [
+    "electric",
+    "fire"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "OVERHEAT",
+    "THUNDER",
+    "THUNDERBOLT"
+  ],
+  "released": false
+}

@@ -1,0 +1,21 @@
+{
+  "dex": 984,
+  "speciesName": "Greattusk",
+  "speciesId": "greattusk",
+  "baseStats": {
+    "atk": 249,
+    "def": 209,
+    "hp": 251
+  },
+  "types": [
+    "ground",
+    "fighting"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

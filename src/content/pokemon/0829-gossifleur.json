@@ -1,0 +1,23 @@
+{
+  "dex": 829,
+  "speciesName": "Gossifleur",
+  "speciesId": "gossifleur",
+  "baseStats": {
+    "atk": 70,
+    "def": 104,
+    "hp": 120
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "RAZOR_LEAF",
+    "BULLET_SEED"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "GRASS_KNOT"
+  ],
+  "released": false
+}

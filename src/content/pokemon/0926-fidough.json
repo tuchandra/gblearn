@@ -1,0 +1,24 @@
+{
+  "dex": 926,
+  "speciesName": "Fidough",
+  "speciesId": "fidough",
+  "baseStats": {
+    "atk": 102,
+    "def": 126,
+    "hp": 114
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARM",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "PLAY_ROUGH",
+    "PSYCHIC_FANGS"
+  ],
+  "released": false
+}

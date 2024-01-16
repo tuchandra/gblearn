@@ -1,0 +1,23 @@
+{
+  "dex": 811,
+  "speciesName": "Thwackey",
+  "speciesId": "thwackey",
+  "baseStats": {
+    "atk": 165,
+    "def": 134,
+    "hp": 172
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "GRASS_KNOT"
+  ],
+  "released": false
+}

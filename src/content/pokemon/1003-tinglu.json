@@ -1,0 +1,21 @@
+{
+  "dex": 1003,
+  "speciesName": "Tinglu",
+  "speciesId": "tinglu",
+  "baseStats": {
+    "atk": 194,
+    "def": 203,
+    "hp": 321
+  },
+  "types": [
+    "dark",
+    "ground"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

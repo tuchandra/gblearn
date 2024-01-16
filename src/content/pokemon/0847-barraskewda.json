@@ -1,0 +1,25 @@
+{
+  "dex": 847,
+  "speciesName": "Barraskewda",
+  "speciesId": "barraskewda",
+  "baseStats": {
+    "atk": 258,
+    "def": 127,
+    "hp": 156
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATERFALL",
+    "BITE",
+    "PECK"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "AQUA_JET",
+    "CLOSE_COMBAT"
+  ],
+  "released": false
+}

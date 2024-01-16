@@ -1,0 +1,23 @@
+{
+  "dex": 837,
+  "speciesName": "Rolycoly",
+  "speciesId": "rolycoly",
+  "baseStats": {
+    "atk": 73,
+    "def": 91,
+    "hp": 102
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "SMACK_DOWN",
+    "TACKLE"
+  ],
+  "chargedMoves": [
+    "ROCK_BLAST",
+    "ROCK_SLIDE"
+  ],
+  "released": false
+}

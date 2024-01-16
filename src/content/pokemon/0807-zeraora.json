@@ -1,0 +1,21 @@
+{
+  "dex": 807,
+  "speciesName": "Zeraora",
+  "speciesId": "zeraora",
+  "baseStats": {
+    "atk": 252,
+    "def": 177,
+    "hp": 204
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "STRUGGLE"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

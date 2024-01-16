@@ -1,0 +1,27 @@
+{
+  "dex": 720,
+  "speciesName": "Hoopa (Confined)",
+  "speciesId": "hoopa_confined",
+  "baseStats": {
+    "atk": 261,
+    "def": 187,
+    "hp": 173
+  },
+  "types": [
+    "psychic",
+    "ghost"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "PSYBEAM",
+    "PSYCHIC"
+  ],
+  "released": false,
+  "tags": [
+    "mythical"
+  ]
+}

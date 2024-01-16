@@ -1,0 +1,24 @@
+{
+  "dex": 493,
+  "speciesName": "Arceus (Water)",
+  "speciesId": "arceus_water",
+  "baseStats": {
+    "atk": 238,
+    "def": 238,
+    "hp": 237
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "IRON_TAIL",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "FUTURE_SIGHT",
+    "HYPER_BEAM",
+    "OUTRAGE"
+  ],
+  "released": false
+}

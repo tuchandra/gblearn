@@ -1,0 +1,23 @@
+{
+  "dex": 872,
+  "speciesName": "Snom",
+  "speciesId": "snom",
+  "baseStats": {
+    "atk": 76,
+    "def": 59,
+    "hp": 102
+  },
+  "types": [
+    "ice",
+    "bug"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "ICY_WIND",
+    "BUG_BUZZ"
+  ],
+  "released": false
+}

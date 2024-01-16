@@ -1,0 +1,25 @@
+{
+  "dex": 924,
+  "speciesName": "Tandemaus",
+  "speciesId": "tandemaus",
+  "baseStats": {
+    "atk": 98,
+    "def": 90,
+    "hp": 137
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TAKE_DOWN",
+    "MUD_SHOT",
+    "BULLET_SEED"
+  ],
+  "chargedMoves": [
+    "SWIFT",
+    "PLAY_ROUGH",
+    "CRUNCH"
+  ],
+  "released": false
+}

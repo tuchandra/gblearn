@@ -1,0 +1,24 @@
+{
+  "dex": 844,
+  "speciesName": "Sandaconda",
+  "speciesId": "sandaconda",
+  "baseStats": {
+    "atk": 202,
+    "def": 207,
+    "hp": 176
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "BULLDOZE",
+    "EARTH_POWER"
+  ],
+  "released": false
+}

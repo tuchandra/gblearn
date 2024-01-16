@@ -1,0 +1,24 @@
+{
+  "dex": 943,
+  "speciesName": "Mabosstiff",
+  "speciesId": "mabosstiff",
+  "baseStats": {
+    "atk": 230,
+    "def": 168,
+    "hp": 190
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "SNARL",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "PAYBACK",
+    "DIG"
+  ],
+  "released": false
+}

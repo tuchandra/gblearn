@@ -1,0 +1,24 @@
+{
+  "dex": 950,
+  "speciesName": "Klawf",
+  "speciesId": "klawf",
+  "baseStats": {
+    "atk": 184,
+    "def": 185,
+    "hp": 172
+  },
+  "types": [
+    "rock",
+    "none"
+  ],
+  "fastMoves": [
+    "ROCK_THROW",
+    "MUD_SLAP"
+  ],
+  "chargedMoves": [
+    "ROCK_SLIDE",
+    "ROCK_TOMB",
+    "BULLDOZE"
+  ],
+  "released": false
+}

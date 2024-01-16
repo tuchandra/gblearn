@@ -1,0 +1,27 @@
+{
+  "dex": 964,
+  "speciesName": "Palafin_hero",
+  "speciesId": "palafin_hero",
+  "baseStats": {
+    "atk": 322,
+    "def": 196,
+    "hp": 225
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATERFALL",
+    "CHARM",
+    "COUNTER"
+  ],
+  "chargedMoves": [
+    "AQUA_JET",
+    "WATER_PULSE",
+    "ICY_WIND",
+    "DRAIN_PUNCH",
+    "ACROBATICS"
+  ],
+  "released": false
+}

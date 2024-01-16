@@ -1,0 +1,24 @@
+{
+  "dex": 881,
+  "speciesName": "Arctozolt",
+  "speciesId": "arctozolt",
+  "baseStats": {
+    "atk": 190,
+    "def": 166,
+    "hp": 207
+  },
+  "types": [
+    "electric",
+    "ice"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "AVALANCHE",
+    "ANCIENT_POWER"
+  ],
+  "released": false
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 966,
+  "speciesName": "Revavroom",
+  "speciesId": "revavroom",
+  "baseStats": {
+    "atk": 229,
+    "def": 168,
+    "hp": 190
+  },
+  "types": [
+    "steel",
+    "poison"
+  ],
+  "fastMoves": [
+    "LICK",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "ACID_SPRAY",
+    "GUNK_SHOT",
+    "GYRO_BALL",
+    "OVERHEAT"
+  ],
+  "released": false
+}

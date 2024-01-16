@@ -1,0 +1,25 @@
+{
+  "dex": 898,
+  "speciesName": "Calyrex (Ice Rider)",
+  "speciesId": "calyrex_ice_rider",
+  "baseStats": {
+    "atk": 268,
+    "def": 246,
+    "hp": 205
+  },
+  "types": [
+    "psychic",
+    "ice"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "PSYSHOCK",
+    "PSYCHIC",
+    "ENERGY_BALL",
+    "AVALANCHE"
+  ],
+  "released": false
+}

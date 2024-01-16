@@ -1,0 +1,25 @@
+{
+  "dex": 937,
+  "speciesName": "Ceruledge",
+  "speciesId": "ceruledge",
+  "baseStats": {
+    "atk": 239,
+    "def": 189,
+    "hp": 181
+  },
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "fastMoves": [
+    "EMBER",
+    "INCINERATE"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "HEAT_WAVE",
+    "FLAMETHROWER",
+    "SHADOW_BALL"
+  ],
+  "released": false
+}

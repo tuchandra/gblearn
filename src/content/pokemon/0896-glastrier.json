@@ -1,0 +1,24 @@
+{
+  "dex": 896,
+  "speciesName": "Glastrier",
+  "speciesId": "glastrier",
+  "baseStats": {
+    "atk": 246,
+    "def": 223,
+    "hp": 225
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "AVALANCHE",
+    "ICY_WIND",
+    "BULLDOZE"
+  ],
+  "released": false
+}

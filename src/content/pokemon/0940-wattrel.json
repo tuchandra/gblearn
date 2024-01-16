@@ -1,0 +1,24 @@
+{
+  "dex": 940,
+  "speciesName": "Wattrel",
+  "speciesId": "wattrel",
+  "baseStats": {
+    "atk": 105,
+    "def": 75,
+    "hp": 120
+  },
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "PECK"
+  ],
+  "chargedMoves": [
+    "ACROBATICS",
+    "AERIAL_ACE",
+    "THUNDERBOLT"
+  ],
+  "released": false
+}

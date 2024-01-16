@@ -1,0 +1,24 @@
+{
+  "dex": 958,
+  "speciesName": "Tinkatuff",
+  "speciesId": "tinkatuff",
+  "baseStats": {
+    "atk": 109,
+    "def": 145,
+    "hp": 163
+  },
+  "types": [
+    "fairy",
+    "steel"
+  ],
+  "fastMoves": [
+    "FAIRY_WIND",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "PLAY_ROUGH",
+    "BRUTAL_SWING",
+    "FLASH_CANNON"
+  ],
+  "released": false
+}

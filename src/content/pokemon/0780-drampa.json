@@ -1,0 +1,24 @@
+{
+  "dex": 780,
+  "speciesName": "Drampa",
+  "speciesId": "drampa",
+  "baseStats": {
+    "atk": 231,
+    "def": 164,
+    "hp": 186
+  },
+  "types": [
+    "normal",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "EXTRASENSORY"
+  ],
+  "chargedMoves": [
+    "OUTRAGE",
+    "DRAGON_PULSE",
+    "FLY"
+  ],
+  "released": false
+}

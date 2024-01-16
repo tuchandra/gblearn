@@ -1,0 +1,23 @@
+{
+  "dex": 875,
+  "speciesName": "Eiscue (Ice)",
+  "speciesId": "eiscue_ice",
+  "baseStats": {
+    "atk": 148,
+    "def": 195,
+    "hp": 181
+  },
+  "types": [
+    "ice",
+    "none"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW"
+  ],
+  "chargedMoves": [
+    "ICY_WIND",
+    "WEATHER_BALL_ICE",
+    "SURF"
+  ],
+  "released": false
+}

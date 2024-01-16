@@ -1,0 +1,24 @@
+{
+  "dex": 884,
+  "speciesName": "Duraludon",
+  "speciesId": "duraludon",
+  "baseStats": {
+    "atk": 239,
+    "def": 185,
+    "hp": 172
+  },
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "METAL_CLAW"
+  ],
+  "chargedMoves": [
+    "FLASH_CANNON",
+    "DRAGON_CLAW",
+    "HYPER_BEAM"
+  ],
+  "released": false
+}

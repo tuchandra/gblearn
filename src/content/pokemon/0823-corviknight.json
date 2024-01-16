@@ -1,0 +1,24 @@
+{
+  "dex": 823,
+  "speciesName": "Corviknight",
+  "speciesId": "corviknight",
+  "baseStats": {
+    "atk": 163,
+    "def": 192,
+    "hp": 221
+  },
+  "types": [
+    "flying",
+    "steel"
+  ],
+  "fastMoves": [
+    "STEEL_WING",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "DRILL_PECK",
+    "BRAVE_BIRD",
+    "IRON_HEAD"
+  ],
+  "released": false
+}

@@ -1,0 +1,26 @@
+{
+  "dex": 721,
+  "speciesName": "Volcanion",
+  "speciesId": "volcanion",
+  "baseStats": {
+    "atk": 252,
+    "def": 216,
+    "hp": 190
+  },
+  "types": [
+    "fire",
+    "water"
+  ],
+  "fastMoves": [
+    "INCINERATE",
+    "WATER_GUN",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "HYDRO_PUMP",
+    "OVERHEAT",
+    "EARTH_POWER",
+    "SLUDGE_BOMB"
+  ],
+  "released": false
+}

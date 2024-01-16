@@ -1,0 +1,24 @@
+{
+  "dex": 854,
+  "speciesName": "Sinistea (Antique)",
+  "speciesId": "sinistea_antique",
+  "baseStats": {
+    "atk": 134,
+    "def": 96,
+    "hp": 120
+  },
+  "types": [
+    "ghost",
+    "none"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "SUCKER_PUNCH"
+  ],
+  "chargedMoves": [
+    "SHADOW_BALL",
+    "DARK_PULSE",
+    "PSYCHIC"
+  ],
+  "released": false
+}

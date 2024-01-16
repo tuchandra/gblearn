@@ -1,0 +1,24 @@
+{
+  "dex": 973,
+  "speciesName": "Flamigo",
+  "speciesId": "flamigo",
+  "baseStats": {
+    "atk": 227,
+    "def": 145,
+    "hp": 193
+  },
+  "types": [
+    "flying",
+    "fighting"
+  ],
+  "fastMoves": [
+    "WING_ATTACK",
+    "DOUBLE_KICK"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "BRAVE_BIRD",
+    "CLOSE_COMBAT"
+  ],
+  "released": false
+}

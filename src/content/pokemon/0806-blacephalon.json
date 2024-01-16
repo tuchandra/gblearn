@@ -1,0 +1,24 @@
+{
+  "dex": 806,
+  "speciesName": "Blacephalon",
+  "speciesId": "blacephalon",
+  "baseStats": {
+    "atk": 315,
+    "def": 148,
+    "hp": 142
+  },
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "fastMoves": [
+    "STRUGGLE"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false,
+  "tags": [
+    "ultrabeast"
+  ]
+}

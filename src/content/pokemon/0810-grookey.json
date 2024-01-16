@@ -1,0 +1,23 @@
+{
+  "dex": 810,
+  "speciesName": "Grookey",
+  "speciesId": "grookey",
+  "baseStats": {
+    "atk": 122,
+    "def": 91,
+    "hp": 137
+  },
+  "types": [
+    "grass",
+    "none"
+  ],
+  "fastMoves": [
+    "SCRATCH",
+    "RAZOR_LEAF"
+  ],
+  "chargedMoves": [
+    "ENERGY_BALL",
+    "GRASS_KNOT"
+  ],
+  "released": false
+}

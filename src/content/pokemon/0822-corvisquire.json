@@ -1,0 +1,23 @@
+{
+  "dex": 822,
+  "speciesName": "Corvisquire",
+  "speciesId": "corvisquire",
+  "baseStats": {
+    "atk": 129,
+    "def": 110,
+    "hp": 169
+  },
+  "types": [
+    "flying",
+    "none"
+  ],
+  "fastMoves": [
+    "PECK",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "DRILL_PECK",
+    "BRAVE_BIRD"
+  ],
+  "released": false
+}

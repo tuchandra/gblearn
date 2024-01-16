@@ -1,0 +1,24 @@
+{
+  "dex": 949,
+  "speciesName": "Toedscruel",
+  "speciesId": "toedscruel",
+  "baseStats": {
+    "atk": 166,
+    "def": 209,
+    "hp": 190
+  },
+  "types": [
+    "ground",
+    "grass"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "MUD_SHOT"
+  ],
+  "chargedMoves": [
+    "EARTH_POWER",
+    "SEED_BOMB",
+    "ACID_SPRAY"
+  ],
+  "released": false
+}

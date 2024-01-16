@@ -1,0 +1,21 @@
+{
+  "dex": 790,
+  "speciesName": "Cosmoem",
+  "speciesId": "cosmoem",
+  "baseStats": {
+    "atk": 54,
+    "def": 242,
+    "hp": 125
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

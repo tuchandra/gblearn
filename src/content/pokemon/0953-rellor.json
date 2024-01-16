@@ -1,0 +1,24 @@
+{
+  "dex": 953,
+  "speciesName": "Rellor",
+  "speciesId": "rellor",
+  "baseStats": {
+    "atk": 86,
+    "def": 108,
+    "hp": 121
+  },
+  "types": [
+    "bug",
+    "none"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "STRUGGLE_BUG"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "BUG_BUZZ",
+    "LUNGE"
+  ],
+  "released": false
+}

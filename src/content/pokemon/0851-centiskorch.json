@@ -1,0 +1,25 @@
+{
+  "dex": 851,
+  "speciesName": "Centiskorch",
+  "speciesId": "centiskorch",
+  "baseStats": {
+    "atk": 220,
+    "def": 158,
+    "hp": 225
+  },
+  "types": [
+    "fire",
+    "bug"
+  ],
+  "fastMoves": [
+    "BUG_BITE",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "HEAT_WAVE",
+    "BUG_BUZZ",
+    "CRUNCH",
+    "LUNGE"
+  ],
+  "released": false
+}

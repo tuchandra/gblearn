@@ -1,0 +1,24 @@
+{
+  "dex": 493,
+  "speciesName": "Arceus (Steel)",
+  "speciesId": "arceus_steel",
+  "baseStats": {
+    "atk": 238,
+    "def": 238,
+    "hp": 237
+  },
+  "types": [
+    "steel",
+    "none"
+  ],
+  "fastMoves": [
+    "IRON_TAIL",
+    "SHADOW_CLAW"
+  ],
+  "chargedMoves": [
+    "FUTURE_SIGHT",
+    "HYPER_BEAM",
+    "OUTRAGE"
+  ],
+  "released": false
+}

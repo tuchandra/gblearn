@@ -1,0 +1,25 @@
+{
+  "dex": 871,
+  "speciesName": "Pincurchin",
+  "speciesId": "pincurchin",
+  "baseStats": {
+    "atk": 176,
+    "def": 161,
+    "hp": 134
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "THUNDER_SHOCK",
+    "WATER_GUN",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "THUNDERBOLT",
+    "BUBBLE_BEAM"
+  ],
+  "released": false
+}

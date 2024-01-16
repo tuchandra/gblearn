@@ -1,0 +1,21 @@
+{
+  "dex": 789,
+  "speciesName": "Cosmog",
+  "speciesId": "cosmog",
+  "baseStats": {
+    "atk": 54,
+    "def": 57,
+    "hp": 125
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

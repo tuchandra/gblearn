@@ -1,0 +1,24 @@
+{
+  "dex": 804,
+  "speciesName": "Naganadel",
+  "speciesId": "naganadel",
+  "baseStats": {
+    "atk": 263,
+    "def": 159,
+    "hp": 177
+  },
+  "types": [
+    "poison",
+    "dragon"
+  ],
+  "fastMoves": [
+    "STRUGGLE"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false,
+  "tags": [
+    "ultrabeast"
+  ]
+}

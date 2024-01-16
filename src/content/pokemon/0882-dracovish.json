@@ -1,0 +1,24 @@
+{
+  "dex": 882,
+  "speciesName": "Dracovish",
+  "speciesId": "dracovish",
+  "baseStats": {
+    "atk": 175,
+    "def": 185,
+    "hp": 207
+  },
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "BRINE",
+    "DRAGON_PULSE",
+    "ANCIENT_POWER"
+  ],
+  "released": false
+}

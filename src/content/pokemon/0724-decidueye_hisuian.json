@@ -1,0 +1,27 @@
+{
+  "dex": 724,
+  "speciesName": "Decidueye (Hisuian)",
+  "speciesId": "decidueye_hisuian",
+  "baseStats": {
+    "atk": 204,
+    "def": 174,
+    "hp": 204
+  },
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "fastMoves": [
+    "MAGICAL_LEAF",
+    "PSYCHO_CUT"
+  ],
+  "chargedMoves": [
+    "AURA_SPHERE",
+    "ENERGY_BALL",
+    "AERIAL_ACE"
+  ],
+  "released": false,
+  "tags": [
+    "starter"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "dex": 987,
+  "speciesName": "Fluttermane",
+  "speciesId": "fluttermane",
+  "baseStats": {
+    "atk": 280,
+    "def": 235,
+    "hp": 146
+  },
+  "types": [
+    "ghost",
+    "fairy"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

@@ -1,0 +1,23 @@
+{
+  "dex": 828,
+  "speciesName": "Thievul",
+  "speciesId": "thievul",
+  "baseStats": {
+    "atk": 172,
+    "def": 164,
+    "hp": 172
+  },
+  "types": [
+    "dark",
+    "none"
+  ],
+  "fastMoves": [
+    "QUICK_ATTACK",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "NIGHT_SLASH",
+    "PLAY_ROUGH"
+  ],
+  "released": false
+}

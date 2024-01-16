@@ -1,0 +1,24 @@
+{
+  "dex": 774,
+  "speciesName": "Minior (Meteor)",
+  "speciesId": "minior_meteor",
+  "baseStats": {
+    "atk": 116,
+    "def": 194,
+    "hp": 155
+  },
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "fastMoves": [
+    "ROLLOUT",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "POWER_GEM",
+    "ANCIENT_POWER",
+    "ACROBATICS"
+  ],
+  "released": false
+}

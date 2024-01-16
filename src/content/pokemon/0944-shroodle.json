@@ -1,0 +1,24 @@
+{
+  "dex": 944,
+  "speciesName": "Shroodle",
+  "speciesId": "shroodle",
+  "baseStats": {
+    "atk": 124,
+    "def": 70,
+    "hp": 120
+  },
+  "types": [
+    "poison",
+    "normal"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "ACID_SPRAY",
+    "POISON_FANG",
+    "SLUDGE_BOMB"
+  ],
+  "released": false
+}

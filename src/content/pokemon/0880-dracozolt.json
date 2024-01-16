@@ -1,0 +1,24 @@
+{
+  "dex": 880,
+  "speciesName": "Dracozolt",
+  "speciesId": "dracozolt",
+  "baseStats": {
+    "atk": 195,
+    "def": 165,
+    "hp": 207
+  },
+  "types": [
+    "electric",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_TAIL",
+    "THUNDER_SHOCK"
+  ],
+  "chargedMoves": [
+    "DISCHARGE",
+    "DRAGON_PULSE",
+    "ANCIENT_POWER"
+  ],
+  "released": false
+}

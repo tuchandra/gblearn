@@ -1,0 +1,28 @@
+{
+  "dex": 555,
+  "speciesName": "Darmanitan (Galarian Zen)",
+  "speciesId": "darmanitan_galarian_zen",
+  "baseStats": {
+    "atk": 323,
+    "def": 123,
+    "hp": 233
+  },
+  "types": [
+    "ice",
+    "fire"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "ICE_FANG"
+  ],
+  "chargedMoves": [
+    "OVERHEAT",
+    "AVALANCHE",
+    "SUPER_POWER",
+    "ICE_PUNCH"
+  ],
+  "released": false,
+  "tags": [
+    "galarian"
+  ]
+}

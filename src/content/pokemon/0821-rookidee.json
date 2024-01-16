@@ -1,0 +1,23 @@
+{
+  "dex": 821,
+  "speciesName": "Rookidee",
+  "speciesId": "rookidee",
+  "baseStats": {
+    "atk": 88,
+    "def": 67,
+    "hp": 116
+  },
+  "types": [
+    "flying",
+    "none"
+  ],
+  "fastMoves": [
+    "PECK",
+    "AIR_SLASH"
+  ],
+  "chargedMoves": [
+    "DRILL_PECK",
+    "BRAVE_BIRD"
+  ],
+  "released": false
+}

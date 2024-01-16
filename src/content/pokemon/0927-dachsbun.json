@@ -1,0 +1,24 @@
+{
+  "dex": 927,
+  "speciesName": "Dachsbun",
+  "speciesId": "dachsbun",
+  "baseStats": {
+    "atk": 159,
+    "def": 212,
+    "hp": 149
+  },
+  "types": [
+    "fairy",
+    "none"
+  ],
+  "fastMoves": [
+    "CHARM",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "PLAY_ROUGH",
+    "PSYCHIC_FANGS"
+  ],
+  "released": false
+}

@@ -1,0 +1,24 @@
+{
+  "dex": 800,
+  "speciesName": "Necrozma (Dawn Wings)",
+  "speciesId": "necrozma_dawn_wings",
+  "baseStats": {
+    "atk": 277,
+    "def": 220,
+    "hp": 200
+  },
+  "types": [
+    "psychic",
+    "ghost"
+  ],
+  "fastMoves": [
+    "STRUGGLE"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false,
+  "tags": [
+    "ultrabeast"
+  ]
+}

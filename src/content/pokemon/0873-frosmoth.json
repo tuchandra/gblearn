@@ -1,0 +1,25 @@
+{
+  "dex": 873,
+  "speciesName": "Frosmoth",
+  "speciesId": "frosmoth",
+  "baseStats": {
+    "atk": 230,
+    "def": 155,
+    "hp": 172
+  },
+  "types": [
+    "ice",
+    "bug"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW",
+    "BUG_BITE"
+  ],
+  "chargedMoves": [
+    "ICY_WIND",
+    "BUG_BUZZ",
+    "ICE_BEAM",
+    "HURRICANE"
+  ],
+  "released": false
+}

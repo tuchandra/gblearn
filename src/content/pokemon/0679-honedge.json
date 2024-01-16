@@ -1,0 +1,23 @@
+{
+  "dex": 679,
+  "speciesName": "Honedge",
+  "speciesId": "honedge",
+  "baseStats": {
+    "atk": 135,
+    "def": 139,
+    "hp": 128
+  },
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "IRON_HEAD",
+    "GYRO_BALL"
+  ],
+  "released": false
+}

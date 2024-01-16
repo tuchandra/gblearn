@@ -1,0 +1,24 @@
+{
+  "dex": 815,
+  "speciesName": "Cinderace",
+  "speciesId": "cinderace",
+  "baseStats": {
+    "atk": 238,
+    "def": 163,
+    "hp": 190
+  },
+  "types": [
+    "fire",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "EMBER"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "FLAMETHROWER",
+    "FOCUS_BLAST"
+  ],
+  "released": false
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 750,
+  "speciesName": "Mudsdale",
+  "speciesId": "mudsdale",
+  "baseStats": {
+    "atk": 214,
+    "def": 174,
+    "hp": 225
+  },
+  "types": [
+    "ground",
+    "none"
+  ],
+  "fastMoves": [
+    "MUD_SLAP",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "BULLDOZE",
+    "BODY_SLAM",
+    "EARTHQUAKE",
+    "HEAVY_SLAM"
+  ],
+  "released": false
+}

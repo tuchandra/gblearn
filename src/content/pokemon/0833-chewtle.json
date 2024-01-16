@@ -1,0 +1,23 @@
+{
+  "dex": 833,
+  "speciesName": "Chewtle",
+  "speciesId": "chewtle",
+  "baseStats": {
+    "atk": 114,
+    "def": 85,
+    "hp": 137
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATER_GUN",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "BODY_SLAM",
+    "SURF"
+  ],
+  "released": false
+}

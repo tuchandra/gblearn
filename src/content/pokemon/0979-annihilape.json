@@ -1,0 +1,25 @@
+{
+  "dex": 979,
+  "speciesName": "Annihilape",
+  "speciesId": "annihilape",
+  "baseStats": {
+    "atk": 220,
+    "def": 178,
+    "hp": 242
+  },
+  "types": [
+    "fighting",
+    "ghost"
+  ],
+  "fastMoves": [
+    "LOW_KICK",
+    "COUNTER"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "LOW_SWEEP",
+    "NIGHT_SLASH",
+    "ICE_PUNCH"
+  ],
+  "released": false
+}

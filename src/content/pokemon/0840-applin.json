@@ -1,0 +1,21 @@
+{
+  "dex": 840,
+  "speciesName": "Applin",
+  "speciesId": "applin",
+  "baseStats": {
+    "atk": 71,
+    "def": 116,
+    "hp": 120
+  },
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "fastMoves": [
+    "ASTONISH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

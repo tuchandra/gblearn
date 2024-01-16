@@ -1,0 +1,24 @@
+{
+  "dex": 878,
+  "speciesName": "Cufant",
+  "speciesId": "cufant",
+  "baseStats": {
+    "atk": 140,
+    "def": 91,
+    "hp": 176
+  },
+  "types": [
+    "steel",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "ROCK_SMASH"
+  ],
+  "chargedMoves": [
+    "IRON_HEAD",
+    "DIG",
+    "PLAY_ROUGH"
+  ],
+  "released": false
+}

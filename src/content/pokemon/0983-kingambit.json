@@ -1,0 +1,25 @@
+{
+  "dex": 983,
+  "speciesName": "Kingambit",
+  "speciesId": "kingambit",
+  "baseStats": {
+    "atk": 238,
+    "def": 203,
+    "hp": 225
+  },
+  "types": [
+    "dark",
+    "steel"
+  ],
+  "fastMoves": [
+    "SNARL",
+    "METAL_CLAW"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "IRON_HEAD",
+    "X_SCISSOR",
+    "FOCUS_BLAST"
+  ],
+  "released": false
+}

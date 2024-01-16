@@ -1,0 +1,21 @@
+{
+  "dex": 992,
+  "speciesName": "Ironhands",
+  "speciesId": "ironhands",
+  "baseStats": {
+    "atk": 245,
+    "def": 177,
+    "hp": 319
+  },
+  "types": [
+    "fighting",
+    "electric"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

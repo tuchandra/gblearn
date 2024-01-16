@@ -1,0 +1,25 @@
+{
+  "dex": 982,
+  "speciesName": "Dudunsparce_two",
+  "speciesId": "dudunsparce_two",
+  "baseStats": {
+    "atk": 188,
+    "def": 150,
+    "hp": 268
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "BITE",
+    "ASTONISH",
+    "ROLLOUT"
+  ],
+  "chargedMoves": [
+    "DIG",
+    "ROCK_SLIDE",
+    "DRILL_RUN"
+  ],
+  "released": false
+}

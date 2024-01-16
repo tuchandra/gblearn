@@ -1,0 +1,24 @@
+{
+  "dex": 857,
+  "speciesName": "Hattrem",
+  "speciesId": "hattrem",
+  "baseStats": {
+    "atk": 153,
+    "def": 133,
+    "hp": 149
+  },
+  "types": [
+    "psychic",
+    "none"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "CHARM"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "DAZZLING_GLEAM"
+  ],
+  "released": false
+}

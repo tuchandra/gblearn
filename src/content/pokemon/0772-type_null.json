@@ -1,0 +1,24 @@
+{
+  "dex": 772,
+  "speciesName": "Type (Null)",
+  "speciesId": "type_null",
+  "baseStats": {
+    "atk": 184,
+    "def": 184,
+    "hp": 216
+  },
+  "types": [
+    "normal",
+    "none"
+  ],
+  "fastMoves": [
+    "TACKLE",
+    "TAKE_DOWN"
+  ],
+  "chargedMoves": [
+    "TRI_ATTACK",
+    "IRON_HEAD",
+    "AERIAL_ACE"
+  ],
+  "released": false
+}

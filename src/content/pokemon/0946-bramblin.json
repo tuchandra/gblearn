@@ -1,0 +1,24 @@
+{
+  "dex": 946,
+  "speciesName": "Bramblin",
+  "speciesId": "bramblin",
+  "baseStats": {
+    "atk": 121,
+    "def": 64,
+    "hp": 120
+  },
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "BULLET_SEED"
+  ],
+  "chargedMoves": [
+    "SHADOW_SNEAK",
+    "NIGHT_SHADE",
+    "POWER_WHIP"
+  ],
+  "released": false
+}

@@ -1,0 +1,23 @@
+{
+  "dex": 836,
+  "speciesName": "Boltund",
+  "speciesId": "boltund",
+  "baseStats": {
+    "atk": 197,
+    "def": 131,
+    "hp": 170
+  },
+  "types": [
+    "electric",
+    "none"
+  ],
+  "fastMoves": [
+    "SPARK",
+    "BITE"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "THUNDER"
+  ],
+  "released": false
+}

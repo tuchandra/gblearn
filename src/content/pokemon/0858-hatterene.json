@@ -1,0 +1,26 @@
+{
+  "dex": 858,
+  "speciesName": "Hatterene",
+  "speciesId": "hatterene",
+  "baseStats": {
+    "atk": 237,
+    "def": 182,
+    "hp": 149
+  },
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "CHARM",
+    "PSYCHO_CUT"
+  ],
+  "chargedMoves": [
+    "PSYBEAM",
+    "PSYCHIC",
+    "DAZZLING_GLEAM",
+    "POWER_WHIP"
+  ],
+  "released": false
+}

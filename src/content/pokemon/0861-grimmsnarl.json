@@ -1,0 +1,26 @@
+{
+  "dex": 861,
+  "speciesName": "Grimmsnarl",
+  "speciesId": "grimmsnarl",
+  "baseStats": {
+    "atk": 227,
+    "def": 139,
+    "hp": 216
+  },
+  "types": [
+    "dark",
+    "fairy"
+  ],
+  "fastMoves": [
+    "BITE",
+    "SUCKER_PUNCH",
+    "LOW_KICK"
+  ],
+  "chargedMoves": [
+    "FOUL_PLAY",
+    "DARK_PULSE",
+    "PLAY_ROUGH",
+    "POWER_UP_PUNCH"
+  ],
+  "released": false
+}

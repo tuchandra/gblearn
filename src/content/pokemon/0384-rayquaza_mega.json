@@ -1,0 +1,31 @@
+{
+  "dex": 384,
+  "speciesName": "Rayquaza (Mega)",
+  "speciesId": "rayquaza_mega",
+  "baseStats": {
+    "atk": 377,
+    "def": 210,
+    "hp": 227
+  },
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "fastMoves": [
+    "AIR_SLASH",
+    "DRAGON_TAIL"
+  ],
+  "chargedMoves": [
+    "AERIAL_ACE",
+    "ANCIENT_POWER",
+    "OUTRAGE",
+    "HURRICANE",
+    "BREAKING_SWIPE",
+    "DRAGON_ASCENT"
+  ],
+  "released": false,
+  "tags": [
+    "legendary",
+    "mega"
+  ]
+}

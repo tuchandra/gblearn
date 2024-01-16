@@ -1,0 +1,21 @@
+{
+  "dex": 994,
+  "speciesName": "Ironmoth",
+  "speciesId": "ironmoth",
+  "baseStats": {
+    "atk": 281,
+    "def": 196,
+    "hp": 190
+  },
+  "types": [
+    "fire",
+    "poison"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false
+}

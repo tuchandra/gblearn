@@ -1,0 +1,24 @@
+{
+  "dex": 845,
+  "speciesName": "Cramorant",
+  "speciesId": "cramorant",
+  "baseStats": {
+    "atk": 173,
+    "def": 163,
+    "hp": 172
+  },
+  "types": [
+    "flying",
+    "water"
+  ],
+  "fastMoves": [
+    "PECK",
+    "WATER_GUN"
+  ],
+  "chargedMoves": [
+    "DRILL_PECK",
+    "FLY",
+    "HYDRO_PUMP"
+  ],
+  "released": false
+}

@@ -1,0 +1,25 @@
+{
+  "dex": 846,
+  "speciesName": "Arrokuda",
+  "speciesId": "arrokuda",
+  "baseStats": {
+    "atk": 118,
+    "def": 72,
+    "hp": 121
+  },
+  "types": [
+    "water",
+    "none"
+  ],
+  "fastMoves": [
+    "WATERFALL",
+    "BITE",
+    "PECK"
+  ],
+  "chargedMoves": [
+    "CRUNCH",
+    "AQUA_JET",
+    "CLOSE_COMBAT"
+  ],
+  "released": false
+}
