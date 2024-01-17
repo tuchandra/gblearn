@@ -8,8 +8,7 @@
     "hp": 155
   },
   "types": [
-    "water",
-    "none"
+    "water"
   ],
   "fastMoves": [
     "CHARM",

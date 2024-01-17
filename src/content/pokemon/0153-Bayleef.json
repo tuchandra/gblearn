@@ -8,8 +8,7 @@
     "hp": 155
   },
   "types": [
-    "grass",
-    "none"
+    "grass"
   ],
   "fastMoves": [
     "RAZOR_LEAF",

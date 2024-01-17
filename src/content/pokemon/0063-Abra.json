@@ -8,8 +8,7 @@
     "hp": 93
   },
   "types": [
-    "psychic",
-    "none"
+    "psychic"
   ],
   "fastMoves": [
     "CHARGE_BEAM",

@@ -8,8 +8,7 @@
     "hp": 181
   },
   "types": [
-    "grass",
-    "none"
+    "grass"
   ],
   "fastMoves": [
     "ACID",

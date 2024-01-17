@@ -8,8 +8,7 @@
     "hp": 155
   },
   "types": [
-    "electric",
-    "none"
+    "electric"
   ],
   "fastMoves": [
     "BITE",

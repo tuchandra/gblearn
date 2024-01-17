@@ -8,8 +8,7 @@
     "hp": 192
   },
   "types": [
-    "fighting",
-    "none"
+    "fighting"
   ],
   "fastMoves": [
     "METAL_CLAW",

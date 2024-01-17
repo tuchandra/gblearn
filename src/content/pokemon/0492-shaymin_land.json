@@ -8,8 +8,7 @@
     "hp": 225
   },
   "types": [
-    "grass",
-    "none"
+    "grass"
   ],
   "fastMoves": [
     "HIDDEN_POWER_BUG",

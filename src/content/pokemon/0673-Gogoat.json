@@ -8,8 +8,7 @@
     "hp": 265
   },
   "types": [
-    "grass",
-    "none"
+    "grass"
   ],
   "fastMoves": [
     "ZEN_HEADBUTT",

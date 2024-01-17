@@ -8,8 +8,7 @@
     "hp": 163
   },
   "types": [
-    "bug",
-    "none"
+    "bug"
   ],
   "fastMoves": [
     "BUG_BITE",

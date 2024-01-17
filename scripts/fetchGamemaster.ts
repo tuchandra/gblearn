@@ -33,6 +33,10 @@ async function getGamemaster(): Promise<{
   const pokemon = z
     .array(PokemonSchema)
     .parse(gamemaster.pokemon)
+    .map((mon) => ({
+      ...mon,
+      types: mon.types.filter((t) => t !== 'none'),
+    }))
     .filter(
       (mon) =>
         // Ditto is banned in PVP

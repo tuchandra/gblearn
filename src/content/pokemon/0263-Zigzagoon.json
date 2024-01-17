@@ -8,8 +8,7 @@
     "hp": 116
   },
   "types": [
-    "normal",
-    "none"
+    "normal"
   ],
   "fastMoves": [
     "ROCK_SMASH",

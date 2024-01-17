@@ -8,8 +8,7 @@
     "hp": 155
   },
   "types": [
-    "ground",
-    "none"
+    "ground"
   ],
   "fastMoves": [
     "SCRATCH",

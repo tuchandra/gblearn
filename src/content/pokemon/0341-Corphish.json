@@ -8,8 +8,7 @@
     "hp": 125
   },
   "types": [
-    "water",
-    "none"
+    "water"
   ],
   "fastMoves": [
     "BUBBLE",

@@ -8,8 +8,7 @@
     "hp": 190
   },
   "types": [
-    "electric",
-    "none"
+    "electric"
   ],
   "fastMoves": [
     "HIDDEN_POWER_BUG",

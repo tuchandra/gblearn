@@ -8,8 +8,7 @@
     "hp": 233
   },
   "types": [
-    "poison",
-    "none"
+    "poison"
   ],
   "fastMoves": [
     "ACID",

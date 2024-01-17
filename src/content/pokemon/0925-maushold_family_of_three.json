@@ -8,8 +8,7 @@
     "hp": 179
   },
   "types": [
-    "normal",
-    "none"
+    "normal"
   ],
   "fastMoves": [
     "TAKE_DOWN",

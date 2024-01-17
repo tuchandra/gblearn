@@ -8,8 +8,7 @@
     "hp": 190
   },
   "types": [
-    "normal",
-    "none"
+    "normal"
   ],
   "fastMoves": [
     "COUNTER",

@@ -8,8 +8,7 @@
     "hp": 179
   },
   "types": [
-    "grass",
-    "none"
+    "grass"
   ],
   "fastMoves": [
     "BITE",

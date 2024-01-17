@@ -8,8 +8,7 @@
     "hp": 130
   },
   "types": [
-    "poison",
-    "none"
+    "poison"
   ],
   "fastMoves": [
     "PECK",

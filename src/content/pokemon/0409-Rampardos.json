@@ -8,8 +8,7 @@
     "hp": 219
   },
   "types": [
-    "rock",
-    "none"
+    "rock"
   ],
   "fastMoves": [
     "SMACK_DOWN",

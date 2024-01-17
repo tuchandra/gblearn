@@ -8,8 +8,7 @@
     "hp": 169
   },
   "types": [
-    "dragon",
-    "none"
+    "dragon"
   ],
   "fastMoves": [
     "WATER_GUN",

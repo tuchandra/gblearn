@@ -8,8 +8,7 @@
     "hp": 225
   },
   "types": [
-    "water",
-    "none"
+    "water"
   ],
   "fastMoves": [
     "EXTRASENSORY",

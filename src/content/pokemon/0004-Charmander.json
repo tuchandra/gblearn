@@ -8,8 +8,7 @@
     "hp": 118
   },
   "types": [
-    "fire",
-    "none"
+    "fire"
   ],
   "fastMoves": [
     "EMBER",

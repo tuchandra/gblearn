@@ -8,8 +8,7 @@
     "hp": 184
   },
   "types": [
-    "dragon",
-    "none"
+    "dragon"
   ],
   "fastMoves": [
     "DRAGON_TAIL",

@@ -8,8 +8,7 @@
     "hp": 167
   },
   "types": [
-    "poison",
-    "none"
+    "poison"
   ],
   "fastMoves": [
     "STRUGGLE"

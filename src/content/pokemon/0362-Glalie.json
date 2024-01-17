@@ -8,8 +8,7 @@
     "hp": 190
   },
   "types": [
-    "ice",
-    "none"
+    "ice"
   ],
   "fastMoves": [
     "FROST_BREATH",

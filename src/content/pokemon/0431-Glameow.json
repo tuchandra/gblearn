@@ -8,8 +8,7 @@
     "hp": 135
   },
   "types": [
-    "normal",
-    "none"
+    "normal"
   ],
   "fastMoves": [
     "QUICK_ATTACK",

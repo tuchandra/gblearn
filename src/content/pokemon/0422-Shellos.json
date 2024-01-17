@@ -8,8 +8,7 @@
     "hp": 183
   },
   "types": [
-    "water",
-    "none"
+    "water"
   ],
   "fastMoves": [
     "HIDDEN_POWER_BUG",

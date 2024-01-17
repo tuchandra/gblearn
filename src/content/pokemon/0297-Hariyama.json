@@ -8,8 +8,7 @@
     "hp": 302
   },
   "types": [
-    "fighting",
-    "none"
+    "fighting"
   ],
   "fastMoves": [
     "BULLET_PUNCH",

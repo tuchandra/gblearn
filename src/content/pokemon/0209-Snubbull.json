@@ -8,8 +8,7 @@
     "hp": 155
   },
   "types": [
-    "fairy",
-    "none"
+    "fairy"
   ],
   "fastMoves": [
     "BITE",

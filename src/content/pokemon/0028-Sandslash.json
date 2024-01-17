@@ -8,8 +8,7 @@
     "hp": 181
   },
   "types": [
-    "ground",
-    "none"
+    "ground"
   ],
   "fastMoves": [
     "METAL_CLAW",

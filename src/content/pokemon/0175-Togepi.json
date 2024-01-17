@@ -8,8 +8,7 @@
     "hp": 111
   },
   "types": [
-    "fairy",
-    "none"
+    "fairy"
   ],
   "fastMoves": [
     "HIDDEN_POWER_BUG",

@@ -8,8 +8,7 @@
     "hp": 264
   },
   "types": [
-    "steel",
-    "none"
+    "steel"
   ],
   "fastMoves": [
     "THUNDER_SHOCK"

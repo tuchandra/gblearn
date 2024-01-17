@@ -8,8 +8,7 @@
     "hp": 181
   },
   "types": [
-    "water",
-    "none"
+    "water"
   ],
   "fastMoves": [
     "MUD_SHOT",

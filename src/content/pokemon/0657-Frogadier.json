@@ -8,8 +8,7 @@
     "hp": 144
   },
   "types": [
-    "water",
-    "none"
+    "water"
   ],
   "fastMoves": [
     "POUND",

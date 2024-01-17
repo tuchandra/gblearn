@@ -8,8 +8,7 @@
     "hp": 156
   },
   "types": [
-    "dragon",
-    "none"
+    "dragon"
   ],
   "fastMoves": [
     "DRAGON_BREATH",

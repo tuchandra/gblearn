@@ -8,8 +8,7 @@
     "hp": 116
   },
   "types": [
-    "flying",
-    "none"
+    "flying"
   ],
   "fastMoves": [
     "PECK",

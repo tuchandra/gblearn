@@ -8,8 +8,7 @@
     "hp": 163
   },
   "types": [
-    "grass",
-    "none"
+    "grass"
   ],
   "fastMoves": [
     "QUICK_ATTACK",

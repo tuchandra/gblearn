@@ -8,8 +8,7 @@
     "hp": 123
   },
   "types": [
-    "psychic",
-    "none"
+    "psychic"
   ],
   "fastMoves": [
     "CONFUSION",

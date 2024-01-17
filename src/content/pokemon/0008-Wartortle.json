@@ -8,8 +8,7 @@
     "hp": 153
   },
   "types": [
-    "water",
-    "none"
+    "water"
   ],
   "fastMoves": [
     "BITE",

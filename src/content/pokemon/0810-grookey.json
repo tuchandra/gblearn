@@ -8,8 +8,7 @@
     "hp": 137
   },
   "types": [
-    "grass",
-    "none"
+    "grass"
   ],
   "fastMoves": [
     "SCRATCH",

@@ -8,8 +8,7 @@
     "hp": 111
   },
   "types": [
-    "electric",
-    "none"
+    "electric"
   ],
   "fastMoves": [
     "TACKLE",

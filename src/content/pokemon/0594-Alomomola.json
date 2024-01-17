@@ -8,8 +8,7 @@
     "hp": 338
   },
   "types": [
-    "water",
-    "none"
+    "water"
   ],
   "fastMoves": [
     "WATERFALL",

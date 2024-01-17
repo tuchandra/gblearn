@@ -8,8 +8,7 @@
     "hp": 120
   },
   "types": [
-    "grass",
-    "none"
+    "grass"
   ],
   "fastMoves": [
     "LEAFAGE",

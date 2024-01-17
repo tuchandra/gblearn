@@ -8,8 +8,7 @@
     "hp": 127
   },
   "types": [
-    "ghost",
-    "none"
+    "ghost"
   ],
   "fastMoves": [
     "ASTONISH",

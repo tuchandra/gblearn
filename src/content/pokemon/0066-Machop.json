@@ -8,8 +8,7 @@
     "hp": 172
   },
   "types": [
-    "fighting",
-    "none"
+    "fighting"
   ],
   "fastMoves": [
     "KARATE_CHOP",

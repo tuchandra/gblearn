@@ -8,8 +8,7 @@
     "hp": 167
   },
   "types": [
-    "fighting",
-    "none"
+    "fighting"
   ],
   "fastMoves": [
     "LOW_KICK",

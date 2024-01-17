@@ -8,8 +8,7 @@
     "hp": 156
   },
   "types": [
-    "poison",
-    "none"
+    "poison"
   ],
   "fastMoves": [
     "POISON_JAB",

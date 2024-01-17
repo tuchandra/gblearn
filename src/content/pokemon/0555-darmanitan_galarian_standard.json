@@ -8,8 +8,7 @@
     "hp": 233
   },
   "types": [
-    "ice",
-    "none"
+    "ice"
   ],
   "fastMoves": [
     "TACKLE",

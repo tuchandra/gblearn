@@ -8,8 +8,7 @@
     "hp": 172
   },
   "types": [
-    "ground",
-    "none"
+    "ground"
   ],
   "fastMoves": [
     "MUD_SLAP",

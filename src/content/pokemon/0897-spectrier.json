@@ -8,8 +8,7 @@
     "hp": 205
   },
   "types": [
-    "ghost",
-    "none"
+    "ghost"
   ],
   "fastMoves": [
     "TACKLE",

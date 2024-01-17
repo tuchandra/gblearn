@@ -8,8 +8,7 @@
     "hp": 139
   },
   "types": [
-    "fairy",
-    "none"
+    "fairy"
   ],
   "fastMoves": [
     "VINE_WHIP",

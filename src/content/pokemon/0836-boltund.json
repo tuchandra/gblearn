@@ -8,8 +8,7 @@
     "hp": 170
   },
   "types": [
-    "electric",
-    "none"
+    "electric"
   ],
   "fastMoves": [
     "SPARK",

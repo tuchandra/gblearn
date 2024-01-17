@@ -8,8 +8,7 @@
     "hp": 148
   },
   "types": [
-    "grass",
-    "none"
+    "grass"
   ],
   "fastMoves": [
     "TAKE_DOWN",

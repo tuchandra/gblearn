@@ -8,8 +8,7 @@
     "hp": 216
   },
   "types": [
-    "dark",
-    "none"
+    "dark"
   ],
   "fastMoves": [
     "FEINT_ATTACK",

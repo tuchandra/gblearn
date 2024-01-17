@@ -8,8 +8,7 @@
     "hp": 141
   },
   "types": [
-    "fighting",
-    "none"
+    "fighting"
   ],
   "fastMoves": [
     "ROCK_SMASH",

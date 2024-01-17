@@ -8,8 +8,7 @@
     "hp": 181
   },
   "types": [
-    "electric",
-    "none"
+    "electric"
   ],
   "fastMoves": [
     "LOW_KICK",

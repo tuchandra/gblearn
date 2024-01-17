@@ -8,8 +8,7 @@
     "hp": 400
   },
   "types": [
-    "dragon",
-    "none"
+    "dragon"
   ],
   "fastMoves": [
     "BITE"

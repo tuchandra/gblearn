@@ -8,8 +8,7 @@
     "hp": 277
   },
   "types": [
-    "water",
-    "none"
+    "water"
   ],
   "fastMoves": [
     "SPLASH",

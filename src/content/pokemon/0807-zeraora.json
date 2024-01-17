@@ -8,8 +8,7 @@
     "hp": 204
   },
   "types": [
-    "electric",
-    "none"
+    "electric"
   ],
   "fastMoves": [
     "STRUGGLE"

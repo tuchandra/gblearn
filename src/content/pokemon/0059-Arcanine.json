@@ -8,8 +8,7 @@
     "hp": 207
   },
   "types": [
-    "fire",
-    "none"
+    "fire"
   ],
   "fastMoves": [
     "BITE",

@@ -8,8 +8,7 @@
     "hp": 156
   },
   "types": [
-    "electric",
-    "none"
+    "electric"
   ],
   "fastMoves": [
     "THUNDER_SHOCK",

@@ -8,8 +8,7 @@
     "hp": 128
   },
   "types": [
-    "electric",
-    "none"
+    "electric"
   ],
   "fastMoves": [
     "QUICK_ATTACK",

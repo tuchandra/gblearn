@@ -8,8 +8,7 @@
     "hp": 158
   },
   "types": [
-    "fighting",
-    "none"
+    "fighting"
   ],
   "fastMoves": [
     "COUNTER",

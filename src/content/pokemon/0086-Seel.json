@@ -8,8 +8,7 @@
     "hp": 163
   },
   "types": [
-    "water",
-    "none"
+    "water"
   ],
   "fastMoves": [
     "ICE_SHARD",

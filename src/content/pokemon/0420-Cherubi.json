@@ -8,8 +8,7 @@
     "hp": 128
   },
   "types": [
-    "grass",
-    "none"
+    "grass"
   ],
   "fastMoves": [
     "BULLET_SEED",

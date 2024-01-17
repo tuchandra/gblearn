@@ -8,8 +8,7 @@
     "hp": 330
   },
   "types": [
-    "normal",
-    "none"
+    "normal"
   ],
   "fastMoves": [
     "LICK",

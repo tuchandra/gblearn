@@ -8,8 +8,7 @@
     "hp": 162
   },
   "types": [
-    "ghost",
-    "none"
+    "ghost"
   ],
   "fastMoves": [
     "HEX",

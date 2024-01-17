@@ -8,8 +8,7 @@
     "hp": 188
   },
   "types": [
-    "flying",
-    "none"
+    "flying"
   ],
   "fastMoves": [
     "BITE",

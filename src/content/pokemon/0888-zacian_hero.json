@@ -8,8 +8,7 @@
     "hp": 192
   },
   "types": [
-    "fairy",
-    "none"
+    "fairy"
   ],
   "fastMoves": [
     "METAL_CLAW",

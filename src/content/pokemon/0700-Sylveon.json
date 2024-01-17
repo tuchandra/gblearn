@@ -8,8 +8,7 @@
     "hp": 216
   },
   "types": [
-    "fairy",
-    "none"
+    "fairy"
   ],
   "fastMoves": [
     "CHARM",

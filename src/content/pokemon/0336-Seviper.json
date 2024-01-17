@@ -8,8 +8,7 @@
     "hp": 177
   },
   "types": [
-    "poison",
-    "none"
+    "poison"
   ],
   "fastMoves": [
     "IRON_TAIL",

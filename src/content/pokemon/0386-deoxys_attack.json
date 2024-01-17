@@ -8,8 +8,7 @@
     "hp": 137
   },
   "types": [
-    "psychic",
-    "none"
+    "psychic"
   ],
   "fastMoves": [
     "POISON_JAB",

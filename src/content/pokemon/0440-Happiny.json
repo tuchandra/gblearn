@@ -8,8 +8,7 @@
     "hp": 225
   },
   "types": [
-    "normal",
-    "none"
+    "normal"
   ],
   "fastMoves": [
     "POUND",
