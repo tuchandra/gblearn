@@ -35,7 +35,12 @@ async function getGamemaster(): Promise<{
     .parse(gamemaster.pokemon)
     .filter(
       (mon) =>
+        // Ditto is banned in PVP
         mon.speciesId !== 'ditto' &&
+        // We don't need 20 forms of an unreleased Pokemon, so remove
+        // Arceus and Silvally
+        !mon.speciesId.includes('arceus_') &&
+        !mon.speciesId.includes('silvally_') &&
         // Shadows contain no new information (for our purposes)
         !mon.speciesId.includes('_shadow') &&
         // The 'duplicate' tag is just Lanturn, which is double-counted in GL with both fast moves
