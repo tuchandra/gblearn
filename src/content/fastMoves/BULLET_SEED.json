@@ -4,6 +4,5 @@
   "type": "grass",
   "power": 5,
   "energyGain": 13,
-  "cooldown": 1500,
   "turns": 3
 }

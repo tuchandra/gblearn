@@ -4,6 +4,5 @@
   "type": "fire",
   "power": 7,
   "energyGain": 6,
-  "cooldown": 1000,
   "turns": 2
 }

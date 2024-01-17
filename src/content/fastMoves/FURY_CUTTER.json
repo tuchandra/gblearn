@@ -4,6 +4,5 @@
   "type": "bug",
   "power": 2,
   "energyGain": 4,
-  "cooldown": 500,
   "turns": 1
 }

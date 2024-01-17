@@ -4,6 +4,5 @@
   "type": "steel",
   "power": 5,
   "energyGain": 6,
-  "cooldown": 1000,
   "turns": 2
 }

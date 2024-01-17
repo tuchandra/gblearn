@@ -4,6 +4,5 @@
   "type": "ice",
   "power": 7,
   "energyGain": 5,
-  "cooldown": 1000,
   "turns": 2
 }

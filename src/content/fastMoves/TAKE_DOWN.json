@@ -4,6 +4,5 @@
   "type": "normal",
   "power": 5,
   "energyGain": 8,
-  "cooldown": 1500,
   "turns": 3
 }

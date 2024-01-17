@@ -4,6 +4,5 @@
   "type": "dragon",
   "power": 4,
   "energyGain": 3,
-  "cooldown": 500,
   "turns": 1
 }

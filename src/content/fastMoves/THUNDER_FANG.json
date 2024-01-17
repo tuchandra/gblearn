@@ -4,6 +4,5 @@
   "type": "electric",
   "power": 8,
   "energyGain": 5,
-  "cooldown": 1000,
   "turns": 2
 }

@@ -4,6 +4,5 @@
   "type": "psychic",
   "power": 16,
   "energyGain": 12,
-  "cooldown": 2000,
   "turns": 4
 }
