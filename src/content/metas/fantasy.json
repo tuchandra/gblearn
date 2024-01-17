@@ -4,6 +4,15 @@
     "pokemon": "0184-azumarill",
     "fastMove": "BUBBLE",
     "chargedMoves": [
+      "HYDRO_PUMP",
+      "PLAY_ROUGH"
+    ]
+  },
+  {
+    "speciesId": "azumarill",
+    "pokemon": "0184-azumarill",
+    "fastMove": "BUBBLE",
+    "chargedMoves": [
       "ICE_BEAM",
       "PLAY_ROUGH"
     ]
