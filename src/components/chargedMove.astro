@@ -5,12 +5,15 @@ import type { ChargedMove } from '../models';
 
 interface Props {
   move: ChargedMove;
+  stab: boolean;
 }
-const { move } = Astro.props;
+const { move, stab } = Astro.props;
+const stabBonus = stab ? 1.2 : 1;
+const damagePerEnergy = (move.power / move.energy) * stabBonus;
 ---
 
 <div class="flex flex-col">
-  <div class="inline-flex">
+  <div class="inline-flex items-center">
     <img
       src={`types/${move.type}.png`}
       alt={move.type}
@@ -19,6 +22,6 @@ const { move } = Astro.props;
     <span class="ml-1 text-sm">{move.name}</span>
   </div>
   <span class="text-xs">
-    (-{move.energy} E, {move.power} D)
+    {move.energy} E - {damagePerEnergy.toFixed(2)} DPE
   </span>
 </div>

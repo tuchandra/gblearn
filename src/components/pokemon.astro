@@ -46,6 +46,15 @@ const pokemonIcon = `pokemon/${data.dex.toString().padStart(4, '0')}-${data.spec
     {fastMoves.map((move) => <FastMove move={move.data} />)}
   </div>
   <div class="my-4 flex flex-col gap-4">
-    {chargedMoves.map((move) => <ChargedMove move={move.data} />)}
+    {
+      chargedMoves
+        .sort((a, b) => (a.data.energy > b.data.energy ? 1 : -1))
+        .map((move) => (
+          <ChargedMove
+            move={move.data}
+            stab={data.types.includes(move.data.type)}
+          />
+        ))
+    }
   </div>
 </div>
