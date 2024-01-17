@@ -3,26 +3,24 @@ import Pokemon from '../components/pokemon.astro';
 import { getCollection, getEntry } from 'astro:content';
 
 const pokemon = await getCollection('pokemon');
-
 const fantasy = await getEntry('metas', 'fantasy');
-await Promise.all(
+const fantasyPokemon = await Promise.all(
   fantasy.data.map(async (p) => {
-    const pokemon = await getEntry('pokemon', p.id);
-    console.log(pokemon);
+    const mon = await getEntry(p.pokemon);
+    return {
+      ...mon,
+      data: {
+        ...mon.data,
+        fastMoves: [await getEntry(p.fastMove)],
+        chargedMoves: [
+          await getEntry(p.chargedMoves[0]),
+          await getEntry(p.chargedMoves[1]),
+        ],
+      },
+    };
   }),
 );
-console.log(fantasy);
-
-const species = [
-  'Abomasnow',
-  'Carbink',
-  'Slurpuff',
-  'Lanturn',
-  'Gholdengo',
-  'Venusaur',
-  'Weezing (Galarian)',
-];
-const greatleague = pokemon.filter((p) => species.includes(p.data.speciesName));
+console.log(fantasyPokemon);
 ---
 
 <html data-theme="sunset">
@@ -47,18 +45,15 @@ const greatleague = pokemon.filter((p) => species.includes(p.data.speciesName));
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
       <div class="flex flex-col px-1">
-        <Pokemon pokemon={await getEntry('pokemon', '0184-azumarill')} />
-        <Pokemon pokemon={await getEntry('pokemon', '0448-lucario')} />
+        <!-- <Pokemon pokemon={pokemon[0]} />
+        <Pokemon pokemon={await getEntry('pokemon', '0448-lucario')} /> -->
         <Pokemon pokemon={await getEntry('pokemon', '0462-magnezone')} />
       </div>
     </div>
 
     <!-- Content -->
     <div class="divider divider-primary italic">Matchups</div>
-    <Pokemon pokemon={greatleague[3]} />
-    <Pokemon pokemon={greatleague[4]} />
-    <Pokemon pokemon={greatleague[5]} />
-    <Pokemon pokemon={greatleague[6]} />
+    {fantasyPokemon.map((p) => <Pokemon pokemon={p} />)}
     <div class="container flex flex-col">
       <h1 class="px-4 py-2 text-2xl font-bold text-teal-600">Hello, beep!</h1>
       <p class="group-hover:text-gray px-4 text-blue-500">
