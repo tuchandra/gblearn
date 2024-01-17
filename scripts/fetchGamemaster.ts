@@ -53,6 +53,7 @@ async function getGamemaster(): Promise<{
   const fastMoves = z
     .array(FastMoveSchema)
     .parse(gamemaster.moves)
+    .map((m) => ({ ...m, turns: m.cooldown / 500 }))
     .filter((m) => m.energyGain > 0 || m.moveId == 'STRUGGLE');
   const chargedMoves = z
     .array(ChargedMoveSchema)

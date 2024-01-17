@@ -22,7 +22,7 @@ const FastMoveSchema = z.object({
   type: z.string(),
   power: z.number(),
   energyGain: z.number(),
-  cooldown: z.number(),
+  turns: z.number(),
 });
 
 const ChargedMoveSchema = z.object({

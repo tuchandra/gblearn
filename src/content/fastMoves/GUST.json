@@ -4,5 +4,6 @@
   "type": "flying",
   "power": 16,
   "energyGain": 12,
-  "cooldown": 2000
+  "cooldown": 2000,
+  "turns": 4
 }

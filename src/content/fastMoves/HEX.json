@@ -4,5 +4,6 @@
   "type": "ghost",
   "power": 6,
   "energyGain": 12,
-  "cooldown": 1500
+  "cooldown": 1500,
+  "turns": 3
 }

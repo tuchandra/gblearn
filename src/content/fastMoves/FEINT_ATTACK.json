@@ -4,5 +4,6 @@
   "type": "dark",
   "power": 6,
   "energyGain": 6,
-  "cooldown": 1000
+  "cooldown": 1000,
+  "turns": 2
 }

@@ -4,5 +4,6 @@
   "type": "fighting",
   "power": 4,
   "energyGain": 5,
-  "cooldown": 1000
+  "cooldown": 1000,
+  "turns": 2
 }

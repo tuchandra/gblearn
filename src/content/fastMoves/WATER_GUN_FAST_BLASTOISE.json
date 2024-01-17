@@ -4,5 +4,6 @@
   "type": "water",
   "power": 6,
   "energyGain": 4,
-  "cooldown": 1000
+  "cooldown": 1000,
+  "turns": 2
 }
