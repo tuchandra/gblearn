@@ -24,7 +24,7 @@ console.log(fantasyPokemon);
 ---
 
 <html data-theme="sunset">
-  <body class="flex flex-col items-center">
+  <body class="m-2 flex flex-col items-center">
     <!-- Navbar -->
     <div class="w-full flex-grow">
       <div class="navbar">
@@ -54,12 +54,8 @@ console.log(fantasyPokemon);
     <!-- Content -->
     <div class="divider divider-primary italic">Matchups</div>
     {fantasyPokemon.map((p) => <Pokemon pokemon={p} />)}
-    <div class="container flex flex-col">
-      <h1 class="px-4 py-2 text-2xl font-bold text-teal-600">Hello, beep!</h1>
-      <p class="group-hover:text-gray px-4 text-blue-500">
-        This is very confusing
-      </p>
-      <button class="btn btn-success m-4">Click me!</button>
+    <div class="container footer italic">
+      <p>Questions? Contact @tuchandra on Github.</p>
     </div>
   </body>
 </html>

@@ -1,4 +1,3 @@
-import { reference } from 'astro:content';
 import { z } from 'zod';
 
 const PokemonSchema = z.object({

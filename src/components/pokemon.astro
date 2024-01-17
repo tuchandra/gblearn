@@ -15,7 +15,6 @@ const fastMoves = await getEntries(data.fastMoves);
 const chargedMoves = await getEntries(data.chargedMoves);
 
 const pokemonIcon = `pokemon/${data.dex.toString().padStart(4, '0')}-${data.speciesId}.png`;
-const typeIcon = `types/${data.types[0]}.png`;
 ---
 
 <div class="container mb-1 items-center rounded-md bg-neutral p-2">
@@ -25,6 +24,25 @@ const typeIcon = `types/${data.types[0]}.png`;
       alt={data.speciesName}
       class="h-12 w-12 rounded-full"
     />
+    <div>
+      <h2 class="text-2xl font-bold">{data.speciesName}</h2>
+      <div class="flex flex-row">
+        <img
+          src={`types/${data.types[0]}.png`}
+          alt={data.types[0]}
+          class="h-4 w-4 rounded-full"
+        />
+        {
+          data.types[1] ? (
+            <img
+              src={`types/${data.types[1]}.png`}
+              alt={data.types[1]}
+              class="h-4 w-4 rounded-full"
+            />
+          ) : null
+        }
+      </div>
+    </div>
     {fastMoves.map((move) => <FastMove move={move.data} />)}
   </div>
   <div class="my-4 flex flex-col gap-4">
