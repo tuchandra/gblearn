@@ -11,8 +11,11 @@
  * of different cups (great, ultra, master, whatever themed cups exist).
  */
 
-import { CupMetaSchema } from '../src/models';
+import { CupMetaSchema, Pokemon } from '../src/models';
 import PokemonIndex from '../src/content/_pokemon.json';
+
+const GITHUB_BASE =
+  'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/groups/';
 
 const cups = ['great', 'ultra', 'master', 'fantasy'];
 type CupName = (typeof cups)[number];
@@ -23,9 +26,6 @@ const cupUrls: Record<CupName, string> = {
   master: 'master.json',
   fantasy: 'fantasy.json',
 };
-
-const GITHUB_BASE =
-  'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/groups/';
 
 /**
  * Map data.speciesId to the file name of the Pokemon that it references.
@@ -51,6 +51,9 @@ function getPokemonFromSpeciesId(speciesId: string): string {
   return pokemon;
 }
 
+// todo: rename this ...
+type PokemonWithBase = Pokemon & { pokemon: string };
+
 /**
  * Download the meta for a given league/cup from PVPoke's Github,
  * find the species IDs, then write the whole thing to disk.
@@ -61,10 +64,17 @@ async function getOrUpdateMeta(cup: CupName) {
   );
 
   const meta = CupMetaSchema.parse(
-    data.map((mon) => ({
-      ...mon,
-      pokemon: getPokemonFromSpeciesId(mon.speciesId),
-    })),
+    data
+      .map((mon) => ({
+        ...mon,
+        pokemon: getPokemonFromSpeciesId(mon.speciesId),
+      }))
+      // Deduplicate based on the base name / slug; different movesets
+      // and normal/shadow both count to the same Pokemon.
+      .filter(
+        (entry: PokemonWithBase, index: number, self: PokemonWithBase[]) =>
+          self.map((x) => x.pokemon).indexOf(entry.pokemon) === index,
+      ),
   );
 
   await Bun.write(

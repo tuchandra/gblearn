@@ -9,15 +9,6 @@
     ]
   },
   {
-    "speciesId": "azumarill",
-    "pokemon": "0184-azumarill",
-    "fastMove": "BUBBLE",
-    "chargedMoves": [
-      "ICE_BEAM",
-      "PLAY_ROUGH"
-    ]
-  },
-  {
     "speciesId": "bastiodon",
     "pokemon": "0411-bastiodon",
     "fastMove": "SMACK_DOWN",
@@ -82,15 +73,6 @@
   },
   {
     "speciesId": "flygon",
-    "pokemon": "0330-flygon",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "DRAGON_CLAW",
-      "SCORCHING_SANDS"
-    ]
-  },
-  {
-    "speciesId": "flygon_shadow",
     "pokemon": "0330-flygon",
     "fastMove": "MUD_SHOT",
     "chargedMoves": [

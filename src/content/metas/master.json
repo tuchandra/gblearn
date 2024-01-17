@@ -9,15 +9,6 @@
     ]
   },
   {
-    "speciesId": "dialga",
-    "pokemon": "0483-dialga",
-    "fastMove": "DRAGON_BREATH",
-    "chargedMoves": [
-      "IRON_HEAD",
-      "THUNDER"
-    ]
-  },
-  {
     "speciesId": "dragonite",
     "pokemon": "0149-dragonite",
     "fastMove": "DRAGON_BREATH",
@@ -42,15 +33,6 @@
     "chargedMoves": [
       "OUTRAGE",
       "EARTH_POWER"
-    ]
-  },
-  {
-    "speciesId": "garchomp",
-    "pokemon": "0445-garchomp",
-    "fastMove": "DRAGON_TAIL",
-    "chargedMoves": [
-      "OUTRAGE",
-      "SAND_TOMB"
     ]
   },
   {
@@ -117,15 +99,6 @@
     ]
   },
   {
-    "speciesId": "kyogre",
-    "pokemon": "0382-kyogre",
-    "fastMove": "WATERFALL",
-    "chargedMoves": [
-      "SURF",
-      "THUNDER"
-    ]
-  },
-  {
     "speciesId": "landorus_incarnate",
     "pokemon": "0645-landorus_incarnate",
     "fastMove": "MUD_SHOT",
@@ -185,15 +158,6 @@
     "fastMove": "PSYCHO_CUT",
     "chargedMoves": [
       "SHADOW_BALL",
-      "PSYSTRIKE"
-    ]
-  },
-  {
-    "speciesId": "mewtwo",
-    "pokemon": "0150-mewtwo",
-    "fastMove": "PSYCHO_CUT",
-    "chargedMoves": [
-      "FOCUS_BLAST",
       "PSYSTRIKE"
     ]
   },
@@ -267,15 +231,6 @@
     "chargedMoves": [
       "DARK_PULSE",
       "FOCUS_BLAST"
-    ]
-  },
-  {
-    "speciesId": "yveltal",
-    "pokemon": "0717-yveltal",
-    "fastMove": "SNARL",
-    "chargedMoves": [
-      "DARK_PULSE",
-      "OBLIVION_WING"
     ]
   },
   {

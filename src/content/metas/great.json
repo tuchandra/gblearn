@@ -90,15 +90,6 @@
     ]
   },
   {
-    "speciesId": "gligar",
-    "pokemon": "0207-gligar",
-    "fastMove": "WING_ATTACK",
-    "chargedMoves": [
-      "AERIAL_ACE",
-      "DIG"
-    ]
-  },
-  {
     "speciesId": "jellicent",
     "pokemon": "0593-jellicent",
     "fastMove": "HEX",
@@ -111,15 +102,6 @@
     "speciesId": "lanturn",
     "pokemon": "0171-lanturn",
     "fastMove": "SPARK",
-    "chargedMoves": [
-      "SURF",
-      "THUNDERBOLT"
-    ]
-  },
-  {
-    "speciesId": "lanturn",
-    "pokemon": "0171-lanturn",
-    "fastMove": "WATER_GUN",
     "chargedMoves": [
       "SURF",
       "THUNDERBOLT"
@@ -171,15 +153,6 @@
     ]
   },
   {
-    "speciesId": "ninetales_alolan_shadow",
-    "pokemon": "0038-ninetales_alolan",
-    "fastMove": "CHARM",
-    "chargedMoves": [
-      "WEATHER_BALL_ICE",
-      "PSYSHOCK"
-    ]
-  },
-  {
     "speciesId": "pelipper",
     "pokemon": "0279-pelipper",
     "fastMove": "WING_ATTACK",
@@ -190,15 +163,6 @@
   },
   {
     "speciesId": "poliwrath",
-    "pokemon": "0062-poliwrath",
-    "fastMove": "COUNTER",
-    "chargedMoves": [
-      "SCALD",
-      "ICY_WIND"
-    ]
-  },
-  {
-    "speciesId": "poliwrath_shadow",
     "pokemon": "0062-poliwrath",
     "fastMove": "COUNTER",
     "chargedMoves": [
@@ -270,15 +234,6 @@
     ]
   },
   {
-    "speciesId": "swampert_shadow",
-    "pokemon": "0260-swampert",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "HYDRO_CANNON",
-      "EARTHQUAKE"
-    ]
-  },
-  {
     "speciesId": "talonflame",
     "pokemon": "0663-talonflame",
     "fastMove": "INCINERATE",
@@ -339,24 +294,6 @@
     "chargedMoves": [
       "MUD_BOMB",
       "SCALD"
-    ]
-  },
-  {
-    "speciesId": "whiscash_shadow",
-    "pokemon": "0340-whiscash",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "MUD_BOMB",
-      "SCALD"
-    ]
-  },
-  {
-    "speciesId": "clodsire",
-    "pokemon": "0980-clodsire",
-    "fastMove": "POISON_STING",
-    "chargedMoves": [
-      "EARTHQUAKE",
-      "STONE_EDGE"
     ]
   },
   {
