@@ -4,6 +4,15 @@ import { getCollection, getEntry } from 'astro:content';
 
 const pokemon = await getCollection('pokemon');
 
+const fantasy = await getEntry('metas', 'fantasy');
+await Promise.all(
+  fantasy.data.map(async (p) => {
+    const pokemon = await getEntry('pokemon', p.id);
+    console.log(pokemon);
+  }),
+);
+console.log(fantasy);
+
 const species = [
   'Abomasnow',
   'Carbink',
@@ -38,15 +47,9 @@ const greatleague = pokemon.filter((p) => species.includes(p.data.speciesName));
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
       <div class="flex flex-col px-1">
-        <Pokemon pokemon={await getEntry('pokemon', '0150-mewtwo_armored')} />
-        <Pokemon pokemon={await getEntry('pokemon', '0334-altaria_mega')} />
-        <Pokemon pokemon={await getEntry('pokemon', '0006-charizard_mega_x')} />
-        <Pokemon
-          pokemon={await getEntry('pokemon', '0645-landorus_incarnate')}
-        />
-        <Pokemon pokemon={await getEntry('pokemon', '0351-castform_sunny')} />
-        <Pokemon pokemon={greatleague[1]} />
-        <Pokemon pokemon={greatleague[2]} />
+        <Pokemon pokemon={await getEntry('pokemon', '0184-azumarill')} />
+        <Pokemon pokemon={await getEntry('pokemon', '0448-lucario')} />
+        <Pokemon pokemon={await getEntry('pokemon', '0462-magnezone')} />
       </div>
     </div>
 

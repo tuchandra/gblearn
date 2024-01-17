@@ -1,0 +1,191 @@
+[
+  {
+    "speciesId": "azumarill",
+    "pokemon": "0184-azumarill",
+    "fastMove": "BUBBLE",
+    "chargedMoves": [
+      "ICE_BEAM",
+      "PLAY_ROUGH"
+    ]
+  },
+  {
+    "speciesId": "bastiodon",
+    "pokemon": "0411-bastiodon",
+    "fastMove": "SMACK_DOWN",
+    "chargedMoves": [
+      "STONE_EDGE",
+      "FLAMETHROWER"
+    ]
+  },
+  {
+    "speciesId": "dragonair_shadow",
+    "pokemon": "0148-dragonair",
+    "fastMove": "DRAGON_BREATH",
+    "chargedMoves": [
+      "BODY_SLAM",
+      "AQUA_TAIL"
+    ]
+  },
+  {
+    "speciesId": "dragonite_shadow",
+    "pokemon": "0149-dragonite",
+    "fastMove": "DRAGON_BREATH",
+    "chargedMoves": [
+      "DRAGON_CLAW",
+      "SUPER_POWER"
+    ]
+  },
+  {
+    "speciesId": "empoleon",
+    "pokemon": "0395-empoleon",
+    "fastMove": "WATERFALL",
+    "chargedMoves": [
+      "HYDRO_CANNON",
+      "DRILL_PECK"
+    ]
+  },
+  {
+    "speciesId": "escavalier",
+    "pokemon": "0589-escavalier",
+    "fastMove": "COUNTER",
+    "chargedMoves": [
+      "DRILL_RUN",
+      "ACID_SPRAY"
+    ]
+  },
+  {
+    "speciesId": "excadrill",
+    "pokemon": "0530-excadrill",
+    "fastMove": "MUD_SHOT",
+    "chargedMoves": [
+      "DRILL_RUN",
+      "ROCK_SLIDE"
+    ]
+  },
+  {
+    "speciesId": "ferrothorn",
+    "pokemon": "0598-ferrothorn",
+    "fastMove": "BULLET_SEED",
+    "chargedMoves": [
+      "POWER_WHIP",
+      "THUNDER"
+    ]
+  },
+  {
+    "speciesId": "flygon",
+    "pokemon": "0330-flygon",
+    "fastMove": "MUD_SHOT",
+    "chargedMoves": [
+      "DRAGON_CLAW",
+      "SCORCHING_SANDS"
+    ]
+  },
+  {
+    "speciesId": "flygon_shadow",
+    "pokemon": "0330-flygon",
+    "fastMove": "MUD_SHOT",
+    "chargedMoves": [
+      "DRAGON_CLAW",
+      "SCORCHING_SANDS"
+    ]
+  },
+  {
+    "speciesId": "haxorus",
+    "pokemon": "0612-haxorus",
+    "fastMove": "COUNTER",
+    "chargedMoves": [
+      "BREAKING_SWIPE",
+      "SURF"
+    ]
+  },
+  {
+    "speciesId": "lucario",
+    "pokemon": "0448-lucario",
+    "fastMove": "COUNTER",
+    "chargedMoves": [
+      "BLAZE_KICK",
+      "SHADOW_BALL"
+    ]
+  },
+  {
+    "speciesId": "magnezone_shadow",
+    "pokemon": "0462-magnezone",
+    "fastMove": "VOLT_SWITCH",
+    "chargedMoves": [
+      "WILD_CHARGE",
+      "MIRROR_SHOT"
+    ]
+  },
+  {
+    "speciesId": "mawile_shadow",
+    "pokemon": "0303-mawile",
+    "fastMove": "FIRE_FANG",
+    "chargedMoves": [
+      "POWER_UP_PUNCH",
+      "PLAY_ROUGH"
+    ]
+  },
+  {
+    "speciesId": "registeel",
+    "pokemon": "0379-registeel",
+    "fastMove": "LOCK_ON",
+    "chargedMoves": [
+      "FOCUS_BLAST",
+      "ZAP_CANNON"
+    ]
+  },
+  {
+    "speciesId": "sandslash_alolan",
+    "pokemon": "0028-sandslash_alolan",
+    "fastMove": "SHADOW_CLAW",
+    "chargedMoves": [
+      "ICE_PUNCH",
+      "DRILL_RUN"
+    ]
+  },
+  {
+    "speciesId": "skarmory",
+    "pokemon": "0227-skarmory",
+    "fastMove": "STEEL_WING",
+    "chargedMoves": [
+      "BRAVE_BIRD",
+      "SKY_ATTACK"
+    ]
+  },
+  {
+    "speciesId": "stunfisk_galarian",
+    "pokemon": "0618-stunfisk_galarian",
+    "fastMove": "MUD_SHOT",
+    "chargedMoves": [
+      "ROCK_SLIDE",
+      "EARTHQUAKE"
+    ]
+  },
+  {
+    "speciesId": "tapu_fini",
+    "pokemon": "0788-tapu_fini",
+    "fastMove": "WATER_GUN",
+    "chargedMoves": [
+      "SURF",
+      "MOONBLAST"
+    ]
+  },
+  {
+    "speciesId": "turtonator",
+    "pokemon": "0776-turtonator",
+    "fastMove": "INCINERATE",
+    "chargedMoves": [
+      "DRAGON_PULSE",
+      "OVERHEAT"
+    ]
+  },
+  {
+    "speciesId": "weezing_galarian",
+    "pokemon": "0110-weezing_galarian",
+    "fastMove": "FAIRY_WIND",
+    "chargedMoves": [
+      "SLUDGE",
+      "OVERHEAT"
+    ]
+  }
+]

@@ -66,6 +66,18 @@ async function writePokemon(pokemon: Pokemon[]) {
       JSON.stringify(mon, null, 2),
     );
   }
+
+  // Write src/content/_pokemon.json, which indexes {filename: speciesId}
+  const pokemonIndex = pokemon.reduce((acc, mon) => {
+    const dexnum = mon.dex.toString().padStart(4, '0');
+    const filename = `${dexnum}-${mon.speciesId}`;
+    return { ...acc, [filename]: mon.speciesId };
+  }, {});
+  await Bun.write(
+    `src/content/_pokemon.json`,
+    JSON.stringify(pokemonIndex, null, 2),
+  );
+
   console.log(`Wrote ${pokemon.length} pokemon files.`);
 }
 

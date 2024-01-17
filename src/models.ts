@@ -1,3 +1,4 @@
+import { reference } from 'astro:content';
 import { z } from 'zod';
 
 const PokemonSchema = z.object({
@@ -36,10 +37,20 @@ const ChargedMoveSchema = z.object({
   buffApplyChance: z.string().optional(),
 });
 
+const CupMetaSchema = z.array(
+  z.object({
+    speciesId: z.string(),
+    pokemon: z.string(), // will reference Pokemon
+    fastMove: z.string(),
+    chargedMoves: z.tuple([z.string(), z.string()]),
+  }),
+);
+
 type Pokemon = z.infer<typeof PokemonSchema>;
 type FastMove = z.infer<typeof FastMoveSchema>;
 type ChargedMove = z.infer<typeof ChargedMoveSchema>;
 type Move = FastMove | ChargedMove;
+type CupMeta = z.infer<typeof CupMetaSchema>;
 
-export { PokemonSchema, FastMoveSchema, ChargedMoveSchema };
-export type { Pokemon, FastMove, ChargedMove, Move };
+export { PokemonSchema, FastMoveSchema, ChargedMoveSchema, CupMetaSchema };
+export type { Pokemon, FastMove, ChargedMove, Move, CupMeta };
