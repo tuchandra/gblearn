@@ -3,9 +3,9 @@ import Pokemon from '../components/pokemon.astro';
 import { getCollection, getEntry } from 'astro:content';
 
 const pokemon = await getCollection('pokemon');
-const fantasy = await getEntry('metas', 'fantasy');
-const fantasyPokemon = await Promise.all(
-  fantasy.data.map(async (p) => {
+const great = await getEntry('metas', 'great');
+const greatPokemon = await Promise.all(
+  great.data.map(async (p) => {
     const mon = await getEntry(p.pokemon);
     return {
       ...mon,
@@ -20,7 +20,7 @@ const fantasyPokemon = await Promise.all(
     };
   }),
 );
-console.log(fantasyPokemon);
+console.log(greatPokemon);
 ---
 
 <html data-theme="sunset">
@@ -45,15 +45,15 @@ console.log(fantasyPokemon);
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
       <div class="flex flex-col px-1">
-        <Pokemon pokemon={await getEntry('pokemon', '0184-azumarill')} />
-        <Pokemon pokemon={await getEntry('pokemon', '0448-lucario')} />
-        <Pokemon pokemon={await getEntry('pokemon', '0462-magnezone')} />
+        <Pokemon pokemon={await getEntry('pokemon', '0171-lanturn')} />
+        <Pokemon pokemon={await getEntry('pokemon', '0630-mandibuzz')} />
+        <Pokemon pokemon={await getEntry('pokemon', '0979-annihilape')} />
       </div>
     </div>
 
     <!-- Content -->
     <div class="divider divider-primary italic">Matchups</div>
-    {fantasyPokemon.map((p) => <Pokemon pokemon={p} />)}
+    {greatPokemon.map((p) => <Pokemon pokemon={p} />)}
     <div class="container footer italic">
       <p>Questions? Contact @tuchandra on Github.</p>
     </div>
