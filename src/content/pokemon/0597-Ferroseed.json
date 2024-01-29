@@ -20,5 +20,8 @@
     "FLASH_CANNON",
     "IRON_HEAD"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

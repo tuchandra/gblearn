@@ -36,6 +36,15 @@
     ]
   },
   {
+    "speciesId": "charjabug",
+    "pokemon": "0737-charjabug",
+    "fastMove": "VOLT_SWITCH",
+    "chargedMoves": [
+      "X_SCISSOR",
+      "DISCHARGE"
+    ]
+  },
+  {
     "speciesId": "clodsire",
     "pokemon": "0980-clodsire",
     "fastMove": "POISON_STING",
@@ -297,12 +306,12 @@
     ]
   },
   {
-    "speciesId": "charjabug",
-    "pokemon": "0737-charjabug",
-    "fastMove": "VOLT_SWITCH",
+    "speciesId": "annihilape",
+    "pokemon": "0979-annihilape",
+    "fastMove": "COUNTER",
     "chargedMoves": [
-      "X_SCISSOR",
-      "DISCHARGE"
+      "ICE_PUNCH",
+      "SHADOW_BALL"
     ]
   }
 ]

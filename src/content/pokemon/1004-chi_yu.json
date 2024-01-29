@@ -1,0 +1,24 @@
+{
+  "dex": 1004,
+  "speciesName": "Chi-Yu",
+  "speciesId": "chi_yu",
+  "baseStats": {
+    "atk": 269,
+    "def": 221,
+    "hp": 146
+  },
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "fastMoves": [
+    "INCINERATE",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "FLAME_CHARGE",
+    "DARK_PULSE",
+    "FLAME_WHEEL"
+  ],
+  "released": false
+}

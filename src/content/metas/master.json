@@ -36,15 +36,6 @@
     ]
   },
   {
-    "speciesId": "rhyperior",
-    "pokemon": "0464-rhyperior",
-    "fastMove": "MUD_SLAP",
-    "chargedMoves": [
-      "BREAKING_SWIPE",
-      "ROCK_WRECKER"
-    ]
-  },
-  {
     "speciesId": "giratina_altered",
     "pokemon": "0487-giratina_altered",
     "fastMove": "SHADOW_CLAW",
@@ -99,20 +90,11 @@
     ]
   },
   {
-    "speciesId": "landorus_incarnate",
-    "pokemon": "0645-landorus_incarnate",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "EARTH_POWER",
-      "ROCK_SLIDE"
-    ]
-  },
-  {
     "speciesId": "landorus_therian",
     "pokemon": "0645-landorus_therian",
     "fastMove": "MUD_SHOT",
     "chargedMoves": [
-      "SUPER_POWER",
+      "SANDSEAR_STORM",
       "STONE_EDGE"
     ]
   },
@@ -171,12 +153,30 @@
     ]
   },
   {
+    "speciesId": "rayquaza",
+    "pokemon": "0384-rayquaza",
+    "fastMove": "DRAGON_TAIL",
+    "chargedMoves": [
+      "BREAKING_SWIPE",
+      "HURRICANE"
+    ]
+  },
+  {
     "speciesId": "reshiram",
     "pokemon": "0643-reshiram",
     "fastMove": "DRAGON_BREATH",
     "chargedMoves": [
       "FUSION_FLARE",
       "DRACO_METEOR"
+    ]
+  },
+  {
+    "speciesId": "rhyperior",
+    "pokemon": "0464-rhyperior",
+    "fastMove": "MUD_SLAP",
+    "chargedMoves": [
+      "BREAKING_SWIPE",
+      "ROCK_WRECKER"
     ]
   },
   {
@@ -213,6 +213,15 @@
     "chargedMoves": [
       "ANCIENT_POWER",
       "AURA_SPHERE"
+    ]
+  },
+  {
+    "speciesId": "ursaluna",
+    "pokemon": "0901-ursaluna",
+    "fastMove": "TACKLE",
+    "chargedMoves": [
+      "ICE_PUNCH",
+      "HIGH_HORSEPOWER"
     ]
   },
   {
@@ -261,21 +270,21 @@
     ]
   },
   {
-    "speciesId": "ursaluna",
-    "pokemon": "0901-ursaluna",
-    "fastMove": "TACKLE",
+    "speciesId": "zygarde_complete",
+    "pokemon": "0718-zygarde_complete",
+    "fastMove": "DRAGON_TAIL",
     "chargedMoves": [
-      "ICE_PUNCH",
-      "HIGH_HORSEPOWER"
+      "CRUNCH",
+      "EARTHQUAKE"
     ]
   },
   {
-    "speciesId": "rayquaza",
-    "pokemon": "0384-rayquaza",
-    "fastMove": "DRAGON_TAIL",
+    "speciesId": "solgaleo",
+    "pokemon": "0791-solgaleo",
+    "fastMove": "FIRE_SPIN",
     "chargedMoves": [
-      "BREAKING_SWIPE",
-      "HURRICANE"
+      "PSYCHIC_FANGS",
+      "IRON_HEAD"
     ]
   }
 ]

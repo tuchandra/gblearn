@@ -1,0 +1,24 @@
+{
+  "dex": 1002,
+  "speciesName": "Chien-Pao",
+  "speciesId": "chien_pao",
+  "baseStats": {
+    "atk": 261,
+    "def": 167,
+    "hp": 190
+  },
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "fastMoves": [
+    "POWDER_SNOW",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "AVALANCHE",
+    "BLIZZARD"
+  ],
+  "released": false
+}

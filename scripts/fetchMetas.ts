@@ -17,15 +17,13 @@ import PokemonIndex from '../src/content/_pokemon.json';
 const GITHUB_BASE =
   'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/groups/';
 
-const cups = ['great', 'ultra', 'master', 'fantasy'];
+const cups = ['great', 'ultra', 'master', 'fantasy', 'hisui'];
 type CupName = (typeof cups)[number];
 
-const cupUrls: Record<CupName, string> = {
-  great: 'great.json',
-  ultra: 'ultra.json',
-  master: 'master.json',
-  fantasy: 'fantasy.json',
-};
+const cupUrls: Record<CupName, string> = cups.reduce(
+  (acc, cup) => ({ ...acc, [cup]: `${cup}.json` }),
+  {},
+);
 
 /**
  * Map data.speciesId to the file name of the Pokemon that it references.

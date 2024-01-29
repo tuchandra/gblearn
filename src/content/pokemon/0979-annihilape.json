@@ -19,7 +19,8 @@
     "CLOSE_COMBAT",
     "LOW_SWEEP",
     "NIGHT_SLASH",
-    "ICE_PUNCH"
+    "ICE_PUNCH",
+    "SHADOW_BALL"
   ],
-  "released": false
+  "released": true
 }

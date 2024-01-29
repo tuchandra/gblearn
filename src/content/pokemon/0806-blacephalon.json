@@ -12,10 +12,13 @@
     "ghost"
   ],
   "fastMoves": [
-    "STRUGGLE"
+    "INCINERATE",
+    "ASTONISH"
   ],
   "chargedMoves": [
-    "STRUGGLE"
+    "MYSTICAL_FIRE",
+    "SHADOW_BALL",
+    "OVERHEAT"
   ],
   "released": false,
   "tags": [

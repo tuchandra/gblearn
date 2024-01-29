@@ -12,10 +12,13 @@
     "steel"
   ],
   "fastMoves": [
-    "STRUGGLE"
+    "ROCK_THROW",
+    "TAKE_DOWN"
   ],
   "chargedMoves": [
-    "STRUGGLE"
+    "FLASH_CANNON",
+    "STONE_EDGE",
+    "BULLDOZE"
   ],
   "released": false,
   "tags": [

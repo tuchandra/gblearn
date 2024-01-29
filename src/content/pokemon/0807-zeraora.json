@@ -11,10 +11,13 @@
     "electric"
   ],
   "fastMoves": [
-    "STRUGGLE"
+    "SPARK",
+    "VOLT_SWITCH"
   ],
   "chargedMoves": [
-    "STRUGGLE"
+    "THUNDER_PUNCH",
+    "DISCHARGE",
+    "WILD_CHARGE"
   ],
   "released": false
 }

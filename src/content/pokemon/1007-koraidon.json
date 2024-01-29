@@ -12,10 +12,14 @@
     "dragon"
   ],
   "fastMoves": [
-    "SPLASH"
+    "ROCK_SMASH",
+    "DRAGON_TAIL"
   ],
   "chargedMoves": [
-    "STRUGGLE"
+    "GIGA_IMPACT",
+    "DRAGON_CLAW",
+    "CLOSE_COMBAT",
+    "OUTRAGE"
   ],
   "released": false
 }

@@ -1,5 +1,14 @@
 [
   {
+    "speciesId": "ampharos",
+    "pokemon": "0181-ampharos",
+    "fastMove": "VOLT_SWITCH",
+    "chargedMoves": [
+      "BRUTAL_SWING",
+      "TRAILBLAZE"
+    ]
+  },
+  {
     "speciesId": "charizard",
     "pokemon": "0006-charizard",
     "fastMove": "WING_ATTACK",
@@ -33,6 +42,15 @@
     "chargedMoves": [
       "PSYCHO_BOOST",
       "ROCK_SLIDE"
+    ]
+  },
+  {
+    "speciesId": "dragonite_shadow",
+    "pokemon": "0149-dragonite",
+    "fastMove": "DRAGON_BREATH",
+    "chargedMoves": [
+      "DRAGON_CLAW",
+      "SUPER_POWER"
     ]
   },
   {
@@ -189,6 +207,15 @@
     ]
   },
   {
+    "speciesId": "skeledirge",
+    "pokemon": "0911-skeledirge",
+    "fastMove": "INCINERATE",
+    "chargedMoves": [
+      "SHADOW_BALL",
+      "DISARMING_VOICE"
+    ]
+  },
+  {
     "speciesId": "steelix",
     "pokemon": "0208-steelix",
     "fastMove": "DRAGON_TAIL",
@@ -207,12 +234,12 @@
     ]
   },
   {
-    "speciesId": "skeledirge",
-    "pokemon": "0911-skeledirge",
+    "speciesId": "talonflame",
+    "pokemon": "0663-talonflame",
     "fastMove": "INCINERATE",
     "chargedMoves": [
-      "SHADOW_BALL",
-      "DISARMING_VOICE"
+      "FLY",
+      "FLAME_CHARGE"
     ]
   },
   {
@@ -222,6 +249,15 @@
     "chargedMoves": [
       "SURF",
       "MOONBLAST"
+    ]
+  },
+  {
+    "speciesId": "tentacruel",
+    "pokemon": "0073-tentacruel",
+    "fastMove": "POISON_JAB",
+    "chargedMoves": [
+      "SCALD",
+      "BLIZZARD"
     ]
   },
   {
@@ -279,39 +315,12 @@
     ]
   },
   {
-    "speciesId": "talonflame",
-    "pokemon": "0663-talonflame",
-    "fastMove": "INCINERATE",
+    "speciesId": "annihilape",
+    "pokemon": "0979-annihilape",
+    "fastMove": "COUNTER",
     "chargedMoves": [
-      "FLY",
-      "FLAME_CHARGE"
-    ]
-  },
-  {
-    "speciesId": "ampharos",
-    "pokemon": "0181-ampharos",
-    "fastMove": "VOLT_SWITCH",
-    "chargedMoves": [
-      "BRUTAL_SWING",
-      "TRAILBLAZE"
-    ]
-  },
-  {
-    "speciesId": "dragonite_shadow",
-    "pokemon": "0149-dragonite",
-    "fastMove": "DRAGON_BREATH",
-    "chargedMoves": [
-      "DRAGON_CLAW",
-      "SUPER_POWER"
-    ]
-  },
-  {
-    "speciesId": "tentacruel",
-    "pokemon": "0073-tentacruel",
-    "fastMove": "POISON_JAB",
-    "chargedMoves": [
-      "SCALD",
-      "BLIZZARD"
+      "ICE_PUNCH",
+      "SHADOW_BALL"
     ]
   }
 ]

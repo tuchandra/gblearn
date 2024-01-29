@@ -1,0 +1,24 @@
+{
+  "dex": 1003,
+  "speciesName": "Ting-Lu",
+  "speciesId": "ting_lu",
+  "baseStats": {
+    "atk": 194,
+    "def": 203,
+    "hp": 321
+  },
+  "types": [
+    "dark",
+    "ground"
+  ],
+  "fastMoves": [
+    "MUD_SHOT",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "BULLDOZE",
+    "EARTHQUAKE"
+  ],
+  "released": false
+}

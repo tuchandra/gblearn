@@ -21,5 +21,8 @@
     "RAZOR_SHELL",
     "SCALD"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -12,10 +12,14 @@
     "dragon"
   ],
   "fastMoves": [
-    "SPLASH"
+    "THUNDER_SHOCK",
+    "DRAGON_TAIL"
   ],
   "chargedMoves": [
-    "STRUGGLE"
+    "HYPER_BEAM",
+    "DRAGON_PULSE",
+    "THUNDER",
+    "OUTRAGE"
   ],
   "released": false
 }

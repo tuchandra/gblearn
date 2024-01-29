@@ -12,10 +12,14 @@
     "dragon"
   ],
   "fastMoves": [
-    "STRUGGLE"
+    "POISON_JAB",
+    "AIR_SLASH"
   ],
   "chargedMoves": [
-    "STRUGGLE"
+    "SLUDGE_BOMB",
+    "ACROBATICS",
+    "FELL_STINGER",
+    "DRAGON_PULSE"
   ],
   "released": false,
   "tags": [

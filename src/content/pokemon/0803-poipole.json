@@ -11,10 +11,13 @@
     "poison"
   ],
   "fastMoves": [
-    "STRUGGLE"
+    "POISON_JAB",
+    "PECK"
   ],
   "chargedMoves": [
-    "STRUGGLE"
+    "SLUDGE_BOMB",
+    "SLUDGE_WAVE",
+    "FELL_STINGER"
   ],
   "released": false,
   "tags": [

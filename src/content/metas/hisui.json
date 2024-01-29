@@ -1,0 +1,155 @@
+[
+  {
+    "speciesId": "abomasnow",
+    "pokemon": "0460-abomasnow",
+    "fastMove": "POWDER_SNOW",
+    "chargedMoves": [
+      "WEATHER_BALL_ICE",
+      "ENERGY_BALL"
+    ]
+  },
+  {
+    "speciesId": "bastiodon",
+    "pokemon": "0411-bastiodon",
+    "fastMove": "SMACK_DOWN",
+    "chargedMoves": [
+      "STONE_EDGE",
+      "FLAMETHROWER"
+    ]
+  },
+  {
+    "speciesId": "cresselia",
+    "pokemon": "0488-cresselia",
+    "fastMove": "PSYCHO_CUT",
+    "chargedMoves": [
+      "GRASS_KNOT",
+      "MOONBLAST"
+    ]
+  },
+  {
+    "speciesId": "drapion",
+    "pokemon": "0452-drapion",
+    "fastMove": "POISON_STING",
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "CRUNCH"
+    ]
+  },
+  {
+    "speciesId": "drifblim",
+    "pokemon": "0426-drifblim",
+    "fastMove": "HEX",
+    "chargedMoves": [
+      "ICY_WIND",
+      "SHADOW_BALL"
+    ]
+  },
+  {
+    "speciesId": "empoleon",
+    "pokemon": "0395-empoleon",
+    "fastMove": "WATERFALL",
+    "chargedMoves": [
+      "HYDRO_CANNON",
+      "DRILL_PECK"
+    ]
+  },
+  {
+    "speciesId": "froslass",
+    "pokemon": "0478-froslass",
+    "fastMove": "POWDER_SNOW",
+    "chargedMoves": [
+      "AVALANCHE",
+      "SHADOW_BALL"
+    ]
+  },
+  {
+    "speciesId": "gallade",
+    "pokemon": "0475-gallade",
+    "fastMove": "CONFUSION",
+    "chargedMoves": [
+      "CLOSE_COMBAT",
+      "LEAF_BLADE"
+    ]
+  },
+  {
+    "speciesId": "gastrodon",
+    "pokemon": "0423-gastrodon",
+    "fastMove": "MUD_SLAP",
+    "chargedMoves": [
+      "BODY_SLAM",
+      "EARTH_POWER"
+    ]
+  },
+  {
+    "speciesId": "gliscor",
+    "pokemon": "0472-gliscor",
+    "fastMove": "WING_ATTACK",
+    "chargedMoves": [
+      "EARTHQUAKE",
+      "NIGHT_SLASH"
+    ]
+  },
+  {
+    "speciesId": "lucario",
+    "pokemon": "0448-lucario",
+    "fastMove": "COUNTER",
+    "chargedMoves": [
+      "POWER_UP_PUNCH",
+      "SHADOW_BALL"
+    ]
+  },
+  {
+    "speciesId": "skuntank",
+    "pokemon": "0435-skuntank",
+    "fastMove": "POISON_JAB",
+    "chargedMoves": [
+      "CRUNCH",
+      "TRAILBLAZE"
+    ]
+  },
+  {
+    "speciesId": "toxicroak",
+    "pokemon": "0454-toxicroak",
+    "fastMove": "COUNTER",
+    "chargedMoves": [
+      "MUD_BOMB",
+      "SHADOW_BALL"
+    ]
+  },
+  {
+    "speciesId": "wormadam_trash",
+    "pokemon": "0413-wormadam_trash",
+    "fastMove": "CONFUSION",
+    "chargedMoves": [
+      "BUG_BUZZ",
+      "IRON_HEAD"
+    ]
+  },
+  {
+    "speciesId": "bibarel",
+    "pokemon": "0400-bibarel",
+    "fastMove": "WATER_GUN",
+    "chargedMoves": [
+      "SURF",
+      "HYPER_FANG"
+    ]
+  },
+  {
+    "speciesId": "sneasler",
+    "pokemon": "0903-sneasler",
+    "fastMove": "SHADOW_CLAW",
+    "chargedMoves": [
+      "CLOSE_COMBAT",
+      "AERIAL_ACE"
+    ]
+  },
+  {
+    "speciesId": "munchlax",
+    "pokemon": "0446-munchlax",
+    "fastMove": "TACKLE",
+    "chargedMoves": [
+      "BODY_SLAM",
+      "BULLDOZE"
+    ]
+  }
+]

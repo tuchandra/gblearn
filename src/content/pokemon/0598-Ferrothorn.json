@@ -22,5 +22,8 @@
     "THUNDER",
     "MIRROR_SHOT"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

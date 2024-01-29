@@ -1,0 +1,24 @@
+{
+  "dex": 1001,
+  "speciesName": "Wo-Chien",
+  "speciesId": "wo_chien",
+  "baseStats": {
+    "atk": 186,
+    "def": 242,
+    "hp": 198
+  },
+  "types": [
+    "dark",
+    "grass"
+  ],
+  "fastMoves": [
+    "MAGICAL_LEAF",
+    "SNARL"
+  ],
+  "chargedMoves": [
+    "DARK_PULSE",
+    "GRASS_KNOT",
+    "LEAF_STORM"
+  ],
+  "released": false
+}

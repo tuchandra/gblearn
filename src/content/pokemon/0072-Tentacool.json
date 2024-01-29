@@ -20,5 +20,8 @@
     "WATER_PULSE",
     "WRAP"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

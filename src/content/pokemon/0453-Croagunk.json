@@ -21,5 +21,8 @@
     "LOW_SWEEP",
     "SLUDGE_BOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }
