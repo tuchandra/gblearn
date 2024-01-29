@@ -96,6 +96,17 @@ async function writeMoves(moves: Move[], dir: string) {
       JSON.stringify(move, null, 2),
     );
   }
+
+  // Write src/content/_<dir>.json, which indexes {moveId: name}
+  const pokemonIndex = moves.reduce((acc, move) => {
+    const filename = `${move.moveId}`;
+    return { ...acc, [filename]: move.name };
+  }, {});
+  await Bun.write(
+    `src/content/_${dir}.json`,
+    JSON.stringify(pokemonIndex, null, 2),
+  );
+
   console.log(`Wrote ${moves.length} files to ${dir}.`);
 }
 

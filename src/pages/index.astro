@@ -1,6 +1,7 @@
 ---
 import Pokemon from '../components/pokemon.astro';
 import { getCollection, getEntry } from 'astro:content';
+import { simplifyMoves, withMoveset } from '../pokemonUtils';
 
 const pokemon = await getCollection('pokemon');
 const great = await getEntry('metas', 'great');
@@ -20,7 +21,19 @@ const greatPokemon = await Promise.all(
     };
   }),
 );
-console.log(greatPokemon);
+
+const lanturn = await getEntry('pokemon', '0171-lanturn').then((p) =>
+  withMoveset(p, { fast: ['SPARK'], charged: ['SURF', 'THUNDERBOLT'] }),
+);
+const mandibuzz = await getEntry('pokemon', '0630-mandibuzz').then((p) =>
+  withMoveset(p, { fast: ['SNARL'], charged: ['AERIAL_ACE', 'DARK_PULSE'] }),
+);
+const annihilape = await getEntry('pokemon', '0979-annihilape').then((p) =>
+  withMoveset(p, {
+    fast: ['COUNTER'],
+    charged: ['NIGHT_SLASH', 'SHADOW_BALL'],
+  }),
+);
 ---
 
 <html data-theme="sunset">
@@ -44,10 +57,10 @@ console.log(greatPokemon);
     <!-- My team -->
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
-      <div class="flex flex-col px-1">
-        <Pokemon pokemon={await getEntry('pokemon', '0171-lanturn')} />
-        <Pokemon pokemon={await getEntry('pokemon', '0630-mandibuzz')} />
-        <Pokemon pokemon={await getEntry('pokemon', '0979-annihilape')} />
+      <div class="flex flex-row px-1">
+        <Pokemon pokemon={lanturn} />
+        <Pokemon pokemon={mandibuzz} />
+        <Pokemon pokemon={annihilape} />
       </div>
     </div>
 

@@ -8,7 +8,7 @@
     "start": "bunx --bun astro start",
     "build": "tsc && bunx --bun astro build",
     "preview": "bunx --bun astro preview",
-    "format": "bunx --bun prettier --write 'src/**/*.{astro,js,ts,tsx,md,json}'"
+    "format": "bunx --bun prettier --write 'src/**/*.{astro,js,ts,tsx,md}'"
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.1.0",

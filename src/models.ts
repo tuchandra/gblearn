@@ -5,25 +5,25 @@ import { z } from 'zod';
  * ------------------
  * Its definition has changed throughout the lifetime of the franchise (that is, if
  * there ever was a coherent definition to begin with).
- * 
- * Pokemon with different Pokedex numbers are always considered distinct. 
- * 
+ *
+ * Pokemon with different Pokedex numbers are always considered distinct.
+ *
  * Two Pokemon with the same Pokedex number may also be considered distinct if they
  * have different stats, typings, or movesets; that is, if there are material
  * differences in how one would use them in battle.
- * 
+ *
  * Alternate forms
  * ---------------
  * Shadow forms are not considered distinct. They have the same stats and moveset
  * (ignoring Frustration, because it sucks); while they take & deal 20% more damage,
  * these can be accounted for when computing damage.
- * 
+ *
  * Regional forms _are_ considered distinct. They can have different stats, movesets,
  * and/or types. Sandlash and Alolan Sandslash are completely different.
- * 
+ *
  * Megas are considered distinct, because they have different stats; in practice this
  * distinction does not matter until megas are allowed in GBL.
- * 
+ *
  * Certain other forms are considered distinct, including (non-exhaustively):
  * - Castform (normal, Rainy, Sunny, Snowy)
  * - Deoxys (normal, Attack, Defense, Speed)
@@ -84,5 +84,15 @@ type ChargedMove = z.infer<typeof ChargedMoveSchema>;
 type Move = FastMove | ChargedMove;
 type CupMeta = z.infer<typeof CupMetaSchema>;
 
+// Construct indexes & string unions for the different entities
+import PokemonIndex from './content/_pokemon.json';
+import FastMoveIndex from './content/_fastMoves.json';
+import ChargedMoveIndex from './content/_chargedMoves.json';
+
+type PokemonName = keyof typeof PokemonIndex;
+type FastMoveName = keyof typeof FastMoveIndex;
+type ChargedMoveName = keyof typeof ChargedMoveIndex;
+
 export { PokemonSchema, FastMoveSchema, ChargedMoveSchema, CupMetaSchema };
 export type { Pokemon, FastMove, ChargedMove, Move, CupMeta };
+export type { PokemonName, FastMoveName, ChargedMoveName };
