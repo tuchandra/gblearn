@@ -12,26 +12,29 @@ const greatPokemon = await Promise.all(
       ...mon,
       data: {
         ...mon.data,
-        fastMoves: [await getEntry(p.fastMove)],
-        chargedMoves: [
-          await getEntry(p.chargedMoves[0]),
-          await getEntry(p.chargedMoves[1]),
-        ],
+        // fastMoves: [await getEntry(p.fastMove)],
+        // chargedMoves: [
+        //   await getEntry(p.chargedMoves[0]),
+        //   await getEntry(p.chargedMoves[1]),
+        // ],
       },
     };
   }),
 );
 
 const lanturn = await getEntry('pokemon', '0171-lanturn').then((p) =>
-  withMoveset(p, { fast: ['SPARK'], charged: ['SURF', 'THUNDERBOLT'] }),
+  withMoveset(p, { fast: ['SPARK', 'WATER_GUN'], charged: ['SURF', 'THUNDERBOLT'] }),
 );
 const mandibuzz = await getEntry('pokemon', '0630-mandibuzz').then((p) =>
-  withMoveset(p, { fast: ['SNARL'], charged: ['AERIAL_ACE', 'DARK_PULSE'] }),
+  withMoveset(p, {
+    fast: ['SNARL', 'AIR_SLASH'],
+    charged: ['AERIAL_ACE', 'DARK_PULSE', 'FOUL_PLAY'],
+  }),
 );
 const annihilape = await getEntry('pokemon', '0979-annihilape').then((p) =>
   withMoveset(p, {
     fast: ['COUNTER'],
-    charged: ['NIGHT_SLASH', 'SHADOW_BALL'],
+    charged: ['NIGHT_SLASH', 'SHADOW_BALL', 'ICE_PUNCH'],
   }),
 );
 ---

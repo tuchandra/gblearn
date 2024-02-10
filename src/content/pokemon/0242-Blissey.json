@@ -17,7 +17,8 @@
   "chargedMoves": [
     "DAZZLING_GLEAM",
     "HYPER_BEAM",
-    "PSYCHIC"
+    "PSYCHIC",
+    "WILD_CHARGE"
   ],
   "released": true
 }

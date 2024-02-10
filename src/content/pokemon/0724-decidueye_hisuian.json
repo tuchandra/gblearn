@@ -3,7 +3,7 @@
   "speciesName": "Decidueye (Hisuian)",
   "speciesId": "decidueye_hisuian",
   "baseStats": {
-    "atk": 204,
+    "atk": 213,
     "def": 174,
     "hp": 204
   },
@@ -20,7 +20,7 @@
     "ENERGY_BALL",
     "AERIAL_ACE"
   ],
-  "released": false,
+  "released": true,
   "tags": [
     "starter"
   ]

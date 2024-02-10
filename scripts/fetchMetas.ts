@@ -17,7 +17,7 @@ import PokemonIndex from '../src/content/_pokemon.json';
 const GITHUB_BASE =
   'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/groups/';
 
-const cups = ['great', 'ultra', 'master', 'fantasy', 'hisui'];
+const cups = ['great', 'ultra', 'master', 'fantasy', 'hisui', 'evolution'];
 type CupName = (typeof cups)[number];
 
 const cupUrls: Record<CupName, string> = cups.reduce(
