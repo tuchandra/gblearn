@@ -94,7 +94,7 @@ type FastMoveName = keyof typeof FastMoveIndex;
 type ChargedMoveName = keyof typeof ChargedMoveIndex;
 
 export {
-  PokemonSpeciesSchema as PokemonSpeciesSchema,
+  PokemonSpeciesSchema,
   FastMoveSchema,
   ChargedMoveSchema,
   CupMetaSchema,

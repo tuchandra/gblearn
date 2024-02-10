@@ -29,7 +29,8 @@
       "prettier-plugin-tailwindcss"
     ],
     "singleQuote": true,
-    "semi": true
+    "semi": true,
+    "proseWrap": "always"
   },
   "postcss": {
     "plugins": {
