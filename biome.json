@@ -14,6 +14,13 @@
       "recommended": true,
       "style": {
         "noUnusedTemplateLiteral": "off"
+      },
+      "nursery": {
+        "noUnusedImports": "error",
+        "useImportType": "error"
+      },
+      "performance": {
+        "noAccumulatingSpread": "off"
       }
     }
   }

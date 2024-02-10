@@ -1,10 +1,9 @@
-import { CollectionEntry, getEntry } from 'astro:content';
+import { type CollectionEntry, getEntry } from 'astro:content';
 import type {
   ChargedMove,
   ChargedMoveName,
   FastMove,
   FastMoveName,
-  PokemonSpecies,
 } from './models';
 
 interface MovesetChanges {
@@ -52,7 +51,7 @@ async function withMoveset(
   };
 }
 
-interface MoveCounts {
+export interface MoveCounts {
   nFastMoves: number;
   nTurns: number;
   remainingEnergy: number;

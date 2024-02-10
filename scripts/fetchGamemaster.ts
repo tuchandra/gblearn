@@ -19,7 +19,12 @@ import {
   FastMoveSchema,
   ChargedMoveSchema,
 } from '../src/models';
-import type { Pokemon, FastMove, ChargedMove, Move } from '../src/models';
+import type {
+  PokemonSpecies,
+  FastMove,
+  ChargedMove,
+  Move,
+} from '../src/models';
 
 async function getGamemaster(): Promise<{
   pokemon: Pokemon[];
@@ -57,7 +62,7 @@ async function getGamemaster(): Promise<{
         // Convert cooldown to turns, which is more usable
         .map((m) => ({ ...m, turns: m.cooldown / 500 })),
     )
-    .filter((m) => m.energyGain > 0 || m.moveId == 'STRUGGLE');
+    .filter((m) => m.energyGain > 0 || m.moveId === 'STRUGGLE');
   const chargedMoves = z
     .array(ChargedMoveSchema)
     .parse(gamemaster.moves)
@@ -65,7 +70,7 @@ async function getGamemaster(): Promise<{
   return { pokemon, fastMoves, chargedMoves };
 }
 
-async function writePokemon(pokemon: Pokemon[]) {
+async function writePokemon(pokemon: PokemonSpecies[]) {
   for (const mon of pokemon) {
     const dexnum = mon.dex.toString().padStart(4, '0');
     const filename = `${dexnum}-${mon.speciesId}.json`;

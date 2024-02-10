@@ -1,0 +1,23 @@
+---
+import FastMove from './fastMove.astro';
+import ChargedMove from './chargedMove.astro';
+import { getMoveCounts } from '../pokemonUtils';
+import type { MoveCounts } from '../pokemonUtils';
+
+interface Props {
+  counts: MoveCounts[];
+}
+const { counts } = Astro.props;
+---
+
+<span class="font-mono text-xs text-neutral-500">
+  <div>
+    {counts.map((x) => x.nFastMoves).join(', ')}
+  </div>
+  <div>
+    {counts.map((x) => x.nTurns).join(', ')}
+  </div>
+  <div>
+    {'+' + counts.map((x) => x.remainingEnergy).join(', +')}
+  </div>
+</span>

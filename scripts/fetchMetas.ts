@@ -11,7 +11,7 @@
  * of different cups (great, ultra, master, whatever themed cups exist).
  */
 
-import { CupMetaSchema, PokemonSpecies } from '../src/models';
+import { CupMetaSchema, type PokemonSpecies } from '../src/models';
 import PokemonIndex from '../src/content/_pokemon.json';
 
 const GITHUB_BASE =

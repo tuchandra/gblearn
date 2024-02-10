@@ -85,9 +85,9 @@ type Move = FastMove | ChargedMove;
 type CupMeta = z.infer<typeof CupMetaSchema>;
 
 // Construct indexes & string unions for the different entities
-import PokemonIndex from './content/_pokemon.json';
-import FastMoveIndex from './content/_fastMoves.json';
-import ChargedMoveIndex from './content/_chargedMoves.json';
+import type PokemonIndex from './content/_pokemon.json';
+import type FastMoveIndex from './content/_fastMoves.json';
+import type ChargedMoveIndex from './content/_chargedMoves.json';
 
 type PokemonName = keyof typeof PokemonIndex;
 type FastMoveName = keyof typeof FastMoveIndex;

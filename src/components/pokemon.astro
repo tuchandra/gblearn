@@ -5,6 +5,7 @@ import { getEntries } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import FastMove from './fastMove.astro';
 import ChargedMove from './chargedMove.astro';
+import MoveCounts from './moveCounts.astro';
 import { getMoveCounts } from '../pokemonUtils';
 
 interface Props {
@@ -57,9 +58,7 @@ const pokemonIcon = `pokemon/${data.dex.toString().padStart(4, '0')}-${data.spec
               stab={data.types.includes(move.data.type)}
             />
             {fastMoves.map(async (fast) => (
-              <span class="text-xs text-neutral-500">
-                {JSON.stringify(await getMoveCounts(fast.data, move.data))}
-              </span>
+              <MoveCounts counts={await getMoveCounts(fast.data, move.data)} />
             ))}
           </div>
         ))
