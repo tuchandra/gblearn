@@ -11,7 +11,7 @@
  * of different cups (great, ultra, master, whatever themed cups exist).
  */
 
-import { CupMetaSchema, Pokemon } from '../src/models';
+import { CupMetaSchema, PokemonSpecies } from '../src/models';
 import PokemonIndex from '../src/content/_pokemon.json';
 
 const GITHUB_BASE =
@@ -50,7 +50,7 @@ function getPokemonFromSpeciesId(speciesId: string): string {
 }
 
 // todo: rename this ...
-type PokemonWithBase = Pokemon & { pokemon: string };
+type PokemonWithBase = PokemonSpecies & { pokemon: string };
 
 /**
  * Download the meta for a given league/cup from PVPoke's Github,

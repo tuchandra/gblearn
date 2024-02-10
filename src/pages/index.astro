@@ -23,7 +23,10 @@ const greatPokemon = await Promise.all(
 );
 
 const lanturn = await getEntry('pokemon', '0171-lanturn').then((p) =>
-  withMoveset(p, { fast: ['SPARK', 'WATER_GUN'], charged: ['SURF', 'THUNDERBOLT'] }),
+  withMoveset(p, {
+    fast: ['SPARK', 'WATER_GUN'],
+    charged: ['SURF', 'THUNDERBOLT'],
+  }),
 );
 const mandibuzz = await getEntry('pokemon', '0630-mandibuzz').then((p) =>
   withMoveset(p, {

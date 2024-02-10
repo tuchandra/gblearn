@@ -4,7 +4,7 @@ import type {
   ChargedMoveName,
   FastMove,
   FastMoveName,
-  Pokemon,
+  PokemonSpecies,
 } from './models';
 
 interface MovesetChanges {
@@ -51,7 +51,6 @@ async function withMoveset(
     },
   };
 }
-
 
 export { withMoveset, getFastMove, getChargedMove };
 export type { SimpleMoveset };

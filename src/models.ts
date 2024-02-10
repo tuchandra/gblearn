@@ -32,7 +32,7 @@ import { z } from 'zod';
  * - Pumpkaboo and Gourgeist (the sizes have different stats)
  * - Certain Pikachu costumes that got, inexplicably, different moves ...
  */
-const PokemonSchema = z.object({
+const PokemonSpeciesSchema = z.object({
   dex: z.number(),
   speciesName: z.string(),
   speciesId: z.string(),
@@ -78,7 +78,7 @@ const CupMetaSchema = z.array(
   }),
 );
 
-type Pokemon = z.infer<typeof PokemonSchema>;
+type PokemonSpecies = z.infer<typeof PokemonSpeciesSchema>;
 type FastMove = z.infer<typeof FastMoveSchema>;
 type ChargedMove = z.infer<typeof ChargedMoveSchema>;
 type Move = FastMove | ChargedMove;
@@ -93,6 +93,11 @@ type PokemonName = keyof typeof PokemonIndex;
 type FastMoveName = keyof typeof FastMoveIndex;
 type ChargedMoveName = keyof typeof ChargedMoveIndex;
 
-export { PokemonSchema, FastMoveSchema, ChargedMoveSchema, CupMetaSchema };
-export type { Pokemon, FastMove, ChargedMove, Move, CupMeta };
+export {
+  PokemonSpeciesSchema as PokemonSpeciesSchema,
+  FastMoveSchema,
+  ChargedMoveSchema,
+  CupMetaSchema,
+};
+export type { PokemonSpecies, FastMove, ChargedMove, Move, CupMeta };
 export type { PokemonName, FastMoveName, ChargedMoveName };

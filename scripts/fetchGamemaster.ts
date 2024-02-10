@@ -15,7 +15,7 @@
 
 import { z } from 'zod';
 import {
-  PokemonSchema,
+  PokemonSpeciesSchema,
   FastMoveSchema,
   ChargedMoveSchema,
 } from '../src/models';
@@ -31,7 +31,7 @@ async function getGamemaster(): Promise<{
   const gamemaster = await fetch(url).then((res) => res.json());
 
   const pokemon = z
-    .array(PokemonSchema)
+    .array(PokemonSpeciesSchema)
     .parse(gamemaster.pokemon)
     .map((mon) => ({
       ...mon,
