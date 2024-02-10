@@ -52,5 +52,42 @@ async function withMoveset(
   };
 }
 
-export { withMoveset, getFastMove, getChargedMove };
+interface MoveCounts {
+  nFastMoves: number;
+  nTurns: number;
+  remainingEnergy: number;
+}
+
+async function getMoveCounts(
+  fastMove: FastMove,
+  chargedMove: ChargedMove,
+): Promise<MoveCounts[]> {
+  // const fastMove = await getFastMove(fast);
+  // const chargedMove = await getChargedMove(charged);
+
+  const moveCounts = [];
+  let residualEnergy = 0;
+
+  for (let i = 0; i <= 4; i++) {
+    const energyNeeded = chargedMove.energy - residualEnergy;
+
+    // How many fast moves & turns until the charged move?
+    const fastMoveCount = Math.ceil(energyNeeded / fastMove.energyGain);
+    const fastMoveTurns = fastMoveCount * fastMove.turns;
+
+    // How much energy is left?
+    residualEnergy =
+      residualEnergy + fastMoveCount * fastMove.energyGain - chargedMove.energy;
+
+    moveCounts.push({
+      nFastMoves: fastMoveCount,
+      nTurns: fastMoveTurns,
+      remainingEnergy: residualEnergy,
+    });
+  }
+
+  return moveCounts;
+}
+
+export { withMoveset, getFastMove, getChargedMove, getMoveCounts };
 export type { SimpleMoveset };

@@ -17,13 +17,18 @@ import PokemonIndex from '../src/content/_pokemon.json';
 const GITHUB_BASE =
   'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/groups/';
 
-const cups = ['great', 'ultra', 'master', 'fantasy', 'hisui', 'evolution'];
-type CupName = (typeof cups)[number];
+export enum CupName {
+  great = 'great',
+  ultra = 'ultra',
+  master = 'master',
+  fantasy = 'fantasy',
+  hisui = 'hisui',
+  evolution = 'evolution',
+}
 
-const cupUrls: Record<CupName, string> = cups.reduce(
-  (acc, cup) => ({ ...acc, [cup]: `${cup}.json` }),
-  {},
-);
+function cupUrl(cup: CupName) {
+  return `${GITHUB_BASE}${cup}.json`;
+}
 
 /**
  * Map data.speciesId to the file name of the Pokemon that it references.
@@ -57,9 +62,7 @@ type PokemonWithBase = PokemonSpecies & { pokemon: string };
  * find the species IDs, then write the whole thing to disk.
  */
 async function getOrUpdateMeta(cup: CupName) {
-  const data = await fetch(GITHUB_BASE + cupUrls[cup]).then((res) =>
-    res.json(),
-  );
+  const data = await fetch(cupUrl(cup)).then((res) => res.json());
 
   const meta = CupMetaSchema.parse(
     data
@@ -84,7 +87,7 @@ async function getOrUpdateMeta(cup: CupName) {
 }
 
 async function main() {
-  Promise.all(cups.map(getOrUpdateMeta));
+  Promise.all(Object.values(CupName).map(getOrUpdateMeta));
 }
 
 main();

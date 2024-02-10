@@ -1,10 +1,11 @@
 ---
 // Component for one Pokemon displayed on the homepage.
 
-import { getEntries, type CollectionEntry } from 'astro:content';
-import type { Pokemon } from '../models';
+import { getEntries } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
 import FastMove from './fastMove.astro';
 import ChargedMove from './chargedMove.astro';
+import { getMoveCounts } from '../pokemonUtils';
 
 interface Props {
   pokemon: CollectionEntry<'pokemon'>;
@@ -50,10 +51,17 @@ const pokemonIcon = `pokemon/${data.dex.toString().padStart(4, '0')}-${data.spec
       chargedMoves
         .sort((a, b) => (a.data.energy > b.data.energy ? 1 : -1))
         .map((move) => (
-          <ChargedMove
-            move={move.data}
-            stab={data.types.includes(move.data.type)}
-          />
+          <div class="flex flex-row gap-2">
+            <ChargedMove
+              move={move.data}
+              stab={data.types.includes(move.data.type)}
+            />
+            {fastMoves.map(async (fast) => (
+              <span class="text-xs text-neutral-500">
+                {JSON.stringify(await getMoveCounts(fast.data, move.data))}
+              </span>
+            ))}
+          </div>
         ))
     }
   </div>
