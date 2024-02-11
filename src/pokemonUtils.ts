@@ -230,6 +230,28 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonName, MovesetChanges>> = {
     fast: { remove: ['WATER_GUN'] },
     charged: { keep: ['RETURN', 'AURORA_BEAM', 'WATER_PULSE', 'BODY_SLAM'] },
   },
+  '0452-drapion': {
+    fast: { remove: ['ICE_FANG', 'INFESTATION'] },
+  },
+  '0426-drifblim': {
+    charged: { remove: ['OMINOUS_WIND'] },
+  },
+  '0395-empoleon': {
+    charged: { remove: ['HYDRO_PUMP'] },
+  },
+  '0475-gallade': {
+    charged: { remove: ['SYNCHRONOISE'] },
+  },
+  '0423-gastrodon': {
+    fast: { remove: ['HIDDEN_POWER'] },
+  },
+  '0448-lucario': {
+    fast: { remove: ['BULLET_PUNCH'] },
+  },
+  '0413-wormadam_trash': {
+    fast: { remove: ['BUG_BITE'] },
+    charged: { remove: ['PSYBEAM'] },
+  },
   '0634-zweilous': {
     fast: { remove: ['BITE'] },
   },
@@ -260,6 +282,37 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonName, MovesetChanges>> = {
   },
   '0033-nidorino': {
     charged: { remove: ['HORN_ATTACK'] },
+  },
+  '0589-escavalier': {
+    fast: { remove: ['BUG_BITE'] },
+  },
+  '0598-ferrothorn': {
+    fast: { remove: ['METAL_CLAW'] },
+  },
+  '0330-flygon': {
+    charged: { remove: ['EARTH_POWER', 'BOOMBURST'] },
+  },
+  '0612-haxorus': {
+    charged: { remove: ['DRAGON_CLAW'] },
+  },
+  '0462-magnezone': {
+    fast: { remove: ['SPARK'] },
+  },
+  '0303-mawile': {
+    fast: { remove: ['BITE', 'ICE_FANG'] },
+  },
+  '0788-tapu_fini': {
+    fast: { remove: ['HIDDEN_POWER'] },
+  },
+  '0776-turtonator': {
+    fast: { remove: ['EMBER', 'FIRE_SPIN'] },
+  },
+  '0110-weezing_galarian': {
+    fast: { remove: ['TACKLE'] },
+    charged: { remove: ['HYPER_BEAM'] },
+  },
+  '0454-toxicroak': {
+    fast: { remove: ['POISON_JAB'] },
   },
   '0703-carbink': {
     fast: { remove: ['TACKLE'] },
@@ -299,6 +352,7 @@ const ALWAYS_EXCLUDED_FAST_MOVES: FastMoveName[] = [
   'IRON_TAIL',
   'CHARGE_BEAM',
   'ACID',
+  'TAKE_DOWN',
   'SUCKER_PUNCH',
 ];
 const ALWAYS_EXCLUDED_CHARGED_MOVES: ChargedMoveName[] = [
