@@ -71,13 +71,6 @@ async function getGamemaster(): Promise<{
       ...mon,
       fastMoves: removeHiddenPowerTypes(mon.fastMoves),
     }))
-    // Add Return to Sableye
-    .map((mon) => ({
-      ...mon,
-      chargedMoves: ['sableye', 'metang'].includes(mon.speciesId)
-        ? [...mon.chargedMoves, 'RETURN']
-        : mon.chargedMoves,
-    }))
     .filter(
       (mon) =>
         // Ditto is banned in PVP

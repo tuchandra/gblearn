@@ -18,8 +18,7 @@
   "chargedMoves": [
     "FOUL_PLAY",
     "POWER_GEM",
-    "SHADOW_SNEAK",
-    "RETURN"
+    "SHADOW_SNEAK"
   ],
   "released": true,
   "tags": [

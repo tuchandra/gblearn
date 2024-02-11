@@ -1,10 +1,11 @@
 import { type CollectionEntry, getEntry } from 'astro:content';
-import type {
-  ChargedMove,
-  ChargedMoveName,
-  FastMove,
-  FastMoveName,
-  PokemonName,
+import {
+  ChargedMoveSchema,
+  type ChargedMove,
+  type ChargedMoveName,
+  type FastMove,
+  type FastMoveName,
+  type PokemonName,
 } from './models';
 
 async function getFastMove(name: FastMoveName): Promise<FastMove> {
@@ -16,6 +17,14 @@ async function getChargedMove(name: ChargedMoveName): Promise<ChargedMove> {
   const move = await getEntry('chargedMoves', name);
   return move.data;
 }
+
+export const RETURN = ChargedMoveSchema.parse({
+  moveId: 'RETURN',
+  name: 'Return',
+  type: 'normal',
+  power: 130,
+  energy: 70,
+});
 
 type KeepOrRemove<T> =
   | {
@@ -211,7 +220,30 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonName, MovesetChanges>> = {
     fast: { remove: ['WATER_GUN'] },
   },
   '0375-metang': {
-    charged: { keep: ['RETURN', 'GYRO_BALL', 'PSYCHIC', 'PSYSHOCK'] },
+    charged: { keep: ['RETURN', 'GYRO_BALL', 'PSYSHOCK'] },
+  },
+  '0221-piloswine': {
+    fast: { remove: ['ICE_SHARD'] },
+    charged: { remove: ['BULLDOZE'] },
+  },
+  '0364-sealeo': {
+    fast: { remove: ['WATER_GUN'] },
+    charged: { keep: ['RETURN', 'AURORA_BEAM', 'WATER_PULSE', 'BODY_SLAM'] },
+  },
+  '0634-zweilous': {
+    fast: { remove: ['BITE'] },
+  },
+  '0030-nidorina': {
+    fast: { remove: ['BITE'] },
+  },
+  '0910-crocalor': {
+    fast: { remove: ['BITE'] },
+  },
+  '0057-primeape': {
+    fast: { remove: ['KARATE_CHOP'] },
+  },
+  '0176-togetic': {
+    fast: { remove: ['EXTRASENSORY', 'HIDDEN_POWER'] },
   },
   '0207-gligar': {
     fast: { remove: ['FURY_CUTTER'] },
@@ -225,6 +257,9 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonName, MovesetChanges>> = {
   '0279-pelipper': {
     fast: { remove: ['WATER_GUN'] },
     charged: { remove: ['HYDRO_PUMP'] },
+  },
+  '0033-nidorino': {
+    charged: { remove: ['HORN_ATTACK'] },
   },
   '0703-carbink': {
     fast: { remove: ['TACKLE'] },
@@ -270,6 +305,7 @@ const ALWAYS_EXCLUDED_CHARGED_MOVES: ChargedMoveName[] = [
   'TWISTER',
   'GIGA_IMPACT',
   'GYRO_BALL',
+  'HEAT_WAVE',
   'LOW_SWEEP',
 ];
 
@@ -324,6 +360,11 @@ function withMoveset(
   const chargedMoves = p.data.chargedMoves.filter((m) =>
     charged.includes(m.id),
   );
+
+  // Add Return, if needed; it's never in a Pokemon's moveset but most can learn it
+  if (charged.includes('RETURN')) {
+    chargedMoves.push({ id: 'RETURN', collection: 'chargedMoves' });
+  }
 
   return {
     ...p,
