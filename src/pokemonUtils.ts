@@ -62,10 +62,9 @@ function leastCommonMultiple(a: number, b: number): number {
 }
 
 function greatestCommonFactor(a: number, b: number): number {
-  if (b === 0) {
-    return a;
-  }
-  return greatestCommonFactor(b, a % b);
+  // Euclid's algorithm
+  if (b === 0) return a;
+  return greatestCommonFactor(b, a % b); // Notice they're switched
 }
 
 /**
