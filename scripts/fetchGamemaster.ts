@@ -26,8 +26,31 @@ import type {
   Move,
 } from '../src/models';
 
+const HIDDEN_POWER_UNKNOWN = FastMoveSchema.parse({
+  moveId: 'HIDDEN_POWER',
+  name: 'Hidden Power',
+  type: 'unknown',
+  power: 9,
+  energyGain: 8,
+  turns: 3,
+});
+
+/**
+ * Remove all HIDDEN_POWER_ variants from a list of move names and replace with
+ * one instance of HIDDEN_POWER_UNKNOWN. If the Pokemon does not know Hidden
+ * Power, do nothing.
+ */
+function removeHiddenPowerTypes(moves: string[]): string[] {
+  const movesWithoutHiddenPower = moves.filter(
+    (m) => !m.includes('HIDDEN_POWER_'),
+  );
+  if (movesWithoutHiddenPower.length === moves.length) return moves;
+
+  return [...movesWithoutHiddenPower, HIDDEN_POWER_UNKNOWN.moveId];
+}
+
 async function getGamemaster(): Promise<{
-  pokemon: Pokemon[];
+  pokemon: PokemonSpecies[];
   fastMoves: FastMove[];
   chargedMoves: ChargedMove[];
 }> {
@@ -38,9 +61,15 @@ async function getGamemaster(): Promise<{
   const pokemon = z
     .array(PokemonSpeciesSchema)
     .parse(gamemaster.pokemon)
+    // Fix monotype Pokemon who have a "second" type of 'none'
     .map((mon) => ({
       ...mon,
       types: mon.types.filter((t) => t !== 'none'),
+    }))
+    // Remove HIDDEN_POWER variants from fast moves
+    .map((mon) => ({
+      ...mon,
+      fastMoves: removeHiddenPowerTypes(mon.fastMoves),
     }))
     .filter(
       (mon) =>
@@ -62,6 +91,8 @@ async function getGamemaster(): Promise<{
         // Convert cooldown to turns, which is more usable
         .map((m) => ({ ...m, turns: m.cooldown / 500 })),
     )
+    .concat([HIDDEN_POWER_UNKNOWN])
+    .filter((m) => !m.moveId.includes('HIDDEN_POWER_'))
     .filter((m) => m.energyGain > 0 || m.moveId === 'STRUGGLE');
   const chargedMoves = z
     .array(ChargedMoveSchema)
