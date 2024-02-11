@@ -76,7 +76,7 @@ function getMoveCounts(
   fastMove: FastMove,
   chargedMove: ChargedMove,
 ): MoveCounts[] {
-  const moveCounts = [];
+  const moveCounts: MoveCounts[] = [];
   let residualEnergy = 0;
 
   // Number of cycles = lcm(CM energy cost, FM energy gain)
@@ -101,15 +101,13 @@ function getMoveCounts(
       remainingEnergy: residualEnergy,
     });
   }
-
-  // Cleaner UI
-  if (moveCounts.length === 1) {
-    moveCounts.push({
-      nFastMoves: '⟲',
-      nTurns: '⟲',
-      remainingEnergy: '⟲',
-    });
-  }
+  // if (moveCounts.length === 1) {
+  //   moveCounts.push({
+  //     nFastMoves: '⟲',
+  //     nTurns: '⟲',
+  //     remainingEnergy: '⟲',
+  //   });
+  // }
 
   return moveCounts;
 }

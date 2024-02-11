@@ -46,16 +46,18 @@ const pokemonIcon = `pokemon/${data.dex.toString().padStart(4, '0')}-${data.spec
       </div>
     </div>
   </div>
-  <div class="table">
+  <div class="table w-auto border-2 border-red-500 text-neutral-500">
     <div class="table-header-group">
       <div class="table-row">
-        <div class="table-cell">moves</div>
+        <div class="table-cell w-48 align-middle text-xs">
+          <!-- <p>Moves / Turns / Energy</p> -->
+        </div>
         {fastMoves.map((fastMove) => <FastMove move={fastMove.data} />)}
       </div>
     </div>
     {
       chargedMoves.map((chargedMove) => (
-        <div class="table-row">
+        <div class="table-row ">
           <ChargedMove
             move={chargedMove.data}
             stab={data.types.includes(chargedMove.data.type)}
