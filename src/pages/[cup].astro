@@ -19,7 +19,6 @@ const cupPokemon = await Promise.all(
 <html data-theme="sunset">
   <meta charset="utf-8" />
   <body class="m-2 flex flex-col items-center">
-    <!-- Navbar -->
     <div class="w-full flex-grow">
       <div class="navbar">
         <a
@@ -35,7 +34,6 @@ const cupPokemon = await Promise.all(
         </a>
       </div>
     </div>
-    <!-- My team -->
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
       <div class="flex flex-row px-1">
@@ -45,7 +43,6 @@ const cupPokemon = await Promise.all(
       </div>
     </div>
 
-    <!-- Content -->
     <div class="divider divider-primary italic">Matchups</div>
     {cupPokemon.map((p) => <Pokemon pokemon={p} />)}
     <div class="divider divider-primary italic">

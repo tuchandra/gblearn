@@ -51,12 +51,6 @@ async function withMoveset(
   };
 }
 
-export interface MoveCounts {
-  nFastMoves: number;
-  nTurns: number;
-  remainingEnergy: number;
-}
-
 function leastCommonMultiple(a: number, b: number): number {
   return Math.abs(a * b) / greatestCommonFactor(a, b);
 }
@@ -65,6 +59,12 @@ function greatestCommonFactor(a: number, b: number): number {
   // Euclid's algorithm
   if (b === 0) return a;
   return greatestCommonFactor(b, a % b); // Notice they're switched
+}
+
+export interface MoveCounts {
+  nFastMoves: number;
+  nTurns: number;
+  remainingEnergy: number;
 }
 
 /**
@@ -101,13 +101,6 @@ function getMoveCounts(
       remainingEnergy: residualEnergy,
     });
   }
-  // if (moveCounts.length === 1) {
-  //   moveCounts.push({
-  //     nFastMoves: '⟲',
-  //     nTurns: '⟲',
-  //     remainingEnergy: '⟲',
-  //   });
-  // }
 
   return moveCounts;
 }

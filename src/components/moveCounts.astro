@@ -8,12 +8,11 @@ interface Props {
 const { counts } = Astro.props;
 const someCounts = counts.slice(0, 4);
 const cycleLength = counts.length;
-const turnsPerMove = someCounts[0].nTurns / someCounts[0].nFastMoves;
 
 const fullCycle = someCounts.length === cycleLength ? '⟳' : '…';
 ---
 
-<div class="table-cell w-40 py-2 align-middle text-xs">
+<div class="table-cell w-28 py-2 text-xs md:align-middle">
   <p class="text-neutral-400">
     {someCounts.map((x) => x.nFastMoves).join(' - ')}
     {fullCycle}
