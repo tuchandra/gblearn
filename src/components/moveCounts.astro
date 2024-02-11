@@ -13,14 +13,12 @@ const turnsPerMove = someCounts[0].nTurns / someCounts[0].nFastMoves;
 const fullCycle = someCounts.length === cycleLength ? '⟳' : '…';
 ---
 
-<div class="table-cell w-40 pr-4 text-xs">
+<div class="table-cell w-40 py-2 align-middle text-xs">
   {
     // Two different ways to simplify the display -
     // `counts.length === 1` -- there is only one cycle
     // `turnsPerMove === 1` -- one-turn fast moves have the same number of turns
-    turnsPerMove === 1 && cycleLength === 1 ? (
-      <p class="text-neutral-400">{counts[0].nFastMoves} ⟳</p>
-    ) : turnsPerMove === 1 ? (
+    turnsPerMove === 1 ? (
       <p class="text-neutral-400">
         {someCounts.map((x) => x.nFastMoves).join(' - ')}
         {fullCycle}
@@ -28,11 +26,11 @@ const fullCycle = someCounts.length === cycleLength ? '⟳' : '…';
     ) : (
       <>
         <p class="text-neutral-400">
-          {someCounts.map((x) => `${x.nFastMoves}`).join(' - ')}
+          {someCounts.map((x) => x.nFastMoves).join(' - ')}
           {fullCycle}
         </p>
         <p class="text-neutral-500">
-          {someCounts.map((x) => `${x.nTurns}`).join(' - ')}
+          {someCounts.map((x) => x.nTurns).join(' - ')}
         </p>
       </>
     )
