@@ -7,14 +7,8 @@ interface Props {
 const { counts } = Astro.props;
 ---
 
-<span class="text-xs text-neutral-500">
-  <div>
-    {counts.map((x) => x.nFastMoves).join(', ')}
-  </div>
-  <div>
-    {counts.map((x) => x.nTurns).join(', ')}
-  </div>
-  <div>
-    {'+' + counts.map((x) => x.remainingEnergy).join(', +')}
-  </div>
-</span>
+<div class="table-cell text-xs text-neutral-500">
+  <p>{counts.map((x) => x.nFastMoves).join(', ')}</p>
+  <p>{counts.map((x) => x.nTurns).join(', ')}</p>
+  <p>{'+' + counts.map((x) => x.remainingEnergy).join(', +')}</p>
+</div>

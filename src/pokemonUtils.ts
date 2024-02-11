@@ -72,10 +72,10 @@ function greatestCommonFactor(a: number, b: number): number {
  * move several times in succession; return a variable-length array
  * depending on the number of charged moves before returning to 0 energy.
  */
-async function getMoveCounts(
+function getMoveCounts(
   fastMove: FastMove,
   chargedMove: ChargedMove,
-): Promise<MoveCounts[]> {
+): MoveCounts[] {
   const moveCounts = [];
   let residualEnergy = 0;
 

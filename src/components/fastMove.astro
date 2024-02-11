@@ -7,18 +7,18 @@ interface Props {
   move: FastMove;
 }
 const { move } = Astro.props;
+
+const energyText = `(+${move.energyGain} E / ${move.turns} T)`;
 ---
 
-<div class="flex flex-col">
-  <div class="inline-flex items-center">
-    <img
-      src={`types/${move.type}.png`}
-      alt={move.type}
-      class="h-4 w-4 rounded-full"
-    />
+<div class="table-cell align-middle">
+  <img
+    src={`types/${move.type}.png`}
+    alt={move.type}
+    class="inline h-4 w-4 rounded-full"
+  />
+  <div class="inline-flex flex-col align-middle">
     <span class="ml-1 text-sm">{move.name}</span>
+    <span class="text-xs">{energyText}</span>
   </div>
-  <span class="text-xs">
-    (+{move.energyGain} E / {move.turns} T)
-  </span>
 </div>
