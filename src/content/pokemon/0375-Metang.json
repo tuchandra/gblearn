@@ -18,7 +18,8 @@
   "chargedMoves": [
     "GYRO_BALL",
     "PSYCHIC",
-    "PSYSHOCK"
+    "PSYSHOCK",
+    "RETURN"
   ],
   "released": true,
   "tags": [

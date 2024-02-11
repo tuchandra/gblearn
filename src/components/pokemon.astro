@@ -6,12 +6,15 @@ import type { CollectionEntry } from 'astro:content';
 import FastMove from './fastMove.astro';
 import ChargedMove from './chargedMove.astro';
 import MoveCounts from './moveCounts.astro';
-import { getMoveCounts } from '../pokemonUtils';
+import { applyMovesetOverrides, getMoveCounts } from '../pokemonUtils';
+import { FastMoveName } from '../models';
 
 interface Props {
   pokemon: CollectionEntry<'pokemon'>;
 }
-const { data } = Astro.props.pokemon;
+
+const pokemon = applyMovesetOverrides(Astro.props.pokemon);
+const data = pokemon.data;
 
 const fastMoves = await getEntries(data.fastMoves);
 const chargedMoves = await getEntries(data.chargedMoves);
