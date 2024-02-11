@@ -57,17 +57,35 @@ export interface MoveCounts {
   remainingEnergy: number;
 }
 
+function leastCommonMultiple(a: number, b: number): number {
+  return Math.abs(a * b) / greatestCommonFactor(a, b);
+}
+
+function greatestCommonFactor(a: number, b: number): number {
+  if (b === 0) {
+    return a;
+  }
+  return greatestCommonFactor(b, a % b);
+}
+
+/**
+ * Compute the number of fast moves and turns to reach the same charged
+ * move several times in succession; return a variable-length array
+ * depending on the number of charged moves before returning to 0 energy.
+ */
 async function getMoveCounts(
   fastMove: FastMove,
   chargedMove: ChargedMove,
 ): Promise<MoveCounts[]> {
-  // const fastMove = await getFastMove(fast);
-  // const chargedMove = await getChargedMove(charged);
-
   const moveCounts = [];
   let residualEnergy = 0;
 
-  for (let i = 0; i <= 4; i++) {
+  // Number of cycles = lcm(CM energy cost, FM energy gain)
+  const nCycles =
+    leastCommonMultiple(chargedMove.energy, fastMove.energyGain) /
+    chargedMove.energy;
+
+  for (let i = 1; i <= nCycles; i++) {
     const energyNeeded = chargedMove.energy - residualEnergy;
 
     // How many fast moves & turns until the charged move?
@@ -82,6 +100,15 @@ async function getMoveCounts(
       nFastMoves: fastMoveCount,
       nTurns: fastMoveTurns,
       remainingEnergy: residualEnergy,
+    });
+  }
+
+  // Cleaner UI
+  if (moveCounts.length === 1) {
+    moveCounts.push({
+      nFastMoves: '⟲',
+      nTurns: '⟲',
+      remainingEnergy: '⟲',
     });
   }
 

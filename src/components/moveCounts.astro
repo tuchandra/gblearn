@@ -1,7 +1,4 @@
 ---
-import FastMove from './fastMove.astro';
-import ChargedMove from './chargedMove.astro';
-import { getMoveCounts } from '../pokemonUtils';
 import type { MoveCounts } from '../pokemonUtils';
 
 interface Props {
@@ -10,7 +7,7 @@ interface Props {
 const { counts } = Astro.props;
 ---
 
-<span class="font-mono text-xs text-neutral-500">
+<span class="text-xs text-neutral-500">
   <div>
     {counts.map((x) => x.nFastMoves).join(', ')}
   </div>
