@@ -42,246 +42,218 @@ interface MovesetChanges {
 }
 
 const MOVESET_OVERRIDES: Partial<Record<PokemonName, MovesetChanges>> = {
-  '0768-golisopod': {
-    fast: { remove: ['FURY_CUTTER', 'METAL_CLAW'] },
-    charged: { remove: ['AQUA_JET'] },
+  '0002-ivysaur': {
+    charged: { remove: ['SOLAR_BEAM'] },
   },
-  '0181-ampharos': {
-    fast: { remove: ['CHARGE_BEAM'] },
-  },
-  '0149-dragonite': {
-    fast: { remove: ['STEEL_WING'] },
-    charged: { remove: ['DRAGON_PULSE', 'HYPER_BEAM', 'DRACO_METEOR'] },
-  },
-  '0210-granbull': {
-    fast: { remove: ['BITE'] },
-  },
-  '0820-greedent': {
-    fast: { remove: ['BITE', 'TACKLE'] },
+  '0003-venusaur': {
+    fast: { remove: ['RAZOR_LEAF'] },
+    charged: { remove: ['PETAL_BLIZZARD', 'SOLAR_BEAM'] },
   },
   '0006-charizard': {
     fast: { remove: ['EMBER', 'AIR_SLASH'] },
     charged: { remove: ['FLAMETHROWER', 'OVERHEAT', 'FIRE_BLAST'] },
   },
-  '0250-ho_oh': {
-    fast: { keep: ['INCINERATE'] },
-    charged: { remove: ['FIRE_BLAST'] },
-  },
-  '0382-kyogre': {
-    charged: { remove: ['HYDRO_PUMP'] },
-  },
-  '0645-landorus_therian': {
-    fast: { remove: ['EXTRASENSORY'] },
-    charged: { remove: ['BULLDOZE'] },
-  },
-  '0249-lugia': {
-    fast: { remove: ['EXTRASENSORY'] },
-    charged: { remove: ['FUTURE_SIGHT'] },
-  },
-  '0473-mamoswine': {
-    charged: { remove: ['ANCIENT_POWER'] },
-  },
-  '0809-melmetal': {
-    charged: { remove: ['HYPER_BEAM', 'FLASH_CANNON'] },
-  },
-  '0376-metagross': {
-    charged: { remove: ['PSYCHIC', 'FLASH_CANNON'] },
-  },
-  '0150-mewtwo': {
-    charged: { remove: ['PSYCHIC', 'HYPER_BEAM'] },
-  },
-  '0464-rhyperior': {
-    charged: { remove: ['SKULL_BASH', 'STONE_EDGE'] },
-  },
-  '0658-greninja': {
-    charged: { keep: ['NIGHT_SLASH', 'HYDRO_CANNON'] },
-  },
-  '0130-gyarados': {
-    fast: { remove: ['BITE'] },
-    charged: { remove: ['TWISTER', 'DRAGON_PULSE'] },
-  },
-  '0089-muk_alolan': {
-    fast: { remove: ['BITE'] },
-  },
-  '0038-ninetales_alolan': {
-    fast: { remove: ['FEINT_ATTACK'] },
-    charged: { remove: ['BLIZZARD', 'ICE_BEAM'] },
-  },
   '0018-pidgeot': {
     fast: { remove: ['AIR_SLASH'] },
     charged: { remove: ['AIR_CUTTER', 'HURRICANE'] },
-  },
-  '0062-poliwrath': {
-    fast: { remove: ['ROCK_SMASH', 'BUBBLE'] },
-    charged: { remove: ['HYDRO_PUMP', 'SUBMISSION'] },
-  },
-  '0302-sableye': {
-    charged: { keep: ['FOUL_PLAY', 'POWER_GEM', 'RETURN'] },
   },
   '0028-sandslash_alolan': {
     fast: { remove: ['METAL_CLAW'] },
     charged: { remove: ['BULLDOZE', 'GYRO_BALL'] },
   },
-  '0911-skeledirge': {
+  '0030-nidorina': {
     fast: { remove: ['BITE'] },
   },
-  '0497-serperior': {
-    charged: { remove: ['GRASS_KNOT'] },
+  '0033-nidorino': {
+    charged: { remove: ['HORN_ATTACK'] },
   },
-  '0618-stunfisk_galarian': {
-    fast: { remove: ['METAL_CLAW'] },
+  '0038-ninetales_alolan': {
+    fast: { remove: ['FEINT_ATTACK'] },
+    charged: { remove: ['BLIZZARD', 'ICE_BEAM'] },
+  },
+  '0057-primeape': {
+    fast: { remove: ['KARATE_CHOP'] },
+  },
+  '0062-poliwrath': {
+    fast: { remove: ['ROCK_SMASH', 'BUBBLE'] },
+    charged: { remove: ['HYDRO_PUMP', 'SUBMISSION'] },
   },
   '0071-victreebel': {
     fast: { remove: ['ACID'] },
     charged: { remove: ['SOLAR_BEAM'] },
   },
-  '0340-whiscash': {
-    charged: { remove: ['WATER_PULSE'] },
+  '0073-tentacruel': {
+    fast: { keep: ['POISON_JAB'] },
   },
-  '0288-vigoroth': {
-    fast: { remove: ['SCRATCH'] },
-    charged: { remove: ['BRICK_BREAK'] },
-  },
-  '0379-registeel': {
-    fast: { keep: ['LOCK_ON'] },
-  },
-  '0208-steelix': {
-    fast: { keep: ['DRAGON_TAIL'] },
-  },
-  '0260-swampert': {
-    fast: { keep: ['MUD_SHOT'] },
-    charged: { remove: ['MUDDY_WATER'] },
-  },
-  '0483-dialga': {
-    fast: { keep: ['DRAGON_BREATH'] },
-  },
-  '0530-excadrill': {
-    fast: { remove: ['METAL_CLAW'] },
-    charged: { remove: ['EARTHQUAKE'] },
-  },
-  '0143-snorlax': {
-    charged: { remove: ['HYPER_BEAM', 'HEAVY_SLAM', 'EARTHQUAKE'] },
-  },
-  '0700-sylveon': {
-    charged: { remove: ['DAZZLING_GLEAM'] },
-  },
-  '0468-togekiss': {
-    fast: { remove: ['HIDDEN_POWER'] },
-  },
-  '0716-xerneas': {
-    fast: { keep: ['GEOMANCY'] },
-  },
-  '0717-yveltal': {
-    charged: { remove: ['PSYCHIC', 'HYPER_BEAM'] },
-  },
-  '0893-zarude': {
-    charged: { remove: ['ENERGY_BALL'] },
-  },
-  '0718-zygarde_complete': {
-    fast: { remove: ['BITE'] },
-    charged: { remove: ['BULLDOZE', 'HYPER_BEAM'] },
-  },
-  '0445-garchomp': {
-    charged: { remove: ['EARTHQUAKE'] },
-  },
-  '0383-groudon': {
-    charged: { remove: ['FIRE_BLAST'] },
-  },
-  '0663-talonflame': {
-    fast: { keep: ['INCINERATE'] },
-    charged: { remove: ['HURRICANE', 'FIRE_BLAST'] },
-  },
-  '0148-dragonair': {
-    charged: { remove: ['WRAP'] },
-  },
-  '0888-zacian': {
-    fast: { remove: ['METAL_CLAW', 'FIRE_FANG'] },
-  },
-  '0334-altaria': {
-    charged: { remove: ['DRAGON_PULSE', 'DAZZLING_GLEAM'] },
-  },
-  '0980-clodsire': {
-    charged: { remove: ['WATER_PULSE'] },
+  '0082-magneton': {
+    fast: { remove: ['SPARK'] },
   },
   '0087-dewgong': {
     charged: { remove: ['AURORA_BEAM', 'AQUA_JET', 'BLIZZARD', 'WATER_PULSE'] },
+  },
+  '0089-muk_alolan': {
+    fast: { remove: ['BITE'] },
   },
   '0093-haunter': {
     fast: { remove: ['LICK'] },
     charged: { remove: ['DARK_PULSE'] },
   },
-  '0002-ivysaur': {
-    charged: { remove: ['SOLAR_BEAM'] },
+  '0108-lickitung': {
+    charged: { remove: ['STOMP', 'HYPER_BEAM'] },
   },
-  '0082-magneton': {
-    fast: { remove: ['SPARK'] },
+  '0110-weezing_galarian': {
+    fast: { remove: ['TACKLE'] },
+    charged: { remove: ['HYPER_BEAM'] },
   },
-  '0259-marshtomp': {
-    fast: { remove: ['WATER_GUN'] },
+  '0130-gyarados': {
+    fast: { remove: ['BITE'] },
+    charged: { remove: ['TWISTER', 'DRAGON_PULSE'] },
   },
-  '0375-metang': {
-    charged: { keep: ['RETURN', 'GYRO_BALL', 'PSYSHOCK'] },
+  '0143-snorlax': {
+    charged: { remove: ['HYPER_BEAM', 'HEAVY_SLAM', 'EARTHQUAKE'] },
+  },
+  '0148-dragonair': {
+    charged: { remove: ['WRAP'] },
+  },
+  '0149-dragonite': {
+    charged: { remove: ['DRAGON_PULSE', 'HYPER_BEAM', 'DRACO_METEOR'] },
+    fast: { remove: ['STEEL_WING'] },
+  },
+  '0150-mewtwo': {
+    charged: { remove: ['PSYCHIC', 'HYPER_BEAM'] },
+  },
+  '0176-togetic': {
+    fast: { remove: ['EXTRASENSORY', 'HIDDEN_POWER'] },
+  },
+  '0181-ampharos': {
+    fast: { remove: ['CHARGE_BEAM'] },
+  },
+  '0207-gligar': {
+    fast: { remove: ['FURY_CUTTER'] },
+  },
+  '0208-steelix': {
+    fast: { keep: ['DRAGON_TAIL'] },
+  },
+  '0210-granbull': {
+    fast: { remove: ['BITE'] },
   },
   '0221-piloswine': {
     fast: { remove: ['ICE_SHARD'] },
     charged: { remove: ['BULLDOZE'] },
   },
-  '0364-sealeo': {
-    fast: { remove: ['WATER_GUN'] },
-    charged: { keep: ['RETURN', 'AURORA_BEAM', 'WATER_PULSE', 'BODY_SLAM'] },
-  },
-  '0452-drapion': {
-    fast: { remove: ['ICE_FANG', 'INFESTATION'] },
-  },
-  '0426-drifblim': {
-    charged: { remove: ['OMINOUS_WIND'] },
-  },
-  '0395-empoleon': {
-    charged: { remove: ['HYDRO_PUMP'] },
-  },
-  '0475-gallade': {
-    charged: { remove: ['SYNCHRONOISE'] },
-  },
-  '0423-gastrodon': {
-    fast: { remove: ['HIDDEN_POWER'] },
-  },
-  '0448-lucario': {
-    fast: { remove: ['BULLET_PUNCH'] },
-  },
-  '0413-wormadam_trash': {
-    fast: { remove: ['BUG_BITE'] },
-    charged: { remove: ['PSYBEAM'] },
-  },
-  '0634-zweilous': {
-    fast: { remove: ['BITE'] },
-  },
-  '0030-nidorina': {
-    fast: { remove: ['BITE'] },
-  },
-  '0910-crocalor': {
-    fast: { remove: ['BITE'] },
-  },
-  '0057-primeape': {
-    fast: { remove: ['KARATE_CHOP'] },
-  },
-  '0176-togetic': {
-    fast: { remove: ['EXTRASENSORY', 'HIDDEN_POWER'] },
-  },
-  '0207-gligar': {
-    fast: { remove: ['FURY_CUTTER'] },
-  },
-  '0108-lickitung': {
-    charged: { remove: ['STOMP', 'HYPER_BEAM'] },
-  },
   '0226-mantine': {
     charged: { remove: ['WATER_PULSE'] },
+  },
+  '0249-lugia': {
+    fast: { remove: ['EXTRASENSORY'] },
+    charged: { remove: ['FUTURE_SIGHT'] },
+  },
+  '0250-ho_oh': {
+    fast: { keep: ['INCINERATE'] },
+    charged: { remove: ['FIRE_BLAST'] },
+  },
+  '0259-marshtomp': {
+    fast: { remove: ['WATER_GUN'] },
+  },
+  '0260-swampert': {
+    fast: { keep: ['MUD_SHOT'] },
+    charged: { remove: ['MUDDY_WATER'] },
   },
   '0279-pelipper': {
     fast: { remove: ['WATER_GUN'] },
     charged: { remove: ['HYDRO_PUMP'] },
   },
-  '0033-nidorino': {
-    charged: { remove: ['HORN_ATTACK'] },
+  '0288-vigoroth': {
+    fast: { remove: ['SCRATCH'] },
+    charged: { remove: ['BRICK_BREAK'] },
+  },
+  '0302-sableye': {
+    charged: { keep: ['FOUL_PLAY', 'POWER_GEM', 'RETURN'] },
+  },
+  '0303-mawile': {
+    fast: { remove: ['BITE', 'ICE_FANG'] },
+  },
+  '0330-flygon': {
+    charged: { remove: ['EARTH_POWER', 'BOOMBURST'] },
+  },
+  '0334-altaria': {
+    charged: { remove: ['DRAGON_PULSE', 'DAZZLING_GLEAM'] },
+  },
+  '0340-whiscash': {
+    charged: { remove: ['WATER_PULSE'] },
+  },
+  '0364-sealeo': {
+    fast: { remove: ['WATER_GUN'] },
+    charged: { keep: ['RETURN', 'AURORA_BEAM', 'WATER_PULSE', 'BODY_SLAM'] },
+  },
+  '0365-walrein': {
+    fast: { keep: ['POWDER_SNOW'] },
+    charged: { keep: ['ICICLE_SPEAR', 'EARTHQUAKE'] },
+  },
+  '0375-metang': {
+    charged: { keep: ['RETURN', 'GYRO_BALL', 'PSYSHOCK'] },
+  },
+  '0376-metagross': {
+    charged: { remove: ['PSYCHIC', 'FLASH_CANNON'] },
+  },
+  '0379-registeel': {
+    fast: { keep: ['LOCK_ON'] },
+  },
+  '0382-kyogre': {
+    charged: { remove: ['HYDRO_PUMP'] },
+  },
+  '0383-groudon': {
+    charged: { remove: ['FIRE_BLAST'] },
+  },
+  '0395-empoleon': {
+    charged: { remove: ['HYDRO_PUMP'] },
+  },
+  '0413-wormadam_trash': {
+    fast: { remove: ['BUG_BITE'] },
+    charged: { remove: ['PSYBEAM'] },
+  },
+  '0423-gastrodon': {
+    fast: { remove: ['HIDDEN_POWER'] },
+  },
+  '0426-drifblim': {
+    charged: { remove: ['OMINOUS_WIND'] },
+  },
+  '0445-garchomp': {
+    charged: { remove: ['EARTHQUAKE'] },
+  },
+  '0448-lucario': {
+    fast: { remove: ['BULLET_PUNCH'] },
+  },
+  '0452-drapion': {
+    fast: { remove: ['ICE_FANG', 'INFESTATION'] },
+  },
+  '0454-toxicroak': {
+    fast: { remove: ['POISON_JAB'] },
+  },
+  '0462-magnezone': {
+    fast: { remove: ['SPARK'] },
+  },
+  '0464-rhyperior': {
+    charged: { remove: ['SKULL_BASH', 'STONE_EDGE'] },
+  },
+  '0468-togekiss': {
+    fast: { remove: ['HIDDEN_POWER'] },
+  },
+  '0473-mamoswine': {
+    charged: { remove: ['ANCIENT_POWER'] },
+  },
+  '0475-gallade': {
+    charged: { remove: ['SYNCHRONOISE'] },
+  },
+  '0483-dialga': {
+    fast: { keep: ['DRAGON_BREATH'] },
+  },
+  '0497-serperior': {
+    charged: { remove: ['GRASS_KNOT'] },
+  },
+  '0530-excadrill': {
+    fast: { remove: ['METAL_CLAW'] },
+    charged: { remove: ['EARTHQUAKE'] },
   },
   '0589-escavalier': {
     fast: { remove: ['BUG_BITE'] },
@@ -289,78 +261,106 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonName, MovesetChanges>> = {
   '0598-ferrothorn': {
     fast: { remove: ['METAL_CLAW'] },
   },
-  '0330-flygon': {
-    charged: { remove: ['EARTH_POWER', 'BOOMBURST'] },
-  },
   '0612-haxorus': {
     charged: { remove: ['DRAGON_CLAW'] },
   },
-  '0462-magnezone': {
-    fast: { remove: ['SPARK'] },
+  '0618-stunfisk_galarian': {
+    fast: { remove: ['METAL_CLAW'] },
   },
-  '0303-mawile': {
-    fast: { remove: ['BITE', 'ICE_FANG'] },
+  '0634-zweilous': {
+    fast: { remove: ['BITE'] },
   },
-  '0788-tapu_fini': {
-    fast: { remove: ['HIDDEN_POWER'] },
+  '0638-cobalion': {
+    fast: { keep: ['DOUBLE_KICK'] },
   },
-  '0776-turtonator': {
-    fast: { remove: ['EMBER', 'FIRE_SPIN'] },
+  '0640-virizion': {
+    fast: { keep: ['DOUBLE_KICK'] },
   },
-  '0110-weezing_galarian': {
-    fast: { remove: ['TACKLE'] },
-    charged: { remove: ['HYPER_BEAM'] },
+  '0645-landorus_therian': {
+    fast: { remove: ['EXTRASENSORY'] },
+    charged: { remove: ['BULLDOZE'] },
   },
-  '0454-toxicroak': {
-    fast: { remove: ['POISON_JAB'] },
+  '0658-greninja': {
+    charged: { keep: ['NIGHT_SLASH', 'HYDRO_CANNON'] },
+  },
+  '0663-talonflame': {
+    fast: { keep: ['INCINERATE'] },
+    charged: { remove: ['HURRICANE', 'FIRE_BLAST'] },
+  },
+  '0700-sylveon': {
+    charged: { remove: ['DAZZLING_GLEAM'] },
   },
   '0703-carbink': {
     fast: { remove: ['TACKLE'] },
     charged: { remove: ['POWER_GEM'] },
   },
+  '0716-xerneas': {
+    fast: { keep: ['GEOMANCY'] },
+  },
+  '0717-yveltal': {
+    charged: { remove: ['PSYCHIC', 'HYPER_BEAM'] },
+  },
+  '0718-zygarde_complete': {
+    fast: { remove: ['BITE'] },
+    charged: { remove: ['BULLDOZE', 'HYPER_BEAM'] },
+  },
   '0737-charjabug': {
     fast: { remove: ['SPARK'] },
   },
-  '0003-venusaur': {
-    fast: { remove: ['RAZOR_LEAF'] },
-    charged: { remove: ['PETAL_BLIZZARD', 'SOLAR_BEAM'] },
+  '0768-golisopod': {
+    fast: { remove: ['FURY_CUTTER', 'METAL_CLAW'] },
+    charged: { remove: ['AQUA_JET'] },
   },
-  '0640-virizion': {
-    fast: { keep: ['DOUBLE_KICK'] },
+  '0776-turtonator': {
+    fast: { remove: ['EMBER', 'FIRE_SPIN'] },
   },
-  '0638-cobalion': {
-    fast: { keep: ['DOUBLE_KICK'] },
+  '0788-tapu_fini': {
+    fast: { remove: ['HIDDEN_POWER'] },
   },
-  '0073-tentacruel': {
-    fast: { keep: ['POISON_JAB'] },
+  '0809-melmetal': {
+    charged: { remove: ['HYPER_BEAM', 'FLASH_CANNON'] },
   },
-  '0365-walrein': {
-    fast: { keep: ['POWDER_SNOW'] },
-    charged: { keep: ['ICICLE_SPEAR', 'EARTHQUAKE'] },
+  '0820-greedent': {
+    fast: { remove: ['BITE', 'TACKLE'] },
+  },
+  '0888-zacian': {
+    fast: { remove: ['METAL_CLAW', 'FIRE_FANG'] },
+  },
+  '0893-zarude': {
+    charged: { remove: ['ENERGY_BALL'] },
+  },
+  '0910-crocalor': {
+    fast: { remove: ['BITE'] },
+  },
+  '0911-skeledirge': {
+    fast: { remove: ['BITE'] },
+  },
+  '0980-clodsire': {
+    charged: { remove: ['WATER_PULSE'] },
   },
 };
 
 const ALWAYS_EXCLUDED_FAST_MOVES: FastMoveName[] = [
-  'ZEN_HEADBUTT',
+  'ACID',
+  'ASTONISH',
+  'CHARGE_BEAM',
   'FEINT_ATTACK',
-  'ROCK_SMASH',
   'FROST_BREATH',
+  'IRON_TAIL',
   'LOW_KICK',
   'PECK',
-  'YAWN',
-  'ASTONISH',
-  'IRON_TAIL',
-  'CHARGE_BEAM',
-  'ACID',
-  'TAKE_DOWN',
+  'ROCK_SMASH',
   'SUCKER_PUNCH',
+  'TAKE_DOWN',
+  'YAWN',
+  'ZEN_HEADBUTT',
 ];
 const ALWAYS_EXCLUDED_CHARGED_MOVES: ChargedMoveName[] = [
-  'TWISTER',
   'GIGA_IMPACT',
   'GYRO_BALL',
   'HEAT_WAVE',
   'LOW_SWEEP',
+  'TWISTER',
 ];
 
 function applyMovesetOverrides(
