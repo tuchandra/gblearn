@@ -8,7 +8,7 @@
     "build": "tsc && bunx --bun astro build",
     "preview": "bunx --bun astro preview",
     "lint": "bunx biome lint . --write --unsafe",
-    "format": "bunx --bun prettier --write 'src/**/*.{astro,js,ts,tsx,md}'"
+    "format": "bunx --bun prettier --write '**/*.{astro,js,mjs,ts,tsx,md}'"
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.1.0",
