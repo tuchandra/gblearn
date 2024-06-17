@@ -4,8 +4,7 @@
  * tldr:
  * - invoke with `bun scripts/fetchMetass.ts`
  * - requires bun, since we use the file writing API
- * - (over)writes JSON to:
- *   - src/ ... tbd
+ * - (over)writes JSON to src/content/metas/<name>.json
  *
  * From the PVPoke repo, fetch the file describing the meta for a handful
  * of different cups (great, ultra, master, whatever themed cups exist).
@@ -25,6 +24,7 @@ export enum CupName {
   summer = 'summer',
   premiermaster = 'premiermaster',
   premierultra = 'premierultra',
+  // these aren't in PVPoke yet, later this season probably?
   // fossil = 'fossil',
   // fantasy = 'fantasy',
 }
