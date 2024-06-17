@@ -14,12 +14,16 @@
       "recommended": true,
       "style": {
         "noUnusedTemplateLiteral": "off",
-        "useImportType": "error"
+        "useImportType": "error",
+        "useFragmentSyntax": "error"
       },
       "correctness": {
-        "noUnusedImports": "error"
+        "noUnusedImports": "off"
       },
-      "nursery": {},
+      "nursery": {
+        "useThrowNewError": "error",
+        "useSortedClasses": "error"
+      },
       "performance": {
         "noAccumulatingSpread": "off"
       }

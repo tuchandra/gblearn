@@ -78,6 +78,19 @@ const CupMetaSchema = z.array(
   }),
 );
 
+enum CupName {
+  great = 'great',
+  ultra = 'ultra',
+  master = 'master',
+  remix = 'remix',
+  summer = 'summer',
+  premiermaster = 'premiermaster',
+  premierultra = 'premierultra',
+  // these aren't in PVPoke yet, later this season probably?
+  // fossil = 'fossil',
+  // fantasy = 'fantasy',
+}
+
 type PokemonSpecies = z.infer<typeof PokemonSpeciesSchema>;
 type FastMove = z.infer<typeof FastMoveSchema>;
 type ChargedMove = z.infer<typeof ChargedMoveSchema>;
@@ -99,5 +112,6 @@ export {
   ChargedMoveSchema,
   CupMetaSchema,
 };
+export { CupName };
 export type { PokemonSpecies, FastMove, ChargedMove, Move, CupMeta };
 export type { PokemonName, FastMoveName, ChargedMoveName };

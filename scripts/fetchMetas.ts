@@ -10,24 +10,11 @@
  * of different cups (great, ultra, master, whatever themed cups exist).
  */
 
-import { CupMetaSchema, type PokemonSpecies } from '../src/models';
+import { CupMetaSchema, CupName, type PokemonSpecies } from '../src/models';
 import PokemonIndex from '../src/content/_pokemon.json';
 
 const GITHUB_BASE =
   'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/groups/';
-
-export enum CupName {
-  great = 'great',
-  ultra = 'ultra',
-  master = 'master',
-  remix = 'remix',
-  summer = 'summer',
-  premiermaster = 'premiermaster',
-  premierultra = 'premierultra',
-  // these aren't in PVPoke yet, later this season probably?
-  // fossil = 'fossil',
-  // fantasy = 'fantasy',
-}
 
 function cupUrl(cup: CupName) {
   return `${GITHUB_BASE}${cup}.json`;
@@ -93,4 +80,4 @@ async function main() {
   Promise.all(Object.values(CupName).map(getOrUpdateMeta));
 }
 
-main();
+// main();

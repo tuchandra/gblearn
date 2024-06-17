@@ -1,6 +1,7 @@
 ---
 import { getEntry } from 'astro:content';
-import { CupName } from '../../scripts/fetchMetas';
+import Pokemon from '../components/pokemon.astro';
+import { CupName } from '../models';
 
 export function getStaticPaths() {
   return Object.values(CupName).map((cup) => ({ params: { cup } }));
@@ -11,7 +12,7 @@ const cupMeta = await getEntry('metas', cup);
 const cupPokemon = await Promise.all(
   cupMeta.data.map(async (p) => {
     return await getEntry(p.pokemon);
-  }),
+  })
 );
 ---
 
