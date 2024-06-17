@@ -2,7 +2,7 @@
   "moveId": "SPARK",
   "name": "Spark",
   "type": "electric",
-  "power": 6,
+  "power": 5,
   "energyGain": 7,
   "turns": 2
 }

@@ -19,9 +19,10 @@
     "SLUDGE_BOMB",
     "ACROBATICS",
     "FELL_STINGER",
-    "DRAGON_PULSE"
+    "DRAGON_PULSE",
+    "DRAGON_CLAW"
   ],
-  "released": false,
+  "released": true,
   "tags": [
     "ultrabeast"
   ]

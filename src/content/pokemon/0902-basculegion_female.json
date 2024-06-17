@@ -1,0 +1,22 @@
+{
+  "dex": 902,
+  "speciesName": "Basculegion (Female)",
+  "speciesId": "basculegion_female",
+  "baseStats": {
+    "atk": 199,
+    "def": 144,
+    "hp": 260
+  },
+  "types": [
+    "water",
+    "ghost"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false,
+  "tags": []
+}

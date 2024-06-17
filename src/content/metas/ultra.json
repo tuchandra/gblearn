@@ -9,6 +9,15 @@
     ]
   },
   {
+    "speciesId": "annihilape",
+    "pokemon": "0979-annihilape",
+    "fastMove": "COUNTER",
+    "chargedMoves": [
+      "ICE_PUNCH",
+      "SHADOW_BALL"
+    ]
+  },
+  {
     "speciesId": "charizard",
     "pokemon": "0006-charizard",
     "fastMove": "WING_ATTACK",
@@ -248,7 +257,7 @@
     "fastMove": "WATER_GUN",
     "chargedMoves": [
       "SURF",
-      "MOONBLAST"
+      "NATURES_MADNESS"
     ]
   },
   {
@@ -315,12 +324,12 @@
     ]
   },
   {
-    "speciesId": "annihilape",
-    "pokemon": "0979-annihilape",
-    "fastMove": "COUNTER",
+    "speciesId": "feraligatr",
+    "pokemon": "0160-feraligatr",
+    "fastMove": "SHADOW_CLAW",
     "chargedMoves": [
-      "ICE_PUNCH",
-      "SHADOW_BALL"
+      "HYDRO_CANNON",
+      "ICE_BEAM"
     ]
   }
 ]

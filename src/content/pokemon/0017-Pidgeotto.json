@@ -20,5 +20,8 @@
     "AIR_CUTTER",
     "TWISTER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

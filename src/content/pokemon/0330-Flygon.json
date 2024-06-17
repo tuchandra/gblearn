@@ -13,7 +13,8 @@
   ],
   "fastMoves": [
     "DRAGON_TAIL",
-    "MUD_SHOT"
+    "MUD_SHOT",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "DRAGON_CLAW",

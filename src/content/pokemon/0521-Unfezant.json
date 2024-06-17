@@ -20,5 +20,8 @@
     "HYPER_BEAM",
     "SKY_ATTACK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

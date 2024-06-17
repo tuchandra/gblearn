@@ -17,7 +17,8 @@
   "chargedMoves": [
     "FOCUS_BLAST",
     "LOW_SWEEP",
-    "BODY_SLAM"
+    "BODY_SLAM",
+    "BRICK_BREAK"
   ],
   "released": true,
   "tags": [

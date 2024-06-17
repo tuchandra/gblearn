@@ -12,7 +12,8 @@
   ],
   "fastMoves": [
     "LICK",
-    "TAKE_DOWN"
+    "TAKE_DOWN",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "THUNDERBOLT",

@@ -14,7 +14,8 @@
   "fastMoves": [
     "SPARK",
     "THUNDER_SHOCK",
-    "VOLT_SWITCH"
+    "VOLT_SWITCH",
+    "METAL_SOUND"
   ],
   "chargedMoves": [
     "DISCHARGE",

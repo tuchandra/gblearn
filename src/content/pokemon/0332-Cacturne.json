@@ -13,7 +13,8 @@
   ],
   "fastMoves": [
     "POISON_JAB",
-    "SUCKER_PUNCH"
+    "SUCKER_PUNCH",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "DARK_PULSE",

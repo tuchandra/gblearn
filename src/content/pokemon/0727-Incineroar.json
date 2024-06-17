@@ -20,7 +20,9 @@
     "FIRE_BLAST",
     "FLAME_CHARGE",
     "DARK_PULSE",
-    "BLAZE_KICK"
+    "BLAZE_KICK",
+    "BLAST_BURN",
+    "DARKEST_LARIAT"
   ],
   "released": true,
   "tags": [

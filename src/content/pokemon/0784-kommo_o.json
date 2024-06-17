@@ -19,7 +19,8 @@
     "DRAGON_CLAW",
     "CLOSE_COMBAT",
     "FLAMETHROWER",
-    "BOOMBURST"
+    "BOOMBURST",
+    "BRICK_BREAK"
   ],
   "released": true
 }

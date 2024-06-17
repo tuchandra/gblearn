@@ -14,7 +14,8 @@
     "BITE",
     "WATER_GUN",
     "WATERFALL",
-    "ICE_FANG"
+    "ICE_FANG",
+    "SHADOW_CLAW"
   ],
   "chargedMoves": [
     "CRUNCH",

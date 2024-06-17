@@ -17,7 +17,8 @@
   "chargedMoves": [
     "POWER_UP_PUNCH",
     "CRABHAMMER",
-    "PAYBACK"
+    "PAYBACK",
+    "BRICK_BREAK"
   ],
   "released": true
 }

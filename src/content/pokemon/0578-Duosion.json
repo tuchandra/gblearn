@@ -19,5 +19,8 @@
     "NIGHT_SHADE",
     "THUNDER"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

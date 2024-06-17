@@ -19,7 +19,8 @@
     "POWER_UP_PUNCH",
     "CRABHAMMER",
     "PAYBACK",
-    "ICE_PUNCH"
+    "ICE_PUNCH",
+    "BRICK_BREAK"
   ],
   "released": true
 }

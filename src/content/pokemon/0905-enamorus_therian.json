@@ -1,0 +1,28 @@
+{
+  "dex": 905,
+  "speciesName": "Enamorus (Therian)",
+  "speciesId": "enamorus_therian",
+  "baseStats": {
+    "atk": 250,
+    "def": 201,
+    "hp": 179
+  },
+  "types": [
+    "fairy",
+    "flying"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "ZEN_HEADBUTT",
+    "FAIRY_WIND"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "FLY",
+    "GRASS_KNOT"
+  ],
+  "released": false,
+  "tags": [
+    "legendary"
+  ]
+}

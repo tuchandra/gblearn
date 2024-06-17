@@ -12,7 +12,8 @@
   ],
   "fastMoves": [
     "MUD_SHOT",
-    "SCRATCH"
+    "SCRATCH",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "DIG",

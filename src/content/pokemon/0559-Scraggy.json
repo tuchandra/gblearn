@@ -18,7 +18,8 @@
   "chargedMoves": [
     "ACID_SPRAY",
     "BRICK_BREAK",
-    "FOUL_PLAY"
+    "FOUL_PLAY",
+    "THUNDER_PUNCH"
   ],
   "released": true
 }

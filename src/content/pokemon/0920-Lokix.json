@@ -13,7 +13,8 @@
   ],
   "fastMoves": [
     "BUG_BITE",
-    "SUCKER_PUNCH"
+    "SUCKER_PUNCH",
+    "COUNTER"
   ],
   "chargedMoves": [
     "X_SCISSOR",

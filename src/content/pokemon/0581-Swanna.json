@@ -18,7 +18,8 @@
   "chargedMoves": [
     "ICE_BEAM",
     "BUBBLE_BEAM",
-    "HURRICANE"
+    "HURRICANE",
+    "FLY"
   ],
   "released": true,
   "tags": [

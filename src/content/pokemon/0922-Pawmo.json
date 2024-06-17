@@ -18,7 +18,8 @@
   "chargedMoves": [
     "THUNDERBOLT",
     "DISCHARGE",
-    "WILD_CHARGE"
+    "WILD_CHARGE",
+    "THUNDER_PUNCH"
   ],
   "released": true
 }

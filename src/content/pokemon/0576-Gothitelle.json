@@ -19,5 +19,8 @@
     "FUTURE_SIGHT",
     "PSYCHIC"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -12,7 +12,8 @@
   ],
   "fastMoves": [
     "BITE",
-    "TACKLE"
+    "TACKLE",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "BODY_SLAM",

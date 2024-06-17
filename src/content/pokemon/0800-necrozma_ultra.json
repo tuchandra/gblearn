@@ -12,10 +12,15 @@
     "dragon"
   ],
   "fastMoves": [
-    "STRUGGLE"
+    "METAL_CLAW",
+    "PSYCHO_CUT",
+    "SHADOW_CLAW"
   ],
   "chargedMoves": [
-    "STRUGGLE"
+    "DARK_PULSE",
+    "FUTURE_SIGHT",
+    "IRON_HEAD",
+    "OUTRAGE"
   ],
   "released": false,
   "tags": [

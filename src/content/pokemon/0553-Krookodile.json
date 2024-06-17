@@ -18,7 +18,8 @@
   "chargedMoves": [
     "EARTHQUAKE",
     "CRUNCH",
-    "OUTRAGE"
+    "OUTRAGE",
+    "BRICK_BREAK"
   ],
   "released": true
 }

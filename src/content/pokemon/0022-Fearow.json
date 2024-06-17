@@ -19,7 +19,8 @@
     "AERIAL_ACE",
     "DRILL_RUN",
     "SKY_ATTACK",
-    "TWISTER"
+    "TWISTER",
+    "FLY"
   ],
   "released": true
 }

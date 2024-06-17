@@ -1,0 +1,22 @@
+{
+  "dex": 902,
+  "speciesName": "Basculegion (Male)",
+  "speciesId": "basculegion_male",
+  "baseStats": {
+    "atk": 217,
+    "def": 144,
+    "hp": 260
+  },
+  "types": [
+    "water",
+    "ghost"
+  ],
+  "fastMoves": [
+    "SPLASH"
+  ],
+  "chargedMoves": [
+    "STRUGGLE"
+  ],
+  "released": false,
+  "tags": []
+}

@@ -12,7 +12,8 @@
   ],
   "fastMoves": [
     "ROCK_SMASH",
-    "TACKLE"
+    "TACKLE",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "DIG",

@@ -14,7 +14,8 @@
   "fastMoves": [
     "CHARGE_BEAM",
     "SPARK",
-    "VOLT_SWITCH"
+    "VOLT_SWITCH",
+    "METAL_SOUND"
   ],
   "chargedMoves": [
     "FLASH_CANNON",

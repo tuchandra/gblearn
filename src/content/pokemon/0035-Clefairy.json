@@ -17,7 +17,8 @@
   "chargedMoves": [
     "BODY_SLAM",
     "DISARMING_VOICE",
-    "MOONBLAST"
+    "MOONBLAST",
+    "SWIFT"
   ],
   "released": true
 }

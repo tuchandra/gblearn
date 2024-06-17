@@ -2,7 +2,7 @@
   "moveId": "SHADOW_BONE",
   "name": "Shadow Bone",
   "type": "ghost",
-  "power": 75,
+  "power": 80,
   "energy": 45,
   "buffs": [
     0,

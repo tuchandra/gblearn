@@ -20,5 +20,8 @@
     "AERIAL_ACE",
     "SKY_ATTACK"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

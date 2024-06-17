@@ -20,7 +20,8 @@
     "THUNDERBOLT",
     "DISCHARGE",
     "WILD_CHARGE",
-    "CLOSE_COMBAT"
+    "CLOSE_COMBAT",
+    "THUNDER_PUNCH"
   ],
   "released": true
 }

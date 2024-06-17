@@ -12,7 +12,8 @@
   ],
   "fastMoves": [
     "MUD_SHOT",
-    "STRUGGLE_BUG"
+    "STRUGGLE_BUG",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "CRUNCH",

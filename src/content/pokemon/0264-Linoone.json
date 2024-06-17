@@ -12,7 +12,8 @@
   ],
   "fastMoves": [
     "SHADOW_CLAW",
-    "TACKLE"
+    "TACKLE",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "DIG",

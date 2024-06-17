@@ -18,7 +18,8 @@
   "chargedMoves": [
     "BUG_BUZZ",
     "BUBBLE_BEAM",
-    "MIRROR_COAT"
+    "MIRROR_COAT",
+    "WATER_PULSE"
   ],
   "released": true
 }

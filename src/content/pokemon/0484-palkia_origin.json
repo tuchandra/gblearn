@@ -1,0 +1,29 @@
+{
+  "dex": 484,
+  "speciesName": "Palkia (Origin)",
+  "speciesId": "palkia_origin",
+  "baseStats": {
+    "atk": 286,
+    "def": 223,
+    "hp": 189
+  },
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "DRAGON_TAIL"
+  ],
+  "chargedMoves": [
+    "DRACO_METEOR",
+    "FIRE_BLAST",
+    "HYDRO_PUMP",
+    "AQUA_TAIL",
+    "SPACIAL_REND"
+  ],
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
+}

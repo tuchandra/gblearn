@@ -13,7 +13,8 @@
   ],
   "fastMoves": [
     "METAL_CLAW",
-    "MUD_SLAP"
+    "MUD_SLAP",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "DIG",

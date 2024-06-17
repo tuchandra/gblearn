@@ -13,7 +13,8 @@
   "fastMoves": [
     "LICK",
     "TAKE_DOWN",
-    "ICE_FANG"
+    "ICE_FANG",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "WILD_CHARGE",

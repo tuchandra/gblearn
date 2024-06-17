@@ -1,0 +1,31 @@
+{
+  "dex": 802,
+  "speciesName": "Marshadow",
+  "speciesId": "marshadow",
+  "baseStats": {
+    "atk": 265,
+    "def": 190,
+    "hp": 207
+  },
+  "types": [
+    "fighting",
+    "ghost"
+  ],
+  "fastMoves": [
+    "SUCKER_PUNCH",
+    "COUNTER",
+    "POISON_JAB"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "FIRE_PUNCH",
+    "THUNDER_PUNCH",
+    "ICE_PUNCH",
+    "ROCK_SLIDE"
+  ],
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
+}

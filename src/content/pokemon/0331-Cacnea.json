@@ -12,7 +12,8 @@
   ],
   "fastMoves": [
     "POISON_STING",
-    "SUCKER_PUNCH"
+    "SUCKER_PUNCH",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "BRICK_BREAK",

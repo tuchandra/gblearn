@@ -1,0 +1,28 @@
+{
+  "dex": 483,
+  "speciesName": "Dialga (Origin)",
+  "speciesId": "dialga_origin",
+  "baseStats": {
+    "atk": 270,
+    "def": 225,
+    "hp": 205
+  },
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "fastMoves": [
+    "DRAGON_BREATH",
+    "METAL_CLAW"
+  ],
+  "chargedMoves": [
+    "DRACO_METEOR",
+    "IRON_HEAD",
+    "THUNDER",
+    "ROAR_OF_TIME"
+  ],
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
+}

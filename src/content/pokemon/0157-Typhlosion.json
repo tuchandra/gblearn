@@ -19,7 +19,8 @@
     "BLAST_BURN",
     "FIRE_BLAST",
     "OVERHEAT",
-    "SOLAR_BEAM"
+    "SOLAR_BEAM",
+    "THUNDER_PUNCH"
   ],
   "released": true,
   "tags": [

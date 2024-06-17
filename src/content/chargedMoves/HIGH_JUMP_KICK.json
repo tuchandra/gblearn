@@ -1,0 +1,13 @@
+{
+  "moveId": "HIGH_JUMP_KICK",
+  "name": "High Jump Kick",
+  "type": "fighting",
+  "power": 110,
+  "energy": 55,
+  "buffs": [
+    0,
+    -4
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": ".1"
+}

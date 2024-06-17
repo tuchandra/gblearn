@@ -13,7 +13,8 @@
   ],
   "fastMoves": [
     "QUICK_ATTACK",
-    "TACKLE"
+    "TACKLE",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "AERIAL_ACE",

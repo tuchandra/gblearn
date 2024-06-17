@@ -1,0 +1,8 @@
+{
+  "moveId": "SAND_ATTACK",
+  "name": "Sand Attack",
+  "type": "ground",
+  "power": 2,
+  "energyGain": 4,
+  "turns": 1
+}

@@ -12,7 +12,8 @@
   ],
   "fastMoves": [
     "VOLT_SWITCH",
-    "CHARGE_BEAM"
+    "CHARGE_BEAM",
+    "METAL_SOUND"
   ],
   "chargedMoves": [
     "VICE_GRIP",

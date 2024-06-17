@@ -19,8 +19,9 @@
     "SLUDGE_WAVE",
     "FELL_STINGER"
   ],
-  "released": false,
+  "released": true,
   "tags": [
-    "ultrabeast"
+    "ultrabeast",
+    "untradeable"
   ]
 }

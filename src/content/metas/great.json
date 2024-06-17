@@ -9,6 +9,15 @@
     ]
   },
   {
+    "speciesId": "annihilape",
+    "pokemon": "0979-annihilape",
+    "fastMove": "COUNTER",
+    "chargedMoves": [
+      "ICE_PUNCH",
+      "SHADOW_BALL"
+    ]
+  },
+  {
     "speciesId": "azumarill",
     "pokemon": "0184-azumarill",
     "fastMove": "BUBBLE",
@@ -45,30 +54,12 @@
     ]
   },
   {
-    "speciesId": "clodsire",
-    "pokemon": "0980-clodsire",
-    "fastMove": "POISON_STING",
-    "chargedMoves": [
-      "EARTHQUAKE",
-      "SLUDGE_BOMB"
-    ]
-  },
-  {
     "speciesId": "cresselia",
     "pokemon": "0488-cresselia",
     "fastMove": "PSYCHO_CUT",
     "chargedMoves": [
       "GRASS_KNOT",
       "MOONBLAST"
-    ]
-  },
-  {
-    "speciesId": "deoxys_defense",
-    "pokemon": "0386-deoxys_defense",
-    "fastMove": "COUNTER",
-    "chargedMoves": [
-      "THUNDERBOLT",
-      "PSYCHO_BOOST"
     ]
   },
   {
@@ -81,12 +72,12 @@
     ]
   },
   {
-    "speciesId": "froslass",
-    "pokemon": "0478-froslass",
-    "fastMove": "POWDER_SNOW",
+    "speciesId": "feraligatr",
+    "pokemon": "0160-feraligatr",
+    "fastMove": "SHADOW_CLAW",
     "chargedMoves": [
-      "AVALANCHE",
-      "SHADOW_BALL"
+      "HYDRO_CANNON",
+      "ICE_BEAM"
     ]
   },
   {
@@ -99,12 +90,12 @@
     ]
   },
   {
-    "speciesId": "jellicent",
-    "pokemon": "0593-jellicent",
-    "fastMove": "HEX",
+    "speciesId": "guzzlord",
+    "pokemon": "0799-guzzlord",
+    "fastMove": "DRAGON_TAIL",
     "chargedMoves": [
-      "SURF",
-      "SHADOW_BALL"
+      "DRAGON_CLAW",
+      "CRUNCH"
     ]
   },
   {
@@ -207,15 +198,6 @@
     ]
   },
   {
-    "speciesId": "serperior",
-    "pokemon": "0497-serperior",
-    "fastMove": "VINE_WHIP",
-    "chargedMoves": [
-      "FRENZY_PLANT",
-      "AERIAL_ACE"
-    ]
-  },
-  {
     "speciesId": "skarmory",
     "pokemon": "0227-skarmory",
     "fastMove": "STEEL_WING",
@@ -306,12 +288,21 @@
     ]
   },
   {
-    "speciesId": "annihilape",
-    "pokemon": "0979-annihilape",
-    "fastMove": "COUNTER",
+    "speciesId": "dragonair_shadow",
+    "pokemon": "0148-dragonair",
+    "fastMove": "DRAGON_BREATH",
     "chargedMoves": [
-      "ICE_PUNCH",
-      "SHADOW_BALL"
+      "BODY_SLAM",
+      "AQUA_TAIL"
+    ]
+  },
+  {
+    "speciesId": "wigglytuff",
+    "pokemon": "0040-wigglytuff",
+    "fastMove": "CHARM",
+    "chargedMoves": [
+      "ICY_WIND",
+      "DISARMING_VOICE"
     ]
   }
 ]

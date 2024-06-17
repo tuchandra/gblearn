@@ -14,7 +14,8 @@
     "BITE",
     "FIRE_FANG",
     "THUNDER_FANG",
-    "ICE_FANG"
+    "ICE_FANG",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "BODY_SLAM",

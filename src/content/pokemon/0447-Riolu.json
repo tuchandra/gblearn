@@ -18,7 +18,8 @@
     "BRICK_BREAK",
     "CROSS_CHOP",
     "LOW_SWEEP",
-    "BLAZE_KICK"
+    "BLAZE_KICK",
+    "THUNDER_PUNCH"
   ],
   "released": true
 }

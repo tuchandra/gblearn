@@ -12,7 +12,8 @@
   ],
   "fastMoves": [
     "METAL_CLAW",
-    "MUD_SHOT"
+    "MUD_SHOT",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "BULLDOZE",

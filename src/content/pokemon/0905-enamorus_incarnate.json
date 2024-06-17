@@ -1,0 +1,28 @@
+{
+  "dex": 905,
+  "speciesName": "Enamorus (Incarnate)",
+  "speciesId": "enamorus_incarnate",
+  "baseStats": {
+    "atk": 281,
+    "def": 162,
+    "hp": 179
+  },
+  "types": [
+    "fairy",
+    "flying"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "ZEN_HEADBUTT",
+    "FAIRY_WIND"
+  ],
+  "chargedMoves": [
+    "DAZZLING_GLEAM",
+    "FLY",
+    "GRASS_KNOT"
+  ],
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
+}

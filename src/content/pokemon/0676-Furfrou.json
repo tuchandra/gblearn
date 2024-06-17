@@ -13,7 +13,8 @@
   "fastMoves": [
     "TAKE_DOWN",
     "BITE",
-    "SUCKER_PUNCH"
+    "SUCKER_PUNCH",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
     "SURF",
