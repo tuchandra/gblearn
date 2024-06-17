@@ -21,9 +21,12 @@ export enum CupName {
   great = 'great',
   ultra = 'ultra',
   master = 'master',
-  fantasy = 'fantasy',
-  hisui = 'hisui',
-  evolution = 'evolution',
+  remix = 'remix',
+  summer = 'summer',
+  premiermaster = 'premiermaster',
+  premierultra = 'premierultra',
+  // fossil = 'fossil',
+  // fantasy = 'fantasy',
 }
 
 function cupUrl(cup: CupName) {

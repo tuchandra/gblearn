@@ -1,0 +1,326 @@
+[
+  {
+    "speciesId": "carbink",
+    "pokemon": "0703-carbink",
+    "fastMove": "ROCK_THROW",
+    "chargedMoves": [
+      "ROCK_SLIDE",
+      "MOONBLAST"
+    ]
+  },
+  {
+    "speciesId": "mantine",
+    "pokemon": "0226-mantine",
+    "fastMove": "WING_ATTACK",
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "ICE_BEAM"
+    ]
+  },
+  {
+    "speciesId": "mandibuzz",
+    "pokemon": "0630-mandibuzz",
+    "fastMove": "SNARL",
+    "chargedMoves": [
+      "DARK_PULSE",
+      "AERIAL_ACE"
+    ]
+  },
+  {
+    "speciesId": "gligar",
+    "pokemon": "0207-gligar",
+    "fastMove": "WING_ATTACK",
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "DIG"
+    ]
+  },
+  {
+    "speciesId": "dragonair_shadow",
+    "pokemon": "0148-dragonair",
+    "fastMove": "DRAGON_BREATH",
+    "chargedMoves": [
+      "BODY_SLAM",
+      "AQUA_TAIL"
+    ]
+  },
+  {
+    "speciesId": "guzzlord",
+    "pokemon": "0799-guzzlord",
+    "fastMove": "DRAGON_TAIL",
+    "chargedMoves": [
+      "DRAGON_CLAW",
+      "CRUNCH"
+    ]
+  },
+  {
+    "speciesId": "steelix",
+    "pokemon": "0208-steelix",
+    "fastMove": "DRAGON_TAIL",
+    "chargedMoves": [
+      "PSYCHIC_FANGS",
+      "CRUNCH"
+    ]
+  },
+  {
+    "speciesId": "hakamo_o",
+    "pokemon": "0783-hakamo_o",
+    "fastMove": "DRAGON_TAIL",
+    "chargedMoves": [
+      "DRAGON_CLAW",
+      "BRICK_BREAK"
+    ]
+  },
+  {
+    "speciesId": "goodra",
+    "pokemon": "0706-goodra",
+    "fastMove": "DRAGON_BREATH",
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "POWER_WHIP"
+    ]
+  },
+  {
+    "speciesId": "ninetales_alolan",
+    "pokemon": "0038-ninetales_alolan",
+    "fastMove": "POWDER_SNOW",
+    "chargedMoves": [
+      "WEATHER_BALL_ICE",
+      "DAZZLING_GLEAM"
+    ]
+  },
+  {
+    "speciesId": "feraligatr_shadow",
+    "pokemon": "0160-feraligatr",
+    "fastMove": "SHADOW_CLAW",
+    "chargedMoves": [
+      "HYDRO_CANNON",
+      "ICE_BEAM"
+    ]
+  },
+  {
+    "speciesId": "empoleon",
+    "pokemon": "0395-empoleon",
+    "fastMove": "STEEL_WING",
+    "chargedMoves": [
+      "HYDRO_CANNON",
+      "DRILL_PECK"
+    ]
+  },
+  {
+    "speciesId": "annihilape",
+    "pokemon": "0979-annihilape",
+    "fastMove": "COUNTER",
+    "chargedMoves": [
+      "NIGHT_SLASH",
+      "SHADOW_BALL"
+    ]
+  },
+  {
+    "speciesId": "quagsire",
+    "pokemon": "0195-quagsire",
+    "fastMove": "MUD_SHOT",
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "STONE_EDGE"
+    ]
+  },
+  {
+    "speciesId": "pelipper",
+    "pokemon": "0279-pelipper",
+    "fastMove": "WING_ATTACK",
+    "chargedMoves": [
+      "WEATHER_BALL_WATER",
+      "HURRICANE"
+    ]
+  },
+  {
+    "speciesId": "cresselia",
+    "pokemon": "0488-cresselia",
+    "fastMove": "PSYCHO_CUT",
+    "chargedMoves": [
+      "GRASS_KNOT",
+      "MOONBLAST"
+    ]
+  },
+  {
+    "speciesId": "golbat_shadow",
+    "pokemon": "0042-golbat",
+    "fastMove": "WING_ATTACK",
+    "chargedMoves": [
+      "POISON_FANG",
+      "SHADOW_BALL"
+    ]
+  },
+  {
+    "speciesId": "toxapex",
+    "pokemon": "0748-toxapex",
+    "fastMove": "POISON_JAB",
+    "chargedMoves": [
+      "BRINE",
+      "SLUDGE_WAVE"
+    ]
+  },
+  {
+    "speciesId": "jellicent",
+    "pokemon": "0593-jellicent",
+    "fastMove": "HEX",
+    "chargedMoves": [
+      "SURF",
+      "SHADOW_BALL"
+    ]
+  },
+  {
+    "speciesId": "abomasnow_shadow",
+    "pokemon": "0460-abomasnow",
+    "fastMove": "POWDER_SNOW",
+    "chargedMoves": [
+      "WEATHER_BALL_ICE",
+      "ENERGY_BALL"
+    ]
+  },
+  {
+    "speciesId": "swampert",
+    "pokemon": "0260-swampert",
+    "fastMove": "MUD_SHOT",
+    "chargedMoves": [
+      "HYDRO_CANNON",
+      "EARTHQUAKE"
+    ]
+  },
+  {
+    "speciesId": "serperior",
+    "pokemon": "0497-serperior",
+    "fastMove": "VINE_WHIP",
+    "chargedMoves": [
+      "FRENZY_PLANT",
+      "AERIAL_ACE"
+    ]
+  },
+  {
+    "speciesId": "arctibax",
+    "pokemon": "0997-arctibax",
+    "fastMove": "DRAGON_BREATH",
+    "chargedMoves": [
+      "AVALANCHE",
+      "DRAGON_CLAW"
+    ]
+  },
+  {
+    "speciesId": "magnezone",
+    "pokemon": "0462-magnezone",
+    "fastMove": "VOLT_SWITCH",
+    "chargedMoves": [
+      "WILD_CHARGE",
+      "MIRROR_SHOT"
+    ]
+  },
+  {
+    "speciesId": "togedemaru",
+    "pokemon": "0777-togedemaru",
+    "fastMove": "THUNDER_SHOCK",
+    "chargedMoves": [
+      "FELL_STINGER",
+      "WILD_CHARGE"
+    ]
+  },
+  {
+    "speciesId": "charjabug",
+    "pokemon": "0737-charjabug",
+    "fastMove": "VOLT_SWITCH",
+    "chargedMoves": [
+      "X_SCISSOR",
+      "DISCHARGE"
+    ]
+  },
+  {
+    "speciesId": "dubwool",
+    "pokemon": "0832-dubwool",
+    "fastMove": "DOUBLE_KICK",
+    "chargedMoves": [
+      "BODY_SLAM",
+      "PAYBACK"
+    ]
+  },
+  {
+    "speciesId": "froslass",
+    "pokemon": "0478-froslass",
+    "fastMove": "POWDER_SNOW",
+    "chargedMoves": [
+      "AVALANCHE",
+      "SHADOW_BALL"
+    ]
+  },
+  {
+    "speciesId": "obstagoon",
+    "pokemon": "0862-obstagoon",
+    "fastMove": "COUNTER",
+    "chargedMoves": [
+      "NIGHT_SLASH",
+      "CROSS_CHOP"
+    ]
+  },
+  {
+    "speciesId": "sableye",
+    "pokemon": "0302-sableye",
+    "fastMove": "SHADOW_CLAW",
+    "chargedMoves": [
+      "FOUL_PLAY",
+      "RETURN"
+    ]
+  },
+  {
+    "speciesId": "noctowl",
+    "pokemon": "0164-noctowl",
+    "fastMove": "WING_ATTACK",
+    "chargedMoves": [
+      "SKY_ATTACK",
+      "SHADOW_BALL"
+    ]
+  },
+  {
+    "speciesId": "venusaur",
+    "pokemon": "0003-venusaur",
+    "fastMove": "VINE_WHIP",
+    "chargedMoves": [
+      "FRENZY_PLANT",
+      "SLUDGE_BOMB"
+    ]
+  },
+  {
+    "speciesId": "charizard_shadow",
+    "pokemon": "0006-charizard",
+    "fastMove": "WING_ATTACK",
+    "chargedMoves": [
+      "BLAST_BURN",
+      "DRAGON_CLAW"
+    ]
+  },
+  {
+    "speciesId": "clefable",
+    "pokemon": "0036-clefable",
+    "fastMove": "FAIRY_WIND",
+    "chargedMoves": [
+      "METEOR_MASH",
+      "MOONBLAST"
+    ]
+  },
+  {
+    "speciesId": "gallade_shadow",
+    "pokemon": "0475-gallade",
+    "fastMove": "PSYCHO_CUT",
+    "chargedMoves": [
+      "CLOSE_COMBAT",
+      "LEAF_BLADE"
+    ]
+  },
+  {
+    "speciesId": "dedenne",
+    "pokemon": "0702-dedenne",
+    "fastMove": "THUNDER_SHOCK",
+    "chargedMoves": [
+      "DISCHARGE",
+      "PLAY_ROUGH"
+    ]
+  }
+]

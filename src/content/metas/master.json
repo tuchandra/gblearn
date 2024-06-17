@@ -9,6 +9,15 @@
     ]
   },
   {
+    "speciesId": "dialga_origin",
+    "pokemon": "0483-dialga_origin",
+    "fastMove": "DRAGON_BREATH",
+    "chargedMoves": [
+      "ROAR_OF_TIME",
+      "IRON_HEAD"
+    ]
+  },
+  {
     "speciesId": "dragonite",
     "pokemon": "0149-dragonite",
     "fastMove": "DRAGON_BREATH",
@@ -153,6 +162,15 @@
     ]
   },
   {
+    "speciesId": "palkia_origin",
+    "pokemon": "0484-palkia_origin",
+    "fastMove": "DRAGON_BREATH",
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "SPACIAL_REND"
+    ]
+  },
+  {
     "speciesId": "rayquaza",
     "pokemon": "0384-rayquaza",
     "fastMove": "DRAGON_TAIL",
@@ -186,6 +204,15 @@
     "chargedMoves": [
       "BODY_SLAM",
       "EARTHQUAKE"
+    ]
+  },
+  {
+    "speciesId": "solgaleo",
+    "pokemon": "0791-solgaleo",
+    "fastMove": "FIRE_SPIN",
+    "chargedMoves": [
+      "PSYCHIC_FANGS",
+      "IRON_HEAD"
     ]
   },
   {
@@ -279,12 +306,21 @@
     ]
   },
   {
-    "speciesId": "solgaleo",
-    "pokemon": "0791-solgaleo",
-    "fastMove": "FIRE_SPIN",
+    "speciesId": "necrozma_dawn_wings",
+    "pokemon": "0800-necrozma_dawn_wings",
+    "fastMove": "SHADOW_CLAW",
     "chargedMoves": [
-      "PSYCHIC_FANGS",
-      "IRON_HEAD"
+      "DARK_PULSE",
+      "MOONGEIST_BEAM"
+    ]
+  },
+  {
+    "speciesId": "necrozma_dusk_mane",
+    "pokemon": "0800-necrozma_dusk_mane",
+    "fastMove": "SHADOW_CLAW",
+    "chargedMoves": [
+      "DARK_PULSE",
+      "SUNSTEEL_STRIKE"
     ]
   }
 ]
