@@ -7,6 +7,7 @@ import { applyMovesetOverrides, getMoveCounts } from '../pokemonUtils';
 import MoveCounts from './moveCounts.astro';
 import ChargedMove from './chargedMove.astro';
 import FastMove from './fastMove.astro';
+import PokemonNamecard from './pokemon-namecard.astro';
 
 interface Props {
   pokemon: CollectionEntry<'pokemon'>;
@@ -17,37 +18,10 @@ const data = pokemon.data;
 
 const fastMoves = await getEntries(data.fastMoves);
 const chargedMoves = await getEntries(data.chargedMoves);
-
-const pokemonIcon = `pokemon/${data.dex.toString().padStart(4, '0')}-${data.speciesId}.png`;
 ---
 
 <div class="container mb-1 items-center rounded-md bg-neutral p-2">
-  <div class="flex flex-row gap-4">
-    <img
-      src={pokemonIcon}
-      alt={data.speciesName}
-      class="h-12 w-12 rounded-full"
-    />
-    <div>
-      <h2 class="text-xl font-bold">{data.speciesName}</h2>
-      <div class="flex flex-row">
-        <img
-          src={`types/${data.types[0]}.png`}
-          alt={data.types[0]}
-          class="h-4 w-4 rounded-full"
-        />
-        {
-          data.types[1] ? (
-            <img
-              src={`types/${data.types[1]}.png`}
-              alt={data.types[1]}
-              class="ml-1 h-4 w-4 rounded-full"
-            />
-          ) : null
-        }
-      </div>
-    </div>
-  </div>
+  <PokemonNamecard pokemon={pokemon} />
   <div
     class="table w-auto rounded-md border-2 border-dashed border-warning p-2 text-neutral-500"
   >
