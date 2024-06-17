@@ -10,9 +10,7 @@ export function getStaticPaths() {
 const { cup } = Astro.params;
 const cupMeta = await getEntry('metas', cup);
 const cupPokemon = await Promise.all(
-  cupMeta.data.map(async (p) => {
-    return await getEntry(p.pokemon);
-  }),
+  cupMeta.data.map(async (p) => getEntry(p.pokemon))
 );
 ---
 

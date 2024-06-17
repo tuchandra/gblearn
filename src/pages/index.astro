@@ -1,47 +1,37 @@
 ---
-import { getCollection, getEntry } from 'astro:content';
+import { getEntry } from 'astro:content';
 import { withMoveset } from '../pokemonUtils';
 import Pokemon from '../components/pokemon.astro';
 
-const pokemon = await getCollection('pokemon');
+// const pokemon = await getCollection('pokemon');
 const great = await getEntry('metas', 'great');
 const greatPokemon = await Promise.all(
-  great.data.map(async (p) => {
-    const mon = await getEntry(p.pokemon);
-    return {
-      ...mon,
-      data: {
-        ...mon.data,
-        // fastMoves: [await getEntry(p.fastMove)],
-        // chargedMoves: [
-        //   await getEntry(p.chargedMoves[0]),
-        //   await getEntry(p.chargedMoves[1]),
-        // ],
-      },
-    };
-  }),
+  great.data.map(async (p) => getEntry(p.pokemon))
 );
 
 const lanturn = await getEntry('pokemon', '0171-lanturn').then((p) =>
   withMoveset(p, {
     fast: ['SPARK', 'WATER_GUN'],
     charged: ['SURF', 'THUNDERBOLT'],
-  }),
+  })
 );
 const mandibuzz = await getEntry('pokemon', '0630-mandibuzz').then((p) =>
   withMoveset(p, {
     fast: ['SNARL', 'AIR_SLASH'],
     charged: ['AERIAL_ACE', 'DARK_PULSE', 'FOUL_PLAY'],
-  }),
+  })
 );
 const annihilape = await getEntry('pokemon', '0979-annihilape').then((p) =>
   withMoveset(p, {
     fast: ['COUNTER'],
     charged: ['NIGHT_SLASH', 'SHADOW_BALL', 'ICE_PUNCH'],
-  }),
+  })
 );
+
+import { Debug } from 'astro:components';
 ---
 
+<Debug lanturn={lanturn} />
 <html data-theme="sunset">
   <meta charset="utf-8" />,
   <body class="m-2 flex flex-col items-center">
@@ -72,14 +62,12 @@ const annihilape = await getEntry('pokemon', '0979-annihilape').then((p) =>
     </div>
 
     <!-- Content -->
-    <!-- <div class="divider divider-primary italic">Matchups</div>
+    <div class="divider divider-primary italic">Matchups</div>
     {greatPokemon.map((p) => <Pokemon pokemon={p} />)}
     <div class="container footer italic">
       <div class="divider divider-primary italic">
         Questions? Contact @tuchandra on Github
       </div>
-    </div> -->
+    </div>
   </body>
-
-
 </html>

@@ -11,6 +11,7 @@
     "format": "bunx --bun prettier --write '**/*.{astro,js,mjs,ts,tsx,md}'"
   },
   "dependencies": {
+    "@astrojs/check": "^0.7.0",
     "@astrojs/tailwind": "^5.1.0",
     "@biomejs/biome": "^1.8.1",
     "astro": "^4.10.2",
@@ -48,6 +49,6 @@
     }
   },
   "devDependencies": {
-    "@types/bun": "^1.0.1"
+    "@types/bun": "^1.1.4"
   }
 }
