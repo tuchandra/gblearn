@@ -1,7 +1,6 @@
 ---
-import Pokemon from '../components/pokemon.astro';
 import { getCollection, getEntry } from 'astro:content';
-import { simplifyMoves, withMoveset } from '../pokemonUtils';
+import { withMoveset } from '../pokemonUtils';
 
 const pokemon = await getCollection('pokemon');
 const great = await getEntry('metas', 'great');

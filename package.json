@@ -7,7 +7,7 @@
     "dev": "bunx --bun astro dev",
     "build": "tsc && bunx --bun astro build",
     "preview": "bunx --bun astro preview",
-    "lint": "bunx biome lint . --apply-unsafe",
+    "lint": "bunx biome lint . --write --unsafe",
     "format": "bunx --bun prettier --write 'src/**/*.{astro,js,ts,tsx,md}'"
   },
   "dependencies": {

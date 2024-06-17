@@ -1,7 +1,6 @@
 ---
 import { getEntry } from 'astro:content';
 import { CupName } from '../../scripts/fetchMetas';
-import Pokemon from '../components/pokemon.astro';
 
 export function getStaticPaths() {
   return Object.values(CupName).map((cup) => ({ params: { cup } }));

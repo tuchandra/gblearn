@@ -13,12 +13,13 @@
     "rules": {
       "recommended": true,
       "style": {
-        "noUnusedTemplateLiteral": "off"
-      },
-      "nursery": {
-        "noUnusedImports": "error",
+        "noUnusedTemplateLiteral": "off",
         "useImportType": "error"
       },
+      "correctness": {
+        "noUnusedImports": "error"
+      },
+      "nursery": {},
       "performance": {
         "noAccumulatingSpread": "off"
       }
