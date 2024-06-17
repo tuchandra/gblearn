@@ -5,7 +5,7 @@ import Pokemon from '../components/pokemon.astro';
 // const pokemon = await getCollection('pokemon');
 const great = await getEntry('metas', 'great');
 const greatPokemon = await Promise.all(
-  great.data.map(async (p) => getEntry(p.pokemon))
+  great.data.map(async (p) => getEntry(p.pokemon)),
 );
 ---
 
@@ -47,5 +47,6 @@ const greatPokemon = await Promise.all(
       </div>
     </div>
   </body>
+
 
 </html>

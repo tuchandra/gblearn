@@ -1,6 +1,7 @@
 ---
 import { getEntry } from 'astro:content';
 import Pokemon from '../components/pokemon.astro';
+import SelectPokemon from '../components/selectPokemon.astro';
 import { CupName } from '../models';
 
 export function getStaticPaths() {
@@ -16,7 +17,7 @@ const cupPokemon = await Promise.all(
 
 <html data-theme="sunset">
   <meta charset="utf-8" />
-  <body class="m-2 flex flex-col items-center">
+  <body class="m-2 flex flex-col items-center bg-base-100">
     <div class="w-full flex-grow">
       <div class="navbar">
         <a
@@ -34,11 +35,20 @@ const cupPokemon = await Promise.all(
     </div>
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
-      <div class="flex flex-row px-1">
+      <div class="flex flex-row gap-8 px-1">
         <Pokemon pokemon={cupPokemon[1]} />
         <Pokemon pokemon={cupPokemon[4]} />
         <Pokemon pokemon={cupPokemon[7]} />
       </div>
+    </div>
+
+    <div class="divider divider-primary mt-0 italic">
+      Choose your character!
+    </div>
+    <div class="container flex-row">
+      <SelectPokemon cup={cup} id={1} />
+      <SelectPokemon cup={cup} id={2} />
+      <SelectPokemon cup={cup} id={3} />
     </div>
 
     <div class="divider divider-primary italic">Matchups</div>

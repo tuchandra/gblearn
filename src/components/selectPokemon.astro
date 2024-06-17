@@ -1,0 +1,55 @@
+---
+// Dropdown selector to choose a Pokemon for your team. Shows the
+// most common Pokemon first, then offers a textbox for the rest.
+
+import { getEntries } from 'astro:content';
+import type { CupName } from '../models';
+import { getEntry } from 'astro:content';
+import Pokemon from './pokemon.astro';
+import PokemonNamecard from './pokemon-namecard.astro';
+import { ComponentProps } from 'astro/types';
+
+interface Props {
+  cup: CupName;
+  id: number;
+}
+
+const { cup, id } = Astro.props;
+const cupMeta = await getEntry('metas', cup);
+const cupPokemon = await Promise.all(
+  cupMeta.data.map((x) => getEntry('pokemon', x.pokemon.id)),
+);
+---
+
+<details class="dropdown dropdown-open relative z-10 mr-4 inline-flex w-1/4">
+  <summary
+    class="inline-flex items-center gap-x-2 rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm font-medium text-gray-800 shadow-sm hover:bg-gray-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:hover:bg-neutral-800"
+  >
+    Pokemon {id}
+    <svg
+      class="size-4"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg
+    >
+  </summary>
+
+  <div
+    id="pokemon-select"
+    class="menu dropdown-content w-full cursor-default border-2 border-t-0 border-neutral-700 bg-base-300 p-0"
+  >
+    {
+      cupPokemon.map((pokemon) => (
+        <div class="border-b-2 border-neutral-600 pb-2 pt-2 hover:bg-base-100">
+          <PokemonNamecard pokemon={pokemon} />
+        </div>
+      ))
+    }
+  </div>
+</details>
