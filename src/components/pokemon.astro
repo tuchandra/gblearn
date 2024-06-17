@@ -3,11 +3,11 @@
 
 import { getEntries } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
-import { applyMovesetOverrides, getMoveCounts } from '../pokemonUtils';
-import MoveCounts from './moveCounts.astro';
-import ChargedMove from './chargedMove.astro';
-import FastMove from './fastMove.astro';
-import PokemonNamecard from './pokemon-namecard.astro';
+import { applyMovesetOverrides, getMoveCounts } from '../pokemon-utils';
+import PokemonNamecard from './PokemonNamecard.astro';
+import FastMove from './FastMove.astro';
+import ChargedMove from './ChargedMove.astro';
+import MoveCounts from './MoveCounts.astro';
 
 interface Props {
   pokemon: CollectionEntry<'pokemon'>;

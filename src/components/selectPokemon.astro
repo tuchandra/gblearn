@@ -2,12 +2,9 @@
 // Dropdown selector to choose a Pokemon for your team. Shows the
 // most common Pokemon first, then offers a textbox for the rest.
 
-import { getEntries } from 'astro:content';
 import type { CupName } from '../models';
 import { getEntry } from 'astro:content';
-import Pokemon from './pokemon.astro';
-import PokemonNamecard from './pokemon-namecard.astro';
-import { ComponentProps } from 'astro/types';
+import PokemonNamecard from './PokemonNamecard.astro';
 
 interface Props {
   cup: CupName;
@@ -17,7 +14,7 @@ interface Props {
 const { cup, id } = Astro.props;
 const cupMeta = await getEntry('metas', cup);
 const cupPokemon = await Promise.all(
-  cupMeta.data.map((x) => getEntry('pokemon', x.pokemon.id)),
+  cupMeta.data.map((x) => getEntry('pokemon', x.pokemon.id))
 );
 ---
 

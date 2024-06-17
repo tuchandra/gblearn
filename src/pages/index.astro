@@ -1,11 +1,11 @@
 ---
 import { getEntry } from 'astro:content';
-import Pokemon from '../components/pokemon.astro';
+import Pokemon from '../components/Pokemon.astro';
 
 // const pokemon = await getCollection('pokemon');
 const great = await getEntry('metas', 'great');
 const greatPokemon = await Promise.all(
-  great.data.map(async (p) => getEntry(p.pokemon)),
+  great.data.map(async (p) => getEntry(p.pokemon))
 );
 ---
 
