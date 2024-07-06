@@ -1,12 +1,12 @@
 ---
 // Component for one Pokemon displayed on the homepage.
 
-import { getEntries } from 'astro:content';
+import { getEntry } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import { applyMovesetOverrides, getMoveCounts } from '../pokemon-utils';
 import PokemonNamecard from './PokemonNamecard.astro';
-import FastMove from './FastMove.astro';
-import ChargedMove from './ChargedMove.astro';
+import FastMove from './fastMove.astro';
+import ChargedMove from './chargedMove.astro';
 import MoveCounts from './MoveCounts.astro';
 
 interface Props {
@@ -14,34 +14,41 @@ interface Props {
 }
 
 const pokemon = applyMovesetOverrides(Astro.props.pokemon);
-const data = pokemon.data;
 
-const fastMoves = await getEntries(data.fastMoves);
-const chargedMoves = await getEntries(data.chargedMoves);
+const fastMoves = await Promise.all(
+  pokemon.data.fastMoves.map((m) =>
+    getEntry('fastMoves', m).then((m) => m.data)
+  )
+);
+const chargedMoves = await Promise.all(
+  pokemon.data.chargedMoves.map((m) =>
+    getEntry('chargedMoves', m).then((m) => m.data)
+  )
+).then((moves) => moves.sort((a, b) => a.energy - b.energy));
 ---
 
 <div class="container mb-1 items-center rounded-md bg-neutral p-2">
   <PokemonNamecard pokemon={pokemon} />
   <div
-    class="table w-auto rounded-md border-2 border-dashed border-warning p-2 text-neutral-500"
+    class="table w-auto border-spacing-x-2 border-spacing-y-1 rounded-md border-2 border-dashed border-warning p-2 text-neutral-500"
   >
     <div class="table-header-group">
       <div class="table-row">
-        <div class="table-cell w-32 align-middle text-xs">
+        <div class="table-cell w-36 align-middle text-xs">
           <!-- <p>Moves / Turns / Energy</p> -->
         </div>
-        {fastMoves.map((fastMove) => <FastMove move={fastMove.data} />)}
+        {fastMoves.map((fastMove) => <FastMove move={fastMove} />)}
       </div>
     </div>
     {
       chargedMoves.map((chargedMove) => (
         <div class="table-row">
           <ChargedMove
-            move={chargedMove.data}
-            stab={data.types.includes(chargedMove.data.type)}
+            move={chargedMove}
+            stab={pokemon.data.types.includes(chargedMove.type)}
           />
           {fastMoves.map((fast) => (
-            <MoveCounts counts={getMoveCounts(fast.data, chargedMove.data)} />
+            <MoveCounts counts={getMoveCounts(fast, chargedMove)} />
           ))}
         </div>
       ))

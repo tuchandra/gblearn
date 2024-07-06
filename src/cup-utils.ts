@@ -1,12 +1,12 @@
 import { CupName } from './models';
 
-type CupConfig = {
+export type CupConfig = {
   id: CupName;
   name: string;
   maxCp: 1500 | 2500 | null;
 };
 
-function cupConfig(cup: CupName): CupConfig {
+export function cupConfig(cup: CupName): CupConfig {
   switch (cup) {
     case CupName.great:
       return {
@@ -56,6 +56,3 @@ function cupConfig(cup: CupName): CupConfig {
     }
   }
 }
-
-export { cupConfig };
-export type { CupConfig };

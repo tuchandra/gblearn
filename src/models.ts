@@ -2,6 +2,12 @@ import { z } from 'zod';
 import type { ValueOf } from './type-utils';
 import { keys, values } from './type-utils';
 
+import ChargedMoveIndex from './content/chargedMoves.ts';
+import FastMoveIndex from './content/fastMoves.ts';
+import PokemonIndex from './content/pokemon.ts';
+import { Level } from './levels.ts';
+import { PokemonType } from './pokemon-types.ts';
+
 /**
  * What is a Pokemon?
  * ------------------
@@ -34,7 +40,7 @@ import { keys, values } from './type-utils';
  * - Pumpkaboo and Gourgeist (the sizes have different stats)
  * - Certain Pikachu costumes that got, inexplicably, different moves ...
  */
-const PokemonSpeciesSchema = z.object({
+export const PokemonSpeciesSchema = z.object({
   dex: z.number(),
   speciesName: z.string(),
   speciesId: z.string(),
@@ -43,26 +49,62 @@ const PokemonSpeciesSchema = z.object({
     def: z.number(),
     hp: z.number(),
   }),
-  types: z.array(z.string()),
-  fastMoves: z.array(z.string()),
-  chargedMoves: z.array(z.string()),
+  types: z
+    .string()
+    .array()
+    .transform((vals): PokemonType[] => {
+      return vals.map((val) => PokemonType[val as keyof typeof PokemonType]);
+    }),
+  fastMoves: z
+    .string()
+    .array()
+    .transform((vals) => vals as FastMoveId[]),
+  chargedMoves: z
+    .string()
+    .array()
+    .transform((vals) => vals as ChargedMoveId[]),
   released: z.boolean(),
   tags: z.array(z.string()).optional(),
 });
 
-const FastMoveSchema = z.object({
+/**
+ * A Pokemon is a PokemonSpecies with some IVs and a level, which together
+ * determine its CP and stats.
+ */
+export const PokemonSchema = z.object({
+  species: PokemonSpeciesSchema,
+  level: z
+    .number()
+    .min(1)
+    .max(51)
+    .multipleOf(0.5)
+    .transform((val): Level => {
+      return val as Level;
+    }),
+  ivs: z.object({
+    atk: z.number().min(0).max(15).int(),
+    def: z.number().min(0).max(15).int(),
+    hp: z.number().min(0).max(15).int(),
+  }),
+});
+
+export const FastMoveSchema = z.object({
   moveId: z.string(),
   name: z.string(),
-  type: z.string(),
+  type: z
+    .string()
+    .transform((val) => PokemonType[val as keyof typeof PokemonType]),
   power: z.number(),
   energyGain: z.number(),
   turns: z.number(),
 });
 
-const ChargedMoveSchema = z.object({
+export const ChargedMoveSchema = z.object({
   moveId: z.string(),
   name: z.string(),
-  type: z.string(),
+  type: z
+    .string()
+    .transform((val) => PokemonType[val as keyof typeof PokemonType]),
   power: z.number(),
   energy: z.number(),
   // Not every move has buff/debuff effects; we also don't use them yet.
@@ -71,7 +113,7 @@ const ChargedMoveSchema = z.object({
   buffApplyChance: z.string().optional(),
 });
 
-const CupMetaSchema = z.array(
+export const CupMetaSchema = z.array(
   z.object({
     speciesId: z.string(),
     pokemon: z.string(), // will reference Pokemon
@@ -80,7 +122,7 @@ const CupMetaSchema = z.array(
   }),
 );
 
-enum CupName {
+export enum CupName {
   great = 'great',
   ultra = 'ultra',
   master = 'master',
@@ -93,60 +135,33 @@ enum CupName {
   // fantasy = 'fantasy',
 }
 
-type PokemonSpecies = z.infer<typeof PokemonSpeciesSchema>;
-type FastMove = z.infer<typeof FastMoveSchema>;
-type ChargedMove = z.infer<typeof ChargedMoveSchema>;
-type Move = FastMove | ChargedMove;
-type CupMeta = z.infer<typeof CupMetaSchema>;
-
-// Construct indexes & string unions for the different entities
-import type ChargedMoveIndex from './content/chargedMoves.ts';
-import type FastMoveIndex from './content/fastMoves.ts';
-import PokemonIndex from './content/pokemon.ts';
+export type PokemonSpecies = z.infer<typeof PokemonSpeciesSchema>;
+export type Pokemon = z.infer<typeof PokemonSchema>;
+export type FastMove = z.infer<typeof FastMoveSchema>;
+export type ChargedMove = z.infer<typeof ChargedMoveSchema>;
+export type Move = FastMove | ChargedMove;
+export type CupMeta = z.infer<typeof CupMetaSchema>;
 
 /** ID of a charged move (e.g., "SOLAR_BEAM", "HYDRO_PUMP") */
-type ChargedMoveId = keyof typeof ChargedMoveIndex;
+export type ChargedMoveId = keyof typeof ChargedMoveIndex;
 
 /** Human-readable name of a charged move (e.g., "Solar Beam", "Hydro Pump") */
-type ChargedMoveName = ValueOf<typeof ChargedMoveIndex>;
+export type ChargedMoveName = ValueOf<typeof ChargedMoveIndex>;
 
 /** ID of a fast move (e.g., "AIR_SLASH", "COUNTER") */
-type FastMoveId = keyof typeof FastMoveIndex;
+export type FastMoveId = keyof typeof FastMoveIndex;
 
 /** Human-readable name of a fast move (e.g., "Air Slash", "Counter") */
-type FastMoveName = ValueOf<typeof FastMoveIndex>;
+export type FastMoveName = ValueOf<typeof FastMoveIndex>;
 
 /** Number & name of a Pokemon (e.g., "0001-bulbasaur", "0038-ninetales_alolan") */
-type PokemonId = keyof typeof PokemonIndex;
+export type PokemonId = keyof typeof PokemonIndex;
 
 /** Lowercase, underscored name of a Pokemon (e.g., "bulbasaur", "ninetales_alolan") */
-type PokemonName = ValueOf<typeof PokemonIndex>;
+export type PokemonName = ValueOf<typeof PokemonIndex>;
 
 // Zod validators for PokemonId & PokemonName
 const ids = keys(PokemonIndex);
 const names = values(PokemonIndex);
-const ZPokemonId = z.enum([ids[0], ...ids.slice(1)]);
-const ZPokemonName = z.enum([names[0], ...names.slice(1)]);
-
-export {
-  ChargedMoveSchema,
-  CupMetaSchema,
-  CupName,
-  FastMoveSchema,
-  PokemonSpeciesSchema,
-  ZPokemonId,
-  ZPokemonName,
-};
-export type {
-  ChargedMove,
-  ChargedMoveId,
-  ChargedMoveName,
-  CupMeta,
-  FastMove,
-  FastMoveId,
-  FastMoveName,
-  Move,
-  PokemonId,
-  PokemonName,
-  PokemonSpecies,
-};
+export const ZPokemonId = z.enum([ids[0], ...ids.slice(1)]);
+export const ZPokemonName = z.enum([names[0], ...names.slice(1)]);

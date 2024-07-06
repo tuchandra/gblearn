@@ -341,6 +341,12 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonId, MovesetChanges>> = {
     fast: { remove: ['WATER_GUN'] },
     charged: { remove: ['MUDDY_WATER'] },
   },
+  '0800-necrozma_dawn_wings': {
+    fast: { remove: ['METAL_CLAW'] },
+  },
+  '0800-necrozma_dusk_mane': {
+    fast: { remove: ['METAL_CLAW'] },
+  },
   '0862-obstagoon': {
     fast: { remove: ['LICK'] },
   },
@@ -362,12 +368,6 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonId, MovesetChanges>> = {
   },
   '0901-ursaluna': {
     fast: { keep: ['TACKLE'] },
-  },
-  '0800-necrozma_dawn_wings': {
-    fast: { remove: ['METAL_CLAW'] },
-  },
-  '0800-necrozma_dusk_mane': {
-    fast: { remove: ['METAL_CLAW'] },
   },
 };
 
@@ -401,12 +401,12 @@ function applyMovesetOverrides(
   p: CollectionEntry<'pokemon'>,
 ): CollectionEntry<'pokemon'> {
   // Apply global exclusions first
-  let fastMoves: FastMoveId[] = p.data.fastMoves
-    .map((m) => m.id)
-    .filter((m) => !ALWAYS_EXCLUDED_FAST_MOVES.includes(m));
-  let chargedMoves: ChargedMoveId[] = p.data.chargedMoves
-    .map((m) => m.id)
-    .filter((m) => !ALWAYS_EXCLUDED_CHARGED_MOVES.includes(m));
+  let fastMoves: FastMoveId[] = p.data.fastMoves.filter(
+    (m) => !ALWAYS_EXCLUDED_FAST_MOVES.includes(m),
+  );
+  let chargedMoves: ChargedMoveId[] = p.data.chargedMoves.filter(
+    (m) => !ALWAYS_EXCLUDED_CHARGED_MOVES.includes(m),
+  );
 
   // Apply species-specific exclusions, if they exist
   const overrides = MOVESET_OVERRIDES[p.id];
@@ -444,14 +444,12 @@ function withMoveset(
   p: CollectionEntry<'pokemon'>,
   { fast, charged }: SimpleMoveset,
 ): CollectionEntry<'pokemon'> {
-  const fastMoves = p.data.fastMoves.filter((m) => fast.includes(m.id));
-  const chargedMoves = p.data.chargedMoves.filter((m) =>
-    charged.includes(m.id),
-  );
+  const fastMoves = p.data.fastMoves.filter((m) => fast.includes(m));
+  const chargedMoves = p.data.chargedMoves.filter((m) => charged.includes(m));
 
   // Add Return, if needed; it's never in a Pokemon's moveset but most can learn it
   if (charged.includes('RETURN')) {
-    chargedMoves.push({ id: 'RETURN', collection: 'chargedMoves' });
+    chargedMoves.push('RETURN');
   }
 
   return {
