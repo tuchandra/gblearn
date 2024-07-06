@@ -14,16 +14,16 @@
  */
 
 import { z } from 'zod';
-import {
-  PokemonSpeciesSchema,
-  FastMoveSchema,
-  ChargedMoveSchema,
-} from '../src/models';
 import type {
-  PokemonSpecies,
-  FastMove,
   ChargedMove,
+  FastMove,
   Move,
+  PokemonSpecies,
+} from '../src/models';
+import {
+  ChargedMoveSchema,
+  FastMoveSchema,
+  PokemonSpeciesSchema,
 } from '../src/models';
 
 const HIDDEN_POWER_UNKNOWN = FastMoveSchema.parse({
@@ -122,6 +122,13 @@ async function writePokemon(pokemon: PokemonSpecies[]) {
     JSON.stringify(pokemonIndex, null, 2),
   );
 
+  // EXPERIMENTAL: write a <dir>.ts file with a lookup table
+  const header = '// GENERATED FILE; DO NOT EDIT\n\n';
+  await Bun.write(
+    `src/content/pokemon.ts`,
+    `${header}export default ${JSON.stringify(pokemonIndex, null, 2)} as const;`,
+  );
+
   console.log(`Wrote ${pokemon.length} pokemon files.`);
 }
 
@@ -134,13 +141,20 @@ async function writeMoves(moves: Move[], dir: string) {
   }
 
   // Write src/content/_<dir>.json, which indexes {moveId: name}
-  const pokemonIndex = moves.reduce((acc, move) => {
+  const movesIndex = moves.reduce((acc, move) => {
     const filename = `${move.moveId}`;
     return { ...acc, [filename]: move.name };
   }, {});
   await Bun.write(
     `src/content/_${dir}.json`,
-    JSON.stringify(pokemonIndex, null, 2),
+    JSON.stringify(movesIndex, null, 2),
+  );
+
+  // EXPERIMENTAL: write a <dir>.ts file with a lookup table
+  const header = '// GENERATED FILE; DO NOT EDIT\n\n';
+  await Bun.write(
+    `src/content/${dir}.ts`,
+    `${header}export default ${JSON.stringify(movesIndex, null, 2)} as const;`,
   );
 
   console.log(`Wrote ${moves.length} files to ${dir}.`);
