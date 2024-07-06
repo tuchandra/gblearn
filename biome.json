@@ -14,7 +14,7 @@
       "recommended": true,
       "style": {
         "noUnusedTemplateLiteral": "off",
-        "useImportType": "error",
+        "useImportType": "off",
         "useFragmentSyntax": "error"
       },
       "correctness": {
