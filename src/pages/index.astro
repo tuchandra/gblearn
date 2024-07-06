@@ -1,12 +1,17 @@
 ---
-import { getEntry } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 import Pokemon from '../components/Pokemon.astro';
+import { getEntries } from 'astro:content';
+import { cupConfig } from '../cup-utils';
+import { CupName } from '../models';
 
 // const pokemon = await getCollection('pokemon');
 const great = await getEntry('metas', 'great');
 const greatPokemon = await Promise.all(
   great.data.map(async (p) => getEntry(p.pokemon))
 );
+
+const metas = await getCollection('metas');
 ---
 
 <html data-theme="sunset">
@@ -20,7 +25,7 @@ const greatPokemon = await Promise.all(
           class="flex items-center gap-4 px-2 text-xl italic text-neutral-content"
         >
           <img
-            src="pokemon/1011.png"
+            src="/pokemon/1011.png"
             alt="Dipplin"
             class="h-12 w-12 rounded-full bg-primary"
           />
@@ -28,6 +33,15 @@ const greatPokemon = await Promise.all(
         </a>
       </div>
     </div>
+
+    <div class="divider divider-primary mt-0 italic">Leagues</div>
+    {
+      metas.map((meta) => (
+        <div class="mx-4 text-lg">
+          <a href=`/${meta.id}`>{cupConfig(CupName[meta.id]).name}</a></div>
+      ))
+    }
+
     <!-- My team -->
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
