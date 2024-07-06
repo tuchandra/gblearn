@@ -79,6 +79,9 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonId, MovesetChanges>> = {
   '0033-nidorino': {
     charged: { remove: ['HORN_ATTACK'] },
   },
+  '0036-clefable': {
+    charged: { remove: ['DAZZLING_GLEAM'] },
+  },
   '0038-ninetales_alolan': {
     fast: { remove: ['FEINT_ATTACK'] },
     charged: { remove: ['BLIZZARD', 'ICE_BEAM'] },
@@ -114,7 +117,6 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonId, MovesetChanges>> = {
     charged: { remove: ['STOMP', 'HYPER_BEAM'] },
   },
   '0110-weezing_galarian': {
-    fast: { remove: ['TACKLE'] },
     charged: { remove: ['HYPER_BEAM'] },
   },
   '0130-gyarados': {
@@ -218,6 +220,7 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonId, MovesetChanges>> = {
     charged: { remove: ['FIRE_BLAST'] },
   },
   '0395-empoleon': {
+    fast: { remove: ['METAL_CLAW'] },
     charged: { remove: ['HYDRO_PUMP'] },
   },
   '0413-wormadam_trash': {
@@ -303,7 +306,6 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonId, MovesetChanges>> = {
     charged: { remove: ['DAZZLING_GLEAM'] },
   },
   '0703-carbink': {
-    fast: { remove: ['TACKLE'] },
     charged: { remove: ['POWER_GEM'] },
   },
   '0716-xerneas': {
@@ -333,12 +335,20 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonId, MovesetChanges>> = {
     charged: { remove: ['HYPER_BEAM', 'FLASH_CANNON'] },
   },
   '0820-greedent': {
-    fast: { remove: ['BITE', 'TACKLE'] },
+    fast: { remove: ['BITE'] },
   },
-  '0888-zacian': {
+  '0706-goodra': {
+    fast: { remove: ['WATER_GUN'] },
+    charged: { remove: ['MUDDY_WATER'] },
+  },
+  '0862-obstagoon': {
+    fast: { remove: ['LICK'] },
+  },
+  '0888-zacian_hero': {
     fast: { remove: ['METAL_CLAW', 'FIRE_FANG'] },
   },
   '0893-zarude': {
+    fast: { remove: ['BITE'] },
     charged: { remove: ['ENERGY_BALL'] },
   },
   '0910-crocalor': {
@@ -350,19 +360,31 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonId, MovesetChanges>> = {
   '0980-clodsire': {
     charged: { remove: ['WATER_PULSE'] },
   },
+  '0901-ursaluna': {
+    fast: { keep: ['TACKLE'] },
+  },
+  '0800-necrozma_dawn_wings': {
+    fast: { remove: ['METAL_CLAW'] },
+  },
+  '0800-necrozma_dusk_mane': {
+    fast: { remove: ['METAL_CLAW'] },
+  },
 };
 
 const ALWAYS_EXCLUDED_FAST_MOVES: FastMoveId[] = [
   'ACID',
   'ASTONISH',
   'CHARGE_BEAM',
+  'EXTRASENSORY',
   'FEINT_ATTACK',
   'FROST_BREATH',
   'IRON_TAIL',
   'LOW_KICK',
   'PECK',
+  'POUND',
   'ROCK_SMASH',
   'SUCKER_PUNCH',
+  'TACKLE', // used by Ursuluna
   'TAKE_DOWN',
   'YAWN',
   'ZEN_HEADBUTT',
