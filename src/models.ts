@@ -1,4 +1,6 @@
 import { z } from 'zod';
+import type { ValueOf } from './type-utils';
+import { keys, values } from './type-utils';
 
 /**
  * What is a Pokemon?
@@ -98,13 +100,33 @@ type Move = FastMove | ChargedMove;
 type CupMeta = z.infer<typeof CupMetaSchema>;
 
 // Construct indexes & string unions for the different entities
-import type ChargedMoveIndex from './content/_chargedMoves.json';
-import type FastMoveIndex from './content/_fastMoves.json';
-import type PokemonIndex from './content/_pokemon.json';
+import type ChargedMoveIndex from './content/chargedMoves.ts';
+import type FastMoveIndex from './content/fastMoves.ts';
+import PokemonIndex from './content/pokemon.ts';
 
+/** ID of a charged move (e.g., "SOLAR_BEAM", "HYDRO_PUMP") */
+type ChargedMoveId = keyof typeof ChargedMoveIndex;
+
+/** Human-readable name of a charged move (e.g., "Solar Beam", "Hydro Pump") */
+type ChargedMoveName = ValueOf<typeof ChargedMoveIndex>;
+
+/** ID of a fast move (e.g., "AIR_SLASH", "COUNTER") */
+type FastMoveId = keyof typeof FastMoveIndex;
+
+/** Human-readable name of a fast move (e.g., "Air Slash", "Counter") */
+type FastMoveName = ValueOf<typeof FastMoveIndex>;
+
+/** Number & name of a Pokemon (e.g., "0001-bulbasaur", "0038-ninetales_alolan") */
 type PokemonId = keyof typeof PokemonIndex;
-type FastMoveName = keyof typeof FastMoveIndex;
-type ChargedMoveName = keyof typeof ChargedMoveIndex;
+
+/** Lowercase, underscored name of a Pokemon (e.g., "bulbasaur", "ninetales_alolan") */
+type PokemonName = ValueOf<typeof PokemonIndex>;
+
+// Zod validators for PokemonId & PokemonName
+const ids = keys(PokemonIndex);
+const names = values(PokemonIndex);
+const ZPokemonId = z.enum([ids[0], ...ids.slice(1)]);
+const ZPokemonName = z.enum([names[0], ...names.slice(1)]);
 
 export {
   ChargedMoveSchema,
@@ -112,14 +134,19 @@ export {
   CupName,
   FastMoveSchema,
   PokemonSpeciesSchema,
+  ZPokemonId,
+  ZPokemonName,
 };
 export type {
   ChargedMove,
+  ChargedMoveId,
   ChargedMoveName,
   CupMeta,
   FastMove,
+  FastMoveId,
   FastMoveName,
   Move,
   PokemonId,
+  PokemonName,
   PokemonSpecies,
 };

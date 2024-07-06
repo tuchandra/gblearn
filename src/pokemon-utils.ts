@@ -1,21 +1,33 @@
 import { getEntry, type CollectionEntry } from 'astro:content';
+import PokemonIndex from './content/pokemon.ts';
 import {
   ChargedMoveSchema,
+  ZPokemonId,
   type ChargedMove,
-  type ChargedMoveName,
+  type ChargedMoveId,
   type FastMove,
-  type FastMoveName,
+  type FastMoveId,
   type PokemonId,
 } from './models';
+import { entries } from './type-utils.ts';
 
-async function getFastMove(name: FastMoveName): Promise<FastMove> {
+async function getFastMove(name: FastMoveId): Promise<FastMove> {
   const move = await getEntry('fastMoves', name);
   return move.data;
 }
 
-async function getChargedMove(name: ChargedMoveName): Promise<ChargedMove> {
+async function getChargedMove(name: ChargedMoveId): Promise<ChargedMove> {
   const move = await getEntry('chargedMoves', name);
   return move.data;
+}
+
+async function getPokemonIdByName(name: string): Promise<PokemonId> {
+  const speciesId = entries(PokemonIndex).find(
+    (idNamePair) => idNamePair[1] === name,
+  )?.[0];
+
+  // safeParse would avoid an error if needed
+  return ZPokemonId.parse(speciesId);
 }
 
 export const RETURN = ChargedMoveSchema.parse({
@@ -37,8 +49,8 @@ type KeepOrRemove<T> =
     };
 
 interface MovesetChanges {
-  fast?: KeepOrRemove<FastMoveName>;
-  charged?: KeepOrRemove<ChargedMoveName>;
+  fast?: KeepOrRemove<FastMoveId>;
+  charged?: KeepOrRemove<ChargedMoveId>;
 }
 
 const MOVESET_OVERRIDES: Partial<Record<PokemonId, MovesetChanges>> = {
@@ -340,7 +352,7 @@ const MOVESET_OVERRIDES: Partial<Record<PokemonId, MovesetChanges>> = {
   },
 };
 
-const ALWAYS_EXCLUDED_FAST_MOVES: FastMoveName[] = [
+const ALWAYS_EXCLUDED_FAST_MOVES: FastMoveId[] = [
   'ACID',
   'ASTONISH',
   'CHARGE_BEAM',
@@ -355,7 +367,7 @@ const ALWAYS_EXCLUDED_FAST_MOVES: FastMoveName[] = [
   'YAWN',
   'ZEN_HEADBUTT',
 ];
-const ALWAYS_EXCLUDED_CHARGED_MOVES: ChargedMoveName[] = [
+const ALWAYS_EXCLUDED_CHARGED_MOVES: ChargedMoveId[] = [
   'GIGA_IMPACT',
   'GYRO_BALL',
   'HEAT_WAVE',
@@ -367,10 +379,10 @@ function applyMovesetOverrides(
   p: CollectionEntry<'pokemon'>,
 ): CollectionEntry<'pokemon'> {
   // Apply global exclusions first
-  let fastMoves: FastMoveName[] = p.data.fastMoves
+  let fastMoves: FastMoveId[] = p.data.fastMoves
     .map((m) => m.id)
     .filter((m) => !ALWAYS_EXCLUDED_FAST_MOVES.includes(m));
-  let chargedMoves: ChargedMoveName[] = p.data.chargedMoves
+  let chargedMoves: ChargedMoveId[] = p.data.chargedMoves
     .map((m) => m.id)
     .filter((m) => !ALWAYS_EXCLUDED_CHARGED_MOVES.includes(m));
 
@@ -402,8 +414,8 @@ function applyMovesetOverrides(
 }
 
 interface SimpleMoveset {
-  fast: FastMoveName[];
-  charged: ChargedMoveName[];
+  fast: FastMoveId[];
+  charged: ChargedMoveId[];
 }
 
 function withMoveset(
@@ -489,6 +501,7 @@ export {
   getChargedMove,
   getFastMove,
   getMoveCounts,
+  getPokemonIdByName,
   MOVESET_OVERRIDES,
   withMoveset,
 };
