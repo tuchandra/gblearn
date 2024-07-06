@@ -80,4 +80,4 @@ async function main() {
   Promise.all(Object.values(CupName).map(getOrUpdateMeta));
 }
 
-// main();
+main();

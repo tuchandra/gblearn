@@ -13,7 +13,7 @@
     "pokemon": "0979-annihilape",
     "fastMove": "COUNTER",
     "chargedMoves": [
-      "ICE_PUNCH",
+      "NIGHT_SLASH",
       "SHADOW_BALL"
     ]
   },
@@ -69,6 +69,15 @@
     "chargedMoves": [
       "ICY_WIND",
       "DRILL_RUN"
+    ]
+  },
+  {
+    "speciesId": "dragonair_shadow",
+    "pokemon": "0148-dragonair",
+    "fastMove": "DRAGON_BREATH",
+    "chargedMoves": [
+      "BODY_SLAM",
+      "AQUA_TAIL"
     ]
   },
   {
@@ -144,21 +153,12 @@
     ]
   },
   {
-    "speciesId": "ninetales_alolan",
+    "speciesId": "ninetales_alolan_shadow",
     "pokemon": "0038-ninetales_alolan",
-    "fastMove": "POWDER_SNOW",
+    "fastMove": "CHARM",
     "chargedMoves": [
       "WEATHER_BALL_ICE",
-      "DAZZLING_GLEAM"
-    ]
-  },
-  {
-    "speciesId": "pelipper",
-    "pokemon": "0279-pelipper",
-    "fastMove": "WING_ATTACK",
-    "chargedMoves": [
-      "WEATHER_BALL_WATER",
-      "HURRICANE"
+      "PSYSHOCK"
     ]
   },
   {
@@ -191,7 +191,7 @@
   {
     "speciesId": "sandslash_alolan_shadow",
     "pokemon": "0028-sandslash_alolan",
-    "fastMove": "SHADOW_CLAW",
+    "fastMove": "POWDER_SNOW",
     "chargedMoves": [
       "ICE_PUNCH",
       "DRILL_RUN"
@@ -288,21 +288,30 @@
     ]
   },
   {
-    "speciesId": "dragonair_shadow",
-    "pokemon": "0148-dragonair",
-    "fastMove": "DRAGON_BREATH",
-    "chargedMoves": [
-      "BODY_SLAM",
-      "AQUA_TAIL"
-    ]
-  },
-  {
     "speciesId": "wigglytuff",
     "pokemon": "0040-wigglytuff",
     "fastMove": "CHARM",
     "chargedMoves": [
       "ICY_WIND",
       "DISARMING_VOICE"
+    ]
+  },
+  {
+    "speciesId": "quagsire",
+    "pokemon": "0195-quagsire",
+    "fastMove": "MUD_SHOT",
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "STONE_EDGE"
+    ]
+  },
+  {
+    "speciesId": "pelipper",
+    "pokemon": "0279-pelipper",
+    "fastMove": "WING_ATTACK",
+    "chargedMoves": [
+      "WEATHER_BALL_WATER",
+      "HURRICANE"
     ]
   }
 ]
