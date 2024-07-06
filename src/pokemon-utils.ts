@@ -1,11 +1,11 @@
-import { type CollectionEntry, getEntry } from 'astro:content';
+import { getEntry, type CollectionEntry } from 'astro:content';
 import {
   ChargedMoveSchema,
   type ChargedMove,
   type ChargedMoveName,
   type FastMove,
   type FastMoveName,
-  type PokemonName,
+  type PokemonId,
 } from './models';
 
 async function getFastMove(name: FastMoveName): Promise<FastMove> {
@@ -41,7 +41,7 @@ interface MovesetChanges {
   charged?: KeepOrRemove<ChargedMoveName>;
 }
 
-const MOVESET_OVERRIDES: Partial<Record<PokemonName, MovesetChanges>> = {
+const MOVESET_OVERRIDES: Partial<Record<PokemonId, MovesetChanges>> = {
   '0002-ivysaur': {
     charged: { remove: ['SOLAR_BEAM'] },
   },
@@ -485,11 +485,11 @@ function getMoveCounts(
 }
 
 export {
-  withMoveset,
-  getFastMove,
   applyMovesetOverrides,
   getChargedMove,
+  getFastMove,
   getMoveCounts,
   MOVESET_OVERRIDES,
+  withMoveset,
 };
 export type { SimpleMoveset };
