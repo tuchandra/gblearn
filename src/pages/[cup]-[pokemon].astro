@@ -1,0 +1,61 @@
+---
+import { getEntry } from 'astro:content';
+import Pokemon from '../components/Pokemon.astro';
+import { CupName } from '../models';
+import PokemonIndex from '../content/pokemon.ts';
+import { getPokemonIdByName } from '../pokemon-utils';
+import { values } from '../type-utils';
+
+export async function getStaticPaths() {
+  const cups = values(CupName);
+  const pokemonIds = values(PokemonIndex);
+
+  return cups.flatMap((cup) =>
+    pokemonIds.map((pokemon) => ({
+      params: { cup, pokemon },
+    }))
+  );
+}
+
+const { cup, pokemon } = Astro.params;
+const cupMeta = await getEntry('metas', cup);
+const cupPokemon = await Promise.all(
+  cupMeta.data.map(async (p) => getEntry(p.pokemon))
+);
+
+const pokemonId = await getPokemonIdByName(pokemon);
+const singleMon = await getEntry('pokemon', pokemonId);
+---
+
+<html data-theme="sunset">
+  <meta charset="utf-8" />
+  <body class="m-2 flex flex-col items-center bg-base-100">
+    <div class="w-full flex-grow">
+      <div class="navbar">
+        <a
+          href="/"
+          class="flex items-center gap-4 px-2 text-xl italic text-neutral-content"
+        >
+          <img
+            src="/pokemon/1011.png"
+            alt="Dipplin"
+            class="h-12 w-12 rounded-full bg-primary"
+          />
+          <span>GO Battle Learn</span>
+        </a>
+      </div>
+    </div>
+    <div class="divider divider-primary mt-0 italic">My team</div>
+    <div class="container">
+      <div class="flex flex-row gap-8 px-1">
+        <Pokemon pokemon={singleMon} />
+      </div>
+    </div>
+
+    <div class="divider divider-primary italic">Matchups</div>
+    {cupPokemon.map((p) => <Pokemon pokemon={p} />)}
+    <div class="divider divider-primary italic">
+      Questions? Contact @tuchandra on Github
+    </div>
+  </body>
+</html>
