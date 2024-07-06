@@ -2,7 +2,7 @@
  * fetchGamemaster.ts
  *
  * tldr:
- * - invoke with `bun scripts/fetchGamemaster.ts`
+ * - invoke with `bun scripts/fetch-gamemaster.ts`
  * - requires bun, since we use the file writing API
  * - (over)writes JSON to:
  *   - src/content/pokemon.json

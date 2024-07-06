@@ -2,7 +2,7 @@
  * fetchMetas.ts
  *
  * tldr:
- * - invoke with `bun scripts/fetchMetass.ts`
+ * - invoke with `bun scripts/fetch-metas.ts`
  * - requires bun, since we use the file writing API
  * - (over)writes JSON to src/content/metas/<name>.json
  *
