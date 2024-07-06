@@ -42,15 +42,6 @@ const cupPokemon = await Promise.all(
       </div>
     </div>
 
-    <div class="divider divider-primary mt-0 italic">
-      Choose your character!
-    </div>
-    <div class="container flex-row">
-      <SelectPokemon cup={cup} id={1} />
-      <SelectPokemon cup={cup} id={2} />
-      <SelectPokemon cup={cup} id={3} />
-    </div>
-
     <div class="divider divider-primary italic">Matchups</div>
     {cupPokemon.map((p) => <Pokemon pokemon={p} />)}
     <div class="divider divider-primary italic">
