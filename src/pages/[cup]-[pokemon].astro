@@ -3,12 +3,7 @@ import { cupConfig } from '../cup-utils';
 import { getEntry } from 'astro:content';
 import { maxLevelForLeague } from '../stats';
 import Matchup from '../components/Matchup.astro';
-import {
-  CupName,
-  PokemonSchema,
-  Pokemon,
-  PokemonSpeciesSchema,
-} from '../models';
+import { CupName, PokemonSchema } from '../models';
 import PokemonIndex from '../content/pokemon.ts';
 import { getPokemonIdByName } from '../pokemon-utils';
 import { values } from '../type-utils';
@@ -20,14 +15,14 @@ export async function getStaticPaths() {
   return cups.flatMap((cup) =>
     pokemonIds.map((pokemon) => ({
       params: { cup, pokemon },
-    }))
+    })),
   );
 }
 
 const { cup, pokemon } = Astro.params;
 const cupMeta = await getEntry('metas', cup);
 const cupPokemon = await Promise.all(
-  cupMeta.data.map((p) => getEntry(p.pokemon))
+  cupMeta.data.map((p) => getEntry(p.pokemon)),
 );
 const maxCp = cupConfig(cup).maxCp;
 

@@ -70,7 +70,7 @@ export type Stats = z.infer<typeof StatsSchema>;
 export const PokemonSpeciesSchema = z.object({
   dex: z.number(),
   speciesName: z.string(),
-  speciesId: z.string().transform((val) => val as PokemonId),
+  speciesId: z.string().transform((val) => val as SpeciesId),
   baseStats: StatsSchema,
   defaultIvs: z.object({
     1500: LevelIvsSchema,
@@ -182,10 +182,10 @@ export type FastMoveId = keyof typeof FastMoveIndex;
 export type FastMoveName = ValueOf<typeof FastMoveIndex>;
 
 /** Number & name of a Pokemon (e.g., "0001-bulbasaur", "0038-ninetales_alolan") */
-export type PokemonId = keyof typeof PokemonIndex;
+export type SpeciesSlug = keyof typeof PokemonIndex;
 
 /** Lowercase, underscored name of a Pokemon (e.g., "bulbasaur", "ninetales_alolan") */
-export type PokemonName = ValueOf<typeof PokemonIndex>;
+export type SpeciesId = ValueOf<typeof PokemonIndex>;
 
 // Zod validators for PokemonId & PokemonName
 const ids = keys(PokemonIndex);
