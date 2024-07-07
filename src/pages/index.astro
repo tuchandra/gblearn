@@ -1,7 +1,6 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
-import Pokemon from '../components/Pokemon.astro';
-import { getEntries } from 'astro:content';
+import Matchup from '../components/Matchup.astro';
 import { cupConfig } from '../cup-utils';
 import { CupName } from '../models';
 
@@ -38,7 +37,8 @@ const metas = await getCollection('metas');
     {
       metas.map((meta) => (
         <div class="mx-4 text-lg">
-          <a href=`/${meta.id}`>{cupConfig(CupName[meta.id]).name}</a></div>
+          <a href={`/${meta.id}`}>{cupConfig(CupName[meta.id]).name}</a>
+        </div>
       ))
     }
 
@@ -46,15 +46,15 @@ const metas = await getCollection('metas');
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
       <div class="flex flex-row px-1">
-        <Pokemon pokemon={greatPokemon[4]} />
-        <Pokemon pokemon={greatPokemon[8]} />
-        <Pokemon pokemon={greatPokemon[12]} />
+        <Matchup opponent={greatPokemon[4].data} />
+        <Matchup opponent={greatPokemon[8].data} />
+        <Matchup opponent={greatPokemon[12].data} />
       </div>
     </div>
 
     <!-- Content -->
     <div class="divider divider-primary italic">Matchups</div>
-    {greatPokemon.map((p) => <Pokemon pokemon={p} />)}
+    {greatPokemon.map((p) => <Matchup opponent={p.data} />)}
     <div class="container footer italic">
       <div class="divider divider-primary italic">
         Questions? Contact @tuchandra on Github

@@ -2,28 +2,28 @@
 // Component for one Pokemon displayed on the homepage.
 
 import { getEntry } from 'astro:content';
-import type { CollectionEntry } from 'astro:content';
 import { applyMovesetOverrides, getMoveCounts } from '../pokemon-utils';
 import PokemonNamecard from './PokemonNamecard.astro';
 import FastMove from './fastMove.astro';
 import ChargedMove from './chargedMove.astro';
 import MoveCounts from './MoveCounts.astro';
+import { Pokemon, PokemonSpecies } from '../models';
 
 interface Props {
-  pokemon: CollectionEntry<'pokemon'>;
+  opponent: PokemonSpecies;
+  battler?: Pokemon;
 }
 
-const pokemon = applyMovesetOverrides(Astro.props.pokemon);
+// Move cycles for the opponent's moveset
+const pokemon = applyMovesetOverrides(Astro.props.opponent);
 
 const fastMoves = await Promise.all(
-  pokemon.data.fastMoves.map((m) =>
-    getEntry('fastMoves', m).then((m) => m.data)
-  )
+  pokemon.fastMoves.map((m) => getEntry('fastMoves', m).then((m) => m.data)),
 );
 const chargedMoves = await Promise.all(
-  pokemon.data.chargedMoves.map((m) =>
-    getEntry('chargedMoves', m).then((m) => m.data)
-  )
+  pokemon.chargedMoves.map((m) =>
+    getEntry('chargedMoves', m).then((m) => m.data),
+  ),
 ).then((moves) => moves.sort((a, b) => a.energy - b.energy));
 ---
 
@@ -45,7 +45,7 @@ const chargedMoves = await Promise.all(
         <div class="table-row">
           <ChargedMove
             move={chargedMove}
-            stab={pokemon.data.types.includes(chargedMove.type)}
+            stab={pokemon.types.includes(chargedMove.type)}
           />
           {fastMoves.map((fast) => (
             <MoveCounts counts={getMoveCounts(fast, chargedMove)} />

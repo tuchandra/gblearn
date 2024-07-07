@@ -1,7 +1,8 @@
-import { getEntry, type CollectionEntry } from 'astro:content';
+import { getEntry } from 'astro:content';
 import PokemonIndex from './content/pokemon.ts';
 import {
   ChargedMoveSchema,
+  PokemonSpecies,
   ZPokemonId,
   type ChargedMove,
   type ChargedMoveId,
@@ -397,19 +398,17 @@ const ALWAYS_EXCLUDED_CHARGED_MOVES: ChargedMoveId[] = [
   'TWISTER',
 ];
 
-function applyMovesetOverrides(
-  p: CollectionEntry<'pokemon'>,
-): CollectionEntry<'pokemon'> {
+function applyMovesetOverrides(p: PokemonSpecies): PokemonSpecies {
   // Apply global exclusions first
-  let fastMoves: FastMoveId[] = p.data.fastMoves.filter(
+  let fastMoves: FastMoveId[] = p.fastMoves.filter(
     (m) => !ALWAYS_EXCLUDED_FAST_MOVES.includes(m),
   );
-  let chargedMoves: ChargedMoveId[] = p.data.chargedMoves.filter(
+  let chargedMoves: ChargedMoveId[] = p.chargedMoves.filter(
     (m) => !ALWAYS_EXCLUDED_CHARGED_MOVES.includes(m),
   );
 
   // Apply species-specific exclusions, if they exist
-  const overrides = MOVESET_OVERRIDES[p.id];
+  const overrides = MOVESET_OVERRIDES[p.speciesId];
   if (!overrides) {
     return withMoveset(p, { fast: fastMoves, charged: chargedMoves });
   }
@@ -441,25 +440,18 @@ interface SimpleMoveset {
 }
 
 function withMoveset(
-  p: CollectionEntry<'pokemon'>,
+  p: PokemonSpecies,
   { fast, charged }: SimpleMoveset,
-): CollectionEntry<'pokemon'> {
-  const fastMoves = p.data.fastMoves.filter((m) => fast.includes(m));
-  const chargedMoves = p.data.chargedMoves.filter((m) => charged.includes(m));
+): PokemonSpecies {
+  const fastMoves = p.fastMoves.filter((m) => fast.includes(m));
+  const chargedMoves = p.chargedMoves.filter((m) => charged.includes(m));
 
   // Add Return, if needed; it's never in a Pokemon's moveset but most can learn it
   if (charged.includes('RETURN')) {
     chargedMoves.push('RETURN');
   }
 
-  return {
-    ...p,
-    data: {
-      ...p.data,
-      fastMoves,
-      chargedMoves,
-    },
-  };
+  return { ...p, fastMoves, chargedMoves };
 }
 
 function leastCommonMultiple(a: number, b: number): number {

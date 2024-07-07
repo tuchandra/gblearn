@@ -43,7 +43,7 @@ import { PokemonType } from './pokemon-types.ts';
 export const PokemonSpeciesSchema = z.object({
   dex: z.number(),
   speciesName: z.string(),
-  speciesId: z.string(),
+  speciesId: z.string().transform((val) => val as PokemonId),
   baseStats: z.object({
     atk: z.number(),
     def: z.number(),
@@ -66,6 +66,7 @@ export const PokemonSpeciesSchema = z.object({
   released: z.boolean(),
   tags: z.array(z.string()).optional(),
 });
+export type PokemonSpecies = z.infer<typeof PokemonSpeciesSchema>;
 
 /**
  * A Pokemon is a PokemonSpecies with some IVs and a level, which together
@@ -87,6 +88,7 @@ export const PokemonSchema = z.object({
     hp: z.number().min(0).max(15).int(),
   }),
 });
+export type Pokemon = z.infer<typeof PokemonSchema>;
 
 export const FastMoveSchema = z.object({
   moveId: z.string(),
@@ -98,6 +100,7 @@ export const FastMoveSchema = z.object({
   energyGain: z.number(),
   turns: z.number(),
 });
+export type FastMove = z.infer<typeof FastMoveSchema>;
 
 export const ChargedMoveSchema = z.object({
   moveId: z.string(),
@@ -112,6 +115,7 @@ export const ChargedMoveSchema = z.object({
   buffTarget: z.string().optional(),
   buffApplyChance: z.string().optional(),
 });
+export type ChargedMove = z.infer<typeof ChargedMoveSchema>;
 
 export const CupMetaSchema = z.array(
   z.object({
@@ -135,10 +139,6 @@ export enum CupName {
   // fantasy = 'fantasy',
 }
 
-export type PokemonSpecies = z.infer<typeof PokemonSpeciesSchema>;
-export type Pokemon = z.infer<typeof PokemonSchema>;
-export type FastMove = z.infer<typeof FastMoveSchema>;
-export type ChargedMove = z.infer<typeof ChargedMoveSchema>;
 export type Move = FastMove | ChargedMove;
 export type CupMeta = z.infer<typeof CupMetaSchema>;
 

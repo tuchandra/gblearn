@@ -1,7 +1,6 @@
 ---
 import { getEntry } from 'astro:content';
-import Pokemon from '../components/Pokemon.astro';
-import SelectPokemon from '../components/SelectPokemon.astro';
+import Matchup from '../components/Matchup.astro';
 import { CupName } from '../models';
 
 export function getStaticPaths() {
@@ -11,7 +10,7 @@ export function getStaticPaths() {
 const { cup } = Astro.params;
 const cupMeta = await getEntry('metas', cup);
 const cupPokemon = await Promise.all(
-  cupMeta.data.map(async (p) => getEntry(p.pokemon))
+  cupMeta.data.map(async (p) => getEntry(p.pokemon)),
 );
 ---
 
@@ -36,14 +35,14 @@ const cupPokemon = await Promise.all(
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
       <div class="flex flex-row gap-8 px-1">
-        <Pokemon pokemon={cupPokemon[1]} />
-        <Pokemon pokemon={cupPokemon[4]} />
-        <Pokemon pokemon={cupPokemon[7]} />
+        <Matchup opponent={cupPokemon[1]} />
+        <Matchup opponent={cupPokemon[4]} />
+        <Matchup opponent={cupPokemon[7]} />
       </div>
     </div>
 
     <div class="divider divider-primary italic">Matchups</div>
-    {cupPokemon.map((p) => <Pokemon pokemon={p} />)}
+    {cupPokemon.map((p) => <Matchup opponent={p} />)}
     <div class="divider divider-primary italic">
       Questions? Contact @tuchandra on Github
     </div>

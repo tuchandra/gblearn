@@ -2,8 +2,13 @@
 import { cupConfig } from '../cup-utils';
 import { getEntry } from 'astro:content';
 import { maxLevelForLeague } from '../stats';
-import Pokemon from '../components/Pokemon.astro';
-import { CupName, PokemonSchema, PokemonSpeciesSchema } from '../models';
+import Matchup from '../components/Matchup.astro';
+import {
+  CupName,
+  PokemonSchema,
+  Pokemon,
+  PokemonSpeciesSchema,
+} from '../models';
 import PokemonIndex from '../content/pokemon.ts';
 import { getPokemonIdByName } from '../pokemon-utils';
 import { values } from '../type-utils';
@@ -15,14 +20,14 @@ export async function getStaticPaths() {
   return cups.flatMap((cup) =>
     pokemonIds.map((pokemon) => ({
       params: { cup, pokemon },
-    }))
+    })),
   );
 }
 
 const { cup, pokemon } = Astro.params;
 const cupMeta = await getEntry('metas', cup);
 const cupPokemon = await Promise.all(
-  cupMeta.data.map((p) => getEntry(p.pokemon))
+  cupMeta.data.map((p) => getEntry(p.pokemon)),
 );
 const maxCp = cupConfig(cup).maxCp;
 
@@ -66,12 +71,12 @@ console.log(teamMember);
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
       <div class="flex flex-row gap-8 px-1">
-        <Pokemon pokemon={species} />
+        <Matchup opponent={species.data} />
       </div>
     </div>
 
     <div class="divider divider-primary italic">Matchups</div>
-    {cupPokemon.map((p) => <Pokemon pokemon={p} />)}
+    {cupPokemon.map((p) => <Matchup opponent={p.data} />)}
     <div class="divider divider-primary italic">
       Questions? Contact @tuchandra on Github
     </div>
