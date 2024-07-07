@@ -205,9 +205,12 @@ async function writeMoves(moves: Move[], dir: string) {
 
 async function main() {
   const { pokemon, fastMoves, chargedMoves } = await getGamemaster();
+
   await writePokemon(pokemon);
   await writeMoves(fastMoves, 'fastMoves');
   await writeMoves(chargedMoves, 'chargedMoves');
+
+  Bun.spawn({ cmd: ['bun', 'format', 'src/content/*.ts'] });
 }
 
 main();
