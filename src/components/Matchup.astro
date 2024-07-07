@@ -8,6 +8,8 @@ import FastMove from './fastMove.astro';
 import ChargedMove from './chargedMove.astro';
 import MoveCounts from './MoveCounts.astro';
 import { LevelIvsSchema, Pokemon, PokemonSpecies } from '../models';
+import { computeStatRanges } from '../damage';
+import { attackStat, defenseStat, hpStat } from '../stats';
 import DamageRange from './DamageRange.astro';
 
 interface Props {
@@ -15,6 +17,8 @@ interface Props {
   battler?: Pokemon;
   maxCp: 1500 | 2500 | null;
 }
+
+const maxCp = Astro.props.maxCp;
 
 // Move cycles for the opponent's moveset
 const pokemon = applyMovesetOverrides(Astro.props.opponent);
@@ -30,8 +34,8 @@ const chargedMoves = await Promise.all(
 
 // Damage for the PVPoke default IVs
 const defaultIvs =
-  Astro.props.maxCp != null
-    ? pokemon.defaultIvs[Astro.props.maxCp]
+  maxCp != null
+    ? pokemon.defaultIvs[maxCp]
     : LevelIvsSchema.parse({
         level: 50,
         ivs: { atk: 15, def: 15, hp: 15 },
@@ -42,11 +46,13 @@ const opponentBattler: Pokemon = {
   ivs: defaultIvs.ivs,
 };
 
+const statRanges = maxCp != null ? computeStatRanges(pokemon, maxCp) : null;
+
 const myBattler = Astro.props.battler;
 ---
 
 <div class="container mb-1 items-center rounded-md bg-neutral p-2">
-  <PokemonNamecard pokemon={pokemon} />
+  <PokemonNamecard pokemon={pokemon} statRanges={statRanges} />
   <div
     class="table w-auto border-spacing-x-2 border-spacing-y-1 rounded-md border-2 border-dashed border-warning p-2 text-neutral-500"
   >

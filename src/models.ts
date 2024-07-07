@@ -14,6 +14,15 @@ export const IvsSchema = z.object({
   hp: z.number().min(0).max(15).int(),
 });
 export type Ivs = z.infer<typeof IvsSchema>;
+export type IvKey = `${number}-${number}-${number}`;
+
+export function IvsToKey(ivs: Ivs): IvKey {
+  return `${ivs.atk}-${ivs.def}-${ivs.hp}`;
+}
+export function IvsFromKey(key: IvKey): Ivs {
+  const [atk, def, hp] = key.split('-').map(Number.parseInt);
+  return { atk, def, hp };
+}
 
 export const LevelIvsSchema = z.object({
   level: z

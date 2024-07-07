@@ -13,17 +13,19 @@ import {
 } from './models';
 import { entries } from './type-utils.ts';
 
-async function getFastMove(name: FastMoveId): Promise<FastMove> {
+export async function getFastMove(name: FastMoveId): Promise<FastMove> {
   const move = await getEntry('fastMoves', name);
   return move.data;
 }
 
-async function getChargedMove(name: ChargedMoveId): Promise<ChargedMove> {
+export async function getChargedMove(
+  name: ChargedMoveId,
+): Promise<ChargedMove> {
   const move = await getEntry('chargedMoves', name);
   return move.data;
 }
 
-async function getPokemonIdByName(name: string): Promise<SpeciesSlug> {
+export async function getPokemonIdByName(name: string): Promise<SpeciesSlug> {
   const speciesId = entries(PokemonIndex).find(
     (idNamePair) => idNamePair[1] === name,
   )?.[0];
@@ -50,7 +52,7 @@ type KeepOrRemove<T> =
       remove?: T[];
     };
 
-interface MovesetChanges {
+export interface MovesetChanges {
   fast?: KeepOrRemove<FastMoveId>;
   charged?: KeepOrRemove<ChargedMoveId>;
 }
@@ -256,7 +258,7 @@ const ALWAYS_EXCLUDED_CHARGED_MOVES: ChargedMoveId[] = [
   'TWISTER',
 ];
 
-function applyMovesetOverrides(p: PokemonSpecies): PokemonSpecies {
+export function applyMovesetOverrides(p: PokemonSpecies): PokemonSpecies {
   // Apply global exclusions first
   let fastMoves: FastMoveId[] = p.fastMoves.filter(
     (m) => !ALWAYS_EXCLUDED_FAST_MOVES.includes(m),
@@ -297,7 +299,7 @@ interface SimpleMoveset {
   charged: ChargedMoveId[];
 }
 
-function withMoveset(
+export function withMoveset(
   p: PokemonSpecies,
   { fast, charged }: SimpleMoveset,
 ): PokemonSpecies {
@@ -333,7 +335,7 @@ export interface MoveCounts {
  * move several times in succession; return a variable-length array
  * depending on the number of charged moves before returning to 0 energy.
  */
-function getMoveCounts(
+export function getMoveCounts(
   fastMove: FastMove,
   chargedMove: ChargedMove,
 ): MoveCounts[] {
@@ -365,14 +367,3 @@ function getMoveCounts(
 
   return moveCounts;
 }
-
-export {
-  applyMovesetOverrides,
-  getChargedMove,
-  getFastMove,
-  getMoveCounts,
-  getPokemonIdByName,
-  MOVESET_OVERRIDES,
-  withMoveset,
-};
-export type { SimpleMoveset };

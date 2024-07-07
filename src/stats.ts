@@ -1,5 +1,5 @@
 import { CP_MULTIPLIERS, Level, MAX_CPM } from './levels';
-import { Pokemon, PokemonSpecies } from './models';
+import { Ivs, Pokemon, PokemonSpecies } from './models';
 import { entries } from './type-utils';
 
 export function cp(pokemon: Pokemon): number {
@@ -35,12 +35,12 @@ export function hpStat(pokemon: Pokemon): number {
 
 export function maxLevelForLeague(
   species: PokemonSpecies,
-  ivs: [number, number, number],
+  ivs: Ivs,
   cpLimit: 1500 | 2500,
-): Level {
-  const atk = species.baseStats.atk + ivs[0];
-  const def = species.baseStats.def + ivs[1];
-  const hp = species.baseStats.hp + ivs[2];
+): Pokemon {
+  const atk = species.baseStats.atk + ivs.atk;
+  const def = species.baseStats.def + ivs.def;
+  const hp = species.baseStats.hp + ivs.hp;
   const statProduct = Math.sqrt(atk * atk * def * hp);
 
   const cpmSquared = (10 * cpLimit) / statProduct;
@@ -48,7 +48,7 @@ export function maxLevelForLeague(
 
   // edge case: check for level 51
   if (cpm_limit > MAX_CPM) {
-    return 51;
+    return { species, ivs, level: 51 };
   }
 
   // otherwise, find first entry in CP_MULTIPLIERS that _passes_ our target CP multiplier
@@ -66,8 +66,8 @@ export function maxLevelForLeague(
   // to get the level that's WITHIN the CP limit.
   const computedCp = 0.1 * CP_MULTIPLIERS[level] ** 2 * statProduct;
   if (Math.floor(computedCp) > cpLimit) {
-    return (level - 0.5) as Level;
+    return { species, ivs, level: (level - 0.5) as Level };
   }
 
-  return level;
+  return { species, ivs, level };
 }

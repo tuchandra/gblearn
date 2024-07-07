@@ -3,7 +3,7 @@ import { cupConfig } from '../cup-utils';
 import { getEntry } from 'astro:content';
 import { maxLevelForLeague } from '../stats';
 import Matchup from '../components/Matchup.astro';
-import { CupName, PokemonSchema } from '../models';
+import { CupName, Pokemon, PokemonSchema } from '../models';
 import PokemonIndex from '../content/pokemon.ts';
 import { getPokemonIdByName } from '../pokemon-utils';
 import { values } from '../type-utils';
@@ -29,18 +29,10 @@ const maxCp = cupConfig(cup).maxCp;
 const pokemonId = await getPokemonIdByName(pokemon);
 const species = await getEntry('pokemon', pokemonId);
 
-const level =
-  maxCp != null ? maxLevelForLeague(species.data, [5, 14, 15], maxCp) : 51;
-
-const teamMember = PokemonSchema.parse({
-  species: species.data,
-  level,
-  ivs: {
-    atk: 5,
-    def: 14,
-    hp: 15,
-  },
-});
+const teamMember: Pokemon =
+  maxCp != null
+    ? maxLevelForLeague(species.data, { atk: 5, def: 14, hp: 15 }, maxCp)
+    : { species: species.data, ivs: { atk: 5, def: 14, hp: 15 }, level: 51 };
 ---
 
 <html data-theme="sunset">

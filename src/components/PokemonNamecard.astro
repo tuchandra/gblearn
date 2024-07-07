@@ -1,13 +1,14 @@
 ---
 // Astro component for one Pokemon's icon and name.
 
-import type { PokemonSpecies } from '../models';
+import type { Ivs, PokemonSpecies } from '../models';
 
 interface Props {
   pokemon: PokemonSpecies;
+  statRanges: Record<keyof Ivs, [string, string]> | null;
 }
 
-const { pokemon } = Astro.props;
+const { pokemon, statRanges } = Astro.props;
 const dex = pokemon.dex.toString().padStart(4, '0');
 const { speciesId, speciesName, types } = pokemon;
 
@@ -34,5 +35,24 @@ const pokemonIcon = `/pokemon/${dex}-${speciesId}.png`;
         ) : null
       }
     </div>
+  </div>
+  <div>
+    {
+      statRanges && (
+        <>
+          <div class="text-xs italic">
+            <span class="">
+              {statRanges.atk[0]} - {statRanges.atk[1]} attack
+            </span>
+          </div>
+          <div class="text-xs italic">
+            <span class="">
+              {statRanges.def[0]} - {statRanges.def[1]} defense;
+              {statRanges.hp[0]} - {statRanges.hp[1]} HP
+            </span>
+          </div>
+        </>
+      )
+    }
   </div>
 </div>
