@@ -4,10 +4,10 @@
  * tldr:
  * - invoke with `bun scripts/fetch-gamemaster.ts`
  * - requires bun, since we use the file writing API
- * - (over)writes JSON to:
- *   - src/content/pokemon.json
- *   - src/content/fastMoves.json
- *   - src/content/chargedMoves.json
+ * - (over)writes TypeScript files to:
+ *   - src/content/pokemon.ts
+ *   - src/content/fastMoves.ts
+ *   - src/content/chargedMoves.ts
  *
  * This script fetches the latest data file from the PVPoke Github repo,
  * which itself is sourced from PokeMiners with some convenient-for-PVP preprocessing.

@@ -59,8 +59,10 @@ export interface MovesetChanges {
 
 // Please keep alphabetized!
 const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
+  abomasnow: { charged: { remove: ['BLIZZARD'] } },
   altaria: { charged: { remove: ['DRAGON_PULSE', 'DAZZLING_GLEAM'] } },
   ampharos: { fast: { remove: ['CHARGE_BEAM'] } },
+  arctibax: { charged: { remove: ['OUTRAGE'] } },
   carbink: { charged: { remove: ['POWER_GEM'] } },
   charizard: {
     fast: { remove: ['EMBER', 'AIR_SLASH'] },
@@ -132,7 +134,6 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   magneton: { fast: { remove: ['SPARK'] } },
   magnezone: { fast: { remove: ['SPARK'] } },
   mamoswine: { charged: { remove: ['ANCIENT_POWER'] } },
-  mantine: { charged: { remove: ['WATER_PULSE'] } },
   marshtomp: { fast: { remove: ['WATER_GUN'] } },
   mawile: { fast: { remove: ['BITE', 'ICE_FANG'] } },
   melmetal: { charged: { remove: ['HYPER_BEAM', 'FLASH_CANNON'] } },
@@ -148,6 +149,7 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     fast: { remove: ['FEINT_ATTACK'] },
     charged: { remove: ['BLIZZARD', 'ICE_BEAM'] },
   },
+  noctowl: { charged: { remove: ['NIGHT_SHADE', 'PSYCHIC'] } },
   obstagoon: { fast: { remove: ['LICK'] } },
   pelipper: {
     fast: { remove: ['WATER_GUN'] },
@@ -195,6 +197,8 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   tentacruel: { fast: { keep: ['POISON_JAB'] } },
   togekiss: { fast: { remove: ['HIDDEN_POWER'] } },
   togetic: { fast: { remove: ['EXTRASENSORY', 'HIDDEN_POWER'] } },
+  togedemaru: { fast: { remove: ['SPARK'] } },
+  toxapex: { fast: { remove: ['BITE'] } },
   toxicroak: { fast: { remove: ['POISON_JAB'] } },
   turtonator: { fast: { remove: ['EMBER', 'FIRE_SPIN'] } },
   ursaluna: { fast: { keep: ['TACKLE'] } },
