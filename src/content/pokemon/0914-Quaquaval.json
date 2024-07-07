@@ -7,6 +7,24 @@
     "def": 159,
     "hp": 198
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 18.5,
+      "ivs": {
+        "atk": 4,
+        "def": 10,
+        "hp": 13
+      }
+    },
+    "2500": {
+      "level": 30.5,
+      "ivs": {
+        "atk": 6,
+        "def": 15,
+        "hp": 12
+      }
+    }
+  },
   "types": [
     "water",
     "fighting"

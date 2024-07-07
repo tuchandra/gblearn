@@ -7,6 +7,24 @@
     "def": 203,
     "hp": 207
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 13,
+      "ivs": {
+        "atk": 4,
+        "def": 11,
+        "hp": 13
+      }
+    },
+    "2500": {
+      "level": 21.5,
+      "ivs": {
+        "atk": 4,
+        "def": 11,
+        "hp": 15
+      }
+    }
+  },
   "types": [
     "electric",
     "dragon"

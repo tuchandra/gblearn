@@ -14,9 +14,11 @@
  */
 
 import { z } from 'zod';
+import { Level } from '../src/levels';
 import type {
   ChargedMove,
   FastMove,
+  LevelIvs,
   Move,
   PokemonSpecies,
 } from '../src/models';
@@ -58,18 +60,57 @@ async function getGamemaster(): Promise<{
     'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gamemaster.json';
   const gamemaster = await fetch(url).then((res) => res.json());
 
-  const pokemon = z
-    .array(PokemonSpeciesSchema)
-    .parse(gamemaster.pokemon)
-    // Fix monotype Pokemon who have a "second" type of 'none'
+  /**
+   * Example entry from the gamemaster.json file:
+   * 
+    {
+      "dex": 440,
+      "speciesName": "Happiny",
+      "speciesId": "happiny",
+      "baseStats": {
+          "atk": 25,
+          "def": 77,
+          "hp": 225
+      },
+      "types": ["normal", "none"],
+      "fastMoves": ["POUND", "ZEN_HEADBUTT"],
+      "chargedMoves": ["PSYCHIC"],
+      "defaultIVs": {
+          "cp500": [50, 15, 15, 15],
+          "cp1500": [50, 15, 15, 15],
+          "cp2500": [50, 15, 15, 15]
+      },
+      "buddyDistance": 5,
+      "thirdMoveCost": 10000,
+      "released": true,
+      "family": <irrelevant>
+    }
+   *
+   * This mostly resembles the PokemonSpeciesSchema, but we need to
+   * transform the default IVs and apply some other filters.
+   */
+
+  const transformIvs = ([level, ...ivs]: number[]): LevelIvs => ({
+    level: level as Level,
+    ivs: {
+      atk: ivs[0],
+      def: ivs[1],
+      hp: ivs[2],
+    },
+  });
+
+  const gmPokemon = gamemaster.pokemon
     .map((mon) => ({
       ...mon,
+      // Fix monotype Pokemon who have a "second" type of 'none'
       types: mon.types.filter((t) => t !== 'none'),
-    }))
-    // Remove HIDDEN_POWER variants from fast moves
-    .map((mon) => ({
-      ...mon,
+      // Remove HIDDEN_POWER variants from fast moves
       fastMoves: removeHiddenPowerTypes(mon.fastMoves),
+      // Transform default IVs
+      defaultIvs: {
+        1500: transformIvs(mon.defaultIVs.cp1500),
+        2500: transformIvs(mon.defaultIVs.cp2500),
+      },
     }))
     .filter(
       (mon) =>
@@ -84,6 +125,8 @@ async function getGamemaster(): Promise<{
         // The 'duplicate' tag is just Lanturn, which is double-counted in GL with both fast moves
         !mon.tags?.includes('duplicate'),
     );
+  const pokemon = PokemonSpeciesSchema.array().parse(gmPokemon);
+
   const fastMoves = z
     .array(FastMoveSchema)
     .parse(

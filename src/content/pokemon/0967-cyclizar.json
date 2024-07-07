@@ -7,6 +7,24 @@
     "def": 142,
     "hp": 172
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 24,
+      "ivs": {
+        "atk": 4,
+        "def": 8,
+        "hp": 15
+      }
+    },
+    "2500": {
+      "level": 49.5,
+      "ivs": {
+        "atk": 5,
+        "def": 14,
+        "hp": 12
+      }
+    }
+  },
   "types": [
     "dragon",
     "normal"

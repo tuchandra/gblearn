@@ -7,6 +7,24 @@
     "def": 107,
     "hp": 128
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 28,
+      "ivs": {
+        "atk": 5,
+        "def": 14,
+        "hp": 14
+      }
+    },
+    "2500": {
+      "level": 50,
+      "ivs": {
+        "atk": 15,
+        "def": 15,
+        "hp": 15
+      }
+    }
+  },
   "types": [
     "ghost",
     "poison"

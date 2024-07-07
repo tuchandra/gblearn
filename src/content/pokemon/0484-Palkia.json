@@ -7,6 +7,24 @@
     "def": 215,
     "hp": 189
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 14,
+      "ivs": {
+        "atk": 4,
+        "def": 5,
+        "hp": 14
+      }
+    },
+    "2500": {
+      "level": 23,
+      "ivs": {
+        "atk": 4,
+        "def": 15,
+        "hp": 10
+      }
+    }
+  },
   "types": [
     "water",
     "dragon"

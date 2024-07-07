@@ -7,6 +7,24 @@
     "def": 149,
     "hp": 216
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 18.5,
+      "ivs": {
+        "atk": 5,
+        "def": 14,
+        "hp": 7
+      }
+    },
+    "2500": {
+      "level": 31.5,
+      "ivs": {
+        "atk": 4,
+        "def": 15,
+        "hp": 9
+      }
+    }
+  },
   "types": [
     "grass",
     "psychic"

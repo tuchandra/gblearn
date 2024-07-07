@@ -7,6 +7,24 @@
     "def": 148,
     "hp": 163
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 16,
+      "ivs": {
+        "atk": 5,
+        "def": 15,
+        "hp": 14
+      }
+    },
+    "2500": {
+      "level": 27,
+      "ivs": {
+        "atk": 5,
+        "def": 15,
+        "hp": 11
+      }
+    }
+  },
   "types": [
     "bug",
     "poison"

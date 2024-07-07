@@ -7,6 +7,24 @@
     "def": 102,
     "hp": 312
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 23,
+      "ivs": {
+        "atk": 7,
+        "def": 15,
+        "hp": 14
+      }
+    },
+    "2500": {
+      "level": 49,
+      "ivs": {
+        "atk": 5,
+        "def": 13,
+        "hp": 14
+      }
+    }
+  },
   "types": [
     "ghost",
     "flying"

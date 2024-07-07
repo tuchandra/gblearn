@@ -7,6 +7,24 @@
     "def": 154,
     "hp": 198
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 22,
+      "ivs": {
+        "atk": 3,
+        "def": 13,
+        "hp": 12
+      }
+    },
+    "2500": {
+      "level": 42,
+      "ivs": {
+        "atk": 6,
+        "def": 13,
+        "hp": 15
+      }
+    }
+  },
   "types": [
     "ghost",
     "grass"

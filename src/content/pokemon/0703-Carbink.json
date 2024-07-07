@@ -7,6 +7,24 @@
     "def": 285,
     "hp": 137
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 50,
+      "ivs": {
+        "atk": 6,
+        "def": 10,
+        "hp": 13
+      }
+    },
+    "2500": {
+      "level": 50,
+      "ivs": {
+        "atk": 15,
+        "def": 15,
+        "hp": 15
+      }
+    }
+  },
   "types": [
     "rock",
     "fairy"

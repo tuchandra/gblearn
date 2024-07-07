@@ -7,6 +7,24 @@
     "def": 219,
     "hp": 137
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 21,
+      "ivs": {
+        "atk": 7,
+        "def": 15,
+        "hp": 15
+      }
+    },
+    "2500": {
+      "level": 41.5,
+      "ivs": {
+        "atk": 6,
+        "def": 11,
+        "hp": 15
+      }
+    }
+  },
   "types": [
     "electric",
     "water"

@@ -7,6 +7,24 @@
     "def": 148,
     "hp": 142
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 16.5,
+      "ivs": {
+        "atk": 6,
+        "def": 15,
+        "hp": 12
+      }
+    },
+    "2500": {
+      "level": 28,
+      "ivs": {
+        "atk": 6,
+        "def": 14,
+        "hp": 8
+      }
+    }
+  },
   "types": [
     "fire",
     "ghost"

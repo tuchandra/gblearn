@@ -7,6 +7,24 @@
     "def": 235,
     "hp": 146
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 15,
+      "ivs": {
+        "atk": 4,
+        "def": 11,
+        "hp": 11
+      }
+    },
+    "2500": {
+      "level": 25,
+      "ivs": {
+        "atk": 5,
+        "def": 8,
+        "hp": 13
+      }
+    }
+  },
   "types": [
     "ghost",
     "fairy"

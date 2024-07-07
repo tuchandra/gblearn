@@ -7,6 +7,24 @@
     "def": 203,
     "hp": 321
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 16,
+      "ivs": {
+        "atk": 4,
+        "def": 6,
+        "hp": 15
+      }
+    },
+    "2500": {
+      "level": 26.5,
+      "ivs": {
+        "atk": 4,
+        "def": 11,
+        "hp": 12
+      }
+    }
+  },
   "types": [
     "dark",
     "ground"

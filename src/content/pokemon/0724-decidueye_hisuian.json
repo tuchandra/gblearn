@@ -7,6 +7,24 @@
     "def": 174,
     "hp": 204
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 20,
+      "ivs": {
+        "atk": 4,
+        "def": 5,
+        "hp": 4
+      }
+    },
+    "2500": {
+      "level": 33.5,
+      "ivs": {
+        "atk": 6,
+        "def": 12,
+        "hp": 14
+      }
+    }
+  },
   "types": [
     "grass",
     "fighting"

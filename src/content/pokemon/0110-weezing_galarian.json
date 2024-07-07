@@ -7,6 +7,24 @@
     "def": 197,
     "hp": 163
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 24.5,
+      "ivs": {
+        "atk": 5,
+        "def": 13,
+        "hp": 11
+      }
+    },
+    "2500": {
+      "level": 48.5,
+      "ivs": {
+        "atk": 12,
+        "def": 14,
+        "hp": 14
+      }
+    }
+  },
   "types": [
     "poison",
     "fairy"

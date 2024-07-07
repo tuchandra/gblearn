@@ -7,6 +7,24 @@
     "def": 278,
     "hp": 214
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 17.5,
+      "ivs": {
+        "atk": 4,
+        "def": 14,
+        "hp": 13
+      }
+    },
+    "2500": {
+      "level": 29.5,
+      "ivs": {
+        "atk": 4,
+        "def": 9,
+        "hp": 13
+      }
+    }
+  },
   "types": [
     "psychic"
   ],

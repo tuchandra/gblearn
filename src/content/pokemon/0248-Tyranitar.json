@@ -7,6 +7,24 @@
     "def": 207,
     "hp": 225
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 14.5,
+      "ivs": {
+        "atk": 5,
+        "def": 8,
+        "hp": 13
+      }
+    },
+    "2500": {
+      "level": 23.5,
+      "ivs": {
+        "atk": 8,
+        "def": 15,
+        "hp": 13
+      }
+    }
+  },
   "types": [
     "rock",
     "dark"

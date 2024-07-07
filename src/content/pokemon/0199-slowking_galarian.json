@@ -7,6 +7,24 @@
     "def": 180,
     "hp": 216
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 20.5,
+      "ivs": {
+        "atk": 5,
+        "def": 11,
+        "hp": 15
+      }
+    },
+    "2500": {
+      "level": 38.5,
+      "ivs": {
+        "atk": 4,
+        "def": 14,
+        "hp": 12
+      }
+    }
+  },
   "types": [
     "poison",
     "psychic"

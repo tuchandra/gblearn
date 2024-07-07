@@ -7,6 +7,24 @@
     "def": 259,
     "hp": 216
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 15,
+      "ivs": {
+        "atk": 4,
+        "def": 14,
+        "hp": 5
+      }
+    },
+    "2500": {
+      "level": 24.5,
+      "ivs": {
+        "atk": 5,
+        "def": 14,
+        "hp": 11
+      }
+    }
+  },
   "types": [
     "water",
     "psychic"

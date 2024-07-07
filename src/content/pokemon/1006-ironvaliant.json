@@ -7,6 +7,24 @@
     "def": 171,
     "hp": 179
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 16,
+      "ivs": {
+        "atk": 4,
+        "def": 14,
+        "hp": 7
+      }
+    },
+    "2500": {
+      "level": 26.5,
+      "ivs": {
+        "atk": 4,
+        "def": 14,
+        "hp": 9
+      }
+    }
+  },
   "types": [
     "fairy",
     "fighting"

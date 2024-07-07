@@ -7,6 +7,24 @@
     "def": 174,
     "hp": 155
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 26,
+      "ivs": {
+        "atk": 6,
+        "def": 15,
+        "hp": 13
+      }
+    },
+    "2500": {
+      "level": 50,
+      "ivs": {
+        "atk": 15,
+        "def": 15,
+        "hp": 15
+      }
+    }
+  },
   "types": [
     "water",
     "flying"

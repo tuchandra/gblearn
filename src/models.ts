@@ -8,6 +8,33 @@ import PokemonIndex from './content/pokemon.ts';
 import { Level } from './levels.ts';
 import { PokemonType } from './pokemon-types.ts';
 
+export const IvsSchema = z.object({
+  atk: z.number().min(0).max(15).int(),
+  def: z.number().min(0).max(15).int(),
+  hp: z.number().min(0).max(15).int(),
+});
+export type Ivs = z.infer<typeof IvsSchema>;
+
+export const LevelIvsSchema = z.object({
+  level: z
+    .number()
+    .min(1)
+    .max(51)
+    .multipleOf(0.5)
+    .transform((val): Level => {
+      return val as Level;
+    }),
+  ivs: IvsSchema,
+});
+export type LevelIvs = z.infer<typeof LevelIvsSchema>;
+
+export const StatsSchema = z.object({
+  atk: z.number(),
+  def: z.number(),
+  hp: z.number(),
+});
+export type Stats = z.infer<typeof StatsSchema>;
+
 /**
  * What is a Pokemon?
  * ------------------
@@ -44,10 +71,10 @@ export const PokemonSpeciesSchema = z.object({
   dex: z.number(),
   speciesName: z.string(),
   speciesId: z.string().transform((val) => val as PokemonId),
-  baseStats: z.object({
-    atk: z.number(),
-    def: z.number(),
-    hp: z.number(),
+  baseStats: StatsSchema,
+  defaultIvs: z.object({
+    1500: LevelIvsSchema,
+    2500: LevelIvsSchema,
   }),
   types: z
     .string()

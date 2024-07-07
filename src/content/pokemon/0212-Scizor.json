@@ -7,6 +7,24 @@
     "def": 181,
     "hp": 172
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 18.5,
+      "ivs": {
+        "atk": 4,
+        "def": 11,
+        "hp": 14
+      }
+    },
+    "2500": {
+      "level": 30.5,
+      "ivs": {
+        "atk": 7,
+        "def": 13,
+        "hp": 15
+      }
+    }
+  },
   "types": [
     "bug",
     "steel"

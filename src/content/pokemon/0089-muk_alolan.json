@@ -7,6 +7,24 @@
     "def": 172,
     "hp": 233
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 20.5,
+      "ivs": {
+        "atk": 4,
+        "def": 12,
+        "hp": 9
+      }
+    },
+    "2500": {
+      "level": 37,
+      "ivs": {
+        "atk": 4,
+        "def": 15,
+        "hp": 14
+      }
+    }
+  },
   "types": [
     "poison",
     "dark"

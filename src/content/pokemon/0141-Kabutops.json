@@ -7,6 +7,24 @@
     "def": 186,
     "hp": 155
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 20.5,
+      "ivs": {
+        "atk": 4,
+        "def": 14,
+        "hp": 11
+      }
+    },
+    "2500": {
+      "level": 39,
+      "ivs": {
+        "atk": 4,
+        "def": 12,
+        "hp": 11
+      }
+    }
+  },
   "types": [
     "rock",
     "water"

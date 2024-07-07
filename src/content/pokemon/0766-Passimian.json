@@ -7,6 +7,24 @@
     "def": 160,
     "hp": 225
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 18.5,
+      "ivs": {
+        "atk": 4,
+        "def": 15,
+        "hp": 5
+      }
+    },
+    "2500": {
+      "level": 31,
+      "ivs": {
+        "atk": 4,
+        "def": 13,
+        "hp": 13
+      }
+    }
+  },
   "types": [
     "fighting"
   ],

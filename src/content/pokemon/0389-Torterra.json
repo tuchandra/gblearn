@@ -7,6 +7,24 @@
     "def": 188,
     "hp": 216
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 19,
+      "ivs": {
+        "atk": 5,
+        "def": 14,
+        "hp": 9
+      }
+    },
+    "2500": {
+      "level": 33.5,
+      "ivs": {
+        "atk": 4,
+        "def": 14,
+        "hp": 10
+      }
+    }
+  },
   "types": [
     "grass",
     "ground"

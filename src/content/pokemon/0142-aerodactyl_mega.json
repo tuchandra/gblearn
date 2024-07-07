@@ -7,6 +7,24 @@
     "def": 210,
     "hp": 190
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 13.5,
+      "ivs": {
+        "atk": 4,
+        "def": 10,
+        "hp": 11
+      }
+    },
+    "2500": {
+      "level": 22,
+      "ivs": {
+        "atk": 4,
+        "def": 15,
+        "hp": 14
+      }
+    }
+  },
   "types": [
     "rock",
     "flying"

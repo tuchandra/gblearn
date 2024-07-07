@@ -7,6 +7,24 @@
     "def": 217,
     "hp": 198
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 16.5,
+      "ivs": {
+        "atk": 5,
+        "def": 14,
+        "hp": 13
+      }
+    },
+    "2500": {
+      "level": 28,
+      "ivs": {
+        "atk": 4,
+        "def": 10,
+        "hp": 12
+      }
+    }
+  },
   "types": [
     "fairy",
     "flying"

@@ -7,6 +7,24 @@
     "def": 246,
     "hp": 190
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 16,
+      "ivs": {
+        "atk": 5,
+        "def": 12,
+        "hp": 7
+      }
+    },
+    "2500": {
+      "level": 26.5,
+      "ivs": {
+        "atk": 4,
+        "def": 13,
+        "hp": 10
+      }
+    }
+  },
   "types": [
     "dragon",
     "psychic"

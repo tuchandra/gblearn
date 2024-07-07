@@ -7,6 +7,24 @@
     "def": 199,
     "hp": 219
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 18,
+      "ivs": {
+        "atk": 4,
+        "def": 11,
+        "hp": 13
+      }
+    },
+    "2500": {
+      "level": 30.5,
+      "ivs": {
+        "atk": 4,
+        "def": 15,
+        "hp": 6
+      }
+    }
+  },
   "types": [
     "steel",
     "flying"

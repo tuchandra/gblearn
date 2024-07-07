@@ -7,6 +7,24 @@
     "def": 209,
     "hp": 190
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 23.5,
+      "ivs": {
+        "atk": 4,
+        "def": 7,
+        "hp": 14
+      }
+    },
+    "2500": {
+      "level": 48,
+      "ivs": {
+        "atk": 4,
+        "def": 14,
+        "hp": 13
+      }
+    }
+  },
   "types": [
     "water",
     "poison"

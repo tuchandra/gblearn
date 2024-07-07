@@ -7,6 +7,24 @@
     "def": 162,
     "hp": 163
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 22,
+      "ivs": {
+        "atk": 8,
+        "def": 15,
+        "hp": 15
+      }
+    },
+    "2500": {
+      "level": 46.5,
+      "ivs": {
+        "atk": 4,
+        "def": 10,
+        "hp": 15
+      }
+    }
+  },
   "types": [
     "psychic",
     "fairy"

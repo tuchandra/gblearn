@@ -7,6 +7,24 @@
     "def": 210,
     "hp": 227
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 9.5,
+      "ivs": {
+        "atk": 4,
+        "def": 15,
+        "hp": 13
+      }
+    },
+    "2500": {
+      "level": 15.5,
+      "ivs": {
+        "atk": 12,
+        "def": 15,
+        "hp": 13
+      }
+    }
+  },
   "types": [
     "dragon",
     "flying"
@@ -23,7 +41,7 @@
     "BREAKING_SWIPE",
     "DRAGON_ASCENT"
   ],
-  "released": false,
+  "released": true,
   "tags": [
     "legendary",
     "mega"

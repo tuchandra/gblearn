@@ -7,6 +7,24 @@
     "def": 167,
     "hp": 181
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 22,
+      "ivs": {
+        "atk": 4,
+        "def": 10,
+        "hp": 13
+      }
+    },
+    "2500": {
+      "level": 42.5,
+      "ivs": {
+        "atk": 4,
+        "def": 15,
+        "hp": 13
+      }
+    }
+  },
   "types": [
     "grass",
     "poison"

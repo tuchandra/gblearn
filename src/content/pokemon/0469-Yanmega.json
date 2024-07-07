@@ -7,6 +7,24 @@
     "def": 156,
     "hp": 200
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 18.5,
+      "ivs": {
+        "atk": 8,
+        "def": 15,
+        "hp": 11
+      }
+    },
+    "2500": {
+      "level": 31.5,
+      "ivs": {
+        "atk": 7,
+        "def": 14,
+        "hp": 15
+      }
+    }
+  },
   "types": [
     "bug",
     "flying"

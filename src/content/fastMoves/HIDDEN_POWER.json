@@ -1,7 +1,6 @@
 {
   "moveId": "HIDDEN_POWER",
   "name": "Hidden Power",
-  "type": "unknown",
   "power": 9,
   "energyGain": 8,
   "turns": 3

@@ -7,6 +7,24 @@
     "def": 240,
     "hp": 192
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 11,
+      "ivs": {
+        "atk": 5,
+        "def": 14,
+        "hp": 10
+      }
+    },
+    "2500": {
+      "level": 18,
+      "ivs": {
+        "atk": 4,
+        "def": 15,
+        "hp": 15
+      }
+    }
+  },
   "types": [
     "fairy",
     "steel"

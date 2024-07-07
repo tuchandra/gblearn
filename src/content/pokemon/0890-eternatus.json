@@ -7,6 +7,24 @@
     "def": 192,
     "hp": 268
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 12.5,
+      "ivs": {
+        "atk": 5,
+        "def": 9,
+        "hp": 13
+      }
+    },
+    "2500": {
+      "level": 20.5,
+      "ivs": {
+        "atk": 6,
+        "def": 14,
+        "hp": 12
+      }
+    }
+  },
   "types": [
     "poison",
     "dragon"

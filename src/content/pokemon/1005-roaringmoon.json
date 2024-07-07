@@ -7,6 +7,24 @@
     "def": 196,
     "hp": 233
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 13,
+      "ivs": {
+        "atk": 4,
+        "def": 15,
+        "hp": 11
+      }
+    },
+    "2500": {
+      "level": 21.5,
+      "ivs": {
+        "atk": 7,
+        "def": 13,
+        "hp": 13
+      }
+    }
+  },
   "types": [
     "dragon",
     "dark"

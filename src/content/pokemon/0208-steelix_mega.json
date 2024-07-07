@@ -7,6 +7,24 @@
     "def": 327,
     "hp": 181
   },
+  "defaultIvs": {
+    "1500": {
+      "level": 15,
+      "ivs": {
+        "atk": 7,
+        "def": 14,
+        "hp": 11
+      }
+    },
+    "2500": {
+      "level": 25.5,
+      "ivs": {
+        "atk": 4,
+        "def": 15,
+        "hp": 8
+      }
+    }
+  },
   "types": [
     "steel",
     "ground"
