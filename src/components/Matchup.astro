@@ -7,15 +7,8 @@ import PokemonNamecard from './PokemonNamecard.astro';
 import FastMove from './fastMove.astro';
 import ChargedMove from './chargedMove.astro';
 import MoveCounts from './MoveCounts.astro';
-import {
-  LevelIvs,
-  LevelIvsSchema,
-  Ivs,
-  Pokemon,
-  PokemonSpecies,
-} from '../models';
-import { hpStat } from '../stats';
-import { calculateDamage } from '../damage';
+import { LevelIvsSchema, Pokemon, PokemonSpecies } from '../models';
+import DamageRange from './DamageRange.astro';
 
 interface Props {
   opponent: PokemonSpecies;
@@ -57,33 +50,23 @@ const myBattler = Astro.props.battler;
   <div
     class="table w-auto border-spacing-x-2 border-spacing-y-1 rounded-md border-2 border-dashed border-warning p-2 text-neutral-500"
   >
-    <!-- <div class="table-header-group"> -->
     <div class="table-row">
-      <div class="table-cell w-36 align-middle text-xs">
-        <!-- <p>Moves / Turns / Energy</p> -->
-      </div>
+      <div class="table-cell w-36 align-middle text-xs"></div>
       {
         fastMoves.map((fastMove) => (
           <div class="table-cell">
             <FastMove move={fastMove} />
             {myBattler && (
-              <span class="text-xs italic">
-                {calculateDamage(fastMove, opponentBattler, myBattler)} damage (
-                {(
-                  calculateDamage(fastMove, opponentBattler, myBattler) /
-                  hpStat(myBattler)
-                ).toLocaleString(undefined, {
-                  style: 'percent',
-                  maximumFractionDigits: 0,
-                })}
-                )
-              </span>
+              <DamageRange
+                move={fastMove}
+                attacker={opponentBattler}
+                defender={myBattler}
+              />
             )}
           </div>
         ))
       }
     </div>
-    <!-- </div> -->
     {
       chargedMoves.map((chargedMove) => (
         <div class="table-row">
@@ -93,18 +76,11 @@ const myBattler = Astro.props.battler;
               stab={pokemon.types.includes(chargedMove.type)}
             />
             {myBattler && (
-              <span class="text-xs italic">
-                {calculateDamage(chargedMove, opponentBattler, myBattler)}{' '}
-                damage (
-                {(
-                  calculateDamage(chargedMove, opponentBattler, myBattler) /
-                  hpStat(myBattler)
-                ).toLocaleString(undefined, {
-                  style: 'percent',
-                  maximumFractionDigits: 0,
-                })}
-                )
-              </span>
+              <DamageRange
+                move={chargedMove}
+                attacker={opponentBattler}
+                defender={myBattler}
+              />
             )}
           </>
           {fastMoves.map((fast) => (
@@ -113,13 +89,5 @@ const myBattler = Astro.props.battler;
         </div>
       ))
     }
-    <!-- {
-      myBattler &&
-        chargedMoves.map((chargedMove) => (
-          <div class="table-row">
-            Damage: {calculateDamage(chargedMove, opponentBattler, myBattler)}
-          </div>
-        ))
-    } -->
   </div>
 </div>

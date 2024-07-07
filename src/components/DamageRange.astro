@@ -1,0 +1,22 @@
+---
+// Component that computes and shows the damage of a move
+// In the future, will handle damage ranges
+
+import { calculateDamage } from '../damage';
+import type { Move, Pokemon } from '../models';
+import { hpStat } from '../stats';
+
+interface Props {
+  move: Move;
+  attacker: Pokemon;
+  defender: Pokemon;
+}
+const { move, attacker, defender } = Astro.props;
+const damage = calculateDamage(move, attacker, defender);
+const percent = (damage / hpStat(defender)).toLocaleString(undefined, {
+  style: 'percent',
+  maximumFractionDigits: 0,
+});
+---
+
+<span class="text-xs italic">{damage} damage ({percent})</span>
