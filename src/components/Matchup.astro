@@ -7,24 +7,49 @@ import PokemonNamecard from './PokemonNamecard.astro';
 import FastMove from './fastMove.astro';
 import ChargedMove from './chargedMove.astro';
 import MoveCounts from './MoveCounts.astro';
-import { Pokemon, PokemonSpecies } from '../models';
+import {
+  LevelIvs,
+  LevelIvsSchema,
+  Ivs,
+  Pokemon,
+  PokemonSpecies,
+} from '../models';
+import { hpStat } from '../stats';
+import { calculateDamage } from '../damage';
 
 interface Props {
   opponent: PokemonSpecies;
   battler?: Pokemon;
+  maxCp: 1500 | 2500 | null;
 }
 
 // Move cycles for the opponent's moveset
 const pokemon = applyMovesetOverrides(Astro.props.opponent);
 
 const fastMoves = await Promise.all(
-  pokemon.fastMoves.map((m) => getEntry('fastMoves', m).then((m) => m.data)),
+  pokemon.fastMoves.map((m) => getEntry('fastMoves', m).then((m) => m.data))
 );
 const chargedMoves = await Promise.all(
   pokemon.chargedMoves.map((m) =>
-    getEntry('chargedMoves', m).then((m) => m.data),
-  ),
+    getEntry('chargedMoves', m).then((m) => m.data)
+  )
 ).then((moves) => moves.sort((a, b) => a.energy - b.energy));
+
+// Damage for the PVPoke default IVs
+const defaultIvs =
+  Astro.props.maxCp != null
+    ? pokemon.defaultIvs[Astro.props.maxCp]
+    : LevelIvsSchema.parse({
+        level: 50,
+        ivs: { atk: 15, def: 15, hp: 15 },
+      });
+const opponentBattler: Pokemon = {
+  species: pokemon,
+  level: defaultIvs.level,
+  ivs: defaultIvs.ivs,
+};
+
+const myBattler = Astro.props.battler;
 ---
 
 <div class="container mb-1 items-center rounded-md bg-neutral p-2">
@@ -32,26 +57,69 @@ const chargedMoves = await Promise.all(
   <div
     class="table w-auto border-spacing-x-2 border-spacing-y-1 rounded-md border-2 border-dashed border-warning p-2 text-neutral-500"
   >
-    <div class="table-header-group">
-      <div class="table-row">
-        <div class="table-cell w-36 align-middle text-xs">
-          <!-- <p>Moves / Turns / Energy</p> -->
-        </div>
-        {fastMoves.map((fastMove) => <FastMove move={fastMove} />)}
+    <!-- <div class="table-header-group"> -->
+    <div class="table-row">
+      <div class="table-cell w-36 align-middle text-xs">
+        <!-- <p>Moves / Turns / Energy</p> -->
       </div>
+      {
+        fastMoves.map((fastMove) => (
+          <div class="table-cell">
+            <FastMove move={fastMove} />
+            {myBattler && (
+              <span class="text-xs italic">
+                {calculateDamage(fastMove, opponentBattler, myBattler)} damage (
+                {(
+                  calculateDamage(fastMove, opponentBattler, myBattler) /
+                  hpStat(myBattler)
+                ).toLocaleString(undefined, {
+                  style: 'percent',
+                  maximumFractionDigits: 0,
+                })}
+                )
+              </span>
+            )}
+          </div>
+        ))
+      }
     </div>
+    <!-- </div> -->
     {
       chargedMoves.map((chargedMove) => (
         <div class="table-row">
-          <ChargedMove
-            move={chargedMove}
-            stab={pokemon.types.includes(chargedMove.type)}
-          />
+          <>
+            <ChargedMove
+              move={chargedMove}
+              stab={pokemon.types.includes(chargedMove.type)}
+            />
+            {myBattler && (
+              <span class="text-xs italic">
+                {calculateDamage(chargedMove, opponentBattler, myBattler)}{' '}
+                damage (
+                {(
+                  calculateDamage(chargedMove, opponentBattler, myBattler) /
+                  hpStat(myBattler)
+                ).toLocaleString(undefined, {
+                  style: 'percent',
+                  maximumFractionDigits: 0,
+                })}
+                )
+              </span>
+            )}
+          </>
           {fastMoves.map((fast) => (
             <MoveCounts counts={getMoveCounts(fast, chargedMove)} />
           ))}
         </div>
       ))
     }
+    <!-- {
+      myBattler &&
+        chargedMoves.map((chargedMove) => (
+          <div class="table-row">
+            Damage: {calculateDamage(chargedMove, opponentBattler, myBattler)}
+          </div>
+        ))
+    } -->
   </div>
 </div>
