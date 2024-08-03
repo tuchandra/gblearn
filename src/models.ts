@@ -171,8 +171,8 @@ export enum CupName {
   premiermaster = 'premiermaster',
   premierultra = 'premierultra',
   // these aren't in PVPoke yet, later this season probably?
-  // fossil = 'fossil',
-  // fantasy = 'fantasy',
+  fossil = 'fossil',
+  fantasy = 'fantasy',
 }
 
 export type Move = FastMove | ChargedMove;
