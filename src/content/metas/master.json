@@ -153,6 +153,24 @@
     ]
   },
   {
+    "speciesId": "necrozma_dawn_wings",
+    "pokemon": "0800-necrozma_dawn_wings",
+    "fastMove": "SHADOW_CLAW",
+    "chargedMoves": [
+      "DARK_PULSE",
+      "MOONGEIST_BEAM"
+    ]
+  },
+  {
+    "speciesId": "necrozma_dusk_mane",
+    "pokemon": "0800-necrozma_dusk_mane",
+    "fastMove": "SHADOW_CLAW",
+    "chargedMoves": [
+      "DARK_PULSE",
+      "SUNSTEEL_STRIKE"
+    ]
+  },
+  {
     "speciesId": "palkia",
     "pokemon": "0484-palkia",
     "fastMove": "DRAGON_BREATH",
@@ -303,24 +321,6 @@
     "chargedMoves": [
       "CRUNCH",
       "EARTHQUAKE"
-    ]
-  },
-  {
-    "speciesId": "necrozma_dawn_wings",
-    "pokemon": "0800-necrozma_dawn_wings",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "DARK_PULSE",
-      "MOONGEIST_BEAM"
-    ]
-  },
-  {
-    "speciesId": "necrozma_dusk_mane",
-    "pokemon": "0800-necrozma_dusk_mane",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "DARK_PULSE",
-      "SUNSTEEL_STRIKE"
     ]
   }
 ]

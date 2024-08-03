@@ -36,5 +36,8 @@
     "FIRE_PUNCH",
     "FLAME_CHARGE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

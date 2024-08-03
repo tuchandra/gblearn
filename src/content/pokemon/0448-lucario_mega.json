@@ -1,27 +1,27 @@
 {
   "dex": 448,
-  "speciesName": "Lucario",
-  "speciesId": "lucario",
+  "speciesName": "Lucario (Mega)",
+  "speciesId": "lucario_mega",
   "baseStats": {
-    "atk": 236,
-    "def": 144,
+    "atk": 310,
+    "def": 175,
     "hp": 172
   },
   "defaultIvs": {
     "1500": {
-      "level": 20.5,
+      "level": 14.5,
       "ivs": {
-        "atk": 5,
-        "def": 14,
-        "hp": 10
+        "atk": 7,
+        "def": 5,
+        "hp": 13
       }
     },
     "2500": {
-      "level": 38,
+      "level": 23.5,
       "ivs": {
-        "atk": 4,
-        "def": 14,
-        "hp": 14
+        "atk": 11,
+        "def": 9,
+        "hp": 15
       }
     }
   },
@@ -43,5 +43,8 @@
     "BLAZE_KICK",
     "THUNDER_PUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "mega"
+  ]
 }

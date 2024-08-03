@@ -62,7 +62,10 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   abomasnow: { charged: { remove: ['BLIZZARD'] } },
   altaria: { charged: { remove: ['DRAGON_PULSE', 'DAZZLING_GLEAM'] } },
   ampharos: { fast: { remove: ['CHARGE_BEAM'] } },
-  arctibax: { charged: { remove: ['OUTRAGE'] } },
+  arctibax: {
+    fast: { remove: ['ICE_FANG'] },
+    charged: { remove: ['OUTRAGE'] },
+  },
   carbink: { charged: { remove: ['POWER_GEM'] } },
   charizard: {
     fast: { remove: ['EMBER', 'AIR_SLASH'] },
@@ -83,7 +86,7 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   drapion: { fast: { remove: ['ICE_FANG', 'INFESTATION'] } },
   drifblim: { charged: { remove: ['OMINOUS_WIND'] } },
   empoleon: {
-    fast: { remove: ['METAL_CLAW'] },
+    fast: { remove: ['METAL_CLAW', 'WATERFALL'] },
     charged: { remove: ['HYDRO_PUMP'] },
   },
   escavalier: { fast: { remove: ['BUG_BITE'] } },
@@ -182,11 +185,14 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   serperior: { charged: { remove: ['GRASS_KNOT'] } },
   skeledirge: { fast: { remove: ['BITE'] } },
   snorlax: { charged: { remove: ['HYPER_BEAM', 'HEAVY_SLAM', 'EARTHQUAKE'] } },
-  steelix: { fast: { keep: ['DRAGON_TAIL'] } },
+  steelix: {
+    fast: { keep: ['DRAGON_TAIL'] },
+    charged: { remove: ['HEAVY_SLAM'] },
+  },
   stunfisk_galarian: { fast: { remove: ['METAL_CLAW'] } },
   swampert: {
     fast: { keep: ['MUD_SHOT'] },
-    charged: { remove: ['MUDDY_WATER'] },
+    charged: { remove: ['MUDDY_WATER', 'SURF'] },
   },
   sylveon: { charged: { remove: ['DAZZLING_GLEAM'] } },
   talonflame: {

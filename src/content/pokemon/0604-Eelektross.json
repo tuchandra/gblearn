@@ -30,7 +30,8 @@
   ],
   "fastMoves": [
     "ACID",
-    "SPARK"
+    "SPARK",
+    "VOLT_SWITCH"
   ],
   "chargedMoves": [
     "CRUNCH",

@@ -547,6 +547,7 @@ export default {
   '0446-munchlax': 'munchlax',
   '0447-riolu': 'riolu',
   '0448-lucario': 'lucario',
+  '0448-lucario_mega': 'lucario_mega',
   '0449-hippopotas': 'hippopotas',
   '0450-hippowdon': 'hippowdon',
   '0451-skorupi': 'skorupi',

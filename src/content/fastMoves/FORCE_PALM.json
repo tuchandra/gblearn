@@ -1,0 +1,8 @@
+{
+  "moveId": "FORCE_PALM",
+  "name": "Force Palm",
+  "type": "fighting",
+  "power": 13,
+  "energyGain": 10,
+  "turns": 3
+}
