@@ -10,14 +10,30 @@
  * of different cups (great, ultra, master, whatever themed cups exist).
  */
 
-import { CupMetaSchema, CupName, type PokemonSpecies } from '../src/models';
 import PokemonIndex from '../src/content/_pokemon.json';
+import { cupConfig } from '../src/cup-utils';
+import { CupMetaSchema, CupName, type PokemonSpecies } from '../src/models';
 
-const GITHUB_BASE =
-  'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/groups/';
+const PVPOKE_DATA =
+  'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data';
 
-function cupUrl(cup: CupName) {
-  return `${GITHUB_BASE}${cup}.json`;
+function cupUrl(name: CupName) {
+  const url = `${PVPOKE_DATA}/groups/${name}.json`;
+  return url;
+}
+function rankingsUrl(name: CupName) {
+  const cupCp = cupConfig(name).maxCp ?? 10000;
+
+  // Rankings files are stored in different locations.
+  if ([CupName.great, CupName.ultra, CupName.master].includes(name)) {
+    return `${PVPOKE_DATA}/rankings/gobattleleague/overall/rankings-${cupCp}.json`;
+  }
+
+  if ([CupName.premiermaster, CupName.premierultra].includes(name)) {
+    return `${PVPOKE_DATA}/rankings/premier/overall/rankings-${cupCp}.json`;
+  }
+
+  return `${PVPOKE_DATA}/rankings/${name}/overall/rankings-${cupCp}.json`;
 }
 
 /**
@@ -53,6 +69,40 @@ type PokemonWithBase = PokemonSpecies & { pokemon: string };
  */
 async function getOrUpdateMeta(cup: CupName) {
   const data = await fetch(cupUrl(cup)).then((res) => res.json());
+
+  // const topSpecies: string[] = await fetch(rankingsUrl(cup))
+  //   .then((res) => res.json())
+  //   .then((species) => species.slice(0, 40))
+  //   .then((data) => data.map(console.log));
+
+  // /**
+  //  * Rankings format for one mon looks like this
+
+  //   moves: {
+  //     fastMoves: [
+  //       {
+  //         moveId: "POISON_JAB",
+  //         uses: 16453,
+  //       }, {
+  //         moveId: "LICK",
+  //         uses: 14647,
+  //       }
+  //     ],
+  //     chargedMoves: [
+  //       {
+  //         moveId: "GYRO_BALL",
+  //         uses: 15839,
+  //       }, {
+  //         moveId: "GUNK_SHOT",
+  //         uses: 10530,
+  //       }, {
+  //         moveId: "ACID_SPRAY",
+  //         uses: 4726,
+  //       }
+  //     ],
+  //   },
+  //   moveset: [ "POISON_JAB", "GYRO_BALL", "GUNK_SHOT" ],
+  //  */
 
   const meta = CupMetaSchema.parse(
     data
