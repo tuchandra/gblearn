@@ -32,6 +32,18 @@ export function cupConfig(cup: CupName): CupConfig {
         name: 'Great League (Remix)',
         maxCp: 1500,
       };
+    case CupName.fantasy:
+      return {
+        id: CupName.fantasy,
+        name: 'Fantasy Cup',
+        maxCp: 1500,
+      };
+    case CupName.fossil:
+      return {
+        id: CupName.fossil,
+        name: 'Fossil Cup',
+        maxCp: 1500,
+      };
     case CupName.summer:
       return {
         id: CupName.summer,

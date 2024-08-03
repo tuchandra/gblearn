@@ -170,7 +170,6 @@ export enum CupName {
   summer = 'summer',
   premiermaster = 'premiermaster',
   premierultra = 'premierultra',
-  // these aren't in PVPoke yet, later this season probably?
   fossil = 'fossil',
   fantasy = 'fantasy',
 }
