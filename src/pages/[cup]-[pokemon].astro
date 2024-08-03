@@ -23,6 +23,8 @@ const { cup, pokemon } = Astro.params;
 const cupMeta = await getEntry('metas', cup);
 const cupPokemon = await Promise.all(
   cupMeta.data.map((p) => getEntry(p.pokemon))
+).then((pokemons) =>
+  pokemons.sort((a, b) => a.data.speciesName.localeCompare(b.data.speciesName))
 );
 const maxCp = cupConfig(cup).maxCp;
 
@@ -61,11 +63,13 @@ const teamMember: Pokemon =
     </div>
 
     <div class="divider divider-primary italic">Matchups</div>
-    {
-      cupPokemon.map((p) => (
-        <Matchup opponent={p.data} battler={teamMember} maxCp={maxCp} />
-      ))
-    }
+    <div class="container flex flex-row flex-wrap gap-4">
+      {
+        cupPokemon.map((p) => (
+          <Matchup opponent={p.data} battler={teamMember} maxCp={maxCp} />
+        ))
+      }
+    </div>
     <div class="divider divider-primary italic">
       Questions? Contact @tuchandra on Github
     </div>
