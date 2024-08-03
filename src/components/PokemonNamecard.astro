@@ -15,7 +15,7 @@ const { speciesId, speciesName, types } = pokemon;
 const pokemonIcon = `/pokemon/${dex}-${speciesId}.png`;
 ---
 
-<div class="flex flex-row gap-4">
+<div class="flex flex-row gap-4 pb-2">
   <img src={pokemonIcon} alt={speciesName} class="h-12 w-12 rounded-full" />
   <div>
     <h2 class="text-xl font-semibold">{speciesName}</h2>
@@ -40,15 +40,25 @@ const pokemonIcon = `/pokemon/${dex}-${speciesId}.png`;
     {
       statRanges && (
         <>
-          <div class="text-xs italic">
+          <div class="flex-row gap-1 text-xs">
+            <span class="font-mono italic">atk</span>
+            &centerdot;
             <span class="">
-              {statRanges.atk[0]} - {statRanges.atk[1]} attack
+              {statRanges.atk[0]} - {statRanges.atk[1]}
             </span>
           </div>
-          <div class="text-xs italic">
+          <div class="flex-row gap-1 text-xs">
+            <span class="font-mono italic">def</span>
+            &centerdot;
             <span class="">
-              {statRanges.def[0]} - {statRanges.def[1]} defense;
-              {statRanges.hp[0]} - {statRanges.hp[1]} HP
+              {statRanges.def[0]} - {statRanges.def[1]}
+            </span>
+          </div>
+          <div class="flex-row gap-1 text-xs">
+            <span class="font-mono italic">hp</span>
+            &centerdot;
+            <span class="">
+              {statRanges.hp[0]} - {statRanges.hp[1]}
             </span>
           </div>
         </>
