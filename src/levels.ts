@@ -1,6 +1,6 @@
-import { keys } from './type-utils';
+import { entries, keys } from './type-utils';
 
-export const CP_MULTIPLIERS = {
+export const CP_MULTIPLIERS_BY_LEVEL = {
   // https://docs.google.com/spreadsheets/d/1akMTElC3mStmbRNXI8a4J94YmwJuvia0DiVV_l1W9h0/
   1: 0.0939999967813491,
   1.5: 0.135137430784308,
@@ -113,8 +113,11 @@ export const CP_MULTIPLIERS = {
   // 54.5: 0.862803624012168,
   // 55: 0.865299999713897,
 } as const;
+export const CP_MULTIPLIERS: [Level, number][] = entries(
+  CP_MULTIPLIERS_BY_LEVEL,
+).toSorted(([levelA, _cpmA], [levelB, _cpmB]) => levelA - levelB);
 
-export type Level = keyof typeof CP_MULTIPLIERS;
-export const LEVELS = keys(CP_MULTIPLIERS);
+export type Level = keyof typeof CP_MULTIPLIERS_BY_LEVEL;
+export const LEVELS = keys(CP_MULTIPLIERS_BY_LEVEL);
 
-export const MAX_CPM = CP_MULTIPLIERS[51];
+export const MAX_CPM = CP_MULTIPLIERS_BY_LEVEL[51];

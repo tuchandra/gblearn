@@ -34,6 +34,15 @@ export async function getPokemonIdByName(name: string): Promise<SpeciesSlug> {
   return ZPokemonId.parse(speciesId);
 }
 
+export async function getPokemonSpecies(
+  name: SpeciesId,
+): Promise<PokemonSpecies> {
+  const speciesSlug = await getPokemonIdByName(name);
+  const species = await getEntry('pokemon', speciesSlug);
+
+  return species.data;
+}
+
 export const RETURN = ChargedMoveSchema.parse({
   moveId: 'RETURN',
   name: 'Return',
