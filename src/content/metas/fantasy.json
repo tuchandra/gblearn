@@ -1,164 +1,74 @@
 [
   {
     "speciesId": "azumarill",
-    "pokemon": "0184-azumarill",
-    "fastMove": "BUBBLE",
-    "chargedMoves": [
-      "HYDRO_PUMP",
-      "PLAY_ROUGH"
-    ]
+    "pokemon": "0184-azumarill"
   },
   {
     "speciesId": "bastiodon",
-    "pokemon": "0411-bastiodon",
-    "fastMove": "SMACK_DOWN",
-    "chargedMoves": [
-      "STONE_EDGE",
-      "FLAMETHROWER"
-    ]
+    "pokemon": "0411-bastiodon"
   },
   {
     "speciesId": "empoleon",
-    "pokemon": "0395-empoleon",
-    "fastMove": "STEEL_WING",
-    "chargedMoves": [
-      "HYDRO_CANNON",
-      "DRILL_PECK"
-    ]
+    "pokemon": "0395-empoleon"
   },
   {
     "speciesId": "escavalier",
-    "pokemon": "0589-escavalier",
-    "fastMove": "COUNTER",
-    "chargedMoves": [
-      "DRILL_RUN",
-      "ACID_SPRAY"
-    ]
+    "pokemon": "0589-escavalier"
   },
   {
     "speciesId": "excadrill",
-    "pokemon": "0530-excadrill",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "DRILL_RUN",
-      "ROCK_SLIDE"
-    ]
+    "pokemon": "0530-excadrill"
   },
   {
     "speciesId": "ferrothorn",
-    "pokemon": "0598-ferrothorn",
-    "fastMove": "BULLET_SEED",
-    "chargedMoves": [
-      "POWER_WHIP",
-      "THUNDER"
-    ]
+    "pokemon": "0598-ferrothorn"
   },
   {
     "speciesId": "flygon",
-    "pokemon": "0330-flygon",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "DRAGON_CLAW",
-      "SCORCHING_SANDS"
-    ]
+    "pokemon": "0330-flygon"
   },
   {
     "speciesId": "lucario",
-    "pokemon": "0448-lucario",
-    "fastMove": "COUNTER",
-    "chargedMoves": [
-      "THUNDER_PUNCH",
-      "SHADOW_BALL"
-    ]
+    "pokemon": "0448-lucario"
   },
   {
     "speciesId": "registeel",
-    "pokemon": "0379-registeel",
-    "fastMove": "LOCK_ON",
-    "chargedMoves": [
-      "FOCUS_BLAST",
-      "ZAP_CANNON"
-    ]
+    "pokemon": "0379-registeel"
   },
   {
     "speciesId": "sandslash_alolan",
-    "pokemon": "0028-sandslash_alolan",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "ICE_PUNCH",
-      "DRILL_RUN"
-    ]
+    "pokemon": "0028-sandslash_alolan"
   },
   {
     "speciesId": "skarmory",
-    "pokemon": "0227-skarmory",
-    "fastMove": "STEEL_WING",
-    "chargedMoves": [
-      "BRAVE_BIRD",
-      "SKY_ATTACK"
-    ]
+    "pokemon": "0227-skarmory"
   },
   {
     "speciesId": "stunfisk_galarian",
-    "pokemon": "0618-stunfisk_galarian",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "ROCK_SLIDE",
-      "EARTHQUAKE"
-    ]
+    "pokemon": "0618-stunfisk_galarian"
   },
   {
     "speciesId": "tapu_fini",
-    "pokemon": "0788-tapu_fini",
-    "fastMove": "WATER_GUN",
-    "chargedMoves": [
-      "SURF",
-      "NATURES_MADNESS"
-    ]
+    "pokemon": "0788-tapu_fini"
   },
   {
     "speciesId": "turtonator",
-    "pokemon": "0776-turtonator",
-    "fastMove": "INCINERATE",
-    "chargedMoves": [
-      "DRAGON_PULSE",
-      "OVERHEAT"
-    ]
+    "pokemon": "0776-turtonator"
   },
   {
     "speciesId": "weezing_galarian",
-    "pokemon": "0110-weezing_galarian",
-    "fastMove": "FAIRY_WIND",
-    "chargedMoves": [
-      "SLUDGE",
-      "OVERHEAT"
-    ]
+    "pokemon": "0110-weezing_galarian"
   },
   {
     "speciesId": "wigglytuff",
-    "pokemon": "0040-wigglytuff",
-    "fastMove": "CHARM",
-    "chargedMoves": [
-      "ICY_WIND",
-      "DISARMING_VOICE"
-    ]
+    "pokemon": "0040-wigglytuff"
   },
   {
     "speciesId": "giratina_origin",
-    "pokemon": "0487-giratina_origin",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "OMINOUS_WIND",
-      "SHADOW_BALL"
-    ]
+    "pokemon": "0487-giratina_origin"
   },
   {
     "speciesId": "perrserker",
-    "pokemon": "0863-perrserker",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "CLOSE_COMBAT",
-      "TRAILBLAZE"
-    ]
+    "pokemon": "0863-perrserker"
   }
 ]

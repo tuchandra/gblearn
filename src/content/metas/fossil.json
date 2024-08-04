@@ -1,191 +1,86 @@
 [
   {
     "speciesId": "azumarill",
-    "pokemon": "0184-azumarill",
-    "fastMove": "BUBBLE",
-    "chargedMoves": [
-      "ICE_BEAM",
-      "HYDRO_PUMP"
-    ]
+    "pokemon": "0184-azumarill"
   },
   {
     "speciesId": "cradily",
-    "pokemon": "0346-cradily",
-    "fastMove": "BULLET_SEED",
-    "chargedMoves": [
-      "ROCK_SLIDE",
-      "GRASS_KNOT"
-    ]
+    "pokemon": "0346-cradily"
   },
   {
     "speciesId": "escavalier",
-    "pokemon": "0589-escavalier",
-    "fastMove": "COUNTER",
-    "chargedMoves": [
-      "DRILL_RUN",
-      "AERIAL_ACE"
-    ]
+    "pokemon": "0589-escavalier"
   },
   {
     "speciesId": "ferrothorn",
-    "pokemon": "0598-ferrothorn",
-    "fastMove": "BULLET_SEED",
-    "chargedMoves": [
-      "POWER_WHIP",
-      "THUNDER"
-    ]
+    "pokemon": "0598-ferrothorn"
   },
   {
     "speciesId": "golisopod",
-    "pokemon": "0768-golisopod",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "X_SCISSOR",
-      "AERIAL_ACE"
-    ]
+    "pokemon": "0768-golisopod"
   },
   {
     "speciesId": "jellicent",
-    "pokemon": "0593-jellicent",
-    "fastMove": "HEX",
-    "chargedMoves": [
-      "SURF",
-      "SHADOW_BALL"
-    ]
+    "pokemon": "0593-jellicent"
   },
   {
     "speciesId": "kartana",
-    "pokemon": "0798-kartana",
-    "fastMove": "RAZOR_LEAF",
-    "chargedMoves": [
-      "LEAF_BLADE",
-      "NIGHT_SLASH"
-    ]
+    "pokemon": "0798-kartana"
   },
   {
     "speciesId": "lanturn",
-    "pokemon": "0171-lanturn",
-    "fastMove": "SPARK",
-    "chargedMoves": [
-      "SURF",
-      "THUNDERBOLT"
-    ]
+    "pokemon": "0171-lanturn"
   },
   {
     "speciesId": "lucario",
-    "pokemon": "0448-lucario",
-    "fastMove": "FORCE_PALM",
-    "chargedMoves": [
-      "THUNDER_PUNCH",
-      "SHADOW_BALL"
-    ]
+    "pokemon": "0448-lucario"
   },
   {
     "speciesId": "ludicolo",
-    "pokemon": "0272-ludicolo",
-    "fastMove": "RAZOR_LEAF",
-    "chargedMoves": [
-      "ICE_BEAM",
-      "LEAF_STORM"
-    ]
+    "pokemon": "0272-ludicolo"
   },
   {
     "speciesId": "mawile",
-    "pokemon": "0303-mawile",
-    "fastMove": "FIRE_FANG",
-    "chargedMoves": [
-      "POWER_UP_PUNCH",
-      "PLAY_ROUGH"
-    ]
+    "pokemon": "0303-mawile"
   },
   {
     "speciesId": "pelipper",
-    "pokemon": "0279-pelipper",
-    "fastMove": "WING_ATTACK",
-    "chargedMoves": [
-      "WEATHER_BALL_WATER",
-      "HURRICANE"
-    ]
+    "pokemon": "0279-pelipper"
   },
   {
     "speciesId": "poliwrath",
-    "pokemon": "0062-poliwrath",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "DYNAMIC_PUNCH",
-      "ICY_WIND"
-    ]
+    "pokemon": "0062-poliwrath"
   },
   {
     "speciesId": "quagsire",
-    "pokemon": "0195-quagsire",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "MUD_BOMB",
-      "STONE_EDGE"
-    ]
+    "pokemon": "0195-quagsire"
   },
   {
     "speciesId": "registeel",
-    "pokemon": "0379-registeel",
-    "fastMove": "LOCK_ON",
-    "chargedMoves": [
-      "FOCUS_BLAST",
-      "ZAP_CANNON"
-    ]
+    "pokemon": "0379-registeel"
   },
   {
     "speciesId": "sandslash_alolan",
-    "pokemon": "0028-sandslash_alolan",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "ICE_PUNCH",
-      "DRILL_RUN"
-    ]
+    "pokemon": "0028-sandslash_alolan"
   },
   {
     "speciesId": "skarmory",
-    "pokemon": "0227-skarmory",
-    "fastMove": "STEEL_WING",
-    "chargedMoves": [
-      "BRAVE_BIRD",
-      "SKY_ATTACK"
-    ]
+    "pokemon": "0227-skarmory"
   },
   {
     "speciesId": "swampert",
-    "pokemon": "0260-swampert",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "HYDRO_CANNON",
-      "EARTHQUAKE"
-    ]
+    "pokemon": "0260-swampert"
   },
   {
     "speciesId": "quaquaval",
-    "pokemon": "0914-quaquaval",
-    "fastMove": "WING_ATTACK",
-    "chargedMoves": [
-      "CLOSE_COMBAT",
-      "AERIAL_ACE"
-    ]
+    "pokemon": "0914-quaquaval"
   },
   {
     "speciesId": "magnezone_shadow",
-    "pokemon": "0462-magnezone",
-    "fastMove": "VOLT_SWITCH",
-    "chargedMoves": [
-      "WILD_CHARGE",
-      "MIRROR_SHOT"
-    ]
+    "pokemon": "0462-magnezone"
   },
   {
     "speciesId": "mantine",
-    "pokemon": "0226-mantine",
-    "fastMove": "WING_ATTACK",
-    "chargedMoves": [
-      "AERIAL_ACE",
-      "ICE_BEAM"
-    ]
+    "pokemon": "0226-mantine"
   }
 ]

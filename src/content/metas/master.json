@@ -1,326 +1,146 @@
 [
   {
     "speciesId": "dialga",
-    "pokemon": "0483-dialga",
-    "fastMove": "DRAGON_BREATH",
-    "chargedMoves": [
-      "IRON_HEAD",
-      "DRACO_METEOR"
-    ]
+    "pokemon": "0483-dialga"
   },
   {
     "speciesId": "dialga_origin",
-    "pokemon": "0483-dialga_origin",
-    "fastMove": "DRAGON_BREATH",
-    "chargedMoves": [
-      "ROAR_OF_TIME",
-      "IRON_HEAD"
-    ]
+    "pokemon": "0483-dialga_origin"
   },
   {
     "speciesId": "dragonite",
-    "pokemon": "0149-dragonite",
-    "fastMove": "DRAGON_BREATH",
-    "chargedMoves": [
-      "DRAGON_CLAW",
-      "SUPER_POWER"
-    ]
+    "pokemon": "0149-dragonite"
   },
   {
     "speciesId": "excadrill",
-    "pokemon": "0530-excadrill",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "ROCK_SLIDE",
-      "DRILL_RUN"
-    ]
+    "pokemon": "0530-excadrill"
   },
   {
     "speciesId": "garchomp",
-    "pokemon": "0445-garchomp",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "OUTRAGE",
-      "EARTH_POWER"
-    ]
+    "pokemon": "0445-garchomp"
   },
   {
     "speciesId": "giratina_altered",
-    "pokemon": "0487-giratina_altered",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "ANCIENT_POWER",
-      "DRAGON_CLAW"
-    ]
+    "pokemon": "0487-giratina_altered"
   },
   {
     "speciesId": "giratina_origin",
-    "pokemon": "0487-giratina_origin",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "SHADOW_BALL",
-      "OMINOUS_WIND"
-    ]
+    "pokemon": "0487-giratina_origin"
   },
   {
     "speciesId": "groudon",
-    "pokemon": "0383-groudon",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "PRECIPICE_BLADES",
-      "FIRE_PUNCH"
-    ]
+    "pokemon": "0383-groudon"
   },
   {
     "speciesId": "gyarados",
-    "pokemon": "0130-gyarados",
-    "fastMove": "DRAGON_BREATH",
-    "chargedMoves": [
-      "AQUA_TAIL",
-      "CRUNCH"
-    ]
+    "pokemon": "0130-gyarados"
   },
   {
     "speciesId": "ho_oh",
-    "pokemon": "0250-ho_oh",
-    "fastMove": "INCINERATE",
-    "chargedMoves": [
-      "EARTHQUAKE",
-      "BRAVE_BIRD"
-    ]
+    "pokemon": "0250-ho_oh"
   },
   {
     "speciesId": "kyogre",
-    "pokemon": "0382-kyogre",
-    "fastMove": "WATERFALL",
-    "chargedMoves": [
-      "SURF",
-      "ORIGIN_PULSE"
-    ]
+    "pokemon": "0382-kyogre"
   },
   {
     "speciesId": "landorus_therian",
-    "pokemon": "0645-landorus_therian",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "SANDSEAR_STORM",
-      "STONE_EDGE"
-    ]
+    "pokemon": "0645-landorus_therian"
   },
   {
     "speciesId": "lugia",
-    "pokemon": "0249-lugia",
-    "fastMove": "DRAGON_TAIL",
-    "chargedMoves": [
-      "SKY_ATTACK",
-      "AEROBLAST"
-    ]
+    "pokemon": "0249-lugia"
   },
   {
     "speciesId": "mamoswine",
-    "pokemon": "0473-mamoswine",
-    "fastMove": "POWDER_SNOW",
-    "chargedMoves": [
-      "AVALANCHE",
-      "HIGH_HORSEPOWER"
-    ]
+    "pokemon": "0473-mamoswine"
   },
   {
     "speciesId": "melmetal",
-    "pokemon": "0809-melmetal",
-    "fastMove": "THUNDER_SHOCK",
-    "chargedMoves": [
-      "DOUBLE_IRON_BASH",
-      "SUPER_POWER"
-    ]
+    "pokemon": "0809-melmetal"
   },
   {
     "speciesId": "metagross",
-    "pokemon": "0376-metagross",
-    "fastMove": "BULLET_PUNCH",
-    "chargedMoves": [
-      "METEOR_MASH",
-      "EARTHQUAKE"
-    ]
+    "pokemon": "0376-metagross"
   },
   {
     "speciesId": "mewtwo",
-    "pokemon": "0150-mewtwo",
-    "fastMove": "PSYCHO_CUT",
-    "chargedMoves": [
-      "SHADOW_BALL",
-      "PSYSTRIKE"
-    ]
+    "pokemon": "0150-mewtwo"
   },
   {
     "speciesId": "necrozma_dawn_wings",
-    "pokemon": "0800-necrozma_dawn_wings",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "DARK_PULSE",
-      "MOONGEIST_BEAM"
-    ]
+    "pokemon": "0800-necrozma_dawn_wings"
   },
   {
     "speciesId": "necrozma_dusk_mane",
-    "pokemon": "0800-necrozma_dusk_mane",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "DARK_PULSE",
-      "SUNSTEEL_STRIKE"
-    ]
+    "pokemon": "0800-necrozma_dusk_mane"
   },
   {
     "speciesId": "palkia",
-    "pokemon": "0484-palkia",
-    "fastMove": "DRAGON_BREATH",
-    "chargedMoves": [
-      "AQUA_TAIL",
-      "DRACO_METEOR"
-    ]
+    "pokemon": "0484-palkia"
   },
   {
     "speciesId": "palkia_origin",
-    "pokemon": "0484-palkia_origin",
-    "fastMove": "DRAGON_BREATH",
-    "chargedMoves": [
-      "AQUA_TAIL",
-      "SPACIAL_REND"
-    ]
+    "pokemon": "0484-palkia_origin"
   },
   {
     "speciesId": "rayquaza",
-    "pokemon": "0384-rayquaza",
-    "fastMove": "DRAGON_TAIL",
-    "chargedMoves": [
-      "BREAKING_SWIPE",
-      "HURRICANE"
-    ]
+    "pokemon": "0384-rayquaza"
   },
   {
     "speciesId": "reshiram",
-    "pokemon": "0643-reshiram",
-    "fastMove": "DRAGON_BREATH",
-    "chargedMoves": [
-      "FUSION_FLARE",
-      "DRACO_METEOR"
-    ]
+    "pokemon": "0643-reshiram"
   },
   {
     "speciesId": "rhyperior",
-    "pokemon": "0464-rhyperior",
-    "fastMove": "MUD_SLAP",
-    "chargedMoves": [
-      "BREAKING_SWIPE",
-      "ROCK_WRECKER"
-    ]
+    "pokemon": "0464-rhyperior"
   },
   {
     "speciesId": "snorlax",
-    "pokemon": "0143-snorlax",
-    "fastMove": "LICK",
-    "chargedMoves": [
-      "BODY_SLAM",
-      "EARTHQUAKE"
-    ]
+    "pokemon": "0143-snorlax"
   },
   {
     "speciesId": "solgaleo",
-    "pokemon": "0791-solgaleo",
-    "fastMove": "FIRE_SPIN",
-    "chargedMoves": [
-      "PSYCHIC_FANGS",
-      "IRON_HEAD"
-    ]
+    "pokemon": "0791-solgaleo"
   },
   {
     "speciesId": "swampert",
-    "pokemon": "0260-swampert",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "HYDRO_CANNON",
-      "EARTHQUAKE"
-    ]
+    "pokemon": "0260-swampert"
   },
   {
     "speciesId": "sylveon",
-    "pokemon": "0700-sylveon",
-    "fastMove": "CHARM",
-    "chargedMoves": [
-      "MOONBLAST",
-      "PSYSHOCK"
-    ]
+    "pokemon": "0700-sylveon"
   },
   {
     "speciesId": "togekiss",
-    "pokemon": "0468-togekiss",
-    "fastMove": "CHARM",
-    "chargedMoves": [
-      "ANCIENT_POWER",
-      "AURA_SPHERE"
-    ]
+    "pokemon": "0468-togekiss"
   },
   {
     "speciesId": "ursaluna",
-    "pokemon": "0901-ursaluna",
-    "fastMove": "TACKLE",
-    "chargedMoves": [
-      "ICE_PUNCH",
-      "HIGH_HORSEPOWER"
-    ]
+    "pokemon": "0901-ursaluna"
   },
   {
     "speciesId": "xerneas",
-    "pokemon": "0716-xerneas",
-    "fastMove": "GEOMANCY",
-    "chargedMoves": [
-      "CLOSE_COMBAT",
-      "MOONBLAST"
-    ]
+    "pokemon": "0716-xerneas"
   },
   {
     "speciesId": "yveltal",
-    "pokemon": "0717-yveltal",
-    "fastMove": "SNARL",
-    "chargedMoves": [
-      "DARK_PULSE",
-      "FOCUS_BLAST"
-    ]
+    "pokemon": "0717-yveltal"
   },
   {
     "speciesId": "zacian_hero",
-    "pokemon": "0888-zacian_hero",
-    "fastMove": "SNARL",
-    "chargedMoves": [
-      "CLOSE_COMBAT",
-      "WILD_CHARGE"
-    ]
+    "pokemon": "0888-zacian_hero"
   },
   {
     "speciesId": "zarude",
-    "pokemon": "0893-zarude",
-    "fastMove": "VINE_WHIP",
-    "chargedMoves": [
-      "POWER_WHIP",
-      "DARK_PULSE"
-    ]
+    "pokemon": "0893-zarude"
   },
   {
     "speciesId": "zekrom",
-    "pokemon": "0644-zekrom",
-    "fastMove": "DRAGON_BREATH",
-    "chargedMoves": [
-      "CRUNCH",
-      "WILD_CHARGE"
-    ]
+    "pokemon": "0644-zekrom"
   },
   {
     "speciesId": "zygarde_complete",
-    "pokemon": "0718-zygarde_complete",
-    "fastMove": "DRAGON_TAIL",
-    "chargedMoves": [
-      "CRUNCH",
-      "EARTHQUAKE"
-    ]
+    "pokemon": "0718-zygarde_complete"
   }
 ]

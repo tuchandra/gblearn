@@ -1,245 +1,110 @@
 [
   {
     "speciesId": "toxapex",
-    "pokemon": "0748-toxapex",
-    "fastMove": "POISON_JAB",
-    "chargedMoves": [
-      "BRINE",
-      "SLUDGE_WAVE"
-    ]
+    "pokemon": "0748-toxapex"
   },
   {
     "speciesId": "azumarill",
-    "pokemon": "0184-azumarill",
-    "fastMove": "BUBBLE",
-    "chargedMoves": [
-      "PLAY_ROUGH",
-      "ICE_BEAM"
-    ]
+    "pokemon": "0184-azumarill"
   },
   {
     "speciesId": "charjabug",
-    "pokemon": "0737-charjabug",
-    "fastMove": "VOLT_SWITCH",
-    "chargedMoves": [
-      "X_SCISSOR",
-      "DISCHARGE"
-    ]
+    "pokemon": "0737-charjabug"
   },
   {
     "speciesId": "cradily",
-    "pokemon": "0346-cradily",
-    "fastMove": "BULLET_SEED",
-    "chargedMoves": [
-      "STONE_EDGE",
-      "GRASS_KNOT"
-    ]
+    "pokemon": "0346-cradily"
   },
   {
     "speciesId": "dubwool",
-    "pokemon": "0832-dubwool",
-    "fastMove": "DOUBLE_KICK",
-    "chargedMoves": [
-      "BODY_SLAM",
-      "PAYBACK"
-    ]
+    "pokemon": "0832-dubwool"
   },
   {
     "speciesId": "feraligatr_shadow",
-    "pokemon": "0160-feraligatr",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "HYDRO_CANNON",
-      "ICE_BEAM"
-    ]
+    "pokemon": "0160-feraligatr"
   },
   {
     "speciesId": "ferrothorn",
-    "pokemon": "0598-ferrothorn",
-    "fastMove": "BULLET_SEED",
-    "chargedMoves": [
-      "POWER_WHIP",
-      "THUNDER"
-    ]
+    "pokemon": "0598-ferrothorn"
   },
   {
     "speciesId": "vigoroth",
-    "pokemon": "0288-vigoroth",
-    "fastMove": "COUNTER",
-    "chargedMoves": [
-      "BODY_SLAM",
-      "ROCK_SLIDE"
-    ]
+    "pokemon": "0288-vigoroth"
   },
   {
     "speciesId": "jellicent",
-    "pokemon": "0593-jellicent",
-    "fastMove": "HEX",
-    "chargedMoves": [
-      "SURF",
-      "SHADOW_BALL"
-    ]
+    "pokemon": "0593-jellicent"
   },
   {
     "speciesId": "lanturn",
-    "pokemon": "0171-lanturn",
-    "fastMove": "SPARK",
-    "chargedMoves": [
-      "THUNDERBOLT",
-      "SURF"
-    ]
+    "pokemon": "0171-lanturn"
   },
   {
     "speciesId": "lickitung",
-    "pokemon": "0108-lickitung",
-    "fastMove": "LICK",
-    "chargedMoves": [
-      "BODY_SLAM",
-      "POWER_WHIP"
-    ]
+    "pokemon": "0108-lickitung"
   },
   {
     "speciesId": "magnezone",
-    "pokemon": "0462-magnezone",
-    "fastMove": "SPARK",
-    "chargedMoves": [
-      "WILD_CHARGE",
-      "MIRROR_SHOT"
-    ]
+    "pokemon": "0462-magnezone"
   },
   {
     "speciesId": "mantine",
-    "pokemon": "0226-mantine",
-    "fastMove": "WING_ATTACK",
-    "chargedMoves": [
-      "AERIAL_ACE",
-      "ICE_BEAM"
-    ]
+    "pokemon": "0226-mantine"
   },
   {
     "speciesId": "marowak_alolan_shadow",
-    "pokemon": "0105-marowak_alolan",
-    "fastMove": "FIRE_SPIN",
-    "chargedMoves": [
-      "SHADOW_BONE",
-      "BONE_CLUB"
-    ]
+    "pokemon": "0105-marowak_alolan"
   },
   {
     "speciesId": "pelipper",
-    "pokemon": "0279-pelipper",
-    "fastMove": "WING_ATTACK",
-    "chargedMoves": [
-      "WEATHER_BALL_WATER",
-      "HURRICANE"
-    ]
+    "pokemon": "0279-pelipper"
   },
   {
     "speciesId": "pidgeot",
-    "pokemon": "0018-pidgeot",
-    "fastMove": "WING_ATTACK",
-    "chargedMoves": [
-      "FEATHER_DANCE",
-      "BRAVE_BIRD"
-    ]
+    "pokemon": "0018-pidgeot"
   },
   {
     "speciesId": "poliwrath",
-    "pokemon": "0062-poliwrath",
-    "fastMove": "COUNTER",
-    "chargedMoves": [
-      "SCALD",
-      "ICY_WIND"
-    ]
+    "pokemon": "0062-poliwrath"
   },
   {
     "speciesId": "quagsire",
-    "pokemon": "0195-quagsire",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "AQUA_TAIL",
-      "STONE_EDGE"
-    ]
+    "pokemon": "0195-quagsire"
   },
   {
     "speciesId": "skeledirge",
-    "pokemon": "0911-skeledirge",
-    "fastMove": "INCINERATE",
-    "chargedMoves": [
-      "SHADOW_BALL",
-      "DISARMING_VOICE"
-    ]
+    "pokemon": "0911-skeledirge"
   },
   {
     "speciesId": "stunfisk",
-    "pokemon": "0618-stunfisk",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "MUD_BOMB",
-      "DISCHARGE"
-    ]
+    "pokemon": "0618-stunfisk"
   },
   {
     "speciesId": "swampert",
-    "pokemon": "0260-swampert",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "HYDRO_CANNON",
-      "EARTHQUAKE"
-    ]
+    "pokemon": "0260-swampert"
   },
   {
     "speciesId": "talonflame",
-    "pokemon": "0663-talonflame",
-    "fastMove": "INCINERATE",
-    "chargedMoves": [
-      "FLY",
-      "FLAME_CHARGE"
-    ]
+    "pokemon": "0663-talonflame"
   },
   {
     "speciesId": "trevenant",
-    "pokemon": "0709-trevenant",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "SEED_BOMB",
-      "SHADOW_BALL"
-    ]
+    "pokemon": "0709-trevenant"
   },
   {
     "speciesId": "tropius",
-    "pokemon": "0357-tropius",
-    "fastMove": "AIR_SLASH",
-    "chargedMoves": [
-      "LEAF_BLADE",
-      "AERIAL_ACE"
-    ]
+    "pokemon": "0357-tropius"
   },
   {
     "speciesId": "venusaur",
-    "pokemon": "0003-venusaur",
-    "fastMove": "VINE_WHIP",
-    "chargedMoves": [
-      "FRENZY_PLANT",
-      "SLUDGE_BOMB"
-    ]
+    "pokemon": "0003-venusaur"
   },
   {
     "speciesId": "whiscash",
-    "pokemon": "0340-whiscash",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "MUD_BOMB",
-      "SCALD"
-    ]
+    "pokemon": "0340-whiscash"
   },
   {
     "speciesId": "wigglytuff",
-    "pokemon": "0040-wigglytuff",
-    "fastMove": "CHARM",
-    "chargedMoves": [
-      "DISARMING_VOICE",
-      "ICY_WIND"
-    ]
+    "pokemon": "0040-wigglytuff"
   }
 ]

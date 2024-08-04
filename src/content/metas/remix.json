@@ -1,200 +1,90 @@
 [
   {
     "speciesId": "carbink",
-    "pokemon": "0703-carbink",
-    "fastMove": "ROCK_THROW",
-    "chargedMoves": [
-      "ROCK_SLIDE",
-      "MOONBLAST"
-    ]
+    "pokemon": "0703-carbink"
   },
   {
     "speciesId": "dragonair_shadow",
-    "pokemon": "0148-dragonair",
-    "fastMove": "DRAGON_BREATH",
-    "chargedMoves": [
-      "BODY_SLAM",
-      "AQUA_TAIL"
-    ]
+    "pokemon": "0148-dragonair"
   },
   {
     "speciesId": "empoleon",
-    "pokemon": "0395-empoleon",
-    "fastMove": "STEEL_WING",
-    "chargedMoves": [
-      "HYDRO_CANNON",
-      "DRILL_PECK"
-    ]
+    "pokemon": "0395-empoleon"
   },
   {
     "speciesId": "froslass",
-    "pokemon": "0478-froslass",
-    "fastMove": "POWDER_SNOW",
-    "chargedMoves": [
-      "AVALANCHE",
-      "SHADOW_BALL"
-    ]
+    "pokemon": "0478-froslass"
   },
   {
     "speciesId": "gligar",
-    "pokemon": "0207-gligar",
-    "fastMove": "WING_ATTACK",
-    "chargedMoves": [
-      "AERIAL_ACE",
-      "DIG"
-    ]
+    "pokemon": "0207-gligar"
   },
   {
     "speciesId": "golbat_shadow",
-    "pokemon": "0042-golbat",
-    "fastMove": "WING_ATTACK",
-    "chargedMoves": [
-      "POISON_FANG",
-      "SHADOW_BALL"
-    ]
+    "pokemon": "0042-golbat"
   },
   {
     "speciesId": "goodra",
-    "pokemon": "0706-goodra",
-    "fastMove": "DRAGON_BREATH",
-    "chargedMoves": [
-      "AQUA_TAIL",
-      "THUNDER_PUNCH"
-    ]
+    "pokemon": "0706-goodra"
   },
   {
     "speciesId": "jellicent",
-    "pokemon": "0593-jellicent",
-    "fastMove": "HEX",
-    "chargedMoves": [
-      "SURF",
-      "SHADOW_BALL"
-    ]
+    "pokemon": "0593-jellicent"
   },
   {
     "speciesId": "magnezone",
-    "pokemon": "0462-magnezone",
-    "fastMove": "VOLT_SWITCH",
-    "chargedMoves": [
-      "WILD_CHARGE",
-      "MIRROR_SHOT"
-    ]
+    "pokemon": "0462-magnezone"
   },
   {
     "speciesId": "mandibuzz",
-    "pokemon": "0630-mandibuzz",
-    "fastMove": "SNARL",
-    "chargedMoves": [
-      "DARK_PULSE",
-      "AERIAL_ACE"
-    ]
+    "pokemon": "0630-mandibuzz"
   },
   {
     "speciesId": "mantine",
-    "pokemon": "0226-mantine",
-    "fastMove": "WING_ATTACK",
-    "chargedMoves": [
-      "AERIAL_ACE",
-      "ICE_BEAM"
-    ]
+    "pokemon": "0226-mantine"
   },
   {
     "speciesId": "ninetales_alolan",
-    "pokemon": "0038-ninetales_alolan",
-    "fastMove": "POWDER_SNOW",
-    "chargedMoves": [
-      "WEATHER_BALL_ICE",
-      "DAZZLING_GLEAM"
-    ]
+    "pokemon": "0038-ninetales_alolan"
   },
   {
     "speciesId": "pelipper",
-    "pokemon": "0279-pelipper",
-    "fastMove": "WING_ATTACK",
-    "chargedMoves": [
-      "WEATHER_BALL_WATER",
-      "HURRICANE"
-    ]
+    "pokemon": "0279-pelipper"
   },
   {
     "speciesId": "quagsire",
-    "pokemon": "0195-quagsire",
-    "fastMove": "MUD_SHOT",
-    "chargedMoves": [
-      "AQUA_TAIL",
-      "STONE_EDGE"
-    ]
+    "pokemon": "0195-quagsire"
   },
   {
     "speciesId": "registeel",
-    "pokemon": "0379-registeel",
-    "fastMove": "LOCK_ON",
-    "chargedMoves": [
-      "FOCUS_BLAST",
-      "ZAP_CANNON"
-    ]
+    "pokemon": "0379-registeel"
   },
   {
     "speciesId": "sableye",
-    "pokemon": "0302-sableye",
-    "fastMove": "SHADOW_CLAW",
-    "chargedMoves": [
-      "FOUL_PLAY",
-      "RETURN"
-    ]
+    "pokemon": "0302-sableye"
   },
   {
     "speciesId": "serperior",
-    "pokemon": "0497-serperior",
-    "fastMove": "VINE_WHIP",
-    "chargedMoves": [
-      "FRENZY_PLANT",
-      "AERIAL_ACE"
-    ]
+    "pokemon": "0497-serperior"
   },
   {
     "speciesId": "steelix",
-    "pokemon": "0208-steelix",
-    "fastMove": "DRAGON_TAIL",
-    "chargedMoves": [
-      "PSYCHIC_FANGS",
-      "CRUNCH"
-    ]
+    "pokemon": "0208-steelix"
   },
   {
     "speciesId": "venusaur",
-    "pokemon": "0003-venusaur",
-    "fastMove": "VINE_WHIP",
-    "chargedMoves": [
-      "FRENZY_PLANT",
-      "SLUDGE_BOMB"
-    ]
+    "pokemon": "0003-venusaur"
   },
   {
     "speciesId": "deoxys_defense",
-    "pokemon": "0386-deoxys_defense",
-    "fastMove": "COUNTER",
-    "chargedMoves": [
-      "PSYCHO_BOOST",
-      "THUNDERBOLT"
-    ]
+    "pokemon": "0386-deoxys_defense"
   },
   {
     "speciesId": "ferrothorn",
-    "pokemon": "0598-ferrothorn",
-    "fastMove": "BULLET_SEED",
-    "chargedMoves": [
-      "POWER_WHIP",
-      "THUNDER"
-    ]
+    "pokemon": "0598-ferrothorn"
   },
   {
     "speciesId": "umbreon",
-    "pokemon": "0197-umbreon",
-    "fastMove": "SNARL",
-    "chargedMoves": [
-      "FOUL_PLAY",
-      "LAST_RESORT"
-    ]
+    "pokemon": "0197-umbreon"
   }
 ]

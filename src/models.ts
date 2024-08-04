@@ -155,10 +155,8 @@ export type ChargedMove = z.infer<typeof ChargedMoveSchema>;
 
 export const CupMetaSchema = z.array(
   z.object({
-    speciesId: z.string(),
-    pokemon: z.string(), // will reference Pokemon
-    fastMove: z.string(),
-    chargedMoves: z.tuple([z.string(), z.string()]),
+    speciesId: z.string(), // "escavalier"
+    pokemon: z.string(), // "0589-escavalier"
   }),
 );
 

@@ -23,11 +23,6 @@ const metas = defineCollection({
     z.object({
       speciesId: z.string(),
       pokemon: reference('pokemon'),
-      fastMove: reference('fastMoves'),
-      chargedMoves: z.tuple([
-        reference('chargedMoves'),
-        reference('chargedMoves'),
-      ]),
     }),
   ),
 });
