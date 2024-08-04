@@ -98,7 +98,12 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     fast: { remove: ['METAL_CLAW'] },
     charged: { remove: ['EARTHQUAKE'] },
   },
+  feraligatr: {
+    fast: { keep: ['SHADOW_CLAW'] },
+    charged: { remove: ['HYDRO_PUMP'] },
+  },
   ferrothorn: { fast: { remove: ['METAL_CLAW'] } },
+  florges: { fast: { remove: ['RAZOR_LEAF'] } },
   flygon: { charged: { remove: ['EARTH_POWER', 'BOOMBURST'] } },
   gallade: { charged: { remove: ['SYNCHRONOISE'] } },
   garchomp: { charged: { remove: ['EARTHQUAKE'] } },
@@ -122,6 +127,7 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   },
   haunter: { fast: { remove: ['LICK'] }, charged: { remove: ['DARK_PULSE'] } },
   haxorus: { charged: { remove: ['DRAGON_CLAW'] } },
+  hippowdon: { charged: { remove: ['EARTH_POWER', 'EARTHQUAKE'] } },
   ho_oh: {
     fast: { keep: ['INCINERATE'] },
     charged: { remove: ['FIRE_BLAST'] },
@@ -142,9 +148,13 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     fast: { remove: ['EXTRASENSORY'] },
     charged: { remove: ['FUTURE_SIGHT'] },
   },
+  machamp: {
+    fast: { keep: ['COUNTER'] },
+    charged: { remove: ['SUBMISSION', 'DYNAMIC_PUNCH', 'HEAVY_SLAM'] },
+  },
   magneton: { fast: { remove: ['SPARK'] } },
   magnezone: { fast: { remove: ['SPARK'] } },
-  mamoswine: { charged: { remove: ['ANCIENT_POWER'] } },
+  mamoswine: { charged: { remove: ['ANCIENT_POWER', 'BULLDOZE'] } },
   marshtomp: { fast: { remove: ['WATER_GUN'] } },
   mawile: {
     fast: { remove: ['BITE', 'ICE_FANG'] },
