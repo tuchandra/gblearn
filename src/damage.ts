@@ -10,7 +10,14 @@ import {
   type PokemonSpecies,
 } from './models';
 import { getMoveEffectiveness } from './pokemon-types';
-import { attackStat, defenseStat, hpStat, maxLevelForLeague } from './stats';
+import {
+  attackStat,
+  defenseStat,
+  effectiveAttackStat,
+  effectiveDefenseStat,
+  hpStat,
+  maxLevelForLeague,
+} from './stats';
 import { entries } from './type-utils';
 
 export function isStab(pokemon: PokemonSpecies, move: FastMove | ChargedMove) {
@@ -83,10 +90,8 @@ export function calculateDamage(
   const effectiveness = getMoveEffectiveness(move.type, defender.species.types);
   const power = move.power;
 
-  const atk = attackStat(attacker);
-  const def = defenseStat(defender);
-
-  // todo: shadow effects
+  const atk = effectiveAttackStat(attacker);
+  const def = effectiveDefenseStat(defender);
 
   const damage = 0.5 * 1.3 * stab * effectiveness * power * (atk / def) + 1;
   return Math.floor(damage);

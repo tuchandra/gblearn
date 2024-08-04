@@ -34,7 +34,12 @@ const species = await getEntry('pokemon', pokemonId);
 const teamMember: Pokemon =
   maxCp != null
     ? maxLevelForLeague(species.data, { atk: 5, def: 14, hp: 15 }, maxCp)
-    : { species: species.data, ivs: { atk: 5, def: 14, hp: 15 }, level: 51 };
+    : {
+        species: species.data,
+        shadow: false,
+        ivs: { atk: 5, def: 14, hp: 15 },
+        level: 51,
+      };
 ---
 
 <html data-theme="sunset">

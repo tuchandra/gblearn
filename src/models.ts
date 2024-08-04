@@ -110,6 +110,7 @@ export type PokemonSpecies = z.infer<typeof PokemonSpeciesSchema>;
  */
 export const PokemonSchema = z.object({
   species: PokemonSpeciesSchema,
+  shadow: z.boolean(),
   level: z
     .number()
     .min(1)
