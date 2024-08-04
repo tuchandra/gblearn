@@ -70,5 +70,53 @@
   {
     "speciesId": "perrserker",
     "pokemon": "0863-perrserker"
+  },
+  {
+    "speciesId": "heatran",
+    "pokemon": "0485-heatran"
+  },
+  {
+    "speciesId": "haxorus",
+    "pokemon": "0612-haxorus"
+  },
+  {
+    "speciesId": "mawile_shadow",
+    "pokemon": "0303-mawile"
+  },
+  {
+    "speciesId": "togedemaru",
+    "pokemon": "0777-togedemaru"
+  },
+  {
+    "speciesId": "gabite_shadow",
+    "pokemon": "0444-gabite"
+  },
+  {
+    "speciesId": "whimsicott",
+    "pokemon": "0547-whimsicott"
+  },
+  {
+    "speciesId": "magnezone_shadow",
+    "pokemon": "0462-magnezone"
+  },
+  {
+    "speciesId": "dugtrio_alolan_shadow",
+    "pokemon": "0051-dugtrio_alolan"
+  },
+  {
+    "speciesId": "forretress",
+    "pokemon": "0205-forretress"
+  },
+  {
+    "speciesId": "shiinotic",
+    "pokemon": "0756-shiinotic"
+  },
+  {
+    "speciesId": "kommo_o",
+    "pokemon": "0784-kommo_o"
+  },
+  {
+    "speciesId": "magneton_shadow",
+    "pokemon": "0082-magneton"
   }
 ]

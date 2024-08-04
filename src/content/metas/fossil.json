@@ -82,5 +82,57 @@
   {
     "speciesId": "mantine",
     "pokemon": "0226-mantine"
+  },
+  {
+    "speciesId": "gastrodon",
+    "pokemon": "0423-gastrodon"
+  },
+  {
+    "speciesId": "whiscash_shadow",
+    "pokemon": "0340-whiscash"
+  },
+  {
+    "speciesId": "feraligatr_shadow",
+    "pokemon": "0160-feraligatr"
+  },
+  {
+    "speciesId": "togedemaru",
+    "pokemon": "0777-togedemaru"
+  },
+  {
+    "speciesId": "marshtomp",
+    "pokemon": "0259-marshtomp"
+  },
+  {
+    "speciesId": "politoed_shadow",
+    "pokemon": "0186-politoed"
+  },
+  {
+    "speciesId": "perrserker",
+    "pokemon": "0863-perrserker"
+  },
+  {
+    "speciesId": "toxapex",
+    "pokemon": "0748-toxapex"
+  },
+  {
+    "speciesId": "lileep",
+    "pokemon": "0345-lileep"
+  },
+  {
+    "speciesId": "excadrill_shadow",
+    "pokemon": "0530-excadrill"
+  },
+  {
+    "speciesId": "araquanid",
+    "pokemon": "0752-araquanid"
+  },
+  {
+    "speciesId": "stunfisk_galarian",
+    "pokemon": "0618-stunfisk_galarian"
+  },
+  {
+    "speciesId": "magneton_shadow",
+    "pokemon": "0082-magneton"
   }
 ]

@@ -106,5 +106,77 @@
   {
     "speciesId": "wigglytuff",
     "pokemon": "0040-wigglytuff"
+  },
+  {
+    "speciesId": "emolga",
+    "pokemon": "0587-emolga"
+  },
+  {
+    "speciesId": "togedemaru",
+    "pokemon": "0777-togedemaru"
+  },
+  {
+    "speciesId": "rufflet",
+    "pokemon": "0627-rufflet"
+  },
+  {
+    "speciesId": "munchlax",
+    "pokemon": "0446-munchlax"
+  },
+  {
+    "speciesId": "empoleon_shadow",
+    "pokemon": "0395-empoleon"
+  },
+  {
+    "speciesId": "zapdos_shadow",
+    "pokemon": "0145-zapdos"
+  },
+  {
+    "speciesId": "pachirisu",
+    "pokemon": "0417-pachirisu"
+  },
+  {
+    "speciesId": "diggersby",
+    "pokemon": "0660-diggersby"
+  },
+  {
+    "speciesId": "salazzle",
+    "pokemon": "0758-salazzle"
+  },
+  {
+    "speciesId": "abomasnow_shadow",
+    "pokemon": "0460-abomasnow"
+  },
+  {
+    "speciesId": "greedent",
+    "pokemon": "0820-greedent"
+  },
+  {
+    "speciesId": "jumpluff_shadow",
+    "pokemon": "0189-jumpluff"
+  },
+  {
+    "speciesId": "bellibolt",
+    "pokemon": "0939-bellibolt"
+  },
+  {
+    "speciesId": "miltank",
+    "pokemon": "0241-miltank"
+  },
+  {
+    "speciesId": "staraptor",
+    "pokemon": "0398-staraptor"
+  },
+  {
+    "speciesId": "staravia",
+    "pokemon": "0397-staravia"
+  },
+  {
+    "speciesId": "turtonator",
+    "pokemon": "0776-turtonator"
+  },
+  {
+    "speciesId": "swellow",
+    "pokemon": "0277-swellow"
   }
 ]

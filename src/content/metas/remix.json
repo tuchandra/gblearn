@@ -86,5 +86,69 @@
   {
     "speciesId": "umbreon",
     "pokemon": "0197-umbreon"
+  },
+  {
+    "speciesId": "guzzlord",
+    "pokemon": "0799-guzzlord"
+  },
+  {
+    "speciesId": "poliwrath",
+    "pokemon": "0062-poliwrath"
+  },
+  {
+    "speciesId": "swampert_shadow",
+    "pokemon": "0260-swampert"
+  },
+  {
+    "speciesId": "regirock",
+    "pokemon": "0377-regirock"
+  },
+  {
+    "speciesId": "toxapex",
+    "pokemon": "0748-toxapex"
+  },
+  {
+    "speciesId": "aurorus",
+    "pokemon": "0699-aurorus"
+  },
+  {
+    "speciesId": "gallade_shadow",
+    "pokemon": "0475-gallade"
+  },
+  {
+    "speciesId": "dubwool",
+    "pokemon": "0832-dubwool"
+  },
+  {
+    "speciesId": "walrein",
+    "pokemon": "0365-walrein"
+  },
+  {
+    "speciesId": "cetoddle",
+    "pokemon": "0974-cetoddle"
+  },
+  {
+    "speciesId": "zweilous",
+    "pokemon": "0634-zweilous"
+  },
+  {
+    "speciesId": "pidgeot",
+    "pokemon": "0018-pidgeot"
+  },
+  {
+    "speciesId": "machamp_shadow",
+    "pokemon": "0068-machamp"
+  },
+  {
+    "speciesId": "tapu_fini",
+    "pokemon": "0788-tapu_fini"
+  },
+  {
+    "speciesId": "cetitan",
+    "pokemon": "0975-cetitan"
+  },
+  {
+    "speciesId": "greninja",
+    "pokemon": "0658-greninja"
   }
 ]

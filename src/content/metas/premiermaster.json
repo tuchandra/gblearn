@@ -102,5 +102,45 @@
   {
     "speciesId": "goodra",
     "pokemon": "0706-goodra"
+  },
+  {
+    "speciesId": "baxcalibur",
+    "pokemon": "0998-baxcalibur"
+  },
+  {
+    "speciesId": "kommo_o",
+    "pokemon": "0784-kommo_o"
+  },
+  {
+    "speciesId": "conkeldurr",
+    "pokemon": "0534-conkeldurr"
+  },
+  {
+    "speciesId": "gholdengo",
+    "pokemon": "1000-gholdengo"
+  },
+  {
+    "speciesId": "empoleon_shadow",
+    "pokemon": "0395-empoleon"
+  },
+  {
+    "speciesId": "hydreigon",
+    "pokemon": "0635-hydreigon"
+  },
+  {
+    "speciesId": "sneasler_shadow",
+    "pokemon": "0903-sneasler"
+  },
+  {
+    "speciesId": "gallade_shadow",
+    "pokemon": "0475-gallade"
+  },
+  {
+    "speciesId": "avalugg",
+    "pokemon": "0713-avalugg"
+  },
+  {
+    "speciesId": "salamence",
+    "pokemon": "0373-salamence"
   }
 ]

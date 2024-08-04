@@ -170,5 +170,41 @@
   {
     "speciesId": "golisopod",
     "pokemon": "0768-golisopod"
+  },
+  {
+    "speciesId": "goodra",
+    "pokemon": "0706-goodra"
+  },
+  {
+    "speciesId": "kommo_o",
+    "pokemon": "0784-kommo_o"
+  },
+  {
+    "speciesId": "scrafty",
+    "pokemon": "0560-scrafty"
+  },
+  {
+    "speciesId": "serperior",
+    "pokemon": "0497-serperior"
+  },
+  {
+    "speciesId": "steelix",
+    "pokemon": "0208-steelix"
+  },
+  {
+    "speciesId": "aurorus",
+    "pokemon": "0699-aurorus"
+  },
+  {
+    "speciesId": "meganium_shadow",
+    "pokemon": "0154-meganium"
+  },
+  {
+    "speciesId": "staraptor_shadow",
+    "pokemon": "0398-staraptor"
+  },
+  {
+    "speciesId": "bellibolt",
+    "pokemon": "0939-bellibolt"
   }
 ]

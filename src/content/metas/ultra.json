@@ -146,5 +146,45 @@
   {
     "speciesId": "feraligatr",
     "pokemon": "0160-feraligatr"
+  },
+  {
+    "speciesId": "zygarde_complete",
+    "pokemon": "0718-zygarde_complete"
+  },
+  {
+    "speciesId": "empoleon_shadow",
+    "pokemon": "0395-empoleon"
+  },
+  {
+    "speciesId": "regirock",
+    "pokemon": "0377-regirock"
+  },
+  {
+    "speciesId": "skarmory",
+    "pokemon": "0227-skarmory"
+  },
+  {
+    "speciesId": "pelipper",
+    "pokemon": "0279-pelipper"
+  },
+  {
+    "speciesId": "gallade_shadow",
+    "pokemon": "0475-gallade"
+  },
+  {
+    "speciesId": "zapdos_shadow",
+    "pokemon": "0145-zapdos"
+  },
+  {
+    "speciesId": "staraptor_shadow",
+    "pokemon": "0398-staraptor"
+  },
+  {
+    "speciesId": "goodra",
+    "pokemon": "0706-goodra"
+  },
+  {
+    "speciesId": "meganium_shadow",
+    "pokemon": "0154-meganium"
   }
 ]

@@ -49,10 +49,15 @@ function rankingsUrl(name: CupName) {
  *
  * Note that we have to remove the `_shadow` suffix, since PVPoke treats
  * shadow Pokemon as their own entries but we don't need to.
+ *
+ * Lanturn is also special-cased; PVPoke ranks the Spark & Water Gun movesets
+ * separately because they are so different.
  */
 function getPokemonFromSpeciesId(speciesId: string): string {
   const pokemon = Object.keys(PokemonIndex).find(
-    (key) => PokemonIndex[key] === speciesId.replace('_shadow', ''),
+    (key) =>
+      PokemonIndex[key] ===
+      speciesId.replace('_shadow', '').replace('lanturnw', 'lanturn'),
   );
   if (!pokemon) {
     throw new Error(`Unknown speciesId: ${speciesId}`);
@@ -70,42 +75,12 @@ type PokemonWithBase = PokemonSpecies & { pokemon: string };
 async function getOrUpdateMeta(cup: CupName) {
   const data = await fetch(cupUrl(cup)).then((res) => res.json());
 
-  // const topSpecies: string[] = await fetch(rankingsUrl(cup))
-  //   .then((res) => res.json())
-  //   .then((species) => species.slice(0, 40))
-  //   .then((data) => data.map(console.log));
-
-  // /**
-  //  * Rankings format for one mon looks like this
-
-  //   moves: {
-  //     fastMoves: [
-  //       {
-  //         moveId: "POISON_JAB",
-  //         uses: 16453,
-  //       }, {
-  //         moveId: "LICK",
-  //         uses: 14647,
-  //       }
-  //     ],
-  //     chargedMoves: [
-  //       {
-  //         moveId: "GYRO_BALL",
-  //         uses: 15839,
-  //       }, {
-  //         moveId: "GUNK_SHOT",
-  //         uses: 10530,
-  //       }, {
-  //         moveId: "ACID_SPRAY",
-  //         uses: 4726,
-  //       }
-  //     ],
-  //   },
-  //   moveset: [ "POISON_JAB", "GYRO_BALL", "GUNK_SHOT" ],
-  //  */
+  const topSpecies: string[] = await fetch(rankingsUrl(cup))
+    .then((res) => res.json())
+    .then((species) => species.slice(0, 40));
 
   const meta = CupMetaSchema.parse(
-    data
+    [...data, ...topSpecies]
       .map((mon) => ({
         ...mon,
         pokemon: getPokemonFromSpeciesId(mon.speciesId),

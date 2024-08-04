@@ -138,5 +138,45 @@
   {
     "speciesId": "pelipper",
     "pokemon": "0279-pelipper"
+  },
+  {
+    "speciesId": "empoleon_shadow",
+    "pokemon": "0395-empoleon"
+  },
+  {
+    "speciesId": "gallade_shadow",
+    "pokemon": "0475-gallade"
+  },
+  {
+    "speciesId": "clodsire",
+    "pokemon": "0980-clodsire"
+  },
+  {
+    "speciesId": "goodra",
+    "pokemon": "0706-goodra"
+  },
+  {
+    "speciesId": "serperior",
+    "pokemon": "0497-serperior"
+  },
+  {
+    "speciesId": "toxapex",
+    "pokemon": "0748-toxapex"
+  },
+  {
+    "speciesId": "hakamo_o",
+    "pokemon": "0783-hakamo_o"
+  },
+  {
+    "speciesId": "gogoat",
+    "pokemon": "0673-gogoat"
+  },
+  {
+    "speciesId": "steelix",
+    "pokemon": "0208-steelix"
+  },
+  {
+    "speciesId": "jellicent",
+    "pokemon": "0593-jellicent"
   }
 ]
