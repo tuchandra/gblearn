@@ -139,7 +139,9 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     fast: { remove: ['EXTRASENSORY'] },
     charged: { remove: ['BULLDOZE'] },
   },
+  lanturn: { charged: { remove: ['THUNDER', 'HYDRO_PUMP'] } },
   lickitung: { charged: { remove: ['STOMP', 'HYPER_BEAM'] } },
+  lileep: { fast: { remove: ['INFESTATION'] } },
   lucario: {
     fast: { remove: ['BULLET_PUNCH'] },
     charged: { remove: ['CLOSE_COMBAT'] },
@@ -187,13 +189,20 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     fast: { remove: ['ICE_SHARD'] },
     charged: { remove: ['BULLDOZE'] },
   },
+  politoed: {
+    fast: { remove: ['BUBBLE'] },
+    charged: { remove: ['HYDRO_PUMP', 'SURF'] },
+  },
   poliwrath: {
     fast: { remove: ['ROCK_SMASH', 'BUBBLE'] },
     charged: { remove: ['HYDRO_PUMP', 'SUBMISSION'] },
   },
   primeape: { fast: { remove: ['KARATE_CHOP'] } },
   quagsire: { charged: { remove: ['SLUDGE_BOMB'] } },
-  quaquaval: { charged: { remove: ['AQUA_JET'] } },
+  quaquaval: {
+    fast: { remove: ['WATER_GUN'] },
+    charged: { remove: ['AQUA_JET'] },
+  },
   registeel: {
     fast: { keep: ['LOCK_ON'] },
     charged: { remove: ['HYPER_BEAM'] },
@@ -215,7 +224,10 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     fast: { keep: ['DRAGON_TAIL'] },
     charged: { remove: ['HEAVY_SLAM'] },
   },
-  stunfisk_galarian: { fast: { remove: ['METAL_CLAW'] } },
+  stunfisk_galarian: {
+    fast: { remove: ['METAL_CLAW'] },
+    charged: { remove: ['MUDDY_WATER', 'FLASH_CANNON'] },
+  },
   swampert: {
     fast: { keep: ['MUD_SHOT'] },
     charged: { remove: ['MUDDY_WATER', 'SURF'] },
