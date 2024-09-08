@@ -36,7 +36,8 @@
   "chargedMoves": [
     "AERIAL_ACE",
     "LEAF_BLADE",
-    "STOMP"
+    "STOMP",
+    "BRUTAL_SWING"
   ],
   "released": true,
   "tags": [

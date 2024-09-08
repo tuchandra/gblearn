@@ -32,7 +32,8 @@
   "fastMoves": [
     "LOW_KICK",
     "SNARL",
-    "BULLET_PUNCH"
+    "BULLET_PUNCH",
+    "KARATE_CHOP"
   ],
   "chargedMoves": [
     "CLOSE_COMBAT",

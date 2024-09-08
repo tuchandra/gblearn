@@ -3,6 +3,6 @@
   "name": "Psywave",
   "type": "psychic",
   "power": 3,
-  "energyGain": 2,
+  "energyGain": 4,
   "turns": 1
 }

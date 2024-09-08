@@ -39,5 +39,8 @@
     "BODY_SLAM",
     "LIQUIDATION"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

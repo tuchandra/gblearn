@@ -36,5 +36,8 @@
     "WATER_PULSE",
     "SURF"
   ],
-  "released": false
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

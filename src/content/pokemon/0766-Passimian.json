@@ -36,7 +36,8 @@
   "chargedMoves": [
     "BRICK_BREAK",
     "CLOSE_COMBAT",
-    "SUPER_POWER"
+    "SUPER_POWER",
+    "BRUTAL_SWING"
   ],
   "released": true
 }

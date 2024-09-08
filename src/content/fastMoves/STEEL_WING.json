@@ -3,6 +3,6 @@
   "name": "Steel Wing",
   "type": "steel",
   "power": 7,
-  "energyGain": 7,
+  "energyGain": 6,
   "turns": 2
 }

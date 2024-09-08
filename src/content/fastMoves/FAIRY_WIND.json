@@ -2,7 +2,7 @@
   "moveId": "FAIRY_WIND",
   "name": "Fairy Wind",
   "type": "fairy",
-  "power": 3,
+  "power": 4,
   "energyGain": 9,
   "turns": 2
 }

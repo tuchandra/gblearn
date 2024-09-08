@@ -2,6 +2,6 @@
   "moveId": "ROCK_SLIDE",
   "name": "Rock Slide",
   "type": "rock",
-  "power": 75,
+  "power": 65,
   "energy": 45
 }

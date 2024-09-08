@@ -30,13 +30,12 @@
   ],
   "fastMoves": [
     "ASTONISH",
-    "HEX"
+    "TACKLE"
   ],
   "chargedMoves": [
     "ROCK_BLAST",
-    "BRINE",
-    "NIGHT_SHADE",
-    "SHADOW_BALL"
+    "POWER_GEM",
+    "NIGHT_SHADE"
   ],
   "released": false
 }

@@ -2,6 +2,6 @@
   "moveId": "DIG",
   "name": "Dig",
   "type": "ground",
-  "power": 80,
+  "power": 70,
   "energy": 50
 }

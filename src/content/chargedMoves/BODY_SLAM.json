@@ -2,6 +2,6 @@
   "moveId": "BODY_SLAM",
   "name": "Body Slam",
   "type": "normal",
-  "power": 60,
+  "power": 50,
   "energy": 35
 }

@@ -2,7 +2,7 @@
   "moveId": "SMACK_DOWN",
   "name": "Smack Down",
   "type": "rock",
-  "power": 12,
+  "power": 11,
   "energyGain": 8,
   "turns": 3
 }

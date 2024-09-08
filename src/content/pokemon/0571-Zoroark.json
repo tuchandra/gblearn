@@ -35,7 +35,8 @@
   "chargedMoves": [
     "FOUL_PLAY",
     "SLUDGE_BOMB",
-    "FLAMETHROWER"
+    "FLAMETHROWER",
+    "NIGHT_SHADE"
   ],
   "released": true
 }

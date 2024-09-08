@@ -38,5 +38,8 @@
     "ANCIENT_POWER",
     "CRUNCH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

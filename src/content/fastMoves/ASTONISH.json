@@ -2,7 +2,7 @@
   "moveId": "ASTONISH",
   "name": "Astonish",
   "type": "ghost",
-  "power": 9,
+  "power": 12,
   "energyGain": 10,
   "turns": 3
 }

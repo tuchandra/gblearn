@@ -2,6 +2,6 @@
   "moveId": "POWER_GEM",
   "name": "Power Gem",
   "type": "rock",
-  "power": 80,
-  "energy": 60
+  "power": 85,
+  "energy": 50
 }

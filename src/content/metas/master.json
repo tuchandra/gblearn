@@ -32,10 +32,6 @@
     "pokemon": "0383-groudon"
   },
   {
-    "speciesId": "gyarados",
-    "pokemon": "0130-gyarados"
-  },
-  {
     "speciesId": "ho_oh",
     "pokemon": "0250-ho_oh"
   },
@@ -46,10 +42,6 @@
   {
     "speciesId": "landorus_therian",
     "pokemon": "0645-landorus_therian"
-  },
-  {
-    "speciesId": "lugia",
-    "pokemon": "0249-lugia"
   },
   {
     "speciesId": "mamoswine",
@@ -84,10 +76,6 @@
     "pokemon": "0484-palkia_origin"
   },
   {
-    "speciesId": "rayquaza",
-    "pokemon": "0384-rayquaza"
-  },
-  {
     "speciesId": "reshiram",
     "pokemon": "0643-reshiram"
   },
@@ -96,28 +84,12 @@
     "pokemon": "0464-rhyperior"
   },
   {
-    "speciesId": "snorlax",
-    "pokemon": "0143-snorlax"
-  },
-  {
     "speciesId": "solgaleo",
     "pokemon": "0791-solgaleo"
   },
   {
-    "speciesId": "swampert",
-    "pokemon": "0260-swampert"
-  },
-  {
-    "speciesId": "sylveon",
-    "pokemon": "0700-sylveon"
-  },
-  {
     "speciesId": "togekiss",
     "pokemon": "0468-togekiss"
-  },
-  {
-    "speciesId": "ursaluna",
-    "pokemon": "0901-ursaluna"
   },
   {
     "speciesId": "xerneas",
@@ -136,44 +108,56 @@
     "pokemon": "0893-zarude"
   },
   {
-    "speciesId": "zekrom",
-    "pokemon": "0644-zekrom"
-  },
-  {
     "speciesId": "zygarde_complete",
     "pokemon": "0718-zygarde_complete"
-  },
-  {
-    "speciesId": "kyurem",
-    "pokemon": "0646-kyurem"
-  },
-  {
-    "speciesId": "meloetta_aria",
-    "pokemon": "0648-meloetta_aria"
-  },
-  {
-    "speciesId": "avalugg_hisuian",
-    "pokemon": "0713-avalugg_hisuian"
-  },
-  {
-    "speciesId": "goodra",
-    "pokemon": "0706-goodra"
-  },
-  {
-    "speciesId": "marshadow",
-    "pokemon": "0802-marshadow"
   },
   {
     "speciesId": "florges",
     "pokemon": "0671-florges"
   },
   {
-    "speciesId": "cetitan",
-    "pokemon": "0975-cetitan"
+    "speciesId": "kyurem",
+    "pokemon": "0646-kyurem"
   },
   {
-    "speciesId": "latios_shadow",
-    "pokemon": "0381-latios"
+    "speciesId": "moltres_galarian",
+    "pokemon": "0146-moltres_galarian"
+  },
+  {
+    "speciesId": "marshadow",
+    "pokemon": "0802-marshadow"
+  },
+  {
+    "speciesId": "meloetta_aria",
+    "pokemon": "0648-meloetta_aria"
+  },
+  {
+    "speciesId": "gyarados_shadow",
+    "pokemon": "0130-gyarados"
+  },
+  {
+    "speciesId": "tapu_lele",
+    "pokemon": "0786-tapu_lele"
+  },
+  {
+    "speciesId": "enamorus_incarnate",
+    "pokemon": "0905-enamorus_incarnate"
+  },
+  {
+    "speciesId": "ursaluna",
+    "pokemon": "0901-ursaluna"
+  },
+  {
+    "speciesId": "zekrom",
+    "pokemon": "0644-zekrom"
+  },
+  {
+    "speciesId": "hydreigon",
+    "pokemon": "0635-hydreigon"
+  },
+  {
+    "speciesId": "avalugg_hisuian",
+    "pokemon": "0713-avalugg_hisuian"
   },
   {
     "speciesId": "baxcalibur",

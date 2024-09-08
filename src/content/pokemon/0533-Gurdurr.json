@@ -37,5 +37,8 @@
     "BRICK_BREAK",
     "STONE_EDGE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

@@ -286,6 +286,7 @@ export default {
   '0220-swinub': 'swinub',
   '0221-piloswine': 'piloswine',
   '0222-corsola': 'corsola',
+  '0222-corsola_galarian': 'corsola_galarian',
   '0223-remoraid': 'remoraid',
   '0224-octillery': 'octillery',
   '0225-delibird': 'delibird',

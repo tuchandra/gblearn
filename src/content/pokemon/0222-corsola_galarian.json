@@ -1,19 +1,19 @@
 {
-  "dex": 885,
-  "speciesName": "Dreepy",
-  "speciesId": "dreepy",
+  "dex": 222,
+  "speciesName": "Corsola (Galarian)",
+  "speciesId": "corsola_galarian",
   "baseStats": {
-    "atk": 117,
-    "def": 61,
-    "hp": 99
+    "atk": 116,
+    "def": 182,
+    "hp": 155
   },
   "defaultIvs": {
     "1500": {
-      "level": 50,
+      "level": 46.5,
       "ivs": {
-        "atk": 15,
+        "atk": 5,
         "def": 15,
-        "hp": 15
+        "hp": 14
       }
     },
     "2500": {
@@ -26,15 +26,19 @@
     }
   },
   "types": [
-    "dragon",
     "ghost"
   ],
   "fastMoves": [
     "ASTONISH",
-    "QUICK_ATTACK"
+    "TACKLE"
   ],
   "chargedMoves": [
-    "STRUGGLE"
+    "NIGHT_SHADE",
+    "POWER_GEM",
+    "ROCK_BLAST"
   ],
-  "released": true
+  "released": false,
+  "tags": [
+    "galarian"
+  ]
 }

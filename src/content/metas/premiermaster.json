@@ -8,10 +8,6 @@
     "pokemon": "0713-avalugg_hisuian"
   },
   {
-    "speciesId": "chesnaught",
-    "pokemon": "0652-chesnaught"
-  },
-  {
     "speciesId": "dragonite",
     "pokemon": "0149-dragonite"
   },
@@ -36,16 +32,16 @@
     "pokemon": "0768-golisopod"
   },
   {
+    "speciesId": "goodra",
+    "pokemon": "0706-goodra"
+  },
+  {
     "speciesId": "gyarados",
     "pokemon": "0130-gyarados"
   },
   {
-    "speciesId": "haxorus",
-    "pokemon": "0612-haxorus"
-  },
-  {
-    "speciesId": "hippowdon",
-    "pokemon": "0450-hippowdon"
+    "speciesId": "rhyperior",
+    "pokemon": "0464-rhyperior"
   },
   {
     "speciesId": "machamp",
@@ -68,10 +64,6 @@
     "pokemon": "0730-primarina"
   },
   {
-    "speciesId": "rhyperior",
-    "pokemon": "0464-rhyperior"
-  },
-  {
     "speciesId": "skeledirge",
     "pokemon": "0911-skeledirge"
   },
@@ -84,10 +76,6 @@
     "pokemon": "0260-swampert"
   },
   {
-    "speciesId": "sylveon",
-    "pokemon": "0700-sylveon"
-  },
-  {
     "speciesId": "togekiss",
     "pokemon": "0468-togekiss"
   },
@@ -96,20 +84,24 @@
     "pokemon": "0901-ursaluna"
   },
   {
-    "speciesId": "cetitan",
-    "pokemon": "0975-cetitan"
-  },
-  {
-    "speciesId": "goodra",
-    "pokemon": "0706-goodra"
+    "speciesId": "dragapult",
+    "pokemon": "0887-dragapult"
   },
   {
     "speciesId": "baxcalibur",
     "pokemon": "0998-baxcalibur"
   },
   {
+    "speciesId": "cetitan",
+    "pokemon": "0975-cetitan"
+  },
+  {
     "speciesId": "kommo_o",
     "pokemon": "0784-kommo_o"
+  },
+  {
+    "speciesId": "hippowdon_shadow",
+    "pokemon": "0450-hippowdon"
   },
   {
     "speciesId": "conkeldurr",
@@ -134,6 +126,10 @@
   {
     "speciesId": "gallade_shadow",
     "pokemon": "0475-gallade"
+  },
+  {
+    "speciesId": "haxorus",
+    "pokemon": "0612-haxorus"
   },
   {
     "speciesId": "avalugg",

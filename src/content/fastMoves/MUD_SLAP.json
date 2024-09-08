@@ -2,7 +2,7 @@
   "moveId": "MUD_SLAP",
   "name": "Mud Slap",
   "type": "ground",
-  "power": 11,
-  "energyGain": 9,
+  "power": 12,
+  "energyGain": 10,
   "turns": 3
 }

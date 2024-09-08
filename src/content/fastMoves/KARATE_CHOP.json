@@ -3,6 +3,6 @@
   "name": "Karate Chop",
   "type": "fighting",
   "power": 5,
-  "energyGain": 8,
+  "energyGain": 9,
   "turns": 2
 }

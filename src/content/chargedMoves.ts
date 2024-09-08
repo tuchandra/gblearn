@@ -171,6 +171,7 @@ export default {
   SLUDGE_WAVE: 'Sludge Wave',
   SOLAR_BEAM: 'Solar Beam',
   SPACIAL_REND: 'Spacial Rend',
+  SPARKLING_ARIA: 'Sparkling Aria',
   SPIRIT_SHACKLE: 'Spirit Shackle',
   SPRINGTIDE_STORM: 'Springtide Storm (Speculative)',
   STOMP: 'Stomp',

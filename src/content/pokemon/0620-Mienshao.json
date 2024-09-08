@@ -30,13 +30,15 @@
   ],
   "fastMoves": [
     "LOW_KICK",
-    "POISON_JAB"
+    "POISON_JAB",
+    "FORCE_PALM"
   ],
   "chargedMoves": [
     "BRICK_BREAK",
     "GRASS_KNOT",
     "STONE_EDGE",
-    "BLAZE_KICK"
+    "BLAZE_KICK",
+    "BRUTAL_SWING"
   ],
   "released": true
 }

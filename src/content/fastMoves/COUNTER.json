@@ -3,6 +3,6 @@
   "name": "Counter",
   "type": "fighting",
   "power": 8,
-  "energyGain": 7,
+  "energyGain": 6,
   "turns": 2
 }

@@ -30,7 +30,8 @@
   ],
   "fastMoves": [
     "BULLET_PUNCH",
-    "COUNTER"
+    "COUNTER",
+    "FORCE_PALM"
   ],
   "chargedMoves": [
     "CLOSE_COMBAT",

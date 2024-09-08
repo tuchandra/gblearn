@@ -30,11 +30,14 @@
   ],
   "fastMoves": [
     "TACKLE",
-    "EMBER"
+    "FIRE_SPIN"
   ],
   "chargedMoves": [
     "FLAME_CHARGE",
     "FLAMETHROWER"
   ],
-  "released": false
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }

@@ -37,5 +37,8 @@
     "BRICK_BREAK",
     "ROCK_TOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

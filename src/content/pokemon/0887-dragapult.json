@@ -30,13 +30,14 @@
     "ghost"
   ],
   "fastMoves": [
-    "HEX",
+    "ASTONISH",
     "DRAGON_TAIL"
   ],
   "chargedMoves": [
     "DRAGON_PULSE",
     "SHADOW_BALL",
-    "OUTRAGE"
+    "OUTRAGE",
+    "BREAKING_SWIPE"
   ],
-  "released": false
+  "released": true
 }

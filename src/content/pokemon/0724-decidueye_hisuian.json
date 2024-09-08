@@ -36,7 +36,8 @@
   "chargedMoves": [
     "AURA_SPHERE",
     "ENERGY_BALL",
-    "AERIAL_ACE"
+    "AERIAL_ACE",
+    "NIGHT_SHADE"
   ],
   "released": true,
   "tags": [

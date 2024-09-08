@@ -37,7 +37,8 @@
     "FIRE_PUNCH",
     "WILD_CHARGE",
     "SHADOW_BALL",
-    "OVERHEAT"
+    "OVERHEAT",
+    "NIGHT_SHADE"
   ],
   "released": true,
   "tags": [

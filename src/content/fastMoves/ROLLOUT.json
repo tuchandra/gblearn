@@ -2,7 +2,7 @@
   "moveId": "ROLLOUT",
   "name": "Rollout",
   "type": "rock",
-  "power": 5,
+  "power": 8,
   "energyGain": 13,
   "turns": 3
 }

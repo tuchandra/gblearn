@@ -2,7 +2,7 @@
   "moveId": "POISON_STING",
   "name": "Poison Sting",
   "type": "poison",
-  "power": 3,
+  "power": 4,
   "energyGain": 9,
   "turns": 2
 }

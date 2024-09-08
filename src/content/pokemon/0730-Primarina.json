@@ -37,7 +37,9 @@
     "PSYCHIC",
     "HYDRO_PUMP",
     "MOONBLAST",
-    "DISARMING_VOICE"
+    "DISARMING_VOICE",
+    "HYDRO_CANNON",
+    "SPARKLING_ARIA"
   ],
   "released": true,
   "tags": [

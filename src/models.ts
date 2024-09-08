@@ -171,6 +171,7 @@ export enum CupName {
   premierultra = 'premierultra',
   fossil = 'fossil',
   fantasy = 'fantasy',
+  psychic = 'psychic',
 }
 
 export type Move = FastMove | ChargedMove;

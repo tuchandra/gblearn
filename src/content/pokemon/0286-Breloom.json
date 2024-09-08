@@ -31,7 +31,8 @@
   ],
   "fastMoves": [
     "BULLET_SEED",
-    "COUNTER"
+    "COUNTER",
+    "FORCE_PALM"
   ],
   "chargedMoves": [
     "DYNAMIC_PUNCH",

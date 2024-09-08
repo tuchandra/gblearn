@@ -2,6 +2,6 @@
   "moveId": "NIGHT_SHADE",
   "name": "Night Shade",
   "type": "ghost",
-  "power": 60,
-  "energy": 55
+  "power": 80,
+  "energy": 45
 }

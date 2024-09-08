@@ -2,6 +2,6 @@
   "moveId": "SKY_ATTACK",
   "name": "Sky Attack",
   "type": "flying",
-  "power": 75,
-  "energy": 50
+  "power": 85,
+  "energy": 55
 }

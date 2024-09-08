@@ -31,7 +31,8 @@
   ],
   "fastMoves": [
     "BUG_BITE",
-    "STRUGGLE_BUG"
+    "STRUGGLE_BUG",
+    "COUNTER"
   ],
   "chargedMoves": [
     "AERIAL_ACE",

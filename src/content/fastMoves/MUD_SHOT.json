@@ -2,7 +2,7 @@
   "moveId": "MUD_SHOT",
   "name": "Mud Shot",
   "type": "ground",
-  "power": 3,
-  "energyGain": 9,
+  "power": 4,
+  "energyGain": 8,
   "turns": 2
 }

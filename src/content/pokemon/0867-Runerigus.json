@@ -36,7 +36,8 @@
   "chargedMoves": [
     "SHADOW_BALL",
     "SAND_TOMB",
-    "ROCK_TOMB"
+    "ROCK_TOMB",
+    "BRUTAL_SWING"
   ],
   "released": true
 }

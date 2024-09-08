@@ -37,5 +37,8 @@
     "SURF",
     "SHADOW_BALL"
   ],
-  "released": false
+  "released": true,
+  "tags": [
+    "starter"
+  ]
 }
