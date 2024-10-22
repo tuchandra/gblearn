@@ -14,7 +14,7 @@ interface Props {
 const { cup, id } = Astro.props;
 const cupMeta = await getEntry('metas', cup);
 const cupPokemon = await Promise.all(
-  cupMeta.data.map((x) => getEntry('pokemon', x.pokemon.id)),
+  cupMeta.data.map((x) => getEntry('pokemon', x.pokemon.id))
 );
 ---
 
@@ -44,7 +44,7 @@ const cupPokemon = await Promise.all(
     {
       cupPokemon.map((pokemon) => (
         <div class="border-b-2 border-neutral-600 pb-2 pt-2 hover:bg-base-100">
-          <PokemonNamecard pokemon={pokemon} />
+          <PokemonNamecard pokemon={pokemon.data} statRanges={null} />
         </div>
       ))
     }

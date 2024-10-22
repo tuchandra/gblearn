@@ -1,0 +1,158 @@
+[
+  {
+    "speciesId": "ampharos",
+    "pokemon": "0181-ampharos"
+  },
+  {
+    "speciesId": "clefable",
+    "pokemon": "0036-clefable"
+  },
+  {
+    "speciesId": "cobalion",
+    "pokemon": "0638-cobalion"
+  },
+  {
+    "speciesId": "cresselia",
+    "pokemon": "0488-cresselia"
+  },
+  {
+    "speciesId": "dragonite_shadow",
+    "pokemon": "0149-dragonite"
+  },
+  {
+    "speciesId": "drapion_shadow",
+    "pokemon": "0452-drapion"
+  },
+  {
+    "speciesId": "drifblim",
+    "pokemon": "0426-drifblim"
+  },
+  {
+    "speciesId": "feraligatr",
+    "pokemon": "0160-feraligatr"
+  },
+  {
+    "speciesId": "giratina_altered",
+    "pokemon": "0487-giratina_altered"
+  },
+  {
+    "speciesId": "golurk_shadow",
+    "pokemon": "0623-golurk"
+  },
+  {
+    "speciesId": "greninja",
+    "pokemon": "0658-greninja"
+  },
+  {
+    "speciesId": "guzzlord",
+    "pokemon": "0799-guzzlord"
+  },
+  {
+    "speciesId": "lickilicky",
+    "pokemon": "0463-lickilicky"
+  },
+  {
+    "speciesId": "malamar",
+    "pokemon": "0687-malamar"
+  },
+  {
+    "speciesId": "mandibuzz",
+    "pokemon": "0630-mandibuzz"
+  },
+  {
+    "speciesId": "moltres_galarian",
+    "pokemon": "0146-moltres_galarian"
+  },
+  {
+    "speciesId": "pangoro",
+    "pokemon": "0675-pangoro"
+  },
+  {
+    "speciesId": "registeel",
+    "pokemon": "0379-registeel"
+  },
+  {
+    "speciesId": "skeledirge",
+    "pokemon": "0911-skeledirge"
+  },
+  {
+    "speciesId": "talonflame",
+    "pokemon": "0663-talonflame"
+  },
+  {
+    "speciesId": "tentacruel",
+    "pokemon": "0073-tentacruel"
+  },
+  {
+    "speciesId": "typhlosion",
+    "pokemon": "0157-typhlosion"
+  },
+  {
+    "speciesId": "venusaur",
+    "pokemon": "0003-venusaur"
+  },
+  {
+    "speciesId": "virizion",
+    "pokemon": "0640-virizion"
+  },
+  {
+    "speciesId": "weezing_galarian",
+    "pokemon": "0110-weezing_galarian"
+  },
+  {
+    "speciesId": "nidoqueen",
+    "pokemon": "0031-nidoqueen"
+  },
+  {
+    "speciesId": "zygarde_complete",
+    "pokemon": "0718-zygarde_complete"
+  },
+  {
+    "speciesId": "machamp_shadow",
+    "pokemon": "0068-machamp"
+  },
+  {
+    "speciesId": "regirock",
+    "pokemon": "0377-regirock"
+  },
+  {
+    "speciesId": "florges",
+    "pokemon": "0671-florges"
+  },
+  {
+    "speciesId": "dusknoir",
+    "pokemon": "0477-dusknoir"
+  },
+  {
+    "speciesId": "steelix_shadow",
+    "pokemon": "0208-steelix"
+  },
+  {
+    "speciesId": "aurorus",
+    "pokemon": "0699-aurorus"
+  },
+  {
+    "speciesId": "gastrodon",
+    "pokemon": "0423-gastrodon"
+  },
+  {
+    "speciesId": "skuntank_shadow",
+    "pokemon": "0435-skuntank"
+  },
+  {
+    "speciesId": "kommo_o",
+    "pokemon": "0784-kommo_o"
+  },
+  {
+    "speciesId": "miltank",
+    "pokemon": "0241-miltank"
+  },
+  {
+    "speciesId": "goodra",
+    "pokemon": "0706-goodra"
+  },
+  {
+    "speciesId": "dragalge",
+    "pokemon": "0691-dragalge"
+  }
+]

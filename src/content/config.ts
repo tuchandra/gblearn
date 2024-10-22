@@ -1,3 +1,4 @@
+import { glob } from 'astro/loaders';
 import { defineCollection, reference, z } from 'astro:content';
 import {
   ChargedMoveSchema,
@@ -6,19 +7,31 @@ import {
 } from '../models';
 
 const pokemon = defineCollection({
-  type: 'data',
+  loader: glob({ pattern: '*.json', base: './src/data/pokemon' }),
   schema: PokemonSpeciesSchema,
 });
 const fastMoves = defineCollection({
-  type: 'data',
+  loader: glob({
+    pattern: '*.json',
+    base: './src/data/fast_moves',
+    generateId: ({ data }) => {
+      return data.moveId as string; // shh, typescript
+    },
+  }),
   schema: FastMoveSchema,
 });
 const chargedMoves = defineCollection({
-  type: 'data',
+  loader: glob({
+    pattern: '*.json',
+    base: './src/data/charged_moves',
+    generateId: ({ data }) => {
+      return data.moveId as string;
+    },
+  }),
   schema: ChargedMoveSchema,
 });
 const metas = defineCollection({
-  type: 'data',
+  loader: glob({ pattern: '*.json', base: './src/data/metas' }),
   schema: z.array(
     z.object({
       speciesId: z.string(),

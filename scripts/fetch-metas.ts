@@ -4,14 +4,14 @@
  * tldr:
  * - invoke with `bun scripts/fetch-metas.ts`
  * - requires bun, since we use the file writing API
- * - (over)writes JSON to src/content/metas/<name>.json
+ * - (over)writes JSON to src/data/metas/<name>.json
  *
  * From the PVPoke repo, fetch the file describing the meta for a handful
  * of different cups (great, ultra, master, whatever themed cups exist).
  */
 
-import PokemonIndex from '../src/content/_pokemon.json';
 import { cupConfig } from '../src/cup-utils';
+import PokemonIndex from '../src/data/_pokemon.json';
 import { CupMetaSchema, CupName, type PokemonSpecies } from '../src/models';
 
 const PVPOKE_DATA =
@@ -43,7 +43,7 @@ function rankingsUrl(name: CupName) {
  * e.g., `venusaur_shadow` -> `0003-venusaur`
  * e.g., `golisopod` -> `0768-golisopod`
  *
- * Why? Astro uses the file name (in `src/content/pokemon/xxx.json`) as the ID,
+ * Why? Astro uses the file name (in `src/data/pokemon/xxx.json`) as the ID,
  * and being able to have Astro map the meta entries to the Pokemon objects is
  * convenient.
  *
@@ -96,11 +96,8 @@ async function getOrUpdateMeta(cup: CupName) {
       ),
   );
 
-  await Bun.write(
-    `src/content/metas/${cup}.json`,
-    JSON.stringify(meta, null, 2),
-  );
-  console.log(`Wrote or updated src/content/metas/${cup}.json`);
+  await Bun.write(`src/data/metas/${cup}.json`, JSON.stringify(meta, null, 2));
+  console.log(`Wrote or updated src/data/metas/${cup}.json`);
   return meta;
 }
 

@@ -7,7 +7,7 @@ import { CupName } from '../models';
 // const pokemon = await getCollection('pokemon');
 const great = await getEntry('metas', 'great');
 const greatPokemon = await Promise.all(
-  great.data.map(async (p) => getEntry(p.pokemon)),
+  great.data.map(async (p) => getEntry(p.pokemon))
 );
 
 const metas = await getCollection('metas');
@@ -46,15 +46,15 @@ const metas = await getCollection('metas');
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
       <div class="flex flex-row px-1">
-        <Matchup opponent={greatPokemon[4].data} />
-        <Matchup opponent={greatPokemon[8].data} />
-        <Matchup opponent={greatPokemon[12].data} />
+        <Matchup opponent={greatPokemon[4].data} maxCp={1500} />
+        <Matchup opponent={greatPokemon[8].data} maxCp={1500} />
+        <Matchup opponent={greatPokemon[12].data} maxCp={1500} />
       </div>
     </div>
 
     <!-- Content -->
     <div class="divider divider-primary italic">Matchups</div>
-    {greatPokemon.map((p) => <Matchup opponent={p.data} />)}
+    {greatPokemon.map((p) => <Matchup opponent={p.data} maxCp={1500} />)}
     <div class="container footer italic">
       <div class="divider divider-primary italic">
         Questions? Contact @tuchandra on Github

@@ -1,6 +1,7 @@
 ---
 // Component for one Pokemon displayed on the homepage.
 
+import { glob } from 'astro/loaders';
 import { getEntry } from 'astro:content';
 import { applyMovesetOverrides, getMoveCounts } from '../pokemon-utils';
 import PokemonNamecard from './PokemonNamecard.astro';
@@ -23,12 +24,12 @@ const maxCp = Astro.props.maxCp;
 const pokemon = applyMovesetOverrides(Astro.props.opponent);
 
 const fastMoves = await Promise.all(
-  pokemon.fastMoves.map((m) => getEntry('fastMoves', m).then((m) => m.data)),
+  pokemon.fastMoves.map((m) => getEntry('fastMoves', m).then((m) => m.data))
 );
 const chargedMoves = await Promise.all(
   pokemon.chargedMoves.map((m) =>
-    getEntry('chargedMoves', m).then((m) => m.data),
-  ),
+    getEntry('chargedMoves', m).then((m) => m.data)
+  )
 ).then((moves) => moves.sort((a, b) => a.energy - b.energy));
 
 // Damage for the PVPoke default IVs
@@ -43,6 +44,7 @@ const opponentBattler: Pokemon = {
   species: pokemon,
   level: defaultIvs.level,
   ivs: defaultIvs.ivs,
+  shadow: false,
 };
 
 const statRanges = maxCp != null ? computeStatRanges(pokemon, maxCp) : null;

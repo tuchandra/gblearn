@@ -5,9 +5,9 @@
  * - invoke with `bun scripts/fetch-gamemaster.ts`
  * - requires bun, since we use the file writing API
  * - (over)writes TypeScript files to:
- *   - src/content/pokemon.ts
- *   - src/content/fastMoves.ts
- *   - src/content/chargedMoves.ts
+ *   - src/data/pokemon.ts
+ *   - src/data/fastMoves.ts
+ *   - src/data/chargedMoves.ts
  *
  * This script fetches the latest data file from the PVPoke Github repo,
  * which itself is sourced from PokeMiners with some convenient-for-PVP preprocessing.
@@ -31,7 +31,7 @@ import {
 const HIDDEN_POWER_UNKNOWN = FastMoveSchema.parse({
   moveId: 'HIDDEN_POWER',
   name: 'Hidden Power',
-  type: 'unknown',
+  type: 'normal',
   power: 9,
   energyGain: 8,
   turns: 3,
@@ -149,26 +149,26 @@ async function writePokemon(pokemon: PokemonSpecies[]) {
     const dexnum = mon.dex.toString().padStart(4, '0');
     const filename = `${dexnum}-${mon.speciesId}.json`;
     await Bun.write(
-      `src/content/pokemon/${filename}`,
+      `src/data/pokemon/${filename}`,
       JSON.stringify(mon, null, 2),
     );
   }
 
-  // Write src/content/_pokemon.json, which indexes {filename: speciesId}
+  // Write src/data/_pokemon.json, which indexes {filename: speciesId}
   const pokemonIndex = pokemon.reduce((acc, mon) => {
     const dexnum = mon.dex.toString().padStart(4, '0');
     const filename = `${dexnum}-${mon.speciesId}`;
     return { ...acc, [filename]: mon.speciesId };
   }, {});
   await Bun.write(
-    `src/content/_pokemon.json`,
+    `src/data/_pokemon.json`,
     JSON.stringify(pokemonIndex, null, 2),
   );
 
   // EXPERIMENTAL: write a <dir>.ts file with a lookup table
   const header = '// GENERATED FILE; DO NOT EDIT\n\n';
   await Bun.write(
-    `src/content/pokemon.ts`,
+    `src/data/pokemon.ts`,
     `${header}export default ${JSON.stringify(pokemonIndex, null, 2)} as const;`,
   );
 
@@ -178,25 +178,22 @@ async function writePokemon(pokemon: PokemonSpecies[]) {
 async function writeMoves(moves: Move[], dir: string) {
   for (const move of moves) {
     await Bun.write(
-      `src/content/${dir}/${move.moveId}.json`,
+      `src/data/${dir}/${move.moveId}.json`,
       JSON.stringify(move, null, 2),
     );
   }
 
-  // Write src/content/_<dir>.json, which indexes {moveId: name}
+  // Write src/data/_<dir>.json, which indexes {moveId: name}
   const movesIndex = moves.reduce((acc, move) => {
     const filename = `${move.moveId}`;
     return { ...acc, [filename]: move.name };
   }, {});
-  await Bun.write(
-    `src/content/_${dir}.json`,
-    JSON.stringify(movesIndex, null, 2),
-  );
+  await Bun.write(`src/data/_${dir}.json`, JSON.stringify(movesIndex, null, 2));
 
   // EXPERIMENTAL: write a <dir>.ts file with a lookup table
   const header = '// GENERATED FILE; DO NOT EDIT\n\n';
   await Bun.write(
-    `src/content/${dir}.ts`,
+    `src/data/${dir}.ts`,
     `${header}export default ${JSON.stringify(movesIndex, null, 2)} as const;`,
   );
 
@@ -207,10 +204,10 @@ async function main() {
   const { pokemon, fastMoves, chargedMoves } = await getGamemaster();
 
   await writePokemon(pokemon);
-  await writeMoves(fastMoves, 'fastMoves');
-  await writeMoves(chargedMoves, 'chargedMoves');
+  await writeMoves(fastMoves, 'fast_moves');
+  await writeMoves(chargedMoves, 'charged_moves');
 
-  Bun.spawn({ cmd: ['bun', 'format', 'src/content/*.ts'] });
+  Bun.spawn({ cmd: ['bun', 'format', 'src/data/*.ts'] });
 }
 
 main();
