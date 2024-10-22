@@ -39,5 +39,8 @@
     "DRILL_RUN",
     "AERIAL_ACE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

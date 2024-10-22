@@ -1,5 +1,13 @@
 [
   {
+    "speciesId": "abomasnow",
+    "pokemon": "0460-abomasnow"
+  },
+  {
+    "speciesId": "ariados",
+    "pokemon": "0168-ariados"
+  },
+  {
     "speciesId": "azumarill",
     "pokemon": "0184-azumarill"
   },
@@ -72,10 +80,6 @@
     "pokemon": "0189-jumpluff"
   },
   {
-    "speciesId": "lanturn",
-    "pokemon": "0171-lanturn"
-  },
-  {
     "speciesId": "lickilicky",
     "pokemon": "0463-lickilicky"
   },
@@ -94,6 +98,14 @@
   {
     "speciesId": "marowak_alolan_shadow",
     "pokemon": "0105-marowak_alolan"
+  },
+  {
+    "speciesId": "marowak_shadow",
+    "pokemon": "0105-marowak"
+  },
+  {
+    "speciesId": "oranguru",
+    "pokemon": "0765-oranguru"
   },
   {
     "speciesId": "quagsire",
@@ -128,12 +140,12 @@
     "pokemon": "0040-wigglytuff"
   },
   {
-    "speciesId": "ariados",
-    "pokemon": "0168-ariados"
+    "speciesId": "typhlosion_shadow",
+    "pokemon": "0157-typhlosion"
   },
   {
-    "speciesId": "oranguru",
-    "pokemon": "0765-oranguru"
+    "speciesId": "arctibax",
+    "pokemon": "0997-arctibax"
   },
   {
     "speciesId": "pangoro",
@@ -142,10 +154,6 @@
   {
     "speciesId": "bastiodon",
     "pokemon": "0411-bastiodon"
-  },
-  {
-    "speciesId": "marowak_shadow",
-    "pokemon": "0105-marowak"
   },
   {
     "speciesId": "gallade_shadow",

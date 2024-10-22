@@ -16,10 +16,6 @@
     "pokemon": "0488-cresselia"
   },
   {
-    "speciesId": "decidueye",
-    "pokemon": "0724-decidueye"
-  },
-  {
     "speciesId": "dragonite_shadow",
     "pokemon": "0149-dragonite"
   },
@@ -36,16 +32,12 @@
     "pokemon": "0160-feraligatr"
   },
   {
-    "speciesId": "gastrodon",
-    "pokemon": "0423-gastrodon"
-  },
-  {
     "speciesId": "giratina_altered",
     "pokemon": "0487-giratina_altered"
   },
   {
-    "speciesId": "golisopod",
-    "pokemon": "0768-golisopod"
+    "speciesId": "golurk_shadow",
+    "pokemon": "0623-golurk"
   },
   {
     "speciesId": "greninja",
@@ -60,20 +52,20 @@
     "pokemon": "0463-lickilicky"
   },
   {
-    "speciesId": "machamp_shadow",
-    "pokemon": "0068-machamp"
+    "speciesId": "malamar",
+    "pokemon": "0687-malamar"
   },
   {
     "speciesId": "mandibuzz",
     "pokemon": "0630-mandibuzz"
   },
   {
-    "speciesId": "pangoro",
-    "pokemon": "0675-pangoro"
+    "speciesId": "moltres_galarian",
+    "pokemon": "0146-moltres_galarian"
   },
   {
-    "speciesId": "poliwrath",
-    "pokemon": "0062-poliwrath"
+    "speciesId": "pangoro",
+    "pokemon": "0675-pangoro"
   },
   {
     "speciesId": "registeel",
@@ -84,24 +76,16 @@
     "pokemon": "0911-skeledirge"
   },
   {
-    "speciesId": "swampert",
-    "pokemon": "0260-swampert"
-  },
-  {
     "speciesId": "talonflame",
     "pokemon": "0663-talonflame"
-  },
-  {
-    "speciesId": "tapu_fini",
-    "pokemon": "0788-tapu_fini"
   },
   {
     "speciesId": "tentacruel",
     "pokemon": "0073-tentacruel"
   },
   {
-    "speciesId": "trevenant",
-    "pokemon": "0709-trevenant"
+    "speciesId": "typhlosion",
+    "pokemon": "0157-typhlosion"
   },
   {
     "speciesId": "venusaur",
@@ -116,12 +100,16 @@
     "pokemon": "0110-weezing_galarian"
   },
   {
+    "speciesId": "nidoqueen",
+    "pokemon": "0031-nidoqueen"
+  },
+  {
     "speciesId": "zygarde_complete",
     "pokemon": "0718-zygarde_complete"
   },
   {
-    "speciesId": "malamar",
-    "pokemon": "0687-malamar"
+    "speciesId": "machamp_shadow",
+    "pokemon": "0068-machamp"
   },
   {
     "speciesId": "regirock",
@@ -144,8 +132,8 @@
     "pokemon": "0699-aurorus"
   },
   {
-    "speciesId": "moltres_galarian",
-    "pokemon": "0146-moltres_galarian"
+    "speciesId": "gastrodon",
+    "pokemon": "0423-gastrodon"
   },
   {
     "speciesId": "skuntank_shadow",

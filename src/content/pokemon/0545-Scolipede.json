@@ -39,5 +39,8 @@
     "GYRO_BALL",
     "X_SCISSOR"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

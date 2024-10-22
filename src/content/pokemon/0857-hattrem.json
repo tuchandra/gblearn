@@ -33,9 +33,9 @@
     "CHARM"
   ],
   "chargedMoves": [
-    "PSYBEAM",
+    "PSYSHOCK",
     "PSYCHIC",
     "DAZZLING_GLEAM"
   ],
-  "released": false
+  "released": true
 }

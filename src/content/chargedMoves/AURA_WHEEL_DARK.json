@@ -1,0 +1,13 @@
+{
+  "moveId": "AURA_WHEEL_DARK",
+  "name": "Aura Wheel",
+  "type": "dark",
+  "power": 100,
+  "energy": 45,
+  "buffs": [
+    1,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

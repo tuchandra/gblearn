@@ -35,7 +35,8 @@
   "chargedMoves": [
     "BRICK_BREAK",
     "LOW_SWEEP",
-    "FOCUS_BLAST"
+    "FOCUS_BLAST",
+    "HIGH_JUMP_KICK"
   ],
   "released": true
 }

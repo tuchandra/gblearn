@@ -1,0 +1,13 @@
+{
+  "moveId": "AURA_WHEEL_ELECTRIC",
+  "name": "Aura Wheel",
+  "type": "electric",
+  "power": 100,
+  "energy": 45,
+  "buffs": [
+    1,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

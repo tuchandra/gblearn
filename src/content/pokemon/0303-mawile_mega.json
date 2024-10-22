@@ -1,0 +1,50 @@
+{
+  "dex": 303,
+  "speciesName": "Mawile (Mega)",
+  "speciesId": "mawile_mega",
+  "baseStats": {
+    "atk": 188,
+    "def": 217,
+    "hp": 137
+  },
+  "defaultIvs": {
+    "1500": {
+      "level": 23.5,
+      "ivs": {
+        "atk": 6,
+        "def": 5,
+        "hp": 15
+      }
+    },
+    "2500": {
+      "level": 40,
+      "ivs": {
+        "atk": 15,
+        "def": 15,
+        "hp": 15
+      }
+    }
+  },
+  "types": [
+    "steel",
+    "fairy"
+  ],
+  "fastMoves": [
+    "ASTONISH",
+    "BITE",
+    "FIRE_FANG",
+    "ICE_FANG",
+    "FAIRY_WIND"
+  ],
+  "chargedMoves": [
+    "IRON_HEAD",
+    "PLAY_ROUGH",
+    "VICE_GRIP",
+    "POWER_UP_PUNCH"
+  ],
+  "released": true,
+  "tags": [
+    "shadoweligible",
+    "mega"
+  ]
+}

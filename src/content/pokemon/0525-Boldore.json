@@ -9,11 +9,11 @@
   },
   "defaultIvs": {
     "1500": {
-      "level": 28,
+      "level": 27.5,
       "ivs": {
-        "atk": 5,
-        "def": 10,
-        "hp": 12
+        "atk": 2,
+        "def": 15,
+        "hp": 15
       }
     },
     "2500": {
@@ -37,5 +37,8 @@
     "BULLDOZE",
     "STONE_EDGE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

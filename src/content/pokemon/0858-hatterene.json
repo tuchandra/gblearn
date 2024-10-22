@@ -35,10 +35,10 @@
     "PSYCHO_CUT"
   ],
   "chargedMoves": [
-    "PSYBEAM",
+    "PSYSHOCK",
     "PSYCHIC",
     "DAZZLING_GLEAM",
     "POWER_WHIP"
   ],
-  "released": false
+  "released": true
 }

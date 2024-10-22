@@ -1,0 +1,13 @@
+{
+  "moveId": "RAGE_FIST",
+  "name": "Rage Fist",
+  "type": "ghost",
+  "power": 50,
+  "energy": 35,
+  "buffs": [
+    1,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

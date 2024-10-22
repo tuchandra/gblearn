@@ -39,7 +39,8 @@
     "FIRE_BLAST",
     "HEAT_WAVE",
     "FLAME_CHARGE",
-    "SCORCHING_SANDS"
+    "SCORCHING_SANDS",
+    "WILD_CHARGE"
   ],
   "released": true
 }

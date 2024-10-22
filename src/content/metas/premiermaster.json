@@ -8,6 +8,10 @@
     "pokemon": "0713-avalugg_hisuian"
   },
   {
+    "speciesId": "dragapult",
+    "pokemon": "0887-dragapult"
+  },
+  {
     "speciesId": "dragonite",
     "pokemon": "0149-dragonite"
   },
@@ -40,10 +44,6 @@
     "pokemon": "0130-gyarados"
   },
   {
-    "speciesId": "rhyperior",
-    "pokemon": "0464-rhyperior"
-  },
-  {
     "speciesId": "machamp",
     "pokemon": "0068-machamp"
   },
@@ -64,12 +64,12 @@
     "pokemon": "0730-primarina"
   },
   {
-    "speciesId": "skeledirge",
-    "pokemon": "0911-skeledirge"
+    "speciesId": "rhyperior",
+    "pokemon": "0464-rhyperior"
   },
   {
-    "speciesId": "snorlax",
-    "pokemon": "0143-snorlax"
+    "speciesId": "skeledirge",
+    "pokemon": "0911-skeledirge"
   },
   {
     "speciesId": "swampert",
@@ -84,16 +84,20 @@
     "pokemon": "0901-ursaluna"
   },
   {
-    "speciesId": "dragapult",
-    "pokemon": "0887-dragapult"
+    "speciesId": "snorlax",
+    "pokemon": "0143-snorlax"
   },
   {
     "speciesId": "baxcalibur",
     "pokemon": "0998-baxcalibur"
   },
   {
-    "speciesId": "cetitan",
-    "pokemon": "0975-cetitan"
+    "speciesId": "hydreigon",
+    "pokemon": "0635-hydreigon"
+  },
+  {
+    "speciesId": "gholdengo",
+    "pokemon": "1000-gholdengo"
   },
   {
     "speciesId": "kommo_o",
@@ -104,39 +108,23 @@
     "pokemon": "0450-hippowdon"
   },
   {
-    "speciesId": "conkeldurr",
-    "pokemon": "0534-conkeldurr"
-  },
-  {
-    "speciesId": "gholdengo",
-    "pokemon": "1000-gholdengo"
-  },
-  {
-    "speciesId": "empoleon_shadow",
-    "pokemon": "0395-empoleon"
-  },
-  {
-    "speciesId": "hydreigon",
-    "pokemon": "0635-hydreigon"
-  },
-  {
-    "speciesId": "sneasler_shadow",
-    "pokemon": "0903-sneasler"
+    "speciesId": "cetitan",
+    "pokemon": "0975-cetitan"
   },
   {
     "speciesId": "gallade_shadow",
     "pokemon": "0475-gallade"
   },
   {
-    "speciesId": "haxorus",
-    "pokemon": "0612-haxorus"
+    "speciesId": "sneasler_shadow",
+    "pokemon": "0903-sneasler"
   },
   {
-    "speciesId": "avalugg",
-    "pokemon": "0713-avalugg"
-  },
-  {
-    "speciesId": "salamence",
+    "speciesId": "salamence_shadow",
     "pokemon": "0373-salamence"
+  },
+  {
+    "speciesId": "vaporeon",
+    "pokemon": "0134-vaporeon"
   }
 ]

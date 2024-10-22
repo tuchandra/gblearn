@@ -56,20 +56,20 @@
     "pokemon": "0606-beheeyem"
   },
   {
-    "speciesId": "chimecho",
-    "pokemon": "0358-chimecho"
-  },
-  {
     "speciesId": "meowstic",
     "pokemon": "0678-meowstic"
   },
   {
-    "speciesId": "slowking_galarian",
-    "pokemon": "0199-slowking_galarian"
+    "speciesId": "chimecho",
+    "pokemon": "0358-chimecho"
   },
   {
-    "speciesId": "lunatone",
-    "pokemon": "0337-lunatone"
+    "speciesId": "hatterene",
+    "pokemon": "0858-hatterene"
+  },
+  {
+    "speciesId": "slowking_galarian",
+    "pokemon": "0199-slowking_galarian"
   },
   {
     "speciesId": "metang_shadow",
@@ -78,6 +78,10 @@
   {
     "speciesId": "armarouge",
     "pokemon": "0936-armarouge"
+  },
+  {
+    "speciesId": "lunatone",
+    "pokemon": "0337-lunatone"
   },
   {
     "speciesId": "slowbro",
@@ -92,6 +96,10 @@
     "pokemon": "0199-slowking"
   },
   {
+    "speciesId": "slowpoke",
+    "pokemon": "0079-slowpoke"
+  },
+  {
     "speciesId": "delphox",
     "pokemon": "0655-delphox"
   },
@@ -104,27 +112,19 @@
     "pokemon": "0202-wobbuffet"
   },
   {
-    "speciesId": "gothitelle_shadow",
-    "pokemon": "0576-gothitelle"
-  },
-  {
     "speciesId": "hypno",
     "pokemon": "0097-hypno"
   },
   {
-    "speciesId": "slowpoke",
-    "pokemon": "0079-slowpoke"
-  },
-  {
-    "speciesId": "medicham",
-    "pokemon": "0308-medicham"
+    "speciesId": "gothitelle_shadow",
+    "pokemon": "0576-gothitelle"
   },
   {
     "speciesId": "oranguru",
     "pokemon": "0765-oranguru"
   },
   {
-    "speciesId": "gallade_shadow",
-    "pokemon": "0475-gallade"
+    "speciesId": "medicham",
+    "pokemon": "0308-medicham"
   }
 ]

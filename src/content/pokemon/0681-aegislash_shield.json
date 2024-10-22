@@ -1,19 +1,19 @@
 {
-  "dex": 877,
-  "speciesName": "Morpeko (Hangry)",
-  "speciesId": "morpeko_hangry",
+  "dex": 681,
+  "speciesName": "Aegislash (Shield)",
+  "speciesId": "aegislash_shield",
   "baseStats": {
-    "atk": 192,
-    "def": 121,
-    "hp": 151
+    "atk": 97,
+    "def": 291,
+    "hp": 155
   },
   "defaultIvs": {
     "1500": {
-      "level": 29,
+      "level": 43,
       "ivs": {
         "atk": 5,
         "def": 15,
-        "hp": 8
+        "hp": 13
       }
     },
     "2500": {
@@ -26,19 +26,17 @@
     }
   },
   "types": [
-    "electric",
-    "dark"
+    "steel",
+    "ghost"
   ],
   "fastMoves": [
-    "CHARGE_BEAM",
-    "BITE",
-    "THUNDER_SHOCK"
+    "PSYCHO_CUT",
+    "FURY_CUTTER"
   ],
   "chargedMoves": [
-    "SEED_BOMB",
-    "OUTRAGE",
-    "PSYCHIC_FANGS",
-    "AURA_WHEEL_DARK"
+    "FLASH_CANNON",
+    "GYRO_BALL",
+    "SHADOW_BALL"
   ],
   "released": false
 }

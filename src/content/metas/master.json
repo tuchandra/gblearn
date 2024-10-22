@@ -1,9 +1,5 @@
 [
   {
-    "speciesId": "dialga",
-    "pokemon": "0483-dialga"
-  },
-  {
     "speciesId": "dialga_origin",
     "pokemon": "0483-dialga_origin"
   },
@@ -16,8 +12,8 @@
     "pokemon": "0530-excadrill"
   },
   {
-    "speciesId": "garchomp",
-    "pokemon": "0445-garchomp"
+    "speciesId": "florges",
+    "pokemon": "0671-florges"
   },
   {
     "speciesId": "giratina_altered",
@@ -68,16 +64,8 @@
     "pokemon": "0800-necrozma_dusk_mane"
   },
   {
-    "speciesId": "palkia",
-    "pokemon": "0484-palkia"
-  },
-  {
     "speciesId": "palkia_origin",
     "pokemon": "0484-palkia_origin"
-  },
-  {
-    "speciesId": "reshiram",
-    "pokemon": "0643-reshiram"
   },
   {
     "speciesId": "rhyperior",
@@ -112,8 +100,20 @@
     "pokemon": "0718-zygarde_complete"
   },
   {
-    "speciesId": "florges",
-    "pokemon": "0671-florges"
+    "speciesId": "primarina",
+    "pokemon": "0730-primarina"
+  },
+  {
+    "speciesId": "tapu_bulu",
+    "pokemon": "0787-tapu_bulu"
+  },
+  {
+    "speciesId": "dialga",
+    "pokemon": "0483-dialga"
+  },
+  {
+    "speciesId": "palkia",
+    "pokemon": "0484-palkia"
   },
   {
     "speciesId": "kyurem",
@@ -130,6 +130,10 @@
   {
     "speciesId": "meloetta_aria",
     "pokemon": "0648-meloetta_aria"
+  },
+  {
+    "speciesId": "reshiram",
+    "pokemon": "0643-reshiram"
   },
   {
     "speciesId": "gyarados_shadow",

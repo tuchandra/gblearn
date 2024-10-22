@@ -1,0 +1,42 @@
+{
+  "dex": 681,
+  "speciesName": "Aegislash (Blade)",
+  "speciesId": "aegislash_blade",
+  "baseStats": {
+    "atk": 291,
+    "def": 97,
+    "hp": 155
+  },
+  "defaultIvs": {
+    "1500": {
+      "level": 21,
+      "ivs": {
+        "atk": 6,
+        "def": 13,
+        "hp": 10
+      }
+    },
+    "2500": {
+      "level": 39.5,
+      "ivs": {
+        "atk": 6,
+        "def": 12,
+        "hp": 14
+      }
+    }
+  },
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "fastMoves": [
+    "PSYCHO_CUT",
+    "FURY_CUTTER"
+  ],
+  "chargedMoves": [
+    "FLASH_CANNON",
+    "GYRO_BALL",
+    "SHADOW_BALL"
+  ],
+  "released": false
+}

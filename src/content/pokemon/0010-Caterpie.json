@@ -35,5 +35,8 @@
   "chargedMoves": [
     "STRUGGLE"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

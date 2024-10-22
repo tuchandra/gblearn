@@ -9,19 +9,19 @@
   },
   "defaultIvs": {
     "1500": {
-      "level": 16.5,
+      "level": 15.5,
       "ivs": {
-        "atk": 4,
-        "def": 10,
-        "hp": 10
+        "atk": 14,
+        "def": 12,
+        "hp": 15
       }
     },
     "2500": {
-      "level": 27,
+      "level": 26.5,
       "ivs": {
-        "atk": 4,
-        "def": 14,
-        "hp": 14
+        "atk": 10,
+        "def": 10,
+        "hp": 13
       }
     }
   },
@@ -43,6 +43,7 @@
   ],
   "released": true,
   "tags": [
-    "legendary"
+    "legendary",
+    "untradeable"
   ]
 }
