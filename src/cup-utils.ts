@@ -44,6 +44,12 @@ export function cupConfig(cup: CupName): CupConfig {
         name: 'Psychic Cup',
         maxCp: 1500,
       };
+    case CupName.halloween:
+      return {
+        id: CupName.halloween,
+        name: 'Halloween Cup',
+        maxCp: 1500,
+      };
     case CupName.fossil:
       return {
         id: CupName.fossil,

@@ -1,12 +1,11 @@
 import { z } from 'zod';
-import type { ValueOf } from './type-utils';
-import { keys, values } from './type-utils';
-
 import ChargedMoveIndex from './content/chargedMoves.ts';
 import FastMoveIndex from './content/fastMoves.ts';
 import PokemonIndex from './content/pokemon.ts';
 import { Level } from './levels.ts';
 import { PokemonType } from './pokemon-types.ts';
+import type { ValueOf } from './type-utils';
+import { keys, values } from './type-utils';
 
 export const IvsSchema = z.object({
   atk: z.number().min(0).max(15).int(),
@@ -166,6 +165,7 @@ export enum CupName {
   ultra = 'ultra',
   master = 'master',
   remix = 'remix',
+  halloween = 'halloween',
   summer = 'summer',
   premiermaster = 'premiermaster',
   premierultra = 'premierultra',
