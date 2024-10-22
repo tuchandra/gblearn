@@ -50,14 +50,17 @@ function rankingsUrl(name: CupName) {
  * Note that we have to remove the `_shadow` suffix, since PVPoke treats
  * shadow Pokemon as their own entries but we don't need to.
  *
- * Lanturn is also special-cased; PVPoke ranks the Spark & Water Gun movesets
- * separately because they are so different.
+ * Lanturn (previously) and Clodsire (now) are special-cased; PVPoke ranks
+ * their movesets differently.
  */
 function getPokemonFromSpeciesId(speciesId: string): string {
   const pokemon = Object.keys(PokemonIndex).find(
     (key) =>
       PokemonIndex[key] ===
-      speciesId.replace('_shadow', '').replace('lanturnw', 'lanturn'),
+      speciesId
+        .replace('_shadow', '')
+        .replace('lanturnw', 'lanturn')
+        .replace('clodsiresb', 'clodsire'),
   );
   if (!pokemon) {
     throw new Error(`Unknown speciesId: ${speciesId}`);
