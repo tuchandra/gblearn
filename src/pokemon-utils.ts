@@ -105,6 +105,7 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   drapion: { fast: { remove: ['ICE_FANG', 'INFESTATION'] } },
   drifblim: { charged: { remove: ['OMINOUS_WIND'] } },
   dunsparce: { fast: { remove: ['BITE'] } },
+  dusknoir: { charged: { remove: ['OMINOUS_WIND', 'PSYCHIC'] } },
   empoleon: {
     fast: { remove: ['METAL_CLAW', 'WATERFALL'] },
     charged: { remove: ['HYDRO_PUMP'] },
@@ -328,7 +329,6 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
 
 const ALWAYS_EXCLUDED_FAST_MOVES: FastMoveId[] = [
   'ACID',
-  'ASTONISH',
   'CHARGE_BEAM',
   'EXTRASENSORY',
   'FEINT_ATTACK',
@@ -338,7 +338,6 @@ const ALWAYS_EXCLUDED_FAST_MOVES: FastMoveId[] = [
   'PECK',
   'POUND',
   'ROCK_SMASH',
-  'SUCKER_PUNCH',
   'TACKLE', // used by Ursuluna
   'TAKE_DOWN',
   'YAWN',
@@ -349,6 +348,7 @@ const ALWAYS_EXCLUDED_CHARGED_MOVES: ChargedMoveId[] = [
   'GYRO_BALL',
   'HEAT_WAVE',
   'LOW_SWEEP',
+  'STOMP',
   'TWISTER',
 ];
 
