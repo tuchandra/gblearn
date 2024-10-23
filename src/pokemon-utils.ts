@@ -1,5 +1,5 @@
 import { getEntry } from 'astro:content';
-import PokemonIndex from './content/pokemon.ts';
+import PokemonIndex from './data/pokemon.ts';
 import {
   ChargedMoveSchema,
   PokemonSpecies,
