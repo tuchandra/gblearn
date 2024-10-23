@@ -13,7 +13,7 @@ const pokemon = defineCollection({
 const fastMoves = defineCollection({
   loader: glob({
     pattern: '*.json',
-    base: './src/data/fast_moves',
+    base: './src/data/fast-moves',
     generateId: ({ data }) => {
       return data.moveId as string; // shh, typescript
     },
@@ -23,7 +23,7 @@ const fastMoves = defineCollection({
 const chargedMoves = defineCollection({
   loader: glob({
     pattern: '*.json',
-    base: './src/data/charged_moves',
+    base: './src/data/charged-moves',
     generateId: ({ data }) => {
       return data.moveId as string;
     },

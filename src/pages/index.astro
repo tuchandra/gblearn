@@ -7,7 +7,7 @@ import { CupName } from '../models';
 // const pokemon = await getCollection('pokemon');
 const great = await getEntry('metas', 'great');
 const greatPokemon = await Promise.all(
-  great.data.map(async (p) => getEntry(p.pokemon))
+  great.data.map(async (p) => getEntry(p.pokemon)),
 );
 
 const metas = await getCollection('metas');

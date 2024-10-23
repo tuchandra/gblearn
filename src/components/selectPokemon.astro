@@ -14,7 +14,7 @@ interface Props {
 const { cup, id } = Astro.props;
 const cupMeta = await getEntry('metas', cup);
 const cupPokemon = await Promise.all(
-  cupMeta.data.map((x) => getEntry('pokemon', x.pokemon.id))
+  cupMeta.data.map((x) => getEntry('pokemon', x.pokemon.id)),
 );
 ---
 

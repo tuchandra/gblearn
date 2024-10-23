@@ -1,7 +1,7 @@
 import { z } from 'zod';
-import ChargedMoveIndex from './content/chargedMoves.ts';
-import FastMoveIndex from './content/fastMoves.ts';
-import PokemonIndex from './content/pokemon.ts';
+import ChargedMoveIndex from './data/charged-moves.ts';
+import FastMoveIndex from './data/fast-moves.ts';
+import PokemonIndex from './data/pokemon.ts';
 import { Level } from './levels.ts';
 import { PokemonType } from './pokemon-types.ts';
 import type { ValueOf } from './type-utils';
