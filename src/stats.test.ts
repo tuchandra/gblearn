@@ -10,7 +10,7 @@ import {
 
 describe('carbink', async () => {
   const pokemon: Pokemon = {
-    species: await Bun.file('src/content/pokemon/0703-carbink.json').json(),
+    species: await Bun.file('src/data/pokemon/0703-carbink.json').json(),
     shadow: false,
     ivs: { atk: 4, def: 14, hp: 15 },
     level: 50,
@@ -45,7 +45,7 @@ describe('carbink', async () => {
 
 describe('feraligatr', async () => {
   const pokemon: Pokemon = {
-    species: await Bun.file('src/content/pokemon/0160-feraligatr.json').json(),
+    species: await Bun.file('src/data/pokemon/0160-feraligatr.json').json(),
     shadow: false,
     ivs: { atk: 0, def: 11, hp: 13 },
     level: 20,
