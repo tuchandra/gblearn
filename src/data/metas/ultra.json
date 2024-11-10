@@ -64,6 +64,10 @@
     "pokemon": "0146-moltres_galarian"
   },
   {
+    "speciesId": "nidoqueen",
+    "pokemon": "0031-nidoqueen"
+  },
+  {
     "speciesId": "pangoro",
     "pokemon": "0675-pangoro"
   },
@@ -100,12 +104,16 @@
     "pokemon": "0110-weezing_galarian"
   },
   {
-    "speciesId": "nidoqueen",
-    "pokemon": "0031-nidoqueen"
-  },
-  {
     "speciesId": "zygarde_complete",
     "pokemon": "0718-zygarde_complete"
+  },
+  {
+    "speciesId": "primeape",
+    "pokemon": "0057-primeape"
+  },
+  {
+    "speciesId": "annihilape",
+    "pokemon": "0979-annihilape"
   },
   {
     "speciesId": "machamp_shadow",

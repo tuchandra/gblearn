@@ -24,10 +24,6 @@
     "pokemon": "0652-chesnaught"
   },
   {
-    "speciesId": "clefable",
-    "pokemon": "0036-clefable"
-  },
-  {
     "speciesId": "clodsire",
     "pokemon": "0980-clodsire"
   },
@@ -56,16 +52,8 @@
     "pokemon": "0160-feraligatr"
   },
   {
-    "speciesId": "ferrothorn",
-    "pokemon": "0598-ferrothorn"
-  },
-  {
     "speciesId": "gastrodon",
     "pokemon": "0423-gastrodon"
-  },
-  {
-    "speciesId": "goodra",
-    "pokemon": "0706-goodra"
   },
   {
     "speciesId": "greninja",
@@ -104,16 +92,8 @@
     "pokemon": "0105-marowak"
   },
   {
-    "speciesId": "oranguru",
-    "pokemon": "0765-oranguru"
-  },
-  {
     "speciesId": "quagsire",
     "pokemon": "0195-quagsire"
-  },
-  {
-    "speciesId": "sableye",
-    "pokemon": "0302-sableye"
   },
   {
     "speciesId": "sandslash_alolan_shadow",
@@ -122,10 +102,6 @@
   {
     "speciesId": "serperior",
     "pokemon": "0497-serperior"
-  },
-  {
-    "speciesId": "skeledirge",
-    "pokemon": "0911-skeledirge"
   },
   {
     "speciesId": "talonflame",
@@ -140,20 +116,24 @@
     "pokemon": "0040-wigglytuff"
   },
   {
-    "speciesId": "typhlosion_shadow",
-    "pokemon": "0157-typhlosion"
-  },
-  {
-    "speciesId": "arctibax",
-    "pokemon": "0997-arctibax"
-  },
-  {
     "speciesId": "pangoro",
     "pokemon": "0675-pangoro"
   },
   {
+    "speciesId": "annihilape",
+    "pokemon": "0979-annihilape"
+  },
+  {
+    "speciesId": "primeape",
+    "pokemon": "0057-primeape"
+  },
+  {
     "speciesId": "bastiodon",
     "pokemon": "0411-bastiodon"
+  },
+  {
+    "speciesId": "clefable",
+    "pokemon": "0036-clefable"
   },
   {
     "speciesId": "gallade_shadow",

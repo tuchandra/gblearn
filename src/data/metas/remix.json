@@ -1,119 +1,123 @@
 [
   {
-    "speciesId": "pangoro",
-    "pokemon": "0675-pangoro"
-  },
-  {
-    "speciesId": "weezing_galarian",
-    "pokemon": "0110-weezing_galarian"
+    "speciesId": "bastiodon",
+    "pokemon": "0411-bastiodon"
   },
   {
     "speciesId": "carbink",
     "pokemon": "0703-carbink"
   },
   {
-    "speciesId": "machamp_shadow",
-    "pokemon": "0068-machamp"
-  },
-  {
-    "speciesId": "steelix",
-    "pokemon": "0208-steelix"
-  },
-  {
     "speciesId": "clefable",
     "pokemon": "0036-clefable"
-  },
-  {
-    "speciesId": "bastiodon",
-    "pokemon": "0411-bastiodon"
-  },
-  {
-    "speciesId": "guzzlord",
-    "pokemon": "0799-guzzlord"
   },
   {
     "speciesId": "golurk_shadow",
     "pokemon": "0623-golurk"
   },
   {
-    "speciesId": "marowak_alolan_shadow",
-    "pokemon": "0105-marowak_alolan"
-  },
-  {
-    "speciesId": "qwilfish",
-    "pokemon": "0211-qwilfish"
-  },
-  {
-    "speciesId": "registeel",
-    "pokemon": "0379-registeel"
-  },
-  {
-    "speciesId": "lickilicky",
-    "pokemon": "0463-lickilicky"
-  },
-  {
-    "speciesId": "whiscash",
-    "pokemon": "0340-whiscash"
-  },
-  {
-    "speciesId": "whimsicott",
-    "pokemon": "0547-whimsicott"
-  },
-  {
-    "speciesId": "venusaur",
-    "pokemon": "0003-venusaur"
-  },
-  {
-    "speciesId": "trevenant",
-    "pokemon": "0709-trevenant"
-  },
-  {
-    "speciesId": "umbreon",
-    "pokemon": "0197-umbreon"
-  },
-  {
-    "speciesId": "swampert",
-    "pokemon": "0260-swampert"
-  },
-  {
-    "speciesId": "cresselia",
-    "pokemon": "0488-cresselia"
-  },
-  {
-    "speciesId": "chesnaught",
-    "pokemon": "0652-chesnaught"
-  },
-  {
-    "speciesId": "sableye",
-    "pokemon": "0302-sableye"
-  },
-  {
-    "speciesId": "goodra",
-    "pokemon": "0706-goodra"
-  },
-  {
-    "speciesId": "tropius",
-    "pokemon": "0357-tropius"
-  },
-  {
-    "speciesId": "gligar",
-    "pokemon": "0207-gligar"
-  },
-  {
-    "speciesId": "ninetales_alolan",
-    "pokemon": "0038-ninetales_alolan"
+    "speciesId": "guzzlord",
+    "pokemon": "0799-guzzlord"
   },
   {
     "speciesId": "lanturn",
     "pokemon": "0171-lanturn"
   },
   {
+    "speciesId": "lickilicky",
+    "pokemon": "0463-lickilicky"
+  },
+  {
+    "speciesId": "machamp_shadow",
+    "pokemon": "0068-machamp"
+  },
+  {
+    "speciesId": "marowak_alolan_shadow",
+    "pokemon": "0105-marowak_alolan"
+  },
+  {
     "speciesId": "moltres_galarian",
     "pokemon": "0146-moltres_galarian"
   },
   {
+    "speciesId": "ninetales_alolan",
+    "pokemon": "0038-ninetales_alolan"
+  },
+  {
+    "speciesId": "pangoro",
+    "pokemon": "0675-pangoro"
+  },
+  {
+    "speciesId": "registeel",
+    "pokemon": "0379-registeel"
+  },
+  {
+    "speciesId": "sableye",
+    "pokemon": "0302-sableye"
+  },
+  {
+    "speciesId": "steelix",
+    "pokemon": "0208-steelix"
+  },
+  {
+    "speciesId": "swampert",
+    "pokemon": "0260-swampert"
+  },
+  {
+    "speciesId": "umbreon",
+    "pokemon": "0197-umbreon"
+  },
+  {
+    "speciesId": "whimsicott",
+    "pokemon": "0547-whimsicott"
+  },
+  {
+    "speciesId": "whiscash",
+    "pokemon": "0340-whiscash"
+  },
+  {
+    "speciesId": "drifblim",
+    "pokemon": "0426-drifblim"
+  },
+  {
+    "speciesId": "ariados",
+    "pokemon": "0168-ariados"
+  },
+  {
+    "speciesId": "dragonite_shadow",
+    "pokemon": "0149-dragonite"
+  },
+  {
+    "speciesId": "skeledirge",
+    "pokemon": "0911-skeledirge"
+  },
+  {
+    "speciesId": "charjabug",
+    "pokemon": "0737-charjabug"
+  },
+  {
+    "speciesId": "morpeko_full_belly",
+    "pokemon": "0877-morpeko_full_belly"
+  },
+  {
+    "speciesId": "poliwrath",
+    "pokemon": "0062-poliwrath"
+  },
+  {
+    "speciesId": "tentacruel",
+    "pokemon": "0073-tentacruel"
+  },
+  {
+    "speciesId": "weezing_galarian_shadow",
+    "pokemon": "0110-weezing_galarian"
+  },
+  {
     "speciesId": "gallade_shadow",
     "pokemon": "0475-gallade"
+  },
+  {
+    "speciesId": "qwilfish",
+    "pokemon": "0211-qwilfish"
   },
   {
     "speciesId": "runerigus",
@@ -150,6 +154,10 @@
   {
     "speciesId": "regirock",
     "pokemon": "0377-regirock"
+  },
+  {
+    "speciesId": "tropius",
+    "pokemon": "0357-tropius"
   },
   {
     "speciesId": "walrein_shadow",

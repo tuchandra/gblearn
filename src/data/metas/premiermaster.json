@@ -112,19 +112,15 @@
     "pokemon": "0975-cetitan"
   },
   {
-    "speciesId": "gallade_shadow",
-    "pokemon": "0475-gallade"
-  },
-  {
     "speciesId": "sneasler_shadow",
     "pokemon": "0903-sneasler"
   },
   {
-    "speciesId": "salamence_shadow",
-    "pokemon": "0373-salamence"
+    "speciesId": "gallade_shadow",
+    "pokemon": "0475-gallade"
   },
   {
-    "speciesId": "vaporeon",
-    "pokemon": "0134-vaporeon"
+    "speciesId": "salamence_shadow",
+    "pokemon": "0373-salamence"
   }
 ]
