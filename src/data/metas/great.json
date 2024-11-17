@@ -4,6 +4,10 @@
     "pokemon": "0460-abomasnow"
   },
   {
+    "speciesId": "annihilape",
+    "pokemon": "0979-annihilape"
+  },
+  {
     "speciesId": "ariados",
     "pokemon": "0168-ariados"
   },
@@ -92,6 +96,14 @@
     "pokemon": "0105-marowak"
   },
   {
+    "speciesId": "pangoro",
+    "pokemon": "0675-pangoro"
+  },
+  {
+    "speciesId": "primeape",
+    "pokemon": "0057-primeape"
+  },
+  {
     "speciesId": "quagsire",
     "pokemon": "0195-quagsire"
   },
@@ -116,16 +128,8 @@
     "pokemon": "0040-wigglytuff"
   },
   {
-    "speciesId": "pangoro",
-    "pokemon": "0675-pangoro"
-  },
-  {
-    "speciesId": "annihilape",
-    "pokemon": "0979-annihilape"
-  },
-  {
-    "speciesId": "primeape",
-    "pokemon": "0057-primeape"
+    "speciesId": "drifblim",
+    "pokemon": "0426-drifblim"
   },
   {
     "speciesId": "bastiodon",

@@ -62,6 +62,12 @@ export function cupConfig(cup: CupName): CupConfig {
         name: 'Summer Cup',
         maxCp: 1500,
       };
+    case CupName.willpower:
+      return {
+        id: CupName.willpower,
+        name: 'Willpower Cup',
+        maxCp: 1500,
+      };
     case CupName.premiermaster:
       return {
         id: CupName.premiermaster,

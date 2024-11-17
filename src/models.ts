@@ -170,6 +170,7 @@ export enum CupName {
   premiermaster = 'premiermaster',
   premierultra = 'premierultra',
   fossil = 'fossil',
+  willpower = 'willpower',
   fantasy = 'fantasy',
   psychic = 'psychic',
 }

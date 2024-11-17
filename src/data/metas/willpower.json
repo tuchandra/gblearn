@@ -1,0 +1,126 @@
+[
+  {
+    "speciesId": "annihilape",
+    "pokemon": "0979-annihilape"
+  },
+  {
+    "speciesId": "claydol",
+    "pokemon": "0344-claydol"
+  },
+  {
+    "speciesId": "cresselia",
+    "pokemon": "0488-cresselia"
+  },
+  {
+    "speciesId": "drapion",
+    "pokemon": "0452-drapion"
+  },
+  {
+    "speciesId": "gardevoir",
+    "pokemon": "0282-gardevoir"
+  },
+  {
+    "speciesId": "greninja",
+    "pokemon": "0658-greninja"
+  },
+  {
+    "speciesId": "guzzlord",
+    "pokemon": "0799-guzzlord"
+  },
+  {
+    "speciesId": "hatterene",
+    "pokemon": "0858-hatterene"
+  },
+  {
+    "speciesId": "lokix",
+    "pokemon": "0920-lokix"
+  },
+  {
+    "speciesId": "machamp_shadow",
+    "pokemon": "0068-machamp"
+  },
+  {
+    "speciesId": "malamar",
+    "pokemon": "0687-malamar"
+  },
+  {
+    "speciesId": "mandibuzz",
+    "pokemon": "0630-mandibuzz"
+  },
+  {
+    "speciesId": "moltres_galarian",
+    "pokemon": "0146-moltres_galarian"
+  },
+  {
+    "speciesId": "morpeko_full_belly",
+    "pokemon": "0877-morpeko_full_belly"
+  },
+  {
+    "speciesId": "overqwil",
+    "pokemon": "0904-overqwil"
+  },
+  {
+    "speciesId": "primeape_shadow",
+    "pokemon": "0057-primeape"
+  },
+  {
+    "speciesId": "qwilfish_hisuian",
+    "pokemon": "0211-qwilfish_hisuian"
+  },
+  {
+    "speciesId": "rapidash_galarian",
+    "pokemon": "0078-rapidash_galarian"
+  },
+  {
+    "speciesId": "skuntank",
+    "pokemon": "0435-skuntank"
+  },
+  {
+    "speciesId": "slowbro_galarian",
+    "pokemon": "0080-slowbro_galarian"
+  },
+  {
+    "speciesId": "umbreon",
+    "pokemon": "0197-umbreon"
+  },
+  {
+    "speciesId": "victini",
+    "pokemon": "0494-victini"
+  },
+  {
+    "speciesId": "grimer_alolan",
+    "pokemon": "0088-grimer_alolan"
+  },
+  {
+    "speciesId": "sableye_shadow",
+    "pokemon": "0302-sableye"
+  },
+  {
+    "speciesId": "raticate_alolan",
+    "pokemon": "0020-raticate_alolan"
+  },
+  {
+    "speciesId": "muk_alolan",
+    "pokemon": "0089-muk_alolan"
+  },
+  {
+    "speciesId": "pawniard",
+    "pokemon": "0624-pawniard"
+  },
+  {
+    "speciesId": "sneasel_hisuian_shadow",
+    "pokemon": "0215-sneasel_hisuian"
+  },
+  {
+    "speciesId": "sneasler_shadow",
+    "pokemon": "0903-sneasler"
+  },
+  {
+    "speciesId": "toxicroak",
+    "pokemon": "0454-toxicroak"
+  },
+  {
+    "speciesId": "machoke_shadow",
+    "pokemon": "0067-machoke"
+  }
+]
