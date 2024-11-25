@@ -165,6 +165,7 @@ export enum CupName {
   ultra = 'ultra',
   master = 'master',
   remix = 'remix',
+  retro = 'retro',
   halloween = 'halloween',
   summer = 'summer',
   premiermaster = 'premiermaster',
