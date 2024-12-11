@@ -4,6 +4,10 @@
     "pokemon": "0181-ampharos"
   },
   {
+    "speciesId": "annihilape",
+    "pokemon": "0979-annihilape"
+  },
+  {
     "speciesId": "clefable",
     "pokemon": "0036-clefable"
   },
@@ -72,6 +76,10 @@
     "pokemon": "0675-pangoro"
   },
   {
+    "speciesId": "primeape",
+    "pokemon": "0057-primeape"
+  },
+  {
     "speciesId": "registeel",
     "pokemon": "0379-registeel"
   },
@@ -108,12 +116,16 @@
     "pokemon": "0718-zygarde_complete"
   },
   {
-    "speciesId": "primeape",
-    "pokemon": "0057-primeape"
+    "speciesId": "golisopod",
+    "pokemon": "0768-golisopod"
   },
   {
-    "speciesId": "annihilape",
-    "pokemon": "0979-annihilape"
+    "speciesId": "poliwrath",
+    "pokemon": "0062-poliwrath"
+  },
+  {
+    "speciesId": "gliscor",
+    "pokemon": "0472-gliscor"
   },
   {
     "speciesId": "machamp_shadow",

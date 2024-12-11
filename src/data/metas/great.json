@@ -16,6 +16,10 @@
     "pokemon": "0184-azumarill"
   },
   {
+    "speciesId": "bibarel",
+    "pokemon": "0400-bibarel"
+  },
+  {
     "speciesId": "carbink",
     "pokemon": "0703-carbink"
   },
@@ -32,6 +36,10 @@
     "pokemon": "0980-clodsire"
   },
   {
+    "speciesId": "corsola_galarian",
+    "pokemon": "0222-corsola_galarian"
+  },
+  {
     "speciesId": "cresselia",
     "pokemon": "0488-cresselia"
   },
@@ -46,6 +54,10 @@
   {
     "speciesId": "drapion_shadow",
     "pokemon": "0452-drapion"
+  },
+  {
+    "speciesId": "drifblim",
+    "pokemon": "0426-drifblim"
   },
   {
     "speciesId": "dunsparce",
@@ -76,10 +88,6 @@
     "pokemon": "0463-lickilicky"
   },
   {
-    "speciesId": "machamp_shadow",
-    "pokemon": "0068-machamp"
-  },
-  {
     "speciesId": "malamar",
     "pokemon": "0687-malamar"
   },
@@ -94,10 +102,6 @@
   {
     "speciesId": "marowak_shadow",
     "pokemon": "0105-marowak"
-  },
-  {
-    "speciesId": "pangoro",
-    "pokemon": "0675-pangoro"
   },
   {
     "speciesId": "primeape",
@@ -128,8 +132,12 @@
     "pokemon": "0040-wigglytuff"
   },
   {
-    "speciesId": "drifblim",
-    "pokemon": "0426-drifblim"
+    "speciesId": "stunfisk",
+    "pokemon": "0618-stunfisk"
+  },
+  {
+    "speciesId": "pangoro",
+    "pokemon": "0675-pangoro"
   },
   {
     "speciesId": "bastiodon",
@@ -138,6 +146,10 @@
   {
     "speciesId": "clefable",
     "pokemon": "0036-clefable"
+  },
+  {
+    "speciesId": "machamp_shadow",
+    "pokemon": "0068-machamp"
   },
   {
     "speciesId": "gallade_shadow",

@@ -165,6 +165,11 @@ export enum CupName {
   ultra = 'ultra',
   master = 'master',
   remix = 'remix',
+  fantasy = 'fantasy',
+  color = 'color',
+  love = 'love',
+
+  // older
   retro = 'retro',
   halloween = 'halloween',
   summer = 'summer',
@@ -172,7 +177,6 @@ export enum CupName {
   premierultra = 'premierultra',
   fossil = 'fossil',
   willpower = 'willpower',
-  fantasy = 'fantasy',
   psychic = 'psychic',
 }
 

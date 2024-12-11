@@ -10,5 +10,6 @@
   "editor.codeActionsOnSave": {
     "source.removeUnusedImports": "always",
     "source.sortImports": "always"
-  }
+  },
+  "prettier.configPath": "package.json"
 }

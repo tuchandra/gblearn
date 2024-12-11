@@ -1,5 +1,9 @@
 [
   {
+    "speciesId": "dialga",
+    "pokemon": "0483-dialga"
+  },
+  {
     "speciesId": "dialga_origin",
     "pokemon": "0483-dialga_origin"
   },
@@ -64,8 +68,16 @@
     "pokemon": "0800-necrozma_dusk_mane"
   },
   {
+    "speciesId": "palkia",
+    "pokemon": "0484-palkia"
+  },
+  {
     "speciesId": "palkia_origin",
     "pokemon": "0484-palkia_origin"
+  },
+  {
+    "speciesId": "primarina",
+    "pokemon": "0730-primarina"
   },
   {
     "speciesId": "rhyperior",
@@ -74,6 +86,10 @@
   {
     "speciesId": "solgaleo",
     "pokemon": "0791-solgaleo"
+  },
+  {
+    "speciesId": "tapu_bulu",
+    "pokemon": "0787-tapu_bulu"
   },
   {
     "speciesId": "togekiss",
@@ -100,20 +116,8 @@
     "pokemon": "0718-zygarde_complete"
   },
   {
-    "speciesId": "primarina",
-    "pokemon": "0730-primarina"
-  },
-  {
-    "speciesId": "tapu_bulu",
-    "pokemon": "0787-tapu_bulu"
-  },
-  {
-    "speciesId": "dialga",
-    "pokemon": "0483-dialga"
-  },
-  {
-    "speciesId": "palkia",
-    "pokemon": "0484-palkia"
+    "speciesId": "ursaluna",
+    "pokemon": "0901-ursaluna"
   },
   {
     "speciesId": "kyurem",
@@ -146,10 +150,6 @@
   {
     "speciesId": "enamorus_incarnate",
     "pokemon": "0905-enamorus_incarnate"
-  },
-  {
-    "speciesId": "ursaluna",
-    "pokemon": "0901-ursaluna"
   },
   {
     "speciesId": "zekrom",

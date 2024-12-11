@@ -6,6 +6,15 @@ export type CupConfig = {
   maxCp: 1500 | 2500 | null;
 };
 
+function magicDefaultConfig(cupId: CupName): CupConfig {
+  const cupTitle = cupId[0].toUpperCase() + cupId.slice(1);
+  return {
+    id: cupId,
+    name: `${cupTitle} Cup`,
+    maxCp: 1500,
+  };
+}
+
 export function cupConfig(cup: CupName): CupConfig {
   switch (cup) {
     case CupName.great:
@@ -33,47 +42,15 @@ export function cupConfig(cup: CupName): CupConfig {
         maxCp: 1500,
       };
     case CupName.retro:
-      return {
-        id: CupName.retro,
-        name: 'Retro Cup',
-        maxCp: 1500,
-      };
     case CupName.fantasy:
-      return {
-        id: CupName.fantasy,
-        name: 'Fantasy Cup',
-        maxCp: 1500,
-      };
+    case CupName.color:
+    case CupName.love:
     case CupName.psychic:
-      return {
-        id: CupName.psychic,
-        name: 'Psychic Cup',
-        maxCp: 1500,
-      };
     case CupName.halloween:
-      return {
-        id: CupName.halloween,
-        name: 'Halloween Cup',
-        maxCp: 1500,
-      };
     case CupName.fossil:
-      return {
-        id: CupName.fossil,
-        name: 'Fossil Cup',
-        maxCp: 1500,
-      };
     case CupName.summer:
-      return {
-        id: CupName.summer,
-        name: 'Summer Cup',
-        maxCp: 1500,
-      };
     case CupName.willpower:
-      return {
-        id: CupName.willpower,
-        name: 'Willpower Cup',
-        maxCp: 1500,
-      };
+      return magicDefaultConfig(cup);
     case CupName.premiermaster:
       return {
         id: CupName.premiermaster,

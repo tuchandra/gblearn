@@ -4,8 +4,8 @@
     "pokemon": "0184-azumarill"
   },
   {
-    "speciesId": "bastiodon",
-    "pokemon": "0411-bastiodon"
+    "speciesId": "dugtrio_alolan",
+    "pokemon": "0051-dugtrio_alolan"
   },
   {
     "speciesId": "empoleon",
@@ -28,8 +28,16 @@
     "pokemon": "0330-flygon"
   },
   {
+    "speciesId": "giratina_origin",
+    "pokemon": "0487-giratina_origin"
+  },
+  {
     "speciesId": "lucario",
     "pokemon": "0448-lucario"
+  },
+  {
+    "speciesId": "perrserker",
+    "pokemon": "0863-perrserker"
   },
   {
     "speciesId": "registeel",
@@ -48,10 +56,6 @@
     "pokemon": "0618-stunfisk_galarian"
   },
   {
-    "speciesId": "tapu_fini",
-    "pokemon": "0788-tapu_fini"
-  },
-  {
     "speciesId": "turtonator",
     "pokemon": "0776-turtonator"
   },
@@ -60,24 +64,24 @@
     "pokemon": "0110-weezing_galarian"
   },
   {
+    "speciesId": "whimsicott",
+    "pokemon": "0547-whimsicott"
+  },
+  {
     "speciesId": "wigglytuff",
     "pokemon": "0040-wigglytuff"
   },
   {
-    "speciesId": "giratina_origin",
-    "pokemon": "0487-giratina_origin"
+    "speciesId": "dragapult",
+    "pokemon": "0887-dragapult"
   },
   {
-    "speciesId": "perrserker",
-    "pokemon": "0863-perrserker"
+    "speciesId": "shiinotic",
+    "pokemon": "0756-shiinotic"
   },
   {
-    "speciesId": "heatran",
+    "speciesId": "heatran_shadow",
     "pokemon": "0485-heatran"
-  },
-  {
-    "speciesId": "haxorus",
-    "pokemon": "0612-haxorus"
   },
   {
     "speciesId": "mawile_shadow",
@@ -88,35 +92,39 @@
     "pokemon": "0777-togedemaru"
   },
   {
-    "speciesId": "gabite_shadow",
-    "pokemon": "0444-gabite"
+    "speciesId": "tapu_fini",
+    "pokemon": "0788-tapu_fini"
   },
   {
-    "speciesId": "whimsicott",
-    "pokemon": "0547-whimsicott"
+    "speciesId": "bastiodon",
+    "pokemon": "0411-bastiodon"
+  },
+  {
+    "speciesId": "steelix",
+    "pokemon": "0208-steelix"
+  },
+  {
+    "speciesId": "salamence_shadow",
+    "pokemon": "0373-salamence"
+  },
+  {
+    "speciesId": "carbink",
+    "pokemon": "0703-carbink"
+  },
+  {
+    "speciesId": "clefable",
+    "pokemon": "0036-clefable"
   },
   {
     "speciesId": "magnezone_shadow",
     "pokemon": "0462-magnezone"
   },
   {
-    "speciesId": "dugtrio_alolan_shadow",
-    "pokemon": "0051-dugtrio_alolan"
-  },
-  {
-    "speciesId": "forretress",
-    "pokemon": "0205-forretress"
-  },
-  {
-    "speciesId": "shiinotic",
-    "pokemon": "0756-shiinotic"
-  },
-  {
-    "speciesId": "kommo_o",
-    "pokemon": "0784-kommo_o"
-  },
-  {
     "speciesId": "magneton_shadow",
     "pokemon": "0082-magneton"
+  },
+  {
+    "speciesId": "gabite_shadow",
+    "pokemon": "0444-gabite"
   }
 ]
