@@ -40,5 +40,8 @@
     "PSYCHIC_FANGS",
     "AURA_WHEEL_ELECTRIC"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "include2500"
+  ]
 }

@@ -2,6 +2,12 @@
   "moveId": "BULLDOZE",
   "name": "Bulldoze",
   "type": "ground",
-  "power": 80,
-  "energy": 60
+  "power": 45,
+  "energy": 45,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".5"
 }

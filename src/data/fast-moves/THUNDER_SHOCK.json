@@ -2,7 +2,7 @@
   "moveId": "THUNDER_SHOCK",
   "name": "Thunder Shock",
   "type": "electric",
-  "power": 3,
+  "power": 4,
   "energyGain": 9,
   "turns": 2
 }

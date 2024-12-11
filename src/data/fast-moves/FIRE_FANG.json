@@ -3,6 +3,6 @@
   "name": "Fire Fang",
   "type": "fire",
   "power": 8,
-  "energyGain": 5,
+  "energyGain": 6,
   "turns": 2
 }

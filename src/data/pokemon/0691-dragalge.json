@@ -38,7 +38,8 @@
     "HYDRO_PUMP",
     "AQUA_TAIL",
     "OUTRAGE",
-    "GUNK_SHOT"
+    "GUNK_SHOT",
+    "FOCUS_BLAST"
   ],
   "released": true
 }

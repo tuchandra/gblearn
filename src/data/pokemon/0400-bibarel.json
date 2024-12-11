@@ -31,7 +31,8 @@
   ],
   "fastMoves": [
     "TAKE_DOWN",
-    "WATER_GUN"
+    "WATER_GUN",
+    "ROLLOUT"
   ],
   "chargedMoves": [
     "HYPER_BEAM",

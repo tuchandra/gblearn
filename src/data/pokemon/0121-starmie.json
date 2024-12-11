@@ -33,6 +33,7 @@
     "QUICK_ATTACK",
     "TACKLE",
     "WATER_GUN",
+    "PSYWAVE",
     "HIDDEN_POWER"
   ],
   "chargedMoves": [
@@ -41,7 +42,8 @@
     "POWER_GEM",
     "PSYBEAM",
     "PSYCHIC",
-    "THUNDER"
+    "THUNDER",
+    "SURF"
   ],
   "released": true
 }
