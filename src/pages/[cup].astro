@@ -1,6 +1,7 @@
 ---
 import { getEntry } from 'astro:content';
 import Matchup from '../components/Matchup.astro';
+import Navbar from './Navbar.astro';
 import { CupName } from '../models';
 import { cupConfig } from '../cup-utils';
 
@@ -11,35 +12,23 @@ export function getStaticPaths() {
 const { cup } = Astro.params;
 const cupMeta = await getEntry('metas', cup);
 const cupPokemon = await Promise.all(
-  cupMeta.data.map(async (p) => getEntry(p.pokemon)),
+  cupMeta.data.map(async (p) => getEntry(p.pokemon))
 );
 ---
 
 <html data-theme="sunset">
   <meta charset="utf-8" />
   <body class="m-2 flex flex-col items-center bg-base-100">
-    <div class="w-full flex-grow">
-      <div class="navbar">
-        <a
-          href="/"
-          class="flex items-center gap-4 px-2 text-xl italic text-neutral-content"
-        >
-          <img
-            src="/pokemon/1011.png"
-            alt="Dipplin"
-            class="h-12 w-12 rounded-full bg-primary"
-          />
-          <span>GO Battle Learn</span>
-        </a>
-      </div>
-    </div>
+    <Navbar />
 
     <div class="divider divider-primary italic">{cupConfig(cup).name} meta</div>
-    {
-      cupPokemon.map((p) => (
-        <Matchup opponent={p.data} maxCp={cupConfig(cup).maxCp} />
-      ))
-    }
+    <div class="container flex flex-row flex-wrap gap-4">
+      {
+        cupPokemon.map((p) => (
+          <Matchup opponent={p.data} maxCp={cupConfig(cup).maxCp} />
+        ))
+      }
+    </div>
     <div class="divider divider-primary italic">
       Questions? Contact @tuchandra on Github
     </div>

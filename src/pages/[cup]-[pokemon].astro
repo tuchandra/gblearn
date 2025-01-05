@@ -3,6 +3,7 @@ import { cupConfig } from '../cup-utils';
 import { getEntry } from 'astro:content';
 import { maxLevelForLeague } from '../stats';
 import Matchup from '../components/Matchup.astro';
+import Navbar from './Navbar.astro';
 import { CupName, Pokemon } from '../models';
 import PokemonIndex from '../data/pokemon.ts';
 import { getPokemonIdByName } from '../pokemon-utils';
@@ -15,16 +16,16 @@ export async function getStaticPaths() {
   return cups.flatMap((cup) =>
     pokemonIds.map((pokemon) => ({
       params: { cup, pokemon },
-    })),
+    }))
   );
 }
 
 const { cup, pokemon } = Astro.params;
 const cupMeta = await getEntry('metas', cup);
 const cupPokemon = await Promise.all(
-  cupMeta.data.map((p) => getEntry(p.pokemon)),
+  cupMeta.data.map((p) => getEntry(p.pokemon))
 ).then((pokemons) =>
-  pokemons.sort((a, b) => a.data.speciesName.localeCompare(b.data.speciesName)),
+  pokemons.sort((a, b) => a.data.speciesName.localeCompare(b.data.speciesName))
 );
 const maxCp = cupConfig(cup).maxCp;
 
@@ -45,21 +46,7 @@ const teamMember: Pokemon =
 <html data-theme="sunset">
   <meta charset="utf-8" />
   <body class="m-2 flex flex-col items-center bg-base-100">
-    <div class="w-full flex-grow">
-      <div class="navbar">
-        <a
-          href="/"
-          class="flex items-center gap-4 px-2 text-xl italic text-neutral-content"
-        >
-          <img
-            src="/pokemon/1011.png"
-            alt="Dipplin"
-            class="h-12 w-12 rounded-full bg-primary"
-          />
-          <span>GO Battle Learn</span>
-        </a>
-      </div>
-    </div>
+    <Navbar />
     <div class="divider divider-primary mt-0 italic">My team</div>
     <div class="container">
       <div class="flex flex-row gap-8 px-1">
