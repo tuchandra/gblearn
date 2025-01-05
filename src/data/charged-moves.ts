@@ -63,6 +63,7 @@ export default {
   FLAME_WHEEL: 'Flame Wheel',
   FLAMETHROWER: 'Flamethrower',
   FLASH_CANNON: 'Flash Cannon',
+  FLOWER_TRICK: 'Flower Trick',
   FLY: 'Fly',
   FLYING_PRESS: 'Flying Press',
   FOCUS_BLAST: 'Focus Blast',

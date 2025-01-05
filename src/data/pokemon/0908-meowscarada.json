@@ -37,7 +37,9 @@
     "GRASS_KNOT",
     "PLAY_ROUGH",
     "ENERGY_BALL",
-    "NIGHT_SLASH"
+    "NIGHT_SLASH",
+    "FRENZY_PLANT",
+    "FLOWER_TRICK"
   ],
   "released": true
 }

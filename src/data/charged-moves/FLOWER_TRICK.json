@@ -1,0 +1,13 @@
+{
+  "moveId": "FLOWER_TRICK",
+  "name": "Flower Trick",
+  "type": "grass",
+  "power": 30,
+  "energy": 35,
+  "buffs": [
+    1,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

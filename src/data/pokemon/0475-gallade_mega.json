@@ -1,0 +1,49 @@
+{
+  "dex": 475,
+  "speciesName": "Gallade (Mega)",
+  "speciesId": "gallade_mega",
+  "baseStats": {
+    "atk": 326,
+    "def": 230,
+    "hp": 169
+  },
+  "defaultIvs": {
+    "1500": {
+      "level": 12,
+      "ivs": {
+        "atk": 6,
+        "def": 8,
+        "hp": 15
+      }
+    },
+    "2500": {
+      "level": 20,
+      "ivs": {
+        "atk": 6,
+        "def": 10,
+        "hp": 15
+      }
+    }
+  },
+  "types": [
+    "psychic",
+    "fighting"
+  ],
+  "fastMoves": [
+    "CONFUSION",
+    "LOW_KICK",
+    "CHARM",
+    "PSYCHO_CUT"
+  ],
+  "chargedMoves": [
+    "CLOSE_COMBAT",
+    "LEAF_BLADE",
+    "PSYCHIC",
+    "SYNCHRONOISE"
+  ],
+  "released": true,
+  "tags": [
+    "shadoweligible",
+    "mega"
+  ]
+}
