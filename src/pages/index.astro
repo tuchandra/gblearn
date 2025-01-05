@@ -5,7 +5,9 @@ import Navbar from './Navbar.astro';
 
 const great = await getEntry('metas', 'great');
 const greatPokemon = await Promise.all(
-  great.data.map(async (p) => getEntry(p.pokemon))
+  great.data.map((p) => getEntry(p.pokemon))
+).then((pokemons) =>
+  pokemons.sort((a, b) => a.data.speciesName.localeCompare(b.data.speciesName))
 );
 ---
 
