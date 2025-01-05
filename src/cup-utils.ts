@@ -44,7 +44,7 @@ export function cupConfig(cup: CupName): CupConfig {
     case CupName.retro:
     case CupName.fantasy:
     case CupName.color:
-    case CupName.love:
+    // case CupName.love:
     case CupName.psychic:
     case CupName.halloween:
     case CupName.fossil:

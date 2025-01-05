@@ -120,6 +120,10 @@
     "pokemon": "0497-serperior"
   },
   {
+    "speciesId": "stunfisk",
+    "pokemon": "0618-stunfisk"
+  },
+  {
     "speciesId": "talonflame",
     "pokemon": "0663-talonflame"
   },
@@ -132,8 +136,8 @@
     "pokemon": "0040-wigglytuff"
   },
   {
-    "speciesId": "stunfisk",
-    "pokemon": "0618-stunfisk"
+    "speciesId": "dachsbun",
+    "pokemon": "0927-dachsbun"
   },
   {
     "speciesId": "pangoro",

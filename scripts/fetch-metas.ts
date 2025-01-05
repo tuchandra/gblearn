@@ -76,11 +76,18 @@ type PokemonWithBase = PokemonSpecies & { pokemon: string };
  * find the species IDs, then write the whole thing to disk.
  */
 async function getOrUpdateMeta(cup: CupName) {
+  console.debug(`Looking for ${cup} ...`);
   const data = await fetch(cupUrl(cup)).then((res) => res.json());
 
-  const topSpecies: string[] = await fetch(rankingsUrl(cup))
-    .then((res) => res.json())
-    .then((species) => species.slice(0, 40));
+  let topSpecies: string[];
+  try {
+    topSpecies = await fetch(rankingsUrl(cup))
+      .then((res) => res.json())
+      .then((species) => species.slice(0, 40));
+  } catch (err) {
+    console.error(`Error loading ${cup} rankings: ${console.error(err)}`);
+    topSpecies = [];
+  }
 
   const meta = CupMetaSchema.parse(
     [...data, ...topSpecies]

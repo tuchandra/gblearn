@@ -167,9 +167,9 @@ export enum CupName {
   remix = 'remix',
   fantasy = 'fantasy',
   color = 'color',
-  love = 'love',
 
   // older
+  // love = 'love',
   retro = 'retro',
   halloween = 'halloween',
   summer = 'summer',
