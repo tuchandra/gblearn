@@ -7,10 +7,10 @@ import { CupName } from '../models';
 // const pokemon = await getCollection('pokemon');
 const great = await getEntry('metas', 'great');
 const greatPokemon = await Promise.all(
-  great.data.map(async (p) => getEntry(p.pokemon)),
+  great.data.map(async (p) => getEntry(p.pokemon))
 );
 
-const metas = await getCollection('metas');
+const metas = Object.values(CupName);
 ---
 
 <html data-theme="sunset">
@@ -18,46 +18,57 @@ const metas = await getCollection('metas');
   <body class="m-2 flex flex-col items-center">
     <!-- Navbar -->
     <div class="w-full flex-grow">
-      <div class="navbar">
-        <a
-          href="/"
-          class="flex items-center gap-4 px-2 text-xl italic text-neutral-content"
-        >
+      <div class="navbar flex-row">
+        <a href="/" class="flex items-center gap-4 px-2">
           <img
             src="/pokemon/1011.png"
             alt="Dipplin"
             class="h-12 w-12 rounded-full bg-primary"
           />
-          <span>GO Battle Learn</span>
         </a>
-      </div>
-    </div>
 
-    <div class="divider divider-primary mt-0 italic">Leagues</div>
-    {
-      metas.map((meta) => (
-        <div class="mx-4 text-lg">
-          <a href={`/${meta.id}`}>{cupConfig(CupName[meta.id]).name}</a>
+        <div class="flex-col items-start">
+          <span class="text-xl italic text-neutral-content"
+            >GO Battle Learn</span
+          >
+          <div class="block flex-row italic text-neutral-300">
+            <a href="/great" class="link-hover link">Great League</a>
+            &centerdot;
+            <a href="/color" class="link-hover link">Color Cup</a>
+            &centerdot;
+            <a href="/ultra" class="link-hover link">Ultra League</a>
+            &centerdot;
+            <a href="/master" class="link-hover link">Master League</a>
+            &centerdot;
+            <details class="dropdown z-10">
+              <summary class="button btn-ghost">More ...</summary>
+              <ul class="menu dropdown-content">
+                {
+                  metas
+                    .filter(
+                      (m) => !['great', 'ultra', 'master', 'color'].includes(m)
+                    )
+                    .map((meta) => (
+                      <a href={`/${meta}`} class="link-hover link">
+                        <li class="-mx-2 w-48 rounded-none bg-base-100 px-4 py-4 shadow hover:bg-base-300">
+                          {cupConfig(CupName[meta]).name}
+                        </li>
+                      </a>
+                    ))
+                }
+              </ul>
+            </details>
+          </div>
         </div>
-      ))
-    }
-
-    <!-- My team -->
-    <div class="divider divider-primary mt-0 italic">My team</div>
-    <div class="container">
-      <div class="flex flex-row px-1">
-        <Matchup opponent={greatPokemon[4].data} maxCp={1500} />
-        <Matchup opponent={greatPokemon[8].data} maxCp={1500} />
-        <Matchup opponent={greatPokemon[12].data} maxCp={1500} />
       </div>
-    </div>
 
-    <!-- Content -->
-    <div class="divider divider-primary italic">Matchups</div>
-    {greatPokemon.map((p) => <Matchup opponent={p.data} maxCp={1500} />)}
-    <div class="container footer italic">
-      <div class="divider divider-primary italic">
-        Questions? Contact @tuchandra on Github
+      <!-- Content -->
+      <div class="divider divider-primary italic">Pokemon</div>
+      {greatPokemon.map((p) => <Matchup opponent={p.data} maxCp={1500} />)}
+      <div class="container footer italic">
+        <div class="divider divider-primary italic">
+          Questions? Contact @tuchandra on Github
+        </div>
       </div>
     </div>
   </body>
