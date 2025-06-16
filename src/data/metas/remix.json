@@ -1,174 +1,178 @@
 [
   {
-    "speciesId": "bastiodon",
-    "pokemon": "0411-bastiodon"
+    "speciesId": "grumpig",
+    "pokemon": "0326-grumpig"
   },
   {
-    "speciesId": "carbink",
-    "pokemon": "0703-carbink"
+    "speciesId": "corsola_galarian",
+    "pokemon": "0222-corsola_galarian"
   },
   {
-    "speciesId": "clefable",
-    "pokemon": "0036-clefable"
-  },
-  {
-    "speciesId": "golurk_shadow",
-    "pokemon": "0623-golurk"
-  },
-  {
-    "speciesId": "guzzlord",
-    "pokemon": "0799-guzzlord"
-  },
-  {
-    "speciesId": "lanturn",
-    "pokemon": "0171-lanturn"
-  },
-  {
-    "speciesId": "lickilicky",
-    "pokemon": "0463-lickilicky"
-  },
-  {
-    "speciesId": "machamp_shadow",
-    "pokemon": "0068-machamp"
-  },
-  {
-    "speciesId": "marowak_alolan_shadow",
-    "pokemon": "0105-marowak_alolan"
-  },
-  {
-    "speciesId": "moltres_galarian",
-    "pokemon": "0146-moltres_galarian"
-  },
-  {
-    "speciesId": "ninetales_alolan",
-    "pokemon": "0038-ninetales_alolan"
+    "speciesId": "primeape",
+    "pokemon": "0057-primeape"
   },
   {
     "speciesId": "pangoro",
     "pokemon": "0675-pangoro"
   },
   {
+    "speciesId": "diggersby",
+    "pokemon": "0660-diggersby"
+  },
+  {
+    "speciesId": "guzzlord",
+    "pokemon": "0799-guzzlord"
+  },
+  {
+    "speciesId": "tinkaton",
+    "pokemon": "0959-tinkaton"
+  },
+  {
+    "speciesId": "jellicent",
+    "pokemon": "0593-jellicent"
+  },
+  {
+    "speciesId": "marowak_alolan_shadow",
+    "pokemon": "0105-marowak_alolan"
+  },
+  {
+    "speciesId": "furret",
+    "pokemon": "0162-furret"
+  },
+  {
+    "speciesId": "carbink",
+    "pokemon": "0703-carbink"
+  },
+  {
+    "speciesId": "claydol",
+    "pokemon": "0344-claydol"
+  },
+  {
+    "speciesId": "corviknight",
+    "pokemon": "0823-corviknight"
+  },
+  {
+    "speciesId": "stunfisk",
+    "pokemon": "0618-stunfisk"
+  },
+  {
+    "speciesId": "steelix_shadow",
+    "pokemon": "0208-steelix"
+  },
+  {
+    "speciesId": "toxapex",
+    "pokemon": "0748-toxapex"
+  },
+  {
+    "speciesId": "golurk_shadow",
+    "pokemon": "0623-golurk"
+  },
+  {
+    "speciesId": "medicham",
+    "pokemon": "0308-medicham"
+  },
+  {
+    "speciesId": "emolga",
+    "pokemon": "0587-emolga"
+  },
+  {
+    "speciesId": "quagsire_shadow",
+    "pokemon": "0195-quagsire"
+  },
+  {
+    "speciesId": "greninja",
+    "pokemon": "0658-greninja"
+  },
+  {
+    "speciesId": "sandslash_alolan",
+    "pokemon": "0028-sandslash_alolan"
+  },
+  {
+    "speciesId": "bastiodon",
+    "pokemon": "0411-bastiodon"
+  },
+  {
     "speciesId": "registeel",
     "pokemon": "0379-registeel"
   },
   {
-    "speciesId": "sableye",
-    "pokemon": "0302-sableye"
-  },
-  {
-    "speciesId": "steelix",
-    "pokemon": "0208-steelix"
-  },
-  {
-    "speciesId": "swampert",
-    "pokemon": "0260-swampert"
-  },
-  {
-    "speciesId": "umbreon",
-    "pokemon": "0197-umbreon"
-  },
-  {
-    "speciesId": "whimsicott",
-    "pokemon": "0547-whimsicott"
-  },
-  {
-    "speciesId": "whiscash",
-    "pokemon": "0340-whiscash"
-  },
-  {
-    "speciesId": "drifblim",
-    "pokemon": "0426-drifblim"
-  },
-  {
-    "speciesId": "ariados",
-    "pokemon": "0168-ariados"
-  },
-  {
-    "speciesId": "dragonite_shadow",
-    "pokemon": "0149-dragonite"
-  },
-  {
-    "speciesId": "skeledirge",
-    "pokemon": "0911-skeledirge"
-  },
-  {
-    "speciesId": "charjabug",
-    "pokemon": "0737-charjabug"
-  },
-  {
-    "speciesId": "morpeko_full_belly",
-    "pokemon": "0877-morpeko_full_belly"
-  },
-  {
-    "speciesId": "poliwrath",
-    "pokemon": "0062-poliwrath"
-  },
-  {
-    "speciesId": "tentacruel",
-    "pokemon": "0073-tentacruel"
-  },
-  {
-    "speciesId": "weezing_galarian_shadow",
-    "pokemon": "0110-weezing_galarian"
-  },
-  {
-    "speciesId": "gallade_shadow",
-    "pokemon": "0475-gallade"
-  },
-  {
-    "speciesId": "qwilfish",
-    "pokemon": "0211-qwilfish"
-  },
-  {
-    "speciesId": "runerigus",
-    "pokemon": "0867-runerigus"
-  },
-  {
-    "speciesId": "machoke_shadow",
-    "pokemon": "0067-machoke"
-  },
-  {
-    "speciesId": "hakamo_o",
-    "pokemon": "0783-hakamo_o"
-  },
-  {
-    "speciesId": "ursaring_shadow",
-    "pokemon": "0217-ursaring"
-  },
-  {
-    "speciesId": "florges",
-    "pokemon": "0671-florges"
-  },
-  {
-    "speciesId": "hippowdon_shadow",
-    "pokemon": "0450-hippowdon"
-  },
-  {
-    "speciesId": "primeape_shadow",
-    "pokemon": "0057-primeape"
-  },
-  {
-    "speciesId": "stunfisk_galarian",
-    "pokemon": "0618-stunfisk_galarian"
-  },
-  {
-    "speciesId": "regirock",
-    "pokemon": "0377-regirock"
+    "speciesId": "amoonguss",
+    "pokemon": "0591-amoonguss"
   },
   {
     "speciesId": "tropius",
     "pokemon": "0357-tropius"
   },
   {
-    "speciesId": "walrein_shadow",
-    "pokemon": "0365-walrein"
+    "speciesId": "swalot",
+    "pokemon": "0317-swalot"
+  },
+  {
+    "speciesId": "drifblim",
+    "pokemon": "0426-drifblim"
+  },
+  {
+    "speciesId": "umbreon",
+    "pokemon": "0197-umbreon"
+  },
+  {
+    "speciesId": "froslass",
+    "pokemon": "0478-froslass"
+  },
+  {
+    "speciesId": "goodra",
+    "pokemon": "0706-goodra"
+  },
+  {
+    "speciesId": "ninetales_alolan",
+    "pokemon": "0038-ninetales_alolan"
+  },
+  {
+    "speciesId": "whimsicott",
+    "pokemon": "0547-whimsicott"
+  },
+  {
+    "speciesId": "chesnaught",
+    "pokemon": "0652-chesnaught"
+  },
+  {
+    "speciesId": "charjabug",
+    "pokemon": "0737-charjabug"
+  },
+  {
+    "speciesId": "dewgong",
+    "pokemon": "0087-dewgong"
+  },
+  {
+    "speciesId": "dusknoir",
+    "pokemon": "0477-dusknoir"
+  },
+  {
+    "speciesId": "dusclops",
+    "pokemon": "0356-dusclops"
+  },
+  {
+    "speciesId": "thievul",
+    "pokemon": "0828-thievul"
+  },
+  {
+    "speciesId": "machoke_shadow",
+    "pokemon": "0067-machoke"
+  },
+  {
+    "speciesId": "moltres_galarian",
+    "pokemon": "0146-moltres_galarian"
+  },
+  {
+    "speciesId": "runerigus",
+    "pokemon": "0867-runerigus"
+  },
+  {
+    "speciesId": "tinkatuff",
+    "pokemon": "0958-tinkatuff"
   },
   {
     "speciesId": "togetic",
     "pokemon": "0176-togetic"
-  },
-  {
-    "speciesId": "dusknoir_shadow",
-    "pokemon": "0477-dusknoir"
   }
 ]

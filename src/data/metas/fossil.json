@@ -1,138 +1,134 @@
 [
   {
-    "speciesId": "azumarill",
-    "pokemon": "0184-azumarill"
-  },
-  {
-    "speciesId": "cradily",
-    "pokemon": "0346-cradily"
-  },
-  {
-    "speciesId": "escavalier",
-    "pokemon": "0589-escavalier"
+    "speciesId": "gastrodon",
+    "pokemon": "0423-gastrodon"
   },
   {
     "speciesId": "ferrothorn",
     "pokemon": "0598-ferrothorn"
   },
   {
-    "speciesId": "golisopod",
-    "pokemon": "0768-golisopod"
-  },
-  {
-    "speciesId": "jellicent",
-    "pokemon": "0593-jellicent"
-  },
-  {
-    "speciesId": "kartana",
-    "pokemon": "0798-kartana"
-  },
-  {
-    "speciesId": "lanturn",
-    "pokemon": "0171-lanturn"
-  },
-  {
-    "speciesId": "lucario",
-    "pokemon": "0448-lucario"
-  },
-  {
-    "speciesId": "ludicolo",
-    "pokemon": "0272-ludicolo"
-  },
-  {
-    "speciesId": "mawile",
-    "pokemon": "0303-mawile"
-  },
-  {
-    "speciesId": "pelipper",
-    "pokemon": "0279-pelipper"
-  },
-  {
-    "speciesId": "poliwrath",
-    "pokemon": "0062-poliwrath"
-  },
-  {
-    "speciesId": "quagsire",
-    "pokemon": "0195-quagsire"
-  },
-  {
-    "speciesId": "registeel",
-    "pokemon": "0379-registeel"
-  },
-  {
-    "speciesId": "sandslash_alolan",
-    "pokemon": "0028-sandslash_alolan"
-  },
-  {
-    "speciesId": "skarmory",
-    "pokemon": "0227-skarmory"
-  },
-  {
-    "speciesId": "swampert",
-    "pokemon": "0260-swampert"
-  },
-  {
-    "speciesId": "quaquaval",
-    "pokemon": "0914-quaquaval"
+    "speciesId": "togedemaru",
+    "pokemon": "0777-togedemaru"
   },
   {
     "speciesId": "magnezone_shadow",
     "pokemon": "0462-magnezone"
   },
   {
-    "speciesId": "mantine",
-    "pokemon": "0226-mantine"
+    "speciesId": "poliwrath",
+    "pokemon": "0062-poliwrath"
   },
   {
-    "speciesId": "gastrodon",
-    "pokemon": "0423-gastrodon"
+    "speciesId": "scizor_shadow",
+    "pokemon": "0212-scizor"
   },
   {
-    "speciesId": "whiscash_shadow",
-    "pokemon": "0340-whiscash"
+    "speciesId": "registeel",
+    "pokemon": "0379-registeel"
   },
   {
-    "speciesId": "feraligatr_shadow",
-    "pokemon": "0160-feraligatr"
+    "speciesId": "jellicent",
+    "pokemon": "0593-jellicent"
   },
   {
-    "speciesId": "togedemaru",
-    "pokemon": "0777-togedemaru"
-  },
-  {
-    "speciesId": "marshtomp",
-    "pokemon": "0259-marshtomp"
-  },
-  {
-    "speciesId": "politoed_shadow",
-    "pokemon": "0186-politoed"
+    "speciesId": "forretress",
+    "pokemon": "0205-forretress"
   },
   {
     "speciesId": "perrserker",
     "pokemon": "0863-perrserker"
   },
   {
-    "speciesId": "toxapex",
-    "pokemon": "0748-toxapex"
+    "speciesId": "lucario",
+    "pokemon": "0448-lucario"
   },
   {
-    "speciesId": "lileep",
-    "pokemon": "0345-lileep"
-  },
-  {
-    "speciesId": "excadrill_shadow",
-    "pokemon": "0530-excadrill"
+    "speciesId": "steelix",
+    "pokemon": "0208-steelix"
   },
   {
     "speciesId": "araquanid",
     "pokemon": "0752-araquanid"
   },
   {
-    "speciesId": "stunfisk_galarian",
-    "pokemon": "0618-stunfisk_galarian"
+    "speciesId": "ludicolo",
+    "pokemon": "0272-ludicolo"
   },
   {
-    "speciesId": "magneton_shadow",
-    "pokemon": "0082-magneton"
+    "speciesId": "kartana",
+    "pokemon": "0798-kartana"
+  },
+  {
+    "speciesId": "quagsire_shadow",
+    "pokemon": "0195-quagsire"
+  },
+  {
+    "speciesId": "melmetal",
+    "pokemon": "0809-melmetal"
+  },
+  {
+    "speciesId": "golisopod",
+    "pokemon": "0768-golisopod"
+  },
+  {
+    "speciesId": "lanturn",
+    "pokemon": "0171-lanturn"
+  },
+  {
+    "speciesId": "corviknight",
+    "pokemon": "0823-corviknight"
+  },
+  {
+    "speciesId": "lapras",
+    "pokemon": "0131-lapras"
+  },
+  {
+    "speciesId": "tinkaton",
+    "pokemon": "0959-tinkaton"
+  },
+  {
+    "speciesId": "feraligatr_shadow",
+    "pokemon": "0160-feraligatr"
+  },
+  {
+    "speciesId": "samurott",
+    "pokemon": "0503-samurott"
+  },
+  {
+    "speciesId": "sandslash_alolan",
+    "pokemon": "0028-sandslash_alolan"
+  },
+  {
+    "speciesId": "whiscash_shadow",
+    "pokemon": "0340-whiscash"
+  },
+  {
+    "speciesId": "tauros_aqua",
+    "pokemon": "0128-tauros_aqua"
+  },
+  {
+    "speciesId": "dugtrio_alolan_shadow",
+    "pokemon": "0051-dugtrio_alolan"
+  },
+  {
+    "speciesId": "cradily",
+    "pokemon": "0346-cradily"
+  },
+  {
+    "speciesId": "barbaracle",
+    "pokemon": "0689-barbaracle"
+  },
+  {
+    "speciesId": "metang_shadow",
+    "pokemon": "0375-metang"
+  },
+  {
+    "speciesId": "swampert",
+    "pokemon": "0260-swampert"
+  },
+  {
+    "speciesId": "marshtomp",
+    "pokemon": "0259-marshtomp"
   }
 ]

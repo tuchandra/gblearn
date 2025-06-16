@@ -36,6 +36,10 @@ function rankingsUrl(name: CupName) {
     return `${PVPOKE_DATA}/rankings/premier/overall/rankings-${cupCp}.json`;
   }
 
+  if ([CupName.summer, CupName.summerultra].includes(name)) {
+    return `${PVPOKE_DATA}/rankings/summer/overall/rankings-${cupCp}.json`;
+  }
+
   return `${PVPOKE_DATA}/rankings/${name}/overall/rankings-${cupCp}.json`;
 }
 
@@ -75,8 +79,8 @@ function getPokemonFromSpeciesId(speciesId: string): string {
 type PokemonWithBase = PokemonSpecies & { pokemon: string };
 
 /**
- * Using the PVPoke gamemaster > formats.json, discover the cups
- * that are in the game & active.
+ * Using the PVPoke gamemaster > formats.json, discover the active
+ * cups and the cups that are stale that we need.
  *
  * The formats are a combination of the one- or two-week cups in GBL
  * and grassroots formats like Devon or Battle Frontier. They can
@@ -86,24 +90,26 @@ type PokemonWithBase = PokemonSpecies & { pokemon: string };
  * Usually, the GBL cups are listed first; the first non-GBL cup is
  * identified by `meta: championshipseries`.
  */
-async function discoverCups() {
+async function discoverCups(): Promise<{
+  gblCups: CupName[];
+  staleCups: string[];
+}> {
   const formats = await fetch(FORMATS_URL).then((res) => res.json());
 
-  let gblCups: CupName[] = [];
+  const gblCups: CupName[] = [];
   for (const format of formats) {
     if (format.meta === 'championshipseries') break;
 
     if (!format.hideRankings) {
       gblCups.push(format.meta);
-      console.log(`Discovered GBL cup: ${format.meta}`);
     }
   }
 
   console.log(`Discovered GBL cups from gamemaster: ${gblCups.join(', ')}`);
 
   // Find stale cups.
-  const staleCups = await readdir('src/data/metas/');
-  for (const cup of staleCups) {
+  const staleCups: string[] = [];
+  for (const cup of await readdir('src/data/metas/')) {
     const cupName = cup.replace('.json', '');
 
     // Always keep these.
@@ -111,8 +117,11 @@ async function discoverCups() {
     if (['great', 'ultra', 'master', 'remix'].includes(cupName)) continue;
     if ((gblCups as string[]).includes(cupName)) continue;
 
-    console.log(`Found stale cup: ${cup}. Consider removing.`);
+    staleCups.push(cupName);
   }
+
+  console.log(`Found stale cups: ${staleCups.join(', ')}`);
+  return { gblCups, staleCups };
 }
 
 /**
@@ -160,8 +169,23 @@ async function getOrUpdateMeta(cup: CupName) {
 }
 
 async function main() {
-  await discoverCups();
-  Promise.all(Object.values(CupName).map(getOrUpdateMeta));
+  const { gblCups, staleCups } = await discoverCups();
+
+  await Promise.all(
+    [
+      CupName.great,
+      CupName.ultra,
+      CupName.master,
+      CupName.remix,
+      ...gblCups,
+    ].map(getOrUpdateMeta),
+  );
+
+  console.log(`\nCleaning up stale cups ...`);
+  for (const cup of staleCups) {
+    await Bun.file(`src/data/metas/${cup}.json`).delete();
+    console.log(`- Deleted src/data/metas/${cup}.json`);
+  }
 }
 
 main();

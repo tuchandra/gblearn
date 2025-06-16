@@ -44,6 +44,14 @@
     "pokemon": "0382-kyogre"
   },
   {
+    "speciesId": "kyurem_black",
+    "pokemon": "0646-kyurem_black"
+  },
+  {
+    "speciesId": "kyurem_white",
+    "pokemon": "0646-kyurem_white"
+  },
+  {
     "speciesId": "landorus_therian",
     "pokemon": "0645-landorus_therian"
   },
@@ -96,12 +104,20 @@
     "pokemon": "0787-tapu_bulu"
   },
   {
+    "speciesId": "tapu_lele",
+    "pokemon": "0786-tapu_lele"
+  },
+  {
     "speciesId": "togekiss",
     "pokemon": "0468-togekiss"
   },
   {
     "speciesId": "ursaluna",
     "pokemon": "0901-ursaluna"
+  },
+  {
+    "speciesId": "urshifu_single_strike",
+    "pokemon": "0892-urshifu_single_strike"
   },
   {
     "speciesId": "xerneas",
@@ -124,55 +140,55 @@
     "pokemon": "0718-zygarde_complete"
   },
   {
-    "speciesId": "kyurem_black",
-    "pokemon": "0646-kyurem_black"
+    "speciesId": "lunala",
+    "pokemon": "0792-lunala"
   },
   {
-    "speciesId": "kyurem_white",
-    "pokemon": "0646-kyurem_white"
+    "speciesId": "zacian_crowned_sword",
+    "pokemon": "0888-zacian_crowned_sword"
   },
   {
-    "speciesId": "kyurem",
-    "pokemon": "0646-kyurem"
-  },
-  {
-    "speciesId": "moltres_galarian",
-    "pokemon": "0146-moltres_galarian"
-  },
-  {
-    "speciesId": "marshadow",
-    "pokemon": "0802-marshadow"
+    "speciesId": "zamazenta_crowned_shield",
+    "pokemon": "0889-zamazenta_crowned_shield"
   },
   {
     "speciesId": "meloetta_aria",
     "pokemon": "0648-meloetta_aria"
   },
   {
+    "speciesId": "heatran_shadow",
+    "pokemon": "0485-heatran"
+  },
+  {
     "speciesId": "reshiram",
     "pokemon": "0643-reshiram"
   },
   {
-    "speciesId": "gyarados_shadow",
-    "pokemon": "0130-gyarados"
+    "speciesId": "genesect_chill",
+    "pokemon": "0649-genesect_chill"
   },
   {
-    "speciesId": "tapu_lele",
-    "pokemon": "0786-tapu_lele"
+    "speciesId": "keldeo_ordinary",
+    "pokemon": "0647-keldeo_ordinary"
   },
   {
-    "speciesId": "zekrom",
-    "pokemon": "0644-zekrom"
+    "speciesId": "marshadow",
+    "pokemon": "0802-marshadow"
   },
   {
-    "speciesId": "hydreigon",
-    "pokemon": "0635-hydreigon"
+    "speciesId": "gholdengo",
+    "pokemon": "1000-gholdengo"
   },
   {
-    "speciesId": "avalugg_hisuian",
-    "pokemon": "0713-avalugg_hisuian"
+    "speciesId": "annihilape_shadow",
+    "pokemon": "0979-annihilape"
   },
   {
-    "speciesId": "baxcalibur",
-    "pokemon": "0998-baxcalibur"
+    "speciesId": "kyurem",
+    "pokemon": "0646-kyurem"
+  },
+  {
+    "speciesId": "lugia_shadow",
+    "pokemon": "0249-lugia"
   }
 ]

@@ -1,0 +1,162 @@
+[
+  {
+    "speciesId": "bellibolt",
+    "pokemon": "0939-bellibolt"
+  },
+  {
+    "speciesId": "blastoise",
+    "pokemon": "0009-blastoise"
+  },
+  {
+    "speciesId": "cradily",
+    "pokemon": "0346-cradily"
+  },
+  {
+    "speciesId": "feraligatr",
+    "pokemon": "0160-feraligatr"
+  },
+  {
+    "speciesId": "ferrothorn",
+    "pokemon": "0598-ferrothorn"
+  },
+  {
+    "speciesId": "gastrodon",
+    "pokemon": "0423-gastrodon"
+  },
+  {
+    "speciesId": "golisopod",
+    "pokemon": "0768-golisopod"
+  },
+  {
+    "speciesId": "jellicent",
+    "pokemon": "0593-jellicent"
+  },
+  {
+    "speciesId": "lapras",
+    "pokemon": "0131-lapras"
+  },
+  {
+    "speciesId": "lickilicky",
+    "pokemon": "0463-lickilicky"
+  },
+  {
+    "speciesId": "ninetales",
+    "pokemon": "0038-ninetales"
+  },
+  {
+    "speciesId": "poliwrath",
+    "pokemon": "0062-poliwrath"
+  },
+  {
+    "speciesId": "skeledirge",
+    "pokemon": "0911-skeledirge"
+  },
+  {
+    "speciesId": "stunfisk",
+    "pokemon": "0618-stunfisk"
+  },
+  {
+    "speciesId": "swampert",
+    "pokemon": "0260-swampert"
+  },
+  {
+    "speciesId": "talonflame",
+    "pokemon": "0663-talonflame"
+  },
+  {
+    "speciesId": "tentacruel",
+    "pokemon": "0073-tentacruel"
+  },
+  {
+    "speciesId": "typhlosion_shadow",
+    "pokemon": "0157-typhlosion"
+  },
+  {
+    "speciesId": "venusaur",
+    "pokemon": "0003-venusaur"
+  },
+  {
+    "speciesId": "victreebel_shadow",
+    "pokemon": "0071-victreebel"
+  },
+  {
+    "speciesId": "virizion",
+    "pokemon": "0640-virizion"
+  },
+  {
+    "speciesId": "zapdos",
+    "pokemon": "0145-zapdos"
+  },
+  {
+    "speciesId": "forretress",
+    "pokemon": "0205-forretress"
+  },
+  {
+    "speciesId": "scizor_shadow",
+    "pokemon": "0212-scizor"
+  },
+  {
+    "speciesId": "toxtricity",
+    "pokemon": "0849-toxtricity"
+  },
+  {
+    "speciesId": "samurott_shadow",
+    "pokemon": "0503-samurott"
+  },
+  {
+    "speciesId": "genesect_shock",
+    "pokemon": "0649-genesect_shock"
+  },
+  {
+    "speciesId": "genesect_chill",
+    "pokemon": "0649-genesect_chill"
+  },
+  {
+    "speciesId": "togedemaru",
+    "pokemon": "0777-togedemaru"
+  },
+  {
+    "speciesId": "electivire_shadow",
+    "pokemon": "0466-electivire"
+  },
+  {
+    "speciesId": "crustle_shadow",
+    "pokemon": "0558-crustle"
+  },
+  {
+    "speciesId": "magnezone_shadow",
+    "pokemon": "0462-magnezone"
+  },
+  {
+    "speciesId": "drampa",
+    "pokemon": "0780-drampa"
+  },
+  {
+    "speciesId": "turtonator",
+    "pokemon": "0776-turtonator"
+  },
+  {
+    "speciesId": "raikou_shadow",
+    "pokemon": "0243-raikou"
+  },
+  {
+    "speciesId": "roserade",
+    "pokemon": "0407-roserade"
+  },
+  {
+    "speciesId": "genesect",
+    "pokemon": "0649-genesect"
+  },
+  {
+    "speciesId": "genesect_douse",
+    "pokemon": "0649-genesect_douse"
+  },
+  {
+    "speciesId": "barbaracle",
+    "pokemon": "0689-barbaracle"
+  },
+  {
+    "speciesId": "rapidash",
+    "pokemon": "0078-rapidash"
+  }
+]
