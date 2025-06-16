@@ -1,8 +1,11 @@
 ---
 import { cupConfig } from '../cup-utils';
 import { CupName } from '../models';
+import { readdir } from 'node:fs/promises';
 
-const metas = Object.values(CupName);
+const metas = (await readdir('src/data/metas/')).map(
+  (x) => x.replace('.json', '') as CupName // shh
+);
 ---
 
 <div class="w-full flex-grow">
@@ -20,7 +23,7 @@ const metas = Object.values(CupName);
       <div class="block flex-row italic text-neutral-300">
         <a href="/great" class="link-hover link">Great League</a>
         &centerdot;
-        <a href="/color" class="link-hover link">Color Cup</a>
+        <a href="/fossil" class="link-hover link">Fossil Cup</a>
         &centerdot;
         <a href="/ultra" class="link-hover link">Ultra League</a>
         &centerdot;
@@ -32,7 +35,7 @@ const metas = Object.values(CupName);
             {
               metas
                 .filter(
-                  (m) => !['great', 'ultra', 'master', 'color'].includes(m),
+                  (m) => !['great', 'ultra', 'master', 'fossil'].includes(m)
                 )
                 .map((meta) => (
                   <a href={`/${meta}`} class="link-hover link">
