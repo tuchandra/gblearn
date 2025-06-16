@@ -113,10 +113,6 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     fast: { remove: ['INFESTATION'] },
     charged: { remove: ['STONE_EDGE'] },
   },
-  crocalor: { fast: { remove: ['BITE'] } },
-  dachsbun: {
-    fast: { remove: ['BITE'] },
-  },
   dewgong: { charged: { keep: ['ICY_WIND', 'DRILL_RUN'] } },
   dialga: { fast: { keep: ['DRAGON_BREATH'] } },
   diggersby: {
@@ -133,12 +129,10 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   },
   drifblim: { charged: { remove: ['OMINOUS_WIND'] } },
   dunsparce: {
-    fast: { remove: ['BITE'] },
     charged: { remove: ['DIG'] },
   },
   dusknoir: { charged: { remove: ['OMINOUS_WIND', 'PSYCHIC'] } },
   empoleon: {
-    fast: { remove: [] },
     charged: { remove: ['HYDRO_PUMP'] },
   },
   escavalier: { fast: { remove: [] } },
@@ -171,15 +165,12 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     fast: { remove: ['WATER_GUN'] },
     charged: { remove: ['MUDDY_WATER', 'SLUDGE_WAVE'] },
   },
-  granbull: { fast: { remove: ['BITE'] } },
-  greedent: { fast: { remove: ['BITE'] } },
   greninja: {
     fast: { remove: ['BUBBLE'] },
     charged: { keep: ['NIGHT_SLASH', 'HYDRO_CANNON'] },
   },
   groudon: { charged: { remove: ['FIRE_BLAST'] } },
   gyarados: {
-    fast: { remove: ['BITE'] },
     charged: { remove: ['TWISTER', 'DRAGON_PULSE'] },
   },
   haunter: { fast: { remove: ['LICK'] }, charged: { remove: ['DARK_PULSE'] } },
@@ -232,17 +223,17 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   marshtomp: { fast: { remove: ['WATER_GUN'] } },
   marowak: { charged: { remove: ['DIG', 'EARTHQUAKE'] } },
   mawile: {
-    fast: { remove: ['BITE', 'ICE_FANG'] },
+    fast: { remove: ['ICE_FANG'] },
     charged: { remove: ['VICE_GRIP'] },
   },
   melmetal: { charged: { remove: ['HYPER_BEAM', 'FLASH_CANNON'] } },
   metagross: { charged: { remove: ['PSYCHIC', 'FLASH_CANNON'] } },
   metang: { charged: { keep: ['RETURN', 'GYRO_BALL', 'PSYSHOCK'] } },
   mewtwo: { charged: { remove: ['PSYCHIC', 'HYPER_BEAM'] } },
-  muk_alolan: { fast: { remove: ['BITE'] } },
+  muk_alolan: { fast: { remove: [] } },
   necrozma_dawn_wings: { fast: { remove: ['METAL_CLAW'] } },
   necrozma_dusk_mane: { fast: { remove: ['METAL_CLAW'] } },
-  nidorina: { fast: { remove: ['BITE'] } },
+  nidorina: { fast: { remove: [] } },
   nidorino: { charged: { remove: ['HORN_ATTACK'] } },
   ninetales_alolan: {
     fast: { remove: ['FEINT_ATTACK'] },
@@ -282,7 +273,6 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   },
   quaquaval: {
     fast: { remove: ['WATER_GUN'] },
-    charged: { remove: [] },
   },
   qwilfish: {
     fast: { remove: ['WATER_GUN'] },
@@ -304,7 +294,7 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     charged: { keep: ['RETURN', 'AURORA_BEAM', 'WATER_PULSE', 'BODY_SLAM'] },
   },
   serperior: { charged: { remove: ['GRASS_KNOT'] } },
-  skeledirge: { fast: { remove: ['BITE'] } },
+  skeledirge: { fast: { remove: [] } },
   snorlax: { charged: { remove: ['HYPER_BEAM', 'HEAVY_SLAM', 'EARTHQUAKE'] } },
   steelix: {
     fast: { keep: ['DRAGON_TAIL', 'THUNDER_FANG'] },
@@ -332,7 +322,6 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   togetic: { fast: { remove: ['EXTRASENSORY', 'HIDDEN_POWER'] } },
   togedemaru: { fast: { remove: ['SPARK'] } },
   toxapex: {
-    fast: { remove: ['BITE'] },
     charged: { remove: ['GUNK_SHOT'] },
   },
   toxicroak: { fast: { remove: ['POISON_JAB'] } },
@@ -364,21 +353,20 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     charged: { keep: ['ICY_WIND', 'SWIFT', 'DISARMING_VOICE'] },
   },
   wormadam_trash: {
-    fast: { remove: [] },
     charged: { remove: ['PSYBEAM'] },
   },
   xerneas: { fast: { keep: ['GEOMANCY'] } },
   yveltal: { charged: { remove: ['PSYCHIC', 'HYPER_BEAM'] } },
   zacian_hero: { fast: { remove: ['METAL_CLAW', 'FIRE_FANG'] } },
-  zarude: { fast: { remove: ['BITE'] }, charged: { remove: ['ENERGY_BALL'] } },
-  zweilous: { fast: { remove: ['BITE'] } },
+  zarude: { charged: { remove: ['ENERGY_BALL'] } },
+  zweilous: { fast: { remove: [] } },
   zygarde_complete: {
-    fast: { remove: ['BITE'] },
     charged: { remove: ['HYPER_BEAM'] },
   },
 };
 
 const ALWAYS_EXCLUDED_FAST_MOVES: FastMoveId[] = [
+  'BITE',
   'CHARGE_BEAM',
   'EXTRASENSORY',
   'FEINT_ATTACK',
