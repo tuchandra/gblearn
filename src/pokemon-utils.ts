@@ -101,7 +101,7 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     fast: { remove: ['EMBER', 'AIR_SLASH'] },
     charged: { remove: ['FLAMETHROWER', 'OVERHEAT', 'FIRE_BLAST'] },
   },
-  charjabug: { fast: { remove: ['SPARK', 'BUG_BITE'] } },
+  charjabug: { fast: { remove: ['SPARK'] } },
   chesnaught: { charged: { remove: ['ENERGY_BALL', 'SOLAR_BEAM'] } },
   clefable: { charged: { remove: ['DAZZLING_GLEAM'] } },
   clodsire: { charged: { remove: ['WATER_PULSE'] } },
@@ -133,15 +133,15 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   },
   drifblim: { charged: { remove: ['OMINOUS_WIND'] } },
   dunsparce: {
-    fast: { remove: ['BITE', 'ASTONISH'] },
+    fast: { remove: ['BITE'] },
     charged: { remove: ['DIG'] },
   },
   dusknoir: { charged: { remove: ['OMINOUS_WIND', 'PSYCHIC'] } },
   empoleon: {
-    fast: { remove: ['METAL_CLAW', 'WATERFALL'] },
+    fast: { remove: [] },
     charged: { remove: ['HYDRO_PUMP'] },
   },
-  escavalier: { fast: { remove: ['BUG_BITE'] } },
+  escavalier: { fast: { remove: [] } },
   excadrill: {
     fast: { remove: ['METAL_CLAW'] },
     charged: { remove: ['EARTHQUAKE'] },
@@ -150,7 +150,7 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     fast: { keep: ['SHADOW_CLAW'] },
     charged: { remove: ['HYDRO_PUMP'] },
   },
-  ferrothorn: { fast: { remove: ['METAL_CLAW'] } },
+  ferrothorn: { fast: { remove: [] } },
   florges: { fast: { remove: ['RAZOR_LEAF'] } },
   flygon: { charged: { remove: ['EARTH_POWER', 'BOOMBURST'] } },
   gallade: { charged: { remove: ['SYNCHRONOISE'] } },
@@ -159,10 +159,10 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     fast: { remove: ['HIDDEN_POWER'] },
     charged: { remove: ['EARTHQUAKE'] },
   },
-  gligar: { fast: { remove: ['FURY_CUTTER'] } },
+  gligar: { fast: { remove: [] } },
   golisopod: {
-    fast: { remove: ['FURY_CUTTER', 'METAL_CLAW'] },
-    charged: { remove: ['AQUA_JET'] },
+    fast: { remove: ['METAL_CLAW'] },
+    charged: { remove: [] },
   },
   golurk: {
     charged: { remove: ['POLTERGEIST'] },
@@ -282,7 +282,7 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   },
   quaquaval: {
     fast: { remove: ['WATER_GUN'] },
-    charged: { remove: ['AQUA_JET'] },
+    charged: { remove: [] },
   },
   qwilfish: {
     fast: { remove: ['WATER_GUN'] },
@@ -343,7 +343,7 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     charged: { remove: ['PETAL_BLIZZARD', 'SOLAR_BEAM'] },
   },
   victreebel: {
-    fast: { remove: ['ACID'] },
+    fast: {},
     charged: { remove: ['SOLAR_BEAM'] },
   },
   vigoroth: {
@@ -364,7 +364,7 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     charged: { keep: ['ICY_WIND', 'SWIFT', 'DISARMING_VOICE'] },
   },
   wormadam_trash: {
-    fast: { remove: ['BUG_BITE'] },
+    fast: { remove: [] },
     charged: { remove: ['PSYBEAM'] },
   },
   xerneas: { fast: { keep: ['GEOMANCY'] } },
@@ -374,12 +374,11 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   zweilous: { fast: { remove: ['BITE'] } },
   zygarde_complete: {
     fast: { remove: ['BITE'] },
-    charged: { remove: ['BULLDOZE', 'HYPER_BEAM'] },
+    charged: { remove: ['HYPER_BEAM'] },
   },
 };
 
 const ALWAYS_EXCLUDED_FAST_MOVES: FastMoveId[] = [
-  'ACID',
   'CHARGE_BEAM',
   'EXTRASENSORY',
   'FEINT_ATTACK',
