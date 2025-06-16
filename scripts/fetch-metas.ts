@@ -17,6 +17,8 @@ import { CupMetaSchema, CupName, type PokemonSpecies } from '../src/models';
 const PVPOKE_DATA =
   'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data';
 
+const FORMATS_URL = `${PVPOKE_DATA}/gamemaster/formats.json`;
+
 function cupUrl(name: CupName) {
   const url = `${PVPOKE_DATA}/groups/${name}.json`;
   return url;
@@ -72,6 +74,34 @@ function getPokemonFromSpeciesId(speciesId: string): string {
 type PokemonWithBase = PokemonSpecies & { pokemon: string };
 
 /**
+ * Using the PVPoke gamemaster > formats.json, discover the cups
+ * that are in the game & active.
+ *
+ * The formats are a combination of the one- or two-week cups in GBL
+ * and grassroots formats like Devon or Battle Frontier. They can
+ * also include cups like Halloween or Premier cups that aren't active
+ * in the current season, but might eventually return.
+ *
+ * Usually, the GBL cups are listed first; the first non-GBL cup is
+ * identified by `meta: championshipseries`.
+ */
+async function discoverCups() {
+  const formats = await fetch(FORMATS_URL).then((res) => res.json());
+
+  let gblCups: CupName[] = [];
+  for (const format of formats) {
+    if (format.meta === 'championshipseries') break;
+
+    if (!format.hideRankings) {
+      gblCups.push(format.meta);
+      console.log(`Discovered GBL cup: ${format.meta}`);
+    }
+  }
+
+  console.log(`Discovered GBL cups from gamemaster: ${gblCups.join(', ')}`);
+}
+
+/**
  * Download the meta for a given league/cup from PVPoke's Github,
  * find the species IDs, then write the whole thing to disk.
  */
@@ -109,6 +139,7 @@ async function getOrUpdateMeta(cup: CupName) {
 }
 
 async function main() {
+  await discoverCups();
   Promise.all(Object.values(CupName).map(getOrUpdateMeta));
 }
 
