@@ -107,7 +107,14 @@ async function discoverCups() {
  */
 async function getOrUpdateMeta(cup: CupName) {
   console.debug(`Looking for ${cup} ...`);
-  const data = await fetch(cupUrl(cup)).then((res) => res.json());
+
+  let data: any; // unclear
+  try {
+    data = await fetch(cupUrl(cup)).then((res) => res.json());
+  } catch (err) {
+    console.error(`Skipping ${cup} due to error: ${err}`);
+    return;
+  }
 
   let topSpecies: string[];
   try {
@@ -115,7 +122,7 @@ async function getOrUpdateMeta(cup: CupName) {
       .then((res) => res.json())
       .then((species) => species.slice(0, 40));
   } catch (err) {
-    console.error(`Error loading ${cup} rankings: ${console.error(err)}`);
+    console.error(`Error loading ${cup} rankings: ${err}`);
     topSpecies = [];
   }
 
