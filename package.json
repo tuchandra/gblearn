@@ -8,7 +8,9 @@
     "build": "tsc && bunx --bun astro build",
     "preview": "bunx --bun astro preview",
     "lint": "bunx biome lint . --write --unsafe",
-    "format": "bunx --bun prettier --write '**/*.{astro,js,mjs,ts,tsx,md}'"
+    "format": "bunx --bun prettier --write '**/*.{astro,js,mjs,ts,tsx,md}'",
+    "sort": "bunx --bun tree-sorter-ts src",
+    "sort:write": "bunx --bun tree-sorter-ts --write src"
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
@@ -50,6 +52,12 @@
     }
   },
   "devDependencies": {
-    "@types/bun": "^1.2.16"
-  }
+    "@types/bun": "^1.2.16",
+    "tar": "^7.4.3",
+    "tree-sorter-ts": "^1.3.0"
+  },
+  "trustedDependencies": [
+    "@biomejs/biome",
+    "tree-sorter-ts"
+  ]
 }

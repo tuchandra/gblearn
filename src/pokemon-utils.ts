@@ -68,6 +68,7 @@ export interface MovesetChanges {
 
 // Please keep alphabetized!
 const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
+  /** tree-sorter-ts: keep-sorted **/
   abomasnow: {
     fast: {
       keep: ['POWDER_SNOW'],
@@ -81,13 +82,13 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   annihilape: {
     charged: { remove: ['SHADOW_BALL'] },
   },
-  ariados: {
-    fast: { remove: ['INFESTATION'] },
-    charged: { remove: ['SHADOW_SNEAK', 'MEGAHORN'] },
-  },
   arctibax: {
     fast: { remove: ['ICE_FANG'] },
     charged: { remove: ['OUTRAGE'] },
+  },
+  ariados: {
+    fast: { remove: ['INFESTATION'] },
+    charged: { remove: ['SHADOW_SNEAK', 'MEGAHORN'] },
   },
   aurorus: {
     fast: { keep: ['POWDER_SNOW'] },
@@ -192,11 +193,11 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     charged: { remove: ['BULLDOZE'] },
   },
   lanturn: { charged: { remove: ['THUNDER', 'HYDRO_PUMP'] } },
-  lickitung: { charged: { remove: ['STOMP', 'HYPER_BEAM'] } },
   lickilicky: {
     fast: { remove: ['LICK'] },
     charged: { remove: ['HYPER_BEAM'] },
   },
+  lickitung: { charged: { remove: ['STOMP', 'HYPER_BEAM'] } },
   lileep: { fast: { remove: ['INFESTATION'] } },
   lucario: {
     fast: { remove: ['BULLET_PUNCH', 'COUNTER'] },
@@ -206,22 +207,22 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     fast: { remove: ['EXTRASENSORY'] },
     charged: { remove: ['FUTURE_SIGHT'] },
   },
-  machoke: {
-    charged: { remove: ['SUBMISSION'] },
-  },
   machamp: {
     fast: { keep: ['KARATE_CHOP'] },
     charged: { remove: ['SUBMISSION', 'DYNAMIC_PUNCH', 'HEAVY_SLAM'] },
   },
+  machoke: {
+    charged: { remove: ['SUBMISSION'] },
+  },
+  magneton: { fast: { remove: ['SPARK'] } },
+  magnezone: { fast: { remove: ['SPARK'] } },
   malamar: {
     fast: { remove: ['PSYWAVE'] },
     charged: { remove: ['PSYBEAM'] },
   },
-  magneton: { fast: { remove: ['SPARK'] } },
-  magnezone: { fast: { remove: ['SPARK'] } },
   mamoswine: { charged: { remove: ['ANCIENT_POWER', 'BULLDOZE'] } },
-  marshtomp: { fast: { remove: ['WATER_GUN'] } },
   marowak: { charged: { remove: ['DIG', 'EARTHQUAKE'] } },
+  marshtomp: { fast: { remove: ['WATER_GUN'] } },
   mawile: {
     fast: { remove: ['ICE_FANG'] },
     charged: { remove: ['VICE_GRIP'] },
@@ -318,9 +319,9 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   },
   tapu_fini: { fast: { remove: ['HIDDEN_POWER'] } },
   tentacruel: { fast: { keep: ['POISON_JAB'] } },
+  togedemaru: { fast: { remove: ['SPARK'] } },
   togekiss: { fast: { remove: ['HIDDEN_POWER'] } },
   togetic: { fast: { remove: ['EXTRASENSORY', 'HIDDEN_POWER'] } },
-  togedemaru: { fast: { remove: ['SPARK'] } },
   toxapex: {
     charged: { remove: ['GUNK_SHOT'] },
   },
