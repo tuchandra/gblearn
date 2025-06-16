@@ -36,7 +36,8 @@
   "chargedMoves": [
     "AURORA_BEAM",
     "BODY_SLAM",
-    "WATER_PULSE"
+    "WATER_PULSE",
+    "SURF"
   ],
   "released": true,
   "tags": [

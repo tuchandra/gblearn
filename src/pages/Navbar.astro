@@ -32,7 +32,7 @@ const metas = Object.values(CupName);
             {
               metas
                 .filter(
-                  (m) => !['great', 'ultra', 'master', 'color'].includes(m)
+                  (m) => !['great', 'ultra', 'master', 'color'].includes(m),
                 )
                 .map((meta) => (
                   <a href={`/${meta}`} class="link-hover link">

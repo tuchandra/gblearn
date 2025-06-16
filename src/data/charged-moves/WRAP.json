@@ -3,5 +3,11 @@
   "name": "Wrap",
   "type": "normal",
   "power": 60,
-  "energy": 45
+  "energy": 45,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": "1"
 }

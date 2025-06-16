@@ -42,5 +42,8 @@
     "HYPER_BEAM",
     "METEOR_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

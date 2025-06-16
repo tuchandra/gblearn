@@ -11,17 +11,17 @@
     "1500": {
       "level": 15,
       "ivs": {
-        "atk": 7,
-        "def": 15,
-        "hp": 14
+        "atk": 10,
+        "def": 12,
+        "hp": 10
       }
     },
     "2500": {
-      "level": 25.5,
+      "level": 24.5,
       "ivs": {
-        "atk": 6,
-        "def": 12,
-        "hp": 11
+        "atk": 13,
+        "def": 13,
+        "hp": 14
       }
     }
   },
@@ -40,5 +40,9 @@
     "CLOSE_COMBAT",
     "AQUA_JET"
   ],
-  "released": false
+  "released": true,
+  "tags": [
+    "legendary",
+    "untradeable"
+  ]
 }

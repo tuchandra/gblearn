@@ -9,11 +9,11 @@
   },
   "defaultIvs": {
     "1500": {
-      "level": 36,
+      "level": 34.5,
       "ivs": {
-        "atk": 4,
-        "def": 13,
-        "hp": 15
+        "atk": 10,
+        "def": 14,
+        "hp": 10
       }
     },
     "2500": {
@@ -37,5 +37,9 @@
     "DYNAMIC_PUNCH",
     "CLOSE_COMBAT"
   ],
-  "released": false
+  "released": true,
+  "tags": [
+    "legendary",
+    "untradeable"
+  ]
 }

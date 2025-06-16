@@ -36,7 +36,8 @@
   "chargedMoves": [
     "DIG",
     "GRASS_KNOT",
-    "THUNDER"
+    "THUNDER",
+    "SWIFT"
   ],
   "released": true
 }

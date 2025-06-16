@@ -1,0 +1,13 @@
+{
+  "moveId": "ICE_BURN",
+  "name": "Ice Burn",
+  "type": "ice",
+  "power": 120,
+  "energy": 60,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".3"
+}

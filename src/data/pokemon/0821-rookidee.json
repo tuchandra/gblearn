@@ -30,11 +30,12 @@
   ],
   "fastMoves": [
     "PECK",
-    "AIR_SLASH"
+    "AIR_SLASH",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
-    "DRILL_PECK",
-    "BRAVE_BIRD"
+    "SKY_ATTACK",
+    "PAYBACK"
   ],
-  "released": false
+  "released": true
 }

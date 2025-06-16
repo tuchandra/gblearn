@@ -31,7 +31,8 @@
   ],
   "fastMoves": [
     "METAL_CLAW",
-    "TACKLE"
+    "TACKLE",
+    "METAL_SOUND"
   ],
   "chargedMoves": [
     "BODY_SLAM",

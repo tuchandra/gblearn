@@ -2,7 +2,7 @@
   "moveId": "METAL_SOUND",
   "name": "Metal Sound",
   "type": "steel",
-  "power": 3,
+  "power": 5,
   "energyGain": 8,
   "turns": 2
 }

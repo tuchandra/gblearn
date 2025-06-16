@@ -31,7 +31,8 @@
   "fastMoves": [
     "ACID",
     "INFESTATION",
-    "TACKLE"
+    "TACKLE",
+    "ROLLOUT"
   ],
   "chargedMoves": [
     "DARK_PULSE",

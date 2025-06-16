@@ -31,7 +31,8 @@
   "fastMoves": [
     "DRAGON_TAIL",
     "IRON_TAIL",
-    "SMACK_DOWN"
+    "SMACK_DOWN",
+    "METAL_SOUND"
   ],
   "chargedMoves": [
     "HEAVY_SLAM",

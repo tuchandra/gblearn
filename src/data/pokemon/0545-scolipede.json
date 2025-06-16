@@ -31,7 +31,8 @@
   ],
   "fastMoves": [
     "BUG_BITE",
-    "POISON_JAB"
+    "POISON_JAB",
+    "POISON_STING"
   ],
   "chargedMoves": [
     "MEGAHORN",

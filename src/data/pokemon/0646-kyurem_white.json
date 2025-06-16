@@ -31,15 +31,18 @@
   ],
   "fastMoves": [
     "DRAGON_BREATH",
-    "STEEL_WING"
+    "STEEL_WING",
+    "ICE_FANG"
   ],
   "chargedMoves": [
     "DRAGON_PULSE",
     "BLIZZARD",
     "ANCIENT_POWER",
-    "FOCUS_BLAST"
+    "FOCUS_BLAST",
+    "FUSION_FLARE",
+    "ICE_BURN"
   ],
-  "released": false,
+  "released": true,
   "tags": [
     "legendary"
   ]

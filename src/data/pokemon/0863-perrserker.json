@@ -30,7 +30,8 @@
   ],
   "fastMoves": [
     "METAL_CLAW",
-    "SHADOW_CLAW"
+    "SHADOW_CLAW",
+    "METAL_SOUND"
   ],
   "chargedMoves": [
     "IRON_HEAD",

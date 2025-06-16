@@ -35,7 +35,9 @@
   "chargedMoves": [
     "BRICK_BREAK",
     "DIG",
-    "HYPER_BEAM"
+    "HYPER_BEAM",
+    "SWIFT",
+    "TRAILBLAZE"
   ],
   "released": true
 }

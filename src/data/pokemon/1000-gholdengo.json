@@ -36,7 +36,8 @@
   "chargedMoves": [
     "SHADOW_BALL",
     "DAZZLING_GLEAM",
-    "FOCUS_BLAST"
+    "FOCUS_BLAST",
+    "POWER_GEM"
   ],
   "released": true
 }

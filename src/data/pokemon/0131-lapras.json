@@ -32,7 +32,8 @@
   "fastMoves": [
     "FROST_BREATH",
     "ICE_SHARD",
-    "WATER_GUN"
+    "WATER_GUN",
+    "PSYWAVE"
   ],
   "chargedMoves": [
     "BLIZZARD",
@@ -40,7 +41,8 @@
     "HYDRO_PUMP",
     "ICE_BEAM",
     "SURF",
-    "SKULL_BASH"
+    "SKULL_BASH",
+    "SPARKLING_ARIA"
   ],
   "released": true,
   "tags": [

@@ -37,7 +37,8 @@
     "CLOSE_COMBAT",
     "DYNAMIC_PUNCH",
     "HEAVY_SLAM",
-    "SUPER_POWER"
+    "SUPER_POWER",
+    "UPPER_HAND"
   ],
   "released": true,
   "tags": [

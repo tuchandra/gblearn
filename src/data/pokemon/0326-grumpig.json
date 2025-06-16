@@ -30,12 +30,14 @@
   ],
   "fastMoves": [
     "CHARGE_BEAM",
-    "EXTRASENSORY"
+    "EXTRASENSORY",
+    "PSYWAVE"
   ],
   "chargedMoves": [
     "MIRROR_COAT",
     "PSYCHIC",
-    "SHADOW_BALL"
+    "SHADOW_BALL",
+    "DYNAMIC_PUNCH"
   ],
   "released": true,
   "tags": [

@@ -31,7 +31,8 @@
   "fastMoves": [
     "ACID",
     "BITE",
-    "DRAGON_TAIL"
+    "DRAGON_TAIL",
+    "POISON_STING"
   ],
   "chargedMoves": [
     "DARK_PULSE",

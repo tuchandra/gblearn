@@ -1,0 +1,46 @@
+{
+  "dex": 531,
+  "speciesName": "Audino (Mega)",
+  "speciesId": "audino_mega",
+  "baseStats": {
+    "atk": 147,
+    "def": 239,
+    "hp": 230
+  },
+  "defaultIvs": {
+    "1500": {
+      "level": 22,
+      "ivs": {
+        "atk": 8,
+        "def": 12,
+        "hp": 11
+      }
+    },
+    "2500": {
+      "level": 39.5,
+      "ivs": {
+        "atk": 14,
+        "def": 15,
+        "hp": 14
+      }
+    }
+  },
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "fastMoves": [
+    "POUND",
+    "ZEN_HEADBUTT"
+  ],
+  "chargedMoves": [
+    "DISARMING_VOICE",
+    "DAZZLING_GLEAM",
+    "HYPER_BEAM",
+    "BODY_SLAM"
+  ],
+  "released": true,
+  "tags": [
+    "mega"
+  ]
+}

@@ -37,7 +37,8 @@
     "ACID_SPRAY",
     "POWER_UP_PUNCH",
     "FOUL_PLAY",
-    "THUNDER_PUNCH"
+    "THUNDER_PUNCH",
+    "UPPER_HAND"
   ],
   "released": true
 }

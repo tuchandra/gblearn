@@ -37,7 +37,8 @@
     "BUG_BUZZ",
     "ACID_SPRAY",
     "SIGNAL_BEAM",
-    "FOCUS_BLAST"
+    "FOCUS_BLAST",
+    "ENERGY_BALL"
   ],
   "released": true,
   "tags": [

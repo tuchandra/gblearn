@@ -40,6 +40,14 @@
     "pokemon": "0487-giratina_altered"
   },
   {
+    "speciesId": "gliscor",
+    "pokemon": "0472-gliscor"
+  },
+  {
+    "speciesId": "golisopod",
+    "pokemon": "0768-golisopod"
+  },
+  {
     "speciesId": "golurk_shadow",
     "pokemon": "0623-golurk"
   },
@@ -74,6 +82,10 @@
   {
     "speciesId": "pangoro",
     "pokemon": "0675-pangoro"
+  },
+  {
+    "speciesId": "poliwrath",
+    "pokemon": "0062-poliwrath"
   },
   {
     "speciesId": "primeape",
@@ -116,16 +128,8 @@
     "pokemon": "0718-zygarde_complete"
   },
   {
-    "speciesId": "golisopod",
-    "pokemon": "0768-golisopod"
-  },
-  {
-    "speciesId": "poliwrath",
-    "pokemon": "0062-poliwrath"
-  },
-  {
-    "speciesId": "gliscor",
-    "pokemon": "0472-gliscor"
+    "speciesId": "corviknight",
+    "pokemon": "0823-corviknight"
   },
   {
     "speciesId": "machamp_shadow",

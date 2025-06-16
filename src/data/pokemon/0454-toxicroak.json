@@ -32,7 +32,8 @@
   "fastMoves": [
     "COUNTER",
     "POISON_JAB",
-    "MUD_SHOT"
+    "MUD_SHOT",
+    "POISON_STING"
   ],
   "chargedMoves": [
     "DYNAMIC_PUNCH",

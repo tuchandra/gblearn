@@ -31,7 +31,8 @@
   ],
   "fastMoves": [
     "ACID",
-    "POISON_JAB"
+    "POISON_JAB",
+    "POISON_STING"
   ],
   "chargedMoves": [
     "BLIZZARD",

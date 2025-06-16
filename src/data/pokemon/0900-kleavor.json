@@ -31,7 +31,8 @@
   ],
   "fastMoves": [
     "QUICK_ATTACK",
-    "AIR_SLASH"
+    "AIR_SLASH",
+    "FURY_CUTTER"
   ],
   "chargedMoves": [
     "X_SCISSOR",

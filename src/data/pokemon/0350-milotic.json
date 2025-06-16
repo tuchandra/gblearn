@@ -35,7 +35,8 @@
   "chargedMoves": [
     "BLIZZARD",
     "HYPER_BEAM",
-    "SURF"
+    "SURF",
+    "WRAP"
   ],
   "released": true
 }

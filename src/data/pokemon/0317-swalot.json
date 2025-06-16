@@ -37,7 +37,8 @@
     "GUNK_SHOT",
     "ICE_BEAM",
     "SLUDGE_BOMB",
-    "ACID_SPRAY"
+    "ACID_SPRAY",
+    "SLUDGE"
   ],
   "released": true
 }

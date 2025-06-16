@@ -2,7 +2,7 @@
   "moveId": "FURY_CUTTER",
   "name": "Fury Cutter",
   "type": "bug",
-  "power": 2,
+  "power": 3,
   "energyGain": 4,
   "turns": 1
 }

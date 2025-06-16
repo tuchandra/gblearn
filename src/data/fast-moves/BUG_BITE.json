@@ -2,7 +2,7 @@
   "moveId": "BUG_BITE",
   "name": "Bug Bite",
   "type": "bug",
-  "power": 3,
+  "power": 4,
   "energyGain": 3,
   "turns": 1
 }

@@ -9,19 +9,19 @@
   },
   "defaultIvs": {
     "1500": {
-      "level": 13,
+      "level": 14.5,
       "ivs": {
         "atk": 5,
-        "def": 15,
-        "hp": 15
+        "def": 11,
+        "hp": 14
       }
     },
     "2500": {
-      "level": 22,
+      "level": 24,
       "ivs": {
         "atk": 4,
-        "def": 15,
-        "hp": 11
+        "def": 13,
+        "hp": 15
       }
     }
   },
@@ -31,15 +31,16 @@
   ],
   "fastMoves": [
     "METAL_CLAW",
-    "SNARL",
-    "QUICK_ATTACK",
     "ICE_FANG"
   ],
   "chargedMoves": [
     "MOONBLAST",
-    "IRON_HEAD",
-    "CRUNCH",
-    "CLOSE_COMBAT"
+    "CLOSE_COMBAT",
+    "GIGA_IMPACT",
+    "BEHEMOTH_BASH"
   ],
-  "released": false
+  "released": true,
+  "tags": [
+    "legendary"
+  ]
 }

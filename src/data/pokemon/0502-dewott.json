@@ -9,11 +9,11 @@
   },
   "defaultIvs": {
     "1500": {
-      "level": 33.5,
+      "level": 35.5,
       "ivs": {
-        "atk": 6,
-        "def": 15,
-        "hp": 15
+        "atk": 3,
+        "def": 14,
+        "hp": 12
       }
     },
     "2500": {
@@ -39,6 +39,7 @@
   ],
   "released": true,
   "tags": [
-    "starter"
+    "starter",
+    "shadoweligible"
   ]
 }

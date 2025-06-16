@@ -37,7 +37,8 @@
     "CLOSE_COMBAT",
     "EARTHQUAKE",
     "MEGAHORN",
-    "ROCK_BLAST"
+    "ROCK_BLAST",
+    "UPPER_HAND"
   ],
   "released": true,
   "tags": [

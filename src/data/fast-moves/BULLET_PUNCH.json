@@ -2,7 +2,7 @@
   "moveId": "BULLET_PUNCH",
   "name": "Bullet Punch",
   "type": "steel",
-  "power": 6,
+  "power": 8,
   "energyGain": 7,
   "turns": 2
 }

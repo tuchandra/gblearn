@@ -35,7 +35,8 @@
   "chargedMoves": [
     "CLOSE_COMBAT",
     "ANCIENT_POWER",
-    "BRAVE_BIRD"
+    "BRAVE_BIRD",
+    "FLY"
   ],
   "released": true,
   "tags": [

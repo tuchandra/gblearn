@@ -3,11 +3,11 @@
   "name": "Parabolic Charge",
   "type": "electric",
   "power": 70,
-  "energy": 50,
+  "energy": 45,
   "buffs": [
     0,
     1
   ],
   "buffTarget": "self",
-  "buffApplyChance": ".66"
+  "buffApplyChance": "1"
 }

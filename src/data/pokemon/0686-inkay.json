@@ -38,5 +38,8 @@
     "PSYBEAM",
     "NIGHT_SLASH"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

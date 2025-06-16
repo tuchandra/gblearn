@@ -33,7 +33,8 @@
     "FURY_CUTTER",
     "IRON_TAIL",
     "POISON_JAB",
-    "DOUBLE_KICK"
+    "DOUBLE_KICK",
+    "POISON_STING"
   ],
   "chargedMoves": [
     "EARTHQUAKE",

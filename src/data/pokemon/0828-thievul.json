@@ -30,11 +30,12 @@
   ],
   "fastMoves": [
     "QUICK_ATTACK",
-    "SNARL"
+    "SNARL",
+    "SUCKER_PUNCH"
   ],
   "chargedMoves": [
     "NIGHT_SLASH",
     "PLAY_ROUGH"
   ],
-  "released": false
+  "released": true
 }

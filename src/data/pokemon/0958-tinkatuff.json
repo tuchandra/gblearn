@@ -35,8 +35,7 @@
   ],
   "chargedMoves": [
     "PLAY_ROUGH",
-    "BRUTAL_SWING",
     "FLASH_CANNON"
   ],
-  "released": false
+  "released": true
 }

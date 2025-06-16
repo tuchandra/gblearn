@@ -35,9 +35,9 @@
   ],
   "chargedMoves": [
     "PLAY_ROUGH",
-    "BRUTAL_SWING",
     "FLASH_CANNON",
-    "HEAVY_SLAM"
+    "HEAVY_SLAM",
+    "BULLDOZE"
   ],
-  "released": false
+  "released": true
 }

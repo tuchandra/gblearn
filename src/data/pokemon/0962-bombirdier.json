@@ -31,12 +31,14 @@
   ],
   "fastMoves": [
     "WING_ATTACK",
-    "ROCK_THROW"
+    "ROCK_THROW",
+    "SUCKER_PUNCH"
   ],
   "chargedMoves": [
     "PAYBACK",
     "AERIAL_ACE",
-    "FLY"
+    "FLY",
+    "ROCK_TOMB"
   ],
   "released": true
 }

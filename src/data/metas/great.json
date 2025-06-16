@@ -28,10 +28,6 @@
     "pokemon": "0737-charjabug"
   },
   {
-    "speciesId": "chesnaught",
-    "pokemon": "0652-chesnaught"
-  },
-  {
     "speciesId": "clodsire",
     "pokemon": "0980-clodsire"
   },
@@ -40,8 +36,16 @@
     "pokemon": "0222-corsola_galarian"
   },
   {
+    "speciesId": "corviknight",
+    "pokemon": "0823-corviknight"
+  },
+  {
     "speciesId": "cresselia",
     "pokemon": "0488-cresselia"
+  },
+  {
+    "speciesId": "dachsbun",
+    "pokemon": "0927-dachsbun"
   },
   {
     "speciesId": "dewgong",
@@ -70,10 +74,6 @@
   {
     "speciesId": "gastrodon",
     "pokemon": "0423-gastrodon"
-  },
-  {
-    "speciesId": "greninja",
-    "pokemon": "0658-greninja"
   },
   {
     "speciesId": "guzzlord",
@@ -136,8 +136,8 @@
     "pokemon": "0040-wigglytuff"
   },
   {
-    "speciesId": "dachsbun",
-    "pokemon": "0927-dachsbun"
+    "speciesId": "steelix",
+    "pokemon": "0208-steelix"
   },
   {
     "speciesId": "pangoro",
@@ -186,10 +186,6 @@
   {
     "speciesId": "whiscash_shadow",
     "pokemon": "0340-whiscash"
-  },
-  {
-    "speciesId": "steelix",
-    "pokemon": "0208-steelix"
   },
   {
     "speciesId": "weezing_galarian",

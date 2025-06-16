@@ -40,5 +40,8 @@
     "SUPER_POWER",
     "HYPER_BEAM"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

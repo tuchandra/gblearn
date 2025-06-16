@@ -37,7 +37,8 @@
     "FUTURE_SIGHT",
     "HYDRO_PUMP",
     "SKY_ATTACK",
-    "AEROBLAST"
+    "AEROBLAST",
+    "FLY"
   ],
   "released": true,
   "tags": [

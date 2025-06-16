@@ -9,11 +9,11 @@
   },
   "defaultIvs": {
     "1500": {
-      "level": 19,
+      "level": 20,
       "ivs": {
-        "atk": 5,
-        "def": 14,
-        "hp": 7
+        "atk": 1,
+        "def": 4,
+        "hp": 4
       }
     },
     "2500": {
@@ -31,12 +31,14 @@
   ],
   "fastMoves": [
     "ASTONISH",
-    "SHADOW_CLAW"
+    "SHADOW_CLAW",
+    "METAL_SOUND"
   ],
   "chargedMoves": [
     "POWER_WHIP",
     "SHADOW_BALL",
-    "HEAVY_SLAM"
+    "HEAVY_SLAM",
+    "WRAP"
   ],
-  "released": false
+  "released": true
 }

@@ -31,11 +31,13 @@
   ],
   "fastMoves": [
     "STEEL_WING",
-    "AIR_SLASH"
+    "AIR_SLASH",
+    "SAND_ATTACK"
   ],
   "chargedMoves": [
-    "DRILL_PECK",
-    "BRAVE_BIRD"
+    "SKY_ATTACK",
+    "PAYBACK",
+    "IRON_HEAD"
   ],
-  "released": false
+  "released": true
 }

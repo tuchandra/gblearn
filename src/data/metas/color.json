@@ -96,103 +96,47 @@
     "pokemon": "0145-zapdos"
   },
   {
-    "speciesId": "alomomola",
-    "pokemon": "0594-alomomola"
+    "speciesId": "charjabug",
+    "pokemon": "0737-charjabug"
   },
   {
-    "speciesId": "ampharos",
-    "pokemon": "0181-ampharos"
+    "speciesId": "magmar_shadow",
+    "pokemon": "0126-magmar"
   },
   {
-    "speciesId": "araquanid",
-    "pokemon": "0752-araquanid"
+    "speciesId": "salazzle",
+    "pokemon": "0758-salazzle"
   },
   {
-    "speciesId": "arboliva",
-    "pokemon": "0930-arboliva"
+    "speciesId": "tropius",
+    "pokemon": "0357-tropius"
   },
   {
-    "speciesId": "arcanine",
-    "pokemon": "0059-arcanine"
+    "speciesId": "leavanny",
+    "pokemon": "0542-leavanny"
   },
   {
-    "speciesId": "arcanine_hisuian",
-    "pokemon": "0059-arcanine_hisuian"
+    "speciesId": "ferrothorn",
+    "pokemon": "0598-ferrothorn"
   },
   {
-    "speciesId": "armarouge",
-    "pokemon": "0936-armarouge"
+    "speciesId": "decidueye",
+    "pokemon": "0724-decidueye"
   },
   {
-    "speciesId": "azumarill",
-    "pokemon": "0184-azumarill"
+    "speciesId": "trevenant",
+    "pokemon": "0709-trevenant"
   },
   {
-    "speciesId": "barbaracle",
-    "pokemon": "0689-barbaracle"
+    "speciesId": "magmortar_shadow",
+    "pokemon": "0467-magmortar"
   },
   {
-    "speciesId": "basculin",
-    "pokemon": "0550-basculin"
+    "speciesId": "lileep",
+    "pokemon": "0345-lileep"
   },
   {
-    "speciesId": "bayleef",
-    "pokemon": "0153-bayleef"
-  },
-  {
-    "speciesId": "bellibolt",
-    "pokemon": "0939-bellibolt"
-  },
-  {
-    "speciesId": "bellossom",
-    "pokemon": "0182-bellossom"
-  },
-  {
-    "speciesId": "bibarel",
-    "pokemon": "0400-bibarel"
-  },
-  {
-    "speciesId": "blastoise",
-    "pokemon": "0009-blastoise"
-  },
-  {
-    "speciesId": "blaziken",
-    "pokemon": "0257-blaziken"
-  },
-  {
-    "speciesId": "braixen",
-    "pokemon": "0654-braixen"
-  },
-  {
-    "speciesId": "breloom",
-    "pokemon": "0286-breloom"
-  },
-  {
-    "speciesId": "brionne",
-    "pokemon": "0729-brionne"
-  },
-  {
-    "speciesId": "bruxish",
-    "pokemon": "0779-bruxish"
-  },
-  {
-    "speciesId": "bulbasaur",
-    "pokemon": "0001-bulbasaur"
-  },
-  {
-    "speciesId": "cacturne",
-    "pokemon": "0332-cacturne"
-  },
-  {
-    "speciesId": "camerupt",
-    "pokemon": "0323-camerupt"
-  },
-  {
-    "speciesId": "carnivine",
-    "pokemon": "0455-carnivine"
-  },
-  {
-    "speciesId": "carracosta",
-    "pokemon": "0565-carracosta"
+    "speciesId": "lurantis",
+    "pokemon": "0754-lurantis"
   }
 ]

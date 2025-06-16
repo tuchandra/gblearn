@@ -2,6 +2,12 @@
   "moveId": "AIR_CUTTER",
   "name": "Air Cutter",
   "type": "flying",
-  "power": 60,
-  "energy": 55
+  "power": 45,
+  "energy": 35,
+  "buffs": [
+    1,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": ".3"
 }

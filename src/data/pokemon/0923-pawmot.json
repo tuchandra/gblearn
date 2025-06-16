@@ -32,14 +32,16 @@
   "fastMoves": [
     "SPARK",
     "CHARGE_BEAM",
-    "LOW_KICK"
+    "LOW_KICK",
+    "THUNDER_SHOCK"
   ],
   "chargedMoves": [
     "THUNDERBOLT",
     "DISCHARGE",
     "WILD_CHARGE",
     "CLOSE_COMBAT",
-    "THUNDER_PUNCH"
+    "THUNDER_PUNCH",
+    "BRICK_BREAK"
   ],
   "released": true
 }

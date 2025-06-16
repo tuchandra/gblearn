@@ -1,0 +1,13 @@
+{
+  "moveId": "FREEZE_SHOCK",
+  "name": "Freeze Shock",
+  "type": "ice",
+  "power": 120,
+  "energy": 60,
+  "buffs": [
+    -1,
+    0
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": ".3"
+}

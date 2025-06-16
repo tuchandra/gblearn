@@ -36,7 +36,8 @@
   "chargedMoves": [
     "EARTH_POWER",
     "SEED_BOMB",
-    "ACID_SPRAY"
+    "ACID_SPRAY",
+    "WRAP"
   ],
   "released": false
 }

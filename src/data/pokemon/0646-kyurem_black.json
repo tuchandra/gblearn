@@ -37,9 +37,11 @@
     "IRON_HEAD",
     "BLIZZARD",
     "STONE_EDGE",
-    "OUTRAGE"
+    "OUTRAGE",
+    "FUSION_BOLT",
+    "FREEZE_SHOCK"
   ],
-  "released": false,
+  "released": true,
   "tags": [
     "legendary"
   ]

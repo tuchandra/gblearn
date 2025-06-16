@@ -36,7 +36,8 @@
   "chargedMoves": [
     "OUTRAGE",
     "DRAGON_PULSE",
-    "FLY"
+    "FLY",
+    "SWIFT"
   ],
   "released": true
 }

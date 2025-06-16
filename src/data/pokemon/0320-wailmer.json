@@ -30,7 +30,8 @@
   ],
   "fastMoves": [
     "SPLASH",
-    "WATER_GUN"
+    "WATER_GUN",
+    "ROLLOUT"
   ],
   "chargedMoves": [
     "BODY_SLAM",

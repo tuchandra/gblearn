@@ -32,7 +32,8 @@
   "fastMoves": [
     "BUG_BITE",
     "INFESTATION",
-    "POISON_JAB"
+    "POISON_JAB",
+    "POISON_STING"
   ],
   "chargedMoves": [
     "AERIAL_ACE",

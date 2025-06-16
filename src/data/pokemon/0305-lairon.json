@@ -31,7 +31,8 @@
   ],
   "fastMoves": [
     "IRON_TAIL",
-    "METAL_CLAW"
+    "METAL_CLAW",
+    "METAL_SOUND"
   ],
   "chargedMoves": [
     "BODY_SLAM",

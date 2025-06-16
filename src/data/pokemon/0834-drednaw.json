@@ -36,7 +36,8 @@
   "chargedMoves": [
     "BODY_SLAM",
     "SURF",
-    "ROCK_BLAST"
+    "ROCK_BLAST",
+    "CRUNCH"
   ],
   "released": false
 }

@@ -32,7 +32,8 @@
   "fastMoves": [
     "BUG_BITE",
     "CONFUSION",
-    "INFESTATION"
+    "INFESTATION",
+    "PSYWAVE"
   ],
   "chargedMoves": [
     "BUG_BUZZ",

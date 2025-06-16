@@ -12,6 +12,10 @@
     "pokemon": "0149-dragonite"
   },
   {
+    "speciesId": "enamorus_incarnate",
+    "pokemon": "0905-enamorus_incarnate"
+  },
+  {
     "speciesId": "excadrill",
     "pokemon": "0530-excadrill"
   },
@@ -96,6 +100,10 @@
     "pokemon": "0468-togekiss"
   },
   {
+    "speciesId": "ursaluna",
+    "pokemon": "0901-ursaluna"
+  },
+  {
     "speciesId": "xerneas",
     "pokemon": "0716-xerneas"
   },
@@ -116,8 +124,12 @@
     "pokemon": "0718-zygarde_complete"
   },
   {
-    "speciesId": "ursaluna",
-    "pokemon": "0901-ursaluna"
+    "speciesId": "kyurem_black",
+    "pokemon": "0646-kyurem_black"
+  },
+  {
+    "speciesId": "kyurem_white",
+    "pokemon": "0646-kyurem_white"
   },
   {
     "speciesId": "kyurem",
@@ -146,10 +158,6 @@
   {
     "speciesId": "tapu_lele",
     "pokemon": "0786-tapu_lele"
-  },
-  {
-    "speciesId": "enamorus_incarnate",
-    "pokemon": "0905-enamorus_incarnate"
   },
   {
     "speciesId": "zekrom",

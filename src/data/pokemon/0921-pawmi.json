@@ -30,7 +30,8 @@
   ],
   "fastMoves": [
     "SPARK",
-    "CHARGE_BEAM"
+    "CHARGE_BEAM",
+    "THUNDER_SHOCK"
   ],
   "chargedMoves": [
     "THUNDERBOLT",

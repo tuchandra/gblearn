@@ -36,5 +36,8 @@
     "GUNK_SHOT",
     "SEED_BOMB"
   ],
-  "released": true
+  "released": true,
+  "tags": [
+    "shadoweligible"
+  ]
 }

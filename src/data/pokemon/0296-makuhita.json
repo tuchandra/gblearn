@@ -35,7 +35,8 @@
   "chargedMoves": [
     "CROSS_CHOP",
     "HEAVY_SLAM",
-    "LOW_SWEEP"
+    "LOW_SWEEP",
+    "UPPER_HAND"
   ],
   "released": true,
   "tags": [

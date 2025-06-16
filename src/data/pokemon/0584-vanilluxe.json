@@ -35,7 +35,8 @@
   "chargedMoves": [
     "BLIZZARD",
     "FLASH_CANNON",
-    "SIGNAL_BEAM"
+    "SIGNAL_BEAM",
+    "AVALANCHE"
   ],
   "released": true
 }

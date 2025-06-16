@@ -92,6 +92,10 @@
     "pokemon": "0998-baxcalibur"
   },
   {
+    "speciesId": "avalugg",
+    "pokemon": "0713-avalugg"
+  },
+  {
     "speciesId": "hydreigon",
     "pokemon": "0635-hydreigon"
   },
@@ -102,6 +106,10 @@
   {
     "speciesId": "kommo_o",
     "pokemon": "0784-kommo_o"
+  },
+  {
+    "speciesId": "electivire_shadow",
+    "pokemon": "0466-electivire"
   },
   {
     "speciesId": "hippowdon_shadow",

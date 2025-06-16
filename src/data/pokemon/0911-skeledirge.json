@@ -31,13 +31,16 @@
   ],
   "fastMoves": [
     "INCINERATE",
-    "BITE"
+    "BITE",
+    "HEX"
   ],
   "chargedMoves": [
     "FLAMETHROWER",
     "DISARMING_VOICE",
     "CRUNCH",
-    "SHADOW_BALL"
+    "SHADOW_BALL",
+    "BLAST_BURN",
+    "TORCH_SONG"
   ],
   "released": true
 }

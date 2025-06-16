@@ -1,0 +1,13 @@
+{
+  "moveId": "TORCH_SONG",
+  "name": "Torch Song",
+  "type": "fire",
+  "power": 70,
+  "energy": 45,
+  "buffs": [
+    1,
+    0
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

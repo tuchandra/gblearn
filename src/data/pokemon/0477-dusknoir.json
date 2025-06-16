@@ -38,7 +38,8 @@
     "PSYCHIC",
     "SHADOW_BALL",
     "POLTERGEIST",
-    "SHADOW_PUNCH"
+    "SHADOW_PUNCH",
+    "DYNAMIC_PUNCH"
   ],
   "released": true,
   "tags": [

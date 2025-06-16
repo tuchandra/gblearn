@@ -30,7 +30,8 @@
   ],
   "fastMoves": [
     "BITE",
-    "WATER_GUN"
+    "WATER_GUN",
+    "ROLLOUT"
   ],
   "chargedMoves": [
     "FLASH_CANNON",

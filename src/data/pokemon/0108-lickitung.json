@@ -36,7 +36,8 @@
     "HYPER_BEAM",
     "POWER_WHIP",
     "STOMP",
-    "BODY_SLAM"
+    "BODY_SLAM",
+    "WRAP"
   ],
   "released": true
 }

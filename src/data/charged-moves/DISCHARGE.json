@@ -2,6 +2,6 @@
   "moveId": "DISCHARGE",
   "name": "Discharge",
   "type": "electric",
-  "power": 65,
-  "energy": 45
+  "power": 55,
+  "energy": 40
 }

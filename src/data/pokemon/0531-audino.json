@@ -35,7 +35,8 @@
   "chargedMoves": [
     "DISARMING_VOICE",
     "DAZZLING_GLEAM",
-    "HYPER_BEAM"
+    "HYPER_BEAM",
+    "BODY_SLAM"
   ],
   "released": true
 }

@@ -35,7 +35,8 @@
   "chargedMoves": [
     "DIG",
     "BULLDOZE",
-    "EARTH_POWER"
+    "EARTH_POWER",
+    "WRAP"
   ],
   "released": false
 }

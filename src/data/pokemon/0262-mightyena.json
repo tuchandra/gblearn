@@ -32,7 +32,8 @@
     "BITE",
     "FIRE_FANG",
     "THUNDER_FANG",
-    "ICE_FANG"
+    "ICE_FANG",
+    "SUCKER_PUNCH"
   ],
   "chargedMoves": [
     "CRUNCH",

@@ -31,13 +31,15 @@
   ],
   "fastMoves": [
     "SNARL",
-    "METAL_CLAW"
+    "METAL_CLAW",
+    "METAL_SOUND"
   ],
   "chargedMoves": [
     "DARK_PULSE",
     "IRON_HEAD",
     "X_SCISSOR",
-    "FOCUS_BLAST"
+    "FOCUS_BLAST",
+    "FOUL_PLAY"
   ],
-  "released": false
+  "released": true
 }

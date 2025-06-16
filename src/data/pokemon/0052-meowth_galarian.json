@@ -30,7 +30,8 @@
   ],
   "fastMoves": [
     "SCRATCH",
-    "METAL_CLAW"
+    "METAL_CLAW",
+    "METAL_SOUND"
   ],
   "chargedMoves": [
     "NIGHT_SLASH",

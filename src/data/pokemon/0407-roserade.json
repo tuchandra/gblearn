@@ -33,7 +33,8 @@
     "POISON_JAB",
     "RAZOR_LEAF",
     "BULLET_SEED",
-    "MAGICAL_LEAF"
+    "MAGICAL_LEAF",
+    "POISON_STING"
   ],
   "chargedMoves": [
     "DAZZLING_GLEAM",

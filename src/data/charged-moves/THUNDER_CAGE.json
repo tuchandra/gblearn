@@ -1,0 +1,13 @@
+{
+  "moveId": "THUNDER_CAGE",
+  "name": "Thunder Cage",
+  "type": "electric",
+  "power": 60,
+  "energy": 40,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "opponent",
+  "buffApplyChance": "1"
+}

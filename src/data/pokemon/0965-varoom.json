@@ -31,7 +31,8 @@
   ],
   "fastMoves": [
     "LICK",
-    "POISON_JAB"
+    "POISON_JAB",
+    "METAL_SOUND"
   ],
   "chargedMoves": [
     "ACID_SPRAY",

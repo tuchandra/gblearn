@@ -38,7 +38,8 @@
     "SLUDGE_WAVE",
     "SURF",
     "HYDRO_CANNON",
-    "MUDDY_WATER"
+    "MUDDY_WATER",
+    "SLUDGE"
   ],
   "released": true,
   "tags": [

@@ -31,7 +31,8 @@
   ],
   "fastMoves": [
     "BITE",
-    "POISON_JAB"
+    "POISON_JAB",
+    "POISON_STING"
   ],
   "chargedMoves": [
     "EARTHQUAKE",
