@@ -59,6 +59,10 @@ async function getGamemaster(): Promise<{
   const url =
     'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gamemaster.json';
   const gamemaster = await fetch(url).then((res) => res.json());
+  await Bun.write(
+    `src/data/metas/gamemaster.json`,
+    JSON.stringify(gamemaster, null, 2),
+  );
 
   /**
    * Example entry from the gamemaster.json file:
