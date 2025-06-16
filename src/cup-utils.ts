@@ -44,7 +44,7 @@ export function cupConfig(cup: CupName): CupConfig {
     case CupName.retro:
     case CupName.fantasy:
     case CupName.color:
-    // case CupName.love:
+    case CupName.love:
     case CupName.psychic:
     case CupName.halloween:
     case CupName.fossil:
@@ -61,6 +61,12 @@ export function cupConfig(cup: CupName): CupConfig {
       return {
         id: CupName.premierultra,
         name: 'Ultra League (Premier)',
+        maxCp: 2500,
+      };
+    case CupName.summerultra:
+      return {
+        id: CupName.summerultra,
+        name: 'Summer Cup (Ultra)',
         maxCp: 2500,
       };
     default: {

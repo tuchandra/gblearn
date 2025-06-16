@@ -165,19 +165,20 @@ export enum CupName {
   ultra = 'ultra',
   master = 'master',
   remix = 'remix',
-  fantasy = 'fantasy',
-  color = 'color',
 
   // older
-  // love = 'love',
-  retro = 'retro',
+  color = 'color',
+  fantasy = 'fantasy',
+  fossil = 'fossil',
   halloween = 'halloween',
-  summer = 'summer',
+  love = 'love',
   premiermaster = 'premiermaster',
   premierultra = 'premierultra',
-  fossil = 'fossil',
-  willpower = 'willpower',
   psychic = 'psychic',
+  retro = 'retro',
+  summer = 'summer',
+  summerultra = 'summerultra',
+  willpower = 'willpower',
 }
 
 export type Move = FastMove | ChargedMove;

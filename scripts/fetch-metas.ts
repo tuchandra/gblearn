@@ -10,6 +10,7 @@
  * of different cups (great, ultra, master, whatever themed cups exist).
  */
 
+import { readdir } from 'node:fs/promises';
 import { cupConfig } from '../src/cup-utils';
 import PokemonIndex from '../src/data/_pokemon.json';
 import { CupMetaSchema, CupName, type PokemonSpecies } from '../src/models';
@@ -99,6 +100,19 @@ async function discoverCups() {
   }
 
   console.log(`Discovered GBL cups from gamemaster: ${gblCups.join(', ')}`);
+
+  // Find stale cups.
+  const staleCups = await readdir('src/data/metas/');
+  for (const cup of staleCups) {
+    const cupName = cup.replace('.json', '');
+
+    // Always keep these.
+    if (cup === 'gamemaster.json') continue;
+    if (['great', 'ultra', 'master', 'remix'].includes(cupName)) continue;
+    if ((gblCups as string[]).includes(cupName)) continue;
+
+    console.log(`Found stale cup: ${cup}. Consider removing.`);
+  }
 }
 
 /**
