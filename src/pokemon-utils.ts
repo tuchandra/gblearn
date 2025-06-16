@@ -148,6 +148,14 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   ferrothorn: { fast: { remove: [] } },
   florges: { fast: { remove: ['RAZOR_LEAF'] } },
   flygon: { charged: { remove: ['EARTH_POWER', 'BOOMBURST'] } },
+  forretress: {
+    fast: {
+      remove: ['STRUGGLE_BUG'],
+    },
+    charged: {
+      remove: ['HEAVY_SLAM'],
+    },
+  },
   gallade: { charged: { remove: ['SYNCHRONOISE'] } },
   garchomp: { charged: { remove: ['EARTHQUAKE'] } },
   gastrodon: {
@@ -193,6 +201,14 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     charged: { remove: ['BULLDOZE'] },
   },
   lanturn: { charged: { remove: ['THUNDER', 'HYDRO_PUMP'] } },
+  lapras: {
+    fast: {
+      keep: ['PSYWAVE'],
+    },
+    charged: {
+      remove: ['HYDRO_PUMP', 'DRAGON_PULSE', 'SURF', 'BLIZZARD'],
+    },
+  },
   lickilicky: {
     fast: { remove: ['LICK'] },
     charged: { remove: ['HYPER_BEAM'] },
@@ -201,7 +217,13 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   lileep: { fast: { remove: ['INFESTATION'] } },
   lucario: {
     fast: { remove: ['BULLET_PUNCH', 'COUNTER'] },
-    charged: { remove: ['CLOSE_COMBAT'] },
+    charged: { remove: ['CLOSE_COMBAT', 'FLASH_CANNON'] },
+  },
+  ludicolo: {
+    fast: {},
+    charged: {
+      remove: ['HYDRO_PUMP', 'SOLAR_BEAM', 'BLIZZARD'],
+    },
   },
   lugia: {
     fast: { remove: ['EXTRASENSORY'] },
@@ -250,6 +272,11 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   pelipper: {
     fast: { remove: ['WATER_GUN'] },
     charged: { remove: ['HYDRO_PUMP'] },
+  },
+  perrserker: {
+    fast: {
+      remove: ['METAL_CLAW'],
+    },
   },
   pidgeot: {
     fast: { remove: ['AIR_SLASH'] },
@@ -367,6 +394,7 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
 };
 
 const ALWAYS_EXCLUDED_FAST_MOVES: FastMoveId[] = [
+  /** tree-sorter-ts: keep-sorted **/
   'BITE',
   'CHARGE_BEAM',
   'EXTRASENSORY',
@@ -383,10 +411,12 @@ const ALWAYS_EXCLUDED_FAST_MOVES: FastMoveId[] = [
   'ZEN_HEADBUTT',
 ];
 const ALWAYS_EXCLUDED_CHARGED_MOVES: ChargedMoveId[] = [
+  /** tree-sorter-ts: keep-sorted **/
   'GIGA_IMPACT',
   'GYRO_BALL',
   'HEAT_WAVE',
   'LOW_SWEEP',
+  'RAZOR_SHELL',
   'STOMP',
   'TWISTER',
 ];
