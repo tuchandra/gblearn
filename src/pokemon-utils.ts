@@ -96,7 +96,13 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
       keep: ['WEATHER_BALL_ICE', 'METEOR_BEAM', 'ANCIENT_POWER', 'THUNDERBOLT'],
     },
   },
+  bellibolt: {
+    fast: { remove: ['WATER_GUN'] },
+  },
   bibarel: { fast: { remove: ['WATER_GUN'] } },
+  blastoise: {
+    fast: { remove: ['WATER_GUN'] },
+  },
   carbink: { charged: { remove: [] } },
   charizard: {
     fast: { remove: ['EMBER', 'AIR_SLASH'] },
@@ -113,6 +119,10 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   cradily: {
     fast: { remove: ['INFESTATION'] },
     charged: { remove: ['STONE_EDGE'] },
+  },
+  crustle: {
+    fast: { remove: ['SMACK_DOWN'] },
+    charged: { remove: ['ROCK_BLAST'] },
   },
   dewgong: { charged: { keep: ['ICY_WIND', 'DRILL_RUN'] } },
   dialga: { fast: { keep: ['DRAGON_BREATH'] } },
@@ -133,6 +143,9 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     charged: { remove: ['DIG'] },
   },
   dusknoir: { charged: { remove: ['OMINOUS_WIND', 'PSYCHIC'] } },
+  electivire: {
+    charged: { remove: ['THUNDER'] },
+  },
   empoleon: {
     charged: { remove: ['HYDRO_PUMP'] },
   },
@@ -164,7 +177,7 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   },
   gligar: { fast: { remove: [] } },
   golisopod: {
-    fast: { remove: ['METAL_CLAW'] },
+    fast: { remove: ['METAL_CLAW', 'WATERFALL'] },
     charged: { remove: [] },
   },
   golurk: {
@@ -258,9 +271,8 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   necrozma_dusk_mane: { fast: { remove: ['METAL_CLAW'] } },
   nidorina: { fast: { remove: [] } },
   nidorino: { charged: { remove: ['HORN_ATTACK'] } },
-  ninetales_alolan: {
-    fast: { remove: ['FEINT_ATTACK'] },
-    charged: { remove: ['BLIZZARD', 'ICE_BEAM'] },
+  ninetales: {
+    charged: { remove: ['FLAMETHROWER', 'FIRE_BLAST'] },
   },
   noctowl: { charged: { remove: ['NIGHT_SHADE', 'PSYCHIC'] } },
   obstagoon: { fast: { remove: ['LICK'] } },
@@ -354,6 +366,10 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   },
   toxicroak: { fast: { remove: ['POISON_JAB'] } },
   turtonator: { fast: { remove: ['EMBER', 'FIRE_SPIN'] } },
+  typhlosion: {
+    fast: { remove: ['EMBER'] },
+    charged: { keep: ['THUNDER_PUNCH', 'BLAST_BURN'] },
+  },
   ursaluna: { fast: { keep: ['TACKLE'] } },
   venusaur: {
     fast: { remove: ['RAZOR_LEAF'] },
@@ -367,7 +383,10 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
     fast: { remove: ['SCRATCH'] },
     charged: { remove: ['BRICK_BREAK'] },
   },
-  virizion: { fast: { keep: ['DOUBLE_KICK'] } },
+  virizion: {
+    fast: { keep: ['DOUBLE_KICK'] },
+    charged: { remove: ['CLOSE_COMBAT'] },
+  },
   walrein: {
     fast: { keep: ['POWDER_SNOW'] },
     charged: { keep: ['ICICLE_SPEAR', 'EARTHQUAKE'] },
@@ -386,6 +405,9 @@ const MOVESET_OVERRIDES: Partial<Record<SpeciesId, MovesetChanges>> = {
   xerneas: { fast: { keep: ['GEOMANCY'] } },
   yveltal: { charged: { remove: ['PSYCHIC', 'HYPER_BEAM'] } },
   zacian_hero: { fast: { remove: ['METAL_CLAW', 'FIRE_FANG'] } },
+  zapdos: {
+    charged: { remove: ['THUNDER', 'ZAP_CANNON'] },
+  },
   zarude: { charged: { remove: ['ENERGY_BALL'] } },
   zweilous: { fast: { remove: [] } },
   zygarde_complete: {
