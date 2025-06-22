@@ -11,17 +11,17 @@
     "1500": {
       "level": 15,
       "ivs": {
-        "atk": 5,
-        "def": 15,
-        "hp": 13
+        "atk": 10,
+        "def": 11,
+        "hp": 10
       }
     },
     "2500": {
-      "level": 25,
+      "level": 24,
       "ivs": {
-        "atk": 8,
+        "atk": 15,
         "def": 15,
-        "hp": 11
+        "hp": 15
       }
     }
   },
@@ -40,5 +40,9 @@
     "EARTH_POWER",
     "SLUDGE_BOMB"
   ],
-  "released": false
+  "released": true,
+  "tags": [
+    "mythical",
+    "untradeable"
+  ]
 }

@@ -24,10 +24,6 @@
     "pokemon": "0222-corsola_galarian"
   },
   {
-    "speciesId": "corviknight",
-    "pokemon": "0823-corviknight"
-  },
-  {
     "speciesId": "cradily",
     "pokemon": "0346-cradily"
   },
@@ -42,6 +38,10 @@
   {
     "speciesId": "diggersby",
     "pokemon": "0660-diggersby"
+  },
+  {
+    "speciesId": "dragalge",
+    "pokemon": "0691-dragalge"
   },
   {
     "speciesId": "drapion_shadow",
@@ -116,7 +116,7 @@
     "pokemon": "0195-quagsire"
   },
   {
-    "speciesId": "sableye_shadow",
+    "speciesId": "sableye",
     "pokemon": "0302-sableye"
   },
   {
@@ -128,8 +128,16 @@
     "pokemon": "0028-sandslash_alolan"
   },
   {
+    "speciesId": "scizor_shadow",
+    "pokemon": "0212-scizor"
+  },
+  {
     "speciesId": "skeledirge",
     "pokemon": "0911-skeledirge"
+  },
+  {
+    "speciesId": "swampert",
+    "pokemon": "0260-swampert"
   },
   {
     "speciesId": "talonflame",
@@ -148,16 +156,8 @@
     "pokemon": "0040-wigglytuff"
   },
   {
-    "speciesId": "scizor_shadow",
-    "pokemon": "0212-scizor"
-  },
-  {
-    "speciesId": "dragalge",
-    "pokemon": "0691-dragalge"
-  },
-  {
-    "speciesId": "swampert",
-    "pokemon": "0260-swampert"
+    "speciesId": "corviknight",
+    "pokemon": "0823-corviknight"
   },
   {
     "speciesId": "metang_shadow",

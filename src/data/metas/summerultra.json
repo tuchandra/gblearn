@@ -148,12 +148,12 @@
     "pokemon": "0649-genesect"
   },
   {
-    "speciesId": "genesect_douse",
-    "pokemon": "0649-genesect_douse"
-  },
-  {
     "speciesId": "barbaracle",
     "pokemon": "0689-barbaracle"
+  },
+  {
+    "speciesId": "genesect_douse",
+    "pokemon": "0649-genesect_douse"
   },
   {
     "speciesId": "rapidash",

@@ -38,7 +38,8 @@
     "CLOSE_COMBAT",
     "FLAMETHROWER",
     "BOOMBURST",
-    "BRICK_BREAK"
+    "BRICK_BREAK",
+    "CLANGING_SCALES"
   ],
   "released": true
 }

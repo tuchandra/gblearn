@@ -29,13 +29,15 @@
     "dragon"
   ],
   "fastMoves": [
-    "BITE"
+    "BITE",
+    "DRAGON_BREATH"
   ],
   "chargedMoves": [
     "HYPER_BEAM",
     "OUTRAGE",
     "DRAGON_PULSE",
-    "BREAKING_SWIPE"
+    "BREAKING_SWIPE",
+    "DRAGON_ENERGY"
   ],
   "released": true,
   "tags": [

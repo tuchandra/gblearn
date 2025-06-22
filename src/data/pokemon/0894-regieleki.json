@@ -36,7 +36,8 @@
   "chargedMoves": [
     "ZAP_CANNON",
     "THUNDER",
-    "HYPER_BEAM"
+    "HYPER_BEAM",
+    "THUNDER_CAGE"
   ],
   "released": true,
   "tags": [

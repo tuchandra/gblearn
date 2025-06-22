@@ -23,7 +23,7 @@ const metas = (await readdir('src/data/metas/')).map(
       <div class="block flex-row italic text-neutral-300">
         <a href="/great" class="link-hover link">Great League</a>
         &centerdot;
-        <a href="/fossil" class="link-hover link">Fossil Cup</a>
+        <a href="/summerultra" class="link-hover link">Summer Cup (Ultra)</a>
         &centerdot;
         <a href="/ultra" class="link-hover link">Ultra League</a>
         &centerdot;
@@ -35,7 +35,8 @@ const metas = (await readdir('src/data/metas/')).map(
             {
               metas
                 .filter(
-                  (m) => !['great', 'ultra', 'master', 'fossil'].includes(m)
+                  (m) =>
+                    !['great', 'ultra', 'master', 'summerultra'].includes(m)
                 )
                 .map((meta) => (
                   <a href={`/${meta}`} class="link-hover link">

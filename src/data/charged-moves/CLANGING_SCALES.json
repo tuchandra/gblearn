@@ -1,0 +1,13 @@
+{
+  "moveId": "CLANGING_SCALES",
+  "name": "Clanging Scales",
+  "type": "dragon",
+  "power": 120,
+  "energy": 45,
+  "buffs": [
+    0,
+    -1
+  ],
+  "buffTarget": "self",
+  "buffApplyChance": "1"
+}

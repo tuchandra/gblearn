@@ -120,15 +120,15 @@
     "pokemon": "0689-barbaracle"
   },
   {
+    "speciesId": "marshtomp",
+    "pokemon": "0259-marshtomp"
+  },
+  {
     "speciesId": "metang_shadow",
     "pokemon": "0375-metang"
   },
   {
     "speciesId": "swampert",
     "pokemon": "0260-swampert"
-  },
-  {
-    "speciesId": "marshtomp",
-    "pokemon": "0259-marshtomp"
   }
 ]
